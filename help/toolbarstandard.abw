@@ -8,73 +8,333 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<!--         Build_ID          = (none) -->
-<!--         Build_Version     = unnumbered -->
-<!--         Build_Options     = LicensedTrademarks:Off Debug:Off BiDi:Off Bonobo:Off Gnome:On LibXML:Off Pspell:Off Scripting:Off -->
-<!--         Build_Target      = /home/David/abiword-0.9.0/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 23:25:55 -->
-<!--         Build_CompileDate = Jul 31 2001 -->
-
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="columns:1">
+<p style="Normal">David Chart 2001</p>
 <p style="Heading 1"><c style="Heading 1" props="lang:en-GB">Standard Toolbar</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">The standard toolbar is normally displayed directly under the menu bar. Depending on your operating system, you may be able to move it around.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_new.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This button creates a new, untitled document. This document appears in a new window; see the explanation of AbiWord's Single Document Interface for details.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_open.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This button opens the Open dialog.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_save.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This is the Save button. If you have not previously saved your document, pressing it opens the Save dialog. If you have previously saved your document, pressing this button saves the current version of your document with the name you have already given it. This means that the previously saved copy is lost. Saves cannot be undone, so you should be a little cautious.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_save_as.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This is the Save As button. Pressing this button always opens the Save File As dialog. The current name of the document is suggested as a name for the saved version, but you can change this in the normal way.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_print.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This button opens the Print dialog, so that you can print your document.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_print_preview.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This button opens the Print Preview window, so that you can see what your document will look like when it is printed.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_spellcheck.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This button checks the spelling of the document. The spell check dialog is described here.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_cut.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Press this button to cut the current selection out of the document and place it on the clipboard. If there is no current selection, the button is grayed out. Using this button removes the selection from the document.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_copy.png_1" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Press this button to copy the current selection to the clipboard. If there is no current selection, the button is grayed out. Using this button leaves the selection in the document.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_paste.png_1" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Press this button to paste the contents of the clipboard into your document at the insertion point.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_undo.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Press this button to Undo your most recent action. If no actions remain to undo, this button is grayed out.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">AbiWord has a somewhat sophisticated notion of a ‘single action’. If it were to undo typing a single keystroke at a time, it would take too long to do anything useful. Thus, a run of typing counts as a single action. The run is ended by a different kind of action: deleting something, typing a return, or selecting a menu action.</c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">AbiWord has ‘unlimited undo’. This means that you can undo all the actions you have taken since opening the document. If you save a document, close it, and reopen it, you cannot undo things you did before saving it. If you save a document but leave it open, you can undo your actions.</c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Undo itself does not count as an action.</c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
-<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
+<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_redo.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Press this button to Redo the most recently undone action. If there are no undone actions, this button is grayed out.</c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Like undo, redo can be applied repeatedly to redo a large number of actions.</c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">It is not possible to undo six actions, then leave the last undone and redo the rest. Actions can only be undone and redone in order.</c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
-<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
+<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_1column.png_0" props="height:0.24in; width:0.24in"/><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"> </c><image dataid="/home/David/Toolbar PNGs/tb_2column.png_0" props="height:0.24in; width:0.24in"/><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"> </c><image dataid="/home/David/Toolbar PNGs/tb_3column.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">These three buttons allow you to set the number of columns in your document. The leftmost sets a single column, the central button sets two columns, and the rightmost sets three columns.</c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
-<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
+<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_insert_graphic.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">This button allows you to insert a picture into your document at the current insertion point. Pressing it opens the Open File dialog.</c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
-<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
+<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_view_showpara.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">This button allows you to choose whether or not to display non-printing characters, such as tabs, paragraph markers, and margin boundaries. If the button is depressed, these things are diplayed.</c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">This drop down menu allows you to select the document zoom. The box displays the current zoom. The percentage shown is relative to the size at which the document will be printed, so that 100% zoom means that the document is shown on screen at the size it will be printed. Press the small triangle to the right of the box to see the menu, and select the new zoom from it. You cannot change the zoom by typing in the box, although some operating systems will, apparently, allow you to select its contents.</c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">'Width' sets the size so that the whole width of the page is just displayed within your window. 'Page' sets the zoom so that a whole page can be displayed at once.</c></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
-<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
+<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c><image dataid="/home/David/Toolbar PNGs/tb_help.png_0" props="height:0.24in; width:0.24in"/></p>
 <p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">This button opens the front page of the Help system. The help page opens in a web browser, not AbiWord.</c></p>
 </section>
+<data>
+<d name="/home/David/Toolbar PNGs/tb_print.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAADAFBMVEUAAAAAAAD39/bJyclU
+VFT6+vn49/b19PPy8vDx8O7FxcNGRkbGxsb39vX09PLx8e/v7uzs6+nq6ebn5uLk49+lop4t
+LS329fTz8/Hu7evr6ujp6OXm5eHj4t7LyccGBgampqbw7+3t7Orq6efo5+Pl5ODj4d3d3NlY
+WFjOzs62traamph9fXvi4Nzf3tm8vLvLy8vp6ent7e3i4uK1s7JfXlyEg4G1s7De3djNy8ZA
+Pz9eXl5ubm6NjY23t7fr6+v6+vr29vb09PTy8vLw8PDu7u6SkpBkYmBQT0xkY2BERENnZ2dJ
+SUkuLi6srKyqqqqoqKi7u7vh4eHz8/Pv7+/q6uro6OjV1dVBQUEnJyc2NjY6Ojqzs7OxsbGv
+r6+pqanS0tLl5eXb29tHR0c5OTk8PDw4ODhpaWmhoaG0tLSysrKioqKgoKCZmZng4ODDw8NC
+QkIvLy81NTU+Pj5AQEA7OztmZmZjY2Ojo6Otra2rq6unp6elpaWVlZV7e3szMzMmJiY/Pz9b
+W1tLS0tKSkpgYGCGhoaenp5/f383NzdNTU1QUFBVVVVPT09FRUVOTk5hYWE0NDRkZGRxcXFv
+b28xMTFISEhwcHBycnIAVAD4d0zmBgDM8FAA5B1TAKjmBgDkHVMAVI5OAAAAAAAAAAAA6QFL
+AFgGkwAfAAAAAAAAAKjmBgCo5gYA7ZAAAOKKAQACAAAA/////1BGAABQc0sAGZAAACzqBgA0
+7QYAROoGAP////9E+gYABgAAAGQISwAyAAAABAAAABcAAAAfAAAABgAAAGUAAAACAAAA0wAA
+AETqBgBE+gYAq7tEACAgAAAQiS+6NhrBAUAQMbo2GsEBAO2KtswNvgEAAAAAXA8AAKed+3cI
+Kvh3dGJfcHJpbnQueHBtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACs
+UdxAAAABDklEQVR4nGNgoA1gZMQhzsTMgk2OkZWNnYOTi5sRTZKRh5ePX0BQSFhEFFVCTFyC
+U1JKWkZWDkWcUV6BQ1FJWUVVTV0DxTmaWto6IGN09fQRVjAyGhgaGRqbmJqamVtYWlnbQKUY
+be3sHRydnF1cjdzcPTy9vH18oRJ+/gGBQcFGziH2oWGG4RGRUdFQiZjYuPiA+ITEEJcw56Tk
+lNS0CKhEeoZdZpZ/dk5uQl5+QWFRcUkpVKIsubyisiq+uqa2rr4hOrUxuggq0dTUzN3S2pad
+097RGZ1an5IKczAjY1d3Ty93X/+EupRSsaKJSD4HhltEU8+kyVNKpnaihy9Qbtr0GdHF2KKE
+kRE9xKkDAAgsPXJGWcH3AAAAAElFTkSuQmCC
+</d>
+<d name="/home/David/Toolbar PNGs/tb_3column.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAFUlEQVR4nGNgoDIQ
+FBSAoCElQzIAAGSNBBswbhyFAAAAAElFTkSuQmCC
+</d>
+<d name="/home/David/Toolbar PNGs/tb_paste.png_1" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAADAFBMVEUAAAAAAADPzb7PzL3P
+y7zQz77Pzr7OyrvRz75+fnQvLytZWFWgn5zMybtZWVbd3dqsq6V+fHI+PDjNybvMybpNTUt+
+fHPNyrvLybrKyLlzc25NTEakoZXKx7jPzb3PzLzPy7vKybnKyLjJxrjR0byRkYLLybknJyeu
+rqi3t6XU1L7Y2MLq6uJwcHCzs6zX18Hb28SsrJvd3dlCQjqlpZXa2sPe3sfi4srJx7jJxbZh
+YValpZTZ2cPd3cbh4cnk5M20tKHHxbXFwbHAvqu7u6fc3MXg4Mnj48zn58/r69Ojo5HDwK/D
+v67Cvq7Bvay6uKWSkoTf38ji4svm5s/q6tLu7tXy8tnAu6q8uaa4tKG3s6Dl5c7p6dHt7dXx
+8dj19dynp5a5taG4tKCurpzo6NDs7NTw8Nemppafn48AJAACAAAAAAAAAAAAMyn4d4DjBgAA
+7P1/AgAAAAAABwBFAAAAAAAKAHyW+Hd8AAAAAQAAAAAAAAAztvx38OUGADQAAMAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADs
+DQQdAAAA8UlEQVR4nGNgoAFgZGTELszEzAKVYUQWZmVjZmFnhGiEa2Vk5GDl5OLmYedlRJFg
+5ODg4OMXEBQSFmFEMQoowSoqICYkzishiWo/0AIpaRmQuCwjA7LbGNnk5BXYhSUUlZQZGVVU
+kWWALhIXUVNiVNfQ1NJGlgCKgw3S0dXTNzBElmHnlVCUVWY0MjYxNTNHlhAWUVSysGS0srax
+tbN3QJaRkHV0cmZ00XZ1c/fw9ELIMHr7+Pr5MwYYBAYFh4SGIWsJj4iMYmQ0M4+OiY2LT0DS
+kpgE9Bpjsn1Kalo6SgRAOIwgC7DFC2MG9uhCiSRSAQBVcxqKJdbISgAAAABJRU5ErkJggg==
+</d>
+<d name="/home/David/Toolbar PNGs/tb_2column.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAFklEQVR4nGNgoDIQ
+BAJGIBYYUjIkAwArigO5DQlGgQAAAABJRU5ErkJggg==
+</d>
+<d name="/home/David/Toolbar PNGs/tb_view_showpara.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAADAFBMVEUAAAAAAAD////u7u7h
+4eHi4uLj4+Pk5OTl5eXm5ubn5+fo6Ojp6enW1tbq6uqdnZ3GxsbX19fg4ODr6+vY2Ng4ODjK
+ysrs7OzZ2dmTk5Pt7e3a2trb29vv7+/c3NyOjo7w8PDd3d3x8fHe3t7y8vLV1dXIyMgAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAFTlBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC2
+9icVAAAAsElEQVR4nK3R2w6CMAyAYeo4bAymExTkJAf1/R/Rdol2i/GOXv5f0xAWRbsO/MwH
+DuEIhjiOkyTNpFS51kUZQppl2HNdmACS9Oiun6wx1gPchzPkgPumqhnozuWKQL1pGej+DUAD
+9S4AqRTuA/am6xlc1wjUxcDgOu4D9dED13EfqI+TB67fG6A+Lwz0I0yFHyTEOK8eBH3dPPD7
+g2F9ltbWbd8P07Js2+sL/x5qp3kDGJ8NdEpgSjwAAAAASUVORK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_cut.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAPklEQVR4nGNgoBoQ
+QGILIrEZCUoICoIlGEGSjEBhoIQgWCGQIwgCcGWMggI4zELmCDAiSTCgcJC0o2ghFQAAGSkB
+009N0aUAAAAASUVORK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_insert_graphic.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAADAFBMVEUAAAACAgL+/v78/Pz4
++Pjm5uYAAADr6+u3t7dojrPPz8/09PSurq5zlrmPqr3c5MR7nLm8vLzt7e1+nr7r7sf+/t/a
+4tCoqKjl5eWIpsODoLxDUmGZscDq78ijusuenp7a2tr9/f2TrsmRorYvJBReiFgfHBKPqcSQ
+rcmNq8lmh6YbISZyhpygoKD6+vqets6ap7dCJg9mh1lmjGBehlgtJyBUd5ohIRBVdUkLDQ6B
+laicnJzT09P19fWmtMdJLxlnillmjV1ljl9mlmNkh1YiJxNBMwlgc0ZkkF5fhFQJCAeSkpLM
+zMzw8O9GPiVmkFxmlWJmkF9jjl1klWJnjlxmjFlkkmBnjFxojFxmkV5PdUeSk5LMzMvv7+9j
+i1Zmi1hjlGFikV1mhVJki1ZnilZqhlNpfk9mglJfhlODg4PCwsLs7Ox1dXW9vb0BAQGNjY1+
+fn57e3t/f36BgYF/f393d3fHx8fk5OTFxcXCw8K7u7q+vr67u7ve3t7v7+7q6urn5+fo6Ojj
+4+OZmZnxauh3AgAAADO2/HcvpOh3NAAAwDTtBgAM5AYAzPBQAIC6TwAAAAAAh7pPAFQAAAA0
+5gYATOYGAFTmBgBWfk8AVAD4d0zmBgDM8FAA5B1TAKjmBgDkHVMAVI5OAAAAAAAAAAAA6QFL
+AFgGkwAfAAAAAAAAAKjmBgCo5gYA7ZAAAOKKAQACAAAA/////1BGAABQc0sAGZAAACzqBgA0
+7QYAROoGAP////9E+gYABgAAAGQISwAyAAAABAAAABcAAAAfAAAABgAAAGUAAAACAAAA0wAA
+AETqBgBE+gYAq7tEACAgAABAnRi6NhrBAXAkGro2GsEBAPFNO7ONwAEAAAAAAA4AAKed+3cI
+Kvh3dGJfaW5zZXJ0X2dyYXBoaWMueHBtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADz
+GS7vAAAA80lEQVR4nGNgoDpgRAVIEkwQwMzCzMTECpFgQwXszEwcUAlOZMDGxc3EA5XghQA+
+fgEgySYoBJcQhgARUTEgySYuAZeQlJSUkpaSlJGVA7LY5BUUYRJKSsoqqmrqGppa2jpKbLoK
+ejAJfQNDI2MTU30zcwtLKzZrG1uYhJ29g6OTs4urm7uHpxebt48vTMLPPyAwKDgkNCw8IjKK
+LTomFiYRFx+ckBiflJySmpaewZaZlc2D1ec5uaw8SGGVl59ZUFhUXFKa411WjizByFVRWVUt
+WJObW1YrgSKhVyeUXd/Q0NjAKtGEqoMDAZqRJXBFFBUAANgJLBP1v9L0AAAAAElFTkSuQmCC
+</d>
+<d name="/home/David/Toolbar PNGs/tb_help.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAADAFBMVEUAAAAAAAAKCgqHh4fg
+4ODw8PD5+fn19fX09PSkpKSJiYmsrKz///9WVlY3NzdbW1tra2vExMSFhYVSUlJdXV1QUFB0
+dHS7u7uQkJA8PDyBgYHS0tJISEiYmJjl5eWIiIg0NDTk5OSvr69nZ2exsbH29vbt7e3e3t7K
+ysqzs7P8/PyEhISbm5sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAFTlBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC
+gEPLAAAApklEQVR4nLWP2RKCMAxFiQYrNC5FEbQgKq7o/3+fpJZ18E3vQ+/MOW0zcZyfB+p0
+6WiM7kQIMUWv5cCXSESz+WJZFqqgMsCYVmuicGOMFRCRTbzdcWnvY0BbHiaxaZRWKCvS1NS+
+FhFSO6iyaohCl0ly4PNYPShFcNL8KM+ZK+k3iwCcFSJerre7zPrLAzyKAp9dbCU133dFvXNf
+DN934PWFD439b97TIwo/lOOAmwAAAABJRU5ErkJggg==
+</d>
+<d name="/home/David/Toolbar PNGs/tb_open.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAACZkHv//vf/
+//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkzZeMAAAAVElEQVR4nK3OwRGA
+MAhEUbaDkA5YKnBi/7U5iArePMjpfZIDIj+NFqEc91InfddIUMm18g2kh/PjTD8RzoBvrGAL
+ma+w8HUDrHyG1ZW0UdEsaP4wB8Q5C2goM76fAAAAAElFTkSuQmCC
+</d>
+<d name="/home/David/Toolbar PNGs/tb_new.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAADAFBMVEUAAAAAAACtrZyVlYXc
+3MXf38gkJCSnp5bX18HZ2cPc3MTd3cfh4cqmppTW1r/Y2MLb28Tf38fj48uysp98fHxkZGTV
+1b3V1b/X18Da2sPe3sbh4cnl5c3p6dE0NDTn5+c3Nza4uKbT07zZ2cLd3cXg4Mjo6NDs7NTu
+7tXs7Ozt7e09PTfOzrfm5s7q6tLx8dilpZTu7uU8PDyPj4DQ0Lnk5Mvq6tHs7NPv79by8tnz
+89ru7uZQUFCSkoLR0bnn58/r69L09Nv19dyWlobS0rzg4Mnp6dDt7dTw8Ne+vqt5eXPY2MHd
+3caYmI/k5MyBgXTi4sq+vq5OTk6CgnTr69O7u6jNzbhNTUWmppYAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAcAACwKAAAAAADE5QYAyAkHAGQAegCA4wYAJAACAAAAAAAAAAAAMyn4d4DjBgAA
+7P1/AgAAAAAABwBFAAAAAAAKAHyW+Hd4AAAAAQAAAAAAAAAztvx38OUGADQAAMAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV
+DQ+iAAAA+ElEQVR4nGNgoAww4hBmZMImw8jIzMLKhkWYnYOTi5uHEV2Yl4+Dg19AUEgYRYZR
+RJRPTFxCUkpaRlYORUJeQVGJQ1lFVUZNXQNZC6OmlraOuICqrpqehr4BkgyjoaGRsYmqqZm5
+hb6lFbKEtY2tHZe0vYOGvpWVoxNChpHR2UXAVcjN3cPK0dHJyRMuw+jlrezDY28G1OAEAvww
+GUZfARZWP7BJYAl/hBZB1QAZWXMLS0eQOCOSJYEyMmp6ICucnCRR/B6kJqvnbmFp5WgZjBpa
+jCHq7kA/WEpihDujhYe+pawBZnwwhlpahYVjjSerCJwRi10cHQAAmSoh3pR1eWoAAAAASUVO
+RK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_copy.png_1" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAADAFBMVEUAAAAAAADR0byRkYIn
+Jyeurqi3t6XU1L7Y2MLq6uJwcHCzs6zX18Hb28SsrJvd3dlCQjqlpZXa2sPe3sfi4sphYVal
+pZTZ2cPd3cbh4cnk5M27u6fc3MXg4Mnj48zn58+SkoTf38ji4svm5s/q6tK0tKHl5c7p6dHt
+7dXr69Ojo5Gurpzo6NDs7NTw8Nfu7tXy8tnx8dj19dynp5afn4+mppYAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAFTlBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/
+dQ/TAAAAkElEQVR4nGNgGAyAkRGHMBMzFhlGFlY2dg5GTI2MnFzcPLx8jBgaGfkFBIWERZA0
+wiRExcQlJKXgGhES0hwysnLyMI1IEgq8ikrKKlCNqsgywiJq6hpQjZpaCBlGbSkdXT2oRn0D
+ZC0gdYwQjYZGxkhaTEA+g2g0RfEkI5JGjICBaUQVBQGYRiwSWAEucWIBAHgNC1qM7px5AAAA
+AElFTkSuQmCC
+</d>
+<d name="/home/David/Toolbar PNGs/tb_1column.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAFElEQVR4nGNgoDIQ
+hAKBISVDMgAAbLoEKfo0wAMAAAAASUVORK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_redo.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAABMYDxWa0NE
+VjZSZ0FacEY3RSsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaYbdVAAAAOElEQVR4nGNgoAUQ
+QOYIIpiMgspwKUYR1bBAGEfEUTAYLiMugNDDWIhkGiOyuSgcVBsZyXI0SQAACjUC/iSKTXQA
+AAAASUVORK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_save.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAADAFBMVEUAAAAAAAB3n6hJWl6/
+0dWowcXk7O3////u8/Tg6euHqrKuxMn1+PmLrbU+TVCUsrnP3N/k7O54io3r8fLo7/Dy9vdg
+en/w9PVTbnWgvMFGXmNLV1pVcnikq63q6urk5ORgY2TGyszz8/Px8fHn5+fh4eGpsrRIYWY0
+RkpykJa8wsP29vZXaW3P2Nre3t7Y2NiMk5Ty8vI6R0p+pKzV2trg4OC0tLRlc3bQ1dbp6emn
+sLLS1NWJkpNISEjd3d2PmpsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACb
+YCYEAAAAs0lEQVR4nL2RxxaCMBREfU8wBhQsqBFR7Nh7r///V1IsCeDCjbO8c25yzrxE4t8B
++IIxGdMASHIKI4WHJZIOKwF2QwUFQFF9TEgmq30a0NUceSXPKVDQi+/C4H8BmT5xiSLySlnx
+lYqLGROUKg2wWbOQiYrh4XrDbqKo6O4jrXan2+s7aA64YqjgaDyZ2rP5AjV+Sldhy9V6s93t
+xYXBQjwcT+fLNbwiOMhu97h7gJco/iEPLcMLqSRds34AAAAASUVORK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_spellcheck.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAABIZkBBWzlM
+a0JbgFBkjFhTdUlJZkBPb0YAAAAAAAAAAAAAAAAAAAAAAAAe5OF9AAAAVUlEQVR4nGNgIAsI
+MggKAAkwYGQQEGAEEhCOoICgACMDNhkGAYgeQSRzGAWQGHAJRkUGRkO4GhEBEQE4RygwGMFh
+dCtEMqoNoQWkCYkjicxhZKAGAADHiASVJuau1QAAAABJRU5ErkJggg==
+</d>
+<d name="/home/David/Toolbar PNGs/tb_print_preview.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAADAFBMVEUAAAAAAAAXFxn29vTN
+zc1kZGQWFhcdHk4AAOcAAFcAAF4AAIsUFPDExMNGRkYKCpMkJedoafPKzOW4ueuWmuhCSfEm
+JurV1OPk49+lop4rLdVISuyvsezp6u26vO6ipe11eOwAAOyEhuezstMTExQAANRmavCfou/v
+9Ovo5uuws+ugp+uZnutLT/MAAOE8PrTQ0NAAADu3uNTs7fD+/uqdoOuUmeuMlOqAiOp1fPoA
+AIYbG2LLy8vp6ent7e0AAFilptzO0PHb4euPkuuKjut9gutqcOtmbvsAAIg8O4Nubm6NjY23
+t7fr6+v6+vr19fUAAL9pa+uQle67wOuJj+t7f+txeOxjavRITP8AAORLS7dJSUkuLi6srKyq
+qqqoqKi7u7vh4eFLTvBDR+5VVuyUm+yLkO1zee1nbu9WXP8kI6QAALo5OJY2NjY6Ojqzs7Ox
+sbGvr6+pqalFReMNDetLUPOKjfBwdfVdYPUxN+49OzBHR0dBQUFpaWmhoaG0tLSysrKioqKP
+kLkAAFkAAF8AAI8AAP5ESv8LDEQFBQU7OztmZmZjY2Ojo6Otra2rq6uqqqutrrSQkJBWVlhW
+Vl4BAQEKCgpbW1tLS0tKSkpgYGCGhoagoKCenp5/f383Nzc9PT0aGhoWFhYQEBBNTU1QUFBV
+VVVPT09FRUVOTk5hYWF7e3s5OTktLS01NTUlJSVxcXFvb29AQEAxMTFISEhwcHBycnI+Pj40
+7QYAROoGAP////9E+gYABgAAAGQISwAyAAAABAAAABcAAAAfAAAABgAAAGUAAAACAAAA0wAA
+AETqBgBE+gYAq7tEACAgAABwlzK6NhrBAaAeNLo2GsEBgG5tHJNawAEAAAAAcxEAAKed+3cI
+Kvh3dGJfcHJpbnRfcHJldmlldy54cG0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABt
+GTWfAAABG0lEQVR4nGNgoA1gZMQuzsTMwsqGRY6dg5OLm4eXjxFNI7+AoJCwiKiYuIQkqoSU
+tIysnLyCopIyiriKqpq6hqaWto6unj6KcwwMjYxNTM3MLSytrBkRwja2dvYOjk7OLq5u7h6e
+XlDbGb19fP38AwKDgkNCw8IjIqOiY6ASsXHxCYlJySmpaekZmVnZObl5UIn8gsKi+KLiktKy
+8opKRsaq6hqoRG2dT31DXGMTR3NLa1t7B2NnF1Siu7qnt6+/aMLE3kmTpwD9PXUaVGL69Bl8
+M2fNbpwzd978BQsXLYaHCSPjkqXLlvOtWLlq9ZqutevWMyJCC8iqmb6MdcPGTZvnAwUZkcMR
+yN6ydVvedkYoBzm8GBnRQ5w6AAAPJ0mIgzWWVgAAAABJRU5ErkJggg==
+</d>
+<d name="/home/David/Toolbar PNGs/tb_save_as.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAADAFBMVEUAAAAAAADYvmqOfUVi
+nagsPULF2Nyox8vp7u/5+fnw8vN6q7axytAhLzKNtr7V4eSakYvp7vBkf4Lt8vLr8PHl7O3G
+snN1YCDh49xFZ24GBgXx8/Q2V1+ewscpQkkuOz04XGSkra/t7e3p6elFSUrN0dPy8vLq6urm
+5uaqtrgrRk0YKS1ch5HCyMn09PQ7UFXV3+Dj4+Pf39+CjI0eKi1tpK7c4ODl5eW4uLhLXGHW
+3N3s7OyntLbZ29x9iowrKyvi4uKFlZf4dwAABwDACQcAAAAAADDlBgBIAAgA5OUGAKed+3dQ
+Kfh3//////TlBgDetvx3OA0IAMgJBwAAAAAAM7b8dzQAAMAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAcAAC4KAAAAAADE5QYAyAkHAGQAggCA4wYAJAACAAAAAAAAAAAAMyn4d4DjBgAA
+7P1/AgAAAAAABwBFAAAAAAAKAHyW+HeAAAAAAQAAAAAAAAAztvx38OUGADQAAMAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADM
++HbgAAAAwElEQVR4nK3Rxw7CMBAEUAaWYlJooZsOAULvvf3/T2GDEEkMByT2+EZj2etA4B+D
+bx5UE0B6yB8AFIbqQCQaI8UlR1jc709mzOeApkt+uPFOYOoJxpJPT5ErSJuZlzNLXOydRLMi
+yOWBQpbIXSlqolJCWTDnnkpFVCRXa3Xi3ooludFstclbMcUhHdvu9voOVQeuYKjRaDyZtmbz
+BRlwPVJUuL1crTfbHbw7qRPtD8fT+aKs3CF+veHD50GOyj/MHZK7DSJuDmDPAAAAAElFTkSu
+QmCC
+</d>
+<d name="/home/David/Toolbar PNGs/tb_undo.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAACPQx6APBuK
+QR2VRiBzNhhcKxMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOt6DKAAAANElEQVR4nGNgoDpg
+ROYIIksoCwrAOSIhzolwHqOKoFgikh7GQmTTxBG6gHzcHGR7kSVoAQAQBwL/64NhlAAAAABJ
+RU5ErkJggg==
+</d>
+</data>
 </abiword>
