@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.2" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-US; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<ignoredwords>
+<iw>AbiWord</iw>
+</ignoredwords>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:de-DE"></c><c props="lang:de-DE">AbiWord-Hilfe</c></p>
+<p style="Normal"><c props="lang:de-DE">Dies sind die Hilfedateien für AbiWord. Normalerweise werden sie mit dem Programm installiert, aber wenn Sie sie woanders gefunden haben, können Sie eine Einführung in AbiWord lesen.</c></p>
+<p style="Normal"><c props="lang:de-DE">Wie der Rest des Programms sind diese Dateien von Freiwilligen geschrieben. Manche Abschnitte sind noch nicht komplett, aber alles, was Sie mit dem Programm machen können, ist dokumentiert; das meiste davon im “Oberfläche"-Abschnitt. Wenn Sie helfen wollen, sollten Sie sich den “Problemlösungen"-Abschnitt anschauen.</c></p>
+<p style="Normal"><c props="lang:de-DE">Der Anfang jeder Seite hat Links zu allen Seiten die zur aktuellen Seite führen, sodass es einfach ist, direkt zu einer früher besuchten Seite zurückzukehren. Der “Hilfe"-Link führt Sie zurück zu dieser Seite.</c></p>
+<p style="Normal"><c props="lang:de-DE">Die Hilfedateien sind in mehrere Abschnitte eingeteilt. Links zu diesen Abschnitten befinden sich auf jeder Seite. Diese Links sind entweder in einer Spalte auf der linken Seite oder in einer Zeile am Ende der Seite, abhängig von Ihrem Browser. Die Abschnitte sind:</c></p>
+<p style="Heading 2"><c props="lang:de-DE">Anfangsseite</c></p>
+<p style="Normal"><c props="lang:de-DE">Diese Seite</c></p>
+<p style="Heading 2">Einführung</p>
+<p style="Normal"><c props="lang:de-DE">Ein kurzer Überblick über AbiWord.</c></p>
+<p style="Heading 2"><a xlink:href="tutorial/index.html"><c props="lang:de-DE">Tutorial</c></a></p>
+<p style="Normal"><c props="lang:de-DE">Ein Kurs zur Verwendung von AbiWord. Dieser Abschnitt wurde noch nicht geschrieben.</c></p>
+<p style="Heading 2"><a xlink:href="howto/index.html"><c props="lang:de-DE">How-To</c></a></p>
+<p style="Normal">Anweisungen für bestimmte Vorgänge. Dieser Abschnitt ist im Moment noch klein, und ein How-To zu schreiben ist eine gute Möglichkeit, um beim Dokumentieren von AbiWord zu helfen.</p>
+<p style="Heading 2"><a xlink:href="info/index.html"><c props="lang:de-DE">Information</c></a></p>
+<p style="Normal">Informationen darüber, wie AbiWord funktioniert. Obwohl diese Informationen normalerweise keinen direkten Einfluss darauf haben, wie Sie das Programm verwenden, sollten sie Ihnen helfen, AbiWord besser zu verstehen.</p>
+<p style="Heading 2"><a xlink:href="interface/index.html">Oberflä<c props="lang:de-DE">che</c></a></p>
+<p style="Normal">Dieser Abschnitt enthält Informationen über jeden Befehl in AbiWords Benutzeroberfläche. Er ist komplett.</p>
+<p style="Heading 2"><a xlink:href="problems/index.html"><c props="lang:de-DE">Problemlösungen</c></a></p>
+<p style="Normal">Anweisungen, was Sie bei Problemen mit AbiWord tun sollten, und Vorschläge, wo Sie Hilfe bekommen können.</p>
+<p style="Heading 2"><a xlink:href="credits.html"><c props="lang:de-DE">Credits</c></a></p>
+<p style="Normal"><c props="lang:de-DE">Die Leute, die für AbiWord verantwortlich sind.</c></p>
+<p style="Heading 2"><a xlink:href="azindex.html"><c props="lang:de-DE">Index</c></a></p>
+<p style="Normal">Ein Index der Hilfe. Einträge hinzuzufügen, ist ein guter Weg um bei der Dokumentation zu helfen.</p>
+<p style="Heading 2"><a xlink:href="fdl.html"><c props="lang:de-DE">GNU Free Documentation License</c></a></p>
+<p style="Normal">Eine Kopie der GNU Free Documentation License, unter der diese Dokumente veröffentlicht wurden (Englisch).</p>
+</section>
+</abiword>
