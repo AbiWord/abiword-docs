@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml/DTD/xhtml1-strict.dtd">
-<!-- ================================================================================  -->
-<!-- This HTML file was created by AbiWord.                                            -->
-<!-- AbiWord is a free, Open Source word processor.                                    -->
-<!-- You may obtain more information about AbiWord at www.abisource.com                -->
-<!-- ================================================================================  -->
-
-<!--         Build_Version     = unnumbered -->
-<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:Off Scripting:On -->
-<!--         Build_Target      = /usr/src/abiword/abi74/src/Linux_2.4.6r1_i386_GNOME/obj -->
-<!--         Build_CompileTime = 20:06:48 -->
-<!--         Build_CompileDate = Jul  4 2001 -->
 <head>
+<!--
+Copyright (c) 2001 David Chart and Mike Johnson
+Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.1 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.A copy of the license is included in the section entitled "GNU Free Documentation License".
+//-->
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
 <link href="style.css" rel="stylesheet" type="text/css" />
-<link href="text.css" rel="stylesheet" type="text/css" />
 
 <title>Reporting Bugs</title>
 </head>
@@ -26,11 +18,11 @@
 
 <div class="main">
 
-<p class="doc_heading1">Reporting Bugs</p>
+<h1>Reporting Bugs</h1>
 <p class="doc_normal">If you happen to find a bug in AbiWord, please report it using the AbiWord's Bugzilla (bugzilla.abisource.com). It is quite possible that the project developers don't know about a specific problem, so by filing a well-written report anybody can have input on future versions of AbiWord.</p>
 <p class="doc_normal">These notes should help you create a bug report that will prove useful to the developers.</p>
 
-<p class="doc_heading2">Overview: Bugzilla</p>
+<h2>Overview: Bugzilla</h2>
 
 <ul>
 <li> <a href="#things">Things to Check</a></li>
@@ -40,29 +32,29 @@
 </ul>
 
 <a name="things">
-<p class="doc_heading2">Things to Check</p>
+<h2>Things to Check</h2>
 <p class="doc_normal">Make sure that you are using the most recent version of AbiWord. If not, update and try again. If you report a bug from an old version the developers will probably ask you to update and try again. Many changes are made between versions.</p>
 <p class="doc_normal">Next, check to see whether your bug has already been reported. Go to the Bugzilla main page (bugzilla.abisource.com) and type a word in the search box that anyone reporting your bug would be very likely to use, but which won't turn up too many bugs.</p>
 <p class="doc_normal">If your bug has already been reported and hasn't been fixed, then you can vote for it if you have an account with Bugzilla (see next section). Click on the vote link on the bug page and add a number of votes.</p>
 
 <a name="create">
-<p class="doc_heading2">Create a New Account with Bugzilla</p>
+<h2>Create a New Account with Bugzilla</h2>
 <p class="doc_normal">The first thing to do for a new bug or feature request is to create an account on AbiWord Bugzilla. Go to <a href="http://bugzilla.abisource.com/createaccount.cgi">Bugzilla</a> and follow the instructions.</p>
 <p class="doc_normal">Bugzilla will require a valid email address. A developer may need to ask for more information on the exact nature of the bug or feature request if a report you have filed is unclear, or you may receive a simple email update on it's progress. This is all that your email address is used for.</p>
 <p class="doc_normal">Next, check your inbox for a password from Bugzilla. You will need it to log into your Bugzilla account.</p>
 
 <a name="new">
-<p class="doc_heading2">New Bugs</p>
+<h2>New Bugs</h2>
 <p class="doc_normal">If your bug is new, click on the "Enter a New Bug" link. If you aren't already logged in to Bugzilla, you will be asked to supply your email address and the password that was mailed after the account was created.</p>
 <p class="doc_normal">Now decide whether you have a bug or a feature request. A bug is something that AbiWord does wrong; a feature request is something that it doesn't do which you would like it to. For example, if the program crashes when you try to open a document, that's a bug. If you need AbiWord to support tables, then that's a feature request.</p>
 
 <a name="useful">
-<p class="doc_heading2">Creating a Useful Bug Report</p>
+<h2>Creating a Useful Bug Report</h2>
 <p class="doc_normal">Above all else, a useful bug report will be both reproducible and specific. Please include any specific details you can think of to help somebody else reproduce the bug. Create a list of steps in the "Description" box. If you're not sure how to repeat it, please still be as specific as possible. Also include the version of AbiWord with the bug in the "Description" box.</p>
 <p class="doc_normal">Be sure to set the "Platform" and "OS" menus to match your computer. The platform information is mainly important for OSes like Linux, which can run on diverse of kinds of hardware, but it is nonetheless an important option.</p>
 <p class="doc_normal">The next stage is to summarize your bug. Make this a short sentence which is specific and descriptive.</p>
 
-<p class="doc_heading3">Good summaries:</p>
+<h3>Good summaries:</h3>
 
 <ul>
 <li> AbiWord crashes when opening this document</li>
@@ -70,7 +62,7 @@
 <li> Crash when undoing paste</li>
 </ul>
 
-<p class="doc_heading3">Bad Summaries:</p>
+<h3>Bad Summaries:</h3>
 
 <ul>
 <li> Bug in AbiWord</li>
@@ -82,7 +74,7 @@
 <p class="doc_normal">You should also decide the priority of the bug. Be reasonable. Developers will reset overly high priorities. "P1" is the highest priority and should only be set for very important bugs.</p>
 <p class="doc_normal">If your bug only occurs with a particular file, the file can be attached using the web page once you have submitted the bug report. If you can reproduce the bug in a new document with a small amount of typing, give step by step instructions. Again, these must be clear enough for the developers to follow or the bug will be marked invalid and closed.</p>
 
-<p class="doc_heading3">Good Descriptions:</p>
+<h3>Good Descriptions:</h3>
 
 <ul>
 <li> Opening the attached file crashes AbiWord. [attachment]</li>
@@ -90,7 +82,7 @@
 <li> Open a new file. Type a few words. Select all, and copy. Paste. Undo. Boom.</li>
 </ul>
 
-<p class="doc_heading3">Bad Descriptions:</p>
+<h3>Bad Descriptions:</h3>
 
 <ul>
 <li> AbiWord can't open some Word files.</li>
