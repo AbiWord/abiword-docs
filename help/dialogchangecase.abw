@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered" fileformat="1.0" template="true">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 15:48:20 -->
+<!--         Build_CompileDate = Jun 15 2001 -->
+
+<lists>
+<l id="1544988454" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Normal">David Chart 2001</p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US">Change Case Dialog</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">You can open the Change Case dialog only when some text is selected. If you try to open it while no text is selected, you get a warning message telling you that the current selection is empty. Click on 'OK' to dismiss this message. If you do have text selected, the dialog opens.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Case Options</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">You can change the case of the selection in five different ways.</c></p>
+<p level="1" listid="1544988454" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.5000in; bgcolor:transparent; start-value:0; text-position:normal; text-indent:-0.3000in; color:000000; lang:en-US; text-decoration:none; font-weight:normal; font-size:12pt; field-font:Symbol"><c style="Normal" props="lang:en-US"></c><field type="list_label"></field><c type="list_label">	Sentence case. This option sets the first letter of the selection to upper case, and leaves the rest unchanged. It does not change the first letter of every sentence, and it does not change a sentence written entirely in upper case to one with an upper case first letter and lower case for the rest.</c></p>
+<p level="1" listid="1544988454" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.5000in; bgcolor:transparent; start-value:0; text-position:normal; text-indent:-0.3000in; color:000000; lang:en-US; text-decoration:none; font-weight:normal; font-size:12pt; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	lowercase. This option changes all the letters in the selection to lower case.</c></p>
+<p level="1" listid="1544988454" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.5000in; bgcolor:transparent; start-value:0; text-position:normal; text-indent:-0.3000in; color:000000; lang:en-US; text-decoration:none; font-weight:normal; font-size:12pt; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	UPPERCASE. This option changes all the letters in the selection to upper case.</c></p>
+<p level="1" listid="1544988454" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.5000in; bgcolor:transparent; start-value:0; text-position:normal; text-indent:-0.3000in; color:000000; lang:en-US; text-decoration:none; font-weight:normal; font-size:12pt; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	Title Case. This option changes the first letter of each word to upper case. It does not change subsequent letters to lower case, so a word written entirely in upper case will not be affected.</c></p>
+<p level="1" listid="1544988454" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.5000in; bgcolor:transparent; start-value:0; text-position:normal; text-indent:-0.3000in; color:000000; lang:en-US; text-decoration:none; font-weight:normal; font-size:12pt; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	tOGGLE cASE. This option changes lower case letters to upper case, and vice versa.</c></p>
+<p level="1" listid="0" parentid="0" style="Heading 2" props="bgcolor:transparent; margin-left:0in; text-decoration:none; start-value:0; color:000000; lang:en-US; text-indent:0in; text-position:normal; font-style:normal"><c type="list_label" style="Heading 2">OK</c></p>
+<p level="1" listid="0" parentid="0" style="Normal" props="bgcolor:transparent; margin-left:0in; text-decoration:none; start-value:0; color:000000; lang:en-US; text-indent:0in; text-position:normal; font-style:normal"><c type="list_label" style="Normal">Click this button to apply the case option you have selected, and close the window.</c></p>
+<p level="1" listid="0" parentid="0" style="Heading 2" props="bgcolor:transparent; margin-left:0in; text-decoration:none; start-value:0; color:000000; lang:en-US; text-indent:0in; text-position:normal; font-style:normal"><c type="list_label" style="Heading 2">Cancel</c></p>
+<p level="1" listid="0" parentid="0" style="Normal" props="bgcolor:transparent; margin-left:0in; text-decoration:none; start-value:0; color:000000; lang:en-US; text-indent:0in; text-position:normal; font-style:normal"><c type="list_label" style="Normal">Click this button to close the window without altering the selected text.</c></p>
+</section>
+</abiword>

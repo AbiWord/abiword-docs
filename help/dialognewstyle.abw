@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:Off Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 23:00:30 -->
+<!--         Build_CompileDate = Jun 21 2001 -->
+
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Normal">David Chart 2001</p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US">New Style Dialog</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This dialog allows you to create a new style for use in your document.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style Name:</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Type a name for your new style in this box. The name must be different from all other style names in the document, and should be something that will remind you of what the style is for.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style Type</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This drop-down menu allows you to select 'paragraph' or 'character' as the style type.</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">A paragraph style applies to whole paragraphs at a time. A character style applies to a single character at a time. You can set character properties in a paragraph style, and they apply to the whole paragraph. You cannot set paragraph properties in a character style. If you attempt to do so, the operation simply fails.</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">[Note: I am not sure that this is true, but styles are still being worked on.]</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Based on:</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">You can choose to base your style on an existing style. In that case, the new style has all the properties of the old one, unless you change things. AbiWord does not automatically update styles when you change the styles they are based on.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style for following paragraph</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">You can set styles so that when you press return, the style changes. This is particularly useful for heading styles. Select the style you want from the next paragraph from this drop-down menu. 'Current Settings' means that the style is not changed between paragraphs, and any additional formatting you have added also remains.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Preview</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">An example of what your style will look like. The heavier text is show in the new style.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Description</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">A list of the properties of the style, with their values. Thus, if the property is 'text-decoration', the value might be 'underline'. Properties and values are separated by a colon.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Remove property from style</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">The drop down menu contains a list of all the properties in the style. It does not list the values of the properties, only the things that the style changes. To remove a property, select it on the list. It will then appear in the box. Press the 'Remove' button.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">OK</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This button closes the dialog and creates your new style.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Cancel</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This button closes the dialog without creating the new style.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Format</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This is a drop-down menu, and gives access to the dialogs wherein you can set the properties of the style. The dialogs are the same as the ones you get when you select these options from the Format menu, but any changes you make apply to the style you are creating rather than to the current text.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Paragraph</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the paragraph dialog.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Font</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the font dialog.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Tabs</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the tabs dialog.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Numbering</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the lists dialog.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Language</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the language dialog.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Shortcut Key</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This button doesn't seem to do anything at the moment.</c></p>
+</section>
+</abiword>
