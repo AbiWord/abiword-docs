@@ -39,11 +39,11 @@ do
 	for dir in ./ howto info interface problems tutorial plugins
 	do
 		cd $CVS/ABW/$help_language/$dir
-		for i in $(ls -1 *.abw)
+		for i in $(echo *.abw)
 		do
 		      n=`echo $i|cut -f1 -d .`
 		      echo $i
-		      $ABI_DOC_PROG --to=xhtml `basename $i` 2>/dev/null
+		      $ABI_DOC_PROG --to=xhtml $i 2>/dev/null
 		      $CVS/make-abidoc.pl -I $n.info -S header.xhtml -F footer.xhtml>$n.html
 		      rm -f $n.xhtml
 		done

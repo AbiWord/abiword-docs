@@ -27,11 +27,11 @@ do
 	for dir in ./ howto info interface problems tutorial plugins
 	do
 		cd ABW/$help_language/$dir
-		for i in $(ls -1 *.abw)
+		for i in $(echo *.abw)
 		do
 		      n=`echo $i|cut -f1 -d .`
 		      echo $i
-		      AbiWord-2.0 --to=html `basename $i` 2>/dev/null
+		      AbiWord-2.0 --to=html $i 2>/dev/null
 		done
 
 		cd $CVS

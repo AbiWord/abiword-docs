@@ -27,13 +27,13 @@ do
 	for dir in ./ howto info interface problems tutorial plugins
 	do
 		cd ABW/$help_language/$dir
-		for i in $(ls -1 *.abw)
+		for i in $(echo *.abw)
 		do
 		      n=`echo $i|cut -f1 -d .`
 		      echo $i
 
 		      # save to docbook, rename to .xml
-		      AbiWord-2.0 --to=dbk `basename $i` 2>/dev/null
+		      AbiWord-2.0 --to=dbk $i 2>/dev/null
 		      mv $n.dbk $n.xml
 		done
 
