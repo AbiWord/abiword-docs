@@ -9,13 +9,12 @@
 <!-- =====================================================================  -->
 
 <styles>
-<s type="P" basedon="" followedby="Current Settings" name="Normal" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s type="P" basedon="Normal" followedby="Normal" name="Heading 1" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-US; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
-<s type="P" basedon="Normal" followedby="Normal" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-US; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Normal"><c props="lang:en-US"></c>David Chart 2002</p>
 <p style="Heading 1">AbiWord Help</p>
 <p style="Normal">These are the help files for AbiWord. They are normally installed with the program, but if you have found them elsewhere, you can read an introduction to AbiWord.</p>
 <p style="Normal">As with the rest of the program, these files are written by volunteers. Some sections are still incomplete, but everything that the program can do is documented, most of it in the interface section. If you want to help, you should consult the Problems section.</p>
@@ -23,23 +22,23 @@
 <p style="Normal">The help files are divided into several sections. These sections are linked from every page. The links are either in a column at the left of the page or in a line at the bottom, depending on your browser. The sections are:</p>
 <p style="Heading 2">Top Page</p>
 <p style="Normal">This page.</p>
-<p style="Heading 2">Introduction</p>
+<p style="Heading 2"><a xlink:href="introduction.html">Introduction</a></p>
 <p style="Normal">A quick overview of AbiWord.</p>
-<p style="Heading 2">Tutorial</p>
+<p style="Heading 2"><a xlink:href="tutorial/index.html">Tutorial</a></p>
 <p style="Normal">An organized course on how to use AbiWord. This section has not yet been written.</p>
-<p style="Heading 2">How To</p>
+<p style="Heading 2"><a xlink:href="howto/index.html">How To</a></p>
 <p style="Normal">Instructions for particular operations. This section is small at the moment, and writing a how to is a good way to help out with documenting AbiWord.</p>
-<p style="Heading 2">Information</p>
+<p style="Heading 2"><a xlink:href="info/index.html">Information</a></p>
 <p style="Normal">Information about aspects of AbiWord's function. This information does not usually have a direct impact on your use of the program, but should help you to understand it better.</p>
-<p style="Heading 2">Interface</p>
+<p style="Heading 2"><a xlink:href="interface/index.html">Interface</a></p>
 <p style="Normal">This section provides documentation for every command in the AbiWord user interface. This section is complete.</p>
-<p style="Heading 2">Problems</p>
+<p style="Heading 2"><a xlink:href="problems/index.html">Problems</a></p>
 <p style="Normal">Instructions on what to do if you have problems with AbiWord, and suggestions on where to get help.</p>
-<p style="Heading 2">Credits</p>
+<p style="Heading 2"><a xlink:href="credits.html">Credits</a></p>
 <p style="Normal">The people responsible for AbiWord.</p>
 <p style="Heading 2">Index</p>
 <p style="Normal">This will be a index of all the help documentation, but it does not yet exist. Working on this is another good way to help out.</p>
-<p style="Heading 2">GNU FDL</p>
+<p style="Heading 2"><a xlink:href="fdl.html">GNU Free Documentation License</a></p>
 <p style="Normal">A copy of the GNU Free Documentation License, under which these documents are released.</p>
 </section>
 </abiword>
