@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.9.0" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
+<abiword template="false" styles="unlocked" version="1.9.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -11,12 +11,12 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Sun May  4 16:15:00 2003</m>
+<m key="abiword.date_last_changed">Sat May 10 13:49:55 2003</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3319in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-decoration:none; text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; font-variant:normal; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="margin-top:0.3056in; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
@@ -27,21 +27,30 @@
 <p style="Normal">Conversion of C style casts to C++.</p>
 <p style="Normal">Presentation cleanup of spelling code.</p>
 <p style="Normal">Added barbarism files to tree.</p>
+<p style="Normal">Made barbarism support work with both ispell and pspell.</p>
+<p style="Normal">Bug fixes: 4771, 4940</p>
 <p style="Heading 2">Hubert Figuiere</p>
 <p style="Normal">Compile warning fixes.</p>
 <p style="Normal">Fixed class consistency in TopRuler on Cocoa and Unix, and in XP land.</p>
 <p style="Normal">Fixed cast-related build failures.</p>
 <p style="Normal">Fixed a crash.</p>
+<p style="Normal">Build fix.</p>
 <p style="Normal">Bug fixes: 4988, 4996</p>
 <p style="Heading 2">Frank Franklin</p>
 <p style="Normal">Disabled building of the non-functional MSWord exporter.</p>
+<p style="Normal">Technical changes involving NumberVectors and pointers and 64 bit architecture.</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Substantial BiDi work.</p>
 <p style="Normal">Fixes to footnotes, BiDi related and otherwise.</p>
 <p style="Normal">Workaround for an iconv bug causing a crash when importing Hebrew docs.</p>
 <p style="Normal">Work on RTF export of BiDi documents.</p>
 <p style="Normal">Work on RTF hyperlink import.</p>
-<p style="Normal">Bug fixes: 4125, 5027</p>
+<p style="Normal">Fix import of RTF fields.</p>
+<p style="Normal">Work on the Word importer.</p>
+<p style="Normal">Fixed character style import from RTF.</p>
+<p style="Normal">Work to remove unnecessary BiDi processing from Word and RTF documents which may or may not be BiDi.</p>
+<p style="Normal">Enabled import of styles from Word documents (included changes to wv).</p>
+<p style="Normal">Bug fixes: 2350, 4125, 4473, 5027, 5072</p>
 <p style="Heading 2">Daniel Glassey</p>
 <p style="Normal">Bumped diving make build version.</p>
 <p style="Heading 2">Karl Ove Hufthammer</p>
@@ -51,7 +60,7 @@
 <p style="Heading 2">Bill Kaser</p>
 <p style="Normal">AbiWord Tutorial (with Courtney Linn and Tina Worth).</p>
 <p style="Heading 2">Marc Oude Kotte</p>
-<p style="Normal">Bug fixes: 4984s</p>
+<p style="Normal">Bug fixes: 4984, 5037</p>
 <p style="Heading 2">William Lachance</p>
 <p style="Normal">WordPerfect filter updates.</p>
 <p style="Normal">Fix a bug in WordPerfect list import.</p>
@@ -59,9 +68,14 @@
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">Improved Mail Merge architecture.</p>
 <p style="Normal">Near-complete integration of mail merge with saving and printing on the command line.</p>
-<p style="Normal">Work on RTF export of BiDi documents.</p>
-<p style="Normal">Completed mail merge work.</p>
-<p style="Normal">Bug fixes: 4929</p>
+<p style="Normal">Work on RTF export of BiDi documents..</p>
+<p style="Normal">Integrate mail merge with saving to various formats on the command line.</p>
+<p style="Normal">Dialog for adding mail merge fields.</p>
+<p style="Normal">Fixes for a couple of crashes.</p>
+<p style="Normal">Fixed GTK tree-view dialogs so that double clicking on a thing inserts it into the document (e.g. field, mail merge).</p>
+<p style="Normal">Made it possible to pre-populate the mail merge dialog from the command line.</p>
+<p style="Normal">Initial version of a text summariser plugin.</p>
+<p style="Normal">Bug fixes: 4929, 5062, 5069</p>
 <p style="Heading 2">Per Larsson</p>
 <p style="Normal">Swedish localisation work.</p>
 <p style="Heading 2">Courtney Linn</p>
@@ -76,14 +90,16 @@
 <p style="Normal">More pixel dirt fixes.</p>
 <p style="Normal">VC++ build fix.</p>
 <p style="Normal">Probable fix for Ctrl- keybindings on Win32.</p>
-<p style="Normal">Bug fixes: 4808, 4815, 4865, 4871, 4873, 4874, 4903, 4948</p>
+<p style="Normal">Win32 build fixes.</p>
+<p style="Normal">Bug fixes: 4808, 4815, 4865, 4871, 4873, 4874, 4903, 4948, 5025</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal">Initialised some values in gr_Caret.cpp</p>
 <p style="Normal">Improved loading speed for documents containing base64 data by a factor of ten or so.</p>
 <p style="Normal">GetGR -&gt; GetGraphics on Win32.</p>
 <p style="Normal">Improve image scaling. We can use a better method because we only do it once.</p>
-<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">libwpd 0.4.0 released. Not strictly part of Abi, but a vital part of our WordPerfect import.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
-<p style="Normal">Bug fixes: 3246, 4858</p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">libwpd 0.4.0 released. Not strictly part of Abi, but a vital part of our WordPerfect import.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fixed a typo in the bonobo server file which claimed the binary was called AbWword-2.0.</c></p>
+<p style="Normal">Bug fixes: 3246, 3851, 4858</p>
 <p style="Heading 2">Justin McPherson</p>
 <p style="Normal">Fix Win32 keyboard code.</p>
 <p style="Normal">Work on fix for 4948</p>
@@ -95,6 +111,8 @@
 <p style="Normal">DocBook xml script for wv.</p>
 <p style="Heading 2">Gilles Saint-Denis</p>
 <p style="Normal">French localisation work.</p>
+<p style="Heading 2">Alberto Cabello Sanchez</p>
+<p style="Normal">LaTeX export improvements.</p>
 <p style="Heading 2">Rui Miguel Seabra</p>
 <p style="Normal">Fixed rpm spec to build WordPerfect plugin if libwpd is present and specified.</p>
 <p style="Heading 2">Martin Sevior</p>
@@ -108,7 +126,16 @@
 <p style="Normal">Enable printing of symbol fonts in GnomePrint.</p>
 <p style="Normal">Possible fix for printing Dingbats with GnomePrint.</p>
 <p style="Normal">Fix for Insert Symbol.</p>
-<p style="Normal">Bug fixes: 4180 (partial), 4887, 4910, 4941, 4991, 5001</p>
+<p style="Normal">More work on tables in two or more columns, allowing the caret to get into the second column.</p>
+<p style="Normal">Fixed a piece table memory corruption problem.</p>
+<p style="Normal">Fixed a number of crashes.</p>
+<p style="Normal">Fixes for endnote/footnote insertion.</p>
+<p style="Normal">Fixes for Page Setup so that it remembers your settings.</p>
+<p style="Normal">Keep all lines in tables broken across pages, and keep them in the correct tables.</p>
+<p style="Normal">Fixed a crash in Insert Symbol.</p>
+<p style="Normal">Fixed copy and paste.</p>
+<p style="Normal">Improved table clearscreen.</p>
+<p style="Normal">Bug fixes: 4709, 4180 (partial), 4887, 4910, 4941, 4991, 4995, 5001, 5019, 5032, 5049</p>
 <p style="Heading 2">Valentine Sinitsyn</p>
 <p style="Normal">Mingw compilation work.</p>
 <p style="Heading 2">Jesper Skov</p>
