@@ -1,44 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.3" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
-<!-- =====================================================================  -->
-<!-- This file is an AbiWord document.                                      -->
-<!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- More information about AbiWord is available at http://www.abisource.com     -->
-<!-- You should not edit this file by hand.                                 -->
-<!-- =====================================================================  -->
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.6" xml:space="preserve" props="document-footnote-type:numeric; document-endnote-type:numeric; lang:en-US; document-footnote-initial:1; dom-dir:ltr">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
 
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Mon Feb 24 16:30:18 2003</m>
+<m key="abiword.date_last_changed">Mon Sep  8 16:44:04 2003</m>
 </metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:17pt"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; dom-dir:ltr; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; font-stretch:normal"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
-<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:12pt"/>
+<s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="font-family:Arial; margin-top:0.3056in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.0417in; line-height:1.000000; font-size:17pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-decoration:none; text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:14pt; text-indent:0.00cm; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0833in; margin-right:1.0000in; margin-left:1.0000in"/>
+<s type="P" name="Box List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Box List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Bullet List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; list-style:Bullet List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Chapter Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Chapter %L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:1.100000in/L0"/>
+<s type="P" name="Dashed List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:NULL; list-style:Dashed List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Diamond List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Diamond List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="C" name="Endnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Endnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000"/>
+<s type="C" name="Footnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Footnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000; font-size:10pt"/>
+<s type="P" name="Hand List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Hand List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Heading 3" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:12pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s type="P" name="Heart List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Heart List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Implies List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; list-style:Implies List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Lower Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Lower Case List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Lower Roman List" basedon="Normal" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Lower Roman List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Numbered Heading 1" basedon="Heading 1" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 2" basedon="Heading 2" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 3" basedon="Heading 3" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s type="P" name="Numbered List" followedby="Current Settings" props="list-delim:%L.; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Numbered List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Plain Text" basedon="Normal" followedby="Current Settings" props="font-family:Courier New; line-height:1.000000"/>
+<s followedby="Normal" name="Section Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Section %L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:1.100000in/L0"/>
+<s type="P" name="Square List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Square List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Star List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Star List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Tick List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Tick List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Triangle List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Triangle List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Upper Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Upper Case List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Upper Roman List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Upper Roman List; line-height:1.000000; text-indent:-0.300000in"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section props="page-margin-footer:0.5in; page-margin-header:0.5in">
 <p style="Heading 1">Print Dialog</p>
 <p style="Normal">This dialog prints your document.</p>
-<p style="Normal"><c></c></p>
-<p style="Heading 2">Print To:</p>
-<p style="Normal">Allows you to select which printer you wish to print to, or if applicable, which file you wish to print to.</p>
-<p style="Normal"><c></c></p>
-<p style="Heading 3">Printer Command:</p>
+<p style="Heading 2"><c></c>Print To:</p>
+<p style="Normal">Allows you to select whether to print to a printer or a file. Printing to a file produces a postscript file, and may be useful for certain purposes.</p>
+<p style="Heading 2"><c></c>Printer Command:</p>
 <p style="Normal">On Unix non-GNOME builds, this allows you to specify your printer command, which is typically something like 'lpr -Pprinter_name'.</p>
-<p style="Normal"><c></c></p>
-<p style="Heading 2">Page Ranges:</p>
-<p style="Normal">Allows you to specify what portion of your document you wish to print. "All" prints your entire document. "From" prints from page 'from' to page 'to' inclusive. "Selection" prints only your selected text.</p>
-<p style="Normal"><c></c></p>
-<p style="Heading 2">Copies:</p>
-<p style="Normal">Specifies many copies of this document would you like printed.</p>
+<p style="Heading 2">Page ranges:</p>
+<p style="Normal">Allows you to specify what portion of your document you wish to print.</p>
+<p style="Normal"><c></c>"All" prints your entire document.</p>
+<p style="Normal"><c></c>"From" prints from page 'from' to page 'to' inclusive.</p>
+<p style="Normal"><c></c>"Selection" prints only your selected text.</p>
 <p style="Heading 2">Collate:</p>
-<p style="Normal">If unchecked, it will print each page in your document #copies times before moving on to the next page. If checked, it will print your pages in order 1 time each before making a second, third, etc.. copy.</p>
-<p style="Normal"><c></c></p>
+<p style="Normal">If this option is not selected, AbiWord will print each page of your document the number of times required in Copies before moving on to the next page.</p>
+<p style="Normal">If this option is selected, AbiWord will print all of the pages in your document in order, and then print the document again, as many times as required in Copies.</p>
 <p style="Heading 2">Embed Fonts:</p>
-<p style="Normal">Unix non-GNOME only. If checked, includes copies of all font resources in your printed output. This is useful in case your printer does not already have that particular font resource.</p>
+<p style="Normal">Unix non-GNOME only. If checked, AbiWord sends details of all the fonts you are using to your printer. This is useful if the printer does not already have those fonts.</p>
+<p style="Heading 2">Copies:</p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Specifies many copies of this document would you like printed. All current options apply to all the copies printed.</c></p>
+<p style="Heading 2">Print in:</p>
+<p style="Normal">Click the radio button to choose how to print your document. In general, Black and White is best for plain text. If you use any color in your document, then you must select either grayscale or color if the output is to be different. For example, differently colored text will appear all appear the same if printed in black and white, while it would be different shades of gray if printed in grayscale.</p>
+<p style="Heading 2">Help</p>
+<p style="Normal">This button opens the documentation for this dialog.</p>
+<p style="Heading 2">Cancel</p>
+<p style="Normal">This button closes the dialog without printing your document.</p>
+<p style="Heading 2">Print</p>
+<p style="Normal">This button prints your document and closes the dialog.</p>
 </section>
 </abiword>

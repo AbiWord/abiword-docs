@@ -1,52 +1,86 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
-<!-- =====================================================================  -->
-<!-- This file is an AbiWord document.                                      -->
-<!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at www.abisource.com     -->
-<!-- You should not edit this file by hand.                                 -->
-<!-- =====================================================================  -->
+<abiword template="false" styles="unlocked" version="1.99.6" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="document-footnote-type:numeric; document-endnote-type:numeric; lang:en-GB; document-footnote-initial:1; dom-dir:ltr">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Mon Sep  8 15:54:19 2003</m>
+</metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.000000; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
-<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="font-family:Arial; margin-top:0.3056in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.0417in; line-height:1.000000; font-size:17pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-decoration:none; text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; text-indent:0.00cm; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s followedby="Normal" name="Heading 3" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:12pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0833in; margin-right:1.0000in; margin-left:1.0000in"/>
+<s type="P" name="Box List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Box List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Bullet List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; list-style:Bullet List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Chapter Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Chapter %L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:1.100000in/L0"/>
+<s type="P" name="Dashed List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:NULL; list-style:Dashed List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Diamond List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Diamond List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="C" name="Endnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Endnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000"/>
+<s type="C" name="Footnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Footnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000; font-size:10pt"/>
+<s type="P" name="Hand List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Hand List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Heart List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Heart List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Implies List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; list-style:Implies List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Lower Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Lower Case List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Lower Roman List" basedon="Normal" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Lower Roman List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Numbered Heading 1" basedon="Heading 1" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 2" basedon="Heading 2" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 3" basedon="Heading 3" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s type="P" name="Numbered List" followedby="Current Settings" props="list-delim:%L.; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Numbered List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Plain Text" basedon="Normal" followedby="Current Settings" props="font-family:Courier New; line-height:1.000000"/>
+<s followedby="Normal" name="Section Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Section %L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:1.100000in/L0"/>
+<s type="P" name="Square List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Square List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Star List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Star List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Tick List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Tick List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Triangle List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Triangle List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Upper Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Upper Case List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Upper Roman List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Upper Roman List; line-height:1.000000; text-indent:-0.300000in"/>
 </styles>
-<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c style="Heading 1" props="lang:en-US">New Style Dialog</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This dialog allows you to create a new style for use in your document.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style Name:</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Type a name for your new style in this box. The name must be different from all other style names in the document, and should be something that will remind you of what the style is for.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style Type</c></p>
-<p style="Normal"><c style="Heading 2" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">This specifies the type of style. At the moment, AbiWord only supports paragraph styles, but other kinds may be added in later releases.</c></p>
-<p style="Heading 2"><c props="lang:en-US">Based on:</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">You can choose to base your style on an existing style. In that case, the new style has all the properties of the old one, unless you change things.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style for following paragraph</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">You can set styles so that when you press return, the style changes. This is particularly useful for heading styles. Select the style you want from the next paragraph from this drop-down menu. 'Current Settings' means that the style is not changed between paragraphs, and any additional formatting you have added also remains.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Preview</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">An example of what your style will look like. The heavier text is show in the new style.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Description</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">A list of the properties of the style, with their values. Thus, if the property is 'text-decoration', the value might be 'underline'. Properties and values are separated by a colon.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Remove property from style</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">The drop down menu contains a list of all the properties in the style. It does not list the values of the properties, only the things that the style changes. To remove a property, select it on the list. It will then appear in the box. Press the 'Remove' button.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">OK</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This button closes the dialog and creates your new style.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Cancel</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This button closes the dialog without creating the new style.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Format</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This menu gives access to the dialogs wherein you can set the properties of the style. The dialogs are the same as the ones you get when you select these options from the Format menu, but any changes you make apply to the style you are creating rather than to the current text.</c></p>
-<p style="Heading 3"><a xlink:href="dialogparagraph.html"><c style="Heading 3" props="lang:en-US">Paragraph</c></a></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Opens the paragraph dialog.</c></p>
-<p style="Heading 3"><a xlink:href="dialogfont.html"><c style="Heading 3" props="lang:en-US">Font</c></a></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Opens the font dialog.</c></p>
-<p style="Heading 3"><a xlink:href="dialogtabs.html"><c style="Heading 3" props="lang:en-US">Tabs</c></a></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Opens the tabs dialog.</c></p>
-<p style="Heading 3"><a xlink:href="dialoglists.html"><c style="Heading 3" props="lang:en-US">Numbering</c></a></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Opens the lists dialog.</c></p>
-<p style="Heading 3"><a xlink:href="dialoglanguage.html"><c style="Heading 3" props="lang:en-US">Language</c></a></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Opens the language dialog.</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US">New Style Dialog</c><c style="Heading 1" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This dialog allows you to create a new style for use in your document.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style Name:</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Type a name for your new style in this box. The name must be different from all other style names in the document, and should be something that will remind you of what the style is for.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style Type</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Heading 2" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">This specifies the type of style. At the moment, AbiWord only supports paragraph styles, but other kinds may be added in later releases.</c><c style="Heading 2" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Heading 2"><c props="lang:en-US">Based On:</c><c props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">You can choose to base your style on an existing style. In that case, the new style has all the properties of the old one, unless you change things.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style for following paragraph</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">You can set styles so that when you press return, the style changes. This is particularly useful for heading styles. Select the style you want from the next paragraph from this drop-down menu. 'Current Settings' means that the style is not changed between paragraphs, and any additional formatting you have added also remains.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Preview</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">An example of what your style will look like. The heavier text is show in the new style.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Description</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">A list of the properties of the style, with their values. Thus, if the property is 'text-decoration', the value might be 'underline'. Properties and values are separated by a colon.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Remove property from style</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">The drop down menu contains a list of all the properties in the style. It does not list the values of the properties, only the things that the style changes. To remove a property, select it on the list. It will then appear in the box. Press the 'Remove' button.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c props="font-family:Arial; font-size:14pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US">Help</c></p>
+<p style="Normal">This button opens the documentation for this dialog.</p>
+<p style="Heading 2"><c props="font-family:Arial; font-size:14pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US"></c><c props="font-family:Arial; font-size:14pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US">Cancel</c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">This button closes the dialog without creating the new style.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US"></c><c style="Heading 2" props="lang:en-US">OK</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This button closes the dialog and creates your new style.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US"></c><c style="Heading 2" props="lang:en-US">Format</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This menu gives access to the dialogs wherein you can set the properties of the style. The dialogs are the same as the ones you get when you select these options from the Format menu, but any changes you make apply to the style you are creating rather than to the current text.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 3"><a xlink:href="dialogparagraph.html"><c style="Heading 3" props="lang:en-US">Paragraph</c><c style="Heading 3" props="lang:en-US"></c></a></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the paragraph dialog.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 3"><a xlink:href="dialogfont.html"><c style="Heading 3" props="lang:en-US">Font</c><c style="Heading 3" props="lang:en-US"></c></a></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the font dialog.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 3"><a xlink:href="dialogtabs.html"><c style="Heading 3" props="lang:en-US">Tabs</c><c style="Heading 3" props="lang:en-US"></c></a></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the tabs dialog.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 3"><a xlink:href="dialoglists.html"><c style="Heading 3" props="lang:en-US">Numbering</c><c style="Heading 3" props="lang:en-US"></c></a></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the lists dialog.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 3"><a xlink:href="dialoglanguage.html"><c style="Heading 3" props="lang:en-US">Language</c><c style="Heading 3" props="lang:en-US"></c></a></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the language dialog.</c><c style="Normal" props="lang:en-US"></c></p>
 </section>
 </abiword>
