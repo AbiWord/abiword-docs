@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="0.99.1" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -11,15 +11,15 @@
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
 <s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s followedby="Current Settings" name="Normal Clean" basedon="Normal" type="P" props="text-align:left; line-height:1.000000; margin-top:0pt; font-weight:normal; field-font:NULL; font-style:normal"/>
+<s followedby="Current Settings" name="Normal Clean" basedon="Normal" type="P" props="text-align:left; margin-top:0pt; line-height:1.000000; field-font:NULL; font-weight:normal; font-style:normal"/>
 <s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section>
 <p style="Heading 1"><c style="Heading 1" props="lang:en-GB">Insert Hyperlink</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This dialog allows you to create hyperlinks within your document. The lower box displays a list of all bookmarks in the document, and you can create a hyperlink to any bookmark. </c><c style="Normal Clean" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Select the bookmark in the lower box, and it will appear in the upper one. You can also type the name of an existing bookmark. Click 'OK' to create a hyperlink to that bookmark. If the bookmark does not exist, a warning dialog will appear. You can still create the hyperlink.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This dialog allows you to create hyperlinks within your document. The lower box displays a list of all bookmarks in the document, and you can create a hyperlink to any bookmark. </c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Select the bookmark in the lower box, and it will appear in the upper one. You can also type the name of an existing bookmark. Click 'OK' to create a hyperlink to that bookmark. If the bookmark does not exist, a warning dialog will appear. You can still create the hyperlink.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">You can also create external hyperlinks by typing the full URI in the upper box.</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Hyperlinks are displayed in blue, underlined text within your document.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Hyperlinks are displayed in blue, underlined text within your document. In order to use them, you must double-click on the hyperlink. Single-clicking puts the insertion point within the link, so that you can edit it.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">OK</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Insert the hyperlink and close the dialog.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Cancel</c></p>
