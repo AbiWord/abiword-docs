@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.9.1" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- More information about AbiWord is available at http://www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Mon May 26 14:32:11 2003</m>
+</metadata>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-decoration:none; text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; font-variant:normal; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="margin-top:0.3056in; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1">1.9.2 Changelog</p>
+<p style="Heading 2">Besnik Bleta</p>
+<p style="Normal">Albanian localisation work.</p>
+<p style="Heading 2">David Chart</p>
+<p style="Normal">Documentation work.</p>
+<p style="Heading 2">Andrew Dunbar</p>
+<p style="Normal">Spelling suggestion code refactoring.</p>
+<p style="Normal">Removed dead STL code.</p>
+<p style="Normal">Update to MSVC6 build system.</p>
+<p style="Normal">Fixed a casting bug.</p>
+<p style="Heading 2">Hubert Figuiere</p>
+<p style="Normal">Fixed excessive document redrawing when changin zoom to same value.</p>
+<p style="Normal">Some code refactoring.</p>
+<p style="Normal">Fix a crasher in cocoa.</p>
+<p style="Normal">Fixed a potential bug/compile warning.</p>
+<p style="Normal">Implemented XP glyph measurement caching, and fixed Unix build.</p>
+<p style="Normal">Fixed numerous compiler warnings.</p>
+<p style="Normal">A small optimisation in DrawChars.</p>
+<p style="Normal">Fixes for retarded (old, presumably) libc.</p>
+<p style="Normal">Bug fixes: 5118,5137</p>
+<p style="Heading 2">Bryan Forbes</p>
+<p style="Normal">Updated gucharmap support to 0.7, which has a completely new API.</p>
+<p style="Heading 2">Frank Franklin</p>
+<p style="Normal">Fixed a hash map and added three new ones. These maps should allow cleaner code.</p>
+<p style="Normal">Bug fixes: 3614, 5094</p>
+<p style="Heading 2">Tomas Frydrych</p>
+<p style="Normal">Moved MSWord list processing code from Abi to wv, so that we now get the proper indents.</p>
+<p style="Normal">Import footnotes/endnotes from MSWord.</p>
+<p style="Normal">Improved reliability of MSWord import code.</p>
+<p style="Normal">Work on importing headers/footers from MSWord.</p>
+<p style="Normal">Added asserts concerning code assumptions about the compiler.</p>
+<p style="Normal">Header/footer import working for Word9.</p>
+<p style="Normal">Fix two segfaults in the status bar.</p>
+<p style="Normal">BiDi fixes in RTF and Word import.</p>
+<p style="Normal">Fixed handling of page break character in Word import.</p>
+<p style="Normal">Unique ID generating class.</p>
+<p style="Normal">Work on list import from Word.</p>
+<p style="Normal">Import of endnotes and footnote/endnote options from RTF.</p>
+<p style="Normal">Added more Arabic ligatures and letters. Some optimisation of the context glyph code.</p>
+<p style="Normal">Removed an incorrect assert from abw importer.</p>
+<p style="Normal">Import of headers is shared between sections in Word import.</p>
+<p style="Normal">Fixed a memory leak in glyph width caching.</p>
+<p style="Normal">Fixed a BiDi-related crasher.</p>
+<p style="Normal">Various BiDi fixes.</p>
+<p style="Normal">Various Word import fixes.</p>
+<p style="Normal">Fix Word importer to import fields in fields (such as ToC fields), and to respect background colours.</p>
+<p style="Normal">Bug fixes: 3823, 5095</p>
+<p style="Heading 2">Mark Gilbert</p>
+<p style="Normal">Fixed wv build.</p>
+<p style="Normal">Fix to wv to allow Abi to build against generic wv builds.</p>
+<p style="Heading 2">Daniel Glassey</p>
+<p style="Normal">Enable Unicode input on Win32.</p>
+<p style="Heading 2">Marco Innocenti</p>
+<p style="Normal">Italian localisation work.</p>
+<p style="Heading 2">Dom Lachowicz</p>
+<p style="Normal">Removed C++ comment from wv code.</p>
+<p style="Normal">Gladeified Encoding, Language, More Windows, Password, and Word Count dialogs.</p>
+<p style="Normal">Bug fixes: 5131, 5140</p>
+<p style="Heading 2">Jordi Mas</p>
+<p style="Normal">Bug fixes: 5077 (partial)</p>
+<p style="Heading 2">Marc Maurer</p>
+<p style="Normal">Import table column widths, table positions, footnotes, endnotes, and document metadata from WordPerfect documents. (Currently needs libwpd CVS HEAD.)</p>
+<p style="Normal">Fixed a build failure.</p>
+<p style="Normal">Draw dotted grey borders around a cell when its border is set to off.</p>
+<p style="Normal">Glade files for various dialogs (incomplete).</p>
+<p style="Normal">Bug fixes: 5015</p>
+<p style="Heading 2">Michael Pritchett</p>
+<p style="Normal">Fix cast problems.</p>
+<p style="Normal">Win32 glyph caching work.</p>
+<p style="Normal">Win32 build and warning fixes.</p>
+<p style="Heading 2">Alberto Cabello Sanchez</p>
+<p style="Normal">LaTeX export improvements.</p>
+<p style="Heading 2">Martin Sevior</p>
+<p style="Normal">Fixes for RTF import of tables.</p>
+<p style="Normal">Enable copy and paste of whole tables.</p>
+<p style="Normal">Fixes to RTF import/export of positioned columns.</p>
+<p style="Normal">Bug fix to MSWord lists.</p>
+<p style="Normal">Fixes for copying and pasting tables.</p>
+<p style="Normal">Disallow saves if the piecetable is changing.</p>
+<p style="Normal">Work on the incremental loader.</p>
+<p style="Normal">Fix display of cursor on top line of screen.</p>
+<p style="Normal">Remove some pixel dirt and blank artefacts.</p>
+<p style="Normal">Export documents with footnotes/endnotes to HTML, putting footnotes and endnotes at the end.</p>
+<p style="Normal">Removed cursor dirt when scrolling with the caret off-screen.</p>
+<p style="Normal">Arrow keys now move out of foonote/endnote containers.</p>
+<p style="Normal">HIGified Format Footnotes dialog on Unix.</p>
+<p style="Normal">Bug fixes: 5117</p>
+<p style="Heading 2">Giovanni Sora</p>
+<p style="Normal">Italian localisation work.</p>
+</section>
+</abiword>
