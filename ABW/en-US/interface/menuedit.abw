@@ -1,17 +1,22 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
-<!-- =====================================================================  -->
-<!-- This file is an AbiWord document.                                      -->
-<!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at www.abisource.com     -->
-<!-- You should not edit this file by hand.                                 -->
-<!-- =====================================================================  -->
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.6" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Tue Sep  9 23:01:24 2003</m>
+</metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.000000; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3056in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.0417in; line-height:1.000000; font-size:17pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; text-indent:0.00cm; line-height:1.000000; font-weight:bold; margin-top:0.3056in; font-family:Arial"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section header="292299180">
@@ -23,7 +28,7 @@
 <p style="Normal">Undo itself does not count as an action.</p>
 <p style="Heading 2">Redo</p>
 <p style="Normal">Redo is the inverse of undo. It is only available when an action has been undone, and it redoes the most recently undone action. Like undo, it can be applied repeatedly to redo a large number of actions.</p>
-<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">It is not possible to skip one or more actions in a sequence of undo/redo steps</c>. Actions can only be undone and redone in order.</p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">It is not possible to skip one or more actions in a sequence of undo/redo steps</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c>. Actions can only be undone and redone in order.</p>
 <p style="Heading 2">Cut</p>
 <p style="Normal">Cut removes the selected text from the document and places it on the clipboard. This replaces any text previously placed on the clipboard. The formatting of the text is retained, as well as its content.</p>
 <p style="Normal">This command is only available when there is selected text.</p>
@@ -44,14 +49,5 @@
 <p style="Normal">Replace allows you search for occurrences of a search string in your document and replace it with a replacement string. Selecting this command calls up the Replace dialog.</p>
 <p style="Heading 2"><a xlink:href="dialoggoto.html">Go To...</a></p>
 <p style="Normal">This command allows you to move rapidly through a document. Selecting it calls up the Go To dialog.</p>
-<p style="Heading 2">Edit Header</p>
-<p style="Normal">Selecting this command allows you to edit your document header. The header is an amount of text placed on every page of a document, in the top margin. You can edit it in exactly the same way as any other text.</p>
-<p style="Normal">To return to the main text, click within it to move the insertion point. Clicking within the header will move the insertion point back there.</p>
-<p style="Heading 2">Edit Footer</p>
-<p style="Normal">This command allows you to edit the document footer. The footer is the equivalent of the header, but in the bottom margin.</p>
-<p style="Heading 2"><c props="list-tag:1999223548">Remove Header</c></p>
-<p style="Normal"><c props="list-tag:1999223548">This command removes the header from a document. It does not merely delete the content, but also removes the header's 'container' from the document. If the header is already empty, the change is only visible if Show Paragraphs is selected.</c></p>
-<p style="Heading 2"><c props="list-tag:1999223548">Remove Footer</c></p>
-<p style="Normal"><c props="list-tag:1999223548">This command removes the footer from a document, as for Remove Header, above.</c></p>
 </section>
 </abiword>
