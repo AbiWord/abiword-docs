@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" version="1.1.4" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:en-US">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- More information about AbiWord is available at http://www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Mon Mar 31 18:19:45 2003</m>
+</metadata>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1">1.1.5 Changelog</p>
+<p style="Heading 2">Francesco Cheratzu</p>
+<p style="Normal">Sardinian localisation work.</p>
+<p style="Heading 2">Frank Franklin</p>
+<p style="Normal">Extensive work on the way properties are attached to tables, allowing sensible inheritance and, potentially, styling and editing.</p>
+<p style="Normal">Bumped wv version number.</p>
+<p style="Heading 2">Marco Innocenti</p>
+<p style="Normal">Italian localisation work.</p>
+<p style="Heading 2">Dom Lachowicz</p>
+<p style="Normal">Bug fixes: 4741</p>
+<p style="Heading 2">Jordi Mas</p>
+<p style="Normal">Win32 Format Table dialog.</p>
+<p style="Normal">Bug fixes: 4651</p>
+<p style="Heading 2">Marc Maurer</p>
+<p style="Normal">Gladification of Format Table dialog.</p>
+<p style="Heading 2">Martin Sevior</p>
+<p style="Normal">Changed AbiWidget:: to AbiWidget-- in property names to avoid confusion due to automatic bonobo conversions.</p>
+<p style="Normal">Fixed lots of bugs and crashes concerning endnotes and tables, and speeded up typing and editing in tables and in docs with footnotes.</p>
+<p style="Normal">Made AbiWord function as a Nautilus view.</p>
+<p style="Normal">Fixed a gtk-only compile error.</p>
+<p style="Normal">Fixed a crash on right-click in bonobo.</p>
+<p style="Normal">Bug fixes: 4756, 4760</p>
+</section>
+</abiword>
