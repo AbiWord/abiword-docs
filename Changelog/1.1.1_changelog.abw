@@ -18,6 +18,9 @@
 <p style="Heading 1"><c props="lang:en-GB"></c>1.1.1 Changelog</p>
 <p style="Heading 2">Pierre Abbat</p>
 <p style="Normal">Lojban localisation work.</p>
+<p style="Heading 2">Joaquin Cuenca Abela</p>
+<p style="Normal">Massive patch so that AbiWord can use Xft to handle fonts on unix.</p>
+<p style="Normal">Performance improvements to xft patch.</p>
 <p style="Heading 2">Christian Biesinger</p>
 <p style="Normal">Documentation for Star Office importer.</p>
 <p style="Normal">Improvements to Star Office importer, including reading metadata.</p>
@@ -52,6 +55,9 @@
 <p style="Normal">Update peer libpng to 1.2.3.</p>
 <p style="Normal">NSI files for creating plugin installers.</p>
 <p style="Normal">Win32 build fixes.</p>
+<p style="Normal">Fix to unload plugins properly on Win32.</p>
+<p style="Normal">Small build fixes for file download dialog on Win32.</p>
+<p style="Normal">File download cancel dialog on Win32.</p>
 <p style="Heading 2">Andrew Dunbar</p>
 <p style="Normal">New version of the world.abw file which tests language and script support.</p>
 <p style="Normal">Support for ruby/furigana tags in HTML import. We should now display the furigana inline in brackets.</p>
@@ -60,6 +66,9 @@
 <p style="Normal">About dialog now works on MacOS X.</p>
 <p style="Normal">Fixed some breakage on Win32.</p>
 <p style="Normal">Fixes to documentation creation script.</p>
+<p style="Normal">Disabled some Cocoa (= MacOS X) code which was broken by Frank Franklin's spider work.</p>
+<p style="Normal">Cocoa build fixes.</p>
+<p style="Normal">Bug fixes: 3109 (UNIX)</p>
 <p style="Heading 2">Frank Franklin</p>
 <p style="Normal">Version number fix.</p>
 <p style="Normal">Fixes to the dictionary hash downloader.</p>
@@ -88,6 +97,14 @@
 <p style="Normal">Fix to allow wv to build as a dynamic library on MacOS X.</p>
 <p style="Normal">Fixes to AikSaurus namespace so that it builds with gcc 3.1.</p>
 <p style="Normal">Build fix so we no longer get missing -lXi.</p>
+<p style="Normal">Created a simple plugin interface (SPI). It is now possible to build plugins that depend on a particular version of Abi.</p>
+<p style="Normal">Build fix for wv.</p>
+<p style="Normal">Tidied XAP_Module.</p>
+<p style="Normal">Ported nautilus detection to auto* build.</p>
+<p style="Normal">Added posix threads detection to build system.</p>
+<p style="Normal">Work on wv and abi bundling for Cocoa.</p>
+<p style="Normal">automake-execution for plugins. I have no idea what this does.</p>
+<p style="Normal">Hacks to stop optimizing compilers optimizing Abi into non-functionality.</p>
 <p style="Normal">Bug fixes: 3592.</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Changed Abi to use a 32-bit internal Unicode representation.</p>
@@ -111,12 +128,25 @@
 <p style="Normal">Work on revision tracking, so that changes made to a document are visible, and associated with the person who made them.</p>
 <p style="Normal">Work on UI for using revision tracking.</p>
 <p style="Normal">Added hidden text formatting.</p>
-<p style="Normal">Bug fixes: 3351</p>
+<p style="Normal">Added a 'hidden' formatting checkbox to the Win32 font dialog.</p>
+<p style="Normal">Fixes for hidden text.</p>
+<p style="Normal">Fixes for revision marks.</p>
+<p style="Normal">Fixes to import/export of document properties.</p>
+<p style="Normal">Fixes to language handling.</p>
+<p style="Normal">Fonts documentation update.</p>
+<p style="Normal">Fix to ttf tool to indicate that it shouldn't be used with CJK fonts.</p>
+<p style="Normal">Fixed an assert on startup.</p>
+<p style="Normal">Fixes for hyperlink insertion.</p>
+<p style="Normal">Fixed a couple of crasher bugs, which may be bug 2715.</p>
+<p style="Normal">Bug fixes: 2698, 3008, 3089, 3109, 3060, 3122, 3351, 3582, 3590, 3722</p>
 <p style="Heading 2">Gabriel Gerhardsson</p>
 <p style="Normal">Added a dictionary hash downloader.</p>
 <p style="Normal">curlhash fixes.</p>
 <p style="Normal">Build instructions update.</p>
 <p style="Normal">Swapped returns in UT_path.</p>
+<p style="Normal">Added dialog for file download.</p>
+<p style="Normal">Fixes to dictionary hash downloader, and cache of file list.</p>
+<p style="Normal">Update to BUILD.TXT.</p>
 <p style="Heading 2">Mark Gilbert</p>
 <p style="Normal">Tweak to wikipedia plugin.</p>
 <p style="Normal">Updated credits file.</p>
@@ -127,6 +157,7 @@
 <p style="Normal">Complete overhaul of diving make system.</p>
 <p style="Normal">Fixes to architecture-specific optimization.</p>
 <p style="Normal">Fix to libpng build, with help from Jeremy Davis.</p>
+<p style="Normal">Fixes to table menu.</p>
 <p style="Normal">Bug fixes: 3095.</p>
 <p style="Heading 2">Eglë Girinaitë<c></c></p>
 <p style="Normal">Lithuanian localisation update.</p>
@@ -141,12 +172,15 @@
 <p style="Normal">Norwegian Nynorsk update.</p>
 <p style="Heading 2">Nikolaj Brandt Jensen</p>
 <p style="Normal">Update to build.txt file.</p>
+<p style="Heading 2">Martin Junius</p>
+<p style="Normal">Added XML support to wv.</p>
 <p style="Heading 2">William Lachance</p>
 <p style="Normal">Fixes to import of lists from WordPerfect documents.</p>
 <p style="Normal">Other patches to WordPerfect exporter.</p>
 <p style="Normal">Fix to About dialog in GTK2 port.</p>
 <p style="Normal">Fix asserts on startup in GTK2 port.</p>
 <p style="Normal">Temporary hack to combo boxes in GTK2 port. They may be replaced with a different GTK2 feature.</p>
+<p style="Normal">Improved extended character support in WordPerfect importer.</p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">RTF importer handles /sectd.</p>
 <p style="Normal">Moved most import/export filters to plugins.</p>
@@ -206,7 +240,10 @@
 <p style="Normal">More fixes for endnotes, making them much more stable.</p>
 <p style="Normal">Code cleanup in layout code.</p>
 <p style="Normal">Fix for header/footer problem arising from table code.</p>
-<p style="Normal">Bug fixes: 3215, 3324, 3587.</p>
+<p style="Normal">Killed some annoying debug messages for menus.</p>
+<p style="Normal">Fixes to compiler warnings and such in wv.</p>
+<p style="Normal">Beginnings of work on footnotes.</p>
+<p style="Normal">Bug fixes: 1928, 3215, 3324, 3587.</p>
 <p style="Heading 2">Per Larsson</p>
 <p style="Normal">Swedish localisation update.</p>
 <p style="Normal">Fixes for header and footer placement in RTF.</p>
@@ -216,6 +253,9 @@
 <p style="Normal">Finnish system profile.</p>
 <p style="Heading 2">Jordi Mas</p>
 <p style="Normal">Insert Table dialog for Win32.</p>
+<p style="Normal">Beginnings of Win32 drag-n-drop editing.</p>
+<p style="Normal">Further work on Win32 drag-n-drop editing.</p>
+<p style="Normal">Catalan localisation update.</p>
 <p style="Normal">Bug fixes: 3287</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal"><c props="font-weight:normal">Build fixes for numerous plug-ins.</c><c props="font-weight:normal"></c></p>
@@ -231,14 +271,22 @@
 <p style="Normal"><c props="font-weight:normal">Fix to HTML plugin.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Updated nl-NL translation to 100%.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Table import from WordPerfect.</c><c props="font-weight:normal"></c></p>
-<p style="Normal"><c props="font-weight:normal">Fixed a typo in ap_convert.</c></p>
-<p style="Normal"><c props="font-weight:normal">GTK &amp; GNOME Insert Table dialog.</c></p>
-<p style="Normal"><c props="font-weight:normal">Added auto disabling of Table menu commands that don't apply when you aren't in a table.</c></p>
-<p style="Normal"><c props="font-weight:normal">Fixed column resizing.</c></p>
-<p style="Normal"><c props="font-weight:normal">Fixes to the left ruler for tables.</c></p>
-<p style="Normal"><c props="font-weight:normal">Bug fixes: 3533.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed a typo in ap_convert.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">GTK &amp; GNOME Insert Table dialog.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Added auto disabling of Table menu commands that don't apply when you aren't in a table.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed column resizing.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixes to the left ruler for tables.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed a table-related crash in the top ruler.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed general table-related ruler stuff.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Added option to insert tables with a fixed column width.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Added a couple of abstract functions to Win32 to fix build breakage.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Support for different table cell border colors, different background colors, line styles, and background styles.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fix a segfault he created.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Bug fixes: 3507, 3533.</c><c props="font-weight:normal"></c></p>
 <p style="Heading 2">Tim Mooney</p>
 <p style="Normal">Bug fixes: 3332.</p>
+<p style="Heading 2">Iassen Pramatarov</p>
+<p style="Normal">Bulgarian localisation update.</p>
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Diving make system for I/E plugins.</p>
 <p style="Normal">Fixes for popt use on Win32.</p>
@@ -253,15 +301,16 @@
 <p style="Normal">Welsh localisation update.</p>
 <p style="Heading 2">Gilles Saint-Denis</p>
 <p style="Normal">French translation of the documentation.</p>
-<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix for the doc generation script to allow for multiple languages.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
-<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix to header.xhtml in plugins documentation.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
-<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">French localisation update.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix for the doc generation script to allow for multiple languages.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix to header.xhtml in plugins documentation.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">French localisation update.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
 <p style="Heading 2">Andrew Schoenhofer</p>
 <p style="Normal">Documenation work.</p>
 <p style="Heading 2">Oliver Schurr</p>
 <p style="Normal">German localisation update.</p>
 <p style="Heading 2">Rui Miguel Seabra</p>
 <p style="Normal">Work on rpm spec template.</p>
+<p style="Normal">Added nautilus detection to diving make.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Turned AbiWord into an embeddable application in GNOME.</p>
 <p style="Normal">Fix to diving make.</p>
@@ -276,16 +325,30 @@
 <p style="Normal">AbiWord can draw lines round tables.</p>
 <p style="Normal">AbiWord has nice ruler controls for tables.</p>
 <p style="Normal">AbiWord has a Table menu. Doesn't <c props="font-style:italic">do</c><c props="font-style:italic"></c><c props="font-style:normal"> anything yet.</c></p>
-<p style="Normal"><c props="font-style:normal">Fixed Insert Table so that you can make tables from within AbiWord. Still a bit buggy.</c></p>
+<p style="Normal"><c props="font-style:normal">Fixed Insert Table so that you can make tables from within AbiWord. Still a bit buggy.</c><c props="font-style:normal"></c></p>
 <p style="Normal"><c props="font-style:normal">Fixed width columns in tables.</c><c props="font-style:normal"></c></p>
-<p style="Normal"><c props="font-style:normal">Fixed Undo/Redo for Insert Table.</c></p>
-<p style="Normal"><c props="font-style:normal">Deleting selected text between table cells now deletes only the text.</c></p>
-<p style="Normal"><c props="font-style:normal">Make it possible to delete whole tables.</c></p>
+<p style="Normal"><c props="font-style:normal">Fixed Undo/Redo for Insert Table.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Deleting selected text between table cells now deletes only the text.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Make it possible to delete whole tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed undo after deleting tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Implement deleting rows and columns in tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Implemented inserting columns in tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Reduced bleeding of table background colors.</c><c props="font-style:normal"></c></p>
 <p style="Normal"><c props="font-style:normal">Fixed a crash on exit.</c><c props="font-style:normal"></c></p>
-<p style="Normal"><c props="font-style:normal">Small code refactoring.</c></p>
-<p style="Normal">Bug fixes: 3423</p>
+<p style="Normal"><c props="font-style:normal">Small code refactoring.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Build fix.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixes to GNOME build.</c><c props="font-style:normal"></c></p>
+<p style="Normal">Bug fixes: 1928, 3423</p>
 <p style="Heading 2">Jesper Skov</p>
 <p style="Normal">Code cleanup in fv_view.</p>
+<p style="Normal">Added comments to squiggles code.</p>
+<p style="Normal">Fix thread dependency building.</p>
+<p style="Normal">Fix the --geometry option, so that it actually works.</p>
+<p style="Normal">Fixed a bunch of compiler warnings.</p>
+<p style="Normal">Cleaned up access to view.</p>
+<p style="Normal">Cleaned up header dependencies.</p>
+<p style="Normal">Made all colors used by Abi user-configurable, rather than hardwired. Fixes bug 1747.</p>
+<p style="Normal">Tweak to default window size (800x600, not 600x800).</p>
 <p style="Heading 2">Olexij Tkatchenko</p>
 <p style="Normal">Ukrainian localisation update.</p>
 <p style="Heading 2">Sam Tobin-Hochstadt</p>
