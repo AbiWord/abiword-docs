@@ -1,16 +1,21 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.5" fileformat="1.0" styles="unlocked">
+<abiword template="false" styles="unlocked" version="1.9.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:en-US">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- More information about AbiWord is available at http://www.abisource.com     -->
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Sat Apr 26 19:09:33 2003</m>
+</metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3319in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 <s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
@@ -18,8 +23,10 @@
 <p style="Heading 1"><c props="lang:en-GB"></c>1.1.4 Changelog</p>
 <p style="Heading 2">Christian Biesinger</p>
 <p style="Normal">Enabled choice of page size in page setup dialog.</p>
+<p style="Normal">Fixed a casting away of constness in the StarOffice plugin.</p>
 <p style="Heading 2">Johan Björk</p>
 <p style="Normal">Fixes to QNX build arising from units work.</p>
+<p style="Normal">Fix to FV_view::cmdSelect()</p>
 <p style="Heading 2">Besnik Bleta</p>
 <p style="Normal">Albanian localisation work.</p>
 <p style="Heading 2">Mikey Cooper</p>
@@ -35,12 +42,17 @@
 <p style="Normal">Compile date returned as compile date, rather than build ID.</p>
 <p style="Normal">Updated peer expat to 1.95.6.</p>
 <p style="Normal">Build fix under MSVC 5.</p>
+<p style="Normal">Fixed an incorrect expression in RTL code.</p>
+<p style="Normal">Build fix related to iconv.</p>
 <p style="Heading 2">Andrew Dunbar</p>
 <p style="Normal">ispell code refactoring.</p>
 <p style="Normal">Encoding manager work.</p>
 <p style="Normal">Lots of conversions of C casts to C++ casts.</p>
 <p style="Normal">Changed basic en profile from en-AU to en-US.</p>
 <p style="Normal">Added profiles for many RTL languages.</p>
+<p style="Normal">Fixes for const-correctness.</p>
+<p style="Normal">Upgraded C casts to C++ casts for plugins.</p>
+<p style="Normal">Bug fixes: 3596</p>
 <p style="Heading 2">Hubert Figuiere</p>
 <p style="Normal">Fixed compile warnings.</p>
 <p style="Normal">Updated PB project files.</p>
@@ -51,12 +63,20 @@
 <p style="Normal">Squashed compile warnings in wv.</p>
 <p style="Normal">Fixed warnings and build breakage due to cast changes.</p>
 <p style="Normal">Added ProjectBuilder files for building Abi on MacOS X.</p>
+<p style="Normal">Fix MacOS X build files and copy OLE headers to framework.</p>
 <p style="Normal">Various Mac fixes.</p>
+<p style="Normal">Fixed a bug in expat.</p>
+<p style="Normal">Fix a segfault on MacOS X.</p>
+<p style="Normal">Rulers fix.</p>
+<p style="Normal">Include popt in Cocoa build.</p>
 <p style="Heading 2">Raphael Finkel</p>
 <p style="Normal">Fixes to perl scripts to generate po files.</p>
 <p style="Normal">Yiddish localisation work.</p>
+<p style="Heading 2">Ramon Flores</p>
+<p style="Normal">Galician localisation work.</p>
 <p style="Heading 2">Anthony Fok</p>
 <p style="Normal">Japanese localisation work.</p>
+<p style="Normal">Encoding handling fix.</p>
 <p style="Heading 2">Frank Franklin</p>
 <p style="Normal">Removed pedantic flags from wv build if building on QNX.</p>
 <p style="Normal">Fixed makefiles to not install fonts if xft is enabled, and to not install dictionaries if pspell is enabled.</p>
@@ -70,6 +90,13 @@
 <p style="Normal">Put the basic XHTML importer back into Abi, rather than a plug-in.</p>
 <p style="Normal">XML work and XHTML import fixes.</p>
 <p style="Normal">New HTML import plug-in.</p>
+<p style="Normal">Build fixes.</p>
+<p style="Normal">XHTML cast changes.</p>
+<p style="Normal">Added a class to generate XML IDs.</p>
+<p style="Normal">Added a plugin containing preliminary code for a new file format for Abi.</p>
+<p style="Normal">Removed illegitimate colours from named list.</p>
+<p style="Normal">Removed equation of ffffff with transparent.</p>
+<p style="Normal">Work on Abi's internal properties.</p>
 <p style="Normal">Bug fixes: 4540</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Pointer initialisations in ispell code.</p>
@@ -89,8 +116,23 @@
 <p style="Normal">Fixed an invalid free() problem.</p>
 <p style="Normal">Build fix in wv.</p>
 <p style="Normal">Added --enable-symbols compile flag.</p>
+<p style="Normal">Diving make support for libglade.</p>
+<p style="Normal">Updated diving make to make AbiWord-2.0 binary, and to be otherwise compatible with auto* build.</p>
+<p style="Normal">Fixes to Win32 diving make.</p>
+<p style="Normal">Allow Win32 diving make not to use peer iconv.</p>
 <p style="Heading 2">Masayuki Hatta</p>
 <p style="Normal">Japanese localisation work.</p>
+<p style="Heading 2">Larin Hennessy</p>
+<p style="Normal">Updated C casts to C++ in docbook and xsl-fo plugins.</p>
+<p style="Normal">Fix a reinterpret cast error in xsl-fo.</p>
+<p style="Normal">Update docbook plugin to use latest versions of docbook file format.</p>
+<p style="Normal">Cast cleanup in OpenOffice plugin.</p>
+<p style="Normal">Cast cleanup in StarOffice, Docbook, and HTML plugins.</p>
+<p style="Normal">Cast cleanup in XHTML plugin.</p>
+<p style="Heading 2">William Lachance</p>
+<p style="Normal">OpenOffice exporter refactoring and support for span properties.</p>
+<p style="Normal">Clean up of WordPerfect importer.</p>
+<p style="Normal">Added column import to OpenOffice importer.</p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">Work on GNOME 2 port.</p>
 <p style="Normal">Build fixes in language code.</p>
@@ -121,11 +163,32 @@
 <p style="Normal">Gnome Print now handles justified text.</p>
 <p style="Normal">Removed file-type extensions from references to help files in the source code, so that they can added dynamically.</p>
 <p style="Normal">Fixed an assert and crash arising when you tried to use Abi from the command line.</p>
-<p style="Normal">Bug fixes: 615, 1539, 1540, 1621, 2102, 3645, 3832, 4294, 4561, 4563, 4573</p>
-<p style="Heading 2">Johnny Lee</p>
-<p style="Normal">Fix typo in ie_imp_RTF.</p>
-<p style="Normal">Bug fixes: 3269, 3550, 3845</p>
-<p style="Heading 2">Patrick Lam</p>
+<p style="Normal">Fix to let Abi run on unix without a valid display.</p>
+<p style="Normal">Removed some old source files.</p>
+<p style="Normal">Removed the help files from the source tree.</p>
+<p style="Normal">Win32 build fixes.</p>
+<p style="Normal">Bonobo printing fix.</p>
+<p style="Normal">Incorporate gucharmap, and use it for the Insert Symbol dialog.</p>
+<p style="Normal">Added a script to automatically generate DocBook versions of the documentation.</p>
+<p style="Normal">Updates to HTML documentation script.</p>
+<p style="Normal">Script to make HTML help pages in a gnome-friendly fashion.</p>
+<p style="Normal">Fixes to HTML export.</p>
+<p style="Normal">Gnome-help integration.</p>
+<p style="Normal">GnomeSpell integration and other spelling improvements.</p>
+<p style="Normal">Improve spellcheck to use correctWord API.</p>
+<p style="Normal">Fix memory leaks.</p>
+<p style="Normal">Fixes to OpenOffice importer, including preparation for importing styles.</p>
+<p style="Normal">Fix GTK printing of justified text.</p>
+<p style="Normal">Suppress grey background for fields when printing.</p>
+<p style="Normal">Substantially improved OpenOffice style importing.</p>
+<p style="Normal">Build fixes for abicommand.</p>
+<p style="Normal">Fixed a problem where the font preview was displaying at 180 point.</p>
+<p style="Normal">Fixed a header/footer crash.</p>
+<p style="Normal">Removed the UCS2 string classes, as they are not used.</p>
+<p style="Normal">Some warning fixes and speed-ups.</p>
+<p style="Normal">Patch to make table toolbar widget work on obscure gtk/glib setups.</p>
+<p style="Normal">Bug fixes: 615, 1237, 1539, 1540, 1621, 2102, 2157, 3297, 3645, 3832, 4294, 4481, 4561, 4563, 4573, 4648, 4652, 4692, 4693</p>
+<p style="Heading 2"><c></c>Patrick Lam</p>
 <p style="Normal">Removed redundant #ifdefs in layout code.</p>
 <p style="Normal">Removed redundant MyMin and MyMax functions.</p>
 <p style="Normal">Enormous patch to use only one set of units (layout units) throughout Abi.</p>
@@ -133,9 +196,24 @@
 <p style="Normal">Changed a variable name to clean up after units patch.</p>
 <p style="Normal">Fixed an infinite loop in Fit to Width zoom.</p>
 <p style="Normal">Improvement in ut_units, removing its depedency on GR_Graphics.</p>
-<p style="Normal">Big fixes: 4633</p>
-<p style="Heading 2">Jordi Mas</p>
+<p style="Normal">Removed --show command line option.</p>
+<p style="Normal">Split up the command line function.</p>
+<p style="Normal">Fix caret awareness of window width.</p>
+<p style="Normal">Bug fixes: 3280, 4633</p>
+<p style="Heading 2"><c props="font-family:Arial; font-size:14pt; lang:en-GB; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none">Johnny Lee</c><c props="font-family:Arial; font-size:14pt; lang:en-GB; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Fix typo in ie_imp_RTF.</c><c props="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Bug fixes: 3269, 3550, 3845</c><c props="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Heading 2"><c></c>Jordi Mas</p>
 <p style="Normal">Win32 build fixes related to ABISUITE_HOME.</p>
+<p style="Normal">Disable typing in font, font size, and style combo boxes.</p>
+<p style="Normal">Fix top and left rulers in Win32.</p>
+<p style="Normal">Fix Win32 toolbars.</p>
+<p style="Normal">Fix spelling options on Win32.</p>
+<p style="Normal">Fixed frame drawing problems.</p>
+<p style="Normal">Fix Win32 image drawing.</p>
+<p style="Normal">Resurrect the Win32 caret.</p>
+<p style="Normal">Implement font preview in Win32.</p>
+<p style="Normal">Fixed Win32 context menus.</p>
 <p style="Normal">Bug fixes: 4147</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal">Fixed some compile warnings.</p>
@@ -146,11 +224,24 @@
 <p style="Normal">Dutch localisation work.</p>
 <p style="Normal">Fix to Format Table dialog related to unified units work.</p>
 <p style="Normal">Build fix for wordperfect plugin.</p>
+<p style="Normal">Gladeified Insert Table dialog.</p>
+<p style="Normal">Gladeified Insert Page Numbers dialog.</p>
+<p style="Normal">Made Insert Page Numbers preview fancier.</p>
+<p style="Normal">Gladeified Header/Footer dialog.</p>
+<p style="Normal">Work on cell marker dragging.</p>
+<p style="Normal">Gladeified Zoom dialog.</p>
+<p style="Normal">Gladeified Date/Time dialog.</p>
+<p style="Normal">Gladeified Field dialog.</p>
+<p style="Normal">Cast fix.</p>
+<p style="Normal">Bug fixes: 4664</p>
 <p style="Heading 2">Rodrigo Moya</p>
 <p style="Normal">Update to LibGDA plugin, so that mail merge 'just works'.</p>
+<p style="Heading 2">Christian Neumair</p>
+<p style="Normal">German localisation work.</p>
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Upgrade peer expat.</p>
 <p style="Normal">Use system-specified selection colour on Win32.</p>
+<p style="Normal">Win32 build fixes.</p>
 <p style="Heading 2">Rhoslyn Prys</p>
 <p style="Normal">Welsh localisation work.</p>
 <p style="Heading 2">Sharuzzaman Ahmat Raslan</p>
@@ -158,6 +249,7 @@
 <p style="Heading 2">Rui Miguel Seabra</p>
 <p style="Normal">Fix size of Language dialog so that Help button fits.</p>
 <p style="Normal">Fix to rpm spec template to account for the demise of the wrapper script.</p>
+<p style="Normal">Build fix.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Change Insert Symbol to use a vector rather than an array.</p>
 <p style="Normal">Fix UnixGraphics to handle multiple symbol fonts.</p>
@@ -182,10 +274,25 @@
 <p style="Normal">Fix so that Zoom is remembered between sessions and frames.</p>
 <p style="Normal">Fixed deletion of footnotes and endnotes.</p>
 <p style="Normal">Fixed some GTK-critical warnings from abiwidget.</p>
-<p style="Normal">Bug fixes: 4500, 4549</p>
+<p style="Normal">Fix some table-related bugs.</p>
+<p style="Normal">Major speed-up by caching properties.</p>
+<p style="Normal">Table bug fixes.</p>
+<p style="Normal">Endnotes now change to the requested type.</p>
+<p style="Normal">Fix to make endnotes appear at the end of the document.</p>
+<p style="Normal">Fixed an invalid delete [] in RTF export.</p>
+<p style="Normal">Fixed clicking in Insert Symbol.</p>
+<p style="Normal">Make the font preview appear when you first load it.</p>
+<p style="Normal">Fix some header/footer/footnote bugs.</p>
+<p style="Normal">Fixed a crash.</p>
+<p style="Normal">bonobo2 server file.</p>
+<p style="Normal">Abi can be embedded as a bonobo component.</p>
+<p style="Normal">Bug fixes: 2715, 4111, 4416, 4500, 4549, 4649, 4657, 4706</p>
 <p style="Heading 2">Tim Silversides</p>
 <p style="Normal">Patch to allow printing pages in reverse order.</p>
+<p style="Heading 2">Chad Thomas</p>
+<p style="Normal">Linux/PPC build fixes.</p>
 <p style="Heading 2">Sam Tobin-Hochstadt</p>
 <p style="Normal">Added a long footnote test document.</p>
+<p style="Normal">Fixed configure for people who only have aspell.</p>
 </section>
 </abiword>
