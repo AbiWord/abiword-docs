@@ -12,7 +12,13 @@
 <section>
 <p style="Heading 1"><c style="Heading 1" props="lang:en-GB">AbiWord 0.9.3 Release Notes</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">These changes have been made since 0.9.2.</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
-<p style="Normal Clean" props="text-indent:-35.0mm; margin-left:35.0mm"><c style="Normal Clean" props="lang:en-GB">Jakub Steiner:	New splash screen.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Nils Barth</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Exporter bug fix.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">KWord exporter. This is not yet complete, but it is functional.</c></p>
+<p style="Heading 2" props="text-indent:-35.0mm; margin-left:35.0mm"><c style="Heading 2">Martin Sevior</c></p>
+<p style="Normal Clean" props="text-indent:-35.0mm; margin-left:35.0mm"><c></c>Removed a debug message that was annoying Hub.</p>
+<p style="Normal Clean" props="text-indent:-35.0mm; margin-left:35.0mm">Fixed a bug in the source code configuration which was turning the Style dialog off.</p>
+<p style="Heading 2" props="text-indent:-35.0mm; margin-left:35.0mm"><c style="Heading 2" props="lang:en-GB">Jakub Steiner</c></p>
+<p style="Normal Clean" props="text-indent:-35.0mm; margin-left:35.0mm"><c style="Normal Clean" props="lang:en-GB"></c><c style="Normal Clean" props="lang:en-GB">New splash screen.</c></p>
 </section>
 </abiword>
