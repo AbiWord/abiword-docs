@@ -15,7 +15,7 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Heading 1">AbiWord 0.99.3 Changelog</p>
+<p style="Heading 1"><c props="lang:en-GB"></c>AbiWord 0.99.3 Changelog</p>
 <p style="Normal">This document lists all the changes made to AbiWord between 0.99.2 and 0.99.3. Some of these changes may not be visible in the final release, due to being insufficiently complete.</p>
 <p style="Heading 2">Frank Franklin</p>
 <p style="Normal">Increased version numbers in source directories.</p>
@@ -23,6 +23,8 @@
 <p style="Normal">Defin XML_Encoding.</p>
 <p style="Normal">Include plugins in make distribution.</p>
 <p style="Normal">Update copyleft dates.</p>
+<p style="Normal">Fixes to autoskip in plugins.</p>
+<p style="Normal">Fix problems with libxml2.</p>
 <p style="Heading 2">Masayuki Hatta</p>
 <p style="Normal">Japanese translation.</p>
 <p style="Heading 2">Karl Trigve Kalleberg</p>
@@ -32,12 +34,18 @@
 <p style="Normal">Plugin code fix.</p>
 <p style="Normal">Work on UT_String_print methods, and consequent removal of spintf() from import/export. (sprintf() is evil.)</p>
 <p style="Normal">Work on removing strcopy and strcat from import/export.</p>
+<p style="Normal">Added heuristics to importers to cope with dodgy documents.</p>
 <p style="Heading 2">Birger Langkjer</p>
 <p style="Normal">Danish translation.</p>
 <p style="Heading 2">Mike Pritchett</p>
 <p style="Normal">Lots of work getting many plugins to build and work on Win32.</p>
+<p style="Normal">Work on incremental loader for Win32.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Fix RTF import of tabs.</p>
+<p style="Normal">Added image resizing, and fixed clipboard use of resized images.</p>
+<p style="Normal">Fixed an assert during header/footer creation.</p>
+<p style="Normal">Fixed a segfault on 'Insert File'.</p>
+<p style="Normal">Bug fixes, including 2102, 2748.</p>
 <p style="Heading 2">Radek Vybiral</p>
 <p style="Normal">Fix for ui-backport.pl.</p>
 <p style="Normal">Czech translation.</p>
