@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.0" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:en-GB"></c>1.1.0 Changelog</p>
+<p style="Normal">As usual, just changes, not real release notes. For a post 1.0 version. Yippee! These are identical in content to the 1.0.1 release notes, because 1.0.1 and 1.1.0 are the same release. (This will also be true of 1.1.1 and 1.1.1, but does not generalise further.)</p>
+<p style="Heading 2">Christian Biesinger</p>
+<p style="Normal">Beginnings of a StarOffice importer.</p>
+<p style="Normal">Improvements to password entry dialog.</p>
+<p style="Normal">Fix an assert on password entry dialog.</p>
+<p style="Heading 2">David Chart</p>
+<p style="Normal">Help system updates.</p>
+<p style="Heading 2">Jeremy Davis</p>
+<p style="Normal">AbiPaint plugin improvements.</p>
+<p style="Normal">Plugin linking fix on Win32.</p>
+<p style="Heading 2">Hubert Figuiere</p>
+<p style="Normal">Fix endian problems with StarOffice importer.</p>
+<p style="Normal">Build fixes.</p>
+<p style="Normal">Bug fixes: 3211.</p>
+<p style="Heading 2">Frank Franklin</p>
+<p style="Normal">Build system fixes.</p>
+<p style="Normal">Fixes to wv.</p>
+<p style="Normal">New UTF8 string class.</p>
+<p style="Heading 2">Tomas Frydrych</p>
+<p style="Normal">Added byteLength () method to UT_utf8string.</p>
+<p style="Heading 2">Dom Lachowicz</p>
+<p style="Normal">Added a format painter.</p>
+<p style="Normal">Added abiwidget to build system.</p>
+<p style="Normal">Work on AbiCommand.</p>
+<p style="Normal">Fix spell checker to look for local dictionaries.</p>
+<p style="Normal">Fixed build problems on Win32.</p>
+<p style="Normal">Bug fixes: 3171, 3213</p>
+<p style="Heading 2">Pat Lam</p>
+<p style="Normal">Fix to system requirements document.</p>
+<p style="Normal">Fixed a bug with Undo.</p>
+<p style="Normal">Implemented scroll-wheel zoom.</p>
+<p style="Heading 2">Per Larsson</p>
+<p style="Normal">Fixed a small bug in AbiWord.nsi.</p>
+<p style="Heading 2">Marc Maurer</p>
+<p style="Normal">Fixes to WordPerfect margin import.</p>
+<p style="Normal">Build fix for StarOffice importer.</p>
+<p style="Heading 2">Paul Rohr</p>
+<p style="Normal">Added a Unicode sample to help us check our internationalisation.</p>
+<p style="Normal">Usability improvements to the Language dialog.</p>
+<p style="Heading 2">Martin Sevior</p>
+<p style="Normal">AbiWord is now an embeddable Bonobo component.</p>
+<p style="Normal">Fixed a build problem in abiwidget.</p>
+<p style="Heading 2">Jesper Skov</p>
+<p style="Normal">Namespace clean-up.</p>
+<p style="Normal">Hacks to AbiCommand.</p>
+<p style="Normal">Started work on an automatic testing infrastructure.</p>
+<p style="Heading 2">Andrew Venier</p>
+<p style="Normal">Fixes to clean up compiler warnings.</p>
+</section>
+</abiword>
