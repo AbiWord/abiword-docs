@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.9.0" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- More information about AbiWord is available at http://www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Sat Apr 26 20:00:40 2003</m>
+</metadata>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3319in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1">1.9.1 Changelog</p>
+<p style="Heading 2">Mikey Cooper</p>
+<p style="Normal">More GetGR -&gt; GetGraphics to fix Win32 debug build.</p>
+<p style="Heading 2">Andrew Dunbar</p>
+<p style="Normal">Conversion of C style casts to C++.</p>
+<p style="Heading 2">Hubert Figuiere</p>
+<p style="Normal">Compile warning fixes.</p>
+<p style="Normal">Fixed class consistency in TopRuler on Cocoa and Unix, and in XP land.</p>
+<p style="Normal">Fixed a cast-related build failure.</p>
+<p style="Heading 2">Daniel Glassey</p>
+<p style="Normal">Bumped diving make build version.</p>
+<p style="Heading 2">William Lachance</p>
+<p style="Normal">WordPerfect filter updates.</p>
+<p style="Normal">Fix a bug in WordPerfect list import.</p>
+<p style="Normal">libwpd 0.4.0 released. Not strictly part of Abi, but a vital part of our WordPerfect import.</p>
+<p style="Heading 2">Dom Lachowicz</p>
+<p style="Normal">Improved Mail Merge architecture.</p>
+<p style="Normal">Bug fixes: 4929</p>
+<p style="Heading 2">Jordi Mas</p>
+<p style="Normal">Remove Alt+ keyboard bindings for consistency with Win32 UI.</p>
+<p style="Normal">Fixed the Win32 Metadata dialog.</p>
+<p style="Normal">Cache Device Resolution on Win32 to remove unnecessary system calls.</p>
+<p style="Normal">Fix status bar charset conversion problems (XP).</p>
+<p style="Normal">Bug fixes: 4815, 4865, 4871, 4873, 4874</p>
+<p style="Heading 2">Marc Maurer</p>
+<p style="Normal">Initialised some values in gr_Caret.cpp</p>
+<p style="Normal">Improved loading speed for documents containing base64 data by a factor of ten or so.</p>
+<p style="Normal">GetGR -&gt; GetGraphics on Win32.</p>
+<p style="Normal">Improve image scaling. We can use a better method because we only do it once.</p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">libwpd 0.4.0 released. Not strictly part of Abi, but a vital part of our WordPerfect import.</c></p>
+<p style="Normal">Bug fixes: 4858</p>
+<p style="Heading 2">Justin McPherson</p>
+<p style="Normal">Fix Win32 keyboard code</p>
+<p style="Heading 2">Martin Sevior</p>
+<p style="Normal">Fix black holes in tables.</p>
+<p style="Normal">Fix some Nautilus crashes.</p>
+<p style="Normal">Nautilus now says 'View as Word Processor'.</p>
+<p style="Normal">Bug fixes: 4810 (partial), 4887, 4910</p>
+<p style="Heading 2">Valentine Sinitsyn</p>
+<p style="Normal">Mingw compilation work.</p>
+<p style="Heading 2">Jesper Skov</p>
+<p style="Normal">Change to use a stack variable rather than a heap object in fl_BlockLayout.</p>
+<p style="Normal">Fixed a debugging helper.</p>
+<p style="Normal">Bug fixes: 2567, 4922, 4950, 4960</p>
+<p style="Heading 2">Radek Vybiral</p>
+<p style="Normal">Czech localisation work.</p>
+</section>
+</abiword>
