@@ -38,12 +38,13 @@
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Conditionalised a BiDi debug message.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Mac OSX bug and build fixes.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Work on MS-Write importer.</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed bug 1883.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed bugs 1883, 2118.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Frank Franklin</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">wv bug fixes.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">wv bug fixes, and version number increase.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed wv to support system expat and wv libraries, and for libxml2 handling.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added UT_XML, and altered other code to use it.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">General XML parser update.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Improvements to build system.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Stephane Fritsch</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Various BeOS fixes.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Tomas Frydrych</c></p>
@@ -52,6 +53,7 @@
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added basic glyph shape selection to the BiDi build, so that Arabic is now supported and other similar languages could be.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added bookmarks, which allow you to mark part of a document so that you can go to it quickly.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added hyperlinks. Hyperlinks can now be embedded in an abiword document.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added a page reference field.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Updated the Bidirectional notes.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Improvements to the handling of tabs in paragraphs that are not left justified.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Alignment bug fixes.</c></p>
@@ -60,10 +62,13 @@
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Moved tab width calculation code to one place to ease maintenance.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed a bug which meant that changing the zoom changed tabs.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Win32 typo fix.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Various bug fixes.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Martin Gansser</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Makefile fix.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">German localisation update.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Alan Horkan</c></p>
 <p style="Normal Clean" props="tabstops:"><c style="Normal Clean" props="lang:en-GB">Fix to Win32 installer.</c></p>
+<p style="Normal Clean" props="tabstops:"><c style="Normal Clean" props="lang:en-GB">Toolbar button icons.</c></p>
 <p style="Heading 2" props="tabstops:"><c style="Heading 2" props="lang:en-GB">Karl Ove Hufthammer</c></p>
 <p style="Normal Clean" props="tabstops:"><c style="Normal Clean" props="lang:en-GB">Norwegian Nynorsk localisation update.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Marco Innocenti</c></p>
@@ -85,6 +90,7 @@
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added File&gt;Revert command.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added BiDi buttons to the extra toolbar.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added GNOME dialogs for bookmarks and hyperlinks.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added toolbar controls for bookmarks and hyperlinks.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added a dialog for resizing images.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Work on MS-Write importer.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added Catalan and Galician to the language list.</c></p>
@@ -114,16 +120,22 @@
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Cleaned Win32 compiler warnings out of ut-xml.h.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed a bug with importers and exporters.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed bug 2085.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Paul Rohr</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed a crashing bug with RTF import.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Bernhard Rosenkraenzer</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixes for several build bugs.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Pavel Roski</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed bug 2112.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Gilles Saint-Denis</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">French localisation fixes, including code changes to reduce number of truncated labels.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Rui Miguel Seabra</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Portuguese localisation update.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">New rpm spec.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Updated dumpstrings.pl.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Reworked makefiles so that they work better.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Martin Sevior</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added the ability to set a maximum height for columns, and to change the space between them.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added dynamic menus, so that menus can be automatically updated to include commands from plug-ins.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed a bug wherein the contextual menus made the cursor disappear in unix/GNOME.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed up and down movement of the cursor in fixed size columns.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fix cursor position and size for super- and sub-scripted text.</c></p>
@@ -131,7 +143,7 @@
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Tweaks to list UI.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed a spell check bug with capitalized words.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed a zoom bug which varied the number of lines on a page, and fixed a bug which was preventing WYSIWYG printing.</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixes to Aiksaurus to account for changes to Abi's plugin architecture.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixes to Aiksaurus to account for changes to Abi's plugin architecture and to use the new dynamic menus feature..</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Win32 build fix.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Several bug and build fixes.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Jesper Skov</c></p>
