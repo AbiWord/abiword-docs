@@ -31,7 +31,7 @@ do
 		do
 		      n=`echo $i|cut -f1 -d .`
 		      echo $i
-		      abiword --to=xhtml `basename $i` 2>/dev/null
+		      AbiWord-2.0 --to=xhtml `basename $i` 2>/dev/null
 		      $CVS/make-abidoc.pl -I $n.info -S header.xhtml -F footer.xhtml>$n.html
 		      rm -f $n.xhtml
 		done

@@ -33,7 +33,7 @@ do
 		      echo $i
 
 		      # save to docbook, rename to .xml
-		      abiword --to=dbk `basename $i` 2>/dev/null
+		      AbiWord-2.0 --to=dbk `basename $i` 2>/dev/null
 		      mv $n.dbk $n.xml
 		done
 

@@ -31,7 +31,7 @@ do
 		do
 		      n=`echo $i|cut -f1 -d .`
 		      echo $i
-		      abiword --to=html `basename $i` 2>/dev/null
+		      AbiWord-2.0 --to=html `basename $i` 2>/dev/null
 		done
 
 		cd $CVS
