@@ -11,8 +11,8 @@
 <!--         Build_Version     = unnumbered -->
 <!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:Off Scripting:Off -->
 <!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 23:00:30 -->
-<!--         Build_CompileDate = Jun 21 2001 -->
+<!--         Build_CompileTime = 21:15:30 -->
+<!--         Build_CompileDate = Jun 26 2001 -->
 
 <styles>
 <s type="P" name="Test" basedon="None" followedby="Current Settings" props="bgcolor:transparent; lang:en-US; font-weight:normal; font-style:italic"/>
@@ -44,9 +44,9 @@
 <p style="Normal"><c style="Normal" props="lang:en-US">This button opens the Modify Style dialog. If you click it while no style is selected, nothing happens. If you click it while a built-in style is selected, you get a warning dialog telling you that you cannot modify built-in styles. You will be able to modify these styles in a future version of AbiWord.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-US">Delete</c></p>
 <p style="Normal"><c style="Normal" props="lang:en-US">Pressing this button deletes the currently-selected style. If that style is built-in, nothing happens when you press the button.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">OK</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Pressing this button saves your changes and closes the dialog. It does not apply the style to any selected text, nor does it change the currently selected style.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Cancel</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This button closes the dialog without changing any styles.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Apply</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Pressing this button applies the currently selected style to the paragraph which contains the insertion point. It does not close the dialog.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Close</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This button closes the dialog. Any changes you made were saved when you clicked 'OK' in either the New Style or Modify Style dialogs.</c></p>
 </section>
 </abiword>
