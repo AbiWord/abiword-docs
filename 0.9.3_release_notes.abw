@@ -15,6 +15,23 @@
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Nils Barth</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Exporter bug fix.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">KWord exporter. This is not yet complete, but it is functional.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Adrian Bunk</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fix for autoconf to handle different versions more elegantly.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">John Clark</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Modified XHTML export to use relative paths and put all the image files in a subdirectory, and put that subdirectory in a subdirectory with the XHTML file. This keeps all the files together.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Francis Franklin</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Patch so that Abi builds with gcc 3.0.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Dom Lachowicz</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fix compile problems with iconv.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Code rationalisation to help with exception handling.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Minor clean up in KWord export.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed the DOCTYPE declaration in all AbiWord documents so that it is standards compliant.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Tweaked HTML export to make it nearer HTML than XHTML.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added ability to change default file type for save as. No UI as yet; you need to edit the prefs file by hand.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Patrick Lam</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Bug fix for 964. This was a nasty bug that could lead to AbiWord closing an altered document without prompting to save changes.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">David Mandelin</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Patched a code formatting problem which was preventing compilation.</c></p>
 <p style="Heading 2" props="text-indent:-35.0mm; margin-left:35.0mm"><c style="Heading 2">Martin Sevior</c></p>
 <p style="Normal Clean" props="text-indent:-35.0mm; margin-left:35.0mm"><c></c>Removed a debug message that was annoying Hub.</p>
 <p style="Normal Clean" props="text-indent:-35.0mm; margin-left:35.0mm">Fixed a bug in the source code configuration which was turning the Style dialog off.</p>
