@@ -25,6 +25,15 @@ body
 	margin-top: 22pt;
 }
 
+.doc_heading3
+{
+	font-weight: bold;
+	margin-top: 22pt;
+	font-size: 12pt;
+	margin-bottom: 14pt;
+	font-family: "Arial";
+}
+
 .DashedList
 {
 	margin-left: 1in;
@@ -36,6 +45,15 @@ body
         text-indent: 25.0pt;
 	margin-top: 0pt;
 	margin-bottom: 0pt;
+	font-size: 12pt;
+	font-family: "Times New Roman";
+}
+
+.doc_image
+{
+        text-indent: 25.0pt;
+	margin-top: 10pt;
+	margin-bottom: 16pt;
 	font-size: 12pt;
 	font-family: "Times New Roman";
 }
