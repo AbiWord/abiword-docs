@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.3" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0pt; text-indent:0in; margin-top:0pt; text-position:normal; font-weight:normal; font-variant:normal; color:000000; text-decoration:none; line-height:1.000000; margin-bottom:0pt; text-align:left; margin-right:0pt; bgcolor:transparent; font-size:12pt; widows:2; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Custom" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Normal"><c props="lang:en-US">background color</c></p>
+<p style="Normal"><c props="lang:en-US">close document</c></p>
+<p style="Normal"><c props="lang:en-US">date and time</c></p>
+<p style="Normal"><c props="lang:en-US">find and replace</c></p>
+<p style="Normal"><c props="lang:en-US">font style</c></p>
+<p style="Normal"><c props="lang:en-US">font size</c></p>
+<p style="Normal"><c props="lang:en-US">font </c></p>
+<p style="Normal"><c props="lang:en-US">justification</c></p>
+<p style="Normal"><c props="lang:en-US">insert picture</c></p>
+<p style="Normal"><c props="lang:en-US">margins</c></p>
+<p style="Normal"><c props="lang:en-US">page numbers</c></p>
+<p style="Normal"><c props="lang:en-US">page setup</c></p>
+<p style="Normal"><c props="lang:en-US">page size</c></p>
+<p style="Normal"><c props="lang:en-US">saving a document</c></p>
+<p style="Normal"><c props="lang:en-US">spell-checking a document</c></p>
+<p style="Normal"><c props="lang:en-US">new documents</c></p>
+<p style="Normal"><c props="lang:en-US">word count</c></p>
+<p style="Normal"><c props="lang:en-US"></c></p>
+</section>
+</abiword>

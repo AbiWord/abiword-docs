@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.3" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0pt; text-indent:0in; margin-top:0pt; text-position:normal; font-weight:normal; font-variant:normal; color:000000; text-decoration:none; line-height:1.0; margin-bottom:0pt; text-align:left; margin-right:0pt; bgcolor:transparent; font-size:12pt; widows:2; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Custom" orientation="portrait" width="3.000000" height="5.000000" units="in" page-scale="1.000000"/>
+<section props="page-margin-right:0.5000in; columns:1; page-margin-header:0.0000in; page-margin-left:0.5000in; page-margin-bottom:0.5000in; page-margin-footer:0.0000in; page-margin-top:0.5000in; background-color:ffffff">
+<p style="Normal" props="text-align:left"><c props="lang:en-US; font-size:18pt; font-family:Comic Sans MS">PARTY PARTY!!</c><c props="lang:en-US; font-size:18pt; font-family:Comic Sans MS"></c></p>
+<p style="Normal" props="text-align:left"><c props="lang:en-US; font-size:18pt; font-family:Comic Sans MS"></c></p>
+<p style="Normal" props="text-align:left"><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS">Come on in and party!   Nathan is having a study-hall blow out this Saturday at the school cafeteria, and wants you and your friends to come along!  </c><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS"></c></p>
+<p style="Normal" props="text-align:left"><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS"></c></p>
+<p style="Normal" props="text-align:left"><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS">Who: Nathan</c><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS"></c></p>
+<p style="Normal" props="text-align:left"><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS">What: Study hall blow out</c><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS"></c></p>
+<p style="Normal" props="text-align:left"><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS">When: This Saturday</c><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS"></c></p>
+<p style="Normal" props="text-align:left"><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS">Where: School Cafeteria</c><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS"></c></p>
+<p style="Normal" props="text-align:left"><c props="bgcolor:ffffff; lang:en-US; font-size:10pt; font-family:Comic Sans MS"></c></p>
+<p style="Normal" props="text-align:left"><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS"></c></p>
+<p style="Normal" props="text-align:left"><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS"></c><c props="lang:en-US; font-size:10pt; font-family:Comic Sans MS">Come and study 'till you blow up!  BYOB (..... Books)        </c></p>
+</section>
+</abiword>
