@@ -11,7 +11,7 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Wed Jan  8 22:36:31 2003</m>
+<m key="abiword.date_last_changed">Tue Jan 21 20:36:47 2003</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
@@ -20,19 +20,27 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Heading 1">1.1.3 Changelog</p>
+<p style="Heading 1"><c props="lang:en-GB"></c>1.1.3 Changelog</p>
 <p style="Heading 2">Pierre Abbat</p>
 <p style="Normal">Lojban localisation work.</p>
+<p style="Heading 2">Joaquin Cuenca Abela</p>
+<p style="Normal">Fix slow startup with xft build on a system with many fonts.</p>
 <p style="Heading 2">Johan Björk</p>
 <p style="Normal">QNX frame refactoring.</p>
 <p style="Heading 2">Besnik Bleta</p>
 <p style="Normal">Albanian localisation work.</p>
 <p style="Heading 2">David Buddridge</p>
 <p style="Normal">AbiWord training manual.</p>
+<p style="Heading 2">Pablo Calamera</p>
+<p style="Normal">Fix two segfaults in wv.</p>
 <p style="Heading 2">Francisco Cheratzu</p>
 <p style="Normal">Sardinian localisation work.</p>
 <p style="Heading 2">Mauro Colorio</p>
 <p style="Normal">Gypsython, a python plugin.</p>
+<p style="Heading 2">Mikey Cooper</p>
+<p style="Normal">Updated BUILD.zabw to have better instructions for Win32.</p>
+<p style="Normal">Fixed .zabw suffixing to be visible on Win32.</p>
+<p style="Normal">Bug fixes: 4419, 4454</p>
 <p style="Heading 2">Corby</p>
 <p style="Normal">(Probably has another name as well, but I don't know it.)</p>
 <p style="Normal">Fix initialisation of parse structure in wv.</p>
@@ -43,8 +51,12 @@
 <p style="Normal">Put NSIS2 into CVS, and started work on it.</p>
 <p style="Normal">Added dictionary download support to Win32 installer.</p>
 <p style="Normal">Make Win32 compile.</p>
+<p style="Normal">Multiple language support in NSIS2 (Win32 installer).</p>
+<p style="Normal">Fixed an infinite recursive call.</p>
 <p style="Heading 2">Andrew Dunbar</p>
 <p style="Normal">Tidied up the code in the strings classes.</p>
+<p style="Heading 2">Mrk Gilbert</p>
+<p style="Normal">Fixed memory leak in encoding manager.</p>
 <p style="Heading 2">Karl Ove Hufthammer</p>
 <p style="Normal">Norwegian Nynorsk localisation work.</p>
 <p style="Heading 2">Will Lachance</p>
@@ -72,6 +84,8 @@
 <p style="Normal">Fix toolbars option on Cocoa.</p>
 <p style="Normal">Fix Cocoa mouse events.</p>
 <p style="Normal">Fixed memory leaks.</p>
+<p style="Normal">Updated libpng to 1.2.5.</p>
+<p style="Normal">ProjectBuilder project.</p>
 <p style="Heading 2">Raphael Finkel</p>
 <p style="Normal">Yiddish localisation work.</p>
 <p style="Heading 2">Frank Franklin</p>
@@ -90,6 +104,18 @@
 <p style="Normal">Work on [X]HTML import and export.</p>
 <p style="Normal">Code cleanup in GR_UnixGraphics.</p>
 <p style="Normal">Added a dialog of HTML export options, disabled by default.</p>
+<p style="Normal">Update for wv configure.</p>
+<p style="Normal">Bug fixes: 1406</p>
+<p style="Heading 2">Tomas Frydrych</p>
+<p style="Normal">Added support for toolbar menus wider than the toolbar widget, and implemented them on Win32.</p>
+<p style="Normal">Fix Bidi caret, and implement on Win32.</p>
+<p style="Normal">Fixes for BiDi processing of GUI strings.</p>
+<p style="Normal">Code to check whether caret is on-screen.</p>
+<p style="Normal">Added a debug message to the Win32 statusbar code.</p>
+<p style="Normal">More BiDi fixes.</p>
+<p style="Normal">Fix to Win32 statusbar to remove a superfluous encoding conversion.</p>
+<p style="Normal">Made the caret go red in overwrite mode.</p>
+<p style="Normal">Bug fixes: 3707, 4037</p>
 <p style="Heading 2">Marco Innocenti</p>
 <p style="Normal">Italian localisation work.</p>
 <p style="Heading 2">Dom Lachowicz</p>
@@ -110,17 +136,27 @@
 <p style="Normal">Fixed a security bug in wv.</p>
 <p style="Normal">Fixed export of hyperlinks to RTF.</p>
 <p style="Normal">Code cleanup and reorganisation in ispell code.</p>
-<p style="Normal">Beginnings of XIM input support, for languages such as Japanese.</p>
-<p style="Normal">Bug fixes: 3758, 4391, 4394</p>
+<p style="Normal">Lots of work on XIM input support, for languages such as Japanese.</p>
+<p style="Normal">Fixes to Gtk2+ screen refresh code.</p>
+<p style="Normal">Unix implementation of BiDi caret.</p>
+<p style="Normal">QNX implementation of BiDi caret.</p>
+<p style="Normal">Build fixes.</p>
+<p style="Normal">Fixed a typo in the file format labeling.</p>
+<p style="Normal">Fix to save words to the aspell/pspell custom dictionary.</p>
+<p style="Normal">Fix the build with the new ins/ovr caret distinction.</p>
+<p style="Normal">Bug fixes: 3758, 4391, 4394, 4524, 4527</p>
 <p style="Heading 2">Pat Lam</p>
 <p style="Normal">Fixed crash on exit in non-xft build.</p>
 <p style="Normal">Substantial work on footnotes.</p>
 <p style="Normal">Bug fixes: 4412</p>
 <p style="Heading 2">Jordi Mas</p>
-<p style="Normal">Build fix.</p>
+<p style="Normal">Build fixes.</p>
 <p style="Normal">Fixes to Win32 Insert Symbol dialog.</p>
 <p style="Normal">More fixes to Win32 keyboard handling.</p>
-<p style="Normal">Bug fixes: 338, 2481</p>
+<p style="Normal">Improvements to Win32 font dialog.</p>
+<p style="Normal">Initial barbarism support documentation.</p>
+<p style="Normal">Introduced a silly Win32 bug and then fixed it, so that's OK.</p>
+<p style="Normal">Bug fixes: 338, 2481, 4494</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal">Image drag-n-drop.</p>
 <p style="Normal">Relocated an ifdef which was breaking non-debug builds.</p>
@@ -139,6 +175,7 @@
 <p style="Normal">Fixed compiler warnings.</p>
 <p style="Normal">Work on Format Table dialog.</p>
 <p style="Normal">Build fix.</p>
+<p style="Normal">Fix bug with font preview.</p>
 <p style="Normal">Bug fixes: 4255</p>
 <p style="Heading 2">Mike Nordell</p>
 <p style="Normal">MSVC6 build fixes.</p>
@@ -190,10 +227,13 @@
 <p style="Normal">Fixed table and section break crashes.</p>
 <p style="Normal">Beginning of work on setting height of table rows via handles on left ruler.</p>
 <p style="Normal">Fixed bugs in tables and section breaks.</p>
-<p style="Normal">Substantial work on footnotes.</p>
+<p style="Normal">Substantial work on footnotes, to the point that the feature works correctly. (Possibly with a few remaining bugs.)</p>
+<p style="Normal">Made the insertion point stay on screen.</p>
 <p style="Heading 2">Chad Thomas</p>
 <p style="Normal">Fix build breakage.</p>
 <p style="Normal">Fix a crash on startup.</p>
+<p style="Heading 2">Nikolai Vladychevski</p>
+<p style="Normal">es-MX localisation work.</p>
 <p style="Heading 2">Chris Winne</p>
 <p style="Normal">Fix problem with perl 5.8.</p>
 <p style="Heading 2">Daniel Yacob</p>
