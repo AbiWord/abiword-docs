@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="20020122" fileformat="1.0" styles="unlocked">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -9,39 +9,72 @@
 <!-- =====================================================================  -->
 
 <styles>
-<s type="P" basedon="Normal" followedby="Normal" name="Heading 1" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
-<s type="P" basedon="" followedby="Current Settings" name="Normal" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s type="P" basedon="Normal" followedby="Normal" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Heading 1"><c props="lang:en-US"></c>0.99.2 Changelog</p>
+<p style="Heading 1"><c props="lang:en-GB"></c>0.99.2 Changelog</p>
 <p style="Normal">These are the changes made between 0.99.1 and 0.99.2. As usual, not all may be visible in the final release.</p>
+<p style="Heading 2">Robert Altenburg</p>
+<p style="Normal">Bug fixes, including 2050, 2374.</p>
 <p style="Heading 2">Piotr Banski</p>
 <p style="Normal">Polish localisation update.</p>
+<p style="Heading 2">Jared Davis</p>
+<p style="Normal">Fixes to Aiksaurus build system.</p>
+<p style="Normal">Removed old data files from the Aiksaurus directories.</p>
+<p style="Normal">Fixes to zoom dialog.</p>
+<p style="Normal">Enhanced Insert &gt; Field dialog.</p>
+<p style="Normal">Enhanced Insert &gt; Page Numbers dialog.</p>
 <p style="Heading 2">Jeremy Davis</p>
 <p style="Normal">Bug fixes, including 2549.</p>
+<p style="Heading 2">Tamas Decsi</p>
+<p style="Normal">Hungarian localisation update.</p>
 <p style="Heading 2">Hubert Figuiere</p>
-<p style="Normal">More work on Cocoa port.</p>
+<p style="Normal">More work on Mac OSX port.</p>
+<p style="Normal">Fix to HTML importer.</p>
+<p style="Normal">Fixed a memory leak.</p>
+<p style="Normal">Solaris build fix.</p>
 <p style="Heading 2">Anthony Fok</p>
+<p style="Normal">Removed null characters in Turkish and Chinese profiles.</p>
+<p style="Normal">Turned off smart quotes in Chinese.</p>
 <p style="Normal">Bug fixes, including 1462.</p>
 <p style="Heading 2">Ramon Flores</p>
 <p style="Normal">Galician localisation update.</p>
 <p style="Heading 2">Frank Franklin</p>
 <p style="Normal">Increase wv version number to 0.7.1.</p>
+<p style="Normal">RPM fix for plugins.</p>
+<p style="Normal">Fixes to build scripts for plugins.</p>
+<p style="Normal">Extended automake system to eml importer.</p>
+<p style="Normal">Fixed build process to not assume that autoconf is a shell script.</p>
 <p style="Normal">Plugin fixes that affected rpm build.</p>
 <p style="Normal">Added debug flags to plugins.</p>
 <p style="Normal">XDarwin environment variable fixes.</p>
-<p style="Normal">Basic functionality in HTML importer plugin.</p>
+<p style="Normal">Work on HTML importer plugin.</p>
+<p style="Normal">Support for Ukrainian spellchecking.</p>
+<p style="Normal">Build system fixes.</p>
+<p style="Normal">Added excessively hyped autoskip mechanism to plugin build system.</p>
+<p style="Normal">Bug fixes, including 2650.</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Bidi fixes.</p>
 <p style="Normal">Removed font trickery from wrapper script.</p>
-<p style="Normal">Small change in Win32 Open/Save dialog so that we don't append .abw etc to nonexistent filenames.</p>
-<p style="Normal">Bug fixes, including 2476, 2487, 2500, 2523, 2570, 2585, 2606.</p>
+<p style="Normal">Small change in Win32 Open/Save dialog so that we don't append .abw etc to nonexistent filenames, and other extension handling fixes.</p>
+<p style="Normal">Lots of memory leak fixes, including some in wv and psiconv.</p>
+<p style="Normal">Fixed .zabw problems in Win32.</p>
+<p style="Normal">Bug fixes, including 2476, 2487, 2500, 2523, 2548, 2551, 2570, 2585, 2606, 2624, 2636, 2645.</p>
+<p style="Heading 2">Gabriel Gerhardsson</p>
+<p style="Normal">Update to abispell RPM script.</p>
 <p style="Heading 2">Marco Innocenti</p>
 <p style="Normal">Italian strings update.</p>
 <p style="Heading 2">Dom Lachowicz</p>
-<p style="Normal">Bug fixes, including 1319, 2577, 2579, 2590, 2592, 2604.</p>
+<p style="Normal">Fixes to libole2.</p>
+<p style="Normal">Add header and footer export to HTML export.</p>
+<p style="Normal">Compile configuration changes.</p>
+<p style="Normal">Fixes to zoom dialog.</p>
+<p style="Normal">Large improvements to colour support, and to greyscale support.</p>
+<p style="Normal">Fixes to Normal and Web view modes.</p>
+<p style="Normal">Bug fixes, including 1142, 1319, 2577, 2579, 2590, 2592, 2604.</p>
 <p style="Heading 2">Martin Lacko</p>
 <p style="Normal">Slovak localisation update.</p>
 <p style="Heading 2">Birger Langkjer</p>
@@ -51,24 +84,31 @@
 <p style="Normal">HTML exporter cleanup.</p>
 <p style="Heading 2">Bryce Nesbitt</p>
 <p style="Normal">Fix bug 1030.</p>
+<p style="Heading 2">Nikos Niktaris</p>
+<p style="Normal">Greek translation.</p>
+<p style="Heading 2">Adrian Philips</p>
+<p style="Normal">Fixed a bug with bookmarks with long names.</p>
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Upgraded NSIS to 1.94.</p>
-<p style="Normal">Bug fixes, including 1583, 2171, 2340, 2497.</p>
+<p style="Normal">Compilation fix in libole2.</p>
+<p style="Normal">Bug fixes, including 1583, 2171, 2340, 2420, 2497.</p>
 <p style="Heading 2">Rhoslyn Prys</p>
 <p style="Normal">Welsh localisation update.</p>
+<p style="Heading 2">Pavel Roskin</p>
+<p style="Normal">Fixed an invalid cast.</p>
+<p style="Heading 2">Gilles Saint-Denis</p>
+<p style="Normal">Fix to page break and paragraph dialogs to make localisations look better.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Bug fixes, including 2600.</p>
 <p style="Heading 2">Jesper Skov</p>
-<p style="Normal">Update RPM spec to use hard links rather than soft.</p>
-<p style="Normal">[ FIXME: should this still be included since I remade them use symbolic links?</p>
-<p style="Normal"> http://lists.ebbs.com.au/pipermail/ice-linux/2001-May/000289.html</p>
-<p style="Normal">the main factors: hard does not work on different filesystems (/usr/share/AbiSuite can be on a different filesystem than /usr/bin for instance) and they just add directory entries, so if a file is erased in one place, it won't be really erased since there is another entry for it.</p>
-<p style="Normal">]</p>
+<p style="Normal">Fix RTF import bug.</p>
 <p style="Heading 2">Vladimir Stoos</p>
 <p style="Normal">Russian localisation fix.</p>
 <p style="Heading 2">Ries van Twisk</p>
 <p style="Normal">wv image import updates.</p>
 <p style="Heading 2">Robert Wilhelm</p>
 <p style="Normal">wv patches for picture import.</p>
+<p style="Heading 2">Chris Winne</p>
+<p style="Normal">Patch for makewrapper.sh.</p>
 </section>
 </abiword>
