@@ -60,6 +60,7 @@
 <p style="Normal">Mac OSX wrapper for XDarwin AbiWord.</p>
 <p style="Normal">Workaround for a bug in libxml2.</p>
 <p style="Normal">Alterations to wv so that it builds as a shared library.</p>
+<p style="Normal">Update to plugin build system.</p>
 <p style="Normal">Numerous spelling fixes: upgrades to british.hash, and american.hash.</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Fix a crashing bug when printing ttf fonts.</p>
@@ -84,7 +85,8 @@
 <p style="Normal">Added a dialog box to the Insert Field dialog, so that Page Reference fields can be inserted.</p>
 <p style="Normal">Fixes to paragraph preview.</p>
 <p style="Normal">Fixes for bugs with tabs and indents.</p>
-<p style="Normal">Bug fixes, including 665, 1120, 1198, 2133, 2339.</p>
+<p style="Normal">Significant changes to layout code to remove the underlying causes of bug 2313.</p>
+<p style="Normal">Bug fixes, including 665, 1120, 1153, 1198, 1734, 2133, 2339, 2535.</p>
 <p style="Heading 2">Martin Gansser</p>
 <p style="Normal">Build fixes for HP UX 10.20.</p>
 <p style="Heading 2">Gabriel Gerhardsson</p>
@@ -130,7 +132,7 @@
 <p style="Heading 2">Per Larsson</p>
 <p style="Normal">Swedish localisation update.</p>
 <p style="Heading 2"><c props="lang:en-US">Marc Maurer</c></p>
-<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">nl-NL translation update.</c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">nl-NL translation updates.</c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">English statusbar message fix.</c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix so that the help menu falls back to en-US if the local help files are not installed.</c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix to HTML image export.</c></p>
