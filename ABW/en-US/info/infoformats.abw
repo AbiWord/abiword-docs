@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1.0" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1">File Formats</p>
+<p style="Normal">AbiWord can load and save files in many different formats. The parts of the program that load the files are known as importers, and those that save them as exporters. Most of AbiWord's importers and exporters are plug-ins, and information about the file formats they handle can be found in the <a xlink:href="../plugins/index.html">plug-in documentation</a>. Making the importers and exporters available as plug-ins means that you only need to install the ones that you want to use. Since AbiWord plug-ins can handle some rather specialized file formats, you are unlikely to need all of them.</p>
+<p style="Normal">This document explains the importers and exporters which are part of the application itself.</p>
+<p style="Heading 2">AbiWord</p>
+<p style="Normal">This is AbiWord's own file format, also referred to as its native file format. You should save your files in this format unless you have good reasons for using some other. The good reasons you might have are discussed below.</p>
+<p style="Heading 2">AbiWord Template</p>
+<p style="Normal">This is the format for AbiWord templates. Templates allow you to establish sets of styles and initial content that you use a lot. They are explained in detail in the <a xlink:href="../howto/howtotemplates.html">templates documentation</a>.</p>
+<p style="Heading 2">Microsoft Word</p>
+<p style="Normal">This is the native file format for Microsoft Word, and should be used when you want to read files written using that application. AbiWord cannot export Microsoft Word documents at the moment; you should use RTF (see below) for sending files to people who use Word.</p>
+<p style="Heading 2">HTML 4.0/XHTML 1.0</p>
+<p style="Normal">These formats are used for posting documents on the World Wide Web, so that they can be read easily by web browsers. XHTML is the newer standard, but some old browsers have trouble with it. Save your documents in one of these formats if you want to put them on a website.</p>
+<p style="Heading 2">Rich Text Format</p>
+<p style="Normal">Rich Text Format, or RTF, is a file format that contains all the formatting information about your file, and which can be read by almost all word processors. This is the format you should use if you need to send a file to someone who doesn't use AbiWord. 'Rich Text Format for old apps' is an older version of RTF, but applications have to be very old to need it. You should use normal RTF unless you know that you need to use the older version.</p>
+<p style="Heading 2">Text/Encoded Text</p>
+<p style="Normal">This is plain text, with no formatting of any kind. Anyone with a computer can read files in this format, so if you are really unsure this is the safest format to use. 'Text' is ASCII text: there is no support for accents, or characters outside the normal English alphabet and punctuation. 'Encoded Text' covers text that includes accented characters or characters from other writing systems. You should use ordinary text unless your document includes unusual characters, probably as part of a language other than English.</p>
+<p style="Heading 2">GZipped AbiWord</p>
+<p style="Normal">This is the native AbiWord format, compressed using the gzip algorithm. This means that the final file is smaller, and can be turned into an ordinary AbiWord file by using one of the many applications that support gzip. You should use this format if you need to send a large file over the internet, or if you are short of disk space. Otherwise, it is better to use the native format. If a disk error damages part of a gzipped file, it can be impossible to recover the contents. An AbiWord file, on the other hand, could be recovered relatively easily.</p>
+</section>
+</abiword>
