@@ -23,12 +23,12 @@ CVS=`pwd -P`
 
 export ABISUITE_HOME=/usr/local/share/AbiSuite
 
-
-for dir in ./ howto info interface problems tutorial
-
+for help_language in en-US fr-FR
 do
-cd ABW/en-US/$dir
 
+for dir in ./ howto info interface problems tutorial plugins
+do
+cd ABW/$help_language/$dir
   for i in $(ls -1 *.abw)
     do
       n=`echo $i|cut -f1 -d .`
@@ -39,20 +39,21 @@ cd ABW/en-US/$dir
     done
 
 cd $CVS
-
 done
 
+cd $CVS/ABW/$help_language
+rm -rf $CVS/help/$help_language
+mkdir $CVS/help/$help_language
+cp -r */ $CVS/help/$help_language
+cp *.html $CVS/help/$help_language
+cp *.css $CVS/help/$help_language
 
-cd $CVS/ABW/en-US
-rm -rf $CVS/help/en-US
-mkdir $CVS/help/en-US
-cp -r */ $CVS/help/en-US
-cp *.html $CVS/help/en-US
-cp *.css $CVS/help/en-US
-
-for i in $(ls -1d $CVS/help/en-US/*/ )
+for i in $(ls -1d $CVS/help/$help_language/*/ )
 do
 rm -f $i/*.xhtml
 rm -f $i/*.info
 rm -f $i/*.abw
+done
+
+cd $CVS
 done
