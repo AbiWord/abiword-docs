@@ -1,0 +1,41 @@
+body
+{
+	margin-top: 0pt;
+	font-size: 12pt;
+	font-family: Times New Roman;
+	background-color: #ffffff;
+}
+
+@print
+{
+	body
+	{
+		padding-top: 1in; padding-bottom: 1in;
+		padding-left: 1in; padding-right: 1in;
+	}
+}
+
+.doc_heading1
+{
+	font-family: "Arial";
+	font-size: 22pt;
+	margin-bottom: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	margin-top: 22pt;
+}
+
+.DashedList
+{
+	margin-left: 1in;
+	text-indent: 1.00000in;
+}
+
+.doc_normal
+{
+        text-indent: 25.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-size: 12pt;
+	font-family: "Times New Roman";
+}
