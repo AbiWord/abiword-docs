@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<abiword version="unnumbered" fileformat="1.0">
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -7,16 +8,17 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<!--         Build_ID          = (none) -->
-<!--         Build_Version     = unnumbered -->
-<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
-<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 19:26:58 -->
-<!--         Build_CompileDate = Jun  1 2001 -->
-
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="margin-top:0pt; font-size:12pt; font-family:Times New Roman; field-font:NULL"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal Clean" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal Clean" basedon="Normal" followedby="Current Settings" props="text-align:left; margin-top:0pt; font-weight:normal; field-font:NULL; line-height:1.0; font-style:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal Clean" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal Clean" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.00cm; page-margin-header:0.00cm; page-margin-right:2.54cm; page-margin-left:2.54cm; page-margin-top:2.54cm; page-margin-bottom:2.54cm">
-<p style="Heading 1">Insert Menu</p>
+<p style="Normal"><c style="Normal" props="lang:en-GB">David Chart 2001</c></p>
+<p style="Heading 1"><c props="lang:en-GB"></c>Insert Menu</p>
 <p style="Normal"><c style="Normal">This menu allows you to insert various kinds of entity into your document.</c></p>
 <p style="Heading 2"><c style="Heading 2">Break...</c></p>
 <p style="Normal"><c style="Normal">This command opens the Break dialog, which allows you to insert page, column, and section breaks.</c></p>
@@ -28,6 +30,8 @@
 <p style="Normal"><c style="Normal">The Field dialog allows you to insert any field defined in AbiWord into your document. Fields are entities which automatically update their values.</c></p>
 <p style="Heading 2"><c style="Heading 2">Symbol...</c></p>
 <p style="Normal"><c style="Normal">This command opens the Insert Symbol dialog, which enables you to insert non-standard symbols from various character sets into your document.</c></p>
+<p style="Heading 2">Insert File...</p>
+<p style="Normal Clean"><c style="Normal Clean">Inserts the contents of a file into the open document.</c></p>
 <p style="Heading 2"><c style="Heading 2">Autotext</c></p>
 <p style="Normal"><c style="Normal">The Autotext sub-menu gives access to various kinds of text which can be inserted into your document. Each of the commands on the sub-menu has its own sub-menu. The text listed for each command on the lowest-level menus is inserted into the document when you select that command.</c></p>
 <p style="Normal"><c style="Normal">For example, if you select Autotext &gt; Reference: &gt; In reply to:, the text 'In reply to:' is inserted into your document at the insertion point.</c></p>
