@@ -23,5 +23,6 @@
 <p style="Normal">Integrated help file support with the dialogs.</p>
 <p style="Normal">Completed port so that it builds and runs. Rough edges still need smoothing, though.</p>
 <p style="Normal">Smoothed out some of the rough edges.</p>
+<p style="Normal">Added more AP dialogs and used GTK2 stock icons on the toolbar.</p>
 </section>
 </abiword>
