@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="pre0.9.7" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p><c props="lang:en-US"></c><c props="lang:en-GB">David Chart 2001-2</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-GB">Extra Toolbar</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">The extra toolbar is not displayed by default. You can choose to display it from the View menu.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This button inserts a hyperlink into your document. It opens the Insert hyperlink dialog.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This button inserts a bookmark (also known as an 'anchor', hence the icon) into your document. It opens the Insert bookmark dialog.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><image dataid="/home/David/Toolbar PNGs/tb_text_overline.png_1" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This button adds an overline to the text. </c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"> Click it once to depress it and turn overlined text on, and again to raise it and turn overlined text off. If no text is selected when you depress or raise the button, the new state applies to any text you type. If text is selected, pressing the button changes whether it is overlined; normal text is overlined, while an overline that is present is removed.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><image dataid="/home/David/Toolbar PNGs/tb_text_strikeout.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">This button strikes through the text. It functions as the overline button does.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><image dataid="/home/David/Toolbar PNGs/tb_text_topline.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">This button adds a top line to the text.  It functions as the overline button does. A top line is further above the text than an overline, and is most use when constructing tables.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><image dataid="/home/David/Toolbar PNGs/tb_text_bottomline.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean">This button adds a bottom line to the text. <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal"> It functions as the overline button does. </c>A bottom line is further below than text than an underline, and is most use when constructing tables.</p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><image dataid="/home/David/Toolbar PNGs/tb_text_superscript.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean">This button sets the text to superscript. <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal"> It functions as the overline button does.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><image dataid="/home/David/Toolbar PNGs/tb_text_subscript.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean">This button sets the text to subscript. <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal">It functions as the overline button does.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><image dataid="/home/David/Toolbar PNGs/tb_symbol.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean">This button opens the Insert Symbol dialog.</p>
+<p style="Normal Clean"><c></c></p>
+<p style="Normal Clean">This button executes a perl script. It only functions if there are scripts available.</p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean" props="margin-top:0pt"><image dataid="/home/David/Toolbar PNGs/tb_para_0before.png_0" props="height:0.24in; width:0.24in"/> <image dataid="/home/David/Toolbar PNGs/tb_para_12before.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean" props="margin-top:0pt">These buttons set the amount of space left before a new paragraph. The left button sets it to zero, the right to 12 points.</p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><image dataid="/home/David/Toolbar PNGs/tb_line_single_space.png_0" props="height:0.24in; width:0.24in"/> <image dataid="/home/David/Toolbar PNGs/tb_line_middle_space.png_0" props="height:0.24in; width:0.24in"/> <image dataid="/home/David/Toolbar PNGs/tb_line_double_space.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean" props="margin-top:0pt">These buttons set the line spacing. The left hand one sets the lines to single spacing, so that there is little space between lines. The middle one sets one-and-a-half spacing, so that the space between lines is half the height of the lines. The right one sets double spacing, so that there is enough space between two lines of text to insert another line.</p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><image dataid="/home/David/Toolbar PNGs/tb_edit_editheader.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean" props="margin-top:0pt">This button moves the insertion point to the page header. If there is no header, pressing it creates one.</p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><image dataid="/home/David/Toolbar PNGs/tb_edit_editfooter.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean" props="margin-top:0pt">This button moves the insertion point to the page footer. If there is no footer, pressing it creates one.</p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><image dataid="/home/David/Toolbar PNGs/tb_edit_removeheader.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean" props="margin-top:0pt">Pressing this button removes the header in the document. It is only available if the document has a header.</p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><image dataid="/home/David/Toolbar PNGs/tb_edit_removefooter.png_0" props="height:0.24in; width:0.24in"/></p>
+<p style="Normal Clean" props="margin-top:0pt">Pressing this button removes the footer in the document. It is only available if the document has a footer.</p>
+</section>
+<data>
+<d name="/home/David/Toolbar PNGs/tb_line_single_space.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAFElEQVR4nGNgoDIQ
+hAIBqigbtAAA96gBMRSCqi4AAAAASUVORK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_line_middle_space.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAFElEQVR4nGNgoDIQ
+hAKBATOALgAA6DgBMdB1zNcAAAAASUVORK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_symbol.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAADAFBMVEUAAAAAAADx8fHw8PDv
+7+/u7u7t7e3s7Ozl5eXj4+Pb29vr6+vg4OCxsbHi4uLk5OTn5+fR0dGmpqatra0cHBw6Ojqw
+sLB/hIjFztYkJCQ2Njbo6OjN1dy6xs9QbYmerbsfHx8yMjLp6emVprdPV14mJibq6uo6QUgx
+MTFCSE5paWkpKSm0tLT4+PihoaGKioo/Pz8wMDCioqL6+vqdnZ2Ghob19fX29vb39/fY2NiY
+mJiDg4PNzc3AwMC9vb3Dw8O/v7++vr6vr6+3t7d8fHzU1NTPz8+rq6ukpKSgoKCampqRkZG7
+u7uUlJTV1dWjo6Ofn5+cnJybm5uTk5OIiIh6enr8dzQAAMAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAcAACwKAAAAAADE5QYAyAkHAGQAgACA4wYAJAACAAAAAAAAAAAAMyn4d4DjBgAA
+7P1/AgAAAAAABwBFAAAAAAAKAHyW+Hd+AAAAAQAAAAAAAAAztvx38OUGADQAAMAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADm
+NzLEAAAA/ElEQVR4nL2R2VKDMBSGG0lCYlKStloXtCIqrqGKVdxqizvW1rq9/6tIAGfChXeO
+3+X5Jv9ZUqv9C6CCUZ/JsCyIELYJnQUVUdaZzesVwTUOFUg2mkBnl8LivDU33xZEFm0WFnMD
+LMj5kkOXiXTByqqms6YNgJnw6Hpduj7Y6BRs6kSIuOMJsuX6wY/Yzl8g7FCPyB0/YOUuu0UP
+jKnYa+0fBAyrsKszDoupsC3IUZbDMFJR19iDudk8eR0e904MQQU9jeP4TCl1fnFpiCvavx70
+h0mS3NwO7wxx//DYfIqiME2fRy9jQ0xew2lvmoZv7x+fX23z7r/8x5/xDShKGd509PvwAAAA
+AElFTkSuQmCC
+</d>
+<d name="/home/David/Toolbar PNGs/tb_edit_removeheader.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAD///8AAAD0KQ4A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACErKiyAAAALUlEQVR4nGNgIBIw
+CkKBAAZHSAkMFEEcZmMoMEDnoChDMw0ig8Vousng4uACAHDMEKxznOvLAAAAAElFTkSuQmCC
+</d>
+<d name="/home/David/Toolbar PNGs/tb_text_subscript.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAIAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQwxr/AAAALElEQVR4nGNgGHSA
+UYBBEMETBHIRUoIMKBwmBWRlTMgGKCCpZGJA5ihRw5EAgBQBF5Dtwu8AAAAASUVORK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_edit_editheader.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAD///8AAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbpYeVAAAAK0lEQVR4nGNgIBIw
+CkKBAAZHSAkMFCEciAQ2DrIyVNMgMliMppsMLg4uAAB+WQ5qIbr7zAAAAABJRU5ErkJggg==
+</d>
+<d name="/home/David/Toolbar PNGs/tb_text_overline.png_1" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAJUlEQVR4nGNgoDoQ
+BAIB7FKMgsjqGBCqGAUYGCnioJiGag9NAAC7zwEVd4Aj2QAAAABJRU5ErkJggg==
+</d>
+<d name="/home/David/Toolbar PNGs/tb_edit_editfooter.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAD///8AAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABbpYeVAAAAJ0lEQVR4nGNgwA0Y
+BaFAgABHCQwGpYwQREYRwoFIYOMgK0M2ABcAACz1D2lRqK9QAAAAAElFTkSuQmCC
+</d>
+<d name="/home/David/Toolbar PNGs/tb_text_superscript.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAACAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDjFd7AAAAMElEQVR4nGNgoC9g
+UkDhIXNgMowCDIIICUFGASYlGIdREEk9CgeoDCEBNIBihxIAAKBgARey4fIVAAAAAElFTkSu
+QmCC
+</d>
+<d name="/home/David/Toolbar PNGs/tb_edit_removefooter.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAD///8AAAD0KQ4A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACErKiyAAAAKUlEQVR4nGNgwA0Y
+BaFAgABHCQwGpYwQREYRxGE2hgIDdA6KMhQDcAEAvxIRq/Cr0fEAAAAASUVORK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_text_strikeout.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAK0lEQVR4nGNgoCNg
+FBQQgHMEGRiROQxIHAEkHWDAgE1OANUAJI4Asg7aAADsmgGUM5t0yAAAAABJRU5ErkJggg==
+</d>
+<d name="/home/David/Toolbar PNGs/tb_para_0before.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAHUlEQVR4nGNgoDIQ
+QKaJ5AhCAUyQGICihxxLKQMARz8CMU4/+fQAAAAASUVORK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_line_double_space.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAFklEQVR4nGNgoDIQ
+hAIBahtMU6NJBgDYyAExWiqAoAAAAABJRU5ErkJggg==
+</d>
+<d name="/home/David/Toolbar PNGs/tb_text_topline.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAPklEQVR4nK2OSwoA
+IAgFnRv47n/ZDCKUsDaNGwe/Zj3aXJp+4J0gRyZ8VSLDtSQC4ylphrkN0gXy5SIqTx0Mn7oC
+t+uziuAAAAAASUVORK5CYII=
+</d>
+<d name="/home/David/Toolbar PNGs/tb_para_12before.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAHklEQVR4nGNgoDIQ
+QKZxcwShQICBGgDFNCJdQBkAACH/AfEA7LkpAAAAAElFTkSuQmCC
+</d>
+<d name="/home/David/Toolbar PNGs/tb_text_bottomline.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaPxwLAAAAOElEQVR4nGNgIAcI
+InMYkSlUDqMAA6MggyBYOaMAkMUoAFPGyCDAQAQHWY8g2DRUy2kNBOEAVRwAH+0CLmwf6EQA
+AAAASUVORK5CYII=
+</d>
+</data>
+</abiword>

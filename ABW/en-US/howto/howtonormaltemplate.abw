@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="pre0.9.7" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<section>
+<p style="Normal"><c props="lang:en-US">David Chart 2002</c></p>
+<p style="Heading 1"><c props="lang:en-US">How To Change Default Styles</c></p>
+<p style="Normal"><c props="lang:en-US">When AbiWord opens a new document, a number of styles and other settings are automatically set. AbiWord comes with built-in values for these, but you can also change them if you would prefer a different look. You do this by editing a file called normal.awt -- the normal template.</c></p>
+<p style="Normal"><c props="lang:en-US">There are two kinds of normal template: user and system. A user normal template is found in your home directory, and only applies to documents you create. A system normal template is found in the directory where AbiWord is installed, and applies to all documents created by AbiWord on that system. AbiWord will follow a user normal template if one is installed. If not, it follows the system template, if one is installed. If no templates are installed, it uses built-in values.</c></p>
+<p style="Heading 2"><c props="lang:en-US">Finding the Normal Template</c></p>
+<p style="Normal"><c props="lang:en-US">The normal template must be in the correct place for AbiWord to make use of it. On Linux, the user template should be in the .AbiSuite/templates directory in your home directory. (.AbiSuite is a hidden directory, so it will not normally be displayed. However, if you are in your home directory, you can move to it by typing its name into the Save or Open dialog.) On single-user Windows systems, it is in the templates folder in the folder where you installed AbiWord.</c></p>
+<p style="Normal"><c props="lang:en-US">If the template or the directory does not exist, you can create it. Create the directory in the normal way for your operating system.</c></p>
+<p style="Normal"><c props="lang:en-US">To create the normal template, open a blank AbiWord document. Select Save As... and set the Save As Type... menu to Abiword Template (.awt). Name the document normal.awt, and save it in the appropriate place.</c></p>
+<p style="Heading 2"><c props="lang:en-US">Changing the Normal Template</c></p>
+<p style="Normal"><c props="lang:en-US">Open normal.awt.</c></p>
+<p style="Normal"><c props="lang:en-US">Make any changes you want. You can add and change styles from the Style dialog. You can also make any changes that you can make to a normal document. All of these changes will be reflected in any new documents you create. So, if you add a page number in the footer of normal.awt, all new documents will have page numbers in the footer.</c></p>
+<p style="Normal"><c props="lang:en-US">Save the changes. Make sure that you save as a template called normal.awt, in the correct place.</c></p>
+<p style="Normal"><c props="lang:en-US">Once the changes are saved, any new documents will follow the template.</c></p>
+<p style="Heading 2"><c props="lang:en-US">Other Templates</c></p>
+<p style="Normal"><c props="lang:en-US">At the moment, AbiWord does not support multiple templates. However, this feature is planned for later releases.</c></p>
+</section>
+</abiword>

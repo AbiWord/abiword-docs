@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:Off Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 20:23:04 -->
+<!--         Build_CompileDate = Jul  3 2001 -->
+
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Normal"><c style="Normal" props="lang:en-US">David Chart 2001</c></p>
+<p style="Heading 1"><c props="lang:en-US"></c>Preferences Dialog</p>
+<p style="Normal">The preferences dialog lets you set up the way you want AbiWord to run on your system. As with the spellcheck dialog, you cannot do anything else while the preferences dialog is open. The preferences dialog has four tabs: Toolbars, Spelling, Layout, and Preference Schemes. Clicking on one of the tabs brings the relevant commands to the front of the dialog so that you can alter them.</p>
+<p style="Heading 2">Toolbars</p>
+<p style="Heading 3">Toolbars</p>
+<p style="Normal">This window contains a list of the toolbars available in the application. Click on one to select it.</p>
+<p style="Heading 3">Visible</p>
+<p style="Normal">This determines whether the selected toolbar is visible. If 'Show' is selected, the toolbar is displayed by default. If 'Hide' is selected, the toolbar is hidden by default.</p>
+<p style="Heading 3">Button Style</p>
+<p style="Normal">This allows you to choose the style of the buttons on the selected toolbar. [It is not currently implemented, so no comments.]</p>
+<p style="Heading 3">View Tooltips</p>
+<p style="Normal">If this button is depressed, a brief message giving the function of a button will appear near the cursor when the cursor is over a button on the toolbar. [At present, this cannot be turned off.]</p>
+<p style="Heading 2">Spelling</p>
+<p style="Heading 3">General</p>
+<p style="Normal">These settings affect the way in which spellchecks function.</p>
+<p style="Normal"><c props="font-weight:bold">Check spelling as you type: </c><c props="font-weight:normal">If this option is selected, the Auto Spellcheck function on the Spelling sub-menu is selected by default.</c></p>
+<p style="Normal"><c props="font-weight:normal">The other options are not currently available.</c></p>
+<p style="Heading 3">Ignore</p>
+<p style="Normal">These settings determine the classes of words which will be ignored by the spellchecker. If the box is selected, that class of words will be ignored.</p>
+<p style="Heading 3">Custom Dictionary:</p>
+<p style="Normal">These buttons will allow you to choose a custom dictionary, but they have not yet been implemented.</p>
+<p style="Heading 3">Ignored Words:</p>
+<p style="Normal">These buttons allow you to change the specific words that the spell check ignores. If you press 'Reset' you will be asked whether you want to reset all ignored words in the current document. Doing so removes all of the words you have told the spell checker to ignore, so that they are all marked as mis-spelled. If you do reset the ignored words in the current document, you are then asked whether you want to reset the ignored words in all other open documents. Doing so has the same effect as resetting the current document.</p>
+<p style="Normal">The 'Edit' button will allow you to reset specific ignored words, but this function is not yet available.</p>
+<p style="Heading 2">Layout</p>
+<p style="Heading 3">Show/Hide...</p>
+<p style="Normal">If an item in this section is selected, it will be displayed by default.</p>
+<p style="Heading 3">View...</p>
+<p style="Normal">The items in this section are particular kinds of document content, which would not normally be displayed. If they are selected, they are displayed by default. At the moment, the only option is to show the paragraphs, tabs, and other such marks.</p>
+<p style="Heading 3">Units</p>
+<p style="Normal">This sets the default measurement units for your documents.</p>
+<p style="Heading 3">Default Page Size</p>
+<p style="Normal">This sets the page size for a new document.</p>
+<p style="Heading 3">Enable Smart Quotes</p>
+<p style="Normal">If this is selected, AbiWord automatically replaces dumb quotes with smart quotes. Smart quotes curl in the appropriate direction at the beginning and end of quotations.</p>
+<p style="Heading 3">Allow screen colors other than white</p>
+<p style="Normal">If this is selected, you can use the 'Choose Screen Color' button to choose the background color for your documents.</p>
+<p style="Heading 3">Choose Screen Color</p>
+<p style="Normal">This button calls up the Choose Screen Color dialog.</p>
+<p style="Heading 2">Preference Schemes</p>
+<p style="Heading 3">Preference Schemes</p>
+<p style="Normal">I have no idea what these are supposed to do. Could someone explain, please.</p>
+<p style="Heading 3">Auto Save</p>
+<p style="Normal">If this is selected, AbiWord will automatically save copies of your documents while you work. It is a good idea to select this function, as it reduces the amount of work you can lose in a crash. You can select the number of minutes between auto saves by typing in the box to the right, or using the up and down arrows to change it by a minute at a time.</p>
+<p style="Normal">The extension is added to the filename so that AbiWord does not over-write the last version of the file you saved deliberately. This should be left as the default (.bak) unless you have a really good reason to change it.</p>
+<p style="Heading 2">Apply</p>
+<p style="Normal">Press this button to apply the preferences you have selected to the current document.</p>
+<p style="Heading 2">Defaults</p>
+<p style="Normal">If you press this button, all of AbiWord's preference settings revert to the default values built into the program.</p>
+<p style="Heading 2">OK</p>
+<p style="Normal">This button saves the changes to the preferences, applies them to the document, and closes the preferences dialog.</p>
+<p style="Heading 2">Cancel</p>
+<p style="Normal">This button closes the preferences dialog without changing your preferences.</p>
+</section>
+</abiword>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="pre0.9.7" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<section>
+<p style="Normal"><c props="lang:en-US">David Chart 2001</c></p>
+<p style="Heading 1">Window Menu</p>
+<p style="Normal">The Window menu gives you access to the various windows that AbiWord has open on your system.</p>
+<p style="Heading 2">New Window</p>
+<p style="Normal">This command creates a new window containing the current document. The name of the document is given in the title bar, followed by a colon and a number indicating the order in which the windows were created.</p>
+<p style="Normal">Any changes that you make to the document in one window are reflected in the others.</p>
+<p style="Heading 2">Window List</p>
+<p style="Normal">Below the New Window command is a list of all the windows currently open in AbiWord. Select a window to bring it to the front and put the insertion point within it.</p>
+<p style="Normal">If you have ten or more windows open, only the first nine opened are displayed on the menu. The tenth option becomes More Windows..., which opens the Activate Window dialog, so that you can select any window.</p>
+</section>
+</abiword>

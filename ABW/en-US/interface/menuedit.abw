@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="0.9.6-1" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.000000; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" basedon="Normal" followedby="Current Settings" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" basedon="Normal" followedby="Current Settings" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section header="292299180">
+<p style="Normal"><c props="lang:en-US">David Chart, Alper Atici 2001</c></p>
+<p style="Heading 1"><c props="lang:en-US"></c>Edit Menu</p>
+<p style="Normal"><image dataid="/home/David/Documents/abiword-docs/help/images/edit.png_0" props="height:3.26in; width:1.99in"/></p>
+<p style="Heading 2">Undo</p>
+<p style="Normal">This command undoes an action. Every application of the Undo command undoes a single action, so to undo many actions you must apply it many times.</p>
+<p style="Normal">AbiWord has a somewhat sophisticated notion of a ‘single action’. If it were to undo typing a single keystroke at a time, it would take too long to do anything useful. Thus, a run of typing counts as a single action. The run is ended when you do something other than type text: delete something, type a return, or select a menu action.</p>
+<p style="Normal">AbiWord has ‘unlimited undo’. This means that you can undo all the actions you have taken since opening the document. If you save a document, close it, and reopen it, you cannot undo things you did before saving it. If you save a document but leave it open, you can undo actions taken before you saved.</p>
+<p style="Normal">Undo itself does not count as an action.</p>
+<p style="Heading 2">Redo</p>
+<p style="Normal">Redo is the inverse of undo. It is only available when an action has been undone, and it redoes the most recently undone action. Like undo, it can be applied repeatedly to redo a large number of actions.</p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">It is not possible to skip one or more actions in a sequence of undo/redo steps</c>. Actions can only be undone and redone in order.</p>
+<p style="Heading 2">Cut</p>
+<p style="Normal">Cut removes the selected text from the document and places it on the clipboard. This replaces any text previously placed on the clipboard. The formatting of the text is retained, as well as its content.</p>
+<p style="Normal">This command is only available when there is selected text.</p>
+<p style="Heading 2">Copy</p>
+<p style="Normal">Copy puts the selected text onto the clipboard, but does not remove it from the document.</p>
+<p style="Normal">This command is only available when there is selected text.</p>
+<p style="Heading 2">Paste</p>
+<p style="Normal">Paste adds the text on the clipboard to the document. If there is no text selected in the current document, the text is added as if it had been typed at the insertion point. If text is selected, the selected text is replaced by the text on the clipboard. The formatting of the text on the clipboard is preserved.</p>
+<p style="Heading 2">Paste Unformatted</p>
+<p style="Normal">This command pastes the text on the clipboard into the document, but does not paste its formatting. The pasted text takes on the formatting of the surrounding or preceding text.</p>
+<p style="Heading 2">Clear</p>
+<p style="Normal">Clear deletes the selected text.</p>
+<p style="Heading 2">Select All</p>
+<p style="Normal">This command selects the whole document.</p>
+<p style="Heading 2">Find...</p>
+<p style="Normal">Find allows you to find a search string within a document. Selecting this command calls up the Find dialog.</p>
+<p style="Heading 2">Replace...</p>
+<p style="Normal">Replace allows you search for occurrences of a search string in your document and replace it with a replacement string. Selecting this command calls up the Replace dialog.</p>
+<p style="Heading 2">Go To...</p>
+<p style="Normal">This command allows you to move rapidly through a document. Selecting it calls up the Go To dialog.</p>
+<p style="Heading 2">Edit Header</p>
+<p style="Normal">Selecting this command allows you to edit your document header. The header is an amount of text placed on every page of a document, in the top margin. You can edit it in exactly the same way as any other text.</p>
+<p style="Normal">To return to the main text, click within it to move the insertion point. Clicking within the header will move the insertion point back there.</p>
+<p style="Heading 2">Edit Footer</p>
+<p style="Normal">This command allows you to edit the document footer. The footer is the equivalent of the header, but in the bottom margin.</p>
+<p style="Heading 2"><c props="list-tag:1999223548">Remove Header</c></p>
+<p style="Normal"><c props="list-tag:1999223548">This command removes the header from a document. It does not merely delete the content, but also removes the header's 'container' from the document. If the header is already empty, the change is only visible if Show Paragraphs is selected.</c></p>
+<p style="Heading 2"><c props="list-tag:1999223548">Remove Footer</c></p>
+<p style="Normal"><c props="list-tag:1999223548">This command removes the footer from a document, as for Remove Header, above.</c></p>
+</section>
+<data>
+<d name="/home/David/Documents/abiword-docs/help/images/edit.png_0" mime-type="image/png" base64="yes">
+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
+AElFTkSuQmCC
+</d>
+</data>
+</abiword>

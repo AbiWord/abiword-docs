@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:Off Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 18:53:52 -->
+<!--         Build_CompileDate = Jun 29 2001 -->
+
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="margin-top:0pt; font-size:12pt; font-family:Times New Roman; field-font:NULL"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Current Settings" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Current Settings" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<ignoredwords>
+<iw>endian</iw>
+<iw>AbiWord</iw>
+<iw>endianness</iw>
+<iw>Pspell</iw>
+</ignoredwords>
+<lists>
+<l id="729177224" parentid="0" type="0" start-value="1" list-delim="%L." list-decimal="."/>
+</lists>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<section props="background-color:transparent">
+<p style="Normal"><c style="Normal" props="lang:en-US">Dom Lachowicz, David Chart 2001</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US"></c><c style="Heading 1">Spell Checking and AbiWord</c></p>
+<p style="Normal"><c style="Normal">With the 0.9.0 release of AbiWord, you can expect to see great improvements in its proofing capabilities. This release supports more languages than ever and also allows the user to easily create multi-lingual documents. </c></p>
+<p style="Heading 2"><c style="Heading 2">Supported Spell Checkers</c></p>
+<p style="Normal"><c style="Normal">AbiWord supports both the Pspell and Ispell spell checkers - which one is used is determined at compile-time, so if you´re downloading a binary, one of these has been selected for you. Pspell is only known to work on Unix platforms currently, so if you´re not running on Unix, you´re definitely using Ispell.</c></p>
+<p style="Heading 2"><c style="Heading 2"><br/><br/>Gotchas</c></p>
+<p style="Normal"><c style="Normal"><br/>Of course, you can only spell-check words if you have the dictionary for that particular language installed. Pspell dictionaries can be found at pspell.sourceforge.net. Currently, AbiWord ships Ispell dictionaries (commonly referred to as `hash files´) that are known to work with the AbiWord product. Unless your distributor has packaged AbiWord specially, AbiWord expects its Ispell dictionaries to be in the following format: </c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; font-style:normal; font-weight:normal; bgcolor:transparent; start-value:1; list-style:Numbered List; text-indent:-0.3000in; text-decoration:none; lang:en-US; color:000000; font-size:12pt; margin-left:0.5000in; text-position:normal; field-font:NULL"><field type="list_label"></field><c type="list_label">	</c><c style="Normal">128 byte long strings </c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; list-decimal:.; margin-left:0.5000in; bgcolor:transparent; start-value:1; font-style:normal; font-weight:normal; text-decoration:none; list-delim:%L; lang:en-US; text-position:normal; list-style:Numbered List; font-size:12pt; text-indent:-0.3000in; color:000000; field-font:NULL"><field type="list_label"></field><c type="list_label">	</c><c style="Normal">52 "flags" </c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; list-decimal:.; margin-left:0.5000in; bgcolor:transparent; start-value:1; font-style:normal; font-weight:normal; text-decoration:none; list-delim:%L; lang:en-US; text-position:normal; list-style:Numbered List; font-size:12pt; text-indent:-0.3000in; color:000000; field-font:NULL"><field type="list_label"></field><c type="list_label">	</c><c style="Normal">capitalization enabled </c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; list-decimal:.; margin-left:0.5000in; bgcolor:transparent; start-value:1; font-style:normal; font-weight:normal; text-decoration:none; list-delim:%L; lang:en-US; text-position:normal; list-style:Numbered List; font-size:12pt; text-indent:-0.3000in; color:000000; field-font:NULL"><field type="list_label"></field><c type="list_label">	</c><c type="list_label" style="Normal">Proper endianness (little endian if you´re on a i386 class machine, or big endian for Alpha, PPC, MIPS)</c><c style="Normal"> </c></p>
+<p level="1" listid="0" parentid="0" style="Normal" props="text-decoration:none; list-decimal:.; margin-left:0in; bgcolor:transparent; start-value:1; font-style:normal; text-indent:0in; text-position:normal; list-delim:%L; lang:en-US; list-style:Numbered List; font-weight:normal; color:000000"><c style="Normal">If you are running a Unix variant, you can determine this information by typing `file &lt;foo.hash&gt;´ Where ‘</c><c style="Normal" props="font-style:italic">file, 8-bit, capitalization, 52 flags and 128 string characters</c><c style="Normal"> </c></p>
+<p style="Normal"><c style="Normal"><br/>Typically, the output looks something like this:</c></p>
+<p><c props="font-family:Courier New"></c></p>
+<p props="margin-left:1.0000in"><c props="font-family:Courier New; font-style:italic">/usr/lib/ispell/norsk.hash: little endian ispell 3.1 hash file, 8-bit, capitalization, 52 flags and 128 string characters</c></p>
+<p></p>
+<p><c props="font-family:Courier New">If you are using Ispell,AbiWord expects to find these dictionaries in a specific place. For Unix machines, this is typically /usr/local/AbiSuite/dictionary/. For Windows machines, this is typically C:\Program Files\AbiSuite\dictionary\ </c></p>
+<p><c props="font-family:Courier New"><br/></c></p>
+<p><c props="font-family:Courier New">AbiWord can also use pre-installed Ispell dictionaries if you happen to have them installed. You may achieve this by simply copying them to the AbiWord dictionary directory (`cp´ on Unix) or by symbollicly linking them, should your platform support that feature(`ln -s´ on Unix). If the dictionary for a particular language is not installed, the words will remain un-proofed (as opposed to being marked as incorrect). </c></p>
+<p><c props="font-family:Courier New"><br/></c></p>
+<p style="Heading 2"><c style="Heading 2" props="font-family:Courier New">How to use these features? </c></p>
+<p><c props="font-family:Courier New"><br/></c></p>
+<p><c props="font-family:Courier New">AbiWord automatically sets many of its default settings based on your working locale. This includes paper sizes (A4 vs. Letter), displayed units (inch vs. cm), and proofing language. Internally, the proofing language is a 4 letter country code, which you may or may not be familiar with. American English is represented by `en-US´, for example. A language´s default value can be changed by using the Preference Dialog. An instance where someone would want to do this is a German user who likes to see his/her menus and dialogs in German, but prefers to write documents in English. </c></p>
+<p><c props="font-family:Courier New"><br/></c></p>
+<p><c props="font-family:Courier New">It´s great to have a default startup language, but that in itself isn´t all that impressing. AbiWord allows the user to change the language of any word inside of the document and have it automatically proofed using that new language dictionary(provided said dictionary is installed on the user´s system). This functionality is achieved through the Language Dialog, accessible from Tools-&gt;Language or by right-clicking your mouse anywhere in the document. The dialog presents the user with a list of languages to choose from (or, optionally, no proofing). More information about the language dialog is available in its own help file. </c></p>
+<p><c props="font-family:Courier New"><br/></c></p>
+<p style="Heading 2"><c style="Heading 2" props="font-family:Courier New">Support Matrix </c></p>
+<p><c props="font-family:Courier New"><br/></c></p>
+<p><c props="font-family:Courier New">What follows is the currently supported matrix for Ispell-based proofing. The Language/Country name, Country-Code, and associated Ispell dictionary are named. Currently AbiWord supports 27 different locales via Ispell: </c></p>
+<p><c props="font-family:Courier New"><br/></c></p>
+<p><c props="font-family:Courier New; text-decoration:bottomline">Dictionary 		Locale </c></p>
+<p><c props="font-family:Courier New"><br/></c></p>
+<p><c props="font-family:Courier New">catalan.hash		ca-ES </c></p>
+<p><c props="font-family:Courier New">czech.hash		cs-CZ </c></p>
+<p><c props="font-family:Courier New">dansk.hash		da-DK </c></p>
+<p><c props="font-family:Courier New">deutsch.hash		de-CH </c></p>
+<p><c props="font-family:Courier New">deutsch.hash		de-DE </c></p>
+<p><c props="font-family:Courier New">deutsch.hash		de-AT </c></p>
+<p><c props="font-family:Courier New">ellhnika.hash		el-GR </c></p>
+<p><c props="font-family:Courier New">british.hash		en-AU </c></p>
+<p><c props="font-family:Courier New">american.hash		en-CA </c></p>
+<p><c props="font-family:Courier New">british.hash		en-GB </c></p>
+<p><c props="font-family:Courier New">british.hash		en-IE </c></p>
+<p><c props="font-family:Courier New">american.hash		en-US </c></p>
+<p><c props="font-family:Courier New">espanol.hash		es-ES </c></p>
+<p><c props="font-family:Courier New">francais.hash		fr-BE </c></p>
+<p><c props="font-family:Courier New">francais.hash		fr-CA </c></p>
+<p><c props="font-family:Courier New">francais.hash		fr-CH </c></p>
+<p><c props="font-family:Courier New">francais.hash		fr-FR </c></p>
+<p><c props="font-family:Courier New">italian.hash		it-IT </c></p>
+<p><c props="font-family:Courier New">lietuviu.hash		lt-LT </c></p>
+<p><c props="font-family:Courier New">dutch96.hash		nl-NL </c></p>
+<p><c props="font-family:Courier New">norsk.hash		nb-NO </c></p>
+<p><c props="font-family:Courier New">nynorsk.hash		nn-NO </c></p>
+<p><c props="font-family:Courier New">polish.hash		pl-PL </c></p>
+<p><c props="font-family:Courier New">portugues.hash		pt-PT </c></p>
+<p><c props="font-family:Courier New">portugues.hash		pt-BR </c></p>
+<p><c props="font-family:Courier New">russian.hash		ru-RU </c></p>
+<p><c props="font-family:Courier New">svenska.hash		sv-SE </c></p>
+<p></p>
+<p style="Heading 2"><c style="Heading 2" props="font-family:Courier New">Testing </c></p>
+<p><c props="font-family:Courier New"><br/></c></p>
+<p><c props="font-family:Courier New">To know if if everything worked (or if you´re just curious), you might want to perform a test such as the following: </c></p>
+<p><c props="font-family:Courier New"><br/></c></p>
+<p><c props="font-family:Courier New">color </c><c props="font-family:Courier New; lang:en-GB">colour</c><c props="font-family:Courier New"> </c><c props="font-family:Courier New; lang:de-DE">Farbe</c><c props="font-family:Courier New"> </c></p>
+<p><c props="font-family:Courier New"><br/></c></p>
+<p><c props="font-family:Courier New">These three words are all marked as being in different languages. This was achieved by double-clicking on each word, opening the Language Dialog, and selecting the intended language. The languages used here are: American English (en-US), British English (en-GB), and German (de-DE). </c></p>
+</section>
+</abiword>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" basedon="" followedby="Current Settings" name="Bullet List" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; field-color:transparent; margin-left:0.500000in; text-indent:-0.300000in; field-font:Symbol"/>
+</styles>
+<lists>
+<l id="1544988454" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Normal"><c props="lang:en-GB"></c>David Chart 2001</p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US">Change Case Dialog</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">The Change Case dialog affects the selected text, if any. If there is no text selected, it affects the word containing the insertion point. The insertion point counts as being in a word if it immediately next to the first or last letter, as well as if it is between two letters of the word.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Case Options</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">You can change the case of the selection in five different ways.</c></p>
+<p level="1" listid="1544988454" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.5000in; bgcolor:transparent; start-value:0; text-position:normal; text-indent:-0.3000in; color:000000; lang:en-US; text-decoration:none; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	Sentence case. This option sets the first letter of the selection to upper case, and leaves the rest unchanged. It does not change the first letter of every sentence, it does change the first character of every paragraph whether or not it starts a sentence, and it does not change a sentence written entirely in upper case to one with an upper case first letter and lower case for the rest.</c></p>
+<p level="1" listid="1544988454" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.5000in; bgcolor:transparent; start-value:0; text-position:normal; text-indent:-0.3000in; color:000000; lang:en-US; text-decoration:none; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	lowercase. This option changes all the letters in the selection to lower case.</c></p>
+<p level="1" listid="1544988454" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.5000in; bgcolor:transparent; start-value:0; text-position:normal; text-indent:-0.3000in; color:000000; lang:en-US; text-decoration:none; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	UPPERCASE. This option changes all the letters in the selection to upper case.</c></p>
+<p level="1" listid="1544988454" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.5000in; bgcolor:transparent; start-value:0; text-position:normal; text-indent:-0.3000in; color:000000; lang:en-US; text-decoration:none; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	Camel Caps. This option changes each word so that the first letter is upper case and subsequent letters are lower case. It works on words that are all in upper case.</c></p>
+<p level="1" listid="1544988454" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.5000in; bgcolor:transparent; start-value:0; text-position:normal; text-indent:-0.3000in; color:000000; lang:en-US; text-decoration:none; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	tOGGLE cASE. This option changes lower case letters to upper case, and vice versa.</c></p>
+<p level="1" listid="0" parentid="0" style="Heading 2" props="bgcolor:transparent; margin-left:0in; text-decoration:none; start-value:0; color:000000; lang:en-US; text-indent:0in; text-position:normal; font-style:normal"><c type="list_label" style="Heading 2">OK</c></p>
+<p level="1" listid="0" parentid="0" style="Normal" props="bgcolor:transparent; margin-left:0in; text-decoration:none; start-value:0; color:000000; lang:en-US; text-indent:0in; text-position:normal; font-style:normal"><c type="list_label" style="Normal">Click this button to apply the case option you have selected, and close the window.</c></p>
+<p level="1" listid="0" parentid="0" style="Heading 2" props="bgcolor:transparent; margin-left:0in; text-decoration:none; start-value:0; color:000000; lang:en-US; text-indent:0in; text-position:normal; font-style:normal"><c type="list_label" style="Heading 2">Cancel</c></p>
+<p level="1" listid="0" parentid="0" style="Normal" props="bgcolor:transparent; margin-left:0in; text-decoration:none; start-value:0; color:000000; lang:en-US; text-indent:0in; text-position:normal; font-style:normal"><c type="list_label" style="Normal">Click this button to close the window without altering the selected text.</c></p>
+</section>
+</abiword>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 08:18:55 -->
+<!--         Build_CompileDate = May 29 2001 -->
+
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1">Find Dialog</p>
+<p style="Heading 2">Find What:</p>
+<p style="Normal">Type the word you want to find in this box. This is the search string. The command searches for the string of letters or numbers that you type, so if you search for "in", you will find the middle two letters of "find", as well as the word "in".</p>
+<p style="Heading 2">Match Case</p>
+<p style="Normal">This checkbox determines whether the string you are looking for must have the same combination of capital and lower case letters as the search string. If this box is selected, then "In" will not match "in". If it is not selected, "in" matches "In", "IN", "in", and "iN".</p>
+<p style="Heading 2">Find Next</p>
+<p style="Normal">Clicking on this button will find the next occurrence of the search string in the document. AbiWord starts searching from the insertion point, and wraps round to the beginning of the document once the end is reached. The search stops when the whole document has been searched once. </p>
+<p style="Heading 2">Cancel</p>
+<p style="Normal">This button closes the Find dialog.</p>
+</section>
+</abiword>

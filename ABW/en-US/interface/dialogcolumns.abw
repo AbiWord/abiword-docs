@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" basedon="Normal" followedby="Normal Clean" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal Clean" basedon="Normal" followedby="Current Settings" props="text-align:left; margin-top:0pt; line-height:1.0; field-font:NULL; font-weight:normal; font-style:normal"/>
+<s type="P" basedon="Normal" followedby="Normal Clean" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="section-max-column-height:0.0in; columns:1; section-space-after:0.25in; column-line:off">
+<p style="Normal"><c style="Normal" props="lang:en-GB"></c><c style="Normal" props="lang:en-US">David Chart 2001-2</c></p>
+<p style="Heading 1"><c style="Heading 1">Columns Dialog</c></p>
+<p style="Normal"><c style="Normal">This dialog allows you to create newspaper-style columns in your document. The text will fill one column before moving on to the next. The column setting you select applies to the whole of the current section. If you want to change the number of columns in a document, you must insert a section break: see the Insert Break dialog.</c></p>
+<p style="Heading 2"><c style="Heading 2">Number of Columns</c></p>
+<p style="Normal"><c style="Normal">Press the button corresponding to the number of columns you want to select it.</c></p>
+<p style="Heading 2"><c style="Heading 2">Preview</c></p>
+<p style="Normal"><c style="Normal">This window shows you what a page will look like with the number of columns you have selected.</c></p>
+<p style="Heading 2"><c style="Heading 2">Line Between</c></p>
+<p style="Normal"><c style="Normal">If this option is selected, AbiWord draws narrow vertical lines between the columns of text.</c></p>
+<p style="Heading 2">Number of Columns</p>
+<p style="Normal">You can set the number of columns in this box, as well as by pressing the buttons. It is possible to have more than three columns if you set them here. You can type in the box or use the arrows to increase or decrease the number.</p>
+<p style="Heading 2">Space after Column</p>
+<p style="Normal">Set the space that AbiWord leaves between the end of a column and the following text. You can type in the box or use the arrow buttons to increase and decrease the setting.</p>
+<p style="Heading 2"><c style="Heading 2">Max Column size</c></p>
+<p style="Normal">Set the maximum height of a single column. If the text will not fit in this space, AbiWord starts a new column. This may mean moving to the next column across the page, or starting a new column below the one that is full. If a new column is started below the current column, the space specified in that option will be left.</p>
+<p style="Normal">If this is set to 0.0, there is no maximum height. Columns fill the whole page before starting a new column.</p>
+<p style="Heading 2"><c style="Heading 2">OK</c></p>
+<p style="Normal"><c style="Normal">Click this button to close the dialog and change the number of columns.</c></p>
+<p style="Heading 2"><c style="Heading 2">Cancel</c></p>
+<p style="Normal"><c style="Normal">Click this button to close the dialog without changing the number of columns.</c></p>
+</section>
+</abiword>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="margin-top:0pt; font-size:12pt; field-font:NULL; dom-dir:ltr; font-weight:normal; line-height:1.000000; text-align:left; font-style:normal; font-family:Times New Roman"/>
+<s followedby="Normal Clean" name="Heading 1" basedon="Normal" type="P" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s followedby="Current Settings" name="Normal Clean" basedon="Normal" type="P" props="text-align:left; margin-top:0pt; font-weight:normal; field-font:NULL; line-height:1.000000; font-style:normal"/>
+<s followedby="Normal Clean" name="Heading 2" basedon="Normal" type="P" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<section>
+<p style="Normal"><c props="lang:en-GB"></c>David Chart 2001</p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-GB">Insert Hyperlink</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This dialog allows you to create hyperlinks within your document. The lower box displays a list of all bookmarks in the document, and you can create a hyperlink to any bookmark. </c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Select the bookmark in the lower box, and it will appear in the upper one. Click 'OK' to create a hyperlink to that bookmark.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">You can also create external hyperlinks by typing the full URI in the upper box.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Hyperlinks are displayed in blue, underlined text within your document.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">OK</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Insert the hyperlink and close the dialog.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Cancel</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Close the dialog without inserting the hyperlink.</c></p>
+</section>
+</abiword>

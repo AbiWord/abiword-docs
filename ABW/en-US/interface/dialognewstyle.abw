@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.000000; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 3" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Normal"><c props="lang:en-GB"></c>David Chart 2001-2</p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US">New Style Dialog</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This dialog allows you to create a new style for use in your document.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style Name:</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Type a name for your new style in this box. The name must be different from all other style names in the document, and should be something that will remind you of what the style is for.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style Type</c></p>
+<p style="Normal"><c style="Heading 2" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">This specifies the type of style. At the moment, AbiWord only supports paragraph styles, but other kinds may be added in later releases.</c></p>
+<p style="Heading 2"><c props="lang:en-US">Based on:</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">You can choose to base your style on an existing style. In that case, the new style has all the properties of the old one, unless you change things.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Style for following paragraph</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">You can set styles so that when you press return, the style changes. This is particularly useful for heading styles. Select the style you want from the next paragraph from this drop-down menu. 'Current Settings' means that the style is not changed between paragraphs, and any additional formatting you have added also remains.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Preview</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">An example of what your style will look like. The heavier text is show in the new style.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Description</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">A list of the properties of the style, with their values. Thus, if the property is 'text-decoration', the value might be 'underline'. Properties and values are separated by a colon.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Remove property from style</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">The drop down menu contains a list of all the properties in the style. It does not list the values of the properties, only the things that the style changes. To remove a property, select it on the list. It will then appear in the box. Press the 'Remove' button.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">OK</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This button closes the dialog and creates your new style.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Cancel</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This button closes the dialog without creating the new style.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Format</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This menu gives access to the dialogs wherein you can set the properties of the style. The dialogs are the same as the ones you get when you select these options from the Format menu, but any changes you make apply to the style you are creating rather than to the current text.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Paragraph</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the paragraph dialog.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Font</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the font dialog.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Tabs</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the tabs dialog.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Numbering</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the lists dialog.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Language</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Opens the language dialog.</c></p>
+</section>
+</abiword>
