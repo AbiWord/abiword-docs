@@ -33,7 +33,7 @@ if [ -z "$ABI_DOC_PROG" ]; then
 ABI_DOC_PROG="AbiWord-2.0";
 fi
 
-html_export_options="html4: no; use-awml: no; embed-css: no; embed-images:no"
+html_export_options="html4: no; use-awml: no; embed-css: yes; embed-images:yes"
 
 for help_language in en-US fr-FR pl-PL #de-DE
 do
