@@ -21,6 +21,7 @@
 #  Author(s): Kenneth Christiansen
 #  Cleanup, other alterations: Dom Lachowicz
 
+
 ## Release information
 my $PROGRAM  = "make-abidoc";
 my $VERSION  = "0.1";
@@ -48,6 +49,7 @@ my $HIERARCHY_ARG = "";
 $| = 1;
 
 ## Handle options
+
 GetOptions (
 	    "help|h"	  	  => \$HELP_ARG,
 	    "version|v" 	  => \$VERSION_ARG,
@@ -57,13 +59,16 @@ GetOptions (
             "output|o=s"          => \$OUT_ARG, 
 	    ) or &invalid_option;
 
-my $OPTION = $ARGV[0];
+my $OPTION = @ARGV;
 my $OUTNAME = "0";
+
+#exit;
 
 &main;
 
 ## Use the supplied arguments
 ## This section will check for the different options.
+## edited by cal
 
 sub handle_options () {
 
@@ -73,19 +78,22 @@ sub handle_options () {
     } 
 
     if ($HELP_ARG) {
+	&version;
 	&help;
-	exit;
+	&exit;
+    }
+
+    if (!$HEADER_ARG || !$FOOTER_ARG || !$INFO_ARG) {
+	&help;
+	&exit;
     }
 
     if ($OUT_ARG) {
         $OUTNAME = $OUT_ARG;
     }
 
-    if (!$OPTION || !$HEADER_ARG || !$FOOTER_ARG || !$INFO_ARG) {
-	&help;
-    }
-
-    $BODY_ARG = $OPTION;
+    $BODY_ARG = $INFO_ARG;
+    $BODY_ARG =~ s/.info/.xhtml/;
 }
 
 sub string_from_file ($filename)
@@ -141,7 +149,7 @@ sub main
 	close OUT
     }
     else {
-	print $body;
+	print "${body}\n";
     }
 }
 
@@ -193,7 +201,6 @@ sub version
     print "Copyright (C) 2002 Free Software Foundation, Inc.\n";
     print "This is free software; see the source for copying conditions.  There is NO\n";
     print "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n";
-    exit;
 }
 
 sub help
@@ -208,7 +215,6 @@ sub help
     print "  -I, --info                   the info file to use\n";
     print "  -V, --version                shows the version\n";
     print "Report bugs to bugzilla.abiword.com.\n";
-    exit;
 }
 
 sub invalid_option
