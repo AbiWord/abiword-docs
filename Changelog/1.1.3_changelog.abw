@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" version="1.1.2" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:en-GB">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.2" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at http://www.abisource.com     -->
+<!-- More information about AbiWord is available at http://www.abisource.com     -->
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Wed Dec  4 17:48:34 2002</m>
+<m key="abiword.date_last_changed">Wed Jan  8 22:36:31 2003</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
@@ -23,8 +23,12 @@
 <p style="Heading 1">1.1.3 Changelog</p>
 <p style="Heading 2">Pierre Abbat</p>
 <p style="Normal">Lojban localisation work.</p>
+<p style="Heading 2">Johan Björk</p>
+<p style="Normal">QNX frame refactoring.</p>
 <p style="Heading 2">Besnik Bleta</p>
 <p style="Normal">Albanian localisation work.</p>
+<p style="Heading 2">David Buddridge</p>
+<p style="Normal">AbiWord training manual.</p>
 <p style="Heading 2">Francisco Cheratzu</p>
 <p style="Normal">Sardinian localisation work.</p>
 <p style="Heading 2">Mauro Colorio</p>
@@ -33,11 +37,26 @@
 <p style="Normal">(Probably has another name as well, but I don't know it.)</p>
 <p style="Normal">Fix initialisation of parse structure in wv.</p>
 <p style="Heading 2">Jeremy Davis</p>
-<p style="Normal">Win32 refactoring.</p>
+<p style="Normal">Win32 refactoring, and recovery therefrom.</p>
+<p style="Normal">Added libcurl to new peer module.</p>
+<p style="Normal">Win32 window geometry fix.</p>
+<p style="Normal">Put NSIS2 into CVS, and started work on it.</p>
+<p style="Normal">Added dictionary download support to Win32 installer.</p>
+<p style="Normal">Make Win32 compile.</p>
+<p style="Heading 2">Andrew Dunbar</p>
+<p style="Normal">Tidied up the code in the strings classes.</p>
+<p style="Heading 2">Karl Ove Hufthammer</p>
+<p style="Normal">Norwegian Nynorsk localisation work.</p>
 <p style="Heading 2">Will Lachance</p>
 <p style="Normal">Fixed a bug with the piecetable which caused problems when resizing.</p>
 <p style="Normal">Thorough refactoring of frame code on unix.</p>
 <p style="Normal">Thorough UTF-8ing of frame code on unix.</p>
+<p style="Heading 2">Jordi Mas</p>
+<p style="Normal">Make Options dialog native on Win32.</p>
+<p style="Normal">Win32 keyboard fixes.</p>
+<p style="Normal">Bug fixes in Win32 Meta and Options dialogs.</p>
+<p style="Normal">Changes to allow multiple instances of property sheets on Win32.</p>
+<p style="Normal">Bug fixes: 2481, 3286, </p>
 <p style="Heading 2">Hubert Figuiere</p>
 <p style="Normal">wv compiler warnings clean-up for Cocoa.</p>
 <p style="Normal">Refactored Cocoa code to match Will Lachance's refactoring on unix.</p>
@@ -48,6 +67,11 @@
 <p style="Normal">Fix lots of leaks and double releases on Cocoa.</p>
 <p style="Normal">Handle arrow keys and mouse on Cocoa.</p>
 <p style="Normal">Fixes for text and caret on Cocoa.</p>
+<p style="Normal">Font work for Cocoa.</p>
+<p style="Normal">Mouse events on rulers in Cocoa.</p>
+<p style="Normal">Fix toolbars option on Cocoa.</p>
+<p style="Normal">Fix Cocoa mouse events.</p>
+<p style="Normal">Fixed memory leaks.</p>
 <p style="Heading 2">Raphael Finkel</p>
 <p style="Normal">Yiddish localisation work.</p>
 <p style="Heading 2">Frank Franklin</p>
@@ -59,6 +83,15 @@
 <p style="Normal">Build fixes for Solaris and Irix.</p>
 <p style="Normal">Hack for a build problem on Solaris.</p>
 <p style="Normal">Fix frame geometry on unix.</p>
+<p style="Normal">Forward port of his HTML exporter from STABLE.</p>
+<p style="Normal">Work on internal UTF-8 usage.</p>
+<p style="Normal">Fixes to metadata.</p>
+<p style="Normal">Forward port of STABLE's XHTML importer.</p>
+<p style="Normal">Work on [X]HTML import and export.</p>
+<p style="Normal">Code cleanup in GR_UnixGraphics.</p>
+<p style="Normal">Added a dialog of HTML export options, disabled by default.</p>
+<p style="Heading 2">Marco Innocenti</p>
+<p style="Normal">Italian localisation work.</p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">Work on Open Office importer.</p>
 <p style="Normal">Added mail merge capability.</p>
@@ -68,7 +101,20 @@
 <p style="Normal">Some work on image drag-n-drop.</p>
 <p style="Normal">Fixes for GTK+ clipboard.</p>
 <p style="Normal">Text exported to Open Office.</p>
+<p style="Normal">Fix libxml2 bug.</p>
+<p style="Normal">Improvements to HTML export.</p>
+<p style="Normal">Added paste support for svg, svg-xml, and wmf to the UNIX clipboard.</p>
+<p style="Normal">Fixed ps image printing.</p>
+<p style="Normal">Added GDA plugin so that mail merge can get information from databases.</p>
+<p style="Normal">Created an NSIS_2.0 branch and curl module in CVS, for Jeremy Davis.</p>
+<p style="Normal">Fixed a security bug in wv.</p>
+<p style="Normal">Fixed export of hyperlinks to RTF.</p>
+<p style="Normal">Code cleanup and reorganisation in ispell code.</p>
+<p style="Normal">Beginnings of XIM input support, for languages such as Japanese.</p>
+<p style="Normal">Bug fixes: 3758, 4391, 4394</p>
 <p style="Heading 2">Pat Lam</p>
+<p style="Normal">Fixed crash on exit in non-xft build.</p>
+<p style="Normal">Substantial work on footnotes.</p>
 <p style="Normal">Bug fixes: 4412</p>
 <p style="Heading 2">Jordi Mas</p>
 <p style="Normal">Build fix.</p>
@@ -85,6 +131,14 @@
 <p style="Normal">Fancy image resize boxes and stuff.</p>
 <p style="Normal">Added font caching on unix.</p>
 <p style="Normal">Build error fix.</p>
+<p style="Normal">Speed up image dragging.</p>
+<p style="Normal">Intelligent redrawing when dragging images.</p>
+<p style="Normal">Fixed down spinners in image dialog.</p>
+<p style="Normal">Implemented DOTTED line style on GTK2.</p>
+<p style="Normal">Fixed drawing errors in view when working with formatting marks shown.</p>
+<p style="Normal">Fixed compiler warnings.</p>
+<p style="Normal">Work on Format Table dialog.</p>
+<p style="Normal">Build fix.</p>
 <p style="Normal">Bug fixes: 4255</p>
 <p style="Heading 2">Mike Nordell</p>
 <p style="Normal">MSVC6 build fixes.</p>
@@ -98,11 +152,25 @@
 <p style="Normal">Fixed some Win32 memory leaks.</p>
 <p style="Normal">Fixed link errors for MSVC6.</p>
 <p style="Normal">Cleaned up some duplicated Win32 code.</p>
-<p style="Normal">Win32 build fix.</p>
+<p style="Normal">Win32 build fixes.</p>
+<p style="Normal">Stubs for diving make on Win32.</p>
+<p style="Normal">MSVC6 build fixes.</p>
+<p style="Normal">Finished removing UCS2 from barbarism code.</p>
+<p style="Normal">Work on HTMLOptions dialog.</p>
 <p style="Heading 2">Andrzej Przuszynski</p>
 <p style="Normal">Polish localisation work.</p>
 <p style="Heading 2">Sharuzzaman Ahmat Raslan</p>
 <p style="Normal">Malay localisation work.</p>
+<p style="Heading 2">Jesper Skov</p>
+<p style="Normal">Speed up in UT_isWordSeparator.</p>
+<p style="Normal">Refactoring of speller dialog.</p>
+<p style="Normal">Added functions for identifying ignored characters around words.</p>
+<p style="Normal">Fixed the sentence scanner.</p>
+<p style="Normal">Improvements to af/util string handling.</p>
+<p style="Normal">Fixed some compiler warnings.</p>
+<p style="Normal">Fixed a problem with the Win32 spellcheck dialog.</p>
+<p style="Normal">Hacked a hack in squiggle code to make them appear correctly.</p>
+<p style="Normal">Bug Fixes: 1440</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Fixes for caret, and other display issues, such as page number display during document load and size of scrollbars.</p>
 <p style="Normal">Fixed table cells to expand immediately when text pasted in.</p>
@@ -116,7 +184,20 @@
 <p style="Normal">Added autoformat of table lines on double-click.</p>
 <p style="Normal">Fixed a memory bug.</p>
 <p style="Normal">Fixed unix printing.</p>
+<p style="Normal">Fixed Merge Cells.</p>
+<p style="Normal">Put race detection code back in to startup code.</p>
+<p style="Normal">Fixed undo of deletion of whole tables.</p>
+<p style="Normal">Fixed table and section break crashes.</p>
+<p style="Normal">Beginning of work on setting height of table rows via handles on left ruler.</p>
+<p style="Normal">Fixed bugs in tables and section breaks.</p>
+<p style="Normal">Substantial work on footnotes.</p>
+<p style="Heading 2">Chad Thomas</p>
+<p style="Normal">Fix build breakage.</p>
+<p style="Normal">Fix a crash on startup.</p>
+<p style="Heading 2">Chris Winne</p>
+<p style="Normal">Fix problem with perl 5.8.</p>
 <p style="Heading 2">Daniel Yacob</p>
 <p style="Normal">Amharic localisation work.</p>
+<p style="Normal">Typo in strings fixed.</p>
 </section>
 </abiword>
