@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Gestionnaire de modules d'AbiWord</c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce dialogue contrôle l'utilisation des modules dans AbiWord. Avant d'utiliser un module, il doit être installé sur votre ordinateur. Il existe plusieurs modules disponibles pour AbiWord, plusieurs sont disponibles à partir du site web d'AbiWord. Les instructions fournies ici supposent que les modules sont disponibles sur votre machine.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Tous les modules installés dans l'emplacement par défaut (c'est le cas pour la plupart des installateurs) sont chargés au démarrage d'AbiWord.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce dialogue possède deux onglets : </c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:italic; lang:fr-FR">Liste des modules</c><c props="lang:fr-FR"> et </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:italic; text-decoration:none">Détails du</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:italic; lang:fr-FR"> module</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Liste des modules</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cet onglet vous permet d'activer ou de désactiver des modules. Un module peut seulement être utilisé par AbiWord s'il est actif. De la même façon, un module consomme seulement des ressources système s'il est actif.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Modules actifs</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette fenêtre affiche la liste de tous les modules actifs présentement. Cliquez sur le nom d'un module pour le sélectionner.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Désactiver un module</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton désactive le module sélectionné.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Désactiver tous les modules</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton désactive tous les modules actifs présentement, peut importe s'ils sont sélectionnés ou non.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Installer un nouveau module</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton ouvre le dialogue standard d'ouverture de fichier. Vous devez localiser les modules et les ouvrir afin de les activer. Le dialogue s'ouvre automatiquement dans le répertoire par défaut des modules d'AbiWord. La majorité des modules seront installés automatiquement dans ce répertoire. Si vous les avez installé ailleurs, vous devez changer de répertoire vous-même.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Notez que, sur Windows, le système d'opération peut être réglé pour cacher tous les fichiers .dll dans le dialogue d'ouverture de fichier. Puisque les modules AbiWord sont des fichiers .dll, vous ne serez pas en mesure de voir les modules dans le répertoire.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Détails du module</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette fenêtre fournit l'information à propos du module présentement sélectionné dans l'onglet </c><c props="font-style:italic; lang:fr-FR">Liste des modules</c><c props="lang:fr-FR">.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Fermer</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cliquez sur ce bouton pour fermer le dialogue.</c><c props="lang:fr-FR"></c></p>
+</section>
+</abiword>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.0" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.000000; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<lists>
+<l id="226116077" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Obtenir de l'aide</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Vous avez consulté la foire aux questions et le manuel de l'usager et vous n'y trouvez pas de solution à votre problème. C'est alors le temps de demander de l'aide. Il existe plusieurs façons de le faire : la liste de distribution des utilisateurs et le service de bavardage IRC.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">La liste de distribution des utilisateurs</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Vous pouvez vous enregistrer à la liste de distribution des Utilisateurs d'AbiWord en transmettant un courriel à </c><c props="font-style:italic; lang:fr-FR">abiword-user-request@abisource.com</c><c props="lang:fr-FR"> avec le mot </c><c props="font-style:italic; lang:fr-FR">subscribe</c><c props="lang:fr-FR"> dans le corps du message.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">La liste des utilisateurs est configurée de telle manière que seuls les membres peuvent y soumettre des messages. Ceci réduit considérablement le nombre de courriers indésirables (spam) qui peuvent atteindre ceux qui y adhèrent.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Nous hébergeons aussi les archives de cette liste.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Vous pouvez utiliser cette liste pour :</c><c props="lang:fr-FR"></c></p>
+<p level="1" listid="226116077" parentid="0" props="margin-top:0.0000in; margin-left:0.5000in; start-value:0; margin-bottom:0.0000in; field-font:Symbol; list-style:Bullet List; line-height:1.000000; text-align:left; margin-right:0.0000in; text-indent:-0.3000in"><field type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:fr-FR; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></field><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:fr-FR; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal">	Soumettre des questions</c><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:fr-FR; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></c></p>
+<p level="1" listid="226116077" props="margin-top:0.0000in; list-decimal:.; margin-left:0.5000in; start-value:0; text-indent:-0.3000in; text-align:left; list-delim:%L; margin-right:0.0000in; margin-bottom:0.0000in; line-height:1.000000; list-style:Bullet List; field-font:Symbol"><field type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:fr-FR; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></field><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:fr-FR; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal">	Suggérer des caractéristiques</c><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:fr-FR; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></c></p>
+<p level="1" listid="226116077" props="margin-top:0.0000in; list-decimal:.; margin-left:0.5000in; start-value:0; text-indent:-0.3000in; text-align:left; list-delim:%L; margin-right:0.0000in; margin-bottom:0.0000in; line-height:1.000000; list-style:Bullet List; field-font:Symbol"><field type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:fr-FR; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></field><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:fr-FR; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal">	Etablir des discussions reliées à AbiWord</c><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:fr-FR; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></c></p>
+<p style="Normal"><c props="lang:fr-FR">S'il vous plaît, gardez à l'esprit que cette liste est un forum public et que vos soumissions seront lues par de nombreuses personnes.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Vous obtiendrez généralement une réponse en une journée.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Le service de bavardage IRC</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Le service de bavardage Internet Relay Chat (IRC) est similaire à un salon de bavardage, à l'exception que les salons de bavardage sont appelées canaux.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Vous pouvez vous joindre au canal IRC d'Abiword's et poser vos questions. Habituellement des développeurs s'y attardent et peuvent répondre à vos questions. </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR"></c><c props="lang:fr-FR">Le serveur IRC est : irc.gnome.org</c></p>
+<p style="Normal"><c props="lang:fr-FR">Le canal IRC est : #abiword</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si vous n'êtes pas familier avec l'IRC, vous pouvez consulter les ressources suivantes :</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR"></c><c props="lang:fr-FR">mIRC - un client Windows IRC</c></p>
+<p style="Normal"><c props="lang:fr-FR">xchat - un </c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">client </c><c props="lang:fr-FR">Unix et Linux</c></p>
+<p style="Normal"><c props="lang:fr-FR">Avec le service de bavardage IRC, il est agréable d'obtenir (habituellement) instantanément une réponse à vos questions, au lieu d'attendre le cycle d'échange propre à la liste de distribution.</c><c props="lang:fr-FR"></c></p>
+</section>
+</abiword>

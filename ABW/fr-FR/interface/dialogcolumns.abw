@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal Clean" basedon="Normal" followedby="Current Settings" props="text-align:left; margin-top:0pt; line-height:1.000000; field-font:NULL; font-weight:normal; font-style:normal"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="section-max-column-height:0.0in; columns:1; section-space-after:0.25in; column-line:off">
+<p style="Heading 1"><c style="Heading 1" props="lang:fr-CA"></c><c props="lang:fr-FR">Dialogue colonnes</c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce dialogue vous permet de créer des colonnes semblables à celle d'un journal </c><c style="Normal" props="lang:fr-FR"></c><c style="Normal" props="font-family:Times New Roman; text-decoration:none; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">dans votre document</c><c style="Normal" props="lang:fr-FR">. Le texte remplira une colonne avant d'occuper la suivante. Vos choix de caractéristiques de colonnes s'appliquent à toute la section présente. Si vous désirez changer le nombre de colonnes d'un document, vous devez insérer un saut de section : consultez l'information sur le dialogue S</c><c style="Normal" props="font-style:italic; lang:fr-FR">aut</c><c style="Normal" props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Nombre de colonnes</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Appuyez sur le bouton correspondant au nombre de colonnes que vous désirez.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Aperçu</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Cette fenêtre vous présente l'aperçu de la page avec le nombre de colonnes que vous avez sélectionné.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Ligne séparatrice</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Si cette option est sélectionnée, AbiWord dessine une mince ligne verticale entre les colonnes de texte.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Nombre de colonnes</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Vous pouvez fixer le nombre de colonnes dans cette boîte tout comme vous pouvez le faire avec les boutons. Ici, il est possible de choisir plus de trois colonnes si vous le désirez. Vous pouvez entrer un nombre ou utiliser les flèches pour l'augmenter ou le diminuer.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Espace après la colonne</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Réglez l'espace que AbiWord laisse entre la fin d'une colonne et le texte qui suit. Vous pouvez entrer un nombre ou utiliser les flèches pour augmenter ou diminuer l'espacement.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Taille maximum de colonne</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Réglez la hauteur maximum d'une seule colonne. Si le texte déborde cette espace, AbiWord débute une nouvelle colonne. Ceci peut impliquer de déplacer du texte à la prochaine colonne de la page ou de débuter une nouvelle colonne sous celle qui est pleine. Les caractéristiques de la nouvelle colonne seront les mêmes que celles de la colonne précédente.</c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR"></c><c style="Normal" props="lang:fr-FR">Si la valeur est de 0.0, il n'y aura pas de hauteur maximum. Les colonnes occupent toute la page avant de débuter une nouvelle colonne.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">OK</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Cliquez ce bouton pour fermer le dialogue et changer le nombre de colonnes.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Annuler</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Cliquez ce bouton pour fermer le dialogue sans changer le nombre de colonnes.</c><c style="Normal" props="lang:fr-FR"></c></p>
+</section>
+</abiword>

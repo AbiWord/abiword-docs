@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3333in; font-style:normal; font-weight:bold; lang:en-US; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.00cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Sections</c></p>
+<p style="Normal"><c props="lang:fr-FR">Les sections dans AbiWord sont des groupes de paragraphes. Vous pouvez trouver des instructions sur la manières des les insérer dans un document en consultant la documentation du dialogue </c><c props="lang:fr-FR"></c><a xlink:href="../interface/dialogbreak.html"><c props="lang:fr-FR">Saut</c></a><c props="lang:fr-FR">. Ce document contient des informations supplémentaires sur leur fonctionnement.</c></p>
+<p style="Normal"><c props="lang:fr-FR">Les sections contiennent des paragraphes, mais peuvent contenir d'autres sections. L'en-tête et le pied de page d'un document sont tous les deux des sections et le corps du texte en comprend au moins une. En insérant un saut de section, vous pouvez séparer le corps du texte en plusieurs sections.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Les propriétés de mise en forme d'une section peuvent être modifiées tout comme les propriétés d'un paragraphe. Les propriétés d'une section incluent les marges, la numérotation de page et le nombre de colonnes. Tous les paragraphes d'une section seront disposés en suivant les propriétés de la section.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ainsi, lorsque le saut de section utilisé n'est pas un saut de page, il est possible de définir des marges différentes pour chaque sections, et ce, même à l'intérieur d'une page. Alors, les marges spécifiques à chacune des sections s'appliquent aux paragraphes qu'elles contiennent.</c><c props="lang:fr-FR"></c></p>
+</section>
+</abiword>

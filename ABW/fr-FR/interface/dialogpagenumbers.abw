@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.0" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Dialogue numéros de page</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce dialogue insère des numéros de page sur chacune des pages de votre document.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Position</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Le menu déroulant vous permet de choisir si le numéro de page apparaît dans l'en-tête </c><c style="Normal" props="lang:fr-FR"></c><c style="Normal" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">du document </c><c style="Normal" props="lang:fr-FR">ou dans le pied de page.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Alignement</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">Le menu déroulant d'alignement détermine si les numéros de page sont placés à gauche, à droite ou au centre de l'en-tête ou du pied de page</c><c style="Normal" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR"></c><c style="Normal" props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Aperçu</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Cette fenêtre montre la position choisie du numéro de page relative au texte principal de la page.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">OK</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce bouton insère les numéros de page et ferme le dialogue.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Annuler</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce bouton ferme le dialogue sans insérer de numéros de page.</c><c style="Normal" props="lang:fr-FR"></c></p>
+</section>
+</abiword>

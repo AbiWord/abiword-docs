@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c style="Heading 1" props="lang:fr-CA"></c><c props="lang:fr-FR">Dialogue langue</c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce dialogue vous permet de spécifier à AbiWord, la langue dans laquelle vous écrivez. La langue choisie affecte le dictionnaire utilisé pour la vérification orthographique et d'autres propriétés qui dépendent de la langue.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Sélectionnez une langue</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce menu fournit la liste de toutes les langues que AbiWord supporte. Cliquez sur une d'elles pour la sélectionner. Si votre langue n'apparaît pas dans la liste, alors votre version d'AbiWord ne reconnaît pas votre langue. Consultez le site web d'AbiWord afin de vérifier si le support de votre langue a été ajouté depuis l'émission de la version que vous utilisez.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Si vous sélectionnez l'item </c><c style="Normal" props="font-style:italic; lang:fr-FR">pas de vérification</c><c style="Normal" props="lang:fr-FR">, AbiWord ne fera pas la vérification orthographique de votre document. Si votre langue n'est pas disponible, cet item demeure votre meilleur choix. L'item </c><c style="Normal" props="font-style:italic; lang:fr-FR">pas de vérification</c><c style="Normal" props="lang:fr-FR"> se situe à la fin du menu.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">OK</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce bouton ferme le dialogue et change la langue courante.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Annuler</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce bouton ferme le dialogue sans changer la langue courante.</c><c style="Normal" props="lang:fr-FR"></c></p>
+</section>
+</abiword>

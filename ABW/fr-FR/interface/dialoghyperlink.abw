@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0.0688in; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0.0688in; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s followedby="Current Settings" name="Normal Clean" basedon="Normal" type="P" props="text-align:left; font-weight:normal; margin-top:0pt; line-height:1.000000; field-font:NULL; font-style:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s followedby="Normal" name="Adresse" basedon="Normal" type="P" props="line-height:1.000000; font-style:normal"/>
+<s type="P" name="Blockquote" basedon="Normal" props="margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; margin-right:0.2500in; margin-left:0.2500in"/>
+<s type="P" name="CITE" props="line-height:1.000000; font-style:normal"/>
+<s type="P" name="CODE" props="line-height:1.000000; font-family:Courier New; font-size:10pt"/>
+<s type="P" name="Commentaire" props="line-height:1.000000"/>
+<s type="P" name="Definition" props="line-height:1.000000; font-style:normal"/>
+<s followedby="Definition Term" name="Definition List" basedon="Normal" type="P" props="line-height:1.000000; margin-left:0.2500in"/>
+<s followedby="Definition List" name="Definition Term" basedon="Normal" type="P" props="line-height:1.000000"/>
+<s type="P" name="Emphasis" props="; text-decoration:none; line-height:1.000000; font-style:normal"/>
+<s type="P" name="Exemple" props="font-family:Courier New; line-height:1.000000"/>
+<s type="P" name="FollowedHyperlink" props="; text-decoration:underline ; line-height:1.000000; color:000000"/>
+<s type="P" name="Fort" props="line-height:1.000000; font-weight:normal"/>
+<s followedby="Normal" name="H1" basedon="Normal" type="P" props="font-size:24pt; margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-weight:normal"/>
+<s followedby="Normal" name="H2" basedon="Normal" type="P" props="font-size:18pt; margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-weight:normal"/>
+<s followedby="Normal" name="H3" basedon="Normal" type="P" props="font-size:14pt; margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-weight:normal"/>
+<s followedby="Normal" name="H4" basedon="Normal" type="P" props="font-size:12pt; margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-weight:normal"/>
+<s followedby="Normal" name="H5" basedon="Normal" type="P" props="font-size:10pt; margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-weight:normal"/>
+<s followedby="Normal" name="H6" basedon="Normal" type="P" props="font-size:8pt; margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-weight:normal"/>
+<s type="P" name="HTML Markup" props="line-height:1.000000; color:000000"/>
+<s type="P" name="Hyperlink" props="; text-decoration:underline ; line-height:1.000000; color:000000"/>
+<s type="P" name="Keyboard" props="line-height:1.000000; font-weight:normal; font-family:Courier New; font-size:10pt"/>
+<s type="P" name="Machine \u224 \'e0 \u233 \'e9crire" props="line-height:1.000000; font-family:Courier New; font-size:10pt"/>
+<s type="P" name="Preformatted" basedon="Normal" props="font-size:10pt; margin-top:0.0000in; tabstops:0.000000in/L0,0.665278in/L0,1.331250in/L0,1.997917in/L0,2.663889in/L0,3.329167in/L0,3.995139in/L0,4.661806in/L0,5.327778in/L0,5.993750in/L0,6.659028in/L0; margin-bottom:0.0000in; font-family:Courier New; line-height:1.000000"/>
+<s type="P" name="Variable" props="line-height:1.000000; font-style:normal"/>
+<s followedby="Normal" name="z-Bottom of Form" type="P" props="line-height:1.000000; font-family:Arial; font-size:8pt"/>
+<s followedby="Normal" name="z-Top of Form" type="P" props="line-height:1.000000; font-family:Arial; font-size:8pt"/>
+</styles>
+<pagesize pagetype="Custom" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c style="Heading 1" props="lang:fr-CA"></c><c props="lang:fr-FR">Dialogue hyperlien</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:fr-FR">Ce dialogue vous permet de créer des hyperliens dans votre document. La boîte du bas affiche une liste de tous les signets du document et vous pouvez créer un hyperlien à un signet quelconque. Sélectionnez le signet dans la boîte du bas et il s'affiche dans la boîte du haut. Vous pouvez aussi entrer le nom d'un signet existant. Cliquez </c><c style="Normal Clean" props="font-style:italic; lang:fr-FR">OK</c><c style="Normal Clean" props="lang:fr-FR"> pour créer un hyperlien à ce signet. Si le signet n'existe pas, un message d'avertissement apparaît. Vous pouvez tout de même créer l'hyperlien, mais il ne sera pas actif tant que le signet n'aura pas été créé.</c><c style="Normal Clean" props="lang:fr-FR"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:fr-FR">Vous pouvez aussi créer des hyperliens à d'autres fichiers en entrant l'URI au complet dans la boîte du haut ou en entrant un nom de fichier qui inclue un point (.). NdT : un URI, de l'anglais </c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; lang:fr-FR; text-position:normal; font-weight:normal; font-style:italic; text-decoration:none">Uniform Resource Identifier</c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"> est une méthode pour identifier, entre autres, les fichiers et les sites web. Par exemple : http://www.abisource.com</c><c style="Normal Clean" props="lang:fr-FR"> </c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:fr-FR">Les hyperliens sont affichés en bleu et leur texte </c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">est </c><c style="Normal Clean" props="lang:fr-FR">souligné dans votre document. Pour les utiliser, vous devez double cliquer sur l'hyperlien. Un simple clique place le point d'insertion à l'intérieur du lien pour vous permettre de l'éditer.</c><c style="Normal Clean" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">OK</c><c props="lang:fr-FR"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:fr-FR">Insère l'hyperlien et ferme le dialogue.</c><c style="Normal Clean" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Annuler</c><c props="lang:fr-FR"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:fr-FR">Ferme le dialogue sans insérer d'hyperlien.</c><c style="Normal Clean" props="lang:fr-FR"></c></p>
+</section>
+</abiword>

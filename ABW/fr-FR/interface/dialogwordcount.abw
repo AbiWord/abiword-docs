@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0pt; text-indent:0in; margin-top:0pt; text-position:normal; font-weight:normal; font-variant:normal; color:000000; text-decoration:none; line-height:1.000000; margin-bottom:0pt; text-align:left; margin-right:0pt; bgcolor:transparent; font-size:12pt; widows:2; font-stretch:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Dialogue statistiques</c></p>
+<p style="Normal"><c props="lang:fr-FR">Lorsque le dialogue </c><c props="font-style:italic; lang:fr-FR">Statistiques</c><c props="lang:fr-FR"> est ouvert, il affiche les statistiques de votre document à ce moment. Si laissé ouvert, les statistiques </c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">peuvent être mises à jour comme vous le verrez plus bas</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Automatique</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si cette option est sélectionnée, AbiWord met à jour automatiquement le nombre de mots de votre document alors que vous le modifiez.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Secondes entre mises à jour</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette boîte vous indique la fréquence à laquelle AbiWord met à jour le nombre de mots si vous avez sélectionné l'option </c><c props="font-style:italic; lang:fr-FR">Automatique</c><c props="lang:fr-FR">. Vous pouvez entrer un nombre ou utiliser les flèches à côté de la boîte pour augmenter ou diminuer l'intervalle en dixième de seconde.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Statistiques</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Le nom de document et le chemin d'accès est affiché au haut du dialogue </c><c props="font-style:italic; lang:fr-FR">Statistiques</c><c props="lang:fr-FR">.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR; font-weight:bold; font-style:normal">Mots</c><c props="lang:fr-FR"> fournit le nombre de mots du document ; un mot est définit comme une chaîne de lettres ou chiffres entre deux espaces ou signes de ponctuations. Ainsi, </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">1</c><c props="lang:fr-FR"> est un mot, mais </c><c props="font-style:italic; lang:fr-FR">au-dessus</c><c props="lang:fr-FR"> est deux mots et </c><c props="font-style:italic; lang:fr-FR">1995-4-13</c><c props="lang:fr-FR"> correspond à trois mots.</c></p>
+<p style="Normal"><c props="lang:fr-FR; font-weight:bold; font-style:normal">Paragraphes</c><c props="lang:fr-FR"> fournit le nombre de paragraphes tel que définit par le nombre de retours de chariot que vous avez entrés.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Les items </c><c props="lang:fr-FR; font-weight:bold; font-style:normal">caractères</c><c props="lang:fr-FR"> correspondent à leur libellé. Seulement les caractères qui peuvent être imprimés font partie du compte.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="font-weight:bold; lang:fr-FR">Lignes</c><c props="lang:fr-FR"> est le nombre de lignes de texte dans le document. Une ligne blanche insérée en entrant un retour de chariot compte ; l'espace inséré entre du texte par exemple lors d'utilisation d'interligne double ne compte pas.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="font-weight:bold; lang:fr-FR">Pages</c><c props="lang:fr-FR"> indique le nombre de pages que le document occupe lors de l'impression.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Mise à jour</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton est seulement disponible si l'option </c><c props="font-style:italic; lang:fr-FR">Automatique</c><c props="lang:fr-FR"> n'est pas sélectionnée. Appuyez sur le bouton pour mettre à jour le décompte de votre document.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Fermer</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton ferme le dialogue </c><c props="font-style:italic; lang:fr-FR">Statistiques</c><c props="lang:fr-FR">.</c><c props="lang:fr-FR"></c></p>
+</section>
+</abiword>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0.0694in; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0.0694in; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s followedby="Normal" name="Adresse" basedon="Normal" type="P" props="line-height:1.000000; font-style:normal"/>
+<s type="P" name="Blockquote" basedon="Normal" props="margin-top:0.0694in; line-height:1.000000; margin-bottom:0.0694in; margin-right:0.2500in; margin-left:0.2500in"/>
+<s type="P" name="CITE" props="line-height:1.000000; font-style:normal"/>
+<s type="P" name="CODE" props="line-height:1.000000; font-family:Courier New; font-size:10pt"/>
+<s type="P" name="Commentaire" props="line-height:1.000000"/>
+<s type="P" name="Definition" props="line-height:1.000000; font-style:normal"/>
+<s followedby="Definition Term" name="Definition List" basedon="Normal" type="P" props="line-height:1.000000; margin-left:0.2500in"/>
+<s followedby="Definition List" name="Definition Term" basedon="Normal" type="P" props="line-height:1.000000"/>
+<s type="P" name="Emphasis" props="; text-decoration:none; line-height:1.000000; font-style:normal"/>
+<s type="P" name="Exemple" props="font-family:Courier New; line-height:1.000000"/>
+<s type="P" name="FollowedHyperlink" props="; text-decoration:underline ; line-height:1.000000; color:800080"/>
+<s type="P" name="Fort" props="line-height:1.000000; font-weight:normal"/>
+<s followedby="Normal" name="H1" basedon="Normal" type="P" props="font-size:24pt; margin-top:0.0694in; line-height:1.000000; margin-bottom:0.0694in; font-weight:normal"/>
+<s followedby="Normal" name="H2" basedon="Normal" type="P" props="font-size:18pt; margin-top:0.0694in; line-height:1.000000; margin-bottom:0.0694in; font-weight:normal"/>
+<s followedby="Normal" name="H3" basedon="Normal" type="P" props="font-size:14pt; margin-top:0.0694in; line-height:1.000000; margin-bottom:0.0694in; font-weight:normal"/>
+<s followedby="Normal" name="H4" basedon="Normal" type="P" props="font-size:12pt; margin-top:0.0694in; line-height:1.000000; margin-bottom:0.0694in; font-weight:normal"/>
+<s followedby="Normal" name="H5" basedon="Normal" type="P" props="font-size:10pt; margin-top:0.0694in; line-height:1.000000; margin-bottom:0.0694in; font-weight:normal"/>
+<s followedby="Normal" name="H6" basedon="Normal" type="P" props="font-size:8pt; margin-top:0.0694in; line-height:1.000000; margin-bottom:0.0694in; font-weight:normal"/>
+<s type="P" name="HTML Markup" props="line-height:1.000000; color:ff0000"/>
+<s type="P" name="Hyperlink" props="; text-decoration:underline ; line-height:1.000000; color:0000ff"/>
+<s type="P" name="Keyboard" props="font-weight:normal; line-height:1.000000; font-family:Courier New; font-size:10pt"/>
+<s type="P" name="Machine \u224 \'e0 \u233 \'e9crire" props="line-height:1.000000; font-family:Courier New; font-size:10pt"/>
+<s type="P" name="Preformatted" basedon="Normal" props="font-size:10pt; margin-top:0.0000in; tabstops:0.000000in/L0,0.665972in/L0,1.331944in/L0,1.997917in/L0,2.663889in/L0,3.329861in/L0,3.995833in/L0,4.661806in/L0,5.327778in/L0,5.993750in/L0,6.659722in/L0; margin-bottom:0.0000in; font-family:Courier New; line-height:1.000000"/>
+<s type="P" name="Variable" props="line-height:1.000000; font-style:normal"/>
+<s followedby="Normal" name="z-Bottom of Form" type="P" props="line-height:1.000000; font-family:Arial; font-size:8pt"/>
+<s followedby="Normal" name="z-Top of Form" type="P" props="line-height:1.000000; font-family:Arial; font-size:8pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Menu outils</c></p>
+<p style="Normal"><c props="lang:fr-FR">Le menu </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Outils</c><c props="lang:fr-FR"> contient des items variés. Il contient des commandes qui ne conviennent pas sous les autres menus.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Orthographe</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ces commandes vérifient l'orthographe de votre document. Le sous menu </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Orthographe</c><c props="lang:fr-FR"> comporte trois items.</c></p>
+<p style="Heading 3"><a xlink:href="dialogspelling.html"><c props="lang:fr-FR">Orthographe...</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Cette commande démarre la vérification orthographique de votre document. Vous gérez le vérificateur à partir du dialogue </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Orthographe</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Vérification automatique</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si cette option est sélectionnée, AbiWord vérifie l'orthographe de votre document au même moment que vous y entrez du texte, il y souligne les mots mal orthographiés par un ligne ondulée rouge.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><a xlink:href="dialogpreferences.html#spelling"><c props="lang:fr-FR">Options...</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Cette commande ouvre le dialogue </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Options</c><c props="lang:fr-FR"> à l'onglet </c><c props="font-style:italic; lang:fr-FR">Orthographe</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><a xlink:href="dialoglanguage.html"><c props="lang:fr-FR">Langue...</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Cette commande ouvre le dialogue </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Langue</c><c props="lang:fr-FR"> et vous permet de choisir le dictionnaire que AbiWord emploie pour vérifier le texte sélectionné. Vous pouvez aussi employer cette commande pour choisir la langue </c><c props="font-family:Times New Roman; font-size:12pt; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">à utiliser à partir du point d'insertion</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><a xlink:href="dialogwordcount.html"><c props="lang:fr-FR">Statistiques...</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Cette commande ouvre le dialogue </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Statistiques</c><c props="lang:fr-FR"> et compte les mots de votre document.</c></p>
+<p style="Heading 2"><a xlink:href="dialogplugins.html"><c props="lang:fr-FR">Modules...</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Cette commande ouvre le gestionnaire de modules. Les modules sont de petits programmes qui fournissent des fonctionnalités additionnelles à AbiWord. Puisque toutes les fonctions emploient de l'espace disque et mémoire, les modules vous permettent de choisir ceux dont vous avez besoin et enlever les autres.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><a xlink:href="dialogpreferences.html"><c props="lang:fr-FR">Options...</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Les options vous permettent de définir le comportement d'AbiWord. Cette commande ouvre le dialogue </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Options</c><c props="lang:fr-FR"> qui vous permet de modifier vos options. Les options s'appliquent à l'application au complet et pas seulement au document actuel.</c></p>
+</section>
+</abiword>

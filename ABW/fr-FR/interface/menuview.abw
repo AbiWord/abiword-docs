@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Menu affichage</c></p>
+<p style="Normal"><c props="lang:fr-FR">Le menu affichage vous permet de modifier l'espace de travail et l'apparence de votre document à l'écran. Aucune commande de ce menu ne modifie le contenu de votre document ou son impression. Ceci signifie que des modifications dans ce menu ne </c><c props="font-style:italic; lang:fr-FR">salissent</c><c props="lang:fr-FR"> pas votre document donc l'astérisque n'apparaît pas à la suite du nom de document dans la barre de titre.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si une coche est présente à côté d'une option de menu, alors cette option est active. Dans la plupart des cas, cela signifie que quelque chose est affiché.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Normal / Web / Page</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Il existe trois façons d'afficher votre document.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal" props="text-align:left"><c props="lang:fr-FR">Le mode </c><c props="font-style:italic; lang:fr-FR">page</c><c props="lang:fr-FR"> affiche des marges tout autour de votre texte et des extrémités du papier. Le mode </c><c props="font-style:italic; lang:fr-FR">web</c><c props="lang:fr-FR"> affiche votre document comme il apparaîtrait dans un navigateur web. Le mode </c><c props="font-style:italic; lang:fr-FR">normal</c><c props="lang:fr-FR"> supprime les marges du haut et du bas.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Barres d'outils</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Le sous menu barres d'outils vous permet de choisir quelles barres d'outils s'affichent au haut de la fenêtre d'AbiWord. Vous pouvez choisir parmi trois barres d'outils ; la barre standard et celle de mise en forme s'affichent par défaut. Pour changer l'affichage ou non d'une barre d'outils, sélectionnez son titre à partir du sous menu.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Règles</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Sélectionnez cette option pour changer l'affichage ou non des règles.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Barre d'état</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">En choisissant cette option vous changez l'affichage ou non de la barre d'état au bas de la fenêtre.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Afficher / masquer ¶</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si cette option est sélectionnée, la mise en forme et autres caractères invisibles sont affichés à l'écran.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Plein écran</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si cette option est sélectionnée, les règles, barres d'outils et la barre d'état sont toutes cachées. Ceci vous offre à votre </c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">document </c><c props="lang:fr-FR">la fenêtre la plus grande possible.</c></p>
+<p style="Heading 2"><a xlink:href="dialogzoom.html"><c props="lang:fr-FR">Zoom</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Cette option ouvre le dialogue zoom. Le zoom de l'affichage est l'agrandissement auquel votre document est affiché à l'écran.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
+</section>
+</abiword>

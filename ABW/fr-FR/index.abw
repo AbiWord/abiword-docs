@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-US; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0.0688in; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0.0688in; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s followedby="Normal" name="Adresse" basedon="Normal" type="P" props="line-height:1.000000"/>
+<s type="P" name="Blockquote" basedon="Normal" props="margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; margin-left:0.2500in; margin-right:0.2500in"/>
+<s type="P" name="CITE" props="line-height:1.000000"/>
+<s type="P" name="CODE" props="line-height:1.000000; font-family:Courier New; font-size:10pt"/>
+<s type="P" name="Commentaire" props="line-height:1.000000"/>
+<s type="P" name="Definition" props="line-height:1.000000"/>
+<s followedby="Definition Term" name="Definition List" basedon="Normal" type="P" props="line-height:1.000000; margin-left:0.2500in"/>
+<s followedby="Definition List" name="Definition Term" basedon="Normal" type="P" props="line-height:1.000000"/>
+<s type="P" name="Emphasis" props="line-height:1.000000"/>
+<s type="P" name="Exemple" props="font-family:Courier New; line-height:1.000000"/>
+<s type="P" name="FollowedHyperlink" props="line-height:1.000000"/>
+<s type="P" name="Fort" props="line-height:1.000000"/>
+<s followedby="Normal" name="H1" basedon="Normal" type="P" props="margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-size:24pt"/>
+<s followedby="Normal" name="H2" basedon="Normal" type="P" props="margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-size:18pt"/>
+<s followedby="Normal" name="H3" basedon="Normal" type="P" props="margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-size:14pt"/>
+<s followedby="Normal" name="H4" basedon="Normal" type="P" props="margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-size:12pt"/>
+<s followedby="Normal" name="H5" basedon="Normal" type="P" props="margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-size:10pt"/>
+<s followedby="Normal" name="H6" basedon="Normal" type="P" props="margin-top:0.0688in; line-height:1.000000; margin-bottom:0.0688in; font-size:8pt"/>
+<s type="P" name="HTML Markup" props="line-height:1.000000"/>
+<s type="P" name="Hyperlink" props="line-height:1.000000"/>
+<s type="P" name="Keyboard" props="line-height:1.000000; font-family:Courier New; font-size:10pt"/>
+<s type="P" name="Machine \u224 \'e0 \u233 \'e9crire" props="line-height:1.000000; font-family:Courier New; font-size:10pt"/>
+<s type="P" name="Preformatted" basedon="Normal" props="font-size:10pt; tabstops:0.000000in/L0,0.665278in/L0,1.331250in/L0,1.997917in/L0,2.663889in/L0,3.329167in/L0,3.995139in/L0,4.661806in/L0,5.327778in/L0,5.993750in/L0,6.659028in/L0; font-family:Courier New; line-height:1.000000"/>
+<s type="P" name="Variable" props="line-height:1.000000"/>
+<s followedby="Normal" name="z-Bottom of Form" type="P" props="line-height:1.000000; font-family:Arial; font-size:8pt"/>
+<s followedby="Normal" name="z-Top of Form" type="P" props="line-height:1.000000; font-family:Arial; font-size:8pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Aide d'AbiWord</c></p>
+<p style="Normal"><c props="lang:fr-FR">Voici les fichiers d'aide d'AbiWord. Ils sont normalement installés avec le programme, mais si vous les avez trouvés indépendamment, ils vous offrent une introduction à AbiWord.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Tout comme l'ensemble du programme, ces fichiers sont écrits par des volontaires. Certaines sections sont encore incomplètes, mais tout ce que le programme peut effectuer est documenté, la plupart dans la section </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Interface</c><c props="lang:fr-FR">. Si vous désirez contribuer, vous pouvez consulter la section </c><c props="font-style:italic; lang:fr-FR">Résolution de problèmes</c><c props="lang:fr-FR">. </c></p>
+<p style="Normal"><c props="lang:fr-FR">Le haut de chaque page possède des liens indiquant le chemin qui mène à votre page courante, ainsi, il est facile de revenir sur vos pas. Le lien </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Page d'accueil</c><c props="lang:fr-FR"> vous amène à cette page-ci.</c></p>
+<p style="Normal"><c props="lang:fr-FR">Les fichiers d'aide sont divisés en plusieurs sections. Ces sections comportent des liens sur chacune des pages. Les liens sont</c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">, selon votre navigateur web,</c><c props="lang:fr-FR"> soit dans une colonne à gauche de la page ou dans une ligne au bas. Les sections sont : </c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Page d'accueil</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette page.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><a xlink:href="introduction.html"><c props="lang:fr-FR">Introduction</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Un survol rapide d'AbiWord.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><a xlink:href="tutorial/index.html"><c props="lang:fr-FR">Tutoriel</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Un cours structuré sur l'utilisation d'AbiWord. Cette section n'a pas encore été rédigée.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><a xlink:href="howto/index.html">Astuces</a>  </p>
+<p style="Normal"><c props="lang:fr-FR">Les instructions décrivant des opérations particulières. Cette section est minimale pour l'instant, contribuer à sa rédaction est un bon moyen d'aider à documenter AbiWord.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><a xlink:href="info/index.html"><c props="lang:fr-FR">Information</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Des informations à propos de diverses fonctions d'AbiWord. Ces informations n'ont généralement </c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">pas </c><c props="lang:fr-FR">d'impact direct sur votre utilisation du programme, mais elles peuvent vous aider à mieux le comprendre. </c></p>
+<p style="Heading 2"><a xlink:href="interface/index.html"><c props="lang:fr-FR">Interface</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Cette section fournit la documentation pour chacune des commandes de l'interface d'AbiWord. Cette section est complète.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><a xlink:href="problems/index.html">Résolution de p<c props="lang:fr-FR">roblèmes</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Les instructions qui vous indiquent ce qu'il faut faire si vous rencontrez des problèmes avec AbiWord et des suggestions qui vous indiquent où obtenir de l'aide.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><a xlink:href="credits.html"><c props="lang:fr-FR">Crédits</c><c props="lang:fr-FR"></c></a></p>
+<p style="Normal"><c props="lang:fr-FR">Les personnes responsables d'AbiWord.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Index</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette section sera l'index de l'ensemble de l'aide de la documentation, mais elle n'existe pas pour le moment. Y travailler serait une autre bonne manière de contribuer. </c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><a xlink:href="fdl.html">Licence de documentation libre <c props="lang:fr-FR">GNU</c><c props="lang:fr-FR"></c></a> </p>
+<p style="Normal"><c props="lang:fr-FR">Une copie de la licence </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">GNU Free Documentation License</c><c props="lang:fr-FR"> en anglais, </c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">sous laquelle cette documentation est émise. U</c><c props="lang:fr-FR">ne traduction française est aussi inclue pour votre bénéfice. Il est à noter que seul la licence originale anglaise fixe </c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">légalement les conditions de redistribution des documents</c><c props="lang:fr-FR">.</c></p>
+</section>
+</abiword>

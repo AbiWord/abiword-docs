@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c style="Heading 1" props="lang:fr-CA">Dialogue tabulations</c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce dialogue vous permet de régler la position et le type des tabulations dans votre document.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Position</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Entrez la position de tabulation que vous désirez dans la boîte sous ce titre.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Valeur par défaut</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Cette boîte affiche l'intervalle entre les tabulations générées automatiquement. Si vous n'avez pas défini de tabulation, en appuyant sur la touche </c><c style="Normal" props="font-style:italic; lang:fr-FR">Tab</c><c style="Normal" props="lang:fr-FR"> dans votre document, le point d'insertion se déplacera de cette distance. Ces tabulations demeurent à la droite d'une tabulation délibérément insérée, mais elles sont supprimées si elles sont localisées à sa gauche.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Liste des tabulations</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Cette fenêtre à la gauche du dialogue n'est pas identifiée. Elle fournit la liste de toutes les tabulations actives. Si une de ses tabulations est sélectionnée, les boutons radio des sections </c><c style="Normal" props="font-style:italic; lang:fr-FR">Alignement</c><c style="Normal" props="lang:fr-FR"> et </c><c style="Normal" props="font-style:italic; lang:fr-FR">Points de suite</c><c style="Normal" props="lang:fr-FR"> affichent ses caractéristiques.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Tabulation à effacer</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce libellé n'est pas utilisé.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Alignement</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ces boutons radio vous permettent de définir le type de tabulation.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Alignement à </c><c style="Normal" props="font-style:italic; lang:fr-FR">gauche</c><c style="Normal" props="lang:fr-FR"> signifie que le texte débute à la tabulation et se poursuit vers la droite.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Alignement </c><c style="Normal" props="font-style:italic; lang:fr-FR">centré</c><c style="Normal" props="lang:fr-FR"> </c><c style="Normal" props="lang:fr-FR"></c><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">signifie que le texte est centré sur la tabulation</c><c style="Normal" props="lang:fr-FR">.</c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Alignement à </c><c style="Normal" props="font-style:italic; lang:fr-FR">droite</c><c style="Normal" props="lang:fr-FR"> </c><c style="Normal" props="lang:fr-FR"></c><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">signifie que le texte se termine à la tabulation et se poursuit vers la gauche</c><c style="Normal" props="lang:fr-FR">.</c></p>
+<p style="Normal"><c style="Normal" props="font-style:italic; lang:fr-FR">Décimal</c><c style="Normal" props="lang:fr-FR"> </c><c style="Normal" props="lang:fr-FR"></c><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">signifie que le point</c><c style="Normal" props="lang:fr-FR"> décimal sera localisé sous la tabulation. Cette fonctionnalité est utile pour la mise en forme d'information financière.</c></p>
+<p style="Normal"><c style="Normal" props="font-style:italic; lang:fr-FR">Barre</c><c style="Normal" props="lang:fr-FR"> signifie que AbiWord dessinera une barre à la position de la tabulation et insérera le texte à la suite comme si une tabulation gauche était employée. Ces tabulations peuvent être utilisées avec les mises en forme </c><c style="Normal" props="font-style:italic; lang:fr-FR">ligne au-dessus</c><c style="Normal" props="lang:fr-FR"> et </c><c style="Normal" props="font-style:italic; lang:fr-FR">ligne au-dessous</c><c style="Normal" props="lang:fr-FR"> afin de dessiner des tableaux de base.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Points de suite</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ces boutons vous permettent de désigner les caractères à insérer entre le point où vous insérez la tabulation et le début du texte qui lui est associé.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Fixer</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce bouton fixe les caractéristiques de la tabulation que vous avez sélectionnée. Une tabulation n'est pas définie tant qu'elle n'apparaît pas dans la liste des tabulations. Si vous modifiez une tabulation, vous devez appuyer sur ce bouton pour les intégrer à la tabulation.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Effacer</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce bouton efface la tabulation sélectionnée.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Effacer tout</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce bouton efface toutes les tabulations définies par l'utilisateur.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Appliquer</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce bouton applique la liste des tabulations au document, mais ne ferme pas le dialogue. Vous ne pouvez pas entrer de texte dans le document pendant que le dialogue est ouvert, mais le texte affecté par les tabulations s'adaptera pour refléter les nouvelles tabulations.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">OK</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce bouton applique les modifications et ferme le dialogue.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Annuler</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Ce bouton ferme le dialogue sans appliquer les modifications effectuées aux tabulations depuis que vous avez appuyer sur </c><c style="Normal" props="font-style:italic; lang:fr-FR">Appliquer</c><c style="Normal" props="lang:fr-FR">.</c><c style="Normal" props="lang:fr-FR"></c></p>
+</section>
+</abiword>

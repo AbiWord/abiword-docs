@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-US; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Dialogue nouveau</c></p>
+<p style="Normal"><c props="lang:fr-FR">Le dialogue </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Nouveau</c><c props="lang:fr-FR"> vous permet de créé des fichiers à partir de modèles. Un modèle établit les styles et le texte initial d’un fichier. Si vous écrivez souvent des lettres, par exemple, vous pouvez être intéressé à créer un modèle avec votre adresse déjà présente. </c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Créer un nouveau document à partir d’un modèle </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si vous sélectionnez cette option, vous devez également choisir un modèle dans la liste en dessous. Elle présente tous les modèles que vous avez définis et tous ceux installés sur votre système. Quelques modèles sont installés avec AbiWord. Le modèle sélectionné est celui à partir duquel le nouveau document est créé. </c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Ouvrir un document</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ceci crée un nouveau document avec le même contenu et styles qu’un document existant que vous avez sélectionné. Cette option produit le même effet que la commande </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Importer</c><c props="lang:fr-FR">. </c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Utiliser un document vide</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ceci crée un document basé sur le modèle par défaut. Il s’agit du modèle </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">normal.awt</c><c props="lang:fr-FR"> de votre répertoire personnel, si ce fichier existe ou le modèle </c><c props="font-style:italic; lang:fr-FR">normal.awt</c><c props="lang:fr-FR"> installé avec AbiWord si votre fichier personnel n’existe pas. Si aucun de ces deux fichiers n’existe, AbiWord utilise ses valeurs internes.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">OK</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Appuyer sur ce bouton ferme le dialogue et crée un nouveau document selon les options choisies.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Annuler</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Appuyer sur ce bouton ferme le dialogue sans créer de nouveau document</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c><c props="lang:fr-FR">.</c></p>
+</section>
+</abiword>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-FR"></c><c props="lang:fr-FR">Dialogue atteindre</c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce dialogue comporte ses propres instructions.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Cible</c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette liste détermine le type de cible que vous atteindrez. </c><c props="font-style:italic; lang:fr-FR">Page</c><c props="lang:fr-FR"> vous déplace au haut d'une page, alors que </c><c props="font-style:italic; lang:fr-FR">Ligne</c><c props="lang:fr-FR"> vous déplace au début d'une ligne. </c><c props="font-style:italic; lang:fr-FR">Signet</c><c props="lang:fr-FR"> vous amène à un signet existant (voir le menu </c><c props="font-style:italic; lang:fr-FR">Insertion</c><c props="lang:fr-FR"> pour plus de détails). Si vous sélectionnez </c><c props="font-style:italic; lang:fr-FR">Signet</c><c props="lang:fr-FR">, une liste des signets du document apparaît sous la boîte </c><c props="font-style:italic; lang:fr-FR">Nom</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Nombre/Nom</c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette boîte d'édition détermine le nom ou le nombre de la cible choisie. L'intitulé est </c><c props="font-style:italic; lang:fr-FR">Nombre</c><c props="lang:fr-FR"> si la cible est une </c><c props="font-style:italic; lang:fr-FR">Page</c><c props="lang:fr-FR"> ou une </c><c props="font-style:italic; lang:fr-FR">Ligne</c><c props="lang:fr-FR">, et </c><c props="font-style:italic; lang:fr-FR">Nom</c><c props="lang:fr-FR"> si la cible est un </c><c props="font-style:italic; lang:fr-FR">Signet</c><c props="lang:fr-FR">. Si vous entrez simplement un nombre et appuyez sur le bouton </c><c props="font-style:italic; lang:fr-FR">Atteindre</c><c props="lang:fr-FR">, le point d'insertion se déplace à la cible à partir du début du document. Si vous préfixez le nombre avec un signe + ou -, le point d'insertion se déplace respectivement du nombre de cible vers l'avant ou vers l'arrière, lorsque vous appuyez sur le bouton </c><c props="font-style:italic; lang:fr-FR">Atteindre</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Signet</c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette liste de signets apparaît seulement lorsque l'item </c><c props="font-style:italic; lang:fr-FR">Signet</c><c props="lang:fr-FR"> est sélectionné dans la boîte </c><c props="font-style:italic; lang:fr-FR">Cible</c><c props="lang:fr-FR">. Pour atteindre un signet, sélectionnez-le dans la liste ou entrez son nom dans la boîte </c><c props="font-style:italic; lang:fr-FR">Nom</c><c props="lang:fr-FR"> et appuyez sur le bouton </c><c props="font-style:italic; lang:fr-FR">Atteindre</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Précédent</c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton déplace le point d'insertion à la cible précédente.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Suivant</c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton déplace le point d'insertion à la cible suivante.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Atteindre</c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton déplace le point d'insertion à la cible spécifiée dans la boîte </c><c props="font-style:italic; lang:fr-FR">Nom</c><c props="lang:fr-FR"> ou </c><c props="font-style:italic; lang:fr-FR">Nombre</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Fermer</c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton ferme le dialogue.</c></p>
+</section>
+</abiword>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.0" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="background-color:transparent">
+<p style="Heading 1"><c props="lang:fr-FR"></c><c props="lang:fr-FR">Dialogue couleur de fond</c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal">Ce dialogue est celui fourni par votre système d'opération. Ces instructions s'appliquent à Linux.</c><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal">Ce dialogue vous permet de modifier la couleur de fond de votre document. La manière la plus facile de modifier la couleur est de cliquer sur la roue de couleur à gauche du dialogue. Le rectangle sous la roue montre la nouvelle couleur dans sa moitié droite. Vous pouvez aussi ajuster la couleur en déplaçant le curseur de défilement localisé à la droite de la roue de couleur.</c><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal">La modification se répercute dans le document lui-même ainsi que lors de l'impression ; l'imprimante coloriera alors la page entière avec cette teinte.</c><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Effacer la couleur de fond</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal">Ce bouton replace la couleur de fond à blanc. Le dialogue demeure ouvert.</c><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">OK</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal">Cliquez ce bouton pour changer la couleur de fond du document et fermer le dialogue.</c><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Annuler</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal">Ce bouton ferme le dialogue sans changer la couleur de fond du document.</c><c style="Normal" props="lang:fr-FR; text-position:normal; text-decoration:none; color:000000; font-style:normal"></c></p>
+</section>
+</abiword>

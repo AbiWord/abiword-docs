@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<ignoredwords>
+<iw>AbiWord</iw>
+<iw>AbiWord's</iw>
+<iw>spellchecker</iw>
+</ignoredwords>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Dialogue orthographe</c></p>
+<p style="Normal"><c props="lang:fr-FR">Le dialogue d'orthographe s'affiche lorsque AbiWord vérifie l'orthographe de votre document. Notez que vous ne pouvez réaliser d'autres modifications lorsque le dialogue de vérification orthographique est ouvert, toutefois vous pouvez consulter d'autres fenêtres.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Absent du dictionnaire</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette boîte affiche la phrase contenant le mot incorrectement orthographié, le mot lui-même est mis en évidence par l'utilisation de la couleur rouge.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Remplacer par</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette boîte affiche la recommandation d'AbiWord afin de fournir une suggestion correctement orthographiée. La fenêtre au bas de la boîte affiche une liste plus longue des mots que AbiWord suggère. Si vous sélectionnez un mot de la liste, il apparaît dans la boîte </c><c props="font-style:italic; lang:fr-FR">Remplacer par</c><c props="lang:fr-FR">. Vous pouvez aussi sélectionner le texte dans la boîte </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Remplacer par</c><c props="lang:fr-FR"> et entrer le texte que vous désirez en remplacement du mot mal orthographié.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Ignorer</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton indique au vérificateur de laisser le mot courant tel quel. Ceci s'applique à ce mot spécifique ; si le même mot apparaît plus loin dans le document, le vérificateur d'orthographe l'indiquera incorrect.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Ignorer toujours</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton laisse le mot courant tel quel et indique au vérificateur d'ignorer tous les mots à venir qui s'épellent de la même façon. Cette fonctionnalité est utile si, par exemple, vous employez beaucoup un nom dans un document. Si vous cliquez </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Ignorer toujours</c><c props="lang:fr-FR"> sur une version correctement orthographiée du nom, le vérificateur passera sous silence les noms correctement orthographiés, mais, vous avertira si vous l'avez épelé incorrectement.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Ajouter</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton ajoute le mot courant à votre dictionnaire personnel. Cela signifie que le mot courant ne sera par indiqué en erreur dans l'un quelconque de vos documents. Cette fonction est utile pour les termes techniques que vous employez régulièrement.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Remplacer</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton remplace le mot mis en évidence dans la boîte </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Absent du dictionnaire</c><c props="lang:fr-FR"> par le mot ou les mots affichés dans la boîte </c><c props="font-style:italic; lang:fr-FR">Remplacer par</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Remplacer partout</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton remplace toutes les occurrences du mot mis en évidence dans la boîte </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Absent du dictionnaire</c><c props="lang:fr-FR"> par le mot ou les mots affichés dans la boîte </c><c props="font-style:italic; lang:fr-FR">Remplacer par</c><c props="lang:fr-FR">. Cette caractéristique est utile si, par exemple, vous entrez fréquemment </c><c props="font-style:italic; lang:fr-FR">dse</c><c props="lang:fr-FR"> au lieu de </c><c props="font-style:italic; lang:fr-FR">des</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Annuler</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton ferme le dialogue de vérification orthographique.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">La vérification orthographique est terminée</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Lorsque la vérification orthographique est complétée, un dialogue avec le message </c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">« </c><c props="lang:fr-FR">La vérification orthographique est terminée. </c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">»</c><c props="lang:fr-FR"> apparaît. Si tous les mots sont bien orthographiés ce dialogue apparaît, mais, le dialogue principal de vérification orthographique ne s'affiche pas. </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">C</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">e dialogue comporte </c><c props="lang:fr-FR">seulement le bouton </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:italic; text-decoration:none">OK</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR"> </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">;</c><c props="lang:fr-FR"> il ferme le dialogue.</c></p>
+</section>
+</abiword>

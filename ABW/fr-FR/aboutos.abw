@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.0" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:17pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0pt; text-indent:0in; margin-top:0pt; text-position:normal; font-weight:normal; font-variant:normal; color:000000; text-decoration:none; line-height:1.0; margin-bottom:0pt; text-align:left; margin-right:0pt; bgcolor:transparent; font-size:12pt; widows:2; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">A propos de l'Open Source</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Le logiciel Open Source, comme AbiWord, est livré avec une licence libre pour une utilisation très répandue et sans restriction. Cette utilisation libre couvre le logiciel ainsi que le code source. Alors que le concept est utilisé depuis plus d'une décade, l'accès récemment généralisé à Internet a fourni un moyen pour la diffusion rapide et répandu du logiciel libre. Dégagé de restrictions légales, les logiciels Open Source peuvent atteindre une base importante d'usagers beaucoup plus rapidement que leur plus traditionnelle contrepartie propriétaire.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">La communauté Open Source a tranquillement produit quelques uns des logiciels les plus utilisés dans le monde, ce qui inclut le logiciel Apache, le populaire serveur Web sur Internet et Linux, un populaire système d'opération Open Source aux caractéristiques complètes.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Pour plus d'information, visitez le site web </c><c props="lang:fr-FR"></c>OpenSource.Org. </p>
+</section>
+</abiword>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.0" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.0000in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section footer="1806656451">
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Comment créer des tableaux ?</c></p>
+<p style="Normal"><c props="lang:fr-FR">Il est plus facile de créer des tableaux dans AbiWord si la barre d'outils </c><a xlink:href="../interface/toolbarextra.html"><c props="font-style:italic; lang:fr-FR">Extra</c></a><c props="lang:fr-FR"> est visible. Elle peut être activée à partir du menu </c><a xlink:href="../interface/menuview.html"><c props="font-style:italic; lang:fr-FR">Affichage</c></a><c props="lang:fr-FR">.</c></p>
+<p style="Normal" props="tabstops:"><c props="lang:fr-FR">Vous devez premièrement décider de la largeur des colonnes de votre tableau. Fixez une barre de tabulation aux extrémités de chaque colonne, incluant les colonnes des extrémités gauche et droite. La manière la plus facile d'insérer une barre de tabulation est de cliquer dans la règle. Premièrement, cliquez sur le symbole dans le coin supérieur gauche entre les règles et sous la barre d'outils jusqu'à ce qu'apparaisse une ligne verticale. Maintenant, cliquez dans le haut de la règle pour insérer une barre de tabulation. Vous pouvez les déplacer en cliquant et déplaçant, ou les enlever en cliquant et déplaçant à l'extérieur de la règle.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal" props="tabstops:"><c props="lang:fr-FR">Lorsque vous appuyez sur la touche de tabulation pour déplacer à la prochaine barre de tabulation, AbiWord insère une ligne verticale et place le point d'insertion tout juste à sa droite.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal" props="tabstops:"><c props="lang:fr-FR">Pour créer une ligne horizontale dans un tableau, employez des lignes au-dessus et au-dessous. La barre d'outils </c><c props="font-style:italic; lang:fr-FR">Extra</c><c props="lang:fr-FR"> a des boutons à cet effet, ils sont libellés </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">top</c><c props="lang:fr-FR"> et </c><c props="font-style:italic; lang:fr-FR">bot</c><c props="lang:fr-FR">. La ligne au-dessus touche, mais ne recouvre pas la ligne au-dessous qui serait placée plus haut. Ainsi, en utilisant ces deux types de lignes vous obtiendrez une ligne plus épaisse entre les rangées du tableau.</c></p>
+<p style="Normal" props="tabstops:"><c props="lang:fr-FR">Vous pourrez ainsi créer des tableaux simples. Le support de tableaux plus sophistiqués est une caractéristique majeure prévue pour la version 1.2 d'AbiWord. Les développeurs savent déjà que cette fonctionnalité est requise et y travaillent.</c><c props="lang:fr-FR"></c></p>
+</section>
+</abiword>

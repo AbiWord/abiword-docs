@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Menu fenêtre</c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette fenêtre vous fournit l'accès aux diverses fenêtres que AbiWord a ouvert sur votre système.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Nouvelle fenêtre</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette commande crée une nouvelle fenêtre contenant le document actuel. Le nom du document est fourni dans la barre de titre suivi par le caractère deux-points et un nombre indiquant l'ordre dans lequel la fenêtre a été créée.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Toutes modifications faites au document dans un fenêtre se répercute dans les autres.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Liste des fenêtres</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Sous la commande </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Nouvelle fenêtre</c><c props="lang:fr-FR"> se situe une liste de toutes les fenêtres présentement ouvertes dans AbiWord. Sélectionnez une fenêtre pour la faire apparaître à l'avant-plan et y placer le point d'insertion.</c></p>
+<p style="Normal"><c props="lang:fr-FR">Si vous avez dix fenêtres ou plus d'ouvertes, seulement les neuf premières sont affichées dans le menu. La dixième option devient </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Plus de fenêtres...</c><c props="lang:fr-FR"> qui ouvre le dialogue </c><a xlink:href="dialogactivatewindow.html"><c props="font-style:italic; lang:fr-FR">Activer une fenêtre</c></a><c props="lang:fr-FR">, ainsi vous pouvez sélectionner une fenêtre quelconque.</c></p>
+</section>
+</abiword>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0826in; field-font:NULL; margin-left:1.0000in; margin-right:1.0000in"/>
+</styles>
+<ignoredwords>
+<iw>endian</iw>
+<iw>AbiWord</iw>
+<iw>endianness</iw>
+<iw>Pspell</iw>
+</ignoredwords>
+<lists>
+<l id="729177224" parentid="0" type="0" start-value="1" list-delim="%L." list-decimal="."/>
+</lists>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section props="background-color:transparent">
+<p style="Heading 1"><c style="Heading 1" props="lang:fr-CA"></c><c style="Heading 1" props="lang:fr-FR">La vérification orthographique et AbiWord</c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">AbiWord supporte la vérification orthographique sous plusieurs langues et vous permet d'utiliser plusieurs langues à l'intérieur d'un même document.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Vérificateurs orthographiques supportés</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">AbiWord supporte les deux vérificateurs d'orthographe, c'est-à-dire Pspell et Ispell - celui utilisé est déterminé au moment de la compilation, alors si vous téléchargez un binaire, l'un d'eux a été sélectionné pour vous. Pspell fonctionne seulement sur les plates-formes Unix pour l'instant, alors si vous ne n'exécutez pas sous Unix, vous utilisez définitivement Ispell.</c><c style="Normal" props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:fr-FR">Les attrapes</c><c style="Heading 2" props="lang:fr-FR"></c></p>
+<p style="Normal"><c style="Normal" props="lang:fr-FR">Bien évidemment, vous pouvez seulement effectuer la vérification orthographique si </c><c style="Normal" props="lang:fr-FR"></c><c style="Normal" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">le dictionnaire pour la langue appropriée est </c><c style="Normal" props="lang:fr-FR">installé. Les dictionnaires Pspell peuvent être récupérer à l'adresse </c><a xlink:href="http://pspell.sourceforge.net/"><c style="Normal" props="lang:fr-FR">pspell.sourceforge.net</c></a><c style="Normal" props="lang:fr-FR">. Présentement, AbiWord fournit des dictionnaires Ispell (communément appelés fichiers </c><c style="Normal" props="font-style:italic; lang:fr-FR">hash</c><c style="Normal" props="lang:fr-FR">) qui fonctionnent avec l'application AbiWord. A moins que votre distributeur ait assemblé spécialement AbiWord, AbiWord suppose ses dictionnaires Ispell au format suivant : </c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; font-style:normal; font-weight:normal; bgcolor:transparent; start-value:1; color:000000; text-indent:-0.3000in; text-decoration:none; lang:en-US; list-style:Numbered List; font-size:12pt; margin-left:0.5000in; text-position:normal; field-font:NULL"><field type="list_label" props="lang:fr-FR"></field><c type="list_label" props="lang:fr-FR">	Chaînes de </c><c type="list_label" props="lang:fr-FR"></c><c style="Normal" props="lang:fr-FR">128 bytes de long</c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; list-decimal:.; margin-left:0.5000in; bgcolor:transparent; start-value:1; font-style:normal; font-weight:normal; text-position:normal; text-decoration:none; list-delim:%L; lang:en-US; list-style:Numbered List; font-size:12pt; text-indent:-0.3000in; color:000000; field-font:NULL"><field type="list_label" props="lang:fr-FR"></field><c type="list_label" props="lang:fr-FR">	</c><c type="list_label" props="lang:fr-FR"></c><c style="Normal" props="lang:fr-FR">52 "flags" </c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; list-decimal:.; margin-left:0.5000in; bgcolor:transparent; start-value:1; font-style:normal; font-weight:normal; text-position:normal; text-decoration:none; list-delim:%L; lang:en-US; list-style:Numbered List; font-size:12pt; text-indent:-0.3000in; color:000000; field-font:NULL"><field type="list_label" props="lang:fr-FR"></field><c type="list_label" props="lang:fr-FR">	Majuscules activées</c><c type="list_label" props="lang:fr-FR"></c><c style="Normal" props="lang:fr-FR"> </c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; list-decimal:.; margin-left:0.5000in; bgcolor:transparent; start-value:1; font-style:normal; font-weight:normal; text-position:normal; text-decoration:none; list-delim:%L; lang:en-US; list-style:Numbered List; font-size:12pt; text-indent:-0.3000in; color:000000; field-font:NULL"><field type="list_label" props="lang:fr-FR"></field><c type="list_label" props="lang:fr-FR">	Ordre de stockage approprié des nombres </c><c type="list_label" props="lang:fr-FR"></c><c type="list_label" style="Normal" props="lang:fr-FR">(petit-boutiste si vous opérez sur une machine de classe i386 ou gros-boutiste pour les processeurs Alpha, PPC, MIPS)</c><c style="Normal" props="lang:fr-FR"> </c></p>
+<p level="1" listid="0" parentid="0" style="Normal" props="list-decimal:.; margin-left:0in; start-value:1; font-style:normal; text-indent:0in; text-decoration:none; list-delim:%L; bgcolor:transparent; list-style:Numbered List; text-position:normal; font-weight:normal; color:000000; lang:en-US"><c style="Normal" props="lang:fr-FR">Si vous exécutez sous une variante d'Unix, vous pouvez déterminer cette information en exécutant la commande </c><c style="Normal" props="lang:fr-FR"></c><c style="Normal" props="font-style:italic; lang:fr-FR">file &lt;fichier.hash&gt;</c><c style="Normal" props="font-style:normal; lang:fr-FR"> .</c><c style="Normal" props="lang:fr-FR"> Typiquement, le résultat de la commande ressemble à ceci :</c></p>
+<p style="Block Text"><c props="lang:fr-FR">/usr/lib/ispell/norsk.hash: little endian ispell 3.1 hash file, 8-bit, capitalization, 52 flags and 128 string characters</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si vous utilisez Ispell, AbiWord espère trouver ses dictionnaires à un endroit spécifique. Pour les machines Unix, la localisation est typiquement </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">/usr/local/AbiSuite/dictionary/</c><c props="lang:fr-FR">. Pour les machines Windows, c'est habituellement </c><c props="font-style:italic; lang:fr-FR">C:\Program Files\AbiSuite\dictionary\</c><c props="lang:fr-FR"> </c></p>
+<p style="Normal"><c props="lang:fr-FR">AbiWord peut aussi utiliser des dictionnaires Ispell pré-installés. Vous pouvez réaliser cette installation simplement en les copiant dans le répertoire de dictionnaires d'AbiWord (</c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">cp</c><c props="lang:fr-FR"> sur Unix) ou en utilisant des liens symboliques, si votre plate-forme supporte cette caractéristique (</c><c props="font-style:italic; lang:fr-FR">ln -s</c><c props="lang:fr-FR"> sur Unix). Si le dictionnaire pour une langue particulière n'est pas installé, les mots ne pourront être vérifiés et ne seront pas être marqués invalides. </c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Comment utiliser ces caractéristiques ?</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">AbiWord fixe automatiquement plusieurs de ses réglages par défaut en se basant sur la définition de paramètres régionaux de votre ordinateur. Ceci inclut les dimensions du papier (A4 vs Letter), les unités affichées (inch vs cm) et la langue de vérification orthographique. De manière interne, la langue est un code de pays de quatre caractères. Par exemple, l'anglais américain est représenté par </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">en-US</c><c props="lang:fr-FR">.</c></p>
+<p style="Normal"><c props="lang:fr-FR">C'est très utile de définir la langue par défaut au démarrage, mais ce n'est pas tout. AbiWord permet à l'utilisateur de modifier la langue associée à n'importe quel mot à l'intérieur d'un document et d'en faire la vérification orthographique en utilisant le dictionnaire approprié (en autant que le dictionnaire soit installé sur le système de l'utilisateur). Cette fonctionnalité est réalisée par l'entremise de la fenêtre de dialogue </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Langue</c><c props="lang:fr-FR">, accessible à partir de l'item de menu </c><c props="font-style:italic; lang:fr-FR">Outils</c><c props="lang:fr-FR"> &gt; </c><c props="font-style:italic; lang:fr-FR">Langue</c><c props="lang:fr-FR"> ou en appuyant sur le bouton droit de la souris au-dessus du document. Le dialogue permet à l'usager de choisir une langue à partir d'une liste de langues ou </c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">même </c><c props="lang:fr-FR">de ne pas utiliser de vérification orthographique. Pour plus d'information consultez la rubrique d'aide spécifique. </c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Matrice des langues supportées</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Suit la liste des langues supportées lorsque Ispell est utilisé. La combinaison de nom de Langue/Pays, c'est à dire le code-pays et le dictionnaire Ispell correspondant sont fournis. Présentement AbiWord supporte 27 adaptations locales différentes par l'intermédiaire d'Ispell : </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Dictionaire 		Code-pays </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">catalan.hash		ca-ES </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">czech.hash		cs-CZ </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">dansk.hash		da-DK </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">deutsch.hash		de-CH </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">deutsch.hash		de-DE </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">deutsch.hash		de-AT </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">ellhnika.hash		el-GR </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">british.hash		en-AU </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">american.hash		en-CA </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">british.hash		en-GB </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">british.hash		en-IE </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">american.hash		en-US </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">espanol.hash		es-ES </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">francais.hash		fr-BE </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">francais.hash		fr-CA </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">francais.hash		fr-CH </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">francais.hash		fr-FR </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">italian.hash		it-IT </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">lietuviu.hash		lt-LT </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">dutch96.hash		nl-NL </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">norsk.hash		nb-NO </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">nynorsk.hash		nn-NO </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">polish.hash		pl-PL </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">portugues.hash	pt-PT </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">portugues.hash	pt-BR </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">russian.hash		ru-RU </c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">svenska.hash		sv-SE</c><c props="lang:fr-FR"></c></p>
+</section>
+</abiword>

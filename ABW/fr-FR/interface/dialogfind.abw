@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:17pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0pt; text-indent:0in; margin-top:0pt; text-position:normal; font-weight:normal; font-variant:normal; color:000000; text-decoration:none; line-height:1.0; margin-bottom:0pt; text-align:left; margin-right:0pt; bgcolor:transparent; font-size:12pt; widows:2; font-stretch:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Dialogue rechercher</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Rechercher</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Entrez le mot que vous désirez rechercher dans cette boîte. Il s'agit de la chaîne de recherche. Cette commande recherche la chaîne de caractères ou de nombres que vous entrez. Ainsi, si vous recherchez </c><c props="font-style:italic; lang:fr-FR">en</c><c props="lang:fr-FR">, vous trouverez les deux lettres au milieu du mot </c><c props="font-style:italic; lang:fr-FR">dent</c><c props="lang:fr-FR"> tout autant que le mot </c><c props="font-style:italic; lang:fr-FR">en</c><c props="lang:fr-FR">.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Respecter la casse</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette case à cocher détermine si la chaîne de caractères que vous recherchez doit contenir la même combinaison de lettres majuscules et minuscules que la chaîne de recherche. Si cette boîte est sélectionnée alors </c><c props="font-style:italic; lang:fr-FR">En</c><c props="lang:fr-FR"> ne se révélera pas identique à </c><c props="font-style:italic; lang:fr-FR">en</c><c props="lang:fr-FR">. Si cette case n'est pas sélectionnée, </c><c props="font-style:italic; lang:fr-FR">en</c><c props="lang:fr-FR"> fournira les combinaisons </c><c props="font-style:italic; lang:fr-FR">En</c><c props="lang:fr-FR">, </c><c props="font-style:italic; lang:fr-FR">EN</c><c props="lang:fr-FR">, </c><c props="font-style:italic; lang:fr-FR">en</c><c props="lang:fr-FR"> et </c><c props="font-style:italic; lang:fr-FR">eN</c><c props="lang:fr-FR"> comme résultat de recherche.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Suivant</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cliquez sur ce bouton pour trouver l'occurrence suivante de la chaîne de recherche dans le document. AbiWord démarre la recherche à partir du point d'insertion et poursuit à partir du début du document lorsque sa fin est atteinte. La recherche s'arrête lorsque l'ensemble du document a été recherché une fois.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Annuler</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton ferme le dialogue </c><c props="font-style:italic; lang:fr-FR">Rechercher</c><c props="lang:fr-FR">.</c><c props="lang:fr-FR"></c></p>
+</section>
+</abiword>

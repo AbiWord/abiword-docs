@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Dialogue insérer un symbole</c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce dialogue vous permet d'insérer des caractères spéciaux dans votre document. Ceci comprend des caractères que vous ne seriez pas en mesure d'entrer facilement au clavier.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Menu de police de caractères</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce menu déroulant fournit la liste des polices de caractères à partir desquelles vous pouvez choisir les caractères à insérer. Le nom de la police sélectionnée est affichée dans la boîte.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Table des symboles</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Le tableau affiche tous les symboles disponibles de la police sélectionnée. Cliquez sur un symbole pour le sélectionner pour insertion. Double cliquez sur un symbole l'insère dans le document, mais ne se ferme pas</c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR"> le dialogue</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Boîte d'aperçu</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Lorsqu'un symbole est sélectionné, une version agrandie du symbole est affiché dans cette boîte. Ainsi, vous pouvez mieux voir ce que vous insérerez.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Insérer</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cliquez sur ce bouton pour insérer le symbole sélectionné.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Fermer</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cliquez sur ce bouton pour fermer le dialogue. Tous les symboles que vous avez insérés demeurent dans le document.</c><c props="lang:fr-FR"></c></p>
+</section>
+</abiword>

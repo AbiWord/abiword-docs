@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c style="Heading 1" props="lang:fr-CA"></c><c style="Heading 1" props="lang:fr-FR">Barre d'outils extra</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:fr-FR">La barre d'outils extra ne s'affiche pas par défaut. Vous pouvez choisir de l'afficher à partir du menu </c><c style="Normal Clean" props="lang:fr-FR"></c><c style="Normal Clean" props="font-style:italic; lang:fr-FR">Affichage</c><c style="Normal Clean" props="lang:fr-FR">.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:fr-FR"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:fr-FR">Ce bouton insère un hyperlien dans votre document. Il ouvre le dialogue </c><c style="Normal Clean" props="lang:fr-FR"></c><c style="Normal Clean" props="font-style:italic; lang:fr-FR">Hyperlien</c><c style="Normal Clean" props="lang:fr-FR">.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:fr-FR">Ce bouton insère un signet (aussi dénommé 'ancre', comme l'icône) dans votre document. Il ouvre le dialogue </c><c style="Normal Clean" props="lang:fr-FR"></c><c style="Normal Clean" props="font-style:italic; lang:fr-FR">Signet</c><c style="Normal Clean" props="lang:fr-FR">.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:fr-FR">Ce bouton ajoute une barre au-dessus du texte.</c><c style="Normal Clean" props="lang:fr-FR"></c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"> Cliquez une fois pour enfoncer le bouton et activer le texte barré haut ; cliquez une autre fois pour relâcher le bouton et désactiver le texte barré haut. Si aucun texte n'est sélectionné lorsque vous cliquez sur le bouton, le nouvel état s'applique au texte que vous entrez par la suite. Si un texte est sélectionné, cliquer sur le bouton change l'état du texte, ainsi si le texte est normal il devient barré haut et s'il est barré haut cette caractéristique est enlevée.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Ce bouton a pour fonction de mettre un barre en travers du texte. Le bouton agit de la même manière que pour le bouton précédent.</c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Ce bouton ajoute une ligne tout au-dessus du texte. Il agit comme les boutons précédents. Une ligne au-dessus est située plus haut que pour la caractéristique barré haut. Une ligne au-dessus est le plus souvent employée pour la construction de tableaux.</c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c props="lang:fr-FR">Ce bouton ajoute un ligne tout </c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">au-dessous </c><c props="lang:fr-FR">du texte. </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Il agit comme les boutons précédents. Une ligne au-dessous est située plus bas qu'un souligné et est le plus souvent employée pour la construction de tableaux</c><c props="lang:fr-FR">.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c props="lang:fr-FR">Ce bouton applique la caractéristique exposant au texte. </c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">Il agit comme les boutons précédents.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c props="lang:fr-FR">Ce bouton applique la caractéristique indice au texte. </c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">Il agit comme les boutons précédents.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c props="lang:fr-FR">Ce bouton ouvre le dialogue </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Insère un symbole</c><c props="lang:fr-FR"> pour ajouter des caractères spéciaux.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c props="lang:fr-FR">Ce bouton exécute un script perl. Il est opérationnel seulement si des scripts sont disponibles.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean" props="margin-top:0pt"><c props="lang:fr-FR">Ces boutons déterminent l'espacement présent devant un nouveau paragraphe. Le bouton de gauche ne laisse pas d'espacement alors que celui de droite utilise un espacement de 12 points.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><c props="lang:fr-FR">Ces boutons déterminent l'espace entre les lignes. Le bouton de gauche utilise un interligne simple de telle sorte qu'un petit espace existe entre les lignes. Le bouton du milieu utilise un interligne et demi de telle sorte qu'il existe un espace d'une demi-ligne. Le bouton de droite utilise une interligne double ce qui laisse un espace équivalent à une ligne complète entre les lignes de texte.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><c props="lang:fr-FR">Ce bouton déplace le point d'insertion dans l'en-tête. Si l'en-tête n'existe pas, il est créé.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">Ce bouton déplace le point d'insertion dans le pied de page. Si le pied de page n'existe pas, il est créé.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR"></c></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><c props="lang:fr-FR">Cliquer sur ce bouton enlève l'en-tête du document. Le bouton est disponible seulement si le document comporte un en-tête.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">Cliquer sur ce bouton enlève le pied de page du document. Le bouton est disponible seulement si le document comporte un pied de page.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR"></c></p>
+</section>
+</abiword>

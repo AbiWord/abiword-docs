@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Dialogue options</c></p>
+<p style="Normal"><c props="lang:fr-FR">Le dialogue options vous permet de régler, </c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:fr-FR; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">à votre goût, l'opération</c><c props="lang:fr-FR"> d'Abiword sur votre système. Comme pour le dialogue </c><c props="font-style:italic; lang:fr-FR">Orthographe</c><c props="lang:fr-FR">, vous ne pouvez effectuer d'autres actions lorsque le dialogue </c><c props="font-style:italic; lang:fr-FR">Options</c><c props="lang:fr-FR"> est ouvert. Le dialogue possède quatre onglets : </c><c props="font-style:italic; lang:fr-FR">Barres d'outils</c><c props="lang:fr-FR">, </c><c props="font-style:italic; lang:fr-FR">Orthographe</c><c props="lang:fr-FR">, </c><c props="font-style:italic; lang:fr-FR">Disposition</c><c props="lang:fr-FR"> et </c><c props="font-style:italic; lang:fr-FR">Thème</c><c props="lang:fr-FR">. En cliquant un de ces onglets vous rendez disponibles les commandes appropriées dans le dialogue pour vous permettre de les modifier.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Barres d'outils</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Barres d'outils</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette fenêtre contient une liste des barres d'outils disponibles dans l'application. Cliquez l'une d'elles pour la sélectionner.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Visible</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ceci détermine si la barre d'outils sélectionnée est visible. Si </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Afficher</c><c props="lang:fr-FR"> est sélectionné, la barre d'outils est affiché par défaut. Si </c><c props="font-style:italic; lang:fr-FR">Masquer</c><c props="lang:fr-FR"> est sélectionné, la barre d'outils est caché par défaut.</c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Style de bouton</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ceci vous permet de choisir le style des bouton de la barre d'outils sélectionnée. Cette caractéristique n'est par implantée présentement.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Voir les astuces</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si ce bouton est activé, un bref message fournissant la fonction d'un bouton apparaîtra près du curseur lorsque celui-ci est localisé au-dessus d'un bouton de la barre d'outils. Pour le moment cette caractéristique ne peut être désactivée.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><bookmark type="start" name="spelling"/><bookmark type="end" name="spelling"/>Orthographe</p>
+<p style="Heading 2"><c props="lang:fr-FR">Général</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ces réglages agissent sur les fonctions de vérification orthographique.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="font-weight:bold; lang:fr-FR">Vérifier au cours de la frappe :</c><c props="font-weight:bold; lang:fr-FR"></c><c props="font-weight:normal; lang:fr-FR"> Si cette option est sélectionnée, la fonction de </c><c props="lang:fr-FR; font-weight:normal; font-style:italic">Vérification automatique</c><c props="font-weight:normal; lang:fr-FR"> du sous menu </c><c props="lang:fr-FR; font-weight:normal; font-style:italic">Orthographe</c><c props="font-weight:normal; lang:fr-FR"> est sélectionnée par défaut.</c></p>
+<p style="Normal"><c props="font-weight:normal; lang:fr-FR">Les autres options ne sont pas disponibles pour l'instant.</c><c props="font-weight:normal; lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Ignorer</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ces réglages déterminent les catégories de mots qui seront ignorés par le vérificateur d'orthographe. Si la boîte est sélectionnée, cette catégorie de mots sera ignorée.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Dictionnaire personnel</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ces boutons vous permettrons de choisir un dictionnaire personnel, cependant ces caractéristiques n'ont pas été implantées.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Mots ignorés</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ces boutons vous permettent de modifier les mots spécifiques que la vérification orthographique ignore. Si vous appuyez sur </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Remise à zéro</c><c props="lang:fr-FR"> on vous demandera si vous désirez remettre à zéro la liste de tous les mots ignorés dans le dictionnaire courant. Cette action enlève tous les mots que vous avez demandé au vérificateur d'orthographe d'ignorer, ainsi ils seront tous marqués comme en erreur. Si vous ne remettez pas à zéro les mots ignorés dans le dictionnaire courant, on vous demande si vous désirez remettre à zéro les mots ignorés dans tous les autres documents ouverts. Le faire produit le même effet que remettre à zéro le document présent.</c></p>
+<p style="Normal"><c props="lang:fr-FR">Le bouton </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Editer</c><c props="lang:fr-FR"> vous permettra de remettre à zéro des mots spécifiques, cependant, cette fonction n'est pas disponible pour l'instant.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Disposition</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Afficher / Masquer</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si un item de cette section est sélectionné, il sera affiché par défaut.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Vue</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Les items de cette section sont des </c><c props="lang:fr-FR"></c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">contenu</c><c props="lang:fr-FR">s particuliers de document qui ne seraient habituellement pas affichés. Si ces items sont sélectionnés, ils s'afficheront par défaut. Pour le moment, la seule option disponibles est d'afficher les marques de paragraphe, de tabulations et autres marques.</c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Unités</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cet item règle les unités de mesure par défaut pour votre document.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Taille de la page par défaut</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR">Cet item définit la taille de la page pour un nouveau document</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:fr-FR"></c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Remplacer les guillemets</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si cet item est sélectionné, AbiWord remplace automatiquement les guillemets de base par des guillemets intelligents. Les guillemets intelligents s'inclinent dans la direction appropriée au début et à la fin des citations.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Permettre les couleurs autres que blanc</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si cet item est sélectionné vous pouvez utiliser le bouton </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Choisir la couleur d'écran</c><c props="lang:fr-FR"> pour définir la couleur de fond de vos documents.</c></p>
+<p style="Heading 3"><a xlink:href="dialogscreencolor.html">Choisir la couleur d'écran</a></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton appelle le dialogue de choix de couleur.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Thème</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Thème préféré</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette caractéristique n'est pas implantée pour l'instant.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 3"><c props="lang:fr-FR">Enregistrement automatique</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si cet item est sélectionné, AbiWord enregistrera automatiquement une copie de vos documents pendant que vous travaillez. Il est prudent de sélectionné cette fonction puisqu'elle réduit la quantité de travail que vous pouvez perdre lors d'un arrêt intempestif. Vous pouvez choisir le nombre de minutes entre deux enregistrements en entrant un nombre dans la boîte à droite ou en utilisant les flèches vers le haut ou le bas pour modifier la valeur, une minute à la fois.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Une extension est ajoutée au nom de fichier pour éviter que AbiWord n'écrase la dernière version du fichier que vous avez volontairement enregistrée. L'extension devrait être laissée à sa valeur par défaut (.bak) à moins que vous ayez de très bonnes raisons de la modifier.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Enregistrer</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Appuyez sur ce bouton pour appliquer les options que vous avez choisies pour le document présent.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Défauts</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Si vous appuyez sur ce bouton, toutes les options d'AbiWord sont rétablies à leur valeur par défaut bâties dans le programme.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">OK</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton enregistre les modifications des options, les applique au document et ferme le dialogue </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Options</c><c props="lang:fr-FR">.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Annuler</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton ferme le dialogue options sans modifier vos </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Options</c><c props="lang:fr-FR">.</c></p>
+</section>
+</abiword>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s followedby="Current Settings" name="Normal" basedon="" type="P" props="font-weight:normal; font-family:Times New Roman; margin-top:0pt; font-style:normal; margin-left:0pt; font-variant:normal; text-indent:0.0000in; margin-bottom:0pt; text-decoration:none; bgcolor:transparent; margin-right:0pt; color:000000; font-size:12pt; line-height:1.0; text-align:justify; font-stretch:normal; field-font:NULL"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1" props="text-align:left; margin-top:0pt; margin-bottom:0pt"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Interface à multiples fenêtres de document unique</c></p>
+<p style="Normal"><c props="lang:fr-FR">AbiWord possède une interface à multiples fenêtres de document unique ou MSDI. L'explication de ces termes est plus facile en comparant l'interface à documents multiples ou MDI avec l'interface à document unique ou SDI. NdT : les acronymes MSDI, MDI et SDI sont des termes informatiques tirés de l'anglais.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Dans les applications qui utilisent le MDI, il existe une fenêtre avec barres d'outils et menus où tous les documents s'ouvrent dans cette fenêtre. Donc, l'interface supporte plusieurs documents. Par ailleurs, dans les applications qui emploient le SDI, chaque document possède sa propre fenêtre avec ses barres d'outils et menus et il n'existe aucun lien entre les documents.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Le </c><c props="lang:fr-FR"></c><c props="text-position:normal; lang:fr-FR">MSDI d'</c><c props="lang:fr-FR">AbiWord combine les deux principes. Chaque document possède sa propre fenêtre avec ses menus et barres d'outils, mais, tous les documents d'AbiWord ont connaissance les uns des autres. Alors, le menu Fenêtre permet d'accéder à n'importe quel autre document et la commande Quitter du menu Fichier ferme tous les documents d'AbiWord</c><c props="text-position:normal; lang:fr-FR"> ouverts</c><c props="lang:fr-FR">. La commande Fermer, cependant, ferme seulement le document sur lequel vous travaillez. S'il s'agit du dernier document ouvert, le comportement normal d'AbiWord est d'ouvrir un nouveau document vierge en réutilisant la même fenêtre. Cette option peut être désactivée de telle sorte que la fermeture du dernier document ouvert, ferme l'application. Notez que l'utilisation du bouton de fermeture dans le coin supérieur droit de la fenêtre, fermera toujours la fenêtre, même si elle contient le dernier document ouvert.</c></p>
+</section>
+</abiword>

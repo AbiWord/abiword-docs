@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Dialogue zoom</c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce dialogue vous laisse contrôler le facteur d'agrandissement de votre document à l'écran.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Facteur de zoom</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ces options permettent de choisir le facteur d'agrandissement. </c><c props="font-style:italic; lang:fr-FR">200%</c><c props="lang:fr-FR">, </c><c props="font-style:italic; lang:fr-FR">100%</c><c props="lang:fr-FR">, et </c><c props="font-style:italic; lang:fr-FR">75%</c><c props="lang:fr-FR">. Ces facteurs sont relatifs à la taille d'impression. Vous pouvez aussi choisir un pourcentage en employant l'option </c><c props="font-style:italic; lang:fr-FR">Pourcentage</c><c props="lang:fr-FR"> au bas de la liste. Cliquez sur le bouton et cliquez sur les flèches vers le haut ou le bas pour modifier la valeur. Vous pouvez aussi entrer une valeur dans la boîte.</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="font-style:italic; lang:fr-FR">Largeur de page</c><c props="font-style:italic; lang:fr-FR"></c><c props="lang:fr-FR"> règle de facteur d'agrandissement du document pour que la largeur de la page remplisse tout juste l'espace de la fenêtre. </c><c props="font-style:italic; lang:fr-FR">Toute la page</c><c props="lang:fr-FR"> ajuste la page complète à la dimension de la fenêtre, ainsi, vous pouvez apprécier la disposition d'un coup d'oeil.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Aperçu</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Cette fenêtre affiche, au facteur d'agrandissement choisi, la grandeur du nom de police de caractères dans un cadre. Cette caractéristique fonctionne seulement pour les valeurs de pourcentage et non pour les facteurs de zoom qui font référence à la taille de page.</c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">OK</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton ferme le dialogue Z</c><c props="font-style:italic; lang:fr-FR">oom</c><c props="lang:fr-FR"> et change le facteur d'agrandissement du document à la valeur choisie.</c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Annuler</c><c props="lang:fr-FR"></c></p>
+<p style="Normal"><c props="lang:fr-FR">Ce bouton ferme le dialogue Z</c><c props="font-style:italic; lang:fr-FR">oom</c><c props="lang:fr-FR"> sans modifier le facteur d'agrandissement du document.</c></p>
+</section>
+</abiword>

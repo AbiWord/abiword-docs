@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:fr-CA"></c><c props="lang:fr-FR">Menu web</c></p>
+<p><c props="lang:fr-FR">Le menu web fournit deux commandes qui vous permettent de transformer facilement vos documents AbiWord en pages web. </c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Enregistrer sous le web...</c><c props="lang:fr-FR"></c></p>
+<p><c props="lang:fr-FR">Cette commande vous affiche la boîte de dialogue pour enregistrer votre document sous un nouveau nom qui comporte le type de fichier XHTML. L'exportateur intégré d'AbiWord convertit votre fichier en XHTML lors de l'enregistrement. </c><c props="lang:fr-FR"></c></p>
+<p style="Heading 2"><c props="lang:fr-FR">Aperçu de la page web...</c><c props="lang:fr-FR"></c></p>
+<p><c props="lang:fr-FR">Cette commande ouvre le document actuel dans votre navigateur par défaut. Vous verrez alors apparaître votre document en tant que page web. Cette commande n'enregistre pas de version XHTML de votre document ; vous devez utiliser la commande </c><c props="lang:fr-FR"></c><c props="font-style:italic; lang:fr-FR">Enregistrer sous le web...</c><c props="lang:fr-FR"> ou </c><c props="font-style:italic; lang:fr-FR">Enregistrer sous...</c><c props="lang:fr-FR"> pour l'enregistrer en XHTML.</c></p>
+</section>
+</abiword>
