@@ -129,6 +129,7 @@
 <p style="Normal">Update to build.txt file.</p>
 <p style="Heading 2">William Lachance</p>
 <p style="Normal">Fixes to import of lists from WordPerfect documents.</p>
+<p style="Normal">Other patches to WordPerfect exporter.</p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">RTF importer handles /sectd.</p>
 <p style="Normal">Moved most import/export filters to plugins.</p>
@@ -187,7 +188,8 @@
 <p style="Normal">Fixed crashes on undoing endnote insertion.</p>
 <p style="Normal">More fixes for endnotes, making them much more stable.</p>
 <p style="Normal">Code cleanup in layout code.</p>
-<p style="Normal">Bug fixes: 3215.</p>
+<p style="Normal">Fix for header/footer problem arising from table code.</p>
+<p style="Normal">Bug fixes: 3215, 3324.</p>
 <p style="Heading 2">Per Larsson</p>
 <p style="Normal">Swedish localisation update.</p>
 <p style="Normal">Fixes for header and footer placement in RTF.</p>
@@ -203,9 +205,9 @@
 <p style="Normal"><c props="font-weight:normal">Beginnings of a WordPerfect exporter. Got it to export a file that Abi's WordPerfect importer can read. Unfortunately, WordPerfect can't.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Further work on WordPerfect exporter. Now, even WordPerfect can read the files.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Added more features to exported WordPerfect documents.</c><c props="font-weight:normal"></c></p>
-<p style="Normal"><c props="font-weight:normal">Fix to the rpm spec.</c></p>
-<p style="Normal"><c props="font-weight:normal">Changed WordPerfect plugin to share more code between importer and exporter.</c></p>
-<p style="Normal"><c props="font-weight:normal">Bug fixes: 3533.</c></p>
+<p style="Normal"><c props="font-weight:normal">Fix to the rpm spec.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Changed WordPerfect plugin to share more code between importer and exporter.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Bug fixes: 3533.</c><c props="font-weight:normal"></c></p>
 <p style="Heading 2">Tim Mooney</p>
 <p style="Normal">Bug fixes: 3332.</p>
 <p style="Heading 2">Michael Pritchett</p>
@@ -222,9 +224,9 @@
 <p style="Normal">Welsh localisation update.</p>
 <p style="Heading 2">Gilles Saint-Denis</p>
 <p style="Normal">French translation of the documentation.</p>
-<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix for the doc generation script to allow for multiple languages.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
-<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix to header.xhtml in plugins documentation.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
-<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">French localisation update.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix for the doc generation script to allow for multiple languages.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix to header.xhtml in plugins documentation.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">French localisation update.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
 <p style="Heading 2">Oliver Schurr</p>
 <p style="Normal">German localisation update.</p>
 <p style="Heading 2">Rui Miguel Seabra</p>
