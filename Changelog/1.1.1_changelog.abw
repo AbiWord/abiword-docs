@@ -43,11 +43,16 @@
 <p style="Normal">Work on auto* build system.</p>
 <p style="Normal">AbiWidget fixes so that AbiWord embeds in GNOME applications.</p>
 <p style="Normal">Improvements to UT_ASSERT.</p>
+<p style="Normal">AbiWord can now save to a bonobo stream.</p>
+<p style="Normal">AbiWord can now use bonobo print commands.</p>
+<p style="Normal">Fixed a bug which was closing the GTK build as soon as it opened.</p>
 <p style="Heading 2">Patrick Lam</p>
 <p style="Normal">Fix to AP_convert.</p>
 <p style="Normal">Converted to use libpopt for command-line parsing on GTK and GNOME builds.</p>
 <p style="Normal">Made AP_Args use AP_App.</p>
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Diving make system for I/E plugins.</p>
+<p style="Heading 2">Martin Sevior</p>
+<p style="Normal">Turned AbiWord into an embeddable application in GNOME.</p>
 </section>
 </abiword>
