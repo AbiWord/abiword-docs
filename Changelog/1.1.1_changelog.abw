@@ -11,7 +11,7 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Fri May 17 21:29:03 2002</m>
+<m key="abiword.date_last_changed">Mon May 20 22:05:00 2002</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
@@ -33,6 +33,8 @@
 <p style="Normal">Build instructions update.</p>
 <p style="Heading 2">Jonas Bjrk</p>
 <p style="Normal">Bug fixes: 3396.</p>
+<p style="Heading 2">Jesus Corrius</p>
+<p style="Normal">Catalan localisation fix.</p>
 <p style="Heading 2">Jeremy Davis</p>
 <p style="Normal">AbiPaint plugin menu fix.</p>
 <p style="Normal">AbiMagick plugin fixes for Win32.</p>
@@ -61,6 +63,12 @@
 <p style="Normal">Fixed ut_xml_expat.cpp.</p>
 <p style="Normal">Fixed fribidi related out of bounds writes in xap_Strings.cpp  and ev_Toolbar_Labels.cpp.</p>
 <p style="Normal">Updated to latest fribidi.</p>
+<p style="Normal">Changed UT_Mbtowc to UT_UCS4_mbtowc.</p>
+<p style="Normal">Internal changes to handle encoding of large character sets properly.</p>
+<p style="Normal">Committed some fixes to fribidi.</p>
+<p style="Normal">Fixed a build failure on Linux.</p>
+<p style="Normal">Fixed a crashing bug in bidirectional code.</p>
+<p style="Normal">Work on revision tracking, so that changes made to a document are visible, and associated with the person who made them.</p>
 <p style="Heading 2">Gabriel Gerhardsson</p>
 <p style="Normal">Added a dictionary hash downloader.</p>
 <p style="Normal">Build instructions update.</p>
@@ -107,9 +115,11 @@
 <p style="Normal">Bug fixes: 2223.</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal"><c props="font-weight:normal">Build fixes for numerous plug-ins.</c><c props="font-weight:normal"></c></p>
-<p style="Normal"><c props="font-weight:normal">Fixes for latest libxml2 snapshot.</c></p>
-<p style="Normal"><c props="font-weight:normal">Fixes to WordPerfect importer.</c></p>
-<p style="Normal"><c props="font-weight:normal">Beginnings of a WordPerfect exporter.</c></p>
+<p style="Normal"><c props="font-weight:normal">Fixes for latest libxml2 snapshot.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixes to WordPerfect importer.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Beginnings of a WordPerfect exporter.</c><c props="font-weight:normal"></c></p>
+<p style="Heading 2">Tim Mooney</p>
+<p style="Normal">Bug fixes: 3332.</p>
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Diving make system for I/E plugins.</p>
 <p style="Normal">Fixes for popt use on Win32.</p>
@@ -121,6 +131,7 @@
 <p style="Normal">Put the next generation layout document into the source tree.</p>
 <p style="Normal">Refactored the container code for next-generation layout. No new layout features yet.</p>
 <p style="Normal">Refactored the fl_Layout classes. No new features yet.</p>
+<p style="Normal">Started work on new layout features. Tables!!!!!!</p>
 <p style="Heading 2">Jesper Skov</p>
 <p style="Normal">Code cleanup in fv_view.</p>
 </section>
