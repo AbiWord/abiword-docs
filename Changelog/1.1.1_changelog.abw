@@ -16,6 +16,8 @@
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
 <p style="Heading 1"><c props="lang:en-GB"></c>1.1.1 Changelog</p>
+<p style="Heading 2">Pierre Abbat</p>
+<p style="Normal">Lojban localisation work.</p>
 <p style="Heading 2">Christian Biesinger</p>
 <p style="Normal">Documentation for Star Office importer.</p>
 <p style="Normal">Improvements to Star Office importer, including reading metadata.</p>
@@ -33,6 +35,7 @@
 <p style="Normal">Catalan localisation fix.</p>
 <p style="Heading 2">Jeremy Davis</p>
 <p style="Normal">AbiPaint plugin menu fix.</p>
+<p style="Normal">AbiPaint fixes.</p>
 <p style="Normal">AbiMagick plugin fixes for Win32.</p>
 <p style="Normal">Patch to make libole2 work on Win32.</p>
 <p style="Normal">popt fix on Win32.</p>
@@ -51,6 +54,7 @@
 <p style="Normal">New version of the world.abw file which tests language and script support.</p>
 <p style="Heading 2">Hubert Figuiere</p>
 <p style="Normal">MacOS X port work, including new dialogs.</p>
+<p style="Normal">About dialog now works on MacOS X.</p>
 <p style="Normal">Fixed some breakage on Win32.</p>
 <p style="Normal">Fixes to documentation creation script.</p>
 <p style="Heading 2">Frank Franklin</p>
@@ -191,7 +195,7 @@
 <p style="Normal">More fixes for endnotes, making them much more stable.</p>
 <p style="Normal">Code cleanup in layout code.</p>
 <p style="Normal">Fix for header/footer problem arising from table code.</p>
-<p style="Normal">Bug fixes: 3215, 3324.</p>
+<p style="Normal">Bug fixes: 3215, 3324, 3587.</p>
 <p style="Heading 2">Per Larsson</p>
 <p style="Normal">Swedish localisation update.</p>
 <p style="Normal">Fixes for header and footer placement in RTF.</p>
@@ -199,6 +203,8 @@
 <p style="Normal">Bug fixes: 2223.</p>
 <p style="Heading 2">Ismo Makinen</p>
 <p style="Normal">Finnish system profile.</p>
+<p style="Heading 2">Jordi Mas</p>
+<p style="Normal">Bug fixes: 3287</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal"><c props="font-weight:normal">Build fixes for numerous plug-ins.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Fixes for latest libxml2 snapshot.</c><c props="font-weight:normal"></c></p>
@@ -209,6 +215,10 @@
 <p style="Normal"><c props="font-weight:normal">Added more features to exported WordPerfect documents.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Fix to the rpm spec.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Changed WordPerfect plugin to share more code between importer and exporter.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Small code cleanup in ap_UnixApp.cpp.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fix to HTML plugin.</c></p>
+<p style="Normal"><c props="font-weight:normal">Updated nl-NL translation to 100%.</c></p>
+<p style="Normal"><c props="font-weight:normal">Table import from WordPerfect.</c></p>
 <p style="Normal"><c props="font-weight:normal">Bug fixes: 3533.</c><c props="font-weight:normal"></c></p>
 <p style="Heading 2">Tim Mooney</p>
 <p style="Normal">Bug fixes: 3332.</p>
@@ -244,6 +254,11 @@
 <p style="Normal">AbiWord can now import tables from a .abw file. There is no way to create them within the program yet, but we're getting there. (You get them into the file by ignoring the 'Do not edit by hand' warning at the top.)</p>
 <p style="Normal">AbiWord can edit tables within a document.</p>
 <p style="Normal">Abi splits tables properly across pages.</p>
+<p style="Normal">AbiWord can draw lines round tables.</p>
+<p style="Normal">AbiWord has nice ruler controls for tables.</p>
+<p style="Normal">AbiWord has a Table menu. Doesn't <c props="font-style:italic">do</c><c props="font-style:normal"> anything yet.</c></p>
+<p style="Normal"><c props="font-style:normal">Fixed width columns in tables.</c></p>
+<p style="Normal"><c props="font-style:normal">Fixed a crash on exit.</c></p>
 <p style="Normal">Bug fixes: 3423</p>
 <p style="Heading 2">Jesper Skov</p>
 <p style="Normal">Code cleanup in fv_view.</p>
@@ -256,5 +271,9 @@
 <p style="Normal">Fix bugs: 3618.</p>
 <p style="Heading 2">John Wyrwas</p>
 <p style="Normal">Beginnings of a PDF exporter plugin.</p>
+<p style="Heading 2">Daniel Yacob</p>
+<p style="Normal">Amharic localisation work.</p>
+<p style="Heading 2">Alfredo Barrainkua Zallo</p>
+<p style="Normal">Euskara localisation work.</p>
 </section>
 </abiword>
