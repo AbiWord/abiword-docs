@@ -15,7 +15,7 @@
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c props="lang:en-GB"></c>Lists Dialog</p>
+<p style="Heading 1"><c props="lang:en-US"></c>Lists Dialog</p>
 <p style="Normal"><c style="Normal">This dialog allows you to create various kinds of automatic list within your document. Each list uses a different style for the items within it. Within a list, press return to end one item and start the next.</c></p>
 <p style="Normal"><c style="Normal">This dialog is non-modal, which means that you can type in your document while it is open. To do so, bring the document window to the front, and type as normal.</c></p>
 <p style="Heading 2"><c style="Heading 2">Type:</c></p>

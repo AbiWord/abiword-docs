@@ -21,7 +21,7 @@
 </ignoredwords>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section header="26414915">
-<p style="doc_heading1"><c props="lang:en-GB; font-size:22pt; font-family:Times New Roman"></c><c props="lang:en-US; font-size:22pt; font-family:Times New Roman">The </c><c props="font-family:Times New Roman; font-size:22pt">AbiWord Workspace</c></p>
+<p style="doc_heading1"><c props="lang:en-US; font-size:22pt; font-family:Times New Roman"></c><c props="lang:en-US; font-size:22pt; font-family:Times New Roman">The </c><c props="font-family:Times New Roman; font-size:22pt">AbiWord Workspace</c></p>
 <p style="doc_normal">AbiWord looks quite similar to other word processors, hopefully making anyone new to the software quite at home.</p>
 <p style="doc_normal"></p>
 <p style="doc_normal" props="text-indent:0.0000in; text-align:center"><image dataid="/usr/src/abiword/commit/images/full_window.png_0" props="height:3.98in; width:6.48in"/></p>

@@ -16,14 +16,14 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c props="lang:en-GB">Insert Bookmark</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">A bookmark marks a point or section of your document so that AbiWord can find it quickly. Bookmarks are normally invisible, although they are represented if you have set AbiWord to show formatting marks. In the Go To dialog, you can choose to go to a bookmark. Since bookmarks can be given informative names, this may be easier than trying to navigate by going to page numbers. Bookmarks can also serve as destinations for hyperlinks within a document.</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">To insert a bookmark, type a name for the bookmark in the box in the dialog. The bookmark will mark the selected text. If no text is selected, the bookmark will mark the location of the insertion point.</c></p>
-<p style="Heading 2"><c props="lang:en-GB">OK</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Insert the bookmark and close the dialog.</c></p>
-<p style="Heading 2"><c props="lang:en-GB">Delete</c></p>
-<p style="Normal Clean"><c props="lang:en-GB">Press this button to remove the selected bookmark from your document.</c></p>
-<p style="Heading 2"><c props="lang:en-GB">Cancel</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Close the dialog without inserting a bookmark.</c></p>
+<p style="Heading 1"><c props="lang:en-US">Insert Bookmark</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">A bookmark marks a point or section of your document so that AbiWord can find it quickly. Bookmarks are normally invisible, although they are represented if you have set AbiWord to show formatting marks. In the Go To dialog, you can choose to go to a bookmark. Since bookmarks can be given informative names, this may be easier than trying to navigate by going to page numbers. Bookmarks can also serve as destinations for hyperlinks within a document.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">To insert a bookmark, type a name for the bookmark in the box in the dialog. The bookmark will mark the selected text. If no text is selected, the bookmark will mark the location of the insertion point.</c></p>
+<p style="Heading 2"><c props="lang:en-US">OK</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">Insert the bookmark and close the dialog.</c></p>
+<p style="Heading 2"><c props="lang:en-US">Delete</c></p>
+<p style="Normal Clean"><c props="lang:en-US">Press this button to remove the selected bookmark from your document.</c></p>
+<p style="Heading 2"><c props="lang:en-US">Cancel</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">Close the dialog without inserting a bookmark.</c></p>
 </section>
 </abiword>

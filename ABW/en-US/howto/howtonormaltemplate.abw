@@ -15,7 +15,7 @@
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c props="lang:en-GB"></c><c props="lang:en-US">How To Change Default Styles</c></p>
+<p style="Heading 1"><c props="lang:en-US"></c><c props="lang:en-US">How To Change Default Styles</c></p>
 <p style="Normal"><c props="lang:en-US">When AbiWord opens a new document, a number of styles and other settings are automatically set. AbiWord comes with built-in values for these, but you can also change them if you would prefer a different look. You do this by editing a file called normal.awt -- the normal template.</c></p>
 <p style="Normal"><c props="lang:en-US">There are two kinds of normal template: user and system. A user normal template is found in your home directory, and only applies to documents you create. A system normal template is found in the directory where AbiWord is installed, and applies to all documents created by AbiWord on that system. AbiWord will follow a user normal template if one is installed. If not, it follows the system template, if one is installed. If no templates are installed, it uses built-in values.</c></p>
 <p style="Heading 2"><c props="lang:en-US">Finding the Normal Template</c></p>

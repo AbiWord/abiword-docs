@@ -16,7 +16,7 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c style="Heading 1" props="lang:en-GB; bgcolor:transparent"></c><c style="Heading 1" props="bgcolor:transparent">Font Dialog</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US; bgcolor:transparent"></c><c style="Heading 1" props="bgcolor:transparent">Font Dialog</c></p>
 <p style="Normal"><c style="Normal" props="bgcolor:transparent">This dialog lets you change the appearance of the characters in your document.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="bgcolor:transparent">Font</c></p>
 <p style="Normal"><c style="Normal" props="bgcolor:transparent">The commands on this tab change the appearance of the characters themselves.</c></p>

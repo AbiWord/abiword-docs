@@ -19,7 +19,7 @@
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section header="26414915">
-<p style="Heading 1"><c style="Heading 1" props="lang:en-GB"></c><c style="Heading 1" props="lang:en-US">Exchanging Files with Microsoft Word</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US"></c><c style="Heading 1" props="lang:en-US">Exchanging Files with Microsoft Word</c></p>
 <p style="Normal"><c props="lang:en-US">It is almost inevitable that you will, at some point, need to send a document you have created in AbiWord to someone using Microsoft Word, or open a document created in Microsoft Word in AbiWord. Fortunately, this is quite easy to do.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-US">Viewing AbiWord Documents with Microsoft Word</c></p>
 <p style="Normal"><c props="lang:en-US">Until Microsoft announces support for AbiWord files, documents created with AbiWord will first need to be exported into a format that Word can read. This is most easily done by choosing Rich Text Format when saving.</c></p>

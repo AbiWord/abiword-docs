@@ -15,7 +15,7 @@
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c props="lang:en-GB"></c>View Menu</p>
+<p style="Heading 1"><c props="lang:en-US"></c>View Menu</p>
 <p style="Normal">The View menu lets you change the workspace and the way that your document appears on the screen. None of the commands on this menu alter the contents of your document, or the way that it prints out. This means that altering things in this menu does not make your document 'dirty'; no asterisk will appear by the document name in the title bar.</p>
 <p style="Normal">If the box beside a menu option is 'pressed', then that option is in effect. In most cases, this means that something is displayed.</p>
 <p style="Heading 2">Normal/Web Layout/Print Layout</p>

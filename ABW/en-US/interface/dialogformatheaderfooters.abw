@@ -16,17 +16,17 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c style="Heading 1" props="lang:en-GB">Format Header/Footers Dialog</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Use this dialog to change the properties of the headers and footers in a section of your document. The changes apply to the section containing the insertion point.</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This dialog does not allow you to edit the contents of headers and footers. Use Edit Header and Edit Footer, from the Edit menu, to do that.</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Headers and Footers can have similar properties. To apply a property to a section, check the box at the left of the appropriate line. Any number, and any combination, of boxes may be checked.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Different on facing pages</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">The headers or footers on odd and even pages are different from each other.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Different on First page</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">The header or footer on the first page of the section is different from those on following pages.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Different on Last page</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">The header or footer on the last page of the section is different from those on preceding pages.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Restart Page Numbers on New Sections</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This option restarts page numbering in a new section, so that, for example, you can number the pages in each chapter starting from one, or start page numbers in a document at 12 because the document is the second chapter of a longer work. The number from which to restart can be set at the right: you can type in the box or use the arrow buttons.</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US">Format Header/Footers Dialog</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">Use this dialog to change the properties of the headers and footers in a section of your document. The changes apply to the section containing the insertion point.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">This dialog does not allow you to edit the contents of headers and footers. Use Edit Header and Edit Footer, from the Edit menu, to do that.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">Headers and Footers can have similar properties. To apply a property to a section, check the box at the left of the appropriate line. Any number, and any combination, of boxes may be checked.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Different on facing pages</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">The headers or footers on odd and even pages are different from each other.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Different on First page</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">The header or footer on the first page of the section is different from those on following pages.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Different on Last page</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">The header or footer on the last page of the section is different from those on preceding pages.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Restart Page Numbers on New Sections</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">This option restarts page numbering in a new section, so that, for example, you can number the pages in each chapter starting from one, or start page numbers in a document at 12 because the document is the second chapter of a longer work. The number from which to restart can be set at the right: you can type in the box or use the arrow buttons.</c></p>
 </section>
 </abiword>

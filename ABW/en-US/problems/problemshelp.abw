@@ -18,7 +18,7 @@
 </lists>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c props="lang:en-GB"></c>Getting Help</p>
+<p style="Heading 1"><c props="lang:en-US"></c>Getting Help</p>
 <p style="Normal">You've checked the FAQ and the user's manual, and there's just no solving your problem. It's time to ask for help. There are a couple of ways to do this:</p>
 <p style="Heading 2">User's Mailing List</p>
 <p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">You can sign up for the AbiWord User's Mailing List by sending an email to abiword-user-request@abisource.com with "subscribe" in the message body.</c></p>

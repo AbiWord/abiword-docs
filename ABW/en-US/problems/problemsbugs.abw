@@ -18,7 +18,7 @@
 </lists>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c props="lang:en-GB"></c>Report a Bug</p>
+<p style="Heading 1"><c props="lang:en-US"></c>Report a Bug</p>
 <p style="Heading 2">It's Probably a Bug!</p>
 <p style="Normal">Some users are timid about submitting bugs. They might think that they "did" something to the program to cause it to misbehave. Don't be afraid! It probably is a bug, and if it's not that's ok too. In particular, the following are almost certainly signs of a bug:</p>
 <p level="1" listid="487649529" parentid="0" props="start-value:0; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><field type="list_label" props="width:0in; font-family:Times New Roman; color:000000; font-weight:normal; lang:en-US; font-style:normal; text-position:normal; bgcolor:transparent; text-decoration:none; height:0in; font-size:12pt"></field><c type="list_label" props="width:0in; font-family:Times New Roman; color:000000; font-weight:normal; lang:en-US; font-style:normal; text-position:normal; bgcolor:transparent; text-decoration:none; height:0in; font-size:12pt">	</c>AbiWord crashed with "Illegal Operation" or segmentation fault</p>

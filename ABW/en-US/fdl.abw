@@ -16,7 +16,7 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c style="Heading 1" props="lang:en-GB"></c><c style="Heading 1">GNU Free Documentation License</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US"></c><c style="Heading 1">GNU Free Documentation License</c></p>
 <p style="Heading 1"><c style="Heading 1">Version 1.1, March 2000</c></p>
 <p>Copyright (C) 2000  Free Software Foundation, Inc.</p>
 <p>     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</p>

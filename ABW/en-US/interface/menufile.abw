@@ -15,7 +15,7 @@
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c props="lang:en-GB"></c>File Menu</p>
+<p style="Heading 1"><c props="lang:en-US"></c>File Menu</p>
 <p style="Heading 2"><a xlink:href="dialognew.html">New</a></p>
 <p props="margin-top:0.1667in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0417in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal">Opens the New File dialog, allowing you to create a new file based on a template.</c></p>
 <p style="Heading 2"><a xlink:href="dialogopenlinux.html">Open</a></p>

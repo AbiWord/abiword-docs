@@ -17,7 +17,7 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c style="Heading 1" props="lang:en-GB"></c><c style="Heading 1" props="lang:en-US">Format Menu</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US"></c><c style="Heading 1" props="lang:en-US">Format Menu</c></p>
 <p style="Normal"><c style="Normal" props="lang:en-US">This menu provides a number of commands allowing you to change the appearance of your document. These changes apply to both the version on screen, and to the version you print.</c></p>
 <p style="Normal"><c style="Normal" props="lang:en-US">Users should pay particular attention to the Style... command; this is by far the best way to format your document.</c></p>
 <p style="Heading 2"><a xlink:href="dialogfont.html"><c style="Heading 2" props="lang:en-US">Font...</c></a></p>

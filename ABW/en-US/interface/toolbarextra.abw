@@ -14,21 +14,21 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c style="Heading 1" props="lang:en-GB">Extra Toolbar</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">The extra toolbar is not displayed by default. You can choose to display it from the View menu.</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US">Extra Toolbar</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">The extra toolbar is not displayed by default. You can choose to display it from the View menu.</c></p>
 <p style="Normal Clean"></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This button inserts a hyperlink into your document. It opens the </c><a xlink:href="dialoghyperlink.html"><c style="Normal Clean" props="lang:en-GB">Insert Hyperlink</c></a><c style="Normal Clean" props="lang:en-GB"> dialog.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">This button inserts a hyperlink into your document. It opens the </c><a xlink:href="dialoghyperlink.html"><c style="Normal Clean" props="lang:en-US">Insert Hyperlink</c></a><c style="Normal Clean" props="lang:en-US"> dialog.</c></p>
 <p style="Normal Clean"></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This button inserts a bookmark (also known as an 'anchor', hence the icon) into your document. It opens the </c><a xlink:href="dialogbookmark.html"><c style="Normal Clean" props="lang:en-GB">Insert Bookmark</c></a><c style="Normal Clean" props="lang:en-GB"> dialog.</c></p>
-<p style="Normal Clean"></p>
-<p style="Normal Clean"></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This button adds an overline to the text. </c><c style="Normal Clean" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"> Click it once to depress it and turn overlined text on, and again to raise it and turn overlined text off. If no text is selected when you depress or raise the button, the new state applies to any text you type. If text is selected, pressing the button changes whether it is overlined; normal text is overlined, while an overline that is present is removed.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">This button inserts a bookmark (also known as an 'anchor', hence the icon) into your document. It opens the </c><a xlink:href="dialogbookmark.html"><c style="Normal Clean" props="lang:en-US">Insert Bookmark</c></a><c style="Normal Clean" props="lang:en-US"> dialog.</c></p>
 <p style="Normal Clean"></p>
 <p style="Normal Clean"></p>
-<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">This button strikes through the text. It functions as the overline button does.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">This button adds an overline to the text. </c><c style="Normal Clean" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"> Click it once to depress it and turn overlined text on, and again to raise it and turn overlined text off. If no text is selected when you depress or raise the button, the new state applies to any text you type. If text is selected, pressing the button changes whether it is overlined; normal text is overlined, while an overline that is present is removed.</c></p>
 <p style="Normal Clean"></p>
 <p style="Normal Clean"></p>
-<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">This button adds a top line to the text.  It functions as the overline button does. A top line is further above the text than an overline, and is most use when constructing tables.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">This button strikes through the text. It functions as the overline button does.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">This button adds a top line to the text.  It functions as the overline button does. A top line is further above the text than an overline, and is most use when constructing tables.</c></p>
 <p style="Normal Clean"></p>
 <p style="Normal Clean"></p>
 <p style="Normal Clean">This button adds a bottom line to the text. <c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal"> It functions as the overline button does. </c>A bottom line is further below than text than an underline, and is most use when constructing tables.</p>

@@ -20,7 +20,7 @@
 </lists>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section>
-<p style="Heading 1" props="text-align:center"><c props="lang:en-GB"></c><c props="lang:en-US">Unix Fonts and AbiWord</c></p>
+<p style="Heading 1" props="text-align:center"><c props="lang:en-US"></c><c props="lang:en-US">Unix Fonts and AbiWord</c></p>
 <p style="Normal" props="text-align:center"><c props="font-style:italic; lang:en-US">Tomas Frydrych &lt;tomas@frydrych.uklinux.net&gt;</c></p>
 <p style="Heading 2"><c props="lang:en-US">Table of Contents</c></p>
 <p style="Normal"><c props="font-weight:bold">	</c><a xlink:href="#intro"><c props="font-weight:bold; lang:en-US">Introduction</c></a></p>

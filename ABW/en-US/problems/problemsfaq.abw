@@ -16,7 +16,7 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c props="lang:en-GB"></c>AbiWord FAQ</p>
+<p style="Heading 1"><c props="lang:en-US"></c>AbiWord FAQ</p>
 <p style="Heading 2">1. Languages and Internationalization</p>
 <p style="Heading 3">1.1 How do I change Languages in AbiWord?</p>
 <p style="Normal">AbiWord can work with menus and strings translated into many different languages by configuring the system properly:</p>
