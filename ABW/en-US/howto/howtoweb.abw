@@ -19,8 +19,8 @@
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section>
-<p style="Normal"><c props="lang:en-GB">John Clark 2002</c></p>
-<p style="Heading 1"><c props="lang:en-GB"></c><c props="lang:en-US">Tips and Tricks for Authoring Web-Clean AbiWord Documents</c></p>
+<p style="Normal"><c props="lang:en-US">John Clark 2002</c></p>
+<p style="Heading 1"><c props="lang:en-US"></c><c props="lang:en-US">Tips and Tricks for Authoring Web-Clean AbiWord Documents</c></p>
 <p style="Heading 2"><bookmark type="start" name="introduction"/><c props="lang:en-US">Introduction</c><bookmark type="end" name="introduction"/></p>
 <p style="Normal"><c props="lang:en-US">When writing a document, many authors want to be able to present that document in a variety of media and formats.  AbiWord has a variety of file formats available for your use.</c></p>
 <p style="Normal"><c props="lang:en-US">&lt;insert image of current list of AbiWord exporters&gt;</c></p>

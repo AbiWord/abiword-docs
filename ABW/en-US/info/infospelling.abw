@@ -71,7 +71,7 @@
 <p><c props="font-family:Courier New">ellhnika.hash		el-GR </c></p>
 <p><c props="font-family:Courier New">british.hash		en-AU </c></p>
 <p><c props="font-family:Courier New">american.hash		en-CA </c></p>
-<p><c props="font-family:Courier New">british.hash		en-GB </c></p>
+<p><c props="font-family:Courier New">british.hash		en-US </c></p>
 <p><c props="font-family:Courier New">british.hash		en-IE </c></p>
 <p><c props="font-family:Courier New">american.hash		en-US </c></p>
 <p><c props="font-family:Courier New">espanol.hash		es-ES </c></p>
@@ -94,7 +94,7 @@
 <p><c props="font-family:Courier New"><br/></c></p>
 <p><c props="font-family:Courier New">To know if if everything worked (or if you´re just curious), you might want to perform a test such as the following: </c></p>
 <p><c props="font-family:Courier New"><br/></c></p>
-<p><c props="font-family:Courier New">color </c><c props="font-family:Courier New; lang:en-GB">colour</c><c props="font-family:Courier New"> </c><c props="font-family:Courier New; lang:de-DE">Farbe</c><c props="font-family:Courier New"> </c></p>
+<p><c props="font-family:Courier New">color </c><c props="font-family:Courier New; lang:en-US">colour</c><c props="font-family:Courier New"> </c><c props="font-family:Courier New; lang:de-DE">Farbe</c><c props="font-family:Courier New"> </c></p>
 <p><c props="font-family:Courier New"><br/></c></p>
 <p><c props="font-family:Courier New">These three words are all marked as being in different languages. This was achieved by double-clicking on each word, opening the Language Dialog, and selecting the intended language. The languages used here are: American English (en-US), British English (en-GB), and German (de-DE). </c></p>
 </section>

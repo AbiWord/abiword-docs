@@ -20,8 +20,8 @@
 </lists>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section header="26414915">
-<p style="Normal"><c props="lang:en-GB"></c></p>
-<p style="Heading 1"><c props="lang:en-GB"></c><c props="lang:en-US">Introduction to AbiWord</c></p>
+<p style="Normal"><c props="lang:en-US"></c></p>
+<p style="Heading 1"><c props="lang:en-US"></c><c props="lang:en-US">Introduction to AbiWord</c></p>
 <p style="Normal"><c props="lang:en-US">The AbiWord project began as a desire to create a stable, feature-savvy word processor unbound by a single platform or proprietary file formats. Today AbiWord compiles as a native application on a wide collection of computers and can handle an equally impressive number of file formats. In addition, AbiWord’s feature set includes most everything one would expect in a modern word processor. A short list of features includes:</c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.5000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></p>
 <p level="1" listid="952898813" parentid="0" style="Normal" props="font-family:Times New Roman; margin-bottom:0.0000in; margin-left:0.5000in; text-align:left; start-value:0; font-style:normal; text-indent:-0.3000in; text-position:normal; margin-right:0.0000in; color:000000; bgcolor:transparent; line-height:1.000000; list-style:Dashed List; text-decoration:none; font-weight:normal; font-size:12pt; lang:en-US; field-font:NULL"><field type="list_label"></field><c type="list_label">	</c><c style="Dashed List" props="lang:en-US; text-position:normal; font-weight:normal; text-decoration:none; color:000000; font-style:normal">A familiar interface</c></p>

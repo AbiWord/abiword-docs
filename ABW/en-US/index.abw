@@ -10,12 +10,12 @@
 
 <styles>
 <s type="P" basedon="" followedby="Current Settings" name="Normal" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s type="P" basedon="Normal" followedby="Normal" name="Heading 1" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 1" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-US; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
 <s type="P" basedon="Normal" followedby="Normal" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Normal"><c props="lang:en-GB"></c>David Chart 2002</p>
+<p style="Normal"><c props="lang:en-US"></c>David Chart 2002</p>
 <p style="Heading 1">AbiWord Help</p>
 <p style="Normal">These are the help files for AbiWord. They are normally installed with the program, but if you have found them elsewhere, you can read an introduction to AbiWord.</p>
 <p style="Normal">As with the rest of the program, these files are written by volunteers. Some sections are still incomplete, but everything that the program can do is documented, most of it in the interface section. If you want to help, you should consult the Problems section.</p>
