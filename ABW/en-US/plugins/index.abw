@@ -13,7 +13,7 @@
 <m key="abiword.generator">AbiWord</m>
 <m key="dc.title">AbiWord Help: Plug-ins</m>
 <m key="abiword.date_last_changed">Thu Mar 11 21:04:05 2004</m>
-<m key="dc.creator">Copyright (C) 2002 David Chart</m>
+<m key="dc.creator">Copyright (C) 2002 David Chart; Copyright (C) 2004 Mark Gilbert</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
