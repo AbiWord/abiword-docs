@@ -1,3 +1,5 @@
+@import url("histyle.css");
+
 body {
 background-color: white;
 color: black;
@@ -40,7 +42,6 @@ padding-right: 5em;
 }
 
 div.index {
-width: 100%;
 padding: 0.5em;
 background-color: black;
 color: white;
