@@ -32,7 +32,7 @@
 <p style="Normal" props="lang:en-US">For example, if I have edited foo.abw, and save a copy as foo2.doc, the open document is still foo.abw. If I make further changes and then just save, the changes are saved to foo.abw.</p>
 <p style="Heading 2" props="lang:en-US">Revert</p>
 <p style="Normal" props="lang:en-US">Undoes all changes made since the document was last saved. They can be Redone by using Redo (on the Edit menu), or the Redo button on the toolbar.</p>
-<p style="Heading 2" props="font-family:Arial; color:000000; font-size:14pt; text-position:normal; lang:en-US; bgcolor:transparent; font-weight:bold; font-style:normal; text-decoration:none"><a xlink:href="#dialogpagesetup.html">Page Setup</a></p>
+<p style="Heading 2" props="font-family:Arial; color:000000; font-size:14pt; text-position:normal; lang:en-US; bgcolor:transparent; font-weight:bold; font-style:normal; text-decoration:none"><a xlink:href="dialogpagesetup.html">Page Setup</a></p>
 <p style="Normal">Opens a dialog box to setup the Paper size, Orientation, Scale and Margins.</p>
 <p style="Heading 2">Print</p>
 <p style="Normal">Opens a dialog box to print the open document.</p>
