@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="0.9.6-1" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:en-US">0.9.99.1 Changelog</c></p>
+<p style="Normal"><c props="lang:en-US">Taking Dom seriously, the next version should be 0.9.99.1, so this is the changelog for that. Normal caveats apply.</c></p>
+<p style="Heading 2">Andrew Dunbar</p>
+<p style="Normal">Work on translator plug in.</p>
+<p style="Normal">Added languages to AbiWord.</p>
+<p style="Heading 2">Hubert Figuiere</p>
+<p style="Normal">Bug fixes, including 2327, 2328.</p>
+<p style="Normal">Removed all CR from the source code.</p>
+<p style="Heading 2">Anthony Fok</p>
+<p style="Normal">Chinese translations (both traditional and simplified), courtesy of Thiz Linux.</p>
+<p style="Normal">Fix problem with Null character in labelset header.</p>
+<p style="Normal">Work on PostScript output.</p>
+<p style="Heading 2">Francis Franklin</p>
+<p style="Normal">Ability to disable specific plug-ins in autoconf build.</p>
+<p style="Normal">Fix to XDarwin build.</p>
+<p style="Normal">Move AikSaurus into normal plug-in build system, and work on build system.</p>
+<p style="Heading 2">Tomas Frydrych</p>
+<p style="Normal">Fix a crashing bug when printing ttf fonts.</p>
+<p style="Normal">BiDi work.</p>
+<p style="Normal">Fix a problem with italic text not always displaying or printing properly.</p>
+<p style="Normal">More intelligent selection of highlight color.</p>
+<p style="Normal">Quote character fixes.</p>
+<p style="Normal">Removed redundant drawing of background rectangles.</p>
+<p style="Normal">Added hooks for fine-tuning printing.</p>
+<p style="Normal">Work on PostScript output.</p>
+<p style="Normal">Bug fixes, including 2339.</p>
+<p style="Heading 2"><c props="lang:en-US">Marco Innocenti</c></p>
+<p style="Normal"><c props="lang:en-US">Italian strings update.</c></p>
+<p style="Heading 2"><c props="lang:en-US">Dom Lachowicz</c></p>
+<p style="Normal"><c props="lang:en-US">Fix to Undo/Redo of atomic actions.</c></p>
+<p style="Normal"><c props="lang:en-US">Work on style locking.</c></p>
+<p style="Normal"><c props="lang:en-US">Improvement to cut and paste.</c></p>
+<p style="Normal"><c props="lang:en-US">Fix a bug in wv.</c></p>
+<p style="Normal"><c props="lang:en-US">Fix BSD spell checking.</c></p>
+<p style="Heading 2"><c props="lang:en-US">Bryce Nesbitt</c></p>
+<p style="Normal"><c props="lang:en-US">Work on style locking.</c></p>
+<p style="Heading 2">Gladiston Santana</p>
+<p style="Normal">Brazilian localisation fix.</p>
+<p style="Heading 2"><c props="lang:en-US">Jesper Skov</c></p>
+<p style="Normal"><c props="lang:en-US">Fix squiggles in header and footer.</c></p>
+<p style="Normal"><c props="lang:en-US">Fixes to debug code.</c></p>
+<p style="Normal"><c props="lang:en-US">Fix to replace so that the selection is cleared when parameters are changed. This reduces the chances of replacing the wrong thing.</c></p>
+<p style="Normal"><c props="lang:en-US">Fix use of page sizes.</c></p>
+<p style="Normal"><c props="lang:en-US">Fix to Undo when deleting all text.</c></p>
+<p style="Normal"><c props="lang:en-US">Allow aborts in font selection.</c></p>
+</section>
+</abiword>
