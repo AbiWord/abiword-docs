@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.0" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:en-GB"></c>0.99.5 Changelog</p>
+<p style="Normal">Changes since 0.99.4, as we had to re-release because the first version was eating tabs.</p>
+<p style="Heading 2">Jonas Bjrk</p>
+<p style="Normal">QNX build system fixes.</p>
+<p style="Normal">QNX dialog size fixes.</p>
+<p style="Normal">QNX bug fixes.</p>
+<p style="Normal">QNX New dialog support for templates.</p>
+<p style="Heading 2">David Chart</p>
+<p style="Normal">Documentation work.</p>
+<p style="Heading 2">Tomas Frydrych</p>
+<p style="Normal">Fixed image distortion in XHTML export.</p>
+<p style="Normal">Bug fixes, including 2742.</p>
+<p style="Heading 2">Yanko Kaneti</p>
+<p style="Normal">Bulgarian localisation update.</p>
+<p style="Heading 2">Dom Lachowicz</p>
+<p style="Normal">Fixed a bug which was preventing compilation with scripting support.</p>
+<p style="Heading 2">Patrick Lam</p>
+<p style="Normal">Added docbook image export.</p>
+<p style="Normal">Win32 command line patch, allowing the use of double hyphens.</p>
+<p style="Normal">Fixed a bug with cursor movement around fields.</p>
+<p style="Normal">Bug fixes, including 2313, 2923.</p>
+<p style="Heading 2">Vladimir Lukianov</p>
+<p style="Normal">Lots of wv fixes.</p>
+<p style="Heading 2">Marc Maurer</p>
+<p style="Normal">Bug fixes, including 1545.</p>
+<p style="Heading 2">Michael Pritchett</p>
+<p style="Normal">Win32 command line patch, allowing the use of double hyphens.</p>
+<p style="Heading 2">Andrzej Pruszynski</p>
+<p style="Normal">Polish localisation update.</p>
+<p style="Heading 2">Martin Sevior</p>
+<p style="Normal">Fixed a bug with character properties reverting to default in lists.</p>
+<p style="Normal">Fixed a couple of crasher bugs.</p>
+<p style="Normal">Lots of RTF fixes.</p>
+<p style="Normal">Bug fixes, including 1730.</p>
+<p style="Heading 2">Jesper Skov</p>
+<p style="Normal">Build system fixes.</p>
+<p style="Heading 2">Andraz Tori</p>
+<p style="Normal">Slovenian localisation update.</p>
+<p style="Heading 2">Sam Trenholme</p>
+<p style="Normal">Fix bug 3007.</p>
+<p style="Heading 2">Robert Wilhelm</p>
+<p style="Normal">wv fix.</p>
+<p style="Heading 2">Justin Zaun</p>
+<p style="Normal">New templates.</p>
+</section>
+</abiword>

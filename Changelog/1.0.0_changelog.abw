@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.0" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1">1.0.0 Changelog</p>
+<p style="Normal">These are just the changes between 0.99.5 and 1.0.0. They are not real release notes.</p>
+<p style="Heading 2">David Chart</p>
+<p style="Normal">Documentation bug fixes.</p>
+<p style="Heading 2">Jeremy Davis</p>
+<p style="Normal">Fix for building with Visual C 7.</p>
+<p style="Normal">Fix Win32 build by renaming a page size variable that got missed.</p>
+<p style="Normal">Win32 build fixes.</p>
+<p style="Heading 2">Andrew Dunbar</p>
+<p style="Normal">Solaris iconv fixes.</p>
+<p style="Heading 2">Frank Franklin</p>
+<p style="Normal">Build system work.</p>
+<p style="Normal">Renamed some variables to avoid namespace clashes, and then renamed the rest of the page size variables as well to make the code pretty.</p>
+<p style="Normal">Made Gaelic visible.</p>
+<p style="Normal">Fixes for language IDs.</p>
+<p style="Normal">Committed the new help files so that they are included with builds.</p>
+<p style="Normal">Build fix so that CREDITS.TXT is made available to the documentation (which links to it).</p>
+<p style="Normal">Added aboutos.info to help files.</p>
+<p style="Normal">Support for debs in abispell.</p>
+<p style="Normal">Change install permissions for ttfadmin.sh so that it isn't world-executable.</p>
+<p style="Normal">Bug fixes, including 1531, 3099, 3137.</p>
+<p style="Heading 2">Luis Miguel Garcia</p>
+<p style="Normal">Spanish localisation update.</p>
+<p style="Heading 2">Gabriel Gerhardsson</p>
+<p style="Normal">Spelling rpm update.</p>
+<p style="Normal">Added Esperanto to spellchecker.</p>
+<p style="Heading 2">Marco Innocenti</p>
+<p style="Normal">Italian localisation update.</p>
+<p style="Heading 2">Dom Lachowicz</p>
+<p style="Normal">Fix spellchecking on QNX and NetBSD.</p>
+<p style="Normal">ABW exporter tweaks.</p>
+<p style="Normal">Removed the old help files.</p>
+<p style="Normal">Help file updates.</p>
+<p style="Normal">Help search page.</p>
+<p style="Normal">Fix a clash in accelerator keys.</p>
+<p style="Normal">Bug fixes, including 1028, 1742, 2645, 3148.</p>
+<p style="Heading 2">Pat Lam</p>
+<p style="Normal">Technical ut_string improvements.</p>
+<p style="Normal">Fixed bug with cursor placement around images.</p>
+<p style="Normal">Bug fixes, including 857, 1066, 1965, 2433, 2511, 2918.</p>
+<p style="Heading 2">Vladimir Lukianov</p>
+<p style="Normal">wv fixes.</p>
+<p style="Heading 2">Jordi Mas</p>
+<p style="Normal">Bug fixes, including 2000, 2951.</p>
+<p style="Heading 2">Marc Maurer</p>
+<p style="Normal">Work on WordPerfect importer.</p>
+<p style="Heading 2">Brian Mesman</p>
+<p style="Normal">Fix for DocBook exporter.</p>
+<p style="Heading 2">Michael Pritchett</p>
+<p style="Normal">Updated MSVC6 module.</p>
+<p style="Normal">Fixed ./configure errors under cygwin.</p>
+<p style="Normal">Added more units to a string to fix something.</p>
+<p style="Normal">Added a FAQ item.</p>
+<p style="Normal">Bug fixes, including 1046, 2899, 3072, 3135.</p>
+<p style="Heading 2">Andrzej Pruszynski</p>
+<p style="Normal">Polish localisation updates.</p>
+<p style="Normal">Bug fix 2892.</p>
+<p style="Heading 2">Gilles Saint-Denis</p>
+<p style="Normal">French localisation update.</p>
+<p style="Heading 2">Rui Miguel Seabra</p>
+<p style="Normal">Fix for font installation.</p>
+<p style="Normal">Fixed pt-PT strings.</p>
+<p style="Heading 2">Martin Sevior</p>
+<p style="Normal">Fixed AbiCommand.</p>
+<p style="Normal">Added visualedit to AbiCommand.</p>
+<p style="Normal">RTF fixes.</p>
+<p style="Heading 2">Jesper Skov</p>
+<p style="Normal">Fix --version-string option.</p>
+<p style="Normal">Plugin code for version number generation.</p>
+<p style="Heading 2">Petr Tomasek</p>
+<p style="Normal">T602 patch.</p>
+<p style="Heading 2">Gerhard Tonn</p>
+<p style="Normal">Fix compile problem.</p>
+<p style="Heading 2">Sam Trenholme</p>
+<p style="Normal">Spanish localisation update.</p>
+<p style="Heading 2">Robert Wilhelm</p>
+<p style="Normal">Bug fixes, including 2633.</p>
+</section>
+</abiword>
