@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1">AbiWord 0.99.3 Changelog</p>
+<p style="Normal">This document lists all the changes made to AbiWord between 0.99.2 and 0.99.3. Some of these changes may not be visible in the final release, due to being insufficiently complete.</p>
+<p style="Heading 2">Frank Franklin</p>
+<p style="Normal">Increased version numbers in source directories.</p>
+<p style="Normal">Added HTML importer to RPM list.</p>
+<p style="Normal">Defin XML_Encoding.</p>
+<p style="Normal">Include plugins in make distribution.</p>
+<p style="Normal">Update copyleft dates.</p>
+<p style="Heading 2">Masayuki Hatta</p>
+<p style="Normal">Japanese translation.</p>
+<p style="Heading 2">Karl Trigve Kalleberg</p>
+<p style="Normal">Norwegian translation update.</p>
+<p style="Heading 2">Dom Lachowicz</p>
+<p style="Normal">Work on SVG parser.</p>
+<p style="Normal">Plugin code fix.</p>
+<p style="Normal">Work on UT_String_print methods, and consequent removal of spintf() from import/export. (sprintf() is evil.)</p>
+<p style="Normal">Work on removing strcopy and strcat from import/export.</p>
+<p style="Heading 2">Birger Langkjer</p>
+<p style="Normal">Danish translation.</p>
+<p style="Heading 2">Mike Pritchett</p>
+<p style="Normal">Lots of work getting many plugins to build and work on Win32.</p>
+<p style="Heading 2">Martin Sevior</p>
+<p style="Normal">Fix RTF import of tabs.</p>
+<p style="Heading 2">Radek Vybiral</p>
+<p style="Normal">Fix for ui-backport.pl.</p>
+<p style="Normal">Czech translation.</p>
+</section>
+</abiword>
