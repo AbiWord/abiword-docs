@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns="http://www.abisource.com/awml.dtd" xml:space="preserve" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1.0" fileformat="1.1" styles="unlocked">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.2" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -8,15 +8,10 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<metadata>
-<m key="dc.format">application/x-abiword</m>
-<m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Mon May 20 22:05:00 2002</m>
-</metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
@@ -32,6 +27,7 @@
 <p style="Heading 2">Scott Bingman</p>
 <p style="Normal">Build instructions update.</p>
 <p style="Heading 2">Jonas Bjrk</p>
+<p style="Normal">QNX dialogs for revisions and metadata.</p>
 <p style="Normal">Bug fixes: 3396.</p>
 <p style="Heading 2">Jesus Corrius</p>
 <p style="Normal">Catalan localisation fix.</p>
@@ -42,6 +38,8 @@
 <p style="Normal">popt fix on Win32.</p>
 <p style="Normal">Commandline processing work on Win32.</p>
 <p style="Normal">Win32 build system fix.</p>
+<p style="Normal">Work on the Win32 version of the dictionary hash downloader.</p>
+<p style="Normal">Win32 inclusion of ut_endian.</p>
 <p style="Heading 2">Hubert Figuiere</p>
 <p style="Normal">MacOS X port work, including new dialogs.</p>
 <p style="Heading 2">Frank Franklin</p>
@@ -68,7 +66,14 @@
 <p style="Normal">Committed some fixes to fribidi.</p>
 <p style="Normal">Fixed a build failure on Linux.</p>
 <p style="Normal">Fixed a crashing bug in bidirectional code.</p>
+<p style="Normal">Changed the way foreground color works, to integrate with revisions code.</p>
+<p style="Normal">Fixed a bug with UT_wctomb.</p>
+<p style="Normal">Split fv_View into three files, because it was over 12000 lines long.</p>
+<p style="Normal">Did some code voodoo to lookupProperties.</p>
+<p style="Normal">Document-level properties for language and dominant direction.</p>
 <p style="Normal">Work on revision tracking, so that changes made to a document are visible, and associated with the person who made them.</p>
+<p style="Normal">Work on UI for using revision tracking.</p>
+<p style="Normal">Added hidden text formatting.</p>
 <p style="Heading 2">Gabriel Gerhardsson</p>
 <p style="Normal">Added a dictionary hash downloader.</p>
 <p style="Normal">Build instructions update.</p>
@@ -97,6 +102,14 @@
 <p style="Normal">Fix Nautilus viewer.</p>
 <p style="Normal">Fix Abi so that it doesn't assume that LANG is set.</p>
 <p style="Normal">Fix to let us build against the latest versions of libxml2.</p>
+<p style="Normal">Bug fix in revisions to prevent a segfault on typing.</p>
+<p style="Normal">Transferring UT_ASSERT to use proper macros, and thus be more informative.</p>
+<p style="Normal">Fixed a build problem on Red Hat.</p>
+<p style="Normal">Bug fixes in revisions to allow building on Linux.</p>
+<p style="Normal">Beginnings of a system to let you press f1 when a dialog is open, and automatically get the help.</p>
+<p style="Normal">Removed lots of wchar_t's, and cleaned up dead bits of code.</p>
+<p style="Normal">Make pspell work again.</p>
+<p style="Normal">Revision UI for unix.</p>
 <p style="Normal">Bug fixes: 3252.</p>
 <p style="Heading 2">Patrick Lam</p>
 <p style="Normal">Fix to AP_convert.</p>
@@ -110,20 +123,45 @@
 <p style="Normal">Build cleanup.</p>
 <p style="Normal">Fix to ut_mutex.</p>
 <p style="Normal">Improvements to code for commandline options.</p>
+<p style="Normal">Fixes to LaTeX exporter.</p>
+<p style="Normal">Privatised fp_Run.cpp.</p>
+<p style="Normal">Removed redundant warnings.</p>
+<p style="Normal">Fixed fields to respect the formatting of surrounding text (so that a field inserted into italicised text is itself italicised).</p>
+<p style="Normal">Refactored some insertSpan code.</p>
+<p style="Normal">Committed a big ugly piece of code to reduce property leakage.</p>
+<p style="Normal">Fixed the bug that made text following an endnote reference appear in endnote reference style rather than normal.</p>
 <p style="Normal">Bug fixes: 3215.</p>
+<p style="Heading 2">Per Larsson</p>
+<p style="Normal">Swedish localisation update.</p>
 <p style="Heading 2">Frodo Looijaard</p>
 <p style="Normal">Bug fixes: 2223.</p>
+<p style="Heading 2">Ismo Makinen</p>
+<p style="Normal">Finnish system profile.</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal"><c props="font-weight:normal">Build fixes for numerous plug-ins.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Fixes for latest libxml2 snapshot.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Fixes to WordPerfect importer.</c><c props="font-weight:normal"></c></p>
-<p style="Normal"><c props="font-weight:normal">Beginnings of a WordPerfect exporter.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Import metadata from WordPerfect files.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Beginnings of a WordPerfect exporter. Got it to export a file that Abi's WordPerfect importer can read. Unfortunately, WordPerfect can't.</c></p>
 <p style="Heading 2">Tim Mooney</p>
 <p style="Normal">Bug fixes: 3332.</p>
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Diving make system for I/E plugins.</p>
 <p style="Normal">Fixes for popt use on Win32.</p>
 <p style="Normal">Changed default XML library to libxml2.</p>
+<p style="Normal">Removed the ask installer from the tree, as it is no longer used.</p>
+<p style="Normal">Win32 list fixes, allowing Arabic and Hebrew lists.</p>
+<p style="Normal">Fix for an extraneous define.</p>
+<p style="Normal">Build fix on Win32.</p>
+<p style="Heading 2">Rhoslyn Prys</p>
+<p style="Normal">Welsh localisation update.</p>
+<p style="Heading 2">Gilles Saint-Denis</p>
+<p style="Normal">French translation of the documentation.</p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix for the doc generation script to allow for multiple languages.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix to header.xhtml in plugins documentation.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">French localisation update.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Heading 2">Oliver Schurr</p>
+<p style="Normal">German localisation update.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Turned AbiWord into an embeddable application in GNOME.</p>
 <p style="Normal">Fix to diving make.</p>
@@ -132,6 +170,7 @@
 <p style="Normal">Refactored the container code for next-generation layout. No new layout features yet.</p>
 <p style="Normal">Refactored the fl_Layout classes. No new features yet.</p>
 <p style="Normal">Started work on new layout features. Tables!!!!!!</p>
+<p style="Normal">Bug fixes: 3423</p>
 <p style="Heading 2">Jesper Skov</p>
 <p style="Normal">Code cleanup in fv_view.</p>
 </section>
