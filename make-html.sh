@@ -19,17 +19,17 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 #
 
-if [[ -n $ABI_DOC_SOURCE ]]; then
+if [ -n "$ABI_DOC_SOURCE" ]; then
 CVS="$ABI_DOC_SOURCE";
 else
 CVS=`pwd -P`;
 fi
 
-if [[ -z $ABI_DOC_DEST ]]; then
+if [ -z "$ABI_DOC_DEST" ]; then
 ABI_DOC_DEST="$CVS";
 fi
 
-if [[ -z $ABI_DOC_PROG ]]; then
+if [ -z "$ABI_DOC_PROG" ]; then
 ABI_DOC_PROG="AbiWord-2.0";
 fi
 
