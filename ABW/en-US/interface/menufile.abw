@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="0.99.1" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -15,14 +15,14 @@
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section>
-<p style="Heading 1">File Menu</p>
-<p style="Heading 2">New</p>
-<p props="margin-top:0.1667in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0417in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal">Creates a new, blank document.</c></p>
-<p style="Heading 2"><a xlink:href="#dialogopenlinux.html">Open</a></p>
+<p style="Heading 1"><c props="lang:en-GB"></c>File Menu</p>
+<p style="Heading 2"><a xlink:href="dialognew.html">New</a></p>
+<p props="margin-top:0.1667in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0417in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal">Opens the New File dialog, allowing you to create a new file based on a template.</c></p>
+<p style="Heading 2"><a xlink:href="dialogopenlinux.html">Open</a></p>
 <p props="margin-top:0.1667in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0417in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal">Opens a dialog box to choose the file to open.</c></p>
-<p style="Heading 2"><a xlink:href="#dialogsavelinux.html">Save</a></p>
+<p style="Heading 2"><a xlink:href="dialogsavelinux.html">Save</a></p>
 <p props="margin-top:0.1667in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0417in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal">Saves the open document. This option is grayed out if the file has not been altered since its last save.</c></p>
-<p style="Heading 2"><a xlink:href="#dialogsavelinux.html">Save As</a></p>
+<p style="Heading 2"><a xlink:href="dialogsavelinux.html">Save As</a></p>
 <p style="Normal">Opens a dialog box to save the open document under a different name, or as a different file type, or both.</p>
 <p style="Heading 2" props="font-family:Arial; color:000000; font-size:14pt; text-position:normal; lang:en-US; bgcolor:transparent; font-weight:bold; font-style:normal; text-decoration:none">Import...</p>
 <p style="Normal" props="lang:en-US">Opens a copy of a saved document. This means that you have a new, untitled document with the same content as the saved document.</p>
