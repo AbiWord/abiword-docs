@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE abw PUBLIC "-//ABISOURCE//DTD ABW 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p name="Heading 1"><c name="Heading 1" props="lang:en-GB">AbiWord 0.9.4 Changelog</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">This document is a list of all changes made to AbiWord between versions 0.9.3 and 0.9.4. It records changes to the development version, and they may not all be visible in the user binaries, particularly for new features which are incomplete or particularly buggy.</c></p>
+<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Joaquin Cuenca Abela</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Added a perl interpreter to the Win32 build.</c></p>
+<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Hubert Figuiere</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Work on rtf stylesheet import.</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Bug fixes, including 1688, and work on 1926.</c></p>
+<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Tomas Frydrych</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Bidirectional text bug fixes and improvements.</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Endnote improvements.</c></p>
+<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Marco Innocenti</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Italian translation update.</c></p>
+<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Dom Lachowicz</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">UT_Worker class. This is the basis for a bit of recoding that should vastly speed up operations such as spell checking.</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Bug fixes, including 1984.</c></p>
+<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Per Larsson</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Swedish translation update.</c></p>
+<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Matti Picus</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">RTF import bug fixes.</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Add ability to import stylesheets from rtf.</c></p>
+<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Michael Pritchett</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">New Win32 installer.</c></p>
+<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Rui Seabra</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">RPM spec file.</c></p>
+<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Martin Sevior</c></p>
+<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Work on rtf stylesheet import.</c></p>
+</section>
+</abiword>
