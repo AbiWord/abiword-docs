@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.0" fileformat="1.0" styles="unlocked">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1.0" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -18,6 +18,8 @@
 <p style="Heading 1"><c props="lang:en-GB"></c>1.1.1 Changelog</p>
 <p style="Heading 2">Christian Biesinger</p>
 <p style="Normal">Documentation for Star Office importer.</p>
+<p style="Normal">Improvements to Star Office importer.</p>
+<p style="Normal">Fix GDict plugin to build even when libgdict isn't installed.</p>
 <p style="Heading 2">Scott Bingman</p>
 <p style="Normal">Build instructions update.</p>
 <p style="Heading 2">Jeremy Davis</p>
@@ -29,9 +31,14 @@
 <p style="Normal">Version number fix.</p>
 <p style="Normal">Fixes to the dictionary hash downloader.</p>
 <p style="Normal">Build system fixes.</p>
+<p style="Heading 2">Tomas Frydrych</p>
+<p style="Normal">Changed Abi to use a 32-bit internal Unicode representation.</p>
+<p style="Normal">Pango related code.</p>
 <p style="Heading 2">Gabriel Gerhardsson</p>
 <p style="Normal">Added a dictionary hash downloader.</p>
 <p style="Normal">Build instructions update.</p>
+<p style="Heading 2">Masayuki Hatta</p>
+<p style="Normal">Japanese translation update.</p>
 <p style="Heading 2">Karl Ove Hufthammer</p>
 <p style="Normal">Norwegian Nynorsk update.</p>
 <p style="Heading 2">Dom Lachowicz</p>
@@ -46,13 +53,24 @@
 <p style="Normal">AbiWord can now save to a bonobo stream.</p>
 <p style="Normal">AbiWord can now use bonobo print commands.</p>
 <p style="Normal">Fixed a bug which was closing the GTK build as soon as it opened.</p>
+<p style="Normal">Minor abiwidget fixes.</p>
+<p style="Normal">Support for Bonobo/Zoomable:1.0 interface.</p>
+<p style="Normal">Bare beginnings of the port to GTK2. Abi still builds against GTK 1.2, and still doesn't build against GTK2.</p>
+<p style="Normal">Advertised the PropertyBag information to the system, which should make Abi fully embeddable.</p>
+<p style="Normal">Fix Nautilus viewer.</p>
 <p style="Heading 2">Patrick Lam</p>
 <p style="Normal">Fix to AP_convert.</p>
 <p style="Normal">Converted to use libpopt for command-line parsing on GTK and GNOME builds.</p>
 <p style="Normal">Made AP_Args use AP_App.</p>
+<p style="Heading 2">Marc Maurer</p>
+<p style="Normal"><c props="font-weight:normal">Build fixes numerous plug-ins.</c></p>
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Diving make system for I/E plugins.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Turned AbiWord into an embeddable application in GNOME.</p>
+<p style="Normal">Fix to diving make.</p>
+<p style="Normal">Basics of a Nautilus viewer for AbiWord.</p>
+<p style="Heading 2">Jesper Skov</p>
+<p style="Normal">Code cleanup in fv_view.</p>
 </section>
 </abiword>
