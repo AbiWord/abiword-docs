@@ -1,18 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.4" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.5" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- More information about AbiWord is available at http://www.abisource.com     -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<metadata>
-<m key="dc.format">application/x-abiword</m>
-<m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Tue Mar 25 16:18:58 2003</m>
-</metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
 <s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
@@ -20,7 +15,9 @@
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Heading 1">1.1.4 Changelog</p>
+<p style="Heading 1"><c props="lang:en-GB"></c>1.1.4 Changelog</p>
+<p style="Heading 2">Christian Biesinger</p>
+<p style="Normal">Enabled choice of page size in page setup dialog.</p>
 <p style="Heading 2">Besnik Bleta</p>
 <p style="Normal">Albanian localisation work.</p>
 <p style="Heading 2">Mikey Cooper</p>
@@ -31,9 +28,12 @@
 <p style="Heading 2">Jeremy Davis</p>
 <p style="Normal">Fix Win32 toolbar bug.</p>
 <p style="Normal">Finished in progress work on Win32 frame.</p>
+<p style="Normal">Fix Win32 crash on startup.</p>
+<p style="Normal">Win32 build fix.</p>
 <p style="Heading 2">Andrew Dunbar</p>
 <p style="Normal">ispell code refactoring.</p>
 <p style="Normal">Encoding manager work.</p>
+<p style="Normal">Lots of conversions of C casts to C++ casts.</p>
 <p style="Heading 2">Hubert Figuiere</p>
 <p style="Normal">Fixed compile warnings.</p>
 <p style="Normal">Updated PB project files.</p>
@@ -41,12 +41,20 @@
 <p style="Normal">Enhancements to RTF, progress towards fixing bug 4531.</p>
 <p style="Normal">Made caret blink on Cocoa.</p>
 <p style="Normal">Fixed build breakages.</p>
+<p style="Normal">Squashed compile warnings in wv.</p>
+<p style="Normal">Fixed warnings and build breakage due to cast changes.</p>
+<p style="Normal">Added ProjectBuilder files for building Abi on MacOS X.</p>
 <p style="Heading 2">Raphael Finkel</p>
 <p style="Normal">Fixes to perl scripts to generate po files.</p>
 <p style="Normal">Yiddish localisation work.</p>
 <p style="Heading 2">Anthony Fok</p>
 <p style="Normal">Japanese localisation work.</p>
 <p style="Heading 2">Frank Franklin</p>
+<p style="Normal">Removed pedantic flags from wv build if building on QNX.</p>
+<p style="Normal">Fixed makefiles to not install fonts if xft is enabled, and to not install dictionaries if pspell is enabled.</p>
+<p style="Normal">Changed installation locations.</p>
+<p style="Normal">Fixed some casts.</p>
+<p style="Normal">Enabled the HTML Options dialog.</p>
 <p style="Normal">Bug fixes: 4540</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Pointer initialisations in ispell code.</p>
@@ -64,6 +72,7 @@
 <p style="Heading 2">Mark Gilbert</p>
 <p style="Normal">Fix a memory leak in the Encoding Manager.</p>
 <p style="Normal">Fixed an invalid free() problem.</p>
+<p style="Normal">Build fix in wv.</p>
 <p style="Heading 2">Masayuki Hatta</p>
 <p style="Normal">Japanese localisation work.</p>
 <p style="Heading 2">Dom Lachowicz</p>
@@ -75,6 +84,11 @@
 <p style="Normal">Fix a crash on startup.</p>
 <p style="Normal">Fix to retain selection even if AbiWord doesn't have focus.</p>
 <p style="Normal">Unix code to change display colour so text can be read against a dark selection background.</p>
+<p style="Normal">Work on BiDi MSWord import.</p>
+<p style="Normal">Fix some problems arising from changes of C casts to C++ casts.</p>
+<p style="Normal">Commented out wvIsBiDiDoc because it was causing crashes.</p>
+<p style="Normal">Implemented GNOMEPrint support.</p>
+<p style="Normal">Converted some dialogs to use radio buttons rather than check boxes.</p>
 <p style="Heading 2">Patrick Lam</p>
 <p style="Normal">Removed redundant #ifdefs in layout code.</p>
 <p style="Normal">Removed redundant MyMin and MyMax functions.</p>
@@ -82,6 +96,8 @@
 <p style="Normal">Bug fixes: 4147</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal">Fixed some compile warnings.</p>
+<p style="Heading 2">Rodrigo Moya</p>
+<p style="Normal">Update to LibGDA plugin, so that mail merge 'just works'.</p>
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Upgrade peer expat.</p>
 <p style="Normal">Use system-specified selection colour on Win32.</p>
@@ -95,7 +111,16 @@
 <p style="Normal">Make horizontal text layout use screen units.</p>
 <p style="Normal">Fixed crash on print.</p>
 <p style="Normal">Ability to format footnotes &amp; endnotes.</p>
+<p style="Normal">Fixed a couple of crashes on exit.</p>
+<p style="Normal">Screenshots for Format Footnotes.</p>
+<p style="Normal">Added support for footnotes in tables.</p>
+<p style="Normal">Fixed a bunch of zoom-induced crashes.</p>
+<p style="Normal">Fixed non-debug builds on unix.</p>
+<p style="Normal">Plugged some memory leaks in unixMenu.</p>
+<p style="Normal">Enabled dragging of table row markers, and thus setting the table height.</p>
 <p style="Normal">Bug fixes: 4500, 4549</p>
+<p style="Heading 2">Tim Silversides</p>
+<p style="Normal">Patch to allow printing pages in reverse order.</p>
 <p style="Heading 2">Sam Tobin-Hochstadt</p>
 <p style="Normal">Added a long footnote test document.</p>
 </section>
