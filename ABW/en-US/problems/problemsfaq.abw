@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.6" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
+<abiword template="false" styles="unlocked" version="2.0.5" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -11,15 +11,15 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Wed Sep 10 11:58:50 2003</m>
 <m key="dc.title">AbiWord Help: FAQ</m>
+<m key="abiword.date_last_changed">Thu Mar 11 20:54:05 2004</m>
 <m key="dc.creator">Copyright (C) 2000-2003 Various People</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3056in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.0417in; line-height:1.000000; font-size:17pt; field-font:NULL"/>
-<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; font-variant:normal; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; text-decoration:none; font-weight:normal; bgcolor:transparent; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; text-indent:0.00cm; line-height:1.000000; font-weight:bold; margin-top:0.3056in; font-family:Arial"/>
-<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; margin-top:0.3056in; font-family:Arial"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; text-indent:0.00cm; margin-bottom:0.0417in; field-font:NULL; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
@@ -42,7 +42,7 @@
 <p style="Normal">Note that, if you have a custom toolbar layout, you will lose it when you turn off the preference.</p>
 <p style="Heading 2">2. General Questions</p>
 <p style="Heading 3">2.1 How do I work with Microsoft Word documents?</p>
-<p style="Normal">At present, AbiWord can open basic Microsoft Word documents well. However, if the document has complicated tables, embedded spreadsheets, and so forth, then it might not work as intended. Developing good MS Word filters is a very difficult process, so please bear with us as we work on getting Word documents to open correctly. AbiWord cannot currently save in the MS Word ".doc" format. However, you can save your file as a ".rtf" file, which is readable by all versions of Microsoft Word.</p>
+<p style="Normal">At present, AbiWord can open basic Microsoft Word documents well. However, if the document has complicated tables, embedded spreadsheets, and so forth, then it might not work as intended. Developing good MS Word filters is a very difficult process, so please bear with us as we work on getting Word documents to open correctly. AbiWord cannot currently save in the MS Word binary ".doc" format. However, you can save your file as a ".rtf" file, which is readable by all versions of Microsoft Word.  Additionally, saving as ".doc" from within AbiWord will save a Rich Text Format (RTF) formatted file in the ".doc" wrapper readable by Microsoft Word.</p>
 <p style="Heading 3">2.2 How do I switch to VI or Emacs key bindings?</p>
 <p style="Normal">Note: This is not recommended for most users. Simply edit your ~/.AbiSuite/AbiWord.profile, and find the section beginning with that &lt;Scheme "_custom_". Simply add the line keybindings="emacs" or keybindings="viEdit" as desired.</p>
 <p style="Heading 2">3. AbiWord for Windows</p>
@@ -50,7 +50,7 @@
 <p style="Normal">COMCTL32.DLL is a Windows library AbiWord needs to run. Some older versions of Windows did not have this library. You can get it free from Microsoft at</p>
 <p><a xlink:href="http://www.microsoft.com/msdownload/ieplatform/ie/comctrlx86.asp">http://www.microsoft.com/msdownload/ieplatform/ie/comctrlx86.asp</a></p>
 <p style="Heading 3">4.2 I crash AbiWord/Windows after opening X (8-15) number of documents.<c></c></p>
-<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">This is a known problem with AbiWord and the Windows operating system.  The Windows operating system (specifically Win9x) has a severe limitation on the amount of resource memory allocated for things like dialogs, icons, and toolbars to be used.  At the moment each AbiWord window takes a chunk of that limited resource.  Depending upon what else is running, the amount of  AbiWord document windows concurrently opened is limited.  More than the maximum windows (typically somewhere between 8 and 15) may cause the system to crash.  Additional memory will not help as this is an operating system limitation.</c><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">This is a known problem with AbiWord and the Windows operating system.  The Windows 95, 98, and ME operating systems  has a severe limitation on the amount of resource memory allocated for things like dialogs, icons, and toolbars.  Each AbiWord window uses a section of that limited resource.  Depending upon what else is running, the amount of  AbiWord document windows concurrently opened is limited.  More than the maximum windows (typically somewhere between 8 and 15) may cause the system to crash.  Additional memory will not help as this is an operating system limitation.  Windows NT, 2000, and XP do not have this limitation.</c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
 </section>
 </abiword>
