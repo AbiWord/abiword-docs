@@ -1,0 +1,202 @@
+body {
+margin: 0;
+background-color: #FFFFFF;
+}
+
+a {
+text-decoration: none;
+}
+
+body a:alink {
+font-size: small;
+}
+
+.pagehdr {
+background-image: url("../images/logobar.png");
+background-repeat: repeat-x;
+margin: 0;
+width: 112%;
+height: 62px;
+}
+
+.frstline {
+margin: 0;
+font-family: verdana, sans-serif;
+font-weight: bold;
+background-color: #EFEED9;
+border-style: solid;
+border-top-width: 2px;
+border-bottom-width: 2px;
+border-right-width: 0px;
+border-left-width: 0px;
+padding: .3em .5em;
+clear: both;
+}
+
+.navtut {
+background-image: url("../images/navbar.png");
+background-repeat: repeat-y;
+font-family: verdana, sans-serif;
+color: #000000;
+margin: 0;
+position: absolute;
+height: 1000%;
+padding: 0 0 4em 0;
+float: left;
+width: 15%;
+}
+
+.navtut ul {
+line-height: 16pt;
+list-style: none;
+margin-top: 0;
+margin-left: .3em;
+padding: 0;
+font-size: small;
+}
+
+.navtut ul ul {
+line-height: 14pt;
+list-style: disc;
+list-style-position: outside;
+margin: .5em .2em .5em 1em;
+padding: 0;
+font-size: x-small;
+}
+
+.here {
+font-style: oblique;
+color: #000000;
+margin-top: 0;
+margin-left: .3em;
+padding: 0;
+}
+
+a {
+color: #000000;
+}
+
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+color: #999999;
+}
+
+a:hover {
+background: #EFEED9;
+}
+
+.maintxt {
+font-family: verdana, sans-serif;
+position: absolute;
+top: 6em;
+left: 7.5em;
+padding-left: 2.5em;
+padding-right: 3em;
+width: 80%;
+}
+
+.maintxt h1 {
+font-size: large;
+}
+
+.maintxt p {
+font-size: normal;
+}
+
+.maintxt h2 {
+font-size: medium;
+}
+
+.maintxt h3 {
+font-size: small;
+}
+
+.maintxt ul {
+font-size: normal;
+}
+
+.maintxt ol {
+font-size: normal;
+}
+
+.maintxt note {
+padding-top: 1em;
+padding-right: 0em;
+padding-bottom: 1em;
+font-size: small;
+}
+
+
+.next {
+float: right;
+}
+
+.maintxt img {
+margin: 0;
+border-style: outset;
+float: right;
+}
+
+p.note {
+font-size: small;
+color: #0033FF;
+}
+
+span.sub {
+vertical-align: sub;
+}
+
+span.super {
+vertical-align: super;
+}
+
+span.button {
+font-variant: small-caps;
+font-weight: bold;
+}
+
+span.dialog {
+font-style: oblique;
+font-weight: bold;
+}
+
+span.menu {
+font-weight: bold;
+}
+
+span.bold {
+font-weight: bold;
+}
+
+div.title {
+text-align: center; 
+background: #3333FF; 
+padding: .5em;
+}
+
+dl {
+padding: .75em;
+}
+
+dt {
+font-family: verdana, sans-serif;
+font-size: normal;
+font-weight: bold;
+font-variant: small-caps;
+padding-top: .25em;
+padding-bottom: .25em;
+}
+
+dd {
+font-family: verdana, sans-serif;
+font-size: normal;
+padding: .5em 0 .25em .5em;
+}
+
+span.times {
+font-family: TimesNR, serif;
+}
+

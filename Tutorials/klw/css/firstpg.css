@@ -1,0 +1,61 @@
+body {
+margin: 0;
+background-color: #FEFEFC;
+}
+
+.pagehdr {
+background-image: url("../images/abipgheader.png");
+background-repeat: repeat-x;
+margin: 0;
+width: 100%;
+height: 50%;
+}
+
+div.title {
+font-family: verdana, sans-serif;
+font-weight: bold;
+text-align: center; 
+vertical-align: top;
+color: #0A92D4;
+background: #FFFFFF; 
+padding: .5em;
+}
+
+div.title h1 {
+font-size: large;
+font-style: oblique;
+font-family: Microsoft Sans Serif;
+}
+
+div.title h2 {
+font-size: medium;
+font-family: Microsoft Sans Serif;
+}
+
+p {font-family: verdana, sans-serif;
+text-align: center; 
+font-size: small;
+color: #0A92D4;
+background: #FFFFFF; 
+padding: .5em;
+}
+a:link
+{color: #0A92D4;
+text-decoration: none;
+}
+
+a:visited
+{color: #0A92D4;
+text-decoration: none;
+}
+
+a:active
+{text-decoration: none;
+}
+
+a:hover
+{font-style: italic;
+text-decoration: none;
+color: #0A92D4;
+}
+
