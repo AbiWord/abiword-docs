@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<abiword version="unnumbered" fileformat="1.0">
+<abiword version="unnumbered" fileformat="1.0" template="true">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -11,12 +11,12 @@
 <!--         Build_Version     = unnumbered -->
 <!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
 <!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 10:02:04 -->
-<!--         Build_CompileDate = Jun  3 2001 -->
+<!--         Build_CompileTime = 15:48:20 -->
+<!--         Build_CompileDate = Jun 15 2001 -->
 
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1">Format Menu</p>
+<p style="Heading 1"><c props="lang:en-US"></c>Format Menu</p>
 <p style="Normal"><c style="Normal">This menu provides a number of commands allowing you to change the appearance of your document. These changes apply to both the version on screen, and to the version you print.</c></p>
 <p style="Normal"><c style="Normal">Users should pay particular attention to the Style... command; this is by far the best way to format your document.</c></p>
 <p style="Heading 2"><c style="Heading 2">Font...</c></p>
@@ -64,7 +64,7 @@
 <p style="Heading 3" props="text-align:left"><c style="Heading 3" props="text-decoration:none">Justify</c></p>
 <p style="Normal" props="text-align:left"><c style="Normal" props="text-decoration:none">All lines, except for the final lines of paragraphs, are flush against both margins of the page. Once you fill a line, AbiWord re-spaces that line so that it reaches both margins. This does not insert any other characters; rather, it assigns more actual space to every space that you type. If there are too few spaces on a line, the result looks rather odd.</c></p>
 <p style="Heading 2" props="text-align:left"><c style="Heading 2" props="text-decoration:none">Background...</c></p>
-<p style="Normal" props="text-align:left"><c style="Normal" props="text-decoration:none">The Background dialog allows you to change the background color of the document</c></p>
+<p style="Normal" props="text-align:left"><c style="Normal" props="text-decoration:none">The Change Background Color dialog allows you to change the background color of the document</c></p>
 <p style="Heading 2" props="text-align:left"><c style="Heading 2" props="text-decoration:none">Style...</c></p>
 <p style="Normal" props="text-align:left"><c style="Normal" props="text-decoration:none">The Style dialog allows you to create, modify, and delete styles.</c></p>
 </section>
