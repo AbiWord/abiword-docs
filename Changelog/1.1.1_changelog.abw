@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.2" fileformat="1.0" styles="unlocked">
+<abiword styles="unlocked" version="1.1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:en-GB">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -8,6 +8,11 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Sat Jul 27 17:02:53 2002</m>
+</metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
 <s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
@@ -21,6 +26,7 @@
 <p style="Heading 2">Joaquin Cuenca Abela</p>
 <p style="Normal">Massive patch so that AbiWord can use Xft to handle fonts on unix.</p>
 <p style="Normal">Performance improvements to xft patch.</p>
+<p style="Normal">Fix so that GNOME build builds with xft.</p>
 <p style="Heading 2">Christian Biesinger</p>
 <p style="Normal">Documentation for Star Office importer.</p>
 <p style="Normal">Improvements to Star Office importer, including reading metadata.</p>
@@ -31,8 +37,9 @@
 <p style="Normal">Framework for Hancom importer, and basic text import.</p>
 <p style="Heading 2">Scott Bingman</p>
 <p style="Normal">Build instructions update.</p>
-<p style="Heading 2">Jonas Bjrk</p>
+<p style="Heading 2">Johan Björk</p>
 <p style="Normal">QNX dialogs for revisions and metadata.</p>
+<p style="Normal">QNX dialog for downloading a file.</p>
 <p style="Normal">Bug fixes: 3396.</p>
 <p style="Heading 2">David Chart</p>
 <p style="Normal">Documentation work.</p>
@@ -100,10 +107,10 @@
 <p style="Normal">Created a simple plugin interface (SPI). It is now possible to build plugins that depend on a particular version of Abi.</p>
 <p style="Normal">Build fix for wv.</p>
 <p style="Normal">Tidied XAP_Module.</p>
-<p style="Normal">Ported nautilus detection to auto* build.</p>
+<p style="Normal">Ported nautilus detection to auto* build. (Frank has no memory of this, but I'm sure he did.)</p>
 <p style="Normal">Added posix threads detection to build system.</p>
 <p style="Normal">Work on wv and abi bundling for Cocoa.</p>
-<p style="Normal">automake-execution for plugins. I have no idea what this does.</p>
+<p style="Normal">automake-execution for plugins. The script now runs automake twice in the hope that it will work on at least one occasion.</p>
 <p style="Normal">Hacks to stop optimizing compilers optimizing Abi into non-functionality.</p>
 <p style="Normal">Bug fixes: 3592.</p>
 <p style="Heading 2">Tomas Frydrych</p>
@@ -137,6 +144,10 @@
 <p style="Normal">Fix to ttf tool to indicate that it shouldn't be used with CJK fonts.</p>
 <p style="Normal">Fixed an assert on startup.</p>
 <p style="Normal">Fixes for hyperlink insertion.</p>
+<p style="Normal">Substantial improvements to the way we handle runs of justified text.</p>
+<p style="Normal">Performance improvements in bidi-related code, to avoid unnecessary run splits.</p>
+<p style="Normal">Started moving Fribidi out of the source tree and into a peer module.</p>
+<p style="Normal">Fixed a bug which was making Abi load documents backwards.</p>
 <p style="Normal">Fixed a couple of crasher bugs, which may be bug 2715.</p>
 <p style="Normal">Bug fixes: 2698, 3008, 3089, 3109, 3060, 3122, 3351, 3582, 3590, 3722</p>
 <p style="Heading 2">Gabriel Gerhardsson</p>
@@ -146,6 +157,7 @@
 <p style="Normal">Swapped returns in UT_path.</p>
 <p style="Normal">Added dialog for file download.</p>
 <p style="Normal">Fixes to dictionary hash downloader, and cache of file list.</p>
+<p style="Normal">Added progress bar to file download dialog.</p>
 <p style="Normal">Update to BUILD.TXT.</p>
 <p style="Heading 2">Mark Gilbert</p>
 <p style="Normal">Tweak to wikipedia plugin.</p>
@@ -158,6 +170,8 @@
 <p style="Normal">Fixes to architecture-specific optimization.</p>
 <p style="Normal">Fix to libpng build, with help from Jeremy Davis.</p>
 <p style="Normal">Fixes to table menu.</p>
+<p style="Normal">Removed a bit of code with the comment "Remove this before committing". Obviously, it wasn't...</p>
+<p style="Normal">Patch to wv to fix the build.</p>
 <p style="Normal">Bug fixes: 3095.</p>
 <p style="Heading 2">Eglë Girinaitë<c></c></p>
 <p style="Normal">Lithuanian localisation update.</p>
@@ -177,9 +191,6 @@
 <p style="Heading 2">William Lachance</p>
 <p style="Normal">Fixes to import of lists from WordPerfect documents.</p>
 <p style="Normal">Other patches to WordPerfect exporter.</p>
-<p style="Normal">Fix to About dialog in GTK2 port.</p>
-<p style="Normal">Fix asserts on startup in GTK2 port.</p>
-<p style="Normal">Temporary hack to combo boxes in GTK2 port. They may be replaced with a different GTK2 feature.</p>
 <p style="Normal">Improved extended character support in WordPerfect importer.</p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">RTF importer handles /sectd.</p>
@@ -243,6 +254,8 @@
 <p style="Normal">Killed some annoying debug messages for menus.</p>
 <p style="Normal">Fixes to compiler warnings and such in wv.</p>
 <p style="Normal">Beginnings of work on footnotes.</p>
+<p style="Normal">Fixed a memory leak in font handling.</p>
+<p style="Normal">Refactoring in fp_Page.</p>
 <p style="Normal">Bug fixes: 1928, 3215, 3324, 3587.</p>
 <p style="Heading 2">Per Larsson</p>
 <p style="Normal">Swedish localisation update.</p>
