@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.2" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:17pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; lang:en-US; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1">Document Properties Dialog</p>
+<p style="Normal">This dialog allows you to view and edit your document's metadata. Metadata is information about the document, such as the author's name, or a summary of the subject.</p>
+<p style="Normal">You can enter as much text as you like in each field. You should remember that the metadata is visible to anyone who has access to the document, so if you need to remove confidential information from a document remember to check the metadata as well.</p>
+<p style="Normal">The dialog has three panes: General, Summary, and Permissions. To bring a pane to the front, click on its name. To edit a property, click within the box. Pressing tab will usually move you to the next box as well. The exception is the Description box on the Summary pane, in which pressing tab inserts a tab.</p>
+<p style="Normal">The names of the fields are self-explanatory.</p>
+<p style="Heading 2">OK</p>
+<p style="Normal">Click this button to save the metadata and close the dialog.</p>
+<p style="Heading 2">Close</p>
+<p style="Normal">Click this button to close the dialog without saving any changes you made to the metadata. If you only wanted to view the metadata, click this button to close, in case you accidentally made any changes.</p>
+</section>
+</abiword>
