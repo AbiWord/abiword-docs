@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.3" xml:space="preserve" props="dom-dir:ltr; lang:en-US">
+<abiword template="false" styles="unlocked" version="1.99.6" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:en-US">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -11,18 +11,20 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Mon Aug 18 22:50:02 2003</m>
+<m key="abiword.date_last_changed">Mon Sep  8 12:05:30 2003</m>
 </metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:17pt"/>
-<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; text-decoration:none; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:22pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:3pt; line-height:1.000000; font-size:17pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="margin-top:22pt; font-size:14pt; text-indent:0.00cm; margin-bottom:3pt; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section props="page-margin-footer:0.5in; page-margin-header:0.5in">
 <p style="Heading 1">Merge Cells Dialog</p>
-<p style="Normal"><c></c></p>
-<p style="Heading 2">Merge Left</p>
+<p style="Normal">This dialog allows you to merge the cells in a table. It is only available if the insertion point is within a table.</p>
+<p style="Normal">The dialog contains four merge buttons. Every time you press one of these buttons, the current cell is merged with the cell adjacent to it, to create a single large cell within the table. The dialog does not close when the cells merge, so it is possible to merge several cells by pressing the buttons repeatedly.</p>
+<p style="Normal">If a cell spans several columns, as a result of previous merges, and you merge it with the cell above or below, all the cells adjacent to the large cell are merged with it. The same applies to cells spanning several columns.</p>
+<p style="Heading 2"><c></c>Merge Left</p>
 <p style="Normal">Merge the current cell with the one to its left.</p>
 <p style="Heading 2">Merge Right</p>
 <p style="Normal">Merge the current cell with the one to its right.</p>
@@ -30,5 +32,9 @@
 <p style="Normal">Merge the current cell with the one above it.</p>
 <p style="Heading 2">Merge Below</p>
 <p style="Normal">Merge the current cell with the one below it.</p>
+<p style="Heading 2">Help</p>
+<p style="Normal">This button opens the documentation for this dialog.</p>
+<p style="Heading 2">Close</p>
+<p style="Normal">This button closes the dialog.</p>
 </section>
 </abiword>
