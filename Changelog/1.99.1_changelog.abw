@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" version="1.9.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="lang:en-GB; document-footnote-initial:1; dom-dir:ltr">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- More information about AbiWord is available at http://www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Wed Jun 11 17:46:47 2003</m>
+</metadata>
+<styles>
+<s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="font-family:Arial; margin-top:0.3319in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0833in; margin-right:1.0000in; margin-left:1.0000in"/>
+<s type="P" name="Box List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Box List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Bullet List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; list-style:Bullet List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Chapter Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Arial %L.; field-font:Chapter; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:1.100000in/L0"/>
+<s type="P" name="Dashed List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:NULL; list-style:Dashed List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Diamond List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Diamond List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="C" name="Endnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Endnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000"/>
+<s type="C" name="Footnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Footnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000; font-size:10pt"/>
+<s type="P" name="Hand List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Hand List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Heading 3" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:12pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s type="P" name="Heart List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Heart List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Implies List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; list-style:Implies List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Lower Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Lower Case List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Lower Roman List" basedon="Normal" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Lower Roman List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Numbered Heading 1" basedon="Heading 1" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 2" basedon="Heading 2" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 3" basedon="Heading 3" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s type="P" name="Numbered List" followedby="Current Settings" props="list-delim:%L.; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Numbered List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Plain Text" basedon="Normal" followedby="Current Settings" props="font-family:Courier New; line-height:1.000000"/>
+<s followedby="Normal" name="Section Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Arial %L.; field-font:Section; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:1.100000in/L0"/>
+<s type="P" name="Square List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Square List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Star List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Star List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Tick List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Tick List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Triangle List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Triangle List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Upper Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Upper Case List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Upper Roman List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Upper Roman List; line-height:1.000000; text-indent:-0.300000in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1">1.99.1 Changelog</p>
+<p style="Heading 2">Besnik Bleta</p>
+<p style="Normal">Albanian localisation work.</p>
+<p style="Heading 2">David Chart</p>
+<p style="Normal">Documentation work.</p>
+<p style="Heading 2">Francesco Cheratzu</p>
+<p style="Normal">Sardinian localisation work.</p>
+<p style="Heading 2"><c></c>Gery Deloge</p>
+<p style="Normal">Fixes for BeOS<c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">: better handling of tooltips, better 3D icons in toobars</c>.</p>
+<p style="Heading 2"><c></c>Andrew Dunbar</p>
+<p style="Normal">Spelling suggestion code refactoring.</p>
+<p style="Normal">Removed dead STL code.</p>
+<p style="Normal">Update to MSVC6 build system.</p>
+<p style="Normal">Fixed a casting bug.</p>
+<p style="Normal">Removed Win32 references to document locale.</p>
+<p style="Normal">Fixes to Albanian strings file.</p>
+<p style="Normal">Updated non-US English strings files.</p>
+<p style="Normal">Fixes and clean-up in Language dialog code.</p>
+<p style="Heading 2">Hubert Figuiere</p>
+<p style="Normal">Fixed excessive document redrawing when changin zoom to same value.</p>
+<p style="Normal">Some code refactoring.</p>
+<p style="Normal">Fix a crasher in cocoa.</p>
+<p style="Normal">Fixed a potential bug/compile warning.</p>
+<p style="Normal">Implemented XP glyph measurement caching, and fixed Unix build.</p>
+<p style="Normal">Fixed numerous compiler warnings.</p>
+<p style="Normal">A small optimisation in DrawChars.</p>
+<p style="Normal">Fixes for retarded (old, presumably) libc.</p>
+<p style="Normal">Fix cocoa prefs dialog now that page size is in normal.awt.</p>
+<p style="Normal">Added some asserts if width and height are improperly set while drawing.</p>
+<p style="Normal">Fix cocoa caret.</p>
+<p style="Normal">Fix cocoa printing.</p>
+<p style="Normal">Bug fixes: 5118,5137</p>
+<p style="Heading 2">Raphael Finkel</p>
+<p style="Normal">Yiddish localisation work.</p>
+<p style="Heading 2"><c></c>Bryan Forbes</p>
+<p style="Normal">Updated gucharmap support to 0.7, which has a completely new API.</p>
+<p style="Heading 2">Frank Franklin</p>
+<p style="Normal">Fixed a hash map and added three new ones. These maps should allow cleaner code.</p>
+<p style="Normal">Added a new abibits module to CVS. This is some sort of MacOS X material.</p>
+<p style="Normal">Bug fixes: 3614, 5094</p>
+<p style="Heading 2">Tomas Frydrych</p>
+<p style="Normal">Moved MSWord list processing code from Abi to wv, so that we now get the proper indents.</p>
+<p style="Normal">Import footnotes/endnotes from MSWord.</p>
+<p style="Normal">Improved reliability of MSWord import code.</p>
+<p style="Normal">Work on importing headers/footers from MSWord.</p>
+<p style="Normal">Added asserts concerning code assumptions about the compiler.</p>
+<p style="Normal">Header/footer import working for Word9.</p>
+<p style="Normal">Fix two segfaults in the status bar.</p>
+<p style="Normal">BiDi fixes in RTF and Word import.</p>
+<p style="Normal">Fixed handling of page break character in Word import.</p>
+<p style="Normal">Unique ID generating class.</p>
+<p style="Normal">Work on list import from Word.</p>
+<p style="Normal">Import of endnotes and footnote/endnote options from RTF.</p>
+<p style="Normal">Added more Arabic ligatures and letters. Some optimisation of the context glyph code.</p>
+<p style="Normal">Removed an incorrect assert from abw importer.</p>
+<p style="Normal">Import of headers is shared between sections in Word import.</p>
+<p style="Normal">Fixed a memory leak in glyph width caching.</p>
+<p style="Normal">Fixed a BiDi-related crasher.</p>
+<p style="Normal">Various BiDi fixes.</p>
+<p style="Normal">Various Word import fixes.</p>
+<p style="Normal">Fix Word importer to import fields in fields (such as ToC fields), and to respect background colours.</p>
+<p style="Normal">Fixed a copy/paste error in wv.</p>
+<p style="Normal">Stopped the text importer trying to import non-text documents.</p>
+<p style="Normal">Small fix to appendSpan.</p>
+<p style="Normal">Fix to Word import header code.</p>
+<p style="Normal">Improvement to incremental loader.</p>
+<p style="Normal">Added command to import styles (only) from a document or template. Works for abi (documents and templates), rtf, and MSWord.</p>
+<p style="Normal">Reverted the Win32 unicode patch, as it made Abi unusable in any language other than English.</p>
+<p style="Normal">wv fixes.</p>
+<p style="Normal">Fix UT_Language.</p>
+<p style="Normal">Added code to import document properties from an Abi document or template.</p>
+<p style="Normal">BiDi fixes.</p>
+<p style="Normal">Ligature code work.</p>
+<p style="Normal">Bug fixes: 2584, 3622, 3745, 3823, 4715 (in wv), 5095, 5175 (partial, wv &amp; abi), 5176 (in wv)</p>
+<p style="Heading 2">Mark Gilbert</p>
+<p style="Normal">Fixed wv build.</p>
+<p style="Normal">Fix to wv to allow Abi to build against generic wv builds.</p>
+<p style="Normal">Fixed a crasher in the page setup dialog.</p>
+<p style="Normal">Fixed abicommand plugin to work with new find stuff.</p>
+<p style="Normal">Fixed a crash due to empty plugin lists.</p>
+<p style="Heading 2">Daniel Glassey</p>
+<p style="Normal">Enable Unicode input on Win32.</p>
+<p style="Heading 2">Marco Innocenti</p>
+<p style="Normal">Italian localisation work.</p>
+<p style="Heading 2">William Lachance</p>
+<p style="Normal">Updated WP plugin to take account of recent changes to libwpd.</p>
+<p style="Normal">Fixed a bug with the display of menu accelerator mnemonic on unix.</p>
+<p style="Normal">Fix GUI widgets to use GTK+ standard font.</p>
+<p style="Normal">Bug fixes: 4983</p>
+<p style="Heading 2">Dom Lachowicz</p>
+<p style="Normal">Removed C++ comment from wv code.</p>
+<p style="Normal">Gladeified Encoding, Find and Replace, Language, More Windows, Password, Plugins, and Word Count dialogs.</p>
+<p style="Normal">Moved locale and page size information from system profile to normal.awt.</p>
+<p style="Normal">Fixes to T602 and XSL-FO plugins.</p>
+<p style="Normal">Fix the Magick plugin.</p>
+<p style="Normal">Ported Win32 Find &amp; Replace changes to unix.</p>
+<p style="Normal">Removed lots of gtk+ deprecated calls.</p>
+<p style="Normal">Fix Insert Break and Insert Page Number dialogs.</p>
+<p style="Normal">Gladeify New File dialog.</p>
+<p style="Normal">Abi now imports default properties and styles from normal.awt before importing files which don't have such properties of their own.</p>
+<p style="Normal">Fix for bad display bug.</p>
+<p style="Normal">Fixed a unix printing bug.</p>
+<p style="Normal">Completed addition of new icons.</p>
+<p style="Normal">Bug fixes: 5131, 5140</p>
+<p style="Heading 2">Jordi Mas</p>
+<p style="Normal">Added check for unicows.dll on Win9x to avoid a crash when it wasn't there.</p>
+<p style="Normal">Bug fixes: 5077 (partial), 5141, 5188</p>
+<p style="Heading 2">Marc Maurer</p>
+<p style="Normal">Import table column widths, table positions, footnotes, endnotes, and document metadata from WordPerfect documents. (Currently needs libwpd CVS HEAD.)</p>
+<p style="Normal">Fixed a build failure.</p>
+<p style="Normal">Draw dotted grey borders around a cell when its border is set to off.</p>
+<p style="Normal">Glade files for various dialogs (incomplete).</p>
+<p style="Normal">HIG cleanup on Unix Word Count dialog.</p>
+<p style="Normal">Fixes to Format Table dialog.</p>
+<p style="Normal">Gladeification of Styles dialog.</p>
+<p style="Normal">Fixes to make line drawing work the same cross-platform.</p>
+<p style="Normal">Replaced a number of icons with jimmac's latest. Drew a couple of icons himself.</p>
+<p style="Normal">Bug fixes: 5015</p>
+<p style="Heading 2">Christian Neumair</p>
+<p style="Normal">Lots and lots of work to make Abi's dialogs conform to the Gnome Human Interface Guidelines.</p>
+<p style="Heading 2"><c></c>Michael Pritchett</p>
+<p style="Normal">Fix cast problems.</p>
+<p style="Normal">Win32 glyph caching work.</p>
+<p style="Normal">Win32 build and warning fixes.</p>
+<p style="Heading 2">Alberto Cabello Sanchez</p>
+<p style="Normal">LaTeX export improvements.</p>
+<p style="Heading 2">Rui Miguel Seabra</p>
+<p style="Normal">Fix rpm building with ots plugin.</p>
+<p style="Heading 2"><c></c>Martin Sevior</p>
+<p style="Normal">Fixes for RTF import of tables.</p>
+<p style="Normal">Enable copy and paste of whole tables.</p>
+<p style="Normal">Fixes to RTF import/export of positioned columns.</p>
+<p style="Normal">Bug fix to MSWord lists.</p>
+<p style="Normal">Fixes for copying and pasting tables.</p>
+<p style="Normal">Disallow saves if the piecetable is changing.</p>
+<p style="Normal">Work on the incremental loader.</p>
+<p style="Normal">Fix display of cursor on top line of screen.</p>
+<p style="Normal">Remove some pixel dirt and blank artefacts.</p>
+<p style="Normal">Export documents with footnotes/endnotes to HTML, putting footnotes and endnotes at the end.</p>
+<p style="Normal">Removed cursor dirt when scrolling with the caret off-screen.</p>
+<p style="Normal">Arrow keys now move out of foonote/endnote containers.</p>
+<p style="Normal">HIGified Format Footnotes dialog on Unix.</p>
+<p style="Normal">Export column widths to HTML.</p>
+<p style="Normal">Cosmetic fix for table drawing.</p>
+<p style="Normal">Fix image export to HTML.</p>
+<p style="Normal">Compile fixes for sdw and t602 plugins.</p>
+<p style="Normal">Fix more bugs with column insertions in tables.</p>
+<p style="Normal">Fix insert rows in tables.</p>
+<p style="Normal">Allow (under protest) Abi to handle tables with edges outside the page margins.</p>
+<p style="Normal">Added code to allow plugins to extract text from the document.</p>
+<p style="Normal">Fixes to the bonobo component, making it draw rulers and a blank area before the doc finishes loading.</p>
+<p style="Normal">Fix cursor size changes.</p>
+<p style="Normal">Autoupdate document suffix when changing save as type on unix.</p>
+<p style="Normal">Fixed find/replace to work with tables and footnotes.</p>
+<p style="Normal">Bug fixes: 5117, 5150 (partial), 5152</p>
+<p style="Heading 2">Giovanni Sora</p>
+<p style="Normal">Italian localisation work.</p>
+<p style="Heading 2">Jun Suzuki</p>
+<p style="Normal">Fix three BeOS hangs.</p>
+<p style="Normal">Fix problems with showing and hiding UI features on BeOS.</p>
+<p style="Normal">Internationalisation work on BeOS.</p>
+<p style="Normal">Fix toolbar show/hide function on BeOS.</p>
+<p style="Normal">Allow search dialog to accept non-ASCII on BeOS.</p>
+<p style="Normal">Fix BeOS enable/disable of menu items.</p>
+<p style="Normal">Fix BeOS option and font dialogs.</p>
+<p style="Normal">Fix BeOS full screen mode.</p>
+<p style="Heading 2"><c></c>Stephen Viles</p>
+<p style="Normal">Bug fixes: 428</p>
+<p style="Heading 2">Ruud Vring</p>
+<p style="Normal">Fix for Win32 status bar.</p>
+</section>
+</abiword>
