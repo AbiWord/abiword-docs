@@ -40,3 +40,12 @@ tr.submenu div {
 td {
 	vertical-align: top;
 }
+*.Command {
+	font-family: fixed;
+}
+*.Emphatic {
+	font-style: italic;
+}
+*.GUIdoc {
+	font-weight: bold;
+}
