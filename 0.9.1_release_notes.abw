@@ -18,6 +18,7 @@
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">	Bug fixes for Solaris build.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">	Bug fixes (1816, compiler warnings)</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">	Fixed incompatibilities with the new version of iconv in CVS.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">Francis Franklin: 	Fix build order of peer libraries.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">Stephane Fritsch:	BeOS bug fixes.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">	BeOS Language and Encoding dialogs.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">Tomas Frydrych:	unixfonts.txt</c></p>
@@ -31,12 +32,15 @@
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Removed advertising in the comments of exported HTML and ABW files.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	MacOSX build fix.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Fixes to .doc importer.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	wv resync.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Big fixes (1803).</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Tim LaDuca:	TrueType fonts FAQ revision.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Bug fix for Cygwin build.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Vincent McIntyre:	Bug fix to autoconf build on Solaris.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Michael Pritchett:	Win32 code cleanup.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Styles for Win32. This brings one of AbiWord's most important features to its other main platform.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Paul Rohr:	Menu prettification.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Fixing code to remove compiler warnings.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Martin Sevior:	Ability to delete Headers and Footers.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Fixed lots of issues with section breaks, particularly with cutting &amp; pasting, deleting, undoing, and so on. Please test this code and report any remaining bugs.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Ability to import column breaks in RTF.</c></p>
