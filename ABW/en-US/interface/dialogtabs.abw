@@ -1,50 +1,56 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
-<!-- =====================================================================  -->
-<!-- This file is an AbiWord document.                                      -->
-<!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at www.abisource.com     -->
-<!-- You should not edit this file by hand.                                 -->
-<!-- =====================================================================  -->
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.6" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Tue Sep  9 12:15:48 2003</m>
+</metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:22pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:3pt; line-height:1.000000; font-size:17pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; text-indent:0.00cm; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:22pt"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c style="Heading 1" props="lang:en-US">Tabs Dialog</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This dialog allows you to set the position and type of the tab stops in your document.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Tab stop position:</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Type the position of the tab stop you want in the box below this heading.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Default tab stops:</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This box shows the interval between the automatically generated tab stops. If you have no tabs set, tabbing in your document will move you this distance. These tabs remain to the right of a deliberately inserted tab stop, but are suppressed to its left.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Tab Stop list</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This window to the left of the dialog is not titled on the dialog. It lists the positions of all set tab stops. If a created tab stop is selected, the settings of the Alignment and Leader sections change to show the settings for that tab.</c></p>
-<p style="Heading 2"><c props="lang:en-US">Tab stops to be cleared:</c></p>
-<p style="Normal"><c props="lang:en-US">This takes up screen space and does nothing.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Alignment</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">These radio buttons allow you to set the kind of tab stop.</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Left alignment means that text starts at the tab stop and extends to the right.</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Center alignment means that text is centered on the tab stop.</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Right alignment means that text finishes at the tab stop and extends to the left.</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Decimal means that the decimal point in whatever you type will be under the tab stop. This is useful for formatting financial information.</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Bar means that AbiWord will draw a bar at the tab position, and insert the text after it as if there was a left tab just to its right. These tab stops can be used with topline and bottomline formatting to draw simple tables.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Leader</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">These buttons allow you to set the characters which are inserted between the point where you insert the tab and the beginning of the tabbed text.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Set</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This button sets the tab stop you have selected. A tab is not set until it appears in the list of set tab stops. If you are modifying a tab, you must press this button to make the changes.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Clear</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This button removes the selected tab stop.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Clear All</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This button removes all of the user-defined tab stops.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Apply</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This button applies the currently listed tab stops to the document, but does not close the dialog. You cannot type in the document while the tabs dialog is open, but any tabbed text will change to match the new tabs.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">OK</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This button accepts your changes and closes the dialog.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Cancel</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">This button closes the dialog without saving any changes to the tab stops that you have made since you last clicked 'Apply'.</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US">Tabs Dialog</c><c style="Heading 1" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This dialog allows you to set the position and type of the tab stops in your document.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Tab stop position:</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Type the position of the tab stop you want in the box below this heading.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Default tab stops:</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This box shows the interval between the automatically generated tab stops. If you have no tabs set, tabbing in your document will move you this distance. These tabs remain to the right of a deliberately inserted tab stop, but are suppressed to its left.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Normal"><c props="lang:en-US">You can change this value by typing in the box or by clicking on the small arrows to the right of the box.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Tab Stop list</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This window to the left of the dialog is not titled on the dialog. It lists the positions of all set tab stops. If a created tab stop is selected, the settings of the Alignment and Leader sections change to show the settings for that tab.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c props="lang:en-US">Tab stops to be cleared:</c><c props="lang:en-US"></c></p>
+<p style="Normal"><c props="lang:en-US">This takes up screen space and does nothing.</c><c props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Alignment</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">These radio buttons allow you to set the kind of tab stop.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Left alignment means that text starts at the tab stop and extends to the right.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Center alignment means that text is centered on the tab stop.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Right alignment means that text finishes at the tab stop and extends to the left.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Decimal means that the decimal point in whatever you type will be under the tab stop. This is useful for formatting financial information.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Bar means that AbiWord will draw a bar at the tab position, and insert the text after it as if there was a left tab just to its right. These tab stops can be used with topline and bottomline formatting to draw simple tables</c><c props="lang:en-US">, but it is better to use the </c><a xlink:href="menutable.html"><c props="lang:en-US">Table menu</c></a><c style="Normal" props="lang:en-US">.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Leader</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">These buttons allow you to set the characters which are inserted between the point where you insert the tab and the beginning of the tabbed text.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Set</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This button sets the tab stop you have selected. A tab is not set until it appears in the list of set tab stops. If you are modifying a tab, you must press this button to make the changes.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Clear</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This button removes the selected tab stop.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Clear All</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This button removes all of the user-defined tab stops.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c props="lang:en-US">Help</c></p>
+<p style="Normal"><c props="lang:en-US">This button opens the documentation for the dialog.</c></p>
+<p style="Heading 2"><c props="lang:en-US">Cancel</c></p>
+<p style="Normal">This button closes the dialog without applying your changes.</p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US"></c><c style="Heading 2" props="lang:en-US">OK</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This button </c><c props="lang:en-US">applies</c><c style="Normal" props="lang:en-US"> your changes and closes the dialog</c><c props="lang:en-US">.</c></p>
 </section>
 </abiword>

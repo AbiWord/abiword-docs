@@ -1,43 +1,43 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
-<!-- =====================================================================  -->
-<!-- This file is an AbiWord document.                                      -->
-<!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at www.abisource.com     -->
-<!-- You should not edit this file by hand.                                 -->
-<!-- =====================================================================  -->
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.6" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Tue Sep  9 13:05:11 2003</m>
+</metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:22pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:3pt; line-height:1.000000; font-size:17pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:14pt; text-indent:0.00cm; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c style="Heading 1" props="lang:en-US">Extra Toolbar</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">The extra toolbar is not displayed by default. You can choose to display it from the View menu.</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US">Extra Toolbar</c><c style="Heading 1" props="lang:en-US"></c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">The extra toolbar is not displayed by default. You can choose to display it from the View menu.</c><c style="Normal Clean" props="lang:en-US"></c></p>
 <p style="Normal Clean"></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">This button inserts a hyperlink into your document. It opens the </c><a xlink:href="dialoghyperlink.html"><c style="Normal Clean" props="lang:en-US">Insert Hyperlink</c></a><c style="Normal Clean" props="lang:en-US"> dialog.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">This button inserts a hyperlink into your document. It opens the </c><c style="Normal Clean" props="lang:en-US"></c><a xlink:href="dialoghyperlink.html"><c style="Normal Clean" props="lang:en-US">Insert Hyperlink</c></a><c style="Normal Clean" props="lang:en-US"> dialog.</c></p>
 <p style="Normal Clean"></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">This button inserts a bookmark (also known as an 'anchor', hence the icon) into your document. It opens the </c><a xlink:href="dialogbookmark.html"><c style="Normal Clean" props="lang:en-US">Insert Bookmark</c></a><c style="Normal Clean" props="lang:en-US"> dialog.</c></p>
-<p style="Normal Clean"></p>
-<p style="Normal Clean"></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">This button adds an overline to the text. </c><c style="Normal Clean" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"> Click it once to depress it and turn overlined text on, and again to raise it and turn overlined text off. If no text is selected when you depress or raise the button, the new state applies to any text you type. If text is selected, pressing the button changes whether it is overlined; normal text is overlined, while an overline that is present is removed.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">This button inserts a bookmark (also known as an 'anchor', hence the icon) into your document. It opens the </c><c style="Normal Clean" props="lang:en-US"></c><a xlink:href="dialogbookmark.html"><c style="Normal Clean" props="lang:en-US">Insert Bookmark</c></a><c style="Normal Clean" props="lang:en-US"> dialog.</c></p>
 <p style="Normal Clean"></p>
 <p style="Normal Clean"></p>
-<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">This button strikes through the text. It functions as the overline button does.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">This button adds an overline to the text. </c><c style="Normal Clean" props="lang:en-US"></c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"> Click it once to depress it and turn overlined text on, and again to raise it and turn overlined text off. If no text is selected when you depress or raise the button, the new state applies to any text you type. If text is selected, pressing the button changes whether it is overlined; normal text is overlined, while an overline that is present is removed.</c></p>
 <p style="Normal Clean"></p>
 <p style="Normal Clean"></p>
-<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">This button adds a top line to the text.  It functions as the overline button does. A top line is further above the text than an overline, and is most use when constructing tables.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">This button strikes through the text. It functions as the overline button does.</c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
 <p style="Normal Clean"></p>
 <p style="Normal Clean"></p>
-<p style="Normal Clean">This button adds a bottom line to the text. <c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal"> It functions as the overline button does. </c>A bottom line is further below than text than an underline, and is most use when constructing tables.</p>
+<p style="Normal Clean">This button sets the text to superscript. <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal"> It functions as the overline button does.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal"></c></p>
 <p style="Normal Clean"></p>
 <p style="Normal Clean"></p>
-<p style="Normal Clean">This button sets the text to superscript. <c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal"> It functions as the overline button does.</c></p>
-<p style="Normal Clean"></p>
-<p style="Normal Clean"></p>
-<p style="Normal Clean">This button sets the text to subscript. <c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal">It functions as the overline button does.</c></p>
+<p style="Normal Clean">This button sets the text to subscript. <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal">It functions as the overline button does.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal"></c></p>
 <p style="Normal Clean"></p>
 <p style="Normal Clean"></p>
 <p style="Normal Clean">This button opens the <a xlink:href="dialogsymbol.html">Insert Symbol</a> dialog.</p>
@@ -49,6 +49,15 @@
 <p style="Normal Clean" props="margin-top:0pt"></p>
 <p style="Normal Clean" props="margin-top:0pt"></p>
 <p style="Normal Clean" props="margin-top:0pt">These buttons set the line spacing. The left hand one sets the lines to single spacing, so that there is little space between lines. The middle one sets one-and-a-half spacing, so that the space between lines is half the height of the lines. The right one sets double spacing, so that there is enough space between two lines of text to insert another line.</p>
+<p style="Normal Clean" props="margin-top:0pt"><c></c></p>
+<p style="Normal Clean" props="margin-top:0pt"><c></c></p>
+<p style="Normal Clean" props="margin-top:0pt">This button forces the current text to flow from left to right.</p>
+<p style="Normal Clean" props="margin-top:0pt"><c></c></p>
+<p style="Normal Clean" props="margin-top:0pt"><c></c></p>
+<p style="Normal Clean" props="margin-top:0pt">This button forces the current text to flow from right to left.</p>
+<p style="Normal Clean" props="margin-top:0pt"><c></c></p>
+<p style="Normal Clean" props="margin-top:0pt"><c></c></p>
+<p style="Normal Clean" props="margin-top:0pt">This button changes the dominant direction of text in the paragraph. If it was left to right, it becomes right to left, and vice versa.</p>
 <p style="Normal Clean" props="margin-top:0pt"></p>
 <p style="Normal Clean" props="margin-top:0pt"></p>
 <p style="Normal Clean" props="margin-top:0pt">This button moves the insertion point to the page header. If there is no header, pressing it creates one.</p>
