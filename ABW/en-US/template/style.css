@@ -40,6 +40,10 @@ tr.submenu div {
 td {
 	vertical-align: top;
 }
+*.Code {
+	font-family: fixed;
+	color: blue;
+}
 *.Command {
 	font-family: fixed;
 }

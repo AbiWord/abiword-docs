@@ -1,19 +1,26 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
-<!-- =====================================================================  -->
-<!-- This file is an AbiWord document.                                      -->
-<!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at www.abisource.com     -->
-<!-- You should not edit this file by hand.                                 -->
-<!-- =====================================================================  -->
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0.0" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.title">AbiWord Help: Workspace</m>
+<m key="abiword.date_last_changed">Fri Sep 19 18:23:30 2003</m>
+<m key="dc.creator">Copyright (C) 2001-2 Mike Johnson, David Chart</m>
+</metadata>
 <styles>
 <s followedby="Normal" name="doc_heading1" basedon="Normal" type="" props="font-family:Arial; font-size:12pt; field-font:NULL; margin-bottom:12pt; bgcolor:transparent; font-weight:bold; font-style:normal; margin-top:22pt"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 <s followedby="Normal" name="doc_normal" basedon="" type="" props="margin-top:0pt; margin-left:0.5000in; font-size:12pt; field-font:NULL; line-height:1.0; text-align:left; font-family:Times New Roman"/>
-<s followedby="Normal" name="doc_heading3" basedon="Normal" type="" props="field-font:NULL; margin-top:18pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:12pt"/>
-<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="margin-bottom:6pt; field-font:NULL; margin-left:1in; margin-right:1in"/>
+<s followedby="Normal" name="doc_heading3" basedon="Normal" type="" props="font-size:12pt; margin-top:18pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; field-font:NULL"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="margin-bottom:6pt; field-font:NULL; margin-right:1in; margin-left:1in"/>
 <s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
 </styles>
 <ignoredwords>
@@ -23,41 +30,41 @@
 <section header="26414915">
 <p style="doc_heading1"><c props="lang:en-US; font-size:22pt; font-family:Times New Roman"></c><c props="lang:en-US; font-size:22pt; font-family:Times New Roman">The </c><c props="font-family:Times New Roman; font-size:22pt">AbiWord Workspace</c></p>
 <p style="doc_normal">AbiWord looks quite similar to other word processors, hopefully making anyone new to the software quite at home.</p>
-<p style="doc_normal"></p>
+<p style="doc_normal"><c></c></p>
 <p style="doc_normal" props="text-indent:0.0000in; text-align:center"><image dataid="/usr/src/abiword/commit/images/full_window.png_0" props="height:3.98in; width:6.48in"/></p>
-<p style="doc_normal"></p>
+<p style="doc_normal"><c></c></p>
 <p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">The familiar interface should allow most people to start working immediately. However, there are some pieces that may be new.</p>
-<p level="1" listid="0" parentid="0" style="Normal"></p>
+<p level="1" listid="0" parentid="0" style="Normal"><c></c></p>
 <p level="1" listid="0" parentid="0" style="doc_heading3">Title Window</p>
-<p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:-0.5000in"></p>
+<p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:-0.5000in"><c></c></p>
 <p level="1" listid="0" parentid="0" style="Normal"><image dataid="/usr/src/abiword/commit/images/titlebar.png_0" props="height:0.22in; width:6.47in"/></p>
-<p level="1" listid="0" parentid="0" style="Normal"></p>
+<p level="1" listid="0" parentid="0" style="Normal"><c></c></p>
 <p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">The title window itself is like any other application’s window, with one difference. Note the * near “Untitled10“. The star means that “Untitled10“ has been modified. This provides an easy way to tell if the document needs to be saved.</p>
 <p level="1" listid="0" parentid="0" style="doc_heading3">The Function Bars</p>
 <p level="1" listid="0" parentid="0" style="Normal"><image dataid="/usr/src/abiword/commit/images/functionbars.png_0" props="height:0.95in; width:6.38in"/></p>
-<p level="1" listid="0" parentid="0" style="Normal"></p>
+<p level="1" listid="0" parentid="0" style="Normal"><c></c></p>
 <p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">These are the three major function bars. The first, known as the Menu Bar, is the best place to start getting familiar with AbiWord. It’s best to start browsing the menus to get a sense of all that AbiWord can do with documents.</p>
 <p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">The second is the “Standard Bar”, and the third (at the bottom) is the Formatting Bar.</p>
 <p level="1" listid="0" parentid="0" style="doc_heading3">Working the Bars</p>
 <p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">AbiWord allows for hiding toolbars. If some are missing or are simply not needed, check under View &gt; Toolbars.</p>
-<p level="1" listid="0" parentid="0" style="Normal"></p>
+<p level="1" listid="0" parentid="0" style="Normal"><c></c></p>
 <p level="1" listid="0" parentid="0" style="Normal"><image dataid="/usr/src/abiword/commit/images/functionbars_hiding.png_0" props="height:3.07in; width:5.51in"/></p>
 <p style="doc_heading3">The Grab Bar</p>
-<p style="doc_normal"></p>
+<p style="doc_normal"><c></c></p>
 <p style="Normal" props="text-align:left"><image dataid="/usr/src/abiword/commit/images/grabbar_shaded.png_0" props="height:1.08in; width:1.35in"/></p>
-<p style="Block Text" props="text-indent:0.5000in; margin-left:0.0000in; margin-right:0.0000in"></p>
-<p style="doc_normal" props="font-family:Times New Roman; font-style:normal; margin-left:0.0000in; lang:en-US; text-indent:0.5000in; text-decoration:none; bgcolor:transparent; margin-right:0.0000in; color:000000; font-size:12pt; font-weight:normal; text-position:normal">For those running AbiWord on GNOME computers, the grab bar located to the far left of each toolbar presents an easy way for anybody to modify the interface to their liking. Click on the grab bar and drag. The toolbar will follow the mouse, even allowing for the toolbar to hover over any part of the screen.</p>
+<p style="Block Text" props="text-indent:0.5000in; margin-left:0.0000in; margin-right:0.0000in"><c></c></p>
+<p style="doc_normal" props="font-family:Times New Roman; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; text-indent:0.5000in; color:000000; bgcolor:transparent; margin-right:0.0000in; text-decoration:none; font-weight:normal; font-size:12pt">For those running AbiWord on GNOME computers, the grab bar located to the far left of each toolbar presents an easy way for anybody to modify the interface to their liking. Click on the grab bar and drag. The toolbar will follow the mouse, even allowing for the toolbar to hover over any part of the screen.</p>
 <p style="Heading 3">Status Bar</p>
-<p style="doc_normal"></p>
+<p style="doc_normal"><c></c></p>
 <p style="Normal" props="text-indent:0.0000in"><image dataid="/usr/src/abiword/commit/images/statusbar.png_0" props="height:0.22in; width:5.04in"/></p>
-<p style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in"></p>
+<p style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in"><c></c></p>
 <p style="Normal" props="text-indent:0.5000in">The Status Bar allows for a quick over view of the document’s status. On the left, AbiWord notes the current page. The middle box, which is usually empty, displays a quick help message describing the current menu option.</p>
-<p style="Normal" props="text-indent:0.5000in"></p>
+<p style="Normal" props="text-indent:0.5000in"><c></c></p>
 <p style="Normal" props="text-indent:0.0000in"><image dataid="/usr/src/abiword/commit/images/statusbar_quickhelp.png_0" props="height:1.56in; width:5.30in"/></p>
 <p style="doc_heading3">The Rulers</p>
-<p style="doc_normal"></p>
+<p style="doc_normal"><c></c></p>
 <p style="Normal"><image dataid="/usr/src/abiword/commit/images/ruler.png_0" props="height:0.32in; width:5.55in"/></p>
-<p style="Normal"></p>
+<p style="Normal"><c></c></p>
 <p style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">By using the rulers it becomes easy to set page margins and tabstops.</p>
 </section>
 <section id="26414915" listid="0" parentid="0" type="header">

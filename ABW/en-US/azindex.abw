@@ -12,6 +12,8 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 <m key="abiword.date_last_changed">Wed Jul  9 19:33:24 2003</m>
+<m key="dc.title">AbiWord Help: Index</m>
+<m key="dc.creator">Copyright (C) 2002 Andrew Schoenhofer, David Chart</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-size:17pt; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; keep-with-next:1"/>

@@ -9,9 +9,11 @@
 <!-- ======================================================================== -->
 
 <metadata>
-<m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Tue Sep  9 13:06:23 2003</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.date_last_changed">Thu Sep 18 20:03:40 2003</m>
+<m key="dc.title">AbiWord Help: Toolbar: Formatting</m>
+<m key="dc.creator">Copyright (C) 2001-2 David Chart</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:22pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:3pt; line-height:1.000000; font-size:17pt; field-font:NULL"/>

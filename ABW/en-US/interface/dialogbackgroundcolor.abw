@@ -9,9 +9,11 @@
 <!-- ======================================================================== -->
 
 <metadata>
-<m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Thu Sep  4 17:35:24 2003</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.date_last_changed">Thu Sep 18 20:03:40 2003</m>
+<m key="dc.title">AbiWord Help: Dialog: Change Background Color</m>
+<m key="dc.creator">Copyright (C) 2001-3 David Chart</m>
 </metadata>
 <styles>
 <s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="font-family:Arial; margin-top:0.3056in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.0417in; line-height:1.000000; font-size:17pt; field-font:NULL"/>
