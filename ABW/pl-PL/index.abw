@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3319in; font-style:normal; font-weight:bold; lang:en-US; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:pl-PL"></c>AbiWord -- pomoc</p>
+<p style="Normal">Oto pomoc programu AbiWord. Pliki te zwykle są instalowane wraz z oprogramowaniem, jednak <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">gdziekolwiek je </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c>znalazłeś, pomogą one zapoznać się z AbiWordem.</p>
+<p style="Normal">Tak jak cały program, pliki te są napisane przez wolontariuszy. Pewne rozdziały są nadal niekompletne, ale wszyskie możliwości programu są udokumentowane, głównie w części dotyczącej interfejsu. Jeśli potrzebujesz pomocy, powinieneś zajrzeć do części opisującej problemy.</p>
+<p style="Normal">W górnej części każdej strony umieszczone są łącza do wszystkich stron, które doprowadziły do bieżącej strony, tak więc łatwo można odtworzyć kolejne kroki. Polecenie w menu "AbiWord - Pomoc" doprowadza na tę stronę.</p>
+<p style="Normal">Pliki pomocy podzielone są na kilka części. Części te są dostępne poprzez łącza z każdej strony pomocy. Łącza umieszczone są albo w kolumnie w lewej części strony, albo w dolnej jej części, zależnie od używanej przeglądarki. Oto części pomocy:</p>
+<p style="Heading 2">Strona pierwsza</p>
+<p style="Normal">To niniejsza, właśnie ta strona.</p>
+<p style="Heading 2"><a xlink:href="introduction.html">Wprowadzenie</a></p>
+<p style="Normal">Szybki ogólny przegląd AbiWorda.</p>
+<p style="Heading 2">Przewodnik</p>
+<p style="Normal">Pełny kurs pracy z AbiWordem. Ta część nie została jeszcze napisana.</p>
+<p style="Heading 2"><a xlink:href="howto/index.html">Jak to zrobić?</a></p>
+<p style="Normal">To opis pewnych czynności, pożyteczne wskazówki. Ta część nie jest jeszcze obszerna, jednak pisanie wskazówek "Jak to zrobić?" jest dobrym sposobem wspierania dokumentacji AbiWorda.</p>
+<p style="Heading 2"><a xlink:href="info/index.html">Informacje</a></p>
+<p style="Normal">Informacje o funkcjach AbiWorda. Informacje te zwykle nie mają bezpośredniego wpływu na używanie programu, ale powinny pomóc w lepszym jego rozumieniu.</p>
+<p style="Heading 2"><a xlink:href="interface/index.html">Interfejs</a></p>
+<p style="Normal">Dokumentacja każdego polecenia interfejsu użytkownika AbiWorda. Ta część jest kompletna.</p>
+<p style="Heading 2">Problemy</p>
+<p style="Normal">Wskazówki co robić jeśli masz problemy z AbiWordem oraz gdzie możesz uzyskać pomoc.<c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"> (Ta część nie została jeszcze przetłumaczona na język polski).</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Heading 2"><a xlink:href="credits.html">Autorzy</a></p>
+<p style="Normal">Ludzie odpowiedzialni za AbiWorda.</p>
+<p style="Heading 2">Skorowidz</p>
+<p style="Normal">Skorowidz dokumentacji pomocy. Dodawanie terminów jest <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">dobrym sposobem wspierania dokumentacji</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c>. (Ta część nie została jeszcze przetłumaczona na język polski).</p>
+<p style="Heading 2">Licencja GNU Wolnej Dokumentacji</p>
+<p style="Normal">Tutaj można zapoznać się z treścią Licencji GNU Wolnej Dokumentacji (<a xlink:href="fdl.html">GNU Free Documentation License</a>), pod warunkami której niniejsza dokumentacja została udostępniona. Dla lepszego zrozumienia Licencji przez osoby mówiące po polsku zamieszczamy także <a xlink:href="fdl_pl.html">nieoficjalny przekład na język polski</a>.</p>
+</section>
+</abiword>

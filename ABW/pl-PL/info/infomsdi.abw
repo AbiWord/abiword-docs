@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3319in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:pl-PL">I</c>nterfejs typu "wiele pojedynczych"</p>
+<p style="Normal">AbiWord korzysta z <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">wielu interfejsów pojedynczych dokumentów (ang. </c>multiple single document interface), czyli MSDI. Najłatwiej to wytłumaczyć przez porównanie z <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">interfejsem wielu dokumentów (ang. </c>multiple document interface), czyli MDI, oraz interfejsem pojedynczego dokumentu (ang. single document interface), czyli SDI.</p>
+<p style="Normal">W aplikacjach, które używają MDI, mamy jedno okno z paskami narzędzi oraz menu, i wszystkie dokumenty są otwarte przy pomocy tego samego okna. Tak więc mamy wiele dokumentów obsługiwanych przez pojedynczy interfejs. Z drugiej strony w aplikacjach używających SDI, każdy dokument ma swoje własne okno z paskami narzędzi i menu, ale nie ma łączy pomiedzy dokumentami.</p>
+<p style="Normal">MSDI <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">AbiWorda jest połączeniem obu wyżej wymienionych metod obsługi dokumentów</c>. Każdy dokument ma swoje własne okno z paskami narzędzi i menu, ale wszystkie otwarte dokumenty AbiWorda wiedzą o sobie nawzajem. Tak więc menu Okno pozwala przełączać się do dowolnego innego dokumentu AbiWorda, natomiast polecenie Zakończ z menu Plik zamyka wszystkie otwarte dokumenty AbiWorda. Z kolei polecenie Zamknij zamyka tylko jeden, bieżący dokument. Jeśli będzie to ostatni dokument, to nrmalnym zachowaniem AbiWorda będzie otworzenie nowego pustego dokumentu w tym samym oknie. Opcja ta może być wyłączona w Opcjach programu, wtedy zamknięcie ostatniego okna powoduje zamknięcie aplikacji. Zauważmy, iż wtedy pole zamknięcia okna w górnym prawym rogu zawsze zamyka okno, nawet jeśli zawiera ono ostatni otwarty dokument AbiWorda.</p>
+</section>
+</abiword>

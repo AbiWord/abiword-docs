@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.2" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<lists>
+<l id="226116077" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:pl-PL">Otrzymanie pomocy -- </c><c props="lang:pl-PL"></c>Getting Help</p>
+<p style="Normal">You've checked the FAQ and the user's manual, and there's just no solving your problem. It's time to ask for help. There are a couple of ways to do this:</p>
+<p style="Heading 2">Lista dyskusyjna użytkowników</p>
+<p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">You can sign up for the AbiWord User's Mailing List by sending an email to abiword-user-request@abisource.com with "subscribe" in the message body.</c></p>
+<p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">The user's list is configured so that only members can submit messages to it. This greatly reduces the amount of spam that reaches subscribers.</c></p>
+<p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">We also host archives of this list.</c></p>
+<p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">You can use this list to:</c></p>
+<p level="1" listid="226116077" parentid="0" props="margin-top:0.0000in; margin-left:0.5000in; start-value:0; margin-bottom:0.0000in; text-indent:-0.3000in; list-style:Bullet List; line-height:1.000000; text-align:left; margin-right:0.0000in; field-font:Symbol"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; list-tag:1044581336; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c><field type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></field><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal">	</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Post questions</c></p>
+<p level="1" listid="226116077" props="margin-top:0.0000in; list-decimal:.; margin-left:0.5000in; start-value:0; text-indent:-0.3000in; margin-bottom:0.0000in; list-delim:%L; margin-right:0.0000in; list-style:Bullet List; line-height:1.000000; text-align:left; field-font:Symbol"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; list-tag:419346678; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c><field type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></field><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal">	</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Suggest features</c></p>
+<p level="1" listid="226116077" props="margin-top:0.0000in; list-decimal:.; margin-left:0.5000in; start-value:0; text-indent:-0.3000in; margin-bottom:0.0000in; list-delim:%L; margin-right:0.0000in; list-style:Bullet List; line-height:1.000000; text-align:left; field-font:Symbol"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; list-tag:2115935949; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c><field type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></field><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal">	</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Carry on nearly any discussion related to AbiWord</c></p>
+<p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">Please remember that this mailing list is a public forum and your postings will be read by many people.</c></p>
+<p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">You will generally get responses within a day.</c></p>
+<p style="Heading 2">Internet Relay Chat</p>
+<p style="Normal"><c props="lang:en-US">Internet Relay Chat is like an online chat room, except that the chat rooms are called channels instead.</c><c props="lang:en-US"></c></p>
+<p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">You can join Abiword's IRC channel and talk to ask questions that you might have. Usually there are some developers in there who can help answer your questions.</c></p>
+<p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">IRC Server: irc.gnome.org</c></p>
+<p style="Normal"><c props="lang:en-US">IRC Channel: #abiword</c><c props="lang:en-US"></c></p>
+<p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">If you are not familiar with IRC, you might try the following resources:</c></p>
+<p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">mIRC - Windows IRC client</c></p>
+<p style="Normal"><c props="lang:en-US">xchat - Unix and Linux client</c><c props="lang:en-US"></c></p>
+<p style="Normal"><c props="lang:en-US"></c><c props="lang:en-US">The nice thing about IRC is that you can (usually) get answers to your questions immediately, instead of having to wait for the mailing list's turn around time.</c></p>
+</section>
+</abiword>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3319in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:pl-PL"></c>Formaty plików</p>
+<p style="Normal">AbiWord czyta i zapisuje pliki w wielu różnych formatach. Za czytanie plików do programu odpowiedzialne są importery, natomiast za zapisywanie eksportery. Większość importerów oraz eksporterów <c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">AbiWorda to moduły-wtyczki (plug-in) i </c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c>informacje na temat obsługiwanych przez nich formatów plików można znaleźć w dokumentacji <a xlink:href="../plugins/index.html">modułów-wtyczek</a>. Udostępnianie importerów oraz eksporterów jako moduły-wtyczki pozwala na instalowanie tylko tych, które rzeczywiście są użyteczne. Albowiem moduły-wtyczki AbiWorda mogą obsługiwać pewne bardzo specjalistyczne formaty plików i nie wszyscy muszą je mieć zainstalowane.</p>
+<p style="Normal">Poniżej opisujemy importery i eksportery, które są częścią składową samej aplikacji.</p>
+<p style="Heading 2">AbiWord</p>
+<p style="Normal">To własny format plików AbiWorda, nazywany także jego rodzimym formatem plików. Powinieneś zapisywać pliki w tym właśnie formacie, chyba że masz ważne względy, by użyć innych formatów. Ważne względy, które mogą się pojawić, przedyskutowano poniżej.</p>
+<p style="Heading 2">Szablon AbiWorda</p>
+<p style="Normal">To format szblonów AbiWorda. Szablony pozwalają zdefiniować zestaw stylów oraz początkową zawartość, która często się powtarza. Opisano je szczegółowo w <a xlink:href="../howto/howtotemplates.html">dokumentacji szablonów</a>.</p>
+<p style="Heading 2">Microsoft Word</p>
+<p style="Normal">To rodzimy format plików programu Microsoft Word i powinien być używany przy czytaniu plików zapisanych przy pomocy tej aplikacji. Obecnie AbiWord nie eksportuje plików jako dokumenty Microsoft Word; aby przekazać pliki osobom używającym Worda, powinieneś używać plików typu RTF (patrz poniżej).</p>
+<p style="Heading 2">HTML 4.0/XHTML 1.0</p>
+<p style="Normal">Formaty hipertekstowe używane są do umieszczania dokumentów w Internecie, są one łatwo odczytywane przez przeglądarki. XHTML to nowszy standard i niektóre starsze przeglądarki mogę mieć z nim problemy. W tych formatach należy zapisywać pliki przeznaczone do publikacji w Internecie.</p>
+<p style="Heading 2">Rich Text Format</p>
+<p style="Normal">Rich Text Format, czyli RTF, to format zawierający wszystkie informacje formatujące tekst w pliku, które mogą być odczytane przez prawie wszystkie edutory tekstu. Tego formatu należy używać w wypadku przekazywania plików osobom, które nie używają AbiWorda. 'Rich Text Format for old apps' to starsza wersja formatu RTF i tylko bardzo stare aplikacje używają tego formatu. Powinieneś używać normalnego formatu RTF, chyba że wiesz na pewno, że musisz używać starszej wersji.</p>
+<p style="Heading 2">Text/Encoded Text</p>
+<p style="Normal">To zwykły tekst, bez żadnego formatowania. Każdy komputer odczyta pliki zapisane w tym formacie; ale upewnij się czy to <c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">używanie tego formatu </c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c>rzeczywiście jest najbezpieczniejsze. 'Text' to tekst ASCII, który nie obsługuje akcentów, czy też znaków spoza podstawowego alfabetu angielskiego ani wyliczeń (podpunktów). 'Encoded Text' to tekst rozszerzony o akcenty czy też znaki z innych zestawów kodów. Powinieneś używać zwykłego teksu, chyba że tekst zawiera nietypowe znaki, najczęściej fragmenty tekstu w języku innym niż angielski.</p>
+<p style="Heading 2">GZipped AbiWord</p>
+<p style="Normal">To rodzimy format AbiWorda skompresowany przy użyciu algorytmu gzip. Tego typu plik zajmuje mniej miejsca na dysku i może być przekształcony do zwykłego pliku AbiWorda przy pomocy dowolnej aplikacji obsługującej gzip. Tego formatu powinieneś używać przy przekazywaniu dużych plików przez Internet albo jeśli masz mało miejsca na dysku. W przeciwnym wypadku lepiej jest używać rodzimego formatu. Albowiem w przypadku zniszczenia fragmentu pliku gzip z powodu awarii dysku, nie będzie możliwe odzyskanie pozostałej zawartości tego pliku. W plikach AbiWorda częściowe odzyskanie zawartości jest stosunkowo proste.</p>
+</section>
+</abiword>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="0.99.3" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.000000; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:pl-PL">Powiększenie -- okno d</c>ialogowe</p>
+<p style="Normal">Pozwala dostosować powiększenie dokumentu widzianego na ekranie.</p>
+<p style="Heading 2">Powiększ do:</p>
+<p style="Normal">Opcje te ustalają powiększenie: 200%, 100% oraz 75% w stosunku do rozmiarów na wydruku. Możesz także ustawić dowolne powiększenie używając opcji "Procent:" umieszczonej w dolnej części listy. Kliknij przycisk, a następnie klikając na górną lub dolną strzałę możesz zmienić wartość. Możesz także wybrać okienko i pisać odpowiednią liczbę.</p>
+<p style="Normal">'Szerokość strony' <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">ustawia takie powiększenie, że cała szerokość strony dokumentu mieści się w twoim oknie. 'Cała strona' ustawia powiększenie tak, że cała strona mieści się w oknie. Możesz wtedy obejrzeć układ całej strony</c>.</p>
+<p style="Heading 2">Podgląd</p>
+<p style="Normal">Okno to pokazuje jaką widoczność będzie miała nazwana w oknie czcionka przy wybranym przez ciebie powiększeniu. Pogląd jest widoczny tylko przy powiększeniu wyrażonym w procentach, nie jest on generowany przy powiększeniu definiowanym w oparciu o rozmiar strony.</p>
+<p style="Heading 2">OK</p>
+<p style="Normal">Ten przycisk zamyka okno dialogowe i zmienia skalę dokumentu zgodnie z wybranym p<c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">owiększeniem</c>.</p>
+<p style="Heading 2">Anulluj</p>
+<p style="Normal">Ten przycisk zamyka okno dialogowe bez zmiany powiększenia dokumentu.</p>
+</section>
+</abiword>

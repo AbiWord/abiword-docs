@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="0.99.3" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal Clean" basedon="Normal" followedby="Current Settings" props="text-align:left; font-weight:normal; margin-top:0pt; line-height:1.000000; field-font:NULL; font-style:normal"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.00cm; page-margin-header:0.00cm; page-margin-right:2.54cm; page-margin-left:2.54cm; page-margin-top:2.54cm; page-margin-bottom:2.54cm">
+<p style="Heading 1"><c props="lang:pl-PL"></c>Menu Wstaw</p>
+<p style="Normal"><c style="Normal">Niniejsze menu pozwala ci na wstawianie różnego rodzaju elementów do twojego dokumentu.</c></p>
+<p style="Heading 2"><a xlink:href="dialogbreak.html">Znak podziału<c style="Heading 2">...</c></a></p>
+<p style="Normal"><c style="Normal">Polecenie to otwiera okno dialogowe Znak podziału, które pozwala ci wstawić znak podziału strony, kolumny czy też sekcji.</c></p>
+<p style="Heading 2"><a xlink:href="dialogpagenumbers.html">Numerację stron<c style="Heading 2">...</c></a></p>
+<p style="Normal"><c style="Normal">Polecenie to otwiera okno dialogowe Numeracja stron, które pozwala ci wstawić automatyczną numerację stron do nagłówka lub stopki twojego dokumentu.</c></p>
+<p style="Heading 2"><a xlink:href="dialogdateandtime.html"><c style="Heading 2">Datę i godzinę...</c></a></p>
+<p style="Normal"><c style="Normal">Otwiera okno dialogowe Data i godzina, które pozwala ci wstawić do twojego dokumentu pola pokazujące aktualną datę i godzinę.</c></p>
+<p style="Heading 2"><a xlink:href="dialogfield.html">Pole<c style="Heading 2">...</c></a></p>
+<p style="Normal"><c style="Normal">Okno dialogowe Pole pozwala ci na wstawienie do twojego dokumentu pola zdefiniowanego w AbiWordzie. Pola to takie elementy, które automatycznie uaktualniają swoje wartości.</c></p>
+<p style="Heading 2"><a xlink:href="dialogsymbol.html"><c style="Heading 2">Symbol...</c></a></p>
+<p style="Normal"><c style="Normal">Polecenie to otwiera okno dialogowe Wstaw symbol, które umożliwia ci wstawienie do twojego dokumentu nietypowych symboli z różnych zestawów czcionek.</c></p>
+<p style="Heading 2"><c style="Heading 2">Autotekst</c></p>
+<p style="Normal"><c style="Normal">Podmenu Autotekst daje ci dostęp różnego rodzaju predefiniowanego tekstu, który możesz wstawić do twojego dokumentu. Każde z poleceń w podmenu ma swoje własne podmenu. D</c><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">o twojego dokumentu może być wstawiony t</c><c style="Normal">ekst z listy poleceń na najniższym poziomie menu, jeśli wybierzesz odpowiednie polecenie.</c></p>
+<p style="Normal"><c style="Normal">Na przykład jeśli wybierzesz Autotekst &gt; Odnośnik: &gt; W odpowiedzi na:, to</c><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"> w aktualnej pozycji kursora</c><c style="Normal"> </c><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">do twojego dokumentu wstawiany jest </c><c style="Normal">tekst 'W odpowiedzi na:'.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Plik...</c></p>
+<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Heading 2" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Wstawia zawartość pliku do otwartego dokumentu. Polecenie to otwiera okno dialogowe Wstaw plik, które jest takie samo jak typowe okno dialogowe Otwórz plik.</c></p>
+<p style="Heading 2" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><a xlink:href="dialogbookmark.html"><c style="Heading 2" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Zakładkę...</c></a></p>
+<p style="Normal Clean" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><c style="Normal Clean" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Otwiera okno dialogowe Wstaw zakładkę, które pozwala ci wstawić nazwany niewidzialny znacznik do twojego dokumentu. Możesz tworzyć hiperłącza do zakładek i przechodzić do nich w dialogach Przejdź do.</c></p>
+<p style="Heading 2" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><a xlink:href="dialoghyperlink.html"><c style="Heading 2" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Hiperłącze...</c></a></p>
+<p style="Normal Clean" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><c style="Normal Clean" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Otwiera okno dialogowe Wstaw hiperłącze. Jeśli klikniesz na hiperłącze, to jesteś przenoszony do innej części dokumentu albo do innego dokumentu, albo na stronę internetową. Hiperłącza wyświetlane są podkreśloną czcionką w kolorze niebieskim.</c></p>
+<p style="Heading 2" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><c style="Heading 2" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Grafikę...</c></p>
+<p style="Normal"><c style="Normal">Polecenie to otwiera okno dialogowe '</c><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Wstaw grafikę</c><c style="Normal">', które zachowuje się podobnie jak okno dialogowe Otwórz. Możesz otworzyć dowolny plik typu png lub bmp, a następnie wstawić go do twojego dokumentu w aktualnej pozycji kursora. Prawdopodobnie będziesz miał możliwość otwarcia także innych formatów graficznych, w zależności od systemu operacyjnego oraz zainstalowanych modułów dodatkowych.</c></p>
+</section>
+</abiword>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="0.99.3" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.000000; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Normal Clean" basedon="Normal" props="line-height:1.000000"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c style="Heading 1" props="lang:pl-PL">Pasek Dodatkowy</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">Przy domyślnych ustawieniach pasek dodatkowy nie jest wyświetlany. Możesz go uaktywnić w manu Widok.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">Ten przycisk wstawia hiperłącze do dokumentu; otwiera okno dialogowe </c><a xlink:href="dialoghyperlink.html">Wstaw hiperłącze</a><c style="Normal Clean" props="lang:en-US">.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Ten przycisk wstawia zakładkę </c><c style="Normal Clean" props="lang:en-US">(nazywaną też 'kotwicą', stąd taka ikona) do dokumentu; </c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">otwiera okno dialogowe</c><c style="Normal Clean" props="lang:en-US"> </c><a xlink:href="dialogbookmark.html">Wstaw zakładkę</a><c style="Normal Clean" props="lang:en-US">.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-US">Ten przycisk </c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">nadkreśla tekst.</c><c style="Normal Clean" props="lang:en-US"> Kli</c><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">knij jeden raz, by wcisnąć i włączyć nadkreślanie tekstu, ponowne kliknięcie wyciska przycisk i wyłącza nadkreślanie. Jeśli żaden fragment tekstu nie jest zaznaczony, to wciśnięcie czy wyciśnięcie przycisku zmienia jego stan i ma on zastosowanie do wpisywanego tekstu. Jeśli natomiast zaznaczony jest jakiś fragment tekstu, to wciśnięcie tego przycisku dokonuje zamiany: test nadkreślony staje się normalny, a tekst normalny staje się nadkreślony.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Ten przycisk przekreśla tekst; działa podobnie jak przycisk nadreślenia.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c style="Normal Clean" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Ten przycisk ustawia opcję linia nad tekstem; działa podobnie jak przycisk nadreślenia. Linia ta jest położona nieco wyżej niż linia nadkreślenia. Linia nad tekstem jest używana głównie przy tworzeniu tabel.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean">T<c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">en przycisk ustawia opcję linia pod tekstem; działa podobnie jak przycisk nadreślenia. Linia ta jest położona nieco niżej niż linia podkreślenia. Linia pod tekstem jest używana głównie przy tworzeniu tabel.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Ten przycisk ustawia opcję indeksu górnego; działa podobnie jak przycisk nadreślenia.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Ten przycisk ustawia opcję indeksu dolnego; działa podobnie jak przycisk nadreślenia.</c></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Ten przycisk </c>otwiera okno dialogowe <a xlink:href="dialogsymbol.html">Wstaw symbol</a>.</p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Ten przycisk uruchamia skrypt</c> perla; działa tylko wtedy, gdy skrypty tego języka są dostępne.</p>
+<p style="Normal Clean"></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Te przyciski ustawiają odstępy przed nowym akapitem</c>. Lewy ustawia odstęp na zero, prawy na 12 punktów.</p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Te przyciski ustawiają interlinię (odstepy w pionie pomiędzy kolejnymi wierszami akapitu)</c>. <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Lewy ustawia pojedynczą interlinię, wtedy odległość pomiędzy kolejnymi wierszami jest niewielka</c>. Środkowy ustawia interlinię na półtora wiersza. Prawy ustawia podwójną interlinię; przy tym ustawieniu wstawiany jest dodatkowy odstęp pomiędzy wiersze akapitu równoważny jednemu pustemu wierszowi.</p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Ten przycisk przemieszcza kursor do nagłówka</c>. Jeśli nagłówek nie istnieje, to wciśnięcie przycisku powoduje jego utworzenie.</p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Ten przycisk przemieszcza kursor do stopki. Jeśli stopka nie istnieje, to wciśnięcie przycisku powoduje jej utworzenie.</c></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt">Wciśnięcie tego przycisku usuwa nagłówek z dokumentu; dostępny tylko wtedy, gdy dokument ma nagłówek.</p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"></p>
+<p style="Normal Clean" props="margin-top:0pt"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Wciśnięcie tego przycisku usuwa stopkę z dokumentu; dostępny tylko wtedy, gdy dokument ma stopkę.</c></p>
+</section>
+</abiword>

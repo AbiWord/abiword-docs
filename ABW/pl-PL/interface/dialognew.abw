@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="0.99.5" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-US; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0.00cm; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1" props="text-align:left"><c props="lang:pl-PL"></c><c props="lang:pl-PL">Nowy plik - okno dialogowe</c></p>
+<p style="Normal"><c props="lang:pl-PL">Dialog Nowy Plik (lub Wybierz Szablon) pozwala utworzć pliki oparte na szablonach. Szablon definuje style i wyjściowy tekst pliku. Jeśli często piszesz listy, to mółbyć utworzyć sobie szablon ze wpisanymi już adresami.</c></p>
+<p style="Heading 2"><c props="lang:pl-PL">Utwórz nowy dokument oparty na Szablonie</c><c props="lang:pl-PL"></c></p>
+<p style="Normal"><c props="lang:pl-PL">Wybierając tę opcję musisz ponadto wybrać szablon z listy poniżej tej opcji. Lista ta zawiera wszystkie zdefiniowane przez ciebie szablony, jak również wszyskie inne zainstalowane w twoim systemie. Kilka szablonów jest instalowanych w czasie instalacji programu AbiWord. Nowy dokument jest tworzony na podstawie jednego, zaznaczonego szablonu.</c><c props="lang:pl-PL"></c></p>
+<p style="Heading 2"><c props="lang:pl-PL">Utwórz z istniejącego dokumentu</c><c props="lang:pl-PL"></c></p>
+<p style="Normal"><c props="lang:pl-PL">Opcja ta tworzy nowy dokument z taką samą zawartością i stylami jak istniejący już dokument, który został włąśnie wybrany. Opcja ta jest równoznaczna z poleceniem Importuj.</c><c props="lang:pl-PL"></c></p>
+<p style="Heading 2"><c props="lang:pl-PL">Utwórz pusty dokument</c><c props="lang:pl-PL"></c></p>
+<p style="Normal"><c props="lang:pl-PL">Opcja ta tworzy nowy dokument oparty na domyślnym szablonie. Domyślny szablon to plik normal.awt umieszczony w twoim katalogu domowym (home). Jeśli taki katalog nie istnieje, to jest to plik szablonu normal.awt zainstalowany z programem AbiWord. Jeżeli żaden z wymienionych plików nie istnieje, to wartości domyślne ustalane są na podstawie wartości wbudowanych w programie AbiWord.</c><c props="lang:pl-PL"></c></p>
+<p style="Heading 2"><c props="lang:pl-PL">OK</c><c props="lang:pl-PL"></c></p>
+<p style="Normal"><c props="lang:pl-PL">Wciskając ten przycisk zamykasz dialog i tworzysz nowy dokument zgodnie z wybraną opcją.</c><c props="lang:pl-PL"></c></p>
+<p style="Heading 2"><c props="lang:pl-PL">Anuluj</c><c props="lang:pl-PL"></c></p>
+<p style="Normal"><c props="lang:pl-PL">Wciskając ten przycisk zamykasz dialog bez tworzenia nowego dokumentu.</c><c props="lang:pl-PL"></c></p>
+</section>
+</abiword>

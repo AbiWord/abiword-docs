@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.1" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; dom-dir:ltr; color:000000; line-height:1.000000; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<p style="Heading 1"><c props="lang:pl-PL"></c><c props="lang:pl-PL">Kilka słów o Open Source</c></p>
+<p style="Normal"><c props="lang:pl-PL"></c></p>
+<p style="Normal"><c props="lang:pl-PL">Open Source (ang.) znaczy otwarte źródło. T</c><c props="lang:pl-PL"></c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:pl-PL">erminem tym </c><c props="lang:pl-PL">określane jest oprogramowanie</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:pl-PL; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"> z</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:pl-PL"> udostępnionym kodem źródłowym.</c></p>
+<p style="Normal"></p>
+<p style="Normal"><c props="lang:pl-PL">Oprogramowanie Open Source, jak na przykład program AbiWord, upoważnia do swobodnego rozpowszechniania, nieograniczonego używania i dystrybucji, z kodem źródłowym włącznie. Chociaż koncepcja ta miała zwolenników przez dziesięciolecia, to dopiero ostatnio powszechny dostęp do Internetu dostarczył środków do szybkiej i szerokiej dystrybucji wolnego oprogramowania. Niepowstrzymywane przez ograniczenia prawne programy opensource'owe mogą dotrzeć do rozległej rzeszy użytkownków znacznie szybciej niż tradycyjne, handlowe kopie.</c><c props="lang:pl-PL"></c></p>
+<p style="Normal"><c props="lang:pl-PL"></c></p>
+<p style="Normal"><c props="lang:pl-PL">Społeczność opensource'owa </c><c props="lang:pl-PL"></c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:pl-PL; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">w zaciszu Internetu zbudowała </c><c props="lang:pl-PL">oprogramowanie, które dziś należy do najbardziej rozpowszechnionego na świecie, z Apachem na czele -- najpopularniejszym serwerem internetowym oraz GNU/Linuksem -- popularnym, w pełni funkcjonalnym opensource'owym systemem operacyjnym.</c></p>
+<p style="Normal"><c props="lang:pl-PL"></c></p>
+<p style="Normal"><c props="lang:pl-PL">Więcej informacji na ten temat możesz uzyskać odwiedzając witrynę internetową </c><c props="lang:pl-PL"></c><a xlink:href="http://www.opensource.org"><c props="lang:pl-PL">OpenSource.Org</c></a><c props="lang:pl-PL">. </c></p>
+</section>
+</abiword>

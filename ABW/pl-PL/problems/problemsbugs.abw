@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword styles="unlocked" version="CVS-HEAD" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:pl-PL">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Mon Sep 16 20:14:36 2002</m>
+</metadata>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<lists>
+<l id="487649529" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:en-US"></c>Zgłaszanie błędów -- Report a Bug</p>
+<p style="Heading 2">It's Probably a Bug!</p>
+<p style="Normal">Some users are timid about submitting bugs. They might think that they "did" something to the program to cause it to misbehave. Don't be afraid! It probably is a bug, and if it's not that's ok too. In particular, the following are almost certainly signs of a bug:</p>
+<p level="1" listid="487649529" parentid="0" props="start-value:0; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><field type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></field><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal">	</c><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></c>AbiWord crashed with "Illegal Operation" or segmentation fault</p>
+<p level="1" listid="487649529" props="list-delim:%L; list-decimal:.; list-style:Bullet List; start-value:0; margin-left:0.5000in; text-indent:-0.3000in; field-font:Symbol"><field type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></field><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal">	</c><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></c>AbiWord "freezes" and stops responding.</p>
+<p level="1" listid="487649529" props="list-delim:%L; list-decimal:.; list-style:Bullet List; start-value:0; margin-left:0.5000in; text-indent:-0.3000in; field-font:Symbol"><field type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></field><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal">	</c><c type="list_label" props="width:0in; font-family:Times New Roman; font-style:normal; font-weight:normal; lang:en-US; color:000000; bgcolor:transparent; text-decoration:none; font-size:12pt; height:0in; text-position:normal"></c>AbiWord won't do X correctly (print, open a file, etc.)</p>
+<p style="Normal">Other, less drastic but "weird" behavior could still be a bug. In particular, if a preferences-option doesn't do what it's supposed to do, a window doesn't act like it ought to, these are probably also bugs.</p>
+<p style="Heading 2">Before You Report A Bug</p>
+<p style="Normal">Please take a look at the Bug Writing Guidelines. Following these guidelines will make it easier for the developers to solve the problem. Thanks!</p>
+<p style="Heading 2">How To Report A Bug</p>
+<p style="Normal">AbiWord uses a system called BugZilla to keep track of bugs. BugZilla is easy to use and makes it easy to see how your bug has progressed, and when it is resolved.</p>
+<p style="Normal">To report a bug, you first must create a BugZilla account. This is easy and only requires a valid email address. Once you create your account, a password will be mailed to the email address you specified. You only need to create an account once, and you can use it from then on out to report as many bugs as you can find.</p>
+<p style="Normal">Once you receive the password, you can enter a new bug report. The easiest way to do this is by selecting the 'Report a Bug' option on the Help menu of AbiWord. This opens your web browser, connects to BugZilla, and automatically fills in information about your version of AbiWord and your operating system. Note that all the information sent to the server is visible on the form, and that you would have to fill it in by hand to submit a useful bug anyway. No personal information is transmitted.</p>
+<p style="Normal">After you've submitted a bug, you can always go back and add more details. To do this, just go to BugZilla's QuickSearch and search for your bug by number or keywords. You can then go into your bug and add additional comments.</p>
+<p style="Heading 2">What Should I Expect Afterwards?</p>
+<p style="Normal">The time it takes for a bug to be fixed is largely dependent on how elusive the bug is. In general, you should receive some form of acknowledgement that your bug has been received.</p>
+<p style="Normal">In particular, if you included instructions on how to repeat the bug (recommended), then you will likely get some responses that say "I (was/was not) able to reproduce the bug." If other people can reproduce the bug, this is good and it will probably get resolved quickly. If the bug isn't reproducible, it may be awhile before its cause is tracked down.</p>
+<p style="Normal">If the bug cannot be reproduced from the instructions provided, a developer will not be able to do anything about the problem. She will normally leave a comment asking for more information (or just add the keyword 'needinfo'). This is a request for you to add more details or answer questions from the developer - the bug will be closed if this does not happen in a timely manner (say within 14 weeks). If one of your bugs has been closed in this way, you are always welcome to add the needed information and reopen the Bug.</p>
+<p style="Normal">You can check the status of your bug at any time. To do this, you can use BugZilla's QuickSearch (new window) and search for your bug by number or keywords.</p>
+</section>
+</abiword>

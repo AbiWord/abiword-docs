@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.2" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c style="Heading 1" props="lang:pl-PL"></c><c style="Heading 1" props="lang:en-US">Modyfikacja stylów -- okno dialogowe</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Pozwala na modyfikację stylu używanego w dokumencie.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Nazwa stylu:</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">W oknie tym wyświetlana jest nazwa modyfikowanego stylu. Nie możesz jej zmienić. Aby zmienić nazwę stylu, utwórz nowy styl oparty na stylu, którego nazwę chcesz zmienić, a następnie nadaj mu wybraną przez siebie nazwę.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Rodzaj stylu:</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">W tym oknie wyświetlany jest rodzaj stylu. W tej wersji AbiWorda dostępne są jedynie style akapitów, inne rodzaje stylów będą dodane w przyszłych wersjach.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Oparty na:</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Możesz tutaj zmienić styl, na którym oparty jest</c><c style="Normal" props="lang:en-US"></c><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"> styl</c><c style="Normal" props="lang:en-US"> bieżący. Właściwości stylu, które były dziedziczone z jego poprzedniego stylu bazowego, są zmieniane tak, by pasowały do nowego stylu.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Domyślny styl następnego akapitu:</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Możesz zdefiniować style tak, aby po wciśnięciu klawisza Enter (Return) styl się zmieniał. Jest to szczególnie użyteczne przy stylach dla tytułów (heading). Wybierz z okna menu rozwijanego nazwę stylu, który ma następować po stylu, który właśnie modyfikujesz. Zwrot 'Bieżące Ustawienia' (bieżące ustawienia) oznacza, iż style nie będą zmieniane po zakończeniu wpisywania akapitu; wszystkie </c><c style="Normal" props="lang:en-US"></c><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">dokonane przez ciebie </c><c style="Normal" props="lang:en-US">dodatkowe zmiany formatowania będą uwzględnione.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Podgląd</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Przykładowy wygląd twojego stylu. Tekst nowego stylu zaznaczony jest nieco grubszą czcionką.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Opis</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Lista właściwości stylu z ich wartościami liczbowymi. Na przykład jeśli właściwością będzie 'text-decoration' (czyli tekst-efekty), to wartością może być 'underline' (czyli </c><c style="Normal" props="lang:en-US"></c><c style="Normal" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">podkreślenie</c><c style="Normal" props="lang:en-US">). Właściwości i wartości oddzielone są dwukropkiem.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Usuń właściwość ze stylu</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Rozwijane menu zawiera listę wszystkich właściwości występujących w stylu. To nie jest lista wartości dla poszczególnych właściwości, lecz jedynie definicje zmieniające styl. Aby usunąć daną właściwość, wybierz ją z listy menu rozwijalnego. Pojawi się ona w oknie. Następnie kliknij przycisk 'Usuń'.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">OK</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Ten przycisk </c><c style="Normal" props="lang:en-US"></c><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">modyfikuje twój styl i </c><c style="Normal" props="lang:en-US">zamyka okno dialogowe.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Anuluj</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Ten przycisk zamyka okno dialogowe bez modyfikacji stylu.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Formatowanie</c><c style="Heading 2" props="lang:en-US"></c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Menu formatowania daje ci dostęp do okien dialogowych, w których możesz ustawić właściwości stylu. Okna dialogowe są takie same, jak używane w menu Format, jednak wszystkie dokonane zmiany mają zastosowanie raczej do tworzonego stylu niż do bieżącego tekstu.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 3"><a xlink:href="dialogparagraph.html">Akapit</a></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Otwiera okno dialogowe Akapit.</c><c style="Normal" props="lang:en-US"></c></p>
+<p style="Heading 3"><a xlink:href="dialogfont.html">Czcionka</a></p>
+<p style="Normal"><c style="Normal" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Otwiera okno dialogowe Czcionka</c><c style="Normal" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c><c style="Normal" props="lang:en-US">.</c></p>
+<p style="Heading 3"><a xlink:href="dialogtabs.html"><c style="Heading 3" props="lang:en-US">Tabulatory</c><c style="Heading 3" props="lang:en-US"></c></a></p>
+<p style="Normal"><c style="Normal" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Otwiera okno dialogowe Tabulatory</c><c style="Normal" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c><c style="Normal" props="lang:en-US">.</c></p>
+<p style="Heading 3"><a xlink:href="dialoglists.html">Wyliczanie</a></p>
+<p style="Normal"><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Otwiera okno dialogowe Wyliczanie</c><c style="Normal" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c><c style="Normal" props="lang:en-US">.</c></p>
+<p style="Heading 3"><a xlink:href="dialoglanguage.html">Język</a></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Otwiera okno dialogowe Język.</c><c style="Normal" props="lang:en-US"></c></p>
+</section>
+</abiword>

@@ -1,0 +1,20 @@
+This file describes what should be done with Polish 
+translation of the Abi Word documentation.
+
+If you read it and you can translate docs into Polish 
+you are very wellcome. Please e-mail to me: abi@rth.coi.waw.pl
+
+Missing abw Polish files of docs:
+
+1. abiword-docs/ABW/pl-PL/problems/problemsfonts.abw
+2. abiword-docs/ABW/pl-PL/problems/problemshelp.abw
+3. abiword-docs/ABW/pl-PL/problems/problemsbugs.abw
+
+4. abiword-docs/ABW/pl-PL/info/infospelling.abw
+
+5. twenty four small files from /interface directory
+
+I will work first of all with positions 4 and 5.
+
+Andrzej Pruszynski
+e-mail: abi@rth.coi.waw.pl
