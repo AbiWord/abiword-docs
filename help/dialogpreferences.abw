@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<abiword version="unnumbered"  fileformat="1.0">
+<abiword version="unnumbered" fileformat="1.0">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -9,14 +9,15 @@
 
 <!--         Build_ID          = (none) -->
 <!--         Build_Version     = unnumbered -->
-<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:Off Scripting:Off -->
 <!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 12:31:00 -->
-<!--         Build_CompileDate = May 19 2001 -->
+<!--         Build_CompileTime = 20:23:04 -->
+<!--         Build_CompileDate = Jul  3 2001 -->
 
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1">Preferences Dialog</p>
+<p style="Normal"><c style="Normal" props="lang:en-US">David Chart 2001</c></p>
+<p style="Heading 1"><c props="lang:en-US"></c>Preferences Dialog</p>
 <p style="Normal">The preferences dialog lets you set up the way you want AbiWord to run on your system. As with the spellcheck dialog, you cannot do anything else while the preferences dialog is open. The preferences dialog has four tabs: Toolbars, Spelling, Layout, and Preference Schemes. Clicking on one of the tabs brings the relevant commands to the front of the dialog so that you can alter them.</p>
 <p style="Heading 2">Toolbars</p>
 <p style="Heading 3">Toolbars</p>
@@ -49,7 +50,7 @@
 <p style="Heading 3">Default Page Size</p>
 <p style="Normal">This sets the page size for a new document.</p>
 <p style="Heading 3">Enable Smart Quotes</p>
-<p style="Normal">If this is selected, AbiWord automatically replaces dumb quotes with smart quotes.</p>
+<p style="Normal">If this is selected, AbiWord automatically replaces dumb quotes with smart quotes. Smart quotes curl in the appropriate direction at the beginning and end of quotations.</p>
 <p style="Heading 3">Allow screen colors other than white</p>
 <p style="Normal">If this is selected, you can use the 'Choose Screen Color' button to choose the background color for your documents.</p>
 <p style="Heading 3">Choose Screen Color</p>

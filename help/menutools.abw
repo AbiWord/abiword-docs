@@ -11,9 +11,15 @@
 <!--         Build_Version     = unnumbered -->
 <!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:Off Scripting:Off -->
 <!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 23:00:30 -->
-<!--         Build_CompileDate = Jun 21 2001 -->
+<!--         Build_CompileTime = 18:53:52 -->
+<!--         Build_CompileDate = Jun 29 2001 -->
 
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="margin-top:0pt; font-size:12pt; font-family:Times New Roman; field-font:NULL"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Current Settings" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Current Settings" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Current Settings" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
 <p style="Normal"><c style="Normal" props="lang:en-US">David Chart 2001</c></p>
@@ -26,7 +32,7 @@
 <p style="Heading 3">Auto Spellcheck</p>
 <p style="Normal">If this option is selected, AbiWord checks the spelling of your document as you type, underlining mis-spelled words with a wiggly red line.</p>
 <p style="Heading 2">Language</p>
-<p style="Normal">The language submenu currently has only one command, Language... This is only available if you have text selected in the current document. The command opens the Language dialog, and allows you to change the dictionaries and such that AbiWord uses to check the selected text.</p>
+<p style="Normal">The language submenu currently has only one command, Language... The command opens the Language dialog, and allows you to change the dictionaries and such that AbiWord uses to check the selected text.</p>
 <p style="Heading 2">Word Count...</p>
 <p style="Normal">This command opens the Word Count dialog, and counts the words in your document.</p>
 <p style="Heading 2">Plugins</p>
