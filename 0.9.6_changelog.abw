@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:12pt; margin-left:0.00cm; font-size:14pt; field-font:NULL; margin-bottom:12pt; font-weight:bold; text-indent:0.00cm; text-align:left; margin-right:0.00cm; font-family:Arial"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:en-GB">0.9.6 Changelog</c></p>
+<p style="Normal"><c props="lang:en-GB">As usual, this log records all changes made between 0.9.5 and 0.9.6. Not all of these changes will be visible in the final binary.</c></p>
+<p style="Heading 2">Jeremy Davis</p>
+<p style="Normal">Fix for incorrect number of colors declared in an icon, which broke the build.</p>
+<p style="Heading 2"><c props="list-tag:1616658760; lang:en-GB">Francis Franklin</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Big-endian deutsch dictionary.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Little-endian latin dictionary.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Rewrite of glib and gtk+ detection in abi and wv.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Build fix for wv.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Patch for building rpms.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Patch to allow Abi to build against installed versions of wv, rather than the peer library.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Work on making automake build plugins.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Build fixes in abi and libiconv for non-Win32.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Fixes to make Abi build on FreeBSD.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Added test case for plugins.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Work on plugin building.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Fix build for bz2 plugin.</c></p>
+<p style="Heading 2"><c props="list-tag:1616658760; lang:en-GB">Tomas Frydrych</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Bi-directional bug fixes.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Fixes to the way font path is set.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Locale and Unix font docs.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Bug fixes in image import.</c></p>
+<p style="Heading 2"><c props="list-tag:1616658760; lang:en-GB">Alan Horkan</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">16x16 icon for Enlightenment.</c></p>
+<p style="Heading 2"><c props="list-tag:1616658760; lang:en-GB">Dom Lachowicz</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Plugin to read OpenWriter documents. Very basic at the moment.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Reorganised plugin directory to make it easier to handle.</c></p>
+<p style="Heading 2"><c props="list-tag:1616658760; lang:en-GB">Gediminas Paulauskas</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Lithuanian translation update.</c></p>
+<p style="Heading 2"><c props="list-tag:1616658760; lang:en-GB">Michael D. Pritchett</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Build system for bz2 plugin on Win32.</c></p>
+<p style="Heading 2"><c props="list-tag:1616658760; lang:en-GB">Rui Miguel Seabra</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">New rpm spec.</c></p>
+<p style="Heading 2"><c props="list-tag:1616658760; lang:en-GB">Martin Sevior</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Preferences now in alphabetical order in preferences file.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Added preference to turn off auto-load of plugins.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Plugin allowing Abi to load any image format recognised by gdk-pixbuf.</c></p>
+<p style="Heading 2"><c props="list-tag:1616658760; lang:en-GB">Jesper Skov</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Fix a spelling error in the Danish translation.</c></p>
+<p style="Normal"><c props="list-tag:1616658760; lang:en-GB">Fixed an assertion in the squiggles code.</c></p>
+</section>
+</abiword>
