@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 12:28:03 -->
+<!--         Build_CompileDate = Jul 10 2001 -->
+
+<lists>
+<l id="1580643524" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US">AbiWord 0.9.0</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">AbiWord is a free, open source cross-platform word processor. Version 0.9.0 is the first beta release. As a beta release, it comes with an anti-warranty. It </c><c style="Normal" props="font-style:italic; lang:en-US">will</c><c style="Normal" props="font-style:normal; lang:en-US"> crash and do unexpected things, and some features will not work properly. You should not use it for any really vital work, and the normal rules about saving frequently apply even more strongly than usual.</c></p>
+<p style="Normal"><c style="Normal" props="font-style:normal; lang:en-US">However, a number of people have been using this version, and it is quite stable and powerful. Please try it, and report any bugs you find at http://bugzilla.abisource.com</c></p>
+<p style="Heading 2"><c style="Heading 2" props="font-style:normal; lang:en-US">Features</c></p>
+<p style="Normal"><c style="Normal" props="font-style:normal; lang:en-US">The following list of features merely hits the highlights.</c></p>
+<p level="1" listid="1580643524" parentid="0" style="Normal" props="font-family:Times New Roman; color:000000; margin-left:0.5000in; start-value:0; font-style:normal; text-indent:-0.3000in; text-decoration:none; bgcolor:transparent; list-style:Bullet List; font-size:12pt; font-weight:normal; text-position:normal; lang:en-US; field-font:Symbol"><c style="Normal" props="font-style:normal; lang:en-US"></c><field type="list_label"></field><c type="list_label">	Unlimited undo.</c></p>
+<p level="1" listid="1580643524" parentid="0" style="Normal" props="font-family:Times New Roman; color:000000; margin-left:0.5000in; start-value:0; font-style:normal; text-indent:-0.3000in; text-decoration:none; bgcolor:transparent; list-style:Bullet List; font-size:12pt; font-weight:normal; text-position:normal; lang:en-US; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	Styles, both built in and user-defined.</c></p>
+<p level="1" listid="1580643524" parentid="0" style="Normal" props="font-family:Times New Roman; color:000000; margin-left:0.5000in; start-value:0; font-style:normal; text-indent:-0.3000in; text-decoration:none; bgcolor:transparent; list-style:Bullet List; font-size:12pt; font-weight:normal; text-position:normal; lang:en-US; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	Headers, footers, and page numbers.</c></p>
+<p level="1" listid="1580643524" parentid="0" style="Normal" props="font-family:Times New Roman; color:000000; margin-left:0.5000in; start-value:0; font-style:normal; text-indent:-0.3000in; text-decoration:none; bgcolor:transparent; list-style:Bullet List; font-size:12pt; font-weight:normal; text-position:normal; lang:en-US; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	Spellchecking in many languages.</c></p>
+<p level="1" listid="1580643524" parentid="0" style="Normal" props="font-family:Times New Roman; color:000000; margin-left:0.5000in; start-value:0; font-style:normal; text-indent:-0.3000in; text-decoration:none; bgcolor:transparent; list-style:Bullet List; font-size:12pt; font-weight:normal; text-position:normal; lang:en-US; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	Localized for many languages.</c></p>
+<p level="1" listid="1580643524" parentid="0" style="Normal" props="font-family:Times New Roman; color:000000; margin-left:0.5000in; start-value:0; font-style:normal; text-indent:-0.3000in; text-decoration:none; bgcolor:transparent; list-style:Bullet List; font-size:12pt; font-weight:normal; text-position:normal; lang:en-US; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	Insert png and jpeg format images.</c></p>
+<p level="1" listid="1580643524" parentid="0" style="Normal" props="font-family:Times New Roman; color:000000; margin-left:0.5000in; start-value:0; font-style:normal; text-indent:-0.3000in; text-decoration:none; bgcolor:transparent; list-style:Bullet List; font-size:12pt; font-weight:normal; text-position:normal; lang:en-US; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	XML native format.</c></p>
+<p level="1" listid="1580643524" parentid="0" style="Normal" props="font-family:Times New Roman; color:000000; margin-left:0.5000in; start-value:0; font-style:normal; text-indent:-0.3000in; text-decoration:none; bgcolor:transparent; list-style:Bullet List; font-size:12pt; font-weight:normal; text-position:normal; lang:en-US; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	Import Applix, Docbook, Microsoft Word, XSL-FO, XHTML, Palm document, Psion Texted, Psion Word, RTF, Text (ASCII, ISCII, or Unicode), and WML files.</c></p>
+<p level="1" listid="1580643524" parentid="0" style="Normal" props="font-family:Times New Roman; color:000000; margin-left:0.5000in; start-value:0; font-style:normal; text-indent:-0.3000in; text-decoration:none; bgcolor:transparent; list-style:Bullet List; font-size:12pt; font-weight:normal; text-position:normal; lang:en-US; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	Export the importable formats (except Microsoft Word), as well as LaTeX, and text files formatted for posting on USENET, with *bold*, /italics/, and so on.</c></p>
+<p level="1" listid="1580643524" parentid="0" style="Normal" props="font-family:Times New Roman; color:000000; margin-left:0.5000in; start-value:0; font-style:normal; text-indent:-0.3000in; text-decoration:none; bgcolor:transparent; list-style:Bullet List; font-size:12pt; font-weight:normal; text-position:normal; lang:en-US; field-font:Symbol"><c type="list_label"></c><field type="list_label"></field><c type="list_label">	Free, open source software, available under the GPL.</c></p>
+</section>
+</abiword>
