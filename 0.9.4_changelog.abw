@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<!DOCTYPE abw PUBLIC "-//ABISOURCE//DTD ABW 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword version="unnumbered" fileformat="1.0">
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -8,33 +8,75 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal Clean" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="margin-top:0pt; font-size:12pt; font-family:Times New Roman; field-font:NULL"/>
+<s type="P" name="Normal Clean" basedon="Normal" followedby="Current Settings" props="text-align:left; margin-top:0pt; font-weight:normal; field-font:NULL; line-height:1.0; font-style:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal Clean" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p name="Heading 1"><c name="Heading 1" props="lang:en-GB">AbiWord 0.9.4 Changelog</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">This document is a list of all changes made to AbiWord between versions 0.9.3 and 0.9.4. It records changes to the development version, and they may not all be visible in the user binaries, particularly for new features which are incomplete or particularly buggy.</c></p>
-<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Joaquin Cuenca Abela</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Added a perl interpreter to the Win32 build.</c></p>
-<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Hubert Figuiere</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Work on rtf stylesheet import.</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Bug fixes, including 1688, and work on 1926.</c></p>
-<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Tomas Frydrych</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Bidirectional text bug fixes and improvements.</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Endnote improvements.</c></p>
-<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Marco Innocenti</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Italian translation update.</c></p>
-<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Dom Lachowicz</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">UT_Worker class. This is the basis for a bit of recoding that should vastly speed up operations such as spell checking.</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Bug fixes, including 1984.</c></p>
-<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Per Larsson</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Swedish translation update.</c></p>
-<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Matti Picus</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">RTF import bug fixes.</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Add ability to import stylesheets from rtf.</c></p>
-<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Michael Pritchett</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">New Win32 installer.</c></p>
-<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Rui Seabra</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">RPM spec file.</c></p>
-<p name="Heading 2"><c name="Heading 2" props="lang:en-GB">Martin Sevior</c></p>
-<p name="Normal Clean"><c name="Normal Clean" props="lang:en-GB">Work on rtf stylesheet import.</c></p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-GB">AbiWord 0.9.4 Changelog</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">This document is a list of all changes made to AbiWord between versions 0.9.3 and 0.9.4. It records changes to the development version, and they may not all be visible in the user binaries, particularly for new features which are incomplete or particularly buggy.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Joaquin Cuenca Abela</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added a perl interpreter to the Win32 build.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Code additions to allow dynamic alteration of the menus depending on whether a plug-in is loaded (initially for use with the Thesaurus plug in).</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Various bug fixes.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">John Anderson</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Win32 bug fix.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">John Clark</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">HTML export bug fix.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Jared Davis</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Work on a Thesaurus plug-in.</c></p>
+<p style="Heading 2" props="text-align:justify"><c style="Heading 2" props="lang:en-GB">Jeremy Davis</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixes to make BiDi work on Win32.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Hubert Figuiere</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Work on rtf stylesheet import and export.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Bug fixes, including 1688, 1883, and work on 1926.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Tomas Frydrych</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Bidirectional text bug fixes and improvements, including moving to fribidi.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Endnote improvements.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fix postscript printing with UTF-8.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Changes to behaviour of pilcrow.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Removed some bogus asserts.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Alan Horkan</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Strings correction.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Web page links fix.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Web page HTML corrections.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed bug 1662.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Marco Innocenti</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Italian translation update.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">William Lachance</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">More work on the Word Perfect importer.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Dom Lachowicz</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">UT_Worker class. This is the basis for a bit of recoding that should vastly speed up operations such as spell checking.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Made UT_Timer a subclass of UT_Worker.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Idle loop base class.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">ut_unixidle, which makes spell checking very fast on unix.</c></p>
+<p style="Normal Clean">Changes to the Plug-in API to make them easier to write.</p>
+<p style="Normal Clean">New dialogs for Import and Export.</p>
+<p style="Normal Clean">Updates to wv.</p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Bug fixes, including 1984.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Per Larsson</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Swedish translation update.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">David Mandelin</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">RTF stylesheet export.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">UT_Win32Idle. This should make spellchecking much, much faster.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Win32 build patch.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Matti Picus</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">RTF import bug fixes.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Add ability to import stylesheets from rtf.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Michael Pritchett</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">New Win32 installer.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Enabled Plug-ins for Windows, and provided a functionless test plug-in.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Win32 scripting update.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Win32 bug fixes.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Rui Seabra</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">RPM spec file.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Martin Sevior</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Work on rtf stylesheet import and export.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Changed the behaviour of styles so that you only get the 'next style' if you type return at the end of a paragraph.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Improved handling of lists with multiple views of the same document.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Bug fixes.</c></p>
 </section>
 </abiword>
