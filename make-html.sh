@@ -30,7 +30,7 @@ ABI_DOC_DEST="$CVS";
 fi
 
 if [ -z "$ABI_DOC_PROG" ]; then
-ABI_DOC_PROG="AbiWord-2.0";
+ABI_DOC_PROG="AbiWord-2.2";
 fi
 
 html_export_options="html4: no; use-awml: no; embed-css: yes; embed-images:yes"
