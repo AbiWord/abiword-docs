@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<abiword version="unnumbered" fileformat="1.0">
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -7,17 +8,11 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<!--         Build_ID          = (none) -->
-<!--         Build_Version     = unnumbered -->
-<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:Off Scripting:Off -->
-<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 18:53:52 -->
-<!--         Build_CompileDate = Jun 29 2001 -->
-
 <styles>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="margin-top:0pt; font-size:12pt; font-family:Times New Roman; field-font:NULL"/>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Current Settings" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Current Settings" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" basedon="Normal" followedby="Current Settings" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" basedon="Normal" followedby="Current Settings" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="margin-bottom:6pt; field-font:NULL; margin-left:1in; margin-right:1in"/>
 </styles>
 <ignoredwords>
 <iw>endian</iw>
@@ -28,12 +23,58 @@
 <lists>
 <l id="729177224" parentid="0" type="0" start-value="1" list-delim="%L." list-decimal="."/>
 </lists>
-<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section props="background-color:transparent">
-<p style="Normal"><c style="Normal" props="lang:en-US">Dom Lachowicz, David Chart 2001</c></p>
-<p style="Heading 1"><c style="Heading 1" props="lang:en-US"></c><c style="Heading 1">Spell Checking and AbiWord</c></p>
-<p style="Normal"><c style="Normal">With the 0.9.0 release of AbiWord, you can expect to see great improvements in its proofing capabilities. This release supports more languages than ever and also allows the user to easily create multi-lingual documents. </c></p>
+<p style="Normal"><c style="Normal" props="lang:en-GB"></c><c style="Normal" props="lang:en-US">Dom Lachowicz, David Chart 2001</c></p>
+<p style="Heading 1"><c style="Heading 1">Spell Checking and AbiWord</c></p>
+<p style="Normal"><c style="Normal">AbiWord supports spell checking in many languages, and allows you to have different parts of a single document in different languages.</c></p>
 <p style="Heading 2"><c style="Heading 2">Supported Spell Checkers</c></p>
+<<<<<<< infospelling.abw
+<p style="Normal"><c style="Normal">AbiWord supports both the Pspell and Ispell spell checkers - which one is used is determined at compile-time, so if you're downloading a binary, one of these has been selected for you. Pspell is only known to work on Unix platforms currently, so if you're not running on Unix, you're definitely using Ispell.</c></p>
+<p style="Heading 2"><c style="Heading 2">Gotchas</c></p>
+<p style="Normal"><c style="Normal">Of course, you can only spell-check words if you have the dictionary for that particular language installed. Pspell dictionaries can be found at pspell.sourceforge.net. Currently, AbiWord ships Ispell dictionaries (commonly referred to as `hash files´) that are known to work with the AbiWord product. Unless your distributor has packaged AbiWord specially, AbiWord expects its Ispell dictionaries to be in the following format: </c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; color:000000; font-weight:normal; bgcolor:transparent; start-value:1; font-style:normal; text-indent:-0.3000in; text-decoration:none; lang:en-US; list-style:Numbered List; text-position:normal; margin-left:0.5000in; font-size:12pt; field-font:NULL"><field type="list_label"></field><c type="list_label">	</c><c style="Normal">128 byte long strings </c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; list-decimal:.; margin-left:0.5000in; bgcolor:transparent; start-value:1; font-style:normal; font-weight:normal; text-position:normal; color:000000; list-delim:%L; lang:en-US; text-decoration:none; font-size:12pt; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL"><field type="list_label"></field><c type="list_label">	</c><c style="Normal">52 "flags" </c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; list-decimal:.; margin-left:0.5000in; bgcolor:transparent; start-value:1; font-style:normal; font-weight:normal; text-position:normal; color:000000; list-delim:%L; lang:en-US; text-decoration:none; font-size:12pt; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL"><field type="list_label"></field><c type="list_label">	</c><c style="Normal">capitalization enabled </c></p>
+<p level="1" listid="729177224" parentid="0" style="Normal" props="font-family:Times New Roman; list-decimal:.; margin-left:0.5000in; bgcolor:transparent; start-value:1; font-style:normal; font-weight:normal; text-position:normal; color:000000; list-delim:%L; lang:en-US; text-decoration:none; font-size:12pt; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL"><field type="list_label"></field><c type="list_label">	</c><c type="list_label" style="Normal">Proper endianness (little endian if you´re on a i386 class machine, or big endian for Alpha, PPC, MIPS)</c><c style="Normal"> </c></p>
+<p level="1" listid="0" parentid="0" style="Normal" props="color:000000; list-decimal:.; margin-left:0in; bgcolor:transparent; start-value:1; font-style:normal; text-indent:0in; text-position:normal; list-delim:%L; lang:en-US; text-decoration:none; font-weight:normal; list-style:Numbered List"><c style="Normal">If you are running a Unix variant, you can determine this information by typing `file &lt;foo.hash&gt;´ Typically, the output looks something like this:</c></p>
+<p style="Block Text">/usr/lib/ispell/norsk.hash: little endian ispell 3.1 hash file, 8-bit, capitalization, 52 flags and 128 string characters</p>
+<p style="Normal">If you are using Ispell,AbiWord expects to find these dictionaries in a specific place. For Unix machines, this is typically /usr/local/AbiSuite/dictionary/. For Windows machines, this is typically C:\Program Files\AbiSuite\dictionary\ </p>
+<p style="Normal">AbiWord can also use pre-installed Ispell dictionaries. You may achieve this by simply copying them to the AbiWord dictionary directory ('cp' on Unix) or by using symbolic links, should your platform support that feature('ln -s' on Unix). If the dictionary for a particular language is not installed, the words will remain un-proofed, and thus not marked as incorrect. </p>
+<p style="Heading 2"><c></c>How to use these features?</p>
+<p style="Normal">AbiWord automatically sets many of its default settings based on your working locale. This includes paper sizes (A4 vs. Letter), displayed units (inch vs. cm), and proofing language. Internally, the proofing language is a 4 letter country code. American English is represented by 'en-US', for example.</p>
+<p style="Normal">It's great to have a default startup language, but that in itself isn't all that impressive. AbiWord allows the user to change the language of any word inside of the document and have it automatically proofed using that new language dictionary(provided that dictionary is installed on the user's system). This functionality is achieved through the Language Dialog, accessible from Tools-&gt;Language or by right-clicking your mouse anywhere in the document. The dialog presents the user with a list of languages to choose from (or, optionally, no proofing). More information about the language dialog is available in its own help file. </p>
+<p style="Heading 2">Support Matrix </p>
+<p style="Normal"><c></c>What follows is the currently supported matrix for Ispell-based proofing. The Language/Country name, Country-Code, and associated Ispell dictionary are named. Currently AbiWord supports 27 different locales via Ispell: </p>
+<p style="Normal">Dictionary 		Locale </p>
+<p style="Normal"><c></c>catalan.hash		ca-ES </p>
+<p style="Normal">czech.hash		cs-CZ </p>
+<p style="Normal">dansk.hash		da-DK </p>
+<p style="Normal">deutsch.hash		de-CH </p>
+<p style="Normal">deutsch.hash		de-DE </p>
+<p style="Normal">deutsch.hash		de-AT </p>
+<p style="Normal">ellhnika.hash		el-GR </p>
+<p style="Normal">british.hash		en-AU </p>
+<p style="Normal">american.hash		en-CA </p>
+<p style="Normal">british.hash		en-GB </p>
+<p style="Normal">british.hash		en-IE </p>
+<p style="Normal">american.hash		en-US </p>
+<p style="Normal">espanol.hash		es-ES </p>
+<p style="Normal">francais.hash		fr-BE </p>
+<p style="Normal">francais.hash		fr-CA </p>
+<p style="Normal">francais.hash		fr-CH </p>
+<p style="Normal">francais.hash		fr-FR </p>
+<p style="Normal">italian.hash		it-IT </p>
+<p style="Normal">lietuviu.hash		lt-LT </p>
+<p style="Normal">dutch96.hash		nl-NL </p>
+<p style="Normal">norsk.hash		nb-NO </p>
+<p style="Normal">nynorsk.hash		nn-NO </p>
+<p style="Normal">polish.hash		pl-PL </p>
+<p style="Normal">portugues.hash	pt-PT </p>
+<p style="Normal">portugues.hash	pt-BR </p>
+<p style="Normal">russian.hash		ru-RU </p>
+<p style="Normal">svenska.hash		sv-SE</p>
+=======
 <p style="Normal"><c style="Normal">AbiWord supports both the Pspell and Ispell spell checkers - which one is used is determined at compile-time, so if you´re downloading a binary, one of these has been selected for you. Pspell is only known to work on Unix platforms currently, so if you´re not running on Unix, you´re definitely using Ispell.</c></p>
 <p style="Heading 2"><c style="Heading 2"><br/><br/>Gotchas</c></p>
 <p style="Normal"><c style="Normal"><br/>Of course, you can only spell-check words if you have the dictionary for that particular language installed. Pspell dictionaries can be found at pspell.sourceforge.net. Currently, AbiWord ships Ispell dictionaries (commonly referred to as `hash files´) that are known to work with the AbiWord product. Unless your distributor has packaged AbiWord specially, AbiWord expects its Ispell dictionaries to be in the following format: </c></p>
@@ -97,5 +138,6 @@
 <p><c props="font-family:Courier New">color </c><c props="font-family:Courier New; lang:en-US">colour</c><c props="font-family:Courier New"> </c><c props="font-family:Courier New; lang:de-DE">Farbe</c><c props="font-family:Courier New"> </c></p>
 <p><c props="font-family:Courier New"><br/></c></p>
 <p><c props="font-family:Courier New">These three words are all marked as being in different languages. This was achieved by double-clicking on each word, opening the Language Dialog, and selecting the intended language. The languages used here are: American English (en-US), British English (en-GB), and German (de-DE). </c></p>
+>>>>>>> 1.2
 </section>
 </abiword>

@@ -27,6 +27,7 @@
 <p style="Heading 2">Documentation Credits</p>
 <p style="Normal">Original English Version: David Chart</p>
 <p style="Normal">Contributions: Alper Atici, Scott Bingman, John Clark, Michael Johnson, Dom Lachowicz</p>
+<p style="Normal">Perl script: Kenneth Christiansen (This script lets us use AbiWord to maintain the docs; it handles XHTML conversion.)</p>
 <p style="Heading 3">Translations</p>
 </section>
 </abiword>
