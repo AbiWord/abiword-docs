@@ -11,7 +11,7 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Sun Nov 17 11:13:17 2002</m>
+<m key="abiword.date_last_changed">Sun Nov 17 11:41:01 2002</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3312in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
@@ -48,6 +48,8 @@
 <p style="Normal">Build fix.</p>
 <p style="Normal">Work on translating documentation into German.</p>
 <p style="Normal">German localisation work.</p>
+<p style="Heading 2">Besnik Bleta</p>
+<p style="Normal">Albanian localisation work.</p>
 <p style="Heading 2">Scott Bingman</p>
 <p style="Normal">Build instructions update.</p>
 <p style="Heading 2">Johan Björk</p>
@@ -94,6 +96,8 @@
 <p style="Normal">Build fix arising from DocBook work.</p>
 <p style="Normal">Win32 build fixes, so that HEAD builds again.</p>
 <p style="Normal">Win32 has access to VERSION resource.</p>
+<p style="Normal">Changes to popt to use dialogs on Win32.</p>
+<p style="Normal">Build fixes for popt on Win32.</p>
 <p style="Heading 2">Andrew Dunbar</p>
 <p style="Normal">New version of the world.abw file which tests language and script support.</p>
 <p style="Normal">Support for ruby/furigana tags in HTML import. We should now display the furigana inline in brackets.</p>
@@ -126,6 +130,7 @@
 <p style="Normal">Cocoa Graphics work.</p>
 <p style="Normal">General Cocoa work, including fonts and frame logic.</p>
 <p style="Normal">Code cleanup in XP graphics.</p>
+<p style="Normal">Cocoa font management work.</p>
 <p style="Normal">Bug fixes: 2174, 3109 (UNIX), 3521, 3781, 4050.</p>
 <p style="Heading 2">Raphael Finkel</p>
 <p style="Normal">Yiddish localisation work.</p>
@@ -194,7 +199,8 @@
 <p style="Normal">Work on a new system for mapping between import and export file types, which should be much more intelligent about saving the same thing that you loaded.</p>
 <p style="Normal">Work on making the non-xft build work.</p>
 <p style="Normal">Build fix in wv.</p>
-<p style="Normal">Bug fixes: 3335, 3592.</p>
+<p style="Normal">Bumped the version number to 1.1.1 and removed the antiquated VERSION.TXT file.</p>
+<p style="Normal">Bug fixes: 3335, 3592, 4303.</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Changed Abi to use a 32-bit internal Unicode representation.</p>
 <p style="Normal">Pango related code.</p>
@@ -330,6 +336,7 @@
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Major cleanup of GTK2 menu code and accelerators.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Fix compile time syntax error when building with xft.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Rewrite of unix status bar.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Fixes for problems selecting text on unix.</c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Fix bugs: 3851</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">RTF importer handles /sectd.</p>
@@ -452,7 +459,13 @@
 <p style="Normal">Fixed a bug causing a crash on printing.</p>
 <p style="Normal">Fixed HTML export of table background colors.</p>
 <p style="Normal">Lots of fixes to postscript printing.</p>
-<p style="Normal">Bug fixes: 519, 1543, 1766, 2467 (unix), 3171, 3252, 3517, 3515, 3589, 3609, 3610, 3612, 3615, 3616, 3617, 3944, 4145, 4146 (unix), 4181, 4221, 4224, 4226, 4229.</p>
+<p style="Normal">Lots of fixes to XFT printing.</p>
+<p style="Normal">Fixes for hidden text.</p>
+<p style="Normal">Fixes for problems selecting text on unix.</p>
+<p style="Normal">Some fixes for unix caret.</p>
+<p style="Normal">Work on importing OpenWriter documents, including text styling.</p>
+<p style="Normal">Removed lots of old GNOME dialogs from the tree.</p>
+<p style="Normal">Bug fixes: 519, 1543, 1766, 2467 (unix), 3171, 3252, 3517, 3515, 3589, 3609, 3610, 3612, 3615, 3616, 3617, 3944, 4145, 4146 (unix), 4181, 4221, 4224, 4226, 4229, 4295, 4313.</p>
 <p style="Heading 2">Patrick Lam</p>
 <p style="Normal">Fix to AP_convert.</p>
 <p style="Normal">Converted to use libpopt for command-line parsing on GTK and GNOME builds.</p>
@@ -544,7 +557,9 @@
 <p style="Normal">Native status bar for Win32.</p>
 <p style="Normal">Added default row/column numbers to Insert Table dialog.</p>
 <p style="Normal">Fixed a small status bar bug, and centred two dialogs.</p>
-<p style="Normal">Bug fixes: 2282, 2979, 3287, 3584, 3824, 4001, 4082</p>
+<p style="Normal">Completely rewrote the Win32 keyboard code to fix bugs 3773 and 4025.</p>
+<p style="Normal">Ported one of Dom's patches to Win32.</p>
+<p style="Normal">Bug fixes: 2282, 2979, 3287, 3584, 3773, 3824, 4001, 4025, 4082</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal">Fixed a really embarrassing crash on startup for non-debug builds of the first attempt at releasing 1.1.0.</p>
 <p style="Normal"><c props="font-weight:normal">Build fixes for numerous plug-ins.</c><c props="font-weight:normal"></c></p>
@@ -592,6 +607,9 @@
 <p style="Normal"><c props="font-weight:normal">Fixed a typo that was breaking the build.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Synced his tree with CVS, which committed a whole buncha stuff. Including a gtk2 warning in Insert Table, bug 3339, beginnings of a Format Table dialog, some nl-NL updates, and maybe other stuff.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Added table entries to the context menu.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fix some compiler warnings in gr_UnixGraphics.</c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed the diving make build for abiwidget.</c></p>
+<p style="Normal"><c props="font-weight:normal">Added font cach</c><c props="font-family:Times New Roman; font-weight:normal">ing to improve performance of font dialogs.</c></p>
 <p style="Normal"><c props="font-weight:normal">Bug fixes: 3339, 3507, 3533, 3888.</c><c props="font-weight:normal"></c></p>
 <p style="Heading 2">Nicolas Mercier</p>
 <p style="Normal">Work on the DocBook plugin, fixing bug 2734.</p>
@@ -626,6 +644,9 @@
 <p style="Normal">Fix a bunch of compile warnings for Win32.</p>
 <p style="Normal">Fix a bunch of compile warnings on Linux.</p>
 <p style="Normal">Removed a surplus assert.</p>
+<p style="Normal">Moved some Win32-specific code out of XP.</p>
+<p style="Normal">Fixed a build problem on Win32.</p>
+<p style="Normal">Fixed a problem with combo boxes on Win32.</p>
 <p style="Normal">Bug fixes: 2715, 3523.</p>
 <p style="Heading 2">Andrzej Pruszynski</p>
 <p style="Normal">Polish localisation work.</p>
@@ -730,6 +751,11 @@
 <p style="Normal"><c props="font-style:normal">Fixed display of bullet points in xft builds.</c><c props="font-style:normal"></c></p>
 <p style="Normal"><c props="font-style:normal">More fixes to MSWord table import.</c><c props="font-style:normal"></c></p>
 <p style="Normal"><c props="font-style:normal">Several crash and hang fixes for tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">One line fix for XFT printing.</c></p>
+<p style="Normal"><c props="font-style:normal">Further fixes for XFT printing.</c></p>
+<p style="Normal"><c props="font-style:normal">Fixed the implementation of GTK2 double buffering.</c></p>
+<p style="Normal"><c props="font-style:normal">Fixed printing of tables with background colours so that the colours still appear after the first page.</c></p>
+<p style="Normal"><c props="font-style:normal">Hack to make the cursor appear in all new docs.</c></p>
 <p style="Normal">Bug fixes: 1928, 3423, 4139, 4159</p>
 <p style="Heading 2">Jesper Skov</p>
 <p style="Normal">Code cleanup in fv_view.</p>
@@ -747,6 +773,8 @@
 <p style="Normal">Fix bugs: 3360</p>
 <p style="Heading 2">Tian Huisohu</p>
 <p style="Normal">Fix a memory leak in wv.</p>
+<p style="Heading 2">Chad Thomas</p>
+<p style="Normal">Patch for peer popt library.</p>
 <p style="Heading 2">Olexij Tkatchenko</p>
 <p style="Normal">Ukrainian localisation update.</p>
 <p style="Heading 2">Sam Tobin-Hochstadt</p>
@@ -755,6 +783,8 @@
 <p style="Normal">Added some cvsignores.</p>
 <p style="Normal">Removed some dead code.</p>
 <p style="Normal">Removed an extraneous assert, and replaced it with debugging code.</p>
+<p style="Normal">Major restructuring of unix message boxes, other message boxes, and some other things, to fix 4146.</p>
+<p style="Normal">Bug fixes: 4146</p>
 <p style="Heading 2">Mugurel Tudor</p>
 <p style="Normal">Romanian localisation.</p>
 <p style="Heading 2">Ruud Vring</p>
