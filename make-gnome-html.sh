@@ -31,23 +31,22 @@ do
 		do
 		      n=`echo $i|cut -f1 -d .`
 		      echo $i
-		      abiword --to=xhtml `basename $i` 2>/dev/null
-		      $CVS/make-abidoc.pl -I $n.info -S header.xhtml -F footer.xhtml>$n.html
-		      rm -f $n.xhtml
+		      abiword --to=html `basename $i` 2>/dev/null
 		done
 
 		cd $CVS
 	done
 
-	cd $CVS/ABW/$help_language
-	rm -rf $CVS/help/$help_language
-	mkdir -p $CVS/help/$help_language
-	cp -r */ $CVS/help/$help_language
-	cp *.html $CVS/help/$help_language
-	cp *.css $CVS/help/$help_language
-	find $CVS/help -name CVS -exec rm -fr {} \;
+	gnome_help_language=`echo $help_language|cut -f1 -d -`
 
-	for i in $(ls -1d $CVS/help/$help_language/*/ )
+	cd $CVS/ABW/$help_language
+	rm -rf $CVS/help/$gnome_help_language
+	mkdir -p $CVS/help/$gnome_help_language
+	cp -r */ $CVS/help/$gnome_help_language
+	cp *.html $CVS/help/$gnome_help_language
+	cp *.css $CVS/help/$gnome_help_language
+
+	for i in $(ls -1d $CVS/help/$gnome_help_language/*/ )
 	do
 		rm -f $i/*.xhtml
 		rm -f $i/*.info
@@ -57,3 +56,5 @@ do
 	cd $CVS
 done
 
+# move english help to "C"
+mv $CVS/help/en $CVS/help/C
