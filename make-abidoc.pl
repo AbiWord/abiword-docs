@@ -36,8 +36,13 @@ my $VERSION_ARG    = "0";
 my $HEADER_ARG     = "0";
 my $FOOTER_ARG     = "0";
 my $BODY_ARG       = "0";
-my $TITLE_ARG      = "0";
+my $INFO_ARG       = "0";
 my $OUT_ARG        = "0";
+
+## Scalars used by the substitution code
+my $TITLE_ARG     = "";
+my $AUTHOR_ARG    = "";
+my $HIERARCHY_ARG = "";
 
 ## Always print as the first thing
 $| = 1;
@@ -48,12 +53,14 @@ GetOptions (
 	    "version|v" 	  => \$VERSION_ARG,
 	    "header|s=s"	  => \$HEADER_ARG,
 	    "footer|f=s"   	  => \$FOOTER_ARG,
-	    "title|t=s"           => \$TITLE_ARG,
+	    "info|i=s"            => \$INFO_ARG,
             "output|o=s"          => \$OUT_ARG, 
 	    ) or &invalid_option;
 
 my $OPTION = $ARGV[0];
 my $OUTNAME = "0";
+
+&main;
 
 ## Use the supplied arguments
 ## This section will check for the different options.
@@ -74,14 +81,12 @@ sub handle_options () {
         $OUTNAME = $OUT_ARG;
     }
 
-    if (!$OPTION || !$HEADER_ARG || !$FOOTER_ARG) {
+    if (!$OPTION || !$HEADER_ARG || !$FOOTER_ARG || !$INFO_ARG) {
 	&help;
     }
 
     $BODY_ARG = $OPTION;
 }
-
-&main;
 
 sub string_from_file ($filename)
 {
@@ -97,9 +102,25 @@ sub string_from_file ($filename)
     return $string;
 }
 
+sub read_info_file($filename)
+{
+    my ($filename) = @_;
+
+    open( INFO, $filename ) or die "Can't open input $filename file: $!" ;
+
+    ## read in these variables, remove trailing newline
+    $TITLE_ARG = <INFO>; chomp $TITLE_ARG;
+    $AUTHOR_ARG = <INFO>; chomp $AUTHOR_ARG;
+    $HIERARCHY_ARG = <INFO>; chomp $HIERARCHY_ARG;
+
+    close ( INFO );
+}
+
 sub main
 {
     &handle_options;
+
+    &read_info_file ($INFO_ARG);
 
     my $body = &string_from_file ($BODY_ARG);
 
@@ -109,9 +130,10 @@ sub main
     my $footer = &string_from_file ($FOOTER_ARG);
     $body = &replace_footer ($body, $footer);
 
-    if ($TITLE_ARG) {
-	$body = &replace_title ($body, $TITLE_ARG);
-    }
+    ## replace these variables
+    $body = &replace_title ($body, $TITLE_ARG);
+    $body = &replace_author ($body, $AUTHOR_ARG);
+    $body = &replace_hierarchy ($body, $HIERARCHY_ARG);
 
     if ($OUTNAME) {
 	open OUT, ">$OUTNAME";
@@ -121,6 +143,22 @@ sub main
     else {
 	print $body;
     }
+}
+
+sub replace_author($body, $author)
+{
+    my ($body, $author) = @_;
+    $body =~ s/{AUTHOR}/$1$author$2/gs;
+    
+    return $body;
+}
+
+sub replace_hierarchy($body, $hierarchy)
+{
+    my ($body, $hierarchy) = @_;
+    $body =~ s/{HIERARCHY}/$1$hierarchy$2/gs;
+    
+    return $body;
 }
 
 sub replace_title ($body, $title)
@@ -167,7 +205,7 @@ sub help
     print "  -S, --header=HEADER          the header to use\n";
     print "  -F, --footer=FOOTER          the footer to use\n";
     print "  -O, --output=NEWFILE         saves output in NEWFILE\n";
-    print "  -T, --title                  the title to use\n";
+    print "  -I, --info                   the info file to use\n";
     print "  -V, --version                shows the version\n";
     print "Report bugs to bugzilla.abiword.com.\n";
     exit;
