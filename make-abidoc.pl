@@ -180,7 +180,10 @@ sub replace_title ($body, $title)
 sub replace_header ($body, $header)
 {
     my ($body, $header) = @_;
-    $body =~ s/.*<div>(.*)/$header$1/ms;
+    # This change required since there may be more than one <div> in a HTML
+    # file, tickled by some changes in new HTML exporter. Bind it to the
+    # <body> tag, which is still nominally iffy, but a lot better. -joshk 10/04
+    $body =~ s/.*<body>[[:space:]\n]+<div>(.*)/$header$1/ms;
     
     return $body;
 }
