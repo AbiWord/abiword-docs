@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered"  fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 12:31:00 -->
+<!--         Build_CompileDate = May 19 2001 -->
+
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1">Word Count Dialog</p>
+<p style="Normal">When the word count dialog is opened, it displays the statistics for your document at that point. If it is left open, the statistics can be updated, as described below.</p>
+<p style="Heading 2">Auto Update</p>
+<p style="Normal">If this option is selected, AbiWord keeps track of the number of words in your document as you type, and updates the statistics accordingly.</p>
+<p style="Heading 2">Seconds between updates</p>
+<p style="Normal">This box tells you how often AbiWord will update the number of words if you have selected Auto Update. You may type a number, or use the arrows beside the box to increase or decrease the interval by tenths of a second.</p>
+<p style="Heading 2">Statistics</p>
+<p style="Normal">The document name and path is displayed at the top of the statistics box.</p>
+<p style="Normal"><c></c>'Words' gives the number of words in the document, where a word is defined as a string of letters or numbers between two spaces or punctuation marks. Thus, "1" is a single word, but "mis-spelled" is two, and "13/4/95" is three.</p>
+<p style="Normal">'Paragraphs' gives the number of paragraphs, as defined by the number of returns you have typed.</p>
+<p style="Normal">The characters entries are exactly what they sound like. Only printable characters are counted.</p>
+<p style="Normal">'Lines' is the number of lines of text in the document. A blank line inserted by typing return counts; blank space inserted between text, such as if the text is double-spaced, is not.</p>
+<p style="Normal">'Pages' is the number of pages that the document will occupy when printed.</p>
+<p style="Heading 2">Update</p>
+<p style="Normal">This button is only available if Auto Update is not selected. Pressing the button updates the word count for your document.</p>
+<p style="Heading 2">Close</p>
+<p style="Normal">This button closes the word count dialog.</p>
+</section>
+</abiword>

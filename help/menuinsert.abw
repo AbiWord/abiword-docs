@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 19:26:58 -->
+<!--         Build_CompileDate = Jun  1 2001 -->
+
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.00cm; page-margin-header:0.00cm; page-margin-right:2.54cm; page-margin-left:2.54cm; page-margin-top:2.54cm; page-margin-bottom:2.54cm">
+<p style="Heading 1">Insert Menu</p>
+<p style="Normal"><c style="Normal">This menu allows you to insert various kinds of entity into your document.</c></p>
+<p style="Heading 2"><c style="Heading 2">Break...</c></p>
+<p style="Normal"><c style="Normal">This command opens the Break dialog, which allows you to insert page, column, and section breaks.</c></p>
+<p style="Heading 2"><c style="Heading 2">Page Numbers...</c></p>
+<p style="Normal"><c style="Normal">This command opens the Page Numbers dialog, allowing you to insert automatically calculated page numbers into your document's header or footer.</c></p>
+<p style="Heading 2"><c style="Heading 2">Date and Time...</c></p>
+<p style="Normal"><c style="Normal">This opens the Date and Time dialog, which allows you to insert fields showing the current date and time into your document.</c></p>
+<p style="Heading 2"><c style="Heading 2">Field...</c></p>
+<p style="Normal"><c style="Normal">The Field dialog allows you to insert any field defined in AbiWord into your document. Fields are entities which automatically update their values.</c></p>
+<p style="Heading 2"><c style="Heading 2">Symbol...</c></p>
+<p style="Normal"><c style="Normal">This command opens the Insert Symbol dialog, which enables you to insert non-standard symbols from various character sets into your document.</c></p>
+<p style="Heading 2"><c style="Heading 2">Autotext</c></p>
+<p style="Normal"><c style="Normal">The Autotext sub-menu gives access to various kinds of text which can be inserted into your document. Each of the commands on the sub-menu has its own sub-menu. The text listed for each command on the lowest-level menus is inserted into the document when you select that command.</c></p>
+<p style="Normal"><c style="Normal">For example, if you select Autotext &gt; Reference: &gt; In reply to:, the text 'In reply to:' is inserted into your document at the insertion point.</c></p>
+<p style="Heading 2"><c style="Heading 2">Picture</c></p>
+<p style="Normal"><c style="Normal">The Picture sub-menu allows you to insert a picture into your document.</c></p>
+<p style="Heading 3"><c style="Heading 3">Clip Art</c></p>
+<p style="Normal"><c style="Normal">This command will allow you to insert clip art, once it is implemented.</c></p>
+<p style="Heading 3"><c style="Heading 3">From File...</c></p>
+<p style="Normal"><c style="Normal">This command opens the normal 'Open' dialog. You can open any png files you have, and insert them in your document at the insertion point.</c></p>
+</section>
+</abiword>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered" fileformat="1.0" template="true">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Gnome:Off LibXML:Off Pspell:Off Scripting:Off -->
+<!--         Build_Target      = /usr/src/abiword/abi-6-9/src/Linux_2.4.5r1_i386_DBG/obj -->
+<!--         Build_CompileTime = 20:36:05 -->
+<!--         Build_CompileDate = Jun  9 2001 -->
+
+<lists>
+<l id="489984373" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US"></c><c style="Heading 1">Introduction to AbiWord</c></p>
+<p style="Block Text"></p>
+<p style="Block Text">Ever been forced to upgrade your word processor to read a document sent from a friend or coworker?</p>
+<p style="Block Text">Have you wondered why it isn't possible to simply use Notepad to open a document and read it's contents?</p>
+<p style="Block Text">Are to tired of the dizzying number of features and just want something that “just works"?</p>
+<p style="Block Text">Did you ever want to just give away the software you use to somebody else?</p>
+<p props="text-indent:0.5000in"></p>
+<p props="text-indent:0.5000in">Then AbiWord might be for you.</p>
+<p props="text-indent:0.5000in">The AbiWord project began as a desire to create a stable, feature-savvy word processor unbound by a single platform or proprietary file formats like legacy word processors. Today AbiWord compiles as a native application on a wide collection of computers and can handle an equally impressive number of file formats.</p>
+<p props="text-indent:0.5000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal">AbiWord’s feature set includes everything one would expect in a modern word processor. It is fast, stable, and includes the common utilities necessary for everyday work. A short list includes:</c></p>
+<p props="text-indent:0.5000in"></p>
+<p level="1" listid="489984373" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.7500in; start-value:0; text-position:normal; text-indent:-0.2500in; text-decoration:none; bgcolor:ffffff; color:000000; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	A familiar interface</c></p>
+<p level="1" listid="489984373" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.7500in; start-value:0; text-position:normal; text-indent:-0.2500in; text-decoration:none; bgcolor:ffffff; color:000000; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	Word file import and export</c></p>
+<p level="1" listid="489984373" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.7500in; start-value:0; text-position:normal; text-indent:-0.2500in; text-decoration:none; bgcolor:ffffff; color:000000; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	Unlimited undo and redo capacity</c></p>
+<p level="1" listid="489984373" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.7500in; start-value:0; text-position:normal; text-indent:-0.2500in; text-decoration:none; bgcolor:ffffff; color:000000; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	Solid HTML export</c></p>
+<p level="1" listid="489984373" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.7500in; start-value:0; text-position:normal; text-indent:-0.2500in; text-decoration:none; bgcolor:ffffff; color:000000; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	Images</c></p>
+<p level="1" listid="489984373" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.7500in; start-value:0; text-position:normal; text-indent:-0.2500in; text-decoration:none; bgcolor:ffffff; color:000000; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	Spelling support, with optional underlining</c></p>
+<p level="1" listid="489984373" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.7500in; start-value:0; text-position:normal; text-indent:-0.2500in; text-decoration:none; bgcolor:ffffff; color:000000; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	Bullets and Lists</c></p>
+<p level="1" listid="489984373" parentid="0" style="Bullet List" props="font-family:Times New Roman; font-style:normal; margin-left:0.7500in; start-value:0; text-position:normal; text-indent:-0.2500in; text-decoration:none; bgcolor:ffffff; color:000000; font-weight:normal; font-size:12pt; field-font:Symbol"><field type="list_label"></field><c type="list_label">	Styles</c></p>
+<p props="text-indent:0.5000in"></p>
+<p props="text-indent:0.5000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal">But the most significant difference between AbiWord and most word processors is the format of it’s files. A document saved with AbiWord is written in plainly readable text, making it possible to use Notepad or any other text editor to view documents. This means that users are free from depending on a single vendor to supply them with the tools to interpret their own information.</c></p>
+<p props="text-indent:0.5000in">Lastly, AbiWord is completely free and multi-platform. It functions as a native application for Linux, Windows, BeOS, QNX, and GNOME.</p>
+<p props="text-indent:0.5000in">No matter how AbiWord is used, users can be sure that their important data is well kept. And because of the Open Source nature of the AbiWord project, the longevity of documents is ensured by the presence of AbiWord’s source code, it’s active development, and constant improvement.</p>
+<p style="Heading 1"><c style="Heading 1">The Open Source Concept</c></p>
+<p props="text-indent:0.5000in"></p>
+<p props="text-indent:0.5000in">AbiWord is developed as an Open Source project. That means the all lines of code that comprise AbiWord are freely available and redistributable. Unlike proprietary software, code that is written and often kept secret by a select few, Open Source projects like AbiWord give away the code and the software is thus subjected to thorough, scientific peer review by programmers all over the world.</p>
+<p props="text-indent:0.5000in">In general, most users do not benefit directly by the availability of the source code. Instead, the greatest benefits of Open Source to the end user include: an open environment where anyone can suggest changes, stability, permanence (Open Source projects do not disappear like proprietary applications do when companies fold), fast-paced improvements, and zero cost.</p>
+<p props="text-indent:0.5000in">Please feel free to visit www.opensource.org to learn more about the benefits inherent in relying on Open Source software.</p>
+</section>
+</abiword>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered"  fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 21:32:34 -->
+<!--         Build_CompileDate = May 17 2001 -->
+
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<section>
+<p style="Heading 1">Window Menu</p>
+<p style="Normal">The Window menu gives you access to the various windows that AbiWord has open on your system.</p>
+<p style="Heading 2">New Window</p>
+<p style="Normal">This command creates a new window containing the current document. The name of the document is given in the title bar, followed by a colon and a number indicating the order in which the windows were created.</p>
+<p style="Normal">Any changes that you make to the document in one window are reflected in the others.</p>
+<p style="Heading 2">Window List</p>
+<p style="Normal">Below the New Window command is a list of all the windows currently open in AbiWord. Select a window to bring it to the front and put the insertion point within it.</p>
+<p style="Normal">If you have a virtual desktop, and the window you select is off-screen, nothing happens (at least on GNOME). [Is this a bug or a feature?]</p>
+</section>
+</abiword>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered"  fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 22:52:43 -->
+<!--         Build_CompileDate = May  7 2001 -->
+
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1">Go To Dialog</p>
+<p style="Normal">This dialog has useful instructions on the dialog itself.</p>
+<p style="Heading 2">Go To What:</p>
+<p style="Normal">This list determines what sort of thing you will go to, the target. ‘Page’ moves you to the top of a page, while ‘Line’ moves you to the beginning of a line. [Note: this is broken. Go To absolute behaves like this. Go To relative behaves like pressing the up and down arrows. I can’t reach bugzilla at the moment to report this.]</p>
+<p style="Heading 2">Number</p>
+<p style="Normal">This editable box determines which target you move to. If you simply type a number, the insertion point is moved to that target, counting from the beginning of the document. If you type + or - a number, the insertion point is moved forward (for +) or back (for -) that number of targets.</p>
+<p style="Heading 2">Prev</p>
+<p style="Normal">This button moves the insertion point to the previous target.</p>
+<p style="Heading 2">Next</p>
+<p style="Normal">This button moves the insertion point to the next target.</p>
+<p style="Heading 2">Go To</p>
+<p style="Normal">This button moves the insertion point to the target specified in the ‘Number’ box.</p>
+<p style="Heading 2">Close</p>
+<p style="Normal">This button closes the dialog.</p>
+</section>
+</abiword>

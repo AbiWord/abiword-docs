@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 08:18:55 -->
+<!--         Build_CompileDate = May 29 2001 -->
+
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<section>
+<p style="Heading 1">Page Numbers Dialog</p>
+<p style="Normal"><c style="Normal">This dialog inserts page numbers on every page of your document.</c></p>
+<p style="Heading 2"><c style="Heading 2">Position</c></p>
+<p style="Normal"><c style="Normal">The drop-down menu here allows you to choose whether the page numbers appear in the header of the document, or the footer.</c></p>
+<p style="Heading 2"><c style="Heading 2">Alignment</c></p>
+<p style="Normal"><c style="Normal">The drop down menu for Alignment determines whether the page numbers are placed at the left or right margin, or in the center of the page.</c></p>
+<p style="Heading 2"><c style="Heading 2">Preview</c></p>
+<p style="Normal"><c style="Normal">This display shows the selected position of the page number relative to the main text of the page.</c></p>
+<p style="Heading 2"><c style="Heading 2">OK</c></p>
+<p style="Normal"><c style="Normal">This button inserts the page numbers and closes the dialog.</c></p>
+<p style="Heading 2"><c style="Heading 2">Cancel</c></p>
+<p style="Normal"><c style="Normal">This button closes the dialog without inserting the page numbers.</c></p>
+</section>
+</abiword>

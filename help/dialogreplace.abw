@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered"  fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 22:52:43 -->
+<!--         Build_CompileDate = May  7 2001 -->
+
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1">Replace Dialog</p>
+<p style="Heading 2">Find What:</p>
+<p style="Normal">Type the set of characters you want to replace in this box. This is the ‘search string'.</p>
+<p style="Heading 2">Match case</p>
+<p style="Normal">If this option is selected, AbiWord will treat capital and lower case letters as different when deciding whether part of the document matches the search request. If it is not selected, they are treated as the same, so that ‘IN’ and ‘In’ would both match ‘in’.</p>
+<p style="Heading 2">Replace with:</p>
+<p style="Normal">Type the characters you want to use as replacements in this box. You may put nothing in this box, in which case the replacement will simply delete the text you found. This is the ‘replacement string’.</p>
+<p style="Heading 2">Find Next</p>
+<p style="Normal">This button will find the next occurrence of the search string. AbiWord starts searching from the insertion point, and goes back to the beginning of the document once you reach the end. It searches the whole document once.</p>
+<p style="Heading 2">Replace</p>
+<p style="Normal">This button replaces the currently selected instance of the search string with the replacement string, and moves to the next occurrence of the search string after the end of the replaced text. (This ensures that the process does not get stuck if the replacement text includes the text you are replacing.) If you click this button before clicking Find Next, it simply finds the first occurrence of the search string.</p>
+<p style="Heading 2">Replace All</p>
+<p style="Normal">This button searches the whole document and replaces all occurrences of the search string with the replacement string. Be careful using this feature. For example, if you wanted to replace all instances of ‘flat’ with ‘apartment’, this button would convert the sentence ‘He spoke flatly.’ to ‘He spoke apartmently.'</p>
+<p style="Heading 2">Cancel</p>
+<p style="Normal">This closes the Replace dialog.</p>
+</section>
+</abiword>

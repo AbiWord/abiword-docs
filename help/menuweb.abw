@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered"  fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 21:32:34 -->
+<!--         Build_CompileDate = May 17 2001 -->
+
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<section>
+<p style="Heading 1">Web Menu </p>
+<p>The web menu provides two commands which allow you to easily turn your AbiWord documents into web pages. </p>
+<p style="Heading 2">Save as web... </p>
+<p>This command prompts you to save your document under a new name, with the file type XHTML. AbiWord's built-in exporter automatically converts your file to XHTML when it is saved. </p>
+<p style="Heading 2">Preview web page... </p>
+<p>This command opens the current document in your default web browser. You can thus see what it will look like as a web page. This command does not save an XHTML version of your document; you must use the Save as web... or Save As... command for that.</p>
+</section>
+</abiword>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Gnome:Off LibXML:Off Pspell:Off Scripting:Off -->
+<!--         Build_Target      = /usr/src/abiword/abi-6-9/src/Linux_2.4.5r1_i386_DBG/obj -->
+<!--         Build_CompileTime = 20:36:05 -->
+<!--         Build_CompileDate = Jun  9 2001 -->
+
+<styles>
+<s followedby="Normal" name="doc_heading1" basedon="Normal" type="" props="font-family:Arial; font-size:12pt; field-font:NULL; margin-bottom:12pt; bgcolor:transparent; font-weight:bold; font-style:normal; margin-top:22pt"/>
+<s followedby="Normal" name="doc_heading3" basedon="Normal" type="" props="font-weight:bold; margin-top:18pt; font-size:12pt; margin-bottom:3pt; font-family:Arial; field-font:NULL"/>
+<s followedby="Plain Text" name="doc_plainlist" basedon="Normal" type="" props="font-family:Courier New; margin-left:1.0000in; font-size:11pt; field-font:NULL; bgcolor:transparent; font-weight:normal; margin-right:1.0000in; font-style:normal; margin-top:0pt"/>
+<s followedby="Plain Text" name="doc_heading4" basedon="Normal" type="" props="margin-top:12pt; margin-bottom:6pt; font-family:Courier New; field-font:NULL"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<section header="26414915" props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="doc_heading1"><c props="lang:en-US"></c><c props="font-family:Times New Roman; font-size:22pt">Reporting Bugs</c></p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">If you happen to find a bug in AbiWord, please report it using the AbiWord’s Bugzilla (bugzilla.abisource.com). It is quite possible that the project developers don’t know about a specific problem, so by filing a well-written report anybody can have input on future versions of AbiWord.</c></p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">These notes should help you create a bug report that will prove useful to the developers.</c></p>
+<p style="doc_heading3">Overview: Bugzilla</p>
+<p level="1" listid="0" parentid="0" style="doc_plainlist"></p>
+<p level="1" listid="0" parentid="0" style="doc_plainlist">Things to Check</p>
+<p level="1" listid="0" parentid="0" style="doc_plainlist">Create a New Account with Bugzilla</p>
+<p level="1" listid="0" parentid="0" style="doc_plainlist">New Bugs</p>
+<p level="1" listid="0" parentid="0" style="doc_plainlist">Creating a Useful Bug Report</p>
+<p style="doc_heading4">Things to Check</p>
+<p props="text-indent:0.5000in"><c props="font-family:Times New Roman; text-position:normal; font-size:12pt; color:000000; text-decoration:none; bgcolor:ffffff; font-weight:normal; font-style:normal">Make sure that you are using the most recent version of AbiWord. If not, update and try again. If you report a bug from an old version the developers will probably ask you to update and try again. Many changes are made between versions.</c></p>
+<p props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.5000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-position:normal; font-size:12pt; color:000000; text-decoration:none; bgcolor:ffffff; font-weight:normal; font-style:normal">Next, check to see whether your bug has already been reported. Go to the Bugzilla main page (bugzilla.abisource.com) and type a word in the search box that anyone reporting your bug would be very likely to use, but which won’t turn up too many bugs.</c></p>
+<p props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.5000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-position:normal; font-size:12pt; color:000000; text-decoration:none; bgcolor:ffffff; font-weight:normal; font-style:normal">If your bug has already been reported and hasn’t been fixed, then you can vote for it if you have an account with Bugzilla (see next section). Click on the vote link on the bug page and add a number of votes.</c></p>
+<p style="doc_heading4">Create a New Account with Bugzilla</p>
+<p props="text-indent:0.5000in"><c props="font-family:Times New Roman; text-position:normal; font-size:12pt; color:000000; text-decoration:none; bgcolor:ffffff; font-weight:normal; font-style:normal">The first thing to do for a new bug or feature request is to create an account on AbiWord Bugzilla. Go to bugzilla.abisource.com/createaccount.cgi and follow the instructions.</c></p>
+<p props="text-indent:0.5000in"><c props="font-family:Times New Roman; text-position:normal; font-size:12pt; color:000000; text-decoration:none; bgcolor:ffffff; font-weight:normal; font-style:normal">Bugzilla will require a valid email address. A</c><c props="bgcolor:ffffff"> developer may need to ask for more information on the exact nature of the bug or feature request if a report you have filed is unclear, or you may receive a simple email update on it’s progress. This is all that your email address is used for.</c></p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">Next, check your inbox for a password from Bugzilla. You will need it to log into your Bugzilla account.</c></p>
+<p style="doc_heading4">New Bugs</p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">If your bug is new, click on the “Enter a New Bug” link. If you aren’t already logged in to Bugzilla, you will be asked to supply your email address and the password that was mailed after the account was created.</c></p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">Now decide whether you have a bug or a feature request. A bug is something that AbiWord does wrong; a feature request is something that it doesn’t do which you would like it to. For example, if the program crashes when you try to open a document, that’s a bug. If you need AbiWord to support tables, then that’s a feature request. If your report concerns a feature request, put [RFE] at the beginning of the summary line. (RFE stands for Request For Enhancement.) Otherwise for standard bug reports, leave this off.</c></p>
+<p style="doc_heading4">Creating a Useful Bug Report</p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">Above all else, a useful bug report will be both reproducible and specific. Please include any specific details you can think of to help somebody else reproduce the bug. Create a list of steps in the “Description” box. If you’re not sure how to repeat it, please still be as specific as possible. Also include the version of AbiWord with the bug in the “Description” box.</c></p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">Be sure to set the “Platform” and “OS” menus to match your computer. The platform information is mainly important for OSes like Linux, which can run on diverse of kinds of hardware, but it is nonetheless an important option.</c></p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">The next stage is to summarize your bug. Make this a short sentence which is specific and descriptive. If the bug crashes AbiWord (that is, makes the program quit or freeze), put [crash] at the beginning. If it’s a feature request, put [RFE] (for Request For Enhancement) at the beginning.</c></p>
+<p props="text-indent:0.5000in"></p>
+<p style="doc_plainlist">Good summaries:</p>
+<p style="doc_plainlist">[crash] AbiWord crashes when opening this document</p>
+<p style="doc_plainlist">[RFE] Table editor</p>
+<p style="doc_plainlist">[crash] Crash when undoing paste</p>
+<p style="doc_plainlist"></p>
+<p style="doc_plainlist">Bad Summaries:</p>
+<p style="doc_plainlist">Bug in AbiWord</p>
+<p style="doc_plainlist">File’s broken</p>
+<p style="doc_plainlist">You all suck</p>
+<p style="doc_plainlist"></p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">Now decide how serious your bug is. If it’s a feature request, the severity is “enhancement”. Developers like doing cool new features so this doesn’t put the request at the back of the queue. A crash is always at least major -- if not critical. Nothing other than a crash is critical. If the bug breaks an important function, it is major. Anything that is easy to work around is minor or trivial.</c></p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">You should also decide the priority of the bug. Be reasonable. Developers will reset overly high low priorities. “P1" is the highest priority and should only be set for very important bugs.</c></p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">If your bug only occurs with a particular file, the file can be attached using the web page once you have submitted the bug report. If you can reproduce the bug in a new document with a small amount of typing, give step by step instructions. Again, these must be clear enough for the developers to follow or the bug will be marked invalid and closed.</c></p>
+<p props="text-indent:0.5000in"></p>
+<p style="doc_plainlist">Good Descriptions:</p>
+<p style="doc_plainlist">Opening the attached file crashes AbiWord. [attachment]</p>
+<p style="doc_plainlist">I’d really like to be able to do tables in AbiWord.</p>
+<p style="doc_plainlist">Open a new file. Type a few words. Select all, and copy. Paste. Undo. Boom.</p>
+<p style="doc_plainlist"></p>
+<p style="doc_plainlist">Bad Descriptions:</p>
+<p style="doc_plainlist">AbiWord can’t open some Word files.</p>
+<p style="doc_plainlist">My file doesn’t look like it should when I reopen it.</p>
+<p style="doc_plainlist">AbiWord MUST HAVE TABLES. Add tables now, or I will scream and scream until I’m sick. If you don’t do tables NOW, you suck worse than Microsoft.</p>
+<p props="text-indent:0.5000in"></p>
+<p props="text-indent:0.5000in"><c props="bgcolor:ffffff">Press the “Commit” button to add your bug to the database. New bugs are added in “Submitted” state. Someone will later check that they can reproduce the bug and change it’s status to “Open”.</c></p>
+</section>
+<section id="26414915" listid="0" parentid="0" type="header">
+<p style="Normal" props="text-align:left"><c></c></p>
+</section>
+</abiword>
