@@ -16,13 +16,14 @@
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">Hubert Figuiere:	Lots of work on MacOS X and 8/9 ports.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">	Updated screenshots.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">	Bug fixes for Solaris build.</c></p>
-<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">	Bug fixes (1816)</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">	Bug fixes (1816, compiler warnings)</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">	Fixed incompatibilities with the new version of iconv in CVS.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">Stephane Fritsch:	BeOS bug fixes.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">	BeOS Language and Encoding dialogs.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c props="lang:en-GB">Tomas Frydrych:	unixfonts.txt</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Alan Horkan:	About GNU Free Software and About GNOME Office menu items.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Karl Hufthammer:	Norwegian strings update.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Marco Innocenti:	Italian strings update.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Mantas Kriauciunas	Lithuanian strings update.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">William Lachance:	WordPerfect importer. This is not finished yet, and thus not available to users. It is getting there, however.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Dom Lachowicz:	Lots of code cleanup.</c></p>
