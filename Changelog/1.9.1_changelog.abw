@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" version="1.9.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.9.1" xml:space="preserve" props="dom-dir:ltr; lang:en-US">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -11,11 +11,11 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Sat May 10 13:49:55 2003</m>
+<m key="abiword.date_last_changed">Sat May 10 21:30:58 2003</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3319in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
-<s type="P" name="Normal" followedby="Current Settings" props="text-decoration:none; text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; font-variant:normal; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 <s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="margin-top:0.3056in; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
@@ -75,7 +75,8 @@
 <p style="Normal">Fixed GTK tree-view dialogs so that double clicking on a thing inserts it into the document (e.g. field, mail merge).</p>
 <p style="Normal">Made it possible to pre-populate the mail merge dialog from the command line.</p>
 <p style="Normal">Initial version of a text summariser plugin.</p>
-<p style="Normal">Bug fixes: 4929, 5062, 5069</p>
+<p style="Normal">Suggest a 'Save As' name based on the document's Title property.</p>
+<p style="Normal">Bug fixes: 3794, 4929, 5062, 5069, 5071</p>
 <p style="Heading 2">Per Larsson</p>
 <p style="Normal">Swedish localisation work.</p>
 <p style="Heading 2">Courtney Linn</p>
@@ -97,8 +98,8 @@
 <p style="Normal">Improved loading speed for documents containing base64 data by a factor of ten or so.</p>
 <p style="Normal">GetGR -&gt; GetGraphics on Win32.</p>
 <p style="Normal">Improve image scaling. We can use a better method because we only do it once.</p>
-<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">libwpd 0.4.0 released. Not strictly part of Abi, but a vital part of our WordPerfect import.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
-<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fixed a typo in the bonobo server file which claimed the binary was called AbWword-2.0.</c></p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">libwpd 0.4.0 released. Not strictly part of Abi, but a vital part of our WordPerfect import.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fixed a typo in the bonobo server file which claimed the binary was called AbWword-2.0.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
 <p style="Normal">Bug fixes: 3246, 3851, 4858</p>
 <p style="Heading 2">Justin McPherson</p>
 <p style="Normal">Fix Win32 keyboard code.</p>
