@@ -21,6 +21,14 @@
 
 CVS=`pwd -P`
 
+abiword_exec=$1
+
+if [ -z "$abiword_exec" ]
+then
+	abiword_exec=AbiWord-2.0
+fi
+
+
 for help_language in en-US fr-FR pl-PL #de-DE
 do
 
@@ -31,7 +39,7 @@ do
 		do
 		      n=`echo $i|cut -f1 -d .`
 		      echo $i
-		      AbiWord-2.0 --to=xhtml `basename $i` 2>/dev/null
+		      $abiword_exec --to=xhtml `basename $i` 2>/dev/null
 		      $CVS/make-abidoc.pl -I $n.info -S header.xhtml -F footer.xhtml>$n.html
 		      rm -f $n.xhtml
 		done
