@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.0" fileformat="1.0" styles="unlocked">
+<abiword styles="unlocked" version="1.1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:en-GB">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -8,13 +8,18 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Fri Sep  6 16:02:36 2002</m>
+</metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.000000; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 <s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
 <s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
 </styles>
-<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
 <p style="Heading 1"><c props="lang:en-US"></c>AbiWord FAQ</p>
 <p style="Heading 2">1. Languages and Internationalization</p>
@@ -29,6 +34,10 @@
 <p style="Normal">Translations for AbiWord are provided by conscientious individuals all over the world who enjoy using AbiWord in their native language, just as you. As AbiWord continues to develop new features, occasionally there is a small time lag between when a new dialog or menu appears, and when all the new translated words can be submitted. You can help the translation effort by contacting the person responsible for your particular translation. To do so, look in your AbiWord directory for a folder named "strings". Find the file associated with your language in that directory, and open it with an editor such as vi or notepad. At the top of that page, you will find the name and email of the person who is maintaining the translation.</p>
 <p style="Heading 3">1.3 How do I get the spell checker to work in my language?</p>
 <p style="Normal">Your AbiWord distribution contains a file called american.hash. This is a dictionary of English words. By replacing this dictionary with one from your language of choice, spell check will then mark only those words misspelled for the language you choose. There is an abispell package that contains 22 ready to use hash files. It is available on SourceForge. Otherwise, a comprehensive list of available dictionaries is at <a xlink:href="http://fmg-www.cs.ucla.edu/geoff/ispell-dictionaries.html">http://fmg-www.cs.ucla.edu/geoff/ispell-dictionaries.html</a>. Once the dictionaries are downloaded, you can follow the directions at <a xlink:href="http://fmg-www.cs.ucla.edu/geoff/ispell-winnt.html">http://fmg-www.cs.ucla.edu/geoff/ispell-winnt.html</a> to build the hash file.</p>
+<p style="Heading 3">1.4 I have a bi-directional version of AbiWord, but I don't see any controls for changing the direction of text.</p>
+<p style="Normal">Turn off the 'Allow Custom Toolbars' option on the Layout pane of the Preferences dialog. If you previously used a non-bidirectional version of AbiWord and turned custom toolbars on, the new bidirectional buttons are not added to your toolbar, because the program doesn't know that you have changed versions and assumes that you hid those buttons deliberately.</p>
+<p style="Normal">Once you have the buttons, you can turn the custom toolbars option back on.</p>
+<p style="Normal">Note that, if you have a custom toolbar layout, you will lose it when you turn off the preference.</p>
 <p style="Heading 2">2. General Questions</p>
 <p style="Heading 3">2.1 How do I work with Microsoft Word documents?</p>
 <p style="Normal">At present, AbiWord can open basic Microsoft Word documents well. However, if the document has complicated tables, embedded spreadsheets, and so forth, then it might not work as intended. Developing good MS Word filters is a very difficult process, so please bear with us as we work on getting Word documents to open correctly. AbiWord cannot currently save in the MS Word ".doc" format. However, you can save your file as a ".rtf" file, which is readable by all versions of Microsoft Word.</p>
@@ -47,8 +56,8 @@
 <p style="Normal">COMCTL32.DLL is a Windows library AbiWord needs to run. Some older versions of Windows did not have this library. You can get it free from Microsoft at</p>
 <p><a xlink:href="http://www.microsoft.com/msdownload/ieplatform/ie/comctrlx86.asp">http://www.microsoft.com/msdownload/ieplatform/ie/comctrlx86.asp</a></p>
 <p></p>
-<p><c props="font-family:Arial; font-size:12pt; lang:en-US; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none">4.2 I crash AbiWord/Windows after opening X (8-15) number of documents.</c></p>
-<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">This is a known problem with AbiWord and the Windows operating system.  The Windows operating system (specifically Win9x) has a severe limitation on the amount of resource memory allocated for things like dialogs, icons, and toolbars to be used.  At the moment each AbiWord window takes a chunk of that limited resource.  Depending upon what else is running, the amount of  AbiWord document windows concurrently opened is limited.  More than the maximum windows (typically somewhere between 8 and 15) may cause the system to crash.  Additional memory will not help as this is an operating system limitation.</c></p>
+<p><c props="font-family:Arial; font-size:12pt; lang:en-US; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none">4.2 I crash AbiWord/Windows after opening X (8-15) number of documents.</c><c props="font-family:Arial; font-size:12pt; lang:en-US; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">This is a known problem with AbiWord and the Windows operating system.  The Windows operating system (specifically Win9x) has a severe limitation on the amount of resource memory allocated for things like dialogs, icons, and toolbars to be used.  At the moment each AbiWord window takes a chunk of that limited resource.  Depending upon what else is running, the amount of  AbiWord document windows concurrently opened is limited.  More than the maximum windows (typically somewhere between 8 and 15) may cause the system to crash.  Additional memory will not help as this is an operating system limitation.</c><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
 </section>
 </abiword>
