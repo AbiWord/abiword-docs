@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" version="2.0.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0.5" xml:space="preserve" props="dom-dir:ltr; document-endnote-initial:1; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-footnote-restart-section:1; lang:en-GB; document-endnote-restart-section:1; document-footnote-restart-page:1; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:1">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -9,10 +9,10 @@
 <!-- ======================================================================== -->
 
 <metadata>
-<m key="abiword.generator">AbiWord</m>
 <m key="dc.format">application/x-abiword</m>
-<m key="abiword.date_last_changed">Wed Sep 17 20:32:29 2003</m>
+<m key="abiword.generator">AbiWord</m>
 <m key="dc.title">AbiWord Help: Credits</m>
+<m key="abiword.date_last_changed">Tue Mar 16 21:15:47 2004</m>
 <m key="dc.creator">Copyright (C) 2002 David Chart</m>
 </metadata>
 <styles>
@@ -21,7 +21,7 @@
 <s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
 <s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
 </styles>
-<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
 <p style="Heading 1"><c props="lang:en-US"></c>AbiWord Credits</p>
 <p style="Normal">AbiWord has been written by a large team of volunteers. This page acknowledges their contributions.</p>
@@ -29,10 +29,12 @@
 <p style="Normal">Thomas Fletcher, Jeff Hostetler, Paul Rohr, Bob Sievers, Eric Sink, Shaw Terwilliger</p>
 <p style="Heading 2">2.0 Core Developers</p>
 <p style="Normal">Hubert Figuiere, Francis Franklin, Tomas Frydrych, Dom Lachowicz, Patrick Lam, Michael Pritchett, Martin Sevior, Jesper Skov, Jordi Mas, Johann Bjork, Marc Maurer, Will Lachance</p>
+<p style="Heading 2">2.2 Core Developers</p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Hubert Figuiere, Francis Franklin, Tomas Frydrych, Dom Lachowicz, Patrick Lam, Martin Sevior, Jordi Mas, Marc Maurer, Mark Gilbert</c></p>
 <p style="Heading 2"><a xlink:href="credits.txt">Full Credits</a></p>
 <p style="Heading 2">Documentation Credits</p>
 <p style="Normal">Original English Version: David Chart</p>
-<p style="Normal">Contributions: Alper Atici, Scott Bingman, John Clark, Tomas Frydrych, Michael Johnson, Dom Lachowicz, Andrew Schoenhofer, Leon Stedman</p>
+<p style="Normal">Contributions: Alper Atici, Scott Bingman, John Clark, Tomas Frydrych, Mark Gilbert, Michael Johnson, Dom Lachowicz, Ryan Pavlik, Andrew Schoenhofer, Leon Stedman</p>
 <p style="Normal">Perl script: Cal Arndt, Kenneth Christiansen (This script lets us use AbiWord to maintain the docs; it handles XHTML conversion.)</p>
 <p style="Heading 3">Translations</p>
 <p style="Normal">French: Gilles Saint-Denis</p>

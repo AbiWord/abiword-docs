@@ -1,28 +1,32 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.2" fileformat="1.0" styles="unlocked">
-<!-- =====================================================================  -->
-<!-- This file is an AbiWord document.                                      -->
-<!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at www.abisource.com     -->
-<!-- You should not edit this file by hand.                                 -->
-<!-- =====================================================================  -->
+<abiword template="false" styles="unlocked" version="2.0.5" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:en-US">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
 
 <metadata>
-<m key="abiword.generator">AbiWord</m>
 <m key="dc.format">application/x-abiword</m>
-<m key="abiword.date_last_changed">Wed Sep 17 20:32:29 2003</m>
+<m key="abiword.generator">AbiWord</m>
 <m key="dc.title">AbiWord Help: Tutorial</m>
+<m key="abiword.date_last_changed">Tue Mar 16 21:22:13 2004</m>
 <m key="dc.creator">Copyright (C) 2002 David Chart</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-US; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 </styles>
+<lists>
+<l id="1000" parentid="0" type="6" start-value="0" list-delim="%L" list-decimal="."/>
+</lists>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
 <p style="Heading 1"><c props="lang:en-GB"></c>AbiWord Tutorial</p>
-<p style="Normal">This tutorial introduces many of AbiWord's functions.</p>
-<p style="Normal"><a xlink:href="intro.html">Introduction</a></p>
+<p style="Normal">This tutorial introduces many of AbiWord's most commonly-used and helpful functions.  Choose a section to begin at below.  It is recommended to start at the Introduction.</p>
+<p level="1" listid="1000" parentid="0" style="Normal" props="start-value:0; text-indent:-0.3000in; list-style:Dashed List; field-font:Symbol; margin-left:0.5000in"><c props="list-tag:1001"></c><field type="list_label" props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Dashed List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Dashed List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	</c><a xlink:href="intro.html">Introduction</a></p>
+<p level="1" listid="1000" parentid="0" style="Normal" props="start-value:0; text-indent:-0.3000in; list-style:Dashed List; field-font:Symbol; margin-left:0.5000in"><c props="list-tag:1002"></c><field type="list_label" props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Dashed List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Dashed List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	</c><a xlink:href="window.html"><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Dashed List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">The AbiWord Window</c></a></p>
 </section>
 </abiword>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" version="1.99.6" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:en-GB">
+<abiword template="false" styles="unlocked" version="2.0.5" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:en-GB">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -9,17 +9,17 @@
 <!-- ======================================================================== -->
 
 <metadata>
-<m key="abiword.generator">AbiWord</m>
 <m key="dc.format">application/x-abiword</m>
-<m key="abiword.date_last_changed">Thu Sep 18 20:03:40 2003</m>
+<m key="abiword.generator">AbiWord</m>
 <m key="dc.title">AbiWord Help: Menu: View</m>
+<m key="abiword.date_last_changed">Tue Mar 16 21:34:14 2004</m>
 <m key="dc.creator">Copyright (C) 2001-3 David Chart</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:22pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:3pt; line-height:1.000000; font-size:17pt; field-font:NULL"/>
-<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; text-indent:0.00cm; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:22pt"/>
-<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="font-size:12pt; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; keep-with-next:1"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-decoration:none; text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; font-variant:normal; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; text-indent:0.00cm; margin-bottom:3pt; field-font:NULL; line-height:1.000000; font-weight:bold; margin-top:22pt; font-family:Arial"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:12pt"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section>
@@ -29,26 +29,22 @@
 <p style="Heading 2">Normal/Web Layout/Print Layout</p>
 <p style="Normal">These are three ways of displaying your document.</p>
 <p style="Normal">Print Layout shows the margins all around your text, and the edges of the paper. Web Layout shows your document as it would appear in a web browser. Normal suppresses top and bottom margins.</p>
-<p style="Heading 2">Preview web page</p>
+<p style="Heading 2">In web browser</p>
 <p style="Normal">This option shows you what your document will look like if saved as a web page. The command first opens the <a xlink:href="dialoghtmlexport.html">HTMLexport options dialog,</a> so that you can select how to save the file. It then saves a temporary copy and opens it in your default web browser.</p>
 <p style="Heading 2">Toolbars</p>
 <p style="Normal">The Toolbars sub-menu lets you choose which toolbars are displayed at the top of the AbiWord window. There are four to choose from, and the standard and formatting toolbars are displayed by default. To change whether or not a toolbar is displayed, select its title from this sub-menu.</p>
-<p style="Heading 3">Lock Layout</p>
-<p style="Normal">If this option is checked, you cannot change the layout of the toolbars by dragging buttons. If it is not, you can.</p>
-<p style="Heading 3">Reset to default layout</p>
-<p style="Normal">If you have changed the layout of your toobars, you can select this option to set them back to the default arrangement.</p>
-<p style="Heading 2">Ruler</p>
+<p style="Heading 2">Show Ruler</p>
 <p style="Normal">Selecting this option changes whether or not the rulers are displayed.</p>
-<p style="Heading 2">Status Bar</p>
+<p style="Heading 2">Show Status Bar</p>
 <p style="Normal">Choosing this option changes whether the status bar at the bottom of the window is displayed.</p>
 <p style="Heading 2">Enable Formatting Tools</p>
 <p style="Normal">If this option is checked, you can set the formatting of text from the toolbars or menus. If it is not checked, you can only change the formatting by applying styles.</p>
-<p style="Heading 2">Show Paragraphs</p>
+<p style="Heading 2">Show Formatting Marks</p>
 <p style="Normal">If this option is selected, formatting and other invisible characters are displayed on screen.</p>
 <p style="Heading 2">Full Screen</p>
 <p style="Normal">If this option is selected, the rulers, toolbars, and status bars are all hidden. This gives you the largest possible window for your document.</p>
 <p style="Heading 2">Zoom</p>
-<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal">The zoom submenu allows you to set your document's zoom. The zoom of your view is the magnification at which your document is displayed on your screen.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal">The zoom submenu allows you to set your document's zoom. The zoom of your view is the magnification at which your document is displayed on your screen.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal"></c></p>
 <p style="Heading 3"><a xlink:href="dialogzoom.html">Zoom...</a></p>
 <p style="Normal">This opens the Zoom Dialog, which includes additional options.</p>
 <p style="Heading 3">Page Width</p>
