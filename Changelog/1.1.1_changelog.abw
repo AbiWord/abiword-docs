@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1.0" fileformat="1.0" styles="unlocked">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xml:space="preserve" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1.0" fileformat="1.1" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -8,6 +8,11 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Fri May 17 21:29:03 2002</m>
+</metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
 <s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
@@ -18,22 +23,44 @@
 <p style="Heading 1"><c props="lang:en-GB"></c>1.1.1 Changelog</p>
 <p style="Heading 2">Christian Biesinger</p>
 <p style="Normal">Documentation for Star Office importer.</p>
-<p style="Normal">Improvements to Star Office importer.</p>
+<p style="Normal">Improvements to Star Office importer, including reading metadata.</p>
 <p style="Normal">Fix GDict plugin to build even when libgdict isn't installed.</p>
+<p style="Normal">AbiWord can import metadata from other formats.</p>
+<p style="Normal">Build fixes.</p>
+<p style="Normal">Work on UT_Map.</p>
+<p style="Normal">Framework for Hancom importer, and basic text import.</p>
 <p style="Heading 2">Scott Bingman</p>
 <p style="Normal">Build instructions update.</p>
+<p style="Heading 2">Jonas Bjrk</p>
+<p style="Normal">Bug fixes: 3396.</p>
 <p style="Heading 2">Jeremy Davis</p>
 <p style="Normal">AbiPaint plugin menu fix.</p>
 <p style="Normal">AbiMagick plugin fixes for Win32.</p>
+<p style="Normal">Patch to make libole2 work on Win32.</p>
+<p style="Normal">popt fix on Win32.</p>
+<p style="Normal">Commandline processing work on Win32.</p>
+<p style="Normal">Win32 build system fix.</p>
 <p style="Heading 2">Hubert Figuiere</p>
-<p style="Normal">MacOSX port work.</p>
+<p style="Normal">MacOS X port work, including new dialogs.</p>
 <p style="Heading 2">Frank Franklin</p>
 <p style="Normal">Version number fix.</p>
 <p style="Normal">Fixes to the dictionary hash downloader.</p>
 <p style="Normal">Build system fixes.</p>
+<p style="Normal">Clean up Aiksaurus CVS tree.</p>
+<p style="Normal">Ditch non-libxml2 html stuff.</p>
+<p style="Normal">Updated svenska.hash from external maintainers.</p>
+<p style="Normal">Something to do with libtoolize that he didn't seem to like much.</p>
+<p style="Normal">Added UT_UCS2_mbtowc &amp; UT_UCS4_mbtowc.</p>
+<p style="Normal">Next-gen build system for plug-ins.</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Changed Abi to use a 32-bit internal Unicode representation.</p>
 <p style="Normal">Pango related code.</p>
+<p style="Normal">Removed non-bidirectional layout code.</p>
+<p style="Normal">Added pango to the tree.</p>
+<p style="Normal">Added config.h.msvc to popt.</p>
+<p style="Normal">Fixed ut_xml_expat.cpp.</p>
+<p style="Normal">Fixed fribidi related out of bounds writes in xap_Strings.cpp  and ev_Toolbar_Labels.cpp.</p>
+<p style="Normal">Updated to latest fribidi.</p>
 <p style="Heading 2">Gabriel Gerhardsson</p>
 <p style="Normal">Added a dictionary hash downloader.</p>
 <p style="Normal">Build instructions update.</p>
@@ -55,21 +82,45 @@
 <p style="Normal">Fixed a bug which was closing the GTK build as soon as it opened.</p>
 <p style="Normal">Minor abiwidget fixes.</p>
 <p style="Normal">Support for Bonobo/Zoomable:1.0 interface.</p>
+<p style="Normal">Added document properties/metadata, such as author and subject.</p>
+<p style="Normal">Added dialog to set document metadata.</p>
 <p style="Normal">Bare beginnings of the port to GTK2. Abi still builds against GTK 1.2, and still doesn't build against GTK2.</p>
 <p style="Normal">Advertised the PropertyBag information to the system, which should make Abi fully embeddable.</p>
 <p style="Normal">Fix Nautilus viewer.</p>
+<p style="Normal">Fix Abi so that it doesn't assume that LANG is set.</p>
+<p style="Normal">Fix to let us build against the latest versions of libxml2.</p>
+<p style="Normal">Bug fixes: 3252.</p>
 <p style="Heading 2">Patrick Lam</p>
 <p style="Normal">Fix to AP_convert.</p>
 <p style="Normal">Converted to use libpopt for command-line parsing on GTK and GNOME builds.</p>
 <p style="Normal">Made AP_Args use AP_App.</p>
+<p style="Normal">UCS4Char fixes for MacOS X.</p>
+<p style="Normal">Timer implementation for MacOS X.</p>
+<p style="Normal">popt implementation for MacOS X.</p>
+<p style="Normal">Work on key input for MacOS X. (Yes, the ability to type and have it appear in the program. The MacOS X port is some way behind other platforms.)</p>
+<p style="Normal">Other MacOS X work.</p>
+<p style="Normal">Build cleanup.</p>
+<p style="Normal">Fix to ut_mutex.</p>
+<p style="Normal">Improvements to code for commandline options.</p>
+<p style="Normal">Bug fixes: 3215.</p>
+<p style="Heading 2">Frodo Looijaard</p>
+<p style="Normal">Bug fixes: 2223.</p>
 <p style="Heading 2">Marc Maurer</p>
-<p style="Normal"><c props="font-weight:normal">Build fixes numerous plug-ins.</c></p>
+<p style="Normal"><c props="font-weight:normal">Build fixes for numerous plug-ins.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixes for latest libxml2 snapshot.</c></p>
+<p style="Normal"><c props="font-weight:normal">Fixes to WordPerfect importer.</c></p>
+<p style="Normal"><c props="font-weight:normal">Beginnings of a WordPerfect exporter.</c></p>
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Diving make system for I/E plugins.</p>
+<p style="Normal">Fixes for popt use on Win32.</p>
+<p style="Normal">Changed default XML library to libxml2.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Turned AbiWord into an embeddable application in GNOME.</p>
 <p style="Normal">Fix to diving make.</p>
 <p style="Normal">Basics of a Nautilus viewer for AbiWord.</p>
+<p style="Normal">Put the next generation layout document into the source tree.</p>
+<p style="Normal">Refactored the container code for next-generation layout. No new layout features yet.</p>
+<p style="Normal">Refactored the fl_Layout classes. No new features yet.</p>
 <p style="Heading 2">Jesper Skov</p>
 <p style="Normal">Code cleanup in fv_view.</p>
 </section>
