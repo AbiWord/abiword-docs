@@ -1,13 +1,18 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.5" fileformat="1.0" styles="unlocked">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.4" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- More information about AbiWord is available at http://www.abisource.com     -->
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Thu Apr 17 21:04:12 2003</m>
+</metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
 <s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
@@ -15,7 +20,7 @@
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Heading 1"><c props="lang:en-GB"></c>1.1.5 Changelog</p>
+<p style="Heading 1"><c props="lang:en-GB"></c>1.9.0 Changelog</p>
 <p style="Heading 2">Johan Björk</p>
 <p style="Normal">Convert 21 QNX dialogs to PhAB (Photon Application Builder).</p>
 <p style="Heading 2">Besnik Bleta</p>
@@ -23,12 +28,17 @@
 <p style="Heading 2">Francesco Cheratzu</p>
 <p style="Normal">Sardinian localisation work.</p>
 <p style="Normal">Sardinian dictionary.</p>
+<p style="Heading 2">Mikey Cooper</p>
+<p style="Normal">Bug fixes: 1921</p>
 <p style="Heading 2">Gery Deloge</p>
 <p style="Normal">Various BeOS bug fixes.</p>
 <p style="Heading 2">Jeremy Davis</p>
 <p style="Normal">Bug fixes: 4774</p>
 <p style="Heading 2">Andrew Dunbar</p>
+<p style="Normal">Added UTLANG_RTL and UTLANG_VERTICAL to the appropriate languages, to go with Tomas Frydrych's BiDi brackets work.</p>
 <p style="Normal">Bug fixes: 4784</p>
+<p style="Heading 2">Hubert Figuiere</p>
+<p style="Normal">Deleted the Carbon files from the tree.</p>
 <p style="Heading 2">Frank Franklin</p>
 <p style="Normal">Extensive work on the way properties are attached to tables, allowing sensible inheritance and, potentially, styling and editing.</p>
 <p style="Normal">Bumped wv version number.</p>
@@ -37,10 +47,14 @@
 <p style="Normal">Work towards bug 2742.</p>
 <p style="Normal">Implemented direction markers for BiDi text.</p>
 <p style="Normal">Implemented font size increase and decrease functions.</p>
-<p style="Normal">BiDi fixes.</p>
+<p style="Normal">Many BiDi fixes.</p>
 <p style="Normal">Added a tag marking language direction.</p>
 <p style="Normal">Added a method for handling parentheses more intuitively in mixed-direction text.</p>
+<p style="Normal">Keybindings for font increase and decrease and for language direction marking.</p>
+<p style="Normal">Fixed drawing of direction markers when show paragraphs is turned on.</p>
 <p style="Normal">bug fixes: 2811</p>
+<p style="Heading 2">Daniel Glassey</p>
+<p style="Normal">Work on cross-compiling on mingw.</p>
 <p style="Heading 2">Marco Innocenti</p>
 <p style="Normal">Italian localisation work.</p>
 <p style="Heading 2">Egmont Koblingen</p>
@@ -59,7 +73,7 @@
 <p style="Normal">Format Footnotes dialog for Win32.</p>
 <p style="Normal">Win32 build fix.</p>
 <p style="Normal">Fixes to Win32 Format Table dialog.</p>
-<p style="Normal">Bug fixes: 4651, 4742 (partial), 4793</p>
+<p style="Normal">Bug fixes: 4651, 4742 (partial), 4793, 4885</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal">Gladification of Format Table dialog.</p>
 <p style="Normal">Hacked the WordPerfect importer to import OLE wrapped WordPerfect documents.</p>
@@ -67,6 +81,7 @@
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Win32 build fixes arising from Martin Sevior's fix of bug 4717.</p>
 <p style="Normal">Win32 layout fixes.</p>
+<p style="Normal">Bug fixes: 4832</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Changed AbiWidget:: to AbiWidget-- in property names to avoid confusion due to automatic bonobo conversions.</p>
 <p style="Normal">Fixed lots of bugs and crashes concerning endnotes and tables, and speeded up typing and editing in tables and in docs with footnotes.</p>
@@ -78,10 +93,14 @@
 <p style="Normal">Fix the backspace bug.</p>
 <p style="Normal">Disabled a number of table functions which will not be finished before 2.0.</p>
 <p style="Normal">Fixed a number of problems with cell selections and clearing.</p>
-<p style="Normal">Bug fixes: 3324, 4400, 4546, 4756, 4760, 4717, 4795, 4799, 4811, 4849, 4855, 4856</p>
+<p style="Normal">Added a UI description for the nautilus view.</p>
+<p style="Normal">Select cell/row/table now work from the menu.</p>
+<p style="Normal">Work on the nautilus view.</p>
+<p style="Normal">Bug fixes: 3324, 4400, 4546, 4756, 4760, 4717, 4795, 4798, 4799, 4811, 4849, 4855, 4856</p>
 <p style="Heading 2">Valentine Sinitsyn</p>
 <p style="Normal">Fix to Russian strings file.</p>
 <p style="Normal">Build fixes for using mingw on Win32. (Mingw being free software, this means that anyone can now compile on Win32.)</p>
+<p style="Normal">Patch to allow 'make distribution' on Win32 using mingw.</p>
 <p style="Heading 2">Jesper Skov</p>
 <p style="Normal">Big fixes: 3926, 4812</p>
 </section>

@@ -67,6 +67,9 @@
 <p style="Normal">Removed the wrapper script altogether.</p>
 <p style="Normal">Better platform support for abiword-plugins.</p>
 <p style="Normal">Major improvements to XHTML import.</p>
+<p style="Normal">Put the basic XHTML importer back into Abi, rather than a plug-in.</p>
+<p style="Normal">XML work and XHTML import fixes.</p>
+<p style="Normal">New HTML import plug-in.</p>
 <p style="Normal">Bug fixes: 4540</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Pointer initialisations in ispell code.</p>
@@ -112,7 +115,13 @@
 <p style="Normal">Fix to allow tools plugins to build again.</p>
 <p style="Normal">Fix custom page sizes in gnome print.</p>
 <p style="Normal">Bonobo work.</p>
-<p style="Normal">Bug fixes: 1539, 1540, 1621, 2102, 3645, 3832, 4294, 4561</p>
+<p style="Normal">Added a class to save and restore the current selection, as groundwork for fixing many bugs.</p>
+<p style="Normal">Work towards making all import filters capable of taking material from the clipboard and putting it into Abi.</p>
+<p style="Normal">Got the XHTML clipboard basically working.</p>
+<p style="Normal">Gnome Print now handles justified text.</p>
+<p style="Normal">Removed file-type extensions from references to help files in the source code, so that they can added dynamically.</p>
+<p style="Normal">Fixed an assert and crash arising when you tried to use Abi from the command line.</p>
+<p style="Normal">Bug fixes: 615, 1539, 1540, 1621, 2102, 3645, 3832, 4294, 4561, 4563, 4573</p>
 <p style="Heading 2">Johnny Lee</p>
 <p style="Normal">Fix typo in ie_imp_RTF.</p>
 <p style="Normal">Bug fixes: 3269, 3550, 3845</p>
@@ -135,6 +144,8 @@
 <p style="Normal">Gladeified About dialog.</p>
 <p style="Normal">Rewrote WordPerfect importer to use libwpd, and be much better.</p>
 <p style="Normal">Dutch localisation work.</p>
+<p style="Normal">Fix to Format Table dialog related to unified units work.</p>
+<p style="Normal">Build fix for wordperfect plugin.</p>
 <p style="Heading 2">Rodrigo Moya</p>
 <p style="Normal">Update to LibGDA plugin, so that mail merge 'just works'.</p>
 <p style="Heading 2">Michael Pritchett</p>
@@ -142,6 +153,8 @@
 <p style="Normal">Use system-specified selection colour on Win32.</p>
 <p style="Heading 2">Rhoslyn Prys</p>
 <p style="Normal">Welsh localisation work.</p>
+<p style="Heading 2">Sharuzzaman Ahmat Raslan</p>
+<p style="Normal">Malay localisation work.</p>
 <p style="Heading 2">Rui Miguel Seabra</p>
 <p style="Normal">Fix size of Language dialog so that Help button fits.</p>
 <p style="Normal">Fix to rpm spec template to account for the demise of the wrapper script.</p>
