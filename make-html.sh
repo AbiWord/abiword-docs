@@ -47,7 +47,8 @@ do
 		      echo $i
 		      $ABI_DOC_PROG --to=html --exp-props=$html_export_options $i 2>/dev/null
 		      $CVS/make-abidoc.pl -I $n.info -S header.xhtml -F footer.xhtml > $n.xhtml
-		      mv $n.xhtml $n.html
+		      cp $n.xhtml $n.html
+			rm -f $n.xhtml
 		done
 
 		cd $CVS
@@ -59,9 +60,10 @@ do
 	cp -r */ $ABI_DOC_DEST/help/$help_language
 	cp *.html $ABI_DOC_DEST/help/$help_language
 	cp *.css $ABI_DOC_DEST/help/$help_language
+#You can comment out the next line or ignore the errors if you lack find
 	find $ABI_DOC_DEST/help -name CVS -exec rm -fr {} \;
 
-	for i in $(ls -1d $ABI_DOC_DEST/help/$help_language/*/ )
+	for i in $(echo $ABI_DOC_DEST/help/$help_language/*/ )
 	do
 		rm -f $i/*.xhtml
 		rm -f $i/*.info
