@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.1" xml:space="preserve" props="lang:en-US; document-footnote-initial:1; dom-dir:ltr">
+<abiword template="false" styles="locked" version="1.99.2" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:1; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:1; document-footnote-restart-page:1; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:1">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -11,89 +11,286 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Wed Jul  9 02:32:46 2003</m>
+<m key="abiword.date_last_changed">Mon Jul 14 23:35:03 2003</m>
 </metadata>
 <styles>
 <s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:17pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
-<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0pt; font-variant:normal; widows:2; margin-bottom:0pt; text-indent:0in; text-position:normal; margin-top:0pt; font-weight:normal; line-height:1.000000; font-size:12pt; color:000000; text-decoration:none; margin-right:0pt; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 <s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
-<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0833in; margin-left:1.0000in; margin-right:1.0000in"/>
-<s type="P" name="Box List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Box List; text-indent:-0.300000in"/>
+<s followedby="Current Settings" name="Example Text" basedon="None" type="P" props="text-decoration:none; text-indent:0in; margin-top:0pt; margin-left:0pt; list-decimal:.; line-height:1.000000; text-align:center; list-style:None; font-variant:normal; lang:en-US; margin-bottom:0pt; font-weight:normal; start-value:1; bgcolor:transparent; color:000000; font-stretch:normal; font-size:11pt; margin-right:0pt; font-style:italic; font-family:Times New Roman; list-delim:%L"/>
 <s type="P" name="Bullet List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; line-height:1.000000; list-style:Bullet List; text-indent:-0.300000in"/>
-<s followedby="Normal" name="Chapter Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Arial %L.; field-color:transparent; start-value:1; margin-left:0.0in; field-font:Chapter; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; tabstops:1.100000in/L0"/>
-<s type="P" name="Dashed List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Dashed List; text-indent:-0.300000in"/>
-<s type="P" name="Diamond List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Diamond List; text-indent:-0.300000in"/>
-<s type="C" name="Endnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
-<s type="C" name="Endnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000"/>
-<s type="C" name="Footnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
-<s type="C" name="Footnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000; font-size:10pt"/>
-<s type="P" name="Hand List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Hand List; text-indent:-0.300000in"/>
+<s type="P" name="Example Caption" basedon="None" followedby="Current Settings" props="font-variant:normal; lang:en-US; color:000000; font-family:Times New Roman; bgcolor:transparent; font-size:10pt; margin-left:0pt; text-position:normal; height:0in; format:%*%d.; font-style:normal; text-decoration:none; keep-together:no; text-align:center; widows:2; list-tag:0; keep-with-next:no; text-indent:0in; width:0in; line-height:1.000000; margin-right:0pt; start-value:1; list-decimal:.; list-delim:%L; orphans:2; font-weight:normal; margin-bottom:0pt; font-stretch:normal; default-tab-interval:0.5in; list-style:None; homogeneous:1; display:inline; dom-dir:ltr; margin-top:0pt"/>
 <s followedby="Normal" name="Heading 3" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:12pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
-<s type="P" name="Heart List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Heart List; text-indent:-0.300000in"/>
-<s type="P" name="Implies List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; line-height:1.000000; list-style:Implies List; text-indent:-0.300000in"/>
-<s type="P" name="Lower Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Lower Case List; text-indent:-0.300000in"/>
-<s type="P" name="Lower Roman List" basedon="Normal" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Lower Roman List; text-indent:-0.300000in"/>
-<s followedby="Normal" name="Numbered Heading 1" basedon="Heading 1" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; field-font:Arial; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; tabstops:0.299306in/L0"/>
-<s followedby="Normal" name="Numbered Heading 2" basedon="Heading 2" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; field-font:Arial; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; tabstops:0.299306in/L0"/>
-<s followedby="Normal" name="Numbered Heading 3" basedon="Heading 3" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; field-font:Arial; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; tabstops:0.299306in/L0"/>
 <s type="P" name="Numbered List" followedby="Current Settings" props="list-delim:%L.; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Numbered List; text-indent:-0.300000in"/>
-<s type="P" name="Plain Text" basedon="Normal" followedby="Current Settings" props="font-family:Courier New; line-height:1.000000"/>
-<s followedby="Normal" name="Section Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Arial %L.; field-color:transparent; start-value:1; margin-left:0.0in; field-font:Section; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; tabstops:1.100000in/L0"/>
-<s type="P" name="Square List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Square List; text-indent:-0.300000in"/>
-<s type="P" name="Star List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Star List; text-indent:-0.300000in"/>
-<s type="P" name="Tick List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Tick List; text-indent:-0.300000in"/>
-<s type="P" name="Triangle List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Triangle List; text-indent:-0.300000in"/>
-<s type="P" name="Upper Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Upper Case List; text-indent:-0.300000in"/>
-<s type="P" name="Upper Roman List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Upper Roman List; text-indent:-0.300000in"/>
 </styles>
 <lists>
 <l id="1000" parentid="0" type="0" start-value="1" list-delim="%L." list-decimal="."/>
 </lists>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.5in; page-margin-header:0.5in">
-<p style="Heading 1">How to Mail Merge</p>
-<p style="Normal">The process involves three main steps: creating the data source, creating the document template, and printing the merged result.</p>
-<p style="Heading 2">Creating the data source</p>
-<p style="Normal">As of this writing, there are three options for data source format:</p>
-<p level="1" listid="1000" parentid="0" style="Normal" props="start-value:1; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><c props="list-tag:1001"></c><field type="list_label" props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Numbered List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Numbered List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	Comma-delimited text</c></p>
-<p level="1" listid="1000" parentid="0" style="Normal" props="start-value:1; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><c props="width:0in; list-tag:1002; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; text-position:normal; lang:en-US; font-style:normal; font-variant:normal; text-decoration:none; bgcolor:transparent; list-style:Numbered List; homogeneous:1; height:0in; font-size:12pt; font-stretch:normal"></c><field type="list_label" props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Numbered List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Numbered List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	Tab-delimited text</c></p>
-<p level="1" listid="1000" parentid="0" style="Normal" props="start-value:1; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><c props="width:0in; list-tag:1003; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; text-position:normal; lang:en-US; font-style:normal; font-variant:normal; text-decoration:none; bgcolor:transparent; list-style:Numbered List; homogeneous:1; height:0in; font-size:12pt; font-stretch:normal"></c><field type="list_label" props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Numbered List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Numbered List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	XML</c></p>
-<p style="Normal" props="text-indent:0in; margin-left:0pt"><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">The third option is usually more trouble than it is worth for basic mail merge operations, and the second is identical to the first only with tabs instead of commas, so I will keep it simple by only introducing the first.</c><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal"></c></p>
-<p style="Normal" props="text-indent:0in; margin-left:0pt"><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal"></c></p>
+<p style="Heading 1"><bookmark type="start" name="top"/><bookmark type="end" name="top"/>How to Mail Merge</p>
+<p style="Normal">The process involves three main steps: <a xlink:href="#datasource">creating the data source</a>, <a xlink:href="#doctemplate">creating the document template</a>, and <a xlink:href="#printing">printing the merged result</a>.  Then you can <a xlink:href="#uses">get a little fancy</a>.</p>
+<p style="Heading 2"><bookmark type="start" name="datasource"/><bookmark type="end" name="datasource"/>Creating the data source</p>
+<p style="Normal">As of this writing, there are three common options for data source format:</p>
+<p level="1" listid="1000" parentid="0" style="Normal" props="start-value:1; list-style:Numbered List; field-font:NULL"><c props="list-tag:1001"></c><field type="list_label" props="height:0in; display:inline; list-style:Numbered List; width:0in; homogeneous:1"></field><c props="height:0in; display:inline; list-style:Numbered List; width:0in; homogeneous:1">	Comma-delimited text</c></p>
+<p level="1" listid="1000" parentid="0" style="Normal" props="start-value:1; list-style:Numbered List; field-font:NULL"><c props="height:0in; display:inline; list-style:Numbered List; width:0in; homogeneous:1; list-tag:1002"></c><field type="list_label" props="height:0in; display:inline; list-style:Numbered List; width:0in; homogeneous:1"></field><c props="height:0in; display:inline; list-style:Numbered List; width:0in; homogeneous:1">	Tab-delimited text</c></p>
+<p level="1" listid="1000" parentid="0" style="Normal" props="start-value:1; list-style:Numbered List; field-font:NULL"><c props="height:0in; display:inline; list-style:Numbered List; width:0in; homogeneous:1; list-tag:1003"></c><field type="list_label" props="height:0in; display:inline; list-style:Numbered List; width:0in; homogeneous:1"></field><c props="height:0in; display:inline; list-style:Numbered List; width:0in; homogeneous:1">	XML</c></p>
+<p style="Normal"><c props="height:0in; display:inline; width:0in; homogeneous:1">The third option is usually more trouble than it is worth for basic mail merge operations, and the second is identical to the first only with tabs instead of commas, so this document will keep it simple by only introducing the first.</c><c props="height:0in; display:inline; width:0in; homogeneous:1"></c></p>
+<p style="Normal"><c props="height:0in; display:inline; width:0in; homogeneous:1"></c></p>
 <p style="Normal"><c></c>Using any text editor (or AbiWord, if you remember to save as plain text) you will create a text file with two or more rows of data.  The first row is a list of field names, separated only by commas, as follows:</p>
-<p style="Normal" props="text-align:center"><c props="font-style:italic">field1,field2,field3</c><c props="font-style:italic"></c></p>
+<p style="Example Text">field1,field2,field3<c></c></p>
 <p style="Normal">Note that the last field on the line does not have a comma at the end.  These names define what fields of data are going to be available in the data source, though you do not necessarily have to use them all in your merge.  All subsequent lines in the data source will be as follows:</p>
-<p style="Normal" props="text-align:center"><c props="font-style:italic">value1_a,value2_a,value3_a</c><c props="font-style:italic"></c></p>
-<p style="Normal" props="text-align:center"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:italic; lang:en-US">value1_b,value2_b,value3_b</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:italic; lang:en-US"></c></p>
-<p style="Normal" props="text-align:left"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Again, note the lack of comma (or any other unwarranted delimiter) at the beginning and end of each line.  Each value is the text with which the field name will be substituted when you print your merged file.  For every field, a value exists, in corresponding order within each line, and each line is a separate instance of the document (a separate copy printed).  Values can be empty but must still be comma delimited:</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
-<p style="Normal" props="text-align:center"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:italic; lang:en-US">value1_a,,value3_a</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:italic; lang:en-US"></c></p>
-<p style="Normal" props="text-align:left"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Therefore the above would leave field2 blank, without interrupting the flow of the merge.  Let's make a more realistic example for later use:</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
-<p style="Normal" props="text-align:center"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:italic; text-decoration:none">FirstName,LastName,StreetAddr,City,State,Zip</c></p>
-<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:center; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:italic; font-size:12pt">Mark,Gilbert,666 Microsoft Way,Redmond,WA,</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:italic; font-size:12pt"></c></p>
-<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:center; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:italic; font-size:12pt">David,Chart,123 Easydoc Street,Userville,MD,12345</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:italic; font-size:12pt"></c></p>
-<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:center; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:italic; font-size:12pt">Dom,Lachowicz,777 GNU Ave.,Utopia,CA,02111</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:italic; font-size:12pt"></c></p>
-<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">In the example that follows, the above will be saved to a plain text file called mergeme.csv (csv for Comma Separated Values, if it helps).  Note that there is a comma at the end of the first line.  This is because, while there is no data for field Zip in that value set, the field still exists and needs to be accounted for.  Forgetting to do this will cause problems, read on.</c></p>
-<p style="Heading 2"><c props="lang:en-US">Creating the document template</c><c props="lang:en-US"></c></p>
-<p style="Normal"><c props="lang:en-US">This is very simple.  You create whatever document you want in AbiWord, and where you want values substituted for fields during the merge, you insert mail merge fields.  The easiest way to do this involves prepopulating the mail merge field dialog with the fields in your csv file.  To do so, run AbiWord with the -m argument, For example:</c><c props="lang:en-US"></c></p>
-<p style="Normal" props="text-align:center"><c props="font-style:italic; lang:en-US">AbiWord-2.0 -m mergeme.csv</c><c props="font-style:italic; lang:en-US"></c></p>
-<p style="Normal" props="text-align:center"><c props="lang:en-US; font-size:10pt; font-style:normal">(via the command prompt, run dialog, or shell prompt)</c><c props="lang:en-US; font-size:10pt; font-style:normal"></c></p>
+<p style="Example Text">value1_a,value2_a,value3_a<br/><c props="color:000000">value1_b,value2_b,value3_b</c><c props="color:000000"></c></p>
+<p style="Normal">Again, note the lack of comma (or any other unwarranted delimiter) at the beginning and end of each line.  Each value is the text with which the field name will be substituted when you print your merged file.  For every field, a value exists, in corresponding order within each line, and each line is a separate instance of the document (a separate copy printed).  Values can be empty but must still be comma delimited:<c></c></p>
+<p style="Example Text">value1_a,,value3_a<c></c></p>
+<p style="Normal">Therefore the above would leave field2 blank, without interrupting the flow of the merge.  Let's make a more realistic example for later use:<c></c></p>
+<p style="Example Text"><c></c>FirstName,LastName,StreetAddr,City,State,Zip<br/>Mark,Gilbert,666 Microsoft Way,Redmond,WA,<br/>David,Chart,123 Easydoc Street,Userville,MD,12345<br/>Dom,Lachowicz,777 GNU Ave.,Utopia,CA,02111<c></c></p>
+<p style="Normal">In the example that follows, the above will be saved to a plain text file called mergeme.csv (csv for Comma Separated Values, if it helps).  Note that there is a comma at the end of the first line.  This is because, while there is no data for field Zip in that value set, the field still exists and needs to be accounted for.  Forgetting to do this will cause problems, read on.<c></c></p>
+<p style="Heading 2"><bookmark type="start" name="doctemplate"/><bookmark type="end" name="doctemplate"/>Creating the document template<c></c></p>
+<p style="Normal">This is very simple.  You create whatever document you want in AbiWord, and where you want values substituted for fields during the merge, you insert mail merge fields.  The easiest way to do this involves prepopulating the mail merge field dialog with the fields in your csv file.  To do so, run AbiWord with the -m argument, For example:<c></c></p>
+<p style="Example Text">AbiWord-2.0 -m mergeme.csv<br/>(via the command prompt, run dialog, or shell prompt)<c></c></p>
 <p style="Normal"><c props="lang:en-US">Now, to access the mail merge field insertion dialog, open the '</c><c props="lang:en-US"></c><c props="text-decoration:underline; lang:en-US">I</c><c props="lang:en-US">nsert' menu and click '</c><c props="text-decoration:underline; lang:en-US">M</c><c props="text-decoration:none; lang:en-US">ail Merge Field'.  You should see a list of fields as shown in the dialog below.</c></p>
 <p style="Normal" props="text-align:center"><c props="text-decoration:none; lang:en-US"></c><image dataid="mergefielddlg1.png_0" props="height:2.227083in; width:3.250000in"/></p>
 <p style="Normal" props="text-align:left">All you have to do to insert a field at the cursor's current location in the document is select the appropriate field in the list and click <c props="text-decoration:underline">I</c><c props="text-decoration:underline"></c><c props="text-decoration:none">nsert.  The dialog even stays open and on top for you so you can move the cursor around in the document and insert however many fields you like, where you like.  When done, click </c><c props="text-decoration:underline">C</c><c props="text-decoration:none">lose to close the dialog.  Save the file as a normal AbiWord file (for this example, mergeme.abw).  An example is shown below.</c></p>
 <p style="Normal" props="text-align:center"><c props="text-decoration:none"></c><image dataid="mergesample2.png_0" props="height:4.656944in; width:3.916667in"/></p>
-<p style="Heading 2">Printing the merged result</p>
+<p style="Heading 2"><bookmark type="start" name="printing"/><bookmark type="end" name="printing"/>Printing the merged result</p>
 <p style="Normal">There is not yet a working mechanism to print from the graphical interface, but the command to perform the merge and print is magnificently simple:</p>
-<p style="Normal" props="text-align:center"><c props="font-style:italic">AbiWord-2.0 -m mergeme.csv -p mergeme.ps mergeme.abw</c></p>
-<p style="Normal" props="text-align:center"><c props="font-style:normal">(again from the command prompt, run dialog, or shell prompt)</c></p>
-<p style="Normal" props="text-align:left"><c props="font-style:normal">The first parameter, '-m mergeme.csv' is still simply telling the program where to get its data.  The second parameter, '-p mergeme.ps' is the switch to print with the file name to print postscript to, but all the usual potential values for -p work, if you want to print directly to your printer or filter or anything else.  The third and last parameter, 'mergeme.abw' is the document template you just created.  Note that when you print, there's a separate copy of the entire document for every set of values in the csv source.  If you print to file, the files will be named like mergeme.ps-0, mergeme.ps-1, mergeme.ps-2.  That's one .ps file for every set of values, with the numbering starting at 0.</c></p>
-<p style="Normal" props="text-align:left"><c props="font-style:normal"></c></p>
-<p style="Normal" props="text-align:left"><c props="font-style:normal">Beware of a corrupted csv.  If a field is not accounted for (in other words, your file is missing a comma somewhere), the merge and print process won't work.  Remember, if you don't have the data for a given field in one value set, just type another comma and move on.  The field will be substituted with nothing (effectively deleted for that value set).</c></p>
-<p style="Heading 2">Uses</p>
+<p style="Example Text">AbiWord-2.0 -m mergeme.csv -p mergeme.ps mergeme.abw<br/>(again from the command prompt, run dialog, or shell prompt)<c></c></p>
+<p style="Normal">The first parameter, '-m mergeme.csv' is still simply telling the program where to get its data.  The second parameter, '-p mergeme.ps' is the switch to print with the file name to print postscript to, but all the usual potential values for -p work, if you want to print directly to your printer or filter or anything else.  The third and last parameter, 'mergeme.abw' is the document template you just created.  Note that when you print, there's a separate copy of the entire document for every set of values in the csv source.  If you print to file, the files will be named like mergeme.ps-0, mergeme.ps-1, mergeme.ps-2.  That's one .ps file for every set of values, with the numbering starting at 0.<c></c></p>
+<p style="Normal"><c></c></p>
+<p style="Normal">Beware of a corrupted csv.  If a field is not accounted for (in other words, your file is missing a comma somewhere), the merge and print process won't work.  Remember, if you don't have the data for a given field in one value set, just type another comma and move on.  The field will be substituted with nothing (effectively deleted for that value set).<c></c></p>
+<p style="Heading 2"><bookmark type="start" name="uses"/><bookmark type="end" name="uses"/>Uses</p>
 <p style="Normal">Aside from inserting names on letters, you can use the mail merge system in the same manner to create envelopes for those letters.</p>
 <p style="Normal">Mail merge, despite its name, is not just for mailing.  It can also be used whenever you need to efficiently substitute multiple similarly formatted value sets from a data source, for any task or project.  If you can create a csv of it, you can merge it.  Other sources will soon be available such as various databases types, but many such database and address book applications support exporting to csv.  Use your imagination to make the most use out of merging!</p>
 <p style="Normal"><c></c></p>
 </section>
 <data>
+<d name="mergefielddlg1.png_0" mime-type="image/png" base64="yes">
+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
+OXOma14REameenFB//XXX+fBBx9k48aNPPnkk2zbto2FCxeWms/b25udO3cya9YsMjMzMQzD
+dffK82VlZfH1118zZswYAJxOJzabrUbXQ0SksagX4QIQFRVFVFQUAwcOZMiQIW7DxW63M2LE
+CDZt2kR0dDR79+6lb9++btszDMMVRlarxx/AiYjUKx7/qpqVlcWXX37pGk5NTaVVq1YA+Pv7
+k52d7TpNlp+fT15eHhEREUDhEU+R8+cNDAyka9euLF26FCgMm61bt9bKOomINHQef+RiGAZP
+P/00v/76KzabjaCgIF577TUAgoKCSEhIoGPHjvj7+5OSksLMmTPp2rUr4eHhDBo0yNWOu3lX
+rFjBhAkTWLhwIbm5uVxzzTX8+9//rqtVFRFpMDw+XAIDA/n444/LnL548eISw9OnT2f69Omu
+4VmzZpU5b5s2bfjoo49MqlRERIp4/GkxERGpfxQuIiJiOoWLiIiYTuEiIiKmU7iIiIjpFC4i
+ImI6hYuIiJhO4SIiIqbz+H+iFBGRqktN/bVO+lW4iIg0UPPnr6+zvhUuIiINVHx8+yotl5V1
+rNp9e3y4FN01ssipU6c4cuQIdrud9PR0hg0bxqefflpH1YmIeK5evSofLvPnr6dLl+Bq9+3x
+4VJ010gAh8NBv379mDJlCgAhISEKFhGRcmRl2XE4nG4fTqdRYjgj46xp/darT4s9/fTTBAcH
+u8IlLS2N0NDQEr/fd999REdH07NnT44cOVKX5YqINFr1Jlw+//xzlixZwpIlS8qcJz09nUGD
+BpGamsqgQYN4/PHHa69AERFxqRfhcuLECcaMGcO//vUvQkJCypzP19eXoUOHAjBy5MgSd7AU
+EZHa4/HXXADGjRvHuHHjuPbaa+u6FBGReikkJKDMaT/8YP4lBI8/cnnuuefIzMzkr3/96wXn
+tdvtfPDBBwC89dZb9OnTp6bLExGpF9LTs9yO37//aI305/FHLo8//jgRERHExsaWGF/8U2RF
+QkJCSEpKYsaMGfj5+bF27draKlNExOMdO5ZJixZBruGffjqOw+Gskb48PlzsdnuZ08LDwzlx
+4kSJcS+88EJNlyQiUm8dOXKKiIiL+OWXEzidRo314/GnxURExFwHD56s8T4aTLi4O4oREZG6
+0WDCRUREPIfHX3MREZGq01fui4iIqfSV++fEx7dn8+Z9dV2GiEi91qtXLFlZx0z5duOq8phw
+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
+</d>
 <d name="mergesample2.png_0" mime-type="image/png" base64="yes">
 iVBORw0KGgoAAAANSUhEUgAAA5oAAAKjCAYAAAB893BaAAAgAElEQVR4nOzdd3hUZf7//9cY
 WigJoRg6AkFBCMHQpBqqiAgKYgQsK1IUFVnyY0VcZQHBQlsQg4CigqxGcFHcCChLbxJAaQrS
@@ -1105,232 +1302,6 @@ VbS0/B2bLQeY/DoP5dPa2tnnzQ97e3sxGAz4+PhQVHSY6uoPOXbsD14VMZbY2FWUlX1ASEjI
 tX/F6zOpnZ2dbNu2iba2WwQEBFJYeGwq6wWgqsq7I7ciIiIiIiIyfbxuNOfOnUtZ2QdTWYuI
 iIiIiIjMAsbGxi+mu4YZz2JZguZRRERERO5F0/msqufkiZlN82WMjl4y3TXMaJo/EREREblX
 Teezqp6TJ2a2zZcxM/PV6a5BREREREREZpH/Arh9XAKpO2BCAAAAAElFTkSuQmCC
-</d>
-<d name="mergefielddlg1.png_0" mime-type="image/png" base64="yes">
-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
-OXOma14REameenFB//XXX+fBBx9k48aNPPnkk2zbto2FCxeWms/b25udO3cya9YsMjMzMQzD
-dffK82VlZfH1118zZswYAJxOJzabrUbXQ0SksagX4QIQFRVFVFQUAwcOZMiQIW7DxW63M2LE
-CDZt2kR0dDR79+6lb9++btszDMMVRlarxx/AiYjUKx7/qpqVlcWXX37pGk5NTaVVq1YA+Pv7
-k52d7TpNlp+fT15eHhEREUDhEU+R8+cNDAyka9euLF26FCgMm61bt9bKOomINHQef+RiGAZP
-P/00v/76KzabjaCgIF577TUAgoKCSEhIoGPHjvj7+5OSksLMmTPp2rUr4eHhDBo0yNWOu3lX
-rFjBhAkTWLhwIbm5uVxzzTX8+9//rqtVFRFpMDw+XAIDA/n444/LnL548eISw9OnT2f69Omu
-4VmzZpU5b5s2bfjoo49MqlRERIp4/GkxERGpfxQuIiJiOoWLiIiYTuEiIiKmU7iIiIjpFC4i
-ImI6hYuIiJhO4SIiIqbz+H+iFBGRqktN/bVO+lW4iIg0UPPnr6+zvhUuIiINVHx8+yotl5V1
-rNp9e3y4FN01ssipU6c4cuQIdrud9PR0hg0bxqefflpH1YmIeK5evSofLvPnr6dLl+Bq9+3x
-4VJ010gAh8NBv379mDJlCgAhISEKFhGRcmRl2XE4nG4fTqdRYjgj46xp/darT4s9/fTTBAcH
-u8IlLS2N0NDQEr/fd999REdH07NnT44cOVKX5YqINFr1Jlw+//xzlixZwpIlS8qcJz09nUGD
-BpGamsqgQYN4/PHHa69AERFxqRfhcuLECcaMGcO//vUvQkJCypzP19eXoUOHAjBy5MgSd7AU
-EZHa4/HXXADGjRvHuHHjuPbaa+u6FBGReikkJKDMaT/8YP4lBI8/cnnuuefIzMzkr3/96wXn
-tdvtfPDBBwC89dZb9OnTp6bLExGpF9LTs9yO37//aI305/FHLo8//jgRERHExsaWGF/8U2RF
-QkJCSEpKYsaMGfj5+bF27draKlNExOMdO5ZJixZBruGffjqOw+Gskb48PlzsdnuZ08LDwzlx
-4kSJcS+88EJNlyQiUm8dOXKKiIiL+OWXEzidRo314/GnxURExFwHD56s8T4aTLi4O4oREZG6
-0WDCRUREPIfHX3MREZGq01fui4iIqfSV++fEx7dn8+Z9dV2GiEi91qtXLFlZx0z5duOq8phw
-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
 </d>
 </data>
 </abiword>
