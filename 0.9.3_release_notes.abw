@@ -21,7 +21,7 @@
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Modified XHTML export to use relative paths and put all the image files in a subdirectory, and put that subdirectory in a subdirectory with the XHTML file. This keeps all the files together.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed a bug with PUBLICs in the code.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Jeremy Davis</c></p>
-<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed a compilation problem.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed compilation problems.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Hubert Figuiere</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed a configuration bug which allowed people to build a GNOME version of AbiWord on systems without GNOME.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed bug 1647, so that Web Preview now works on PPC architectures.</c></p>
@@ -40,7 +40,10 @@
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Dictionary file rpms.</c></p>
 <p style="Heading 2" props="orphans:2; widows:2"><c style="Heading 2" props="lang:en-GB">Marco Innocenti</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Italian strings update.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-GB">William Lachance</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">More work on the Word Perfect importer.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Dom Lachowicz</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Added a preference option to determine whether closing the last window exits AbiWord or opens a new blank document.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fix compile problems with iconv.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Code rationalisation to help with exception handling.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Minor clean up in KWord export.</c></p>
@@ -50,29 +53,36 @@
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">MS Word importer can now handle small caps.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Helped with basic KWord importer.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Little automake fixes.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Fixed some memory leaks.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Cleaned up some code.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Internal code changes that are doubtless important, but which I don’t understand, in UT_iconv.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Martin Lacko</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Slovak localization.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Patrick Lam</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Bug fix for 964. This was a nasty bug that could lead to AbiWord closing an altered document without prompting to save changes.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">New rand function to get around broken implementations in certain compilers.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Other bug fixes.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">David Mandelin</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Patched a code formatting problem which was preventing compilation.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Patches for cross-platform portability.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Christian Meyer</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Basic KWord importer.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-GB">Michael Pritchett</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Updated the Windows column dialog for the bidirectional build.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Work on the Windows Options dialog.</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Work on the Windows Page Setup Dialog.</c></p>
+<p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">Cross platform fixes.</c></p>
 <p style="Heading 2" props="text-indent:-35.0mm; margin-left:35.0mm"><c style="Heading 2">Martin Sevior</c></p>
 <p style="Normal Clean" props="text-indent:0.0mm; margin-left:0.0mm"><c></c>Removed a debug message that was annoying Hub.</p>
 <p style="Normal Clean" props="text-indent:0.0mm; margin-left:0.0mm">Added the ability to read Word 97 and later list structures from rtf.</p>
 <p style="Normal Clean" props="text-indent:0.0mm; margin-left:0.0mm">Changed code to make AbiWord explicitly set the foreground color to black on Linux.</p>
+<p style="Normal Clean" props="text-indent:0.0mm; margin-left:0.0mm">Made it possible to edit built-in styles.</p>
 <p style="Normal Clean" props="text-indent:0.0mm; margin-left:0.0mm">Fixed enormous numbers of bugs with column and section breaks.</p>
 <p style="Normal Clean" props="text-indent:0.0mm; margin-left:0.0mm">Fixed a bug which was making bits of the final characters in line vanish from the display.</p>
 <p style="Normal Clean" props="text-indent:0.0mm; margin-left:0.0mm">Fixed a bug in the source code configuration which was turning the Style dialog off.</p>
 <p style="Normal Clean" props="text-indent:0.0mm; margin-left:0.0mm">Fixed a bug in the bi-directional code which was preventing AbiWord from compiling.</p>
-<p style="Normal Clean" props="text-indent:0.0mm; margin-left:0.0mm">Other bug fixes.</p>
+<p style="Normal Clean" props="text-indent:0.0mm; margin-left:0.0mm">Fixed a compile problem on Linux.</p>
+<p style="Normal Clean" props="text-indent:0.0mm; margin-left:0.0mm">Other bug fixes, including 1815, 1817, and 1840.</p>
 <p style="Heading 2" props="text-indent:-35.0mm; margin-left:35.0mm"><c style="Heading 2" props="lang:en-GB">Jakub Steiner</c></p>
 <p style="Normal Clean" props="text-indent:-35.0mm; margin-left:35.0mm"><c style="Normal Clean" props="lang:en-GB"></c><c style="Normal Clean" props="lang:en-GB">New splash screen.</c></p>
 <p style="Heading 2" props="text-indent:-35.0mm; margin-left:35.0mm"><c style="Heading 2" props="lang:en-GB">Stanislav Visnovsky</c></p>
