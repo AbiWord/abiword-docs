@@ -16,7 +16,7 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Heading 1">AbiWord Credits</p>
+<p style="Heading 1"><c props="lang:en-GB"></c>AbiWord Credits</p>
 <p style="Normal">AbiWord has been written by a large team of volunteers. This page acknowledges their contributions.</p>
 <p style="Heading 2">Original Core Developers</p>
 <p style="Normal">Thomas Fletcher, Jeff Hostetler, Paul Rohr, Bob Sievers, Eric Sink, Shaw Terwilliger</p>
@@ -25,7 +25,7 @@
 <p style="Heading 2"><a xlink:href="#credits.txt">Full Credits</a></p>
 <p style="Heading 2">Documentation Credits</p>
 <p style="Normal">Original English Version: David Chart</p>
-<p style="Normal">Contributions: Alper Atici, Scott Bingman, John Clark, Michael Johnson, Dom Lachowicz</p>
+<p style="Normal">Contributions: Alper Atici, Scott Bingman, John Clark, Tomas Frydrych, Michael Johnson, Dom Lachowicz</p>
 <p style="Normal">Perl script: Kenneth Christiansen (This script lets us use AbiWord to maintain the docs; it handles XHTML conversion.)</p>
 <p style="Heading 3">Translations</p>
 </section>
