@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.6" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Thu Sep  4 17:29:18 2003</m>
+</metadata>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:22pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:3pt; line-height:1.000000; font-size:17pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; text-indent:0.00cm; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c props="lang:en-US">View Document Dialog</c><c props="lang:en-US"></c></p>
+<p style="Normal"><c props="lang:en-US">This dialog allows you to choose to view one of the open documents. Normally you can simply select one from the </c><a xlink:href="menuwindow.html"><c props="lang:en-US">Window Menu</c></a><c props="lang:en-US">, but if there are too many open documents you should use this dialog to view documents no longer listed in the menu.</c></p>
+<p style="Heading 2"><c props="lang:en-US">Available Documents</c></p>
+<p style="Normal"><c props="lang:en-US">This is a list of all the documents that are currently open in AbiWord. Click on one to select it.</c></p>
+<p style="Heading 2"><c props="lang:en-US"></c><c props="lang:en-US">Cancel</c><c props="lang:en-US"></c></p>
+<p style="Normal"><c props="lang:en-US">Close the dialog without changing the active window.</c><c props="lang:en-US"></c></p>
+<p style="Heading 2">View</p>
+<p style="Normal">Click this button to bring the selected document to the front.</p>
+</section>
+</abiword>
