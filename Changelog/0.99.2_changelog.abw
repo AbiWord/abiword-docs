@@ -17,6 +17,8 @@
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
 <p style="Heading 1"><c props="lang:en-GB"></c>0.99.2 Changelog</p>
 <p style="Normal">These are the changes made between 0.99.1 and 0.99.2. As usual, not all may be visible in the final release.</p>
+<p style="Heading 2">Piotr Banski</p>
+<p style="Normal">Polish localisation update.</p>
 <p style="Heading 2">Jeremy Davis</p>
 <p style="Normal">Bug fixes, including 2549.</p>
 <p style="Heading 2">Hubert Figuiere</p>
@@ -30,29 +32,39 @@
 <p style="Normal">RPM fix for plugins.</p>
 <p style="Normal">Added debug flags to plugins.</p>
 <p style="Normal">XDarwin environment variable fixes.</p>
+<p style="Normal">Basic functionality in HTML importer plugin.</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Bidi fixes.</p>
 <p style="Normal">Removed font trickery from wrapper script.</p>
 <p style="Normal">Small change in Win32 Open/Save dialog so that we don't append .abw etc to nonexistent filenames.</p>
-<p style="Normal">Bug fixes, including 2476, 2570, 2585, 2606.</p>
+<p style="Normal">Bug fixes, including 2476, 2487, 2500, 2523, 2570, 2585, 2606.</p>
 <p style="Heading 2">Marco Innocenti</p>
 <p style="Normal">Italian strings update.</p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">Bug fixes, including 1319, 2577, 2579, 2590, 2592, 2604.</p>
+<p style="Heading 2">Martin Lacko</p>
+<p style="Normal">Slovak localisation update.</p>
+<p style="Heading 2">Birger Langkjer</p>
+<p style="Normal">Danish localisation update.</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal">Basic tab import in WordPerfect importer.</p>
+<p style="Normal">HTML exporter cleanup.</p>
 <p style="Heading 2">Bryce Nesbitt</p>
 <p style="Normal">Fix bug 1030.</p>
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Upgraded NSIS to 1.94.</p>
 <p style="Normal">Bug fixes, including 1583, 2171, 2340, 2497.</p>
+<p style="Heading 2">Rhoslyn Prys</p>
+<p style="Normal">Welsh localisation update.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Bug fixes, including 2600.</p>
+<p style="Heading 2">Jesper Skov</p>
+<p style="Normal">Update RPM spec to use soft links rather than hard.</p>
 <p style="Heading 2">Vladimir Stoos</p>
 <p style="Normal">Russian localisation fix.</p>
 <p style="Heading 2">Ries van Twisk</p>
 <p style="Normal">wv image import updates.</p>
 <p style="Heading 2">Robert Wilhelm</p>
-<p style="Normal">wv patch for picture import.</p>
+<p style="Normal">wv patches for picture import.</p>
 </section>
 </abiword>
