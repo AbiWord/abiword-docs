@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<abiword version="unnumbered" fileformat="1.0">
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="0.9.6-1" fileformat="1.0">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -7,21 +8,20 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<!--         Build_ID          = (none) -->
-<!--         Build_Version     = unnumbered -->
-<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
-<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 08:18:55 -->
-<!--         Build_CompileDate = May 29 2001 -->
-
+<styles>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
 <section>
+<p style="Normal"><c props="lang:en-US">David Chart, Alper Atici 2001</c></p>
 <p style="Heading 1">Page Numbers Dialog</p>
 <p style="Normal"><c style="Normal">This dialog inserts page numbers on every page of your document.</c></p>
 <p style="Heading 2"><c style="Heading 2">Position</c></p>
 <p style="Normal"><c style="Normal">The drop-down menu here allows you to choose whether the page numbers appear in the header of the document, or the footer.</c></p>
 <p style="Heading 2"><c style="Heading 2">Alignment</c></p>
-<p style="Normal"><c style="Normal">The drop down menu for Alignment determines whether the page numbers are placed at the left or right margin, or in the center of the page.</c></p>
+<p style="Normal"><c style="Normal">The drop down menu for Alignment determines whether the page numbers are placed at the left,  right, or center of the header or footer.</c></p>
 <p style="Heading 2"><c style="Heading 2">Preview</c></p>
 <p style="Normal"><c style="Normal">This display shows the selected position of the page number relative to the main text of the page.</c></p>
 <p style="Heading 2"><c style="Heading 2">OK</c></p>
