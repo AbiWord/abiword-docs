@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<abiword version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 20:21:46 -->
+<!--         Build_CompileDate = Jul 11 2001 -->
+
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Normal">David Chart 2001</p>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-US">Page Setup</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This dialog allows you to change the overall shape and size of the pages in your document. Changes made here apply to the whole of one document.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Page</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This tab contains options for setting the characteristics of the page.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Paper...</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">These settings tell AbiWord what kind of paper you are using.</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Paper Size: This menu contains many pre-set paper sizes, including most of those in normal use around the world. The Custom option, at the bottom of the menu, allows you to set other page sizes.</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Width: This displays the width of the page.</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Height: This displays the height of the page.</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Units: This menu allows you to select the units in which the width and height boxes display their information.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Orientation...</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Portrait orientation has the short sides of the paper at the top and bottom, landscape has the long sides there. The width and height values given are based on portrait orientation.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Scale...</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This option allows you to retain the proportions of your page, but make it as much bigger or smaller as you like. The lower limit is 1% of the normal size, and the upper limit is 1000%, or ten times normal size. The scale applies to the height and width of the paper, not its area.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Margin</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Units:</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">This menu allows you to select the units in which your margins are measured.</c></p>
+<p style="Heading 3"><c style="Heading 3" props="lang:en-US">Margins</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Each margin can be changed by typing in the box below it, or by clicking on the up and down arrows. AbiWord will let you set margins that go beyond the opposite side of the page, but if you do that the program will crash. So don't.</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">The Header and Footer margins determine how far the top of a Header is from the top of the page, and how far the bottom of a Footer is from the bottom of the page.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">OK</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Click this button to make your changes and close the dialog.</c></p>
+<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Cancel</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Click this button to close the dialog without making any changes.</c></p>
+</section>
+</abiword>
