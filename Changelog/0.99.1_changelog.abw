@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="0.9.6-1" fileformat="1.0">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="pre0.9.7" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -9,25 +9,41 @@
 <!-- =====================================================================  -->
 
 <styles>
-<s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
 <s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.000000; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
-<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
 <section>
 <p style="Heading 1"><c props="lang:en-US">0.99.1 Changelog</c></p>
 <p style="Normal"><c props="lang:en-US">Taking Dom seriously, the next version should be 0.99.1, so this is the changelog for that. Normal caveats apply.</c></p>
+<p style="Heading 2">Paul Anguiano</p>
+<p style="Normal">FreeBSD fixes.</p>
 <p style="Heading 2">A. Alper Atici</p>
 <p style="Normal">Turkish localisation.</p>
+<p style="Normal">Work on help files.</p>
 <p style="Heading 2">Piotr Banski</p>
-<p style="Normal">Polish localisation update.</p>
+<p style="Normal">Polish localisation update and tool tips.</p>
+<p style="Heading 2">David Chart</p>
+<p style="Normal">Work on help files.</p>
+<p style="Heading 2">Kenneth Christiansen</p>
+<p style="Normal">Danish localisation update.</p>
+<p style="Heading 2">John Clark</p>
+<p style="Normal">Fix to CSS export.</p>
+<p style="Normal">Bug fixes to XHTML export, bugs 2002, 2288, 2290, 2337.</p>
 <p style="Heading 2">Andrew Dunbar</p>
 <p style="Normal">Work on translator plug in.</p>
 <p style="Normal">Added languages to AbiWord.</p>
+<p style="Normal">Swiss High German localisation.</p>
+<p style="Normal">Initial support for Assamese.</p>
 <p style="Heading 2">Hubert Figuiere</p>
-<p style="Normal">Bug fixes, including 2327, 2328.</p>
+<p style="Normal">Bug fixes, including 2327, 2328, 2415.</p>
 <p style="Normal">Removed all CR from the source code.</p>
 <p style="Normal">Mac OSX build fixes. AbiWord almost builds under Cocoa. The built binary can only segfault, but it's progress.</p>
+<p style="Normal">Fixed Solaris build and packaging.</p>
+<p style="Normal">RTF bookmark import and export.</p>
+<p style="Normal">Fixes to cut and paste.</p>
+<p style="Normal">Fix to libjpeg build.</p>
 <p style="Heading 2">Anthony Fok</p>
 <p style="Normal">Chinese translations (both traditional and simplified), courtesy of Thiz Linux.</p>
 <p style="Normal">Fix problem with Null character in labelset header.</p>
@@ -37,6 +53,9 @@
 <p style="Normal">Fix to XDarwin build.</p>
 <p style="Normal">Move AikSaurus into normal plug-in build system, and work on build system.</p>
 <p style="Normal">Several fixes to the build system.</p>
+<p style="Normal">Mac OSX wrapper for XDarwin AbiWord.</p>
+<p style="Normal">Workaround for a bug in libxml2.</p>
+<p style="Normal">Numerous spelling fixes: upgrades to galician.hash, british.hash, and american.hash.</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Fix a crashing bug when printing ttf fonts.</p>
 <p style="Normal">BiDi work.</p>
@@ -46,16 +65,35 @@
 <p style="Normal">Removed redundant drawing of background rectangles.</p>
 <p style="Normal">Added hooks for fine-tuning printing.</p>
 <p style="Normal">Work on PostScript output.</p>
-<p style="Normal">Bug fixes, including 2339.</p>
+<p style="Normal">Change Insert Bookmark hotkey. (It was the same as Insert Break.)</p>
+<p style="Normal">Added a Delete button to the Insert Bookmark dialog.</p>
+<p style="Normal">Patch to wv to fix potential crashes and handle bookmarks.</p>
+<p style="Normal">Word bookmark import.</p>
+<p style="Normal">Fixes to Word hyperlink import.</p>
+<p style="Normal">Word page ref import.</p>
+<p style="Normal">Work on Word list import.</p>
+<p style="Normal">Fixes to Word importer.</p>
+<p style="Normal">Win32 Go To dialog fix.</p>
+<p style="Normal">Work on lists for BiDi build.</p>
+<p style="Normal">Fixed a crashing bug in Go To which happened with incomplete bookmarks.</p>
+<p style="Normal">Added a dialog box to the Insert Field dialog, so that Page Reference fields can be inserted.</p>
+<p style="Normal">Fixes to paragraph preview.</p>
+<p style="Normal">Bug fixes, including 665, 1120, 1198, 2133, 2339.</p>
+<p style="Heading 2">Alan Horkan</p>
+<p style="Normal">favicon.ico for the web site.</p>
+<p style="Heading 2">Karl Ove Hufthammer</p>
+<p style="Normal">Norwegian Nynorsk update.</p>
 <p style="Heading 2"><c props="lang:en-US">Marco Innocenti</c></p>
 <p style="Normal"><c props="lang:en-US">Italian strings update.</c></p>
 <p style="Heading 2">Nikolaj Brandt Jensen</p>
 <p style="Normal">Build fixes on Win32.</p>
+<p style="Heading 2">Will Lachance</p>
+<p style="Normal">Fixes to WordPerfect importer.</p>
 <p style="Heading 2"><c props="lang:en-US">Dom Lachowicz</c></p>
 <p style="Normal"><c props="lang:en-US">Fix to Undo/Redo of atomic actions.</c></p>
 <p style="Normal"><c props="lang:en-US">Work on style locking.</c></p>
 <p style="Normal"><c props="lang:en-US">Improvement to cut and paste.</c></p>
-<p style="Normal"><c props="lang:en-US">Fix a bug in wv.</c></p>
+<p style="Normal"><c props="lang:en-US">wv bug fixes.</c></p>
 <p style="Normal"><c props="lang:en-US">Fix BSD spell checking.</c></p>
 <p style="Normal"><c props="lang:en-US">Fix page setup bugs.</c></p>
 <p style="Normal"><c props="lang:en-US">Find/replace now reports number of changes made.</c></p>
@@ -63,27 +101,58 @@
 <p style="Normal"><c props="font-style:normal; lang:en-US">Fixes to website.</c></p>
 <p style="Normal"><c props="font-style:normal; lang:en-US">Work on GDKPixBuf plugin.</c></p>
 <p style="Normal"><c props="font-style:normal; lang:en-US">Build work for GNOME VFS.</c></p>
+<p style="Normal"><c props="font-style:normal; lang:en-US">Work on MS Word importer, to handle bookmarks and hyperlinks, and start handling lists, headers and footers, and respecting section properties.</c></p>
+<p style="Normal"><c props="font-style:normal; lang:en-US">Fix to import of MS Word images.</c></p>
+<p style="Normal"><c props="font-style:normal; lang:en-US">Final work on Word list import.</c></p>
+<p style="Normal"><c props="font-style:normal; lang:en-US">Arcane code changes to PD_Document.</c></p>
+<p style="Normal"><c props="font-style:normal; lang:en-US">Fix a page type bug in Preferences.</c></p>
+<p style="Normal"><c props="font-style:normal; lang:en-US">Bug fixes, including 2413, 2507 (unix), 2509 (unix).</c></p>
+<p style="Normal"><c props="lang:en-US">Work on HTML importer.</c></p>
 <p style="Heading 2">Patrick Lam</p>
-<p style="Normal">Bug fixes, including 1365, 2375.</p>
+<p style="Normal">Bug fix to columns dialog.</p>
+<p style="Normal">Bug fix in fp_PageSize.cpp.</p>
+<p style="Normal">Fix to KWord exporter.</p>
+<p style="Normal">Removed fp_PageSize::Unit. This made the code difficult to maintain, as it duplicated another function.</p>
+<p style="Normal">Bug fixes, including 1360, 1365, 1399, 1932, 2375.</p>
 <p style="Heading 2">Per Larsson</p>
 <p style="Normal">Swedish localisation update.</p>
 <p style="Heading 2"><c props="lang:en-US">Marc Maurer</c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">nl-NL translation update.</c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">English statusbar message fix.</c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix so that the help menu falls back to en-US if the local help files are not installed.</c></p>
-<p style="Heading 2"><c props="lang:en-US"></c><c props="lang:en-US">Bryce Nesbitt</c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix to HTML image export.</c></p>
+<p style="Heading 2"><c props="lang:en-US">Bryce Nesbitt</c></p>
 <p style="Normal"><c props="lang:en-US">Add "styles lock" - a document attribute that disables all formating tools except for styles. Available for testing by editing document to include &lt;abiword styles="locked"&gt;</c></p>
+<p style="Normal"><c props="lang:en-US">Work on 'Report a Bug' item in the Help menu.</c></p>
 <p style="Heading 2">Michael Pritchett</p>
 <p style="Normal">Fix help fall-back on Win32.</p>
 <p style="Normal">Win32 build fixes.</p>
-<p style="Normal">Cleaned up a debug assert.</p>
+<p style="Normal">Cleaned up debug asserts.</p>
+<p style="Normal">Basic HTML import. Can only handle <c props="font-style:italic">very</c><c props="font-style:normal"> basic HTML, and valid HTML will not necessarily import, but some HTML is handled. (We already handle XHTML quite well.)</c></p>
+<p style="Normal"><c props="font-style:normal">Fix to HTML bookmark importing.</c></p>
+<p style="Normal"><c props="font-style:normal">Added import and export of anchor tags.</c></p>
+<p style="Normal"><c props="font-style:normal">Partial fix to Normal mode on Win32.</c></p>
+<p style="Normal"><c props="font-style:normal">Fixed label of Insert&gt;Pictures command.</c></p>
+<p style="Normal"><c props="font-style:normal">Work on Free Translate plugin for Win32.</c></p>
+<p style="Normal"><c props="font-style:normal">Bug fixes, including 911, 1932 (Win32), 2007, 2040, 2415, 2423, 2424 (Win32), 2507 (Win32), 2509 (Win32), 2510.</c></p>
 <p style="Heading 2">Gilles Saint-Denis</p>
 <p style="Normal">French localisation update.</p>
 <p style="Heading 2">Gladiston Santana</p>
 <p style="Normal">Brazilian localisation fix.</p>
+<p style="Heading 2">Rui Miguel Seabra</p>
+<p style="Normal">Work on rpm spec template.</p>
+<p style="Normal">Added .cvsignore files.</p>
+<p style="Normal">Clarifications to plugin menu entries.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Enable gnome-vfs in GNOME build.</p>
 <p style="Normal">Header/footer code improvements.</p>
+<p style="Normal">Fixed import of nested lists from Word 97.</p>
+<p style="Normal">Export nested lists to rtf.</p>
+<p style="Normal">Work on import of bulleted lists from Word.</p>
+<p style="Normal">Fixed a crash on exit from documents with complex lists.</p>
+<p style="Normal">Removed Chapter and Section styles from built-in list.</p>
+<p style="Normal">Added a warning and automatic mode switch if you try to edit a header or footer in normal mode.</p>
+<p style="Normal">Kludgy fix for some layout bugs.</p>
 <p style="Heading 2"><c props="lang:en-US">Jesper Skov</c></p>
 <p style="Normal"><c props="lang:en-US">Fix squiggles in header and footer.</c></p>
 <p style="Normal"><c props="lang:en-US">Fixes to debug code.</c></p>
@@ -95,5 +164,11 @@
 <p style="Normal"><c props="lang:en-US">Stop the spell checker checking zero-length words.</c></p>
 <p style="Normal"><c props="lang:en-US">Fix keep-together and keep-with-next.</c></p>
 <p style="Normal"><c props="lang:en-US">Bug fixes, including 1506.</c></p>
+<p style="Heading 2">Hakan Waara</p>
+<p style="Normal">Swedish localisation update.</p>
+<p style="Heading 2"><c props="lang:en-US">Robert Wilhelm</c></p>
+<p style="Normal"><c props="lang:en-US">Bug fix in picf.c.</c></p>
+<p style="Normal"><c props="lang:en-US">Patch for a Word import bug.</c></p>
+<p style="Normal"><c props="lang:en-US">Fix for bug 1876.</c></p>
 </section>
 </abiword>
