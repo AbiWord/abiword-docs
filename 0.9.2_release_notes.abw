@@ -21,5 +21,6 @@
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Dom Lachowicz:	Changes resulting from interface review.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Paul Rohr:	Fix building of wv and libiconv.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Martin Sevior:	Yet more section break fixes.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Alec Wolman:	autoconf patch.</c></p>
 </section>
 </abiword>
