@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.6" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Thu Sep  4 18:56:12 2003</m>
+</metadata>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3326in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s followedby="Current Settings" name="Normal" type="P" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; text-decoration:none; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:14pt; text-indent:0.00cm; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1">Table Toolbar</p>
+<p style="Normal">This toolbar allows you to work with tables more easily.</p>
+<p style="Normal"><c></c></p>
+<p style="Normal">This button opens the table widget, which lets you insert a table of any size into your document. Drag on the widget to select the number of rows and columns that you want, and click to insert the table. The number of rows and columns in the table is displayed at the bottom of the widget.</p>
+<p style="Normal"><c></c></p>
+<p style="Normal">This button inserts a row below the current row.</p>
+<p style="Normal"><c></c></p>
+<p style="Normal">This button inserts a column to the left of the current column.</p>
+<p style="Normal"><c></c></p>
+<p style="Normal">This button deletes the current row.</p>
+<p style="Normal"><c></c></p>
+<p style="Normal">This button deletes the current column.</p>
+<p style="Normal"><c></c></p>
+<p style="Normal">This button opens the <a xlink:href="dialogmergecells.html">Merge Cells dialog</a>.</p>
+</section>
+</abiword>
