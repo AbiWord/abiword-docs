@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="pre0.9.7" fileformat="1.0" styles="unlocked">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -9,17 +9,16 @@
 <!-- =====================================================================  -->
 
 <styles>
-<s type="P" basedon="Normal" followedby="Current Settings" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
-<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
-<s type="P" basedon="Normal" followedby="Current Settings" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
-<s type="P" basedon="Normal" followedby="Current Settings" name="Heading 3" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p><c props="lang:en-US">David Chart 2001-2</c></p>
 <p style="Heading 1"><c style="Heading 1" props="lang:en-US">Styles Dialog</c></p>
 <p style="Normal"><c style="Normal" props="lang:en-US">The Styles dialog allows you to create, modify, and delete styles in your AbiWord document. You can also apply existing styles using the Style drop-down menu on the formatting toolbar: see the help document for that toolbar for further details.</c></p>
-<p style="Normal"><c style="Normal" props="lang:en-US">Changes that you make from this dialog only apply to the current document. To change the default styles for a new document, see the documentation on How To Change Default Styles.</c></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">Changes that you make from this dialog only apply to the current document. To change the default styles for a new document, see the documentation on </c><a xlink:href="../howto/howtonormaltemplate.html"><c style="Normal" props="lang:en-US">How To Change Default Styles</c></a><c style="Normal" props="lang:en-US">.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-US">Available Styles</c></p>
 <p style="Normal"><c style="Normal" props="lang:en-US">This window shows a list of all the styles in the document which meet the criterion selected under 'List', below. You can scroll through the list using the scroll bars, and click on a style to select it.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-US">List</c></p>
@@ -36,9 +35,9 @@
 <p style="Normal"><c style="Normal" props="lang:en-US">This shows you what individual characters formatted according to the currently-selected style would look like.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-US">Description</c></p>
 <p style="Normal"><c style="Normal" props="lang:en-US">This box lists the properties of the style. The properties are all the formatting options that are applied by that style.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">New...</c></p>
+<p style="Heading 2"><a xlink:href="dialognewstyle.html"><c style="Heading 2" props="lang:en-US">New...</c></a></p>
 <p style="Normal"><c style="Normal" props="lang:en-US">This button opens the New Style dialog.</c></p>
-<p style="Heading 2"><c style="Heading 2" props="lang:en-US">Modify...</c></p>
+<p style="Heading 2"><a xlink:href="dialogmodifystyle.html"><c style="Heading 2" props="lang:en-US">Modify...</c></a></p>
 <p style="Normal"><c style="Normal" props="lang:en-US">This button opens the Modify Style dialog to modify the selected style. If you click it while no style is selected, you get a warning dialog.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-US">Delete</c></p>
 <p style="Normal"><c style="Normal" props="lang:en-US">Pressing this button deletes the currently-selected style. If that style is built-in, nothing happens when you press the button.</c></p>

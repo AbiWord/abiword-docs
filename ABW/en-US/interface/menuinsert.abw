@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="pre0.9.7" fileformat="1.0" styles="unlocked">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -9,34 +9,33 @@
 <!-- =====================================================================  -->
 
 <styles>
-<s type="P" basedon="" followedby="Current Settings" name="Normal" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s type="P" basedon="Normal" followedby="Normal Clean" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
-<s type="P" name="Normal Clean" basedon="Normal" followedby="Current Settings" props="text-align:left; line-height:1.000000; margin-top:0pt; font-weight:normal; field-font:NULL; font-style:normal"/>
-<s type="P" basedon="Normal" followedby="Normal Clean" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" name="Normal Clean" basedon="Normal" followedby="Current Settings" props="text-align:left; margin-top:0pt; line-height:1.000000; field-font:NULL; font-weight:normal; font-style:normal"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.00cm; page-margin-header:0.00cm; page-margin-right:2.54cm; page-margin-left:2.54cm; page-margin-top:2.54cm; page-margin-bottom:2.54cm">
-<p style="Normal"><c style="Normal" props="lang:en-US"></c><c style="Normal" props="lang:en-GB">David Chart 2001</c></p>
 <p style="Heading 1">Insert Menu</p>
 <p style="Normal"><c style="Normal">This menu allows you to insert various kinds of entity into your document.</c></p>
-<p style="Heading 2"><c style="Heading 2">Break...</c></p>
+<p style="Heading 2"><a xlink:href="dialogbreak.html"><c style="Heading 2">Break...</c></a></p>
 <p style="Normal"><c style="Normal">This command opens the Break dialog, which allows you to insert page, column, and section breaks.</c></p>
-<p style="Heading 2"><c style="Heading 2">Page Numbers...</c></p>
+<p style="Heading 2"><a xlink:href="dialogpagenumbers.html"><c style="Heading 2">Page Numbers...</c></a></p>
 <p style="Normal"><c style="Normal">This command opens the Page Numbers dialog, allowing you to insert automatically calculated page numbers into your document's header or footer.</c></p>
-<p style="Heading 2"><c style="Heading 2">Date and Time...</c></p>
+<p style="Heading 2"><a xlink:href="dialogdateandtime.html"><c style="Heading 2">Date and Time...</c></a></p>
 <p style="Normal"><c style="Normal">This opens the Date and Time dialog, which allows you to insert fields showing the current date and time into your document.</c></p>
-<p style="Heading 2"><c style="Heading 2">Field...</c></p>
+<p style="Heading 2"><a xlink:href="dialogfield.html"><c style="Heading 2">Field...</c></a></p>
 <p style="Normal"><c style="Normal">The Field dialog allows you to insert any field defined in AbiWord into your document. Fields are entities which automatically update their values.</c></p>
-<p style="Heading 2"><c style="Heading 2">Symbol...</c></p>
+<p style="Heading 2"><a xlink:href="dialogsymbol.html"><c style="Heading 2">Symbol...</c></a></p>
 <p style="Normal"><c style="Normal">This command opens the Insert Symbol dialog, which enables you to insert non-standard symbols from various character sets into your document.</c></p>
 <p style="Heading 2"><c style="Heading 2">Autotext</c></p>
 <p style="Normal"><c style="Normal">The Autotext sub-menu gives access to various kinds of text which can be inserted into your document. Each of the commands on the sub-menu has its own sub-menu. The text listed for each command on the lowest-level menus is inserted into the document when you select that command.</c></p>
 <p style="Normal"><c style="Normal">For example, if you select Autotext &gt; Reference: &gt; In reply to:, the text 'In reply to:' is inserted into your document at the insertion point.</c></p>
 <p style="Heading 2"><c style="Heading 2" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Insert File...</c></p>
-<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Heading 2" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Inserts the contents of a file into the open document. This command opens the Insert File dialog, which is the same as the normal Open File dialog.</c></p>
-<p style="Heading 2" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><c style="Heading 2" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Bookmark...</c></p>
+<p style="Normal Clean" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c style="Heading 2" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Inserts the contents of a file into the open document. This command opens the Insert File dialog, which is the same as the normal Open File dialog.</c></p>
+<p style="Heading 2" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><a xlink:href="dialogbookmark.html"><c style="Heading 2" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Bookmark...</c></a></p>
 <p style="Normal Clean" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><c style="Normal Clean" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Opens the Insert Bookmark dialog, which allows you to insert a named, invisible marker into your document. You can create hyperlinks to bookmarks, and go to them from the Go To dialog.</c></p>
-<p style="Heading 2" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><c style="Heading 2" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Hyperlink...</c></p>
+<p style="Heading 2" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><a xlink:href="dialoghyperlink.html"><c style="Heading 2" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Hyperlink...</c></a></p>
 <p style="Normal Clean" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><c style="Normal Clean" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Opens the Insert Hyperlink dialog. If you click on a hyperlink, you are taken to either another part of the document, or to another document or website. Hyperlinks are displayed in blue, underlined text.</c></p>
 <p style="Heading 2" props="text-indent:0.0000in; margin-left:0.0000in; margin-right:0.0000in"><c style="Heading 2" props="lang:en-US; text-position:normal; text-decoration:none; color:000000">Picture...</c></p>
 <p style="Normal"><c style="Normal">This command opens an 'Insert Picture' dialog, which works like an Open dialog. You can open any png or bmp files you have, and insert them in your document at the insertion point. You may be able to open other image formats, depending on your operating system and the plug-ins you have installed.</c></p>

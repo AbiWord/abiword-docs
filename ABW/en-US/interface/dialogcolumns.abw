@@ -9,14 +9,13 @@
 <!-- =====================================================================  -->
 
 <styles>
-<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
-<s type="P" basedon="Normal" followedby="Normal Clean" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
-<s type="P" name="Normal Clean" basedon="Normal" followedby="Current Settings" props="text-align:left; margin-top:0pt; line-height:1.0; field-font:NULL; font-weight:normal; font-style:normal"/>
-<s type="P" basedon="Normal" followedby="Normal Clean" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Normal Clean" basedon="Normal" followedby="Current Settings" props="text-align:left; font-weight:normal; margin-top:0pt; line-height:1.0; field-font:NULL; font-style:normal"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="section-max-column-height:0.0in; columns:1; section-space-after:0.25in; column-line:off">
-<p style="Normal"><c style="Normal" props="lang:en-GB"></c><c style="Normal" props="lang:en-US">David Chart 2001-2</c></p>
 <p style="Heading 1"><c style="Heading 1">Columns Dialog</c></p>
 <p style="Normal"><c style="Normal">This dialog allows you to create newspaper-style columns in your document. The text will fill one column before moving on to the next. The column setting you select applies to the whole of the current section. If you want to change the number of columns in a document, you must insert a section break: see the Insert Break dialog.</c></p>
 <p style="Heading 2"><c style="Heading 2">Number of Columns</c></p>

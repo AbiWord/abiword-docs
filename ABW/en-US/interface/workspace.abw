@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<abiword version="unnumbered" fileformat="1.0">
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -7,272 +8,62 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<!--         Build_ID          = (none) -->
-<!--         Build_Version     = unnumbered -->
-<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:Off Scripting:On -->
-<!--         Build_Target      = /usr/src/abiword/abi74/src/Linux_2.4.6r1_i386_GNOME/obj -->
-<!--         Build_CompileTime = 20:06:48 -->
-<!--         Build_CompileDate = Jul  4 2001 -->
-
 <styles>
 <s followedby="Normal" name="doc_heading1" basedon="Normal" type="" props="font-family:Arial; font-size:12pt; field-font:NULL; margin-bottom:12pt; bgcolor:transparent; font-weight:bold; font-style:normal; margin-top:22pt"/>
-<s followedby="Normal" name="doc_heading3" basedon="Normal" type="" props="font-weight:bold; margin-top:18pt; font-size:12pt; margin-bottom:3pt; font-family:Arial; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
 <s followedby="Normal" name="doc_normal" basedon="" type="" props="margin-top:0pt; margin-left:0.5000in; font-size:12pt; field-font:NULL; line-height:1.0; text-align:left; font-family:Times New Roman"/>
+<s followedby="Normal" name="doc_heading3" basedon="Normal" type="" props="field-font:NULL; margin-top:18pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:12pt"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="margin-bottom:6pt; field-font:NULL; margin-left:1in; margin-right:1in"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
 </styles>
 <ignoredwords>
 <iw>toolbar</iw>
 </ignoredwords>
-<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="inch" page-scale="1.000000"/>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section header="26414915">
-<p style="doc_heading1"><c props="lang:en-US; font-size:22pt; font-family:Times New Roman">The </c><c props="font-family:Times New Roman; font-size:22pt">AbiWord Workspace</c></p>
+<p style="doc_heading1"><c props="lang:en-GB; font-size:22pt; font-family:Times New Roman"></c><c props="lang:en-US; font-size:22pt; font-family:Times New Roman">The </c><c props="font-family:Times New Roman; font-size:22pt">AbiWord Workspace</c></p>
 <p style="doc_normal">AbiWord looks quite similar to other word processors, hopefully making anyone new to the software quite at home.</p>
-<p style="doc_normal"><c></c></p>
+<p style="doc_normal"></p>
 <p style="doc_normal" props="text-indent:0.0000in; text-align:center"><image dataid="/usr/src/abiword/commit/images/full_window.png_0" props="height:3.98in; width:6.48in"/></p>
 <p style="doc_normal"></p>
 <p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">The familiar interface should allow most people to start working immediately. However, there are some pieces that may be new.</p>
-<p level="1" listid="0" parentid="0" style="Normal"><c></c></p>
+<p level="1" listid="0" parentid="0" style="Normal"></p>
 <p level="1" listid="0" parentid="0" style="doc_heading3">Title Window</p>
-<p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:-0.5000in"><c></c></p>
-<p level="1" listid="0" parentid="0" style="Normal"><c></c><image dataid="/usr/src/abiword/commit/images/titlebar.png_0" props="height:0.22in; width:6.47in"/></p>
-<p level="1" listid="0" parentid="0" style="Normal"><c></c></p>
+<p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:-0.5000in"></p>
+<p level="1" listid="0" parentid="0" style="Normal"><image dataid="/usr/src/abiword/commit/images/titlebar.png_0" props="height:0.22in; width:6.47in"/></p>
+<p level="1" listid="0" parentid="0" style="Normal"></p>
 <p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">The title window itself is like any other application’s window, with one difference. Note the * near “Untitled10“. The star means that “Untitled10“ has been modified. This provides an easy way to tell if the document needs to be saved.</p>
 <p level="1" listid="0" parentid="0" style="doc_heading3">The Function Bars</p>
-<p level="1" listid="0" parentid="0" style="Normal"><c></c><image dataid="/usr/src/abiword/commit/images/functionbars.png_0" props="height:0.95in; width:6.38in"/></p>
-<p level="1" listid="0" parentid="0" style="Normal"><c></c></p>
+<p level="1" listid="0" parentid="0" style="Normal"><image dataid="/usr/src/abiword/commit/images/functionbars.png_0" props="height:0.95in; width:6.38in"/></p>
+<p level="1" listid="0" parentid="0" style="Normal"></p>
 <p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">These are the three major function bars. The first, known as the Menu Bar, is the best place to start getting familiar with AbiWord. It’s best to start browsing the menus to get a sense of all that AbiWord can do with documents.</p>
-<p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">The second is the “Standard Bar”, and the third (at the bottom) is the Formatting Bar. A detailed overview of their functions is in the help section “Function Menus”.</p>
+<p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">The second is the “Standard Bar”, and the third (at the bottom) is the Formatting Bar.</p>
 <p level="1" listid="0" parentid="0" style="doc_heading3">Working the Bars</p>
 <p level="1" listid="0" parentid="0" style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">AbiWord allows for hiding toolbars. If some are missing or are simply not needed, check under View &gt; Toolbars.</p>
-<p level="1" listid="0" parentid="0" style="Normal"><c></c></p>
-<p level="1" listid="0" parentid="0" style="Normal"><c></c><image dataid="/usr/src/abiword/commit/images/functionbars_hiding.png_0" props="height:3.07in; width:5.51in"/></p>
+<p level="1" listid="0" parentid="0" style="Normal"></p>
+<p level="1" listid="0" parentid="0" style="Normal"><image dataid="/usr/src/abiword/commit/images/functionbars_hiding.png_0" props="height:3.07in; width:5.51in"/></p>
 <p style="doc_heading3">The Grab Bar</p>
-<p style="doc_normal"><c></c></p>
-<p style="Normal" props="text-align:left"><c></c><image dataid="/usr/src/abiword/commit/images/grabbar_shaded.png_0" props="height:1.08in; width:1.35in"/></p>
+<p style="doc_normal"></p>
+<p style="Normal" props="text-align:left"><image dataid="/usr/src/abiword/commit/images/grabbar_shaded.png_0" props="height:1.08in; width:1.35in"/></p>
 <p style="Block Text" props="text-indent:0.5000in; margin-left:0.0000in; margin-right:0.0000in"></p>
-<p style="doc_normal" props="font-family:Times New Roman; font-style:normal; margin-left:0.0000in; lang:en-US; text-position:normal; text-indent:0.5000in; text-decoration:none; bgcolor:transparent; margin-right:0.0000in; color:000000; font-weight:normal; font-size:12pt">For those running AbiWord on GNOME computers, the grab bar located to the far left of each toolbar presents an easy way for anybody to modify the interface to their liking. Click on the grab bar and drag. The toolbar will follow the mouse, even allowing for the toolbar to hover over any part of the screen.</p>
+<p style="doc_normal" props="font-family:Times New Roman; font-style:normal; margin-left:0.0000in; lang:en-US; text-indent:0.5000in; text-decoration:none; bgcolor:transparent; margin-right:0.0000in; color:000000; font-size:12pt; font-weight:normal; text-position:normal">For those running AbiWord on GNOME computers, the grab bar located to the far left of each toolbar presents an easy way for anybody to modify the interface to their liking. Click on the grab bar and drag. The toolbar will follow the mouse, even allowing for the toolbar to hover over any part of the screen.</p>
 <p style="Heading 3">Status Bar</p>
-<p style="doc_normal"><c></c></p>
-<p style="Normal" props="text-indent:0.0000in"><c></c><image dataid="/usr/src/abiword/commit/images/statusbar.png_0" props="height:0.22in; width:5.04in"/></p>
+<p style="doc_normal"></p>
+<p style="Normal" props="text-indent:0.0000in"><image dataid="/usr/src/abiword/commit/images/statusbar.png_0" props="height:0.22in; width:5.04in"/></p>
 <p style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in"></p>
 <p style="Normal" props="text-indent:0.5000in">The Status Bar allows for a quick over view of the document’s status. On the left, AbiWord notes the current page. The middle box, which is usually empty, displays a quick help message describing the current menu option.</p>
-<p style="Normal" props="text-indent:0.5000in"><c></c></p>
-<p style="Normal" props="text-indent:0.0000in"><c></c><image dataid="/usr/src/abiword/commit/images/statusbar_quickhelp.png_0" props="height:1.56in; width:5.30in"/></p>
+<p style="Normal" props="text-indent:0.5000in"></p>
+<p style="Normal" props="text-indent:0.0000in"><image dataid="/usr/src/abiword/commit/images/statusbar_quickhelp.png_0" props="height:1.56in; width:5.30in"/></p>
 <p style="doc_heading3">The Rulers</p>
-<p style="doc_normal"><c></c></p>
-<p style="Normal"><c></c><image dataid="/usr/src/abiword/commit/images/ruler.png_0" props="height:0.32in; width:5.55in"/></p>
+<p style="doc_normal"></p>
+<p style="Normal"><image dataid="/usr/src/abiword/commit/images/ruler.png_0" props="height:0.32in; width:5.55in"/></p>
 <p style="Normal"></p>
-<p style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">By using the rulers it becomes easy to set page margins and tabstops. For more information on how to effectively use the ruler, please see the tutorial “<c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal">Margins, Tabstops and Indents, oh my!”.</c></p>
+<p style="doc_normal" props="text-indent:0.5000in; margin-left:0.0000in">By using the rulers it becomes easy to set page margins and tabstops.</p>
 </section>
 <section id="26414915" listid="0" parentid="0" type="header">
-<p style="Normal" props="text-align:left"><c></c></p>
+<p style="Normal" props="text-align:left"></p>
 </section>
 <data>
-<d name="/usr/src/abiword/commit/images/statusbar.png_0" mime-type="image/png" base64="yes">
-iVBORw0KGgoAAAANSUhEUgAAAfgAAAAWCAYAAAAsEY45AAAABGdBTUEAALGPC/xhBQAAAAZi
-S0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALiAAAC4sBzqN6igAAAAd0SU1FB9EFChUVAnG97J0A
-AAHqSURBVHic7d1hjqIwAAZQ3XgZOIXX8UKex1OU47g/NmxKA5QaEKjvJZNIHbC2Sb+26Mz1
-+Xy+H4/HBQCoxzWE8N67EgDAuv7sXQEAYH23/sHr9dqxGudzv98Hx9oPOJujjGNHqUct+va8
-jRWS1zTNpeu6QZn2A87kKOPYUepRi749bdEDQIUEPABUaDbg27Yd/HzL1GvF5d+sD8CvSsfd
-dOwdO946M5Zcu7QONebLLfcLIYT/j9u2HRxvYWnHAXAsaUZ8IzOW1ONXfbRFPzVDi8tKZ329
-qU6JO0zHAewjhLB4kbXmWD21Ik/L0wway6u51fpYhp1VdgUfv8mxgO2DNw7gtPHiciENUKc0
-/Nca50vyJc2j0h2F9PwzK9qij83NbtJOrmEmBMA/cyG49Rb9J/nyqxmUDfgxU7OpKTXMhACY
-t8fKN/d6pXlVk02+JrfkU/Cl1zNJADiOknvxa1o7X2r20Qo+7th4qyYtG3vcE9oAddnqHnxp
-vuTOXTI5qSGjZgN+7s3Fz+U+OJe7T5N7rvR8ANYxNtZPHU+VbVmPJXVYkle5a57RRyv4KVvM
-3ACAcqsGvFAHgGPwt+gBoELXEMK7P2iaZs+6nE767w21H3A2RxnHjlKPWnRdNwx4AKAO18vl
-IuABoDJ/AVchNq0eSfGoAAAAAElFTkSuQmCC
-</d>
-<d name="/usr/src/abiword/commit/images/grabbar_shaded.png_0" mime-type="image/png" base64="yes">
-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
-</d>
 <d name="/usr/src/abiword/commit/images/titlebar.png_0" mime-type="image/png" base64="yes">
 iVBORw0KGgoAAAANSUhEUgAAAocAAAAWCAYAAACysTYtAAAABGdBTUEAALGPC/xhBQAAAAZi
 S0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALiAAAC4sBzqN6igAAAAd0SU1FB9EFChQdNQAbqa0A
@@ -322,6 +113,20 @@ EARBEI8b4X/0BKGK7wn4vosnDxg41vcsTn7tCCzLgm3bKBaLcBwndUo5TISTCdV26TSdkC3J
 4frqv3a1A4IgCIIgiE5AYz5MM4eSZeDJgxZ6eoro7vKwtLQEXdejHcq6rkPX9cxzDv9fGBoa
 aiinOofL//nLngRDEARBEASx13wM4MF+B9FBjI+PN7iP/wMxa4+pNG012wAAAABJRU5ErkJg
 gg==
+</d>
+<d name="/usr/src/abiword/commit/images/statusbar.png_0" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAAfgAAAAWCAYAAAAsEY45AAAABGdBTUEAALGPC/xhBQAAAAZi
+S0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALiAAAC4sBzqN6igAAAAd0SU1FB9EFChUVAnG97J0A
+AAHqSURBVHic7d1hjqIwAAZQ3XgZOIXX8UKex1OU47g/NmxKA5QaEKjvJZNIHbC2Sb+26Mz1
++Xy+H4/HBQCoxzWE8N67EgDAuv7sXQEAYH23/sHr9dqxGudzv98Hx9oPOJujjGNHqUct+va8
+jRWS1zTNpeu6QZn2A87kKOPYUepRi749bdEDQIUEPABUaDbg27Yd/HzL1GvF5d+sD8CvSsfd
+dOwdO946M5Zcu7QONebLLfcLIYT/j9u2HRxvYWnHAXAsaUZ8IzOW1ONXfbRFPzVDi8tKZ329
+qU6JO0zHAewjhLB4kbXmWD21Ik/L0wway6u51fpYhp1VdgUfv8mxgO2DNw7gtPHiciENUKc0
+/Nca50vyJc2j0h2F9PwzK9qij83NbtJOrmEmBMA/cyG49Rb9J/nyqxmUDfgxU7OpKTXMhACY
+t8fKN/d6pXlVk02+JrfkU/Cl1zNJADiOknvxa1o7X2r20Qo+7th4qyYtG3vcE9oAddnqHnxp
+vuTOXTI5qSGjZgN+7s3Fz+U+OJe7T5N7rvR8ANYxNtZPHU+VbVmPJXVYkle5a57RRyv4KVvM
+3ACAcqsGvFAHgGPwt+gBoELXEMK7P2iaZs+6nE767w21H3A2RxnHjlKPWnRdNwx4AKAO18vl
+IuABoDJ/AVchNq0eSfGoAAAAAElFTkSuQmCC
 </d>
 <d name="/usr/src/abiword/commit/images/ruler.png_0" mime-type="image/png" base64="yes">
 iVBORw0KGgoAAAANSUhEUgAAAisAAAAgCAYAAADT9jjCAAAABGdBTUEAALGPC/xhBQAAAAZi
@@ -604,6 +409,198 @@ OkIIMX/uI2kVUTN0xHU/v/Psr//n1FNPHTJkSGlpqaZpWVYLAICeZey4aTfPnJ1uhibaJ5g3
 vrkus1KKyw947InVuq5Ho9HDDz+8qqoqy2oBANCDmKmccZKaNCHEl0+/ct3Ly9yomBh1wqBB
 gwZVVlZWVla6UiAAAIqb+ecFI44ft/HNdZ27PsqyqB1bN7hSJQAA4I7/Dy5bcJ/JZgf+AAAA
 AElFTkSuQmCC
+</d>
+<d name="/usr/src/abiword/commit/images/grabbar_shaded.png_0" mime-type="image/png" base64="yes">
+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
 </d>
 <d name="/usr/src/abiword/commit/images/functionbars_hiding.png_0" mime-type="image/png" base64="yes">
 iVBORw0KGgoAAAANSUhEUgAAAicAAAEzCAIAAABlnTSaAAAABGdBTUEAALGPC/xhBQAAAAZi
