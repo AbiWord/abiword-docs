@@ -15,18 +15,39 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Heading 1">1.1.1 Changelog</p>
+<p style="Heading 1"><c props="lang:en-GB"></c>1.1.1 Changelog</p>
+<p style="Heading 2">Christian Biesinger</p>
+<p style="Normal">Documentation for Star Office importer.</p>
 <p style="Heading 2">Scott Bingman</p>
 <p style="Normal">Build instructions update.</p>
+<p style="Heading 2">Jeremy Davis</p>
+<p style="Normal">AbiPaint plugin menu fix.</p>
+<p style="Normal">AbiMagick plugin fixes for Win32.</p>
+<p style="Heading 2">Hubert Figuiere</p>
+<p style="Normal">MacOSX port work.</p>
 <p style="Heading 2">Frank Franklin</p>
 <p style="Normal">Version number fix.</p>
+<p style="Normal">Fixes to the dictionary hash downloader.</p>
+<p style="Normal">Build system fixes.</p>
 <p style="Heading 2">Gabriel Gerhardsson</p>
 <p style="Normal">Added a dictionary hash downloader.</p>
 <p style="Normal">Build instructions update.</p>
+<p style="Heading 2">Karl Ove Hufthammer</p>
+<p style="Normal">Norwegian Nynorsk update.</p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">RTF importer handles /sectd.</p>
 <p style="Normal">Moved most import/export filters to plugins.</p>
-<p style="Normal">ImageMagick fix.</p>
-<p style="Normal">Added AP_App and AP_Frame as placeholders for the beginning of the refactoring.</p>
+<p style="Normal">ImageMagick fixes and improvements.</p>
+<p style="Normal">AbiGimp menu made more informative.</p>
+<p style="Normal">Added AP_App and AP_Frame as placeholders for the beginning of the refactoring. Turned AP_App into a real class.</p>
+<p style="Normal">Work on auto* build system.</p>
+<p style="Normal">AbiWidget fixes so that AbiWord embeds in GNOME applications.</p>
+<p style="Normal">Improvements to UT_ASSERT.</p>
+<p style="Heading 2">Patrick Lam</p>
+<p style="Normal">Fix to AP_convert.</p>
+<p style="Normal">Converted to use libpopt for command-line parsing on GTK and GNOME builds.</p>
+<p style="Normal">Made AP_Args use AP_App.</p>
+<p style="Heading 2">Michael Pritchett</p>
+<p style="Normal">Diving make system for I/E plugins.</p>
 </section>
 </abiword>
