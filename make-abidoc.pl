@@ -103,15 +103,11 @@ sub main
 
     my $body = &string_from_file ($BODY_ARG);
 
-    if ($HEADER_ARG) {
-	my $header = &string_from_file ($HEADER_ARG);
-	$body = &replace_header ($body, $header);
-    }
+    my $header = &string_from_file ($HEADER_ARG);
+    $body = &replace_header ($body, $header);
 
-    if ($FOOTER_ARG) {
-     	my $footer = &string_from_file ($FOOTER_ARG);
-	$body = &replace_footer ($body, $footer);
-    }
+    my $footer = &string_from_file ($FOOTER_ARG);
+    $body = &replace_footer ($body, $footer);
 
     if ($TITLE_ARG) {
 	$body = &replace_title ($body, $TITLE_ARG);
