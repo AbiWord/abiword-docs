@@ -1,8 +1,5 @@
 body
 {
-	margin-top: 0pt;
-	font-size: 12pt;
-	font-family: Times New Roman;
 	background-color: #ffffff;
 }
 
@@ -21,8 +18,16 @@ body
 	font-size: 22pt;
 	margin-bottom: 12pt;
 	font-weight: bold;
-	font-style: normal;
 	margin-top: 22pt;
+}
+
+.doc_heading2
+{
+	font-weight: bold;
+	margin-top: 22pt;
+	font-size: 14pt;
+	margin-bottom: 14pt;
+	font-family: "Arial";
 }
 
 .doc_heading3
@@ -32,12 +37,6 @@ body
 	font-size: 12pt;
 	margin-bottom: 14pt;
 	font-family: "Arial";
-}
-
-.DashedList
-{
-	margin-left: 1in;
-	text-indent: 1.00000in;
 }
 
 .doc_normal
@@ -57,3 +56,4 @@ body
 	font-size: 12pt;
 	font-family: "Times New Roman";
 }
+
