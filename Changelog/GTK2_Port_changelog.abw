@@ -15,8 +15,12 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Heading 1">GTK 2 Branch Changelog</p>
+<p style="Heading 1"><c props="lang:en-GB"></c>GTK 2 Branch Changelog</p>
+<p style="Heading 2">Frank Franklin</p>
+<p style="Normal">Build system fixes.</p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">First eight dialogs.</p>
+<p style="Normal">Integrated help file support with the dialogs.</p>
+<p style="Normal">Completed port so that it builds and runs. Rough edges still need smoothing, though.</p>
 </section>
 </abiword>

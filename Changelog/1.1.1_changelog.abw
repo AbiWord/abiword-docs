@@ -39,9 +39,13 @@
 <p style="Normal">Commandline processing work on Win32.</p>
 <p style="Normal">Win32 build system fix.</p>
 <p style="Normal">Work on the Win32 version of the dictionary hash downloader.</p>
+<p style="Normal">Consolidated XP code for dictionary hash downloader.</p>
 <p style="Normal">Win32 inclusion of ut_endian.</p>
+<p style="Heading 2">Andrew Dunbar</p>
+<p style="Normal">New version of the world.abw file which tests language and script support.</p>
 <p style="Heading 2">Hubert Figuiere</p>
 <p style="Normal">MacOS X port work, including new dialogs.</p>
+<p style="Normal">Fixed some breakage on Win32.</p>
 <p style="Heading 2">Frank Franklin</p>
 <p style="Normal">Version number fix.</p>
 <p style="Normal">Fixes to the dictionary hash downloader.</p>
@@ -52,6 +56,13 @@
 <p style="Normal">Something to do with libtoolize that he didn't seem to like much.</p>
 <p style="Normal">Added UT_UCS2_mbtowc &amp; UT_UCS4_mbtowc.</p>
 <p style="Normal">Next-gen build system for plug-ins.</p>
+<p style="Normal">Disabled freetranslation plugin, as it needs to be rewritten.</p>
+<p style="Normal">Work on the Cocoa (MacOS X) build system.</p>
+<p style="Normal">Build fix for ImageMagick plugin (thanks to Hub).</p>
+<p style="Normal">Added build option to build against glib2.</p>
+<p style="Normal">Fixed libxml2 build problems.</p>
+<p style="Normal">Changed build system to verify that pspell exists before building against it.</p>
+<p style="Normal">Added a -spec option to the plugin build system. This has something to do with getting sensible rpms, I think.</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Changed Abi to use a 32-bit internal Unicode representation.</p>
 <p style="Normal">Pango related code.</p>
@@ -74,13 +85,20 @@
 <p style="Normal">Work on revision tracking, so that changes made to a document are visible, and associated with the person who made them.</p>
 <p style="Normal">Work on UI for using revision tracking.</p>
 <p style="Normal">Added hidden text formatting.</p>
+<p style="Normal">Bug fixes: 3351</p>
 <p style="Heading 2">Gabriel Gerhardsson</p>
 <p style="Normal">Added a dictionary hash downloader.</p>
 <p style="Normal">Build instructions update.</p>
+<p style="Heading 2">Mark Gilbert</p>
+<p style="Normal">Tweak to wikipedia plugin.</p>
+<p style="Normal">Updated credits file.</p>
+<p style="Normal">Fixes to diving make system.</p>
 <p style="Heading 2">Masayuki Hatta</p>
 <p style="Normal">Japanese translation update.</p>
 <p style="Heading 2">Karl Ove Hufthammer</p>
 <p style="Normal">Norwegian Nynorsk update.</p>
+<p style="Heading 2">William Lachance</p>
+<p style="Normal">Fixes to import of lists from WordPerfect documents.</p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">RTF importer handles /sectd.</p>
 <p style="Normal">Moved most import/export filters to plugins.</p>
@@ -110,7 +128,10 @@
 <p style="Normal">Removed lots of wchar_t's, and cleaned up dead bits of code.</p>
 <p style="Normal">Make pspell work again.</p>
 <p style="Normal">Revision UI for unix.</p>
-<p style="Normal">Bug fixes: 3252.</p>
+<p style="Normal">Added File &gt; Save Template.</p>
+<p style="Normal">Fixed a problem on Win32.</p>
+<p style="Normal">Fixes to properly use setlocale, which should solve problems for non en-US locales.</p>
+<p style="Normal">Bug fixes: 3171, 3252.</p>
 <p style="Heading 2">Patrick Lam</p>
 <p style="Normal">Fix to AP_convert.</p>
 <p style="Normal">Converted to use libpopt for command-line parsing on GTK and GNOME builds.</p>
@@ -130,6 +151,7 @@
 <p style="Normal">Refactored some insertSpan code.</p>
 <p style="Normal">Committed a big ugly piece of code to reduce property leakage.</p>
 <p style="Normal">Fixed the bug that made text following an endnote reference appear in endnote reference style rather than normal.</p>
+<p style="Normal">Fixed crashes on undoing endnote insertion.</p>
 <p style="Normal">Bug fixes: 3215.</p>
 <p style="Heading 2">Per Larsson</p>
 <p style="Normal">Swedish localisation update.</p>
@@ -142,7 +164,9 @@
 <p style="Normal"><c props="font-weight:normal">Fixes for latest libxml2 snapshot.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Fixes to WordPerfect importer.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Import metadata from WordPerfect files.</c><c props="font-weight:normal"></c></p>
-<p style="Normal"><c props="font-weight:normal">Beginnings of a WordPerfect exporter. Got it to export a file that Abi's WordPerfect importer can read. Unfortunately, WordPerfect can't.</c></p>
+<p style="Normal"><c props="font-weight:normal">Beginnings of a WordPerfect exporter. Got it to export a file that Abi's WordPerfect importer can read. Unfortunately, WordPerfect can't.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Further work on WordPerfect exporter. Now, even WordPerfect can read the files.</c></p>
+<p style="Normal"><c props="font-weight:normal">Added more features to exported WordPerfect documents.</c></p>
 <p style="Heading 2">Tim Mooney</p>
 <p style="Normal">Bug fixes: 3332.</p>
 <p style="Heading 2">Michael Pritchett</p>
@@ -170,8 +194,14 @@
 <p style="Normal">Refactored the container code for next-generation layout. No new layout features yet.</p>
 <p style="Normal">Refactored the fl_Layout classes. No new features yet.</p>
 <p style="Normal">Started work on new layout features. Tables!!!!!!</p>
+<p style="Normal">AbiWord can now import tables from a .abw file. There is no way to create them within the program yet, but we're getting there. (You get them into the file by ignoring the 'Do not edit by hand' warning at the top.)</p>
 <p style="Normal">Bug fixes: 3423</p>
 <p style="Heading 2">Jesper Skov</p>
 <p style="Normal">Code cleanup in fv_view.</p>
+<p style="Heading 2">Sam Tobin-Hochstadt</p>
+<p style="Normal">Squashed some warnings in impexp.</p>
+<p style="Normal">Squashed wp/ap warnings.</p>
+<p style="Heading 2">John Wyrwas</p>
+<p style="Normal">Beginnings of a PDF exporter plugin.</p>
 </section>
 </abiword>
