@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="0.99.1" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -15,7 +15,7 @@
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section>
-<p style="Heading 1"><c props="lang:en-US">How To Change Default Styles</c></p>
+<p style="Heading 1"><c props="lang:en-GB"></c><c props="lang:en-US">How To Change Default Styles</c></p>
 <p style="Normal"><c props="lang:en-US">When AbiWord opens a new document, a number of styles and other settings are automatically set. AbiWord comes with built-in values for these, but you can also change them if you would prefer a different look. You do this by editing a file called normal.awt -- the normal template.</c></p>
 <p style="Normal"><c props="lang:en-US">There are two kinds of normal template: user and system. A user normal template is found in your home directory, and only applies to documents you create. A system normal template is found in the directory where AbiWord is installed, and applies to all documents created by AbiWord on that system. AbiWord will follow a user normal template if one is installed. If not, it follows the system template, if one is installed. If no templates are installed, it uses built-in values.</c></p>
 <p style="Heading 2"><c props="lang:en-US">Finding the Normal Template</c></p>
@@ -28,6 +28,6 @@
 <p style="Normal"><c props="lang:en-US">Save the changes. Make sure that you save as a template called normal.awt, in the correct place.</c></p>
 <p style="Normal"><c props="lang:en-US">Once the changes are saved, any new documents will follow the template.</c></p>
 <p style="Heading 2"><c props="lang:en-US">Other Templates</c></p>
-<p style="Normal"><c props="lang:en-US">At the moment, AbiWord does not support multiple templates. However, this feature is planned for later releases.</c></p>
+<p style="Normal"><c props="lang:en-US">You can create other templates in the same way as the normal template. These are available if you select </c><a xlink:href="../interface/dialognew.html"><c props="lang:en-US">New</c></a><c props="lang:en-US"> from the File menu. Pressing the new file button on the toolbar will create a new file based on the normal tempalte.</c></p>
 </section>
 </abiword>
