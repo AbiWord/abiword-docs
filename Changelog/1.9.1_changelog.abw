@@ -11,7 +11,7 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Sat Apr 26 20:00:40 2003</m>
+<m key="abiword.date_last_changed">Thu May  1 16:11:34 2003</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3319in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
@@ -25,10 +25,13 @@
 <p style="Normal">More GetGR -&gt; GetGraphics to fix Win32 debug build.</p>
 <p style="Heading 2">Andrew Dunbar</p>
 <p style="Normal">Conversion of C style casts to C++.</p>
+<p style="Normal">Presentation cleanup of spelling code.</p>
+<p style="Normal">Added barbarism files to tree.</p>
 <p style="Heading 2">Hubert Figuiere</p>
 <p style="Normal">Compile warning fixes.</p>
 <p style="Normal">Fixed class consistency in TopRuler on Cocoa and Unix, and in XP land.</p>
-<p style="Normal">Fixed a cast-related build failure.</p>
+<p style="Normal">Fixed cast-related build failures.</p>
+<p style="Normal">Bug fixes: 4988, 4996</p>
 <p style="Heading 2">Daniel Glassey</p>
 <p style="Normal">Bumped diving make build version.</p>
 <p style="Heading 2">William Lachance</p>
@@ -37,27 +40,42 @@
 <p style="Normal">libwpd 0.4.0 released. Not strictly part of Abi, but a vital part of our WordPerfect import.</p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">Improved Mail Merge architecture.</p>
+<p style="Normal">Near-complete integration of mail merge with saving and printing on the command line.</p>
 <p style="Normal">Bug fixes: 4929</p>
+<p style="Heading 2">Per Larsson</p>
+<p style="Normal">Swedish localisation work.</p>
 <p style="Heading 2">Jordi Mas</p>
 <p style="Normal">Remove Alt+ keyboard bindings for consistency with Win32 UI.</p>
 <p style="Normal">Fixed the Win32 Metadata dialog.</p>
 <p style="Normal">Cache Device Resolution on Win32 to remove unnecessary system calls.</p>
 <p style="Normal">Fix status bar charset conversion problems (XP).</p>
-<p style="Normal">Bug fixes: 4815, 4865, 4871, 4873, 4874</p>
+<p style="Normal">Improvements to colour selection dialog and toolbar in Win32.</p>
+<p style="Normal">Work on Win32 screen redraw, to reduce pixel dirt.</p>
+<p style="Normal">Bug fixes: 4808, 4815, 4865, 4871, 4873, 4874, 4903, 4948</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal">Initialised some values in gr_Caret.cpp</p>
 <p style="Normal">Improved loading speed for documents containing base64 data by a factor of ten or so.</p>
 <p style="Normal">GetGR -&gt; GetGraphics on Win32.</p>
 <p style="Normal">Improve image scaling. We can use a better method because we only do it once.</p>
-<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">libwpd 0.4.0 released. Not strictly part of Abi, but a vital part of our WordPerfect import.</c></p>
-<p style="Normal">Bug fixes: 4858</p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">libwpd 0.4.0 released. Not strictly part of Abi, but a vital part of our WordPerfect import.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal">Bug fixes: 3246, 4858</p>
 <p style="Heading 2">Justin McPherson</p>
-<p style="Normal">Fix Win32 keyboard code</p>
+<p style="Normal">Fix Win32 keyboard code.</p>
+<p style="Normal">Work on fix for 4948</p>
+<p style="Heading 2">Soren Roug</p>
+<p style="Normal">DocBook xml script for wv.</p>
+<p style="Heading 2">Gilles Saint-Denis</p>
+<p style="Normal">French localisation work.</p>
+<p style="Heading 2">Rui Miguel Seabra</p>
+<p style="Normal">Fixed rpm spec to build WordPerfect plugin if libwpd is present and specified.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Fix black holes in tables.</p>
 <p style="Normal">Fix some Nautilus crashes.</p>
 <p style="Normal">Nautilus now says 'View as Word Processor'.</p>
-<p style="Normal">Bug fixes: 4810 (partial), 4887, 4910</p>
+<p style="Normal">Work on tables spanning multiple pages.</p>
+<p style="Normal">Lots of work on headers and footers.</p>
+<p style="Normal">Improvements to list import.</p>
+<p style="Normal">Bug fixes: 4180 (partial), 4887, 4910, 4941, 4991, 5001</p>
 <p style="Heading 2">Valentine Sinitsyn</p>
 <p style="Normal">Mingw compilation work.</p>
 <p style="Heading 2">Jesper Skov</p>
