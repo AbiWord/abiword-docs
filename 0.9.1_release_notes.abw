@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE abw PUBLIC "-//W3C//DTD ABW 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword version="unnumbered" fileformat="1.0">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = (none) -->
+<!--         Build_Version     = unnumbered -->
+<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off Gnome:On LibXML:Off Pspell:Off Scripting:Off -->
+<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
+<!--         Build_CompileTime = 18:42:55 -->
+<!--         Build_CompileDate = Jul 19 2001 -->
+
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section>
+<p style="Heading 1"><c style="Heading 1" props="lang:en-GB">AbiWord 0.9.1 Release Notes</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm">Jesus Corrius:	Catalan strings update.</p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm">Hubert Figuiere:	More work on MacOS X and 8/9 ports.</p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm">	Updated screenshots.</p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm">Stephane Fritsch:	BeOS bug fixes.</p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm">Tomas Frydrych:	unixfonts.txt</p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Alan Horkan:	About GNU Free Software and About GNOME Office menu items.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">William Lachance:	WordPerfect importer. This is not finished yet, and thus not available to users. It is getting there, however.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Dom Lachowicz:	Lots of code cleanup.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Tim LaDuca:	TrueType fonts FAQ revision.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Michael Pritchett:	Win32 code cleanup.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Styles for Win32. This brings one of AbiWord's most important features to its other main platform.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Martin Sevior:	Ability to delete Headers and Footers.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Fixed a number of issues with section breaks.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Ability to import column breaks in RTF.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Bug fixes.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Andraz Tori:	Slovenian strings.</c></p>
+</section>
+</abiword>
