@@ -1,18 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" version="1.1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:en-GB">
+<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.2" fileformat="1.0" styles="unlocked">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at http://www.abisource.com     -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<metadata>
-<m key="dc.format">application/x-abiword</m>
-<m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Sat Oct  5 22:12:37 2002</m>
-</metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3312in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
 <s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
@@ -31,9 +26,15 @@
 <p style="Normal">Fix for printing under Xft.</p>
 <p style="Normal">Patch so that xft build can position individual glyphs.</p>
 <p style="Normal">Wonderful Insert Table widget. Click and drag to select table size and get it in the document.</p>
+<p style="Normal">Fixed some bugs in the Insert Table widget.</p>
 <p style="Heading 2">Christian Biesinger</p>
 <p style="Normal">Documentation for Star Office importer.</p>
-<p style="Normal">Improvements to Star Office importer, including reading metadata.</p>
+<p style="Normal">Improvements to Star Office importer, including reading metadata, importing paragraph formatting, and importing character formatting.</p>
+<p style="Normal">Switched Star Office importer to use libgsf.</p>
+<p style="Normal">Star Office importer imports fonts.</p>
+<p style="Normal">Cleaned up code for Star Office importer.</p>
+<p style="Normal">Fixes for Star Office importer.</p>
+<p style="Normal">Fix for encoding problems in interface.</p>
 <p style="Normal">Fix GDict plugin to build even when libgdict isn't installed.</p>
 <p style="Normal">AbiWord can import metadata from other formats.</p>
 <p style="Normal">Build fixes.</p>
@@ -41,6 +42,7 @@
 <p style="Normal">Framework for Hancom importer, and basic text import.</p>
 <p style="Normal">Build fix.</p>
 <p style="Normal">Work on translating documentation into German.</p>
+<p style="Normal">German localisation work.</p>
 <p style="Heading 2">Scott Bingman</p>
 <p style="Normal">Build instructions update.</p>
 <p style="Heading 2">Johan Björk</p>
@@ -54,7 +56,8 @@
 <p style="Normal">Updated all QNX dialogs to use getValueUTF8.</p>
 <p style="Normal">Fixed scrolling with arrow keys, on all platforms, not just QNX.</p>
 <p style="Normal">Single units update for Font Preview feature.</p>
-<p style="Normal">Bug fixes: 3396.</p>
+<p style="Normal">QNX native status bar.</p>
+<p style="Normal">Bug fixes: 2715, 3396.</p>
 <p style="Heading 2">Ivica Bogosavljevic</p>
 <p style="Normal">Serbian localisation work.</p>
 <p style="Heading 2">David Chart</p>
@@ -94,6 +97,8 @@
 <p style="Normal">Fixes to wv language support.</p>
 <p style="Normal">Tidied up indentation in ispell code.</p>
 <p style="Normal">Implemented spell-checking of selected text only.</p>
+<p style="Normal">Added support for RTF \noproof keyword.</p>
+<p style="Normal">Bug fixes: 2753, 3275, </p>
 <p style="Heading 2">Hubert Figuiere</p>
 <p style="Normal">MacOS X port work, including new dialogs.</p>
 <p style="Normal">About dialog now works on MacOS X.</p>
@@ -109,7 +114,15 @@
 <p style="Normal">Fix to MacOS X build.</p>
 <p style="Normal">Fixed a mis-sized array.</p>
 <p style="Normal">Removed a .nib file no longer needed by Cocoa port.</p>
-<p style="Normal">Bug fixes: 3109 (UNIX), 3781.</p>
+<p style="Normal">Cocoa message box.</p>
+<p style="Normal">Cocoa toolbars.</p>
+<p style="Normal">Cocoa build fixes.</p>
+<p style="Normal">Added files necessary to build AbiWord with Project Builder.</p>
+<p style="Normal">Bug fixes: 3109 (UNIX), 3521, 3781.</p>
+<p style="Heading 2">Raphael Finkel</p>
+<p style="Normal">Yiddish localisation work.</p>
+<p style="Heading 2">Anthony Fok</p>
+<p style="Normal">Chinese (zh-CN) localisation work.</p>
 <p style="Heading 2">Frank Franklin</p>
 <p style="Normal">Version number fix.</p>
 <p style="Normal">Fixes to the dictionary hash downloader.</p>
@@ -164,6 +177,14 @@
 <p style="Normal">Changed AbiWord's installation scripts to put everything in AbiWord-2.0 directories, so that you can install AbiWord 2 on a system that has AbiWord 1 already installed.</p>
 <p style="Normal">Added xap_StatusBar to provide generic support for sending messages to the status bar.</p>
 <p style="Normal">Added a new Cocoa splash screen.</p>
+<p style="Normal">Configure trap to stop people trying to build with peer fribidi.</p>
+<p style="Normal">Added phtml exporter, which exports Abi docs as pages for the AbiWord website.</p>
+<p style="Normal">Added an option to provide a user context pointer to EditMethod.</p>
+<p style="Normal">Improved use of pkg-config.</p>
+<p style="Normal">Switched the encoding manager to UCS-4.</p>
+<p style="Normal">General work on encodings.</p>
+<p style="Normal">Work on a new system for mapping between import and export file types, which should be much more intelligent about saving the same thing that you loaded.</p>
+<p style="Normal">Work on making the non-xft build work.</p>
 <p style="Normal">Bug fixes: 3335, 3592.</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Changed Abi to use a 32-bit internal Unicode representation.</p>
@@ -247,6 +268,7 @@
 <p style="Normal">Removed the hash-encoding files from abispell and fixed the makepkg script. These files are now obsolete.</p>
 <p style="Normal">Added SpellHashDownloaderURL option to the curlhash code.</p>
 <p style="Normal">Added support for redirection to the curlhash code, so that we can move the dictionary list without causing problems.</p>
+<p style="Normal">Fix to hash downloader to work with updated spell-checker code.</p>
 <p style="Heading 2">Mark Gilbert</p>
 <p style="Normal">Tweak to wikipedia plugin.</p>
 <p style="Normal">Updated credits file.</p>
@@ -275,10 +297,13 @@
 <p style="Normal">Japanese translation update.</p>
 <p style="Heading 2">Ariya Hidayat</p>
 <p style="Normal">Complete table of WordPerfect extended characters, allowing us to import them.</p>
+<p style="Heading 2">Jim Hoddat</p>
+<p style="Normal">Bug fixes: 4228 (partial)</p>
 <p style="Heading 2">Alan Horkan</p>
 <p style="Normal">Bug fixes: 3532</p>
 <p style="Heading 2">Karl Ove Hufthammer</p>
 <p style="Normal">Norwegian Nynorsk localisation work.</p>
+<p style="Normal">Fixed a bug in the Norwegian Bokmal strings file.</p>
 <p style="Heading 2">Marco Innocenti</p>
 <p style="Normal">Italian localisation work.</p>
 <p style="Heading 2">Nikolaj Brandt Jensen</p>
@@ -295,6 +320,7 @@
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Fixed a problem restricting columns to a single character when using xft.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Major cleanup of GTK2 menu code and accelerators.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Fix compile time syntax error when building with xft.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Rewrite of unix status bar.</c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Fix bugs: 3851</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
 <p style="Heading 2">Dom Lachowicz</p>
 <p style="Normal">RTF importer handles /sectd.</p>
@@ -394,7 +420,24 @@
 <p style="Normal">New build documentation (with help from a bunch of other people).</p>
 <p style="Normal">Fixed some GTK criticals coming from the cursor.</p>
 <p style="Normal">Cleanup to spelling code.</p>
-<p style="Normal">Bug fixes: 1543, 1766, 3171, 3252, 3589, 3609, 3610, 3612, 3615, 3616, 3617, 3944.</p>
+<p style="Normal">Fixed a bug causing a crash on printing.</p>
+<p style="Normal">Started work on table import from MSWord (finished by Ruud Vring).</p>
+<p style="Normal">Support for hidden text on unix.</p>
+<p style="Normal">Fixes to MSWord import to support revisions and hidden text.</p>
+<p style="Normal">Fixed a nasty encoding bug.</p>
+<p style="Normal">Committed a fix to iconv for Jordi Mas.</p>
+<p style="Normal">More work on table import from MSWord.</p>
+<p style="Normal">Some work on unix window resizing.</p>
+<p style="Normal">Fixed some segfaults in MS Word import.</p>
+<p style="Normal">Fixed AbiWidget to compile again.</p>
+<p style="Normal">Fixed a dumb bug in reading preferences.</p>
+<p style="Normal">Fixed a bug in the unix status bar.</p>
+<p style="Normal">Fixed a bug with initial zoom.</p>
+<p style="Normal">Import table properties from MSWord.</p>
+<p style="Normal">Added UT_locale classes, in an attempt to clean up all our horrible encoding problems.</p>
+<p style="Normal">Fixes to unix clipboard.</p>
+<p style="Normal">Fixes to wctomb and mbtowc.</p>
+<p style="Normal">Bug fixes: 519, 1543, 1766, 2467 (unix), 3171, 3252, 3517, 3515, 3589, 3609, 3610, 3612, 3615, 3616, 3617, 3944, 4145, 4146 (unix), 4221, 4224, 4226, 4229.</p>
 <p style="Heading 2">Patrick Lam</p>
 <p style="Normal">Fix to AP_convert.</p>
 <p style="Normal">Converted to use libpopt for command-line parsing on GTK and GNOME builds.</p>
@@ -436,6 +479,7 @@
 <p style="Normal">Refactored code in the columnbreaker, to prepare for footnotes.</p>
 <p style="Normal">Even more code cleanup, refactoring header and footer code and renaming some variables to something sensible.</p>
 <p style="Normal">Modified the way that the caret is drawn on screen, to avoid cursor dirt.</p>
+<p style="Normal">Fixed a caret bug.</p>
 <p style="Normal">Bug fixes: 1319, 1928, 3215, 3324, 3587, 3840</p>
 <p style="Heading 2">Per Larsson</p>
 <p style="Normal">Swedish localisation update.</p>
@@ -474,6 +518,16 @@
 <p style="Normal">Centred Win32 metadata property sheet.</p>
 <p style="Normal">Added platform maintainers to CREDITS.TXT.</p>
 <p style="Normal">Initial support for barbarism checking under ispell.</p>
+<p style="Normal">Moved the barbarism support from ispell to spell.</p>
+<p style="Normal">Fixes to barbarism checker.</p>
+<p style="Normal">Changed Win32 Language Selection dialog to show which languages have available dictionaries.</p>
+<p style="Normal">Added eleven selectable languages.</p>
+<p style="Normal">VC++6 build fixes.</p>
+<p style="Normal">Unified preferences setting for interface language.</p>
+<p style="Normal">Honor the document-locale variable.</p>
+<p style="Normal">Win32 UI for setting the interface locale.</p>
+<p style="Normal">Native status bar for Win32.</p>
+<p style="Normal">Added default row/column numbers to Insert Table dialog.</p>
 <p style="Normal">Bug fixes: 2979, 3287, 3584, 3824, 4001, 4082</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal">Fixed a really embarrassing crash on startup for non-debug builds of the first attempt at releasing 1.1.0.</p>
@@ -521,6 +575,7 @@
 <p style="Normal"><c props="font-weight:normal">Added an Anjuta project file to the tree.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Fixed a typo that was breaking the build.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Synced his tree with CVS, which committed a whole buncha stuff. Including a gtk2 warning in Insert Table, bug 3339, beginnings of a Format Table dialog, some nl-NL updates, and maybe other stuff.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Added table entries to the context menu.</c><c props="font-weight:normal"></c></p>
 <p style="Normal"><c props="font-weight:normal">Bug fixes: 3339, 3507, 3533, 3888.</c><c props="font-weight:normal"></c></p>
 <p style="Heading 2">Nicolas Mercier</p>
 <p style="Normal">Work on the DocBook plugin, fixing bug 2734.</p>
@@ -535,6 +590,8 @@
 <p style="Normal">Fix a single character bug in the table code.</p>
 <p style="Normal">Fixes to MSVC6 project files.</p>
 <p style="Normal">Added a typedef to define XML_Char. Something to do with Win32 build, I think.</p>
+<p style="Heading 2">Mike Peters</p>
+<p style="Normal">Bug fix: 3888</p>
 <p style="Heading 2">Iassen Pramatarov</p>
 <p style="Normal">Bulgarian localisation update.</p>
 <p style="Heading 2">Michael Pritchett</p>
@@ -552,12 +609,14 @@
 <p style="Normal">Moved the toolbar strings into the .strings files.</p>
 <p style="Normal">Fix a bunch of compile warnings for Win32.</p>
 <p style="Normal">Fix a bunch of compile warnings on Linux.</p>
-<p style="Normal">Bug fixes: 3523.</p>
+<p style="Normal">Bug fixes: 2715, 3523.</p>
 <p style="Heading 2">Andrzej Pruszynski</p>
 <p style="Normal">Polish localisation work.</p>
 <p style="Normal">Translated documentation into Polish.</p>
 <p style="Heading 2">Rhoslyn Prys</p>
 <p style="Normal">Welsh localisation update.</p>
+<p style="Heading 2">Sharuzzaman Ahmat Raslan</p>
+<p style="Normal">Malaysian localisation work.</p>
 <p style="Heading 2">Gilles Saint-Denis</p>
 <p style="Normal">French translation of the documentation.</p>
 <p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix for the doc generation script to allow for multiple languages.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
@@ -577,6 +636,7 @@
 <p style="Normal">Portuguese localisation work.</p>
 <p style="Normal">Fixed a duplicated bit of code in ie_exp_KWord_1.cpp</p>
 <p style="Normal">Steps one and two of converting AiksaurusGTK to GTK2.</p>
+<p style="Normal">RPM spec update.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Turned AbiWord into an embeddable application in GNOME.</p>
 <p style="Normal">Fix to diving make.</p>
@@ -629,7 +689,28 @@
 <p style="Normal"><c props="font-style:normal">Fixed interaction of top ruler table cell handles and merged cells.</c><c props="font-style:normal"></c></p>
 <p style="Normal"><c props="font-style:normal">Fixed some issues with nested tables.</c><c props="font-style:normal"></c></p>
 <p style="Normal"><c props="font-style:normal">Fixed a couple of segfaults in the fonts dropdown combo box.</c><c props="font-style:normal"></c></p>
-<p style="Normal">Bug fixes: 1928, 3423</p>
+<p style="Normal"><c props="font-style:normal">Lots of improvements to RTF import.</c></p>
+<p style="Normal"><c props="font-style:normal">More work on importing large RTF documents with tables.</c></p>
+<p style="Normal"><c props="font-style:normal">Fixes for tables broken over pages.</c></p>
+<p style="Normal"><c props="font-style:normal">Fix auto size in RTF import.</c></p>
+<p style="Normal"><c props="font-style:normal">Remove extraneous blank lines from tables imported from RTF.</c></p>
+<p style="Normal"><c props="font-style:normal">Reduce number of table line redraws.</c></p>
+<p style="Normal"><c props="font-style:normal">Fix a bug with cursor motion around tables.</c></p>
+<p style="Normal"><c props="font-style:normal">Performance improvements for tables.</c></p>
+<p style="Normal"><c props="font-style:normal">Text displays first time in Paragraph dialog.</c></p>
+<p style="Normal"><c props="font-style:normal">Fix Insert Symbol display and frame resizing.</c></p>
+<p style="Normal"><c props="font-style:normal">Fix key navigation in Insert Symbol.</c></p>
+<p style="Normal"><c props="font-style:normal">Text displays first time in Font Preview.</c></p>
+<p style="Normal"><c props="font-style:normal">Draw lines around cells broken onto a new page.</c></p>
+<p style="Normal"><c props="font-style:normal">Removed text dirt when editing broken tables.</c></p>
+<p style="Normal"><c props="font-style:normal">Reduce line dirt from broken tables.</c></p>
+<p style="Normal"><c props="font-style:normal">Allow display of table rows with extra cells.</c></p>
+<p style="Normal"><c props="font-style:normal">More table fixes.</c></p>
+<p style="Normal"><c props="font-style:normal">AbiWord remembers geometry on unix.</c></p>
+<p style="Normal"><c props="font-style:normal">Major speedup to long documents by not calling breakSection unless there has been formatting since the last one.</c></p>
+<p style="Normal"><c props="font-style:normal">Fix white marks left by scrolling.</c></p>
+<p style="Normal"><c props="font-style:normal">Use dimensioned lines for table lines, so that they scale correctly with zoom.</c></p>
+<p style="Normal">Bug fixes: 1928, 3423, 4139, 4159</p>
 <p style="Heading 2">Jesper Skov</p>
 <p style="Normal">Code cleanup in fv_view.</p>
 <p style="Normal">Added comments to squiggles code.</p>
@@ -652,8 +733,16 @@
 <p style="Normal">Squashed some warnings in impexp.</p>
 <p style="Normal">Squashed wp/ap warnings.</p>
 <p style="Normal">Added some cvsignores.</p>
+<p style="Normal">Removed some dead code.</p>
+<p style="Normal">Removed an extraneous assert, and replaced it with debugging code.</p>
 <p style="Heading 2">Mugurel Tudor</p>
 <p style="Normal">Romanian localisation.</p>
+<p style="Heading 2">Ruud Vring</p>
+<p style="Normal">Fix cursor blinking on Win32.</p>
+<p style="Normal">Fix for Insert Symbol dialog on Win32.</p>
+<p style="Normal">Fix for importation of tracked, deleted text in .doc files (we don't, any more).</p>
+<p style="Normal">Import of tables from MSWord documents.</p>
+<p style="Normal">Fix bugs: 4135</p>
 <p style="Heading 2">Robert Wilhelm</p>
 <p style="Normal">Fix bugs: 3618.</p>
 <p style="Heading 2">John Wyrwas</p>
@@ -664,5 +753,7 @@
 <p style="Normal">Hebrew localisation work.</p>
 <p style="Heading 2">Alfredo Barrainkua Zallo</p>
 <p style="Normal">Euskara localisation work.</p>
+<p style="Heading 2">Eric Zen</p>
+<p style="Normal">AbiWord Weekly News.</p>
 </section>
 </abiword>
