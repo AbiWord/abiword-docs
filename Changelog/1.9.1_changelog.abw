@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" version="1.9.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; lang:en-US">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.9.0" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -11,7 +11,7 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Sat May  3 18:05:08 2003</m>
+<m key="abiword.date_last_changed">Sun May  4 16:15:00 2003</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3319in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
@@ -40,11 +40,16 @@
 <p style="Normal">Fixes to footnotes, BiDi related and otherwise.</p>
 <p style="Normal">Workaround for an iconv bug causing a crash when importing Hebrew docs.</p>
 <p style="Normal">Work on RTF export of BiDi documents.</p>
+<p style="Normal">Work on RTF hyperlink import.</p>
 <p style="Normal">Bug fixes: 4125, 5027</p>
 <p style="Heading 2">Daniel Glassey</p>
 <p style="Normal">Bumped diving make build version.</p>
 <p style="Heading 2">Karl Ove Hufthammer</p>
 <p style="Normal">Norwegian Nynorsk localisation work.s</p>
+<p style="Heading 2">Nathan Jacobs</p>
+<p style="Normal">AbiWord Tutorial (with Craig Medvetz and Rachel Perry).</p>
+<p style="Heading 2">Bill Kaser</p>
+<p style="Normal">AbiWord Tutorial (with Courtney Linn and Tina Worth).</p>
 <p style="Heading 2">Marc Oude Kotte</p>
 <p style="Normal">Bug fixes: 4984s</p>
 <p style="Heading 2">William Lachance</p>
@@ -55,9 +60,12 @@
 <p style="Normal">Improved Mail Merge architecture.</p>
 <p style="Normal">Near-complete integration of mail merge with saving and printing on the command line.</p>
 <p style="Normal">Work on RTF export of BiDi documents.</p>
+<p style="Normal">Completed mail merge work.</p>
 <p style="Normal">Bug fixes: 4929</p>
 <p style="Heading 2">Per Larsson</p>
 <p style="Normal">Swedish localisation work.</p>
+<p style="Heading 2">Courtney Linn</p>
+<p style="Normal">AbiWord Tutorial (with Bill Kaser and Tina Worth)</p>
 <p style="Heading 2">Jordi Mas</p>
 <p style="Normal">Remove Alt+ keyboard bindings for consistency with Win32 UI.</p>
 <p style="Normal">Fixed the Win32 Metadata dialog.</p>
@@ -74,11 +82,15 @@
 <p style="Normal">Improved loading speed for documents containing base64 data by a factor of ten or so.</p>
 <p style="Normal">GetGR -&gt; GetGraphics on Win32.</p>
 <p style="Normal">Improve image scaling. We can use a better method because we only do it once.</p>
-<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">libwpd 0.4.0 released. Not strictly part of Abi, but a vital part of our WordPerfect import.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">libwpd 0.4.0 released. Not strictly part of Abi, but a vital part of our WordPerfect import.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
 <p style="Normal">Bug fixes: 3246, 4858</p>
 <p style="Heading 2">Justin McPherson</p>
 <p style="Normal">Fix Win32 keyboard code.</p>
 <p style="Normal">Work on fix for 4948</p>
+<p style="Heading 2">Craig Medvetz</p>
+<p style="Normal">AbiWord Tutorial (with Nathan Jacobs and Rachel Perry).</p>
+<p style="Heading 2">Rachel Perry</p>
+<p style="Normal">AbiWord Tutorial (with Nathan Jacobs and Craig Medvetz).</p>
 <p style="Heading 2">Soren Roug</p>
 <p style="Normal">DocBook xml script for wv.</p>
 <p style="Heading 2">Gilles Saint-Denis</p>
@@ -105,5 +117,7 @@
 <p style="Normal">Bug fixes: 2567, 4922, 4950, 4960</p>
 <p style="Heading 2">Radek Vybiral</p>
 <p style="Normal">Czech localisation work.</p>
+<p style="Heading 2">Tina Worth</p>
+<p style="Normal">AbiWord Tutorial (with Bill Kaser and Courtney Linn).</p>
 </section>
 </abiword>
