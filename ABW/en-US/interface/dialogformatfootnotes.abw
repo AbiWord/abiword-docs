@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" version="1.99.6" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; document-endnote-initial:1; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-footnote-restart-section:1; lang:en-US; document-endnote-restart-section:1; document-footnote-restart-page:1; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:1">
+<abiword template="false" styles="unlocked" version="1.99.6" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:1; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:1; document-footnote-restart-page:1; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:1">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -11,14 +11,14 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Mon Sep  1 17:13:14 2003</m>
+<m key="abiword.date_last_changed">Thu Sep  4 18:16:49 2003</m>
 </metadata>
 <styles>
-<s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="margin-top:0.3319in; font-size:24pt; margin-bottom:0.1667in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
-<s type="P" name="Normal" followedby="Current Settings" props="text-decoration:none; text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="font-family:Arial; margin-top:0.3306in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; font-variant:normal; lang:en-US; dom-dir:ltr; margin-bottom:0pt; text-decoration:none; font-weight:normal; bgcolor:transparent; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:14pt; text-indent:0.00cm; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
 <s followedby="Normal" name="Heading 3" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:12pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
-<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0819in; margin-right:1.0000in; margin-left:1.0000in"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0813in; margin-right:1.0000in; margin-left:1.0000in"/>
 <s type="P" name="Box List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Box List; text-indent:-0.300000in"/>
 <s type="P" name="Bullet List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; line-height:1.000000; list-style:Bullet List; text-indent:-0.300000in"/>
 <s followedby="Normal" name="Chapter Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Chapter %L.; field-color:transparent; start-value:1; margin-left:0.0in; text-indent:0.0in; tabstops:1.100000in/L0; line-height:1.000000; list-style:Numbered List; field-font:Arial"/>
@@ -49,28 +49,29 @@
 <pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
 <section props="page-margin-footer:0.5in; page-margin-header:0.5in">
 <p style="Heading 1">Format Footnotes and Endnotes Dialog</p>
-<p style="Normal"><c></c></p>
-<p style="Heading 2">Footnotes</p>
-<p style="Normal"><c></c></p>
-<p style="Heading 3">Footnote Style</p>
-<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">	You may choose you wish your endnotes to be displayed. Endnotes may be displayed as numbers, letters, or roman numerals.</c></p>
+<p style="Heading 2"><c></c>Footnotes</p>
+<p style="Normal">Footnotes are notes that appear at the bottom of the page, under the section of text to which they refer.</p>
+<p style="Heading 3"><c></c>Footnote Style</p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">The drop-down menu displays the ways that your footnotes can be indicated. Choose one by selecting it from menu.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
 <p style="Heading 3">Numbering</p>
-<p style="Normal">	Footnote numbering can restart or "wrap around" to the below initial value on certain conditions. You may choose to not have the footnote numbering restart (default value), have the numbering restart at each new section, or have footnote numbering restart at each new page.</p>
+<p style="Normal">You can set the footnote numbering to restart from an initial value (chosen below) at different points in the document. Select an option from the drop-down menu. You may choose to have footnotes numbered sequentially throughout the document, have the numbering restart at each new section, or have footnote numbering restart at each new page.</p>
 <p style="Heading 3">Initial Value</p>
-<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">	The initial value to start your footnote numbering at. Footnotes will be labeled sequentially, using this number as their base value. The default value is 1.</c></p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">The small buttons to the right of the initial value allow you to increase or decrease it. The initial value displayed is appropriate to the style of footnote you have selected.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
 <p style="Heading 2">Endnotes</p>
-<p style="Normal"></p>
+<p style="Normal">Endnotes are notes gathered at the end of the document or part of the document. In general, endnotes are harder to use than footnotes, so you should normally use footnotes if you have the choice.</p>
 <p style="Heading 3">Endnote Style</p>
-<p style="Normal">	You may choose you wish your endnotes to be displayed. Endnotes may be displayed as numbers, letters, or roman numerals.</p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">The drop-down menu displays the ways that your footnotes can be indicated. Choose one by selecting it from menu.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
 <p style="Heading 3">Placement</p>
-<p style="Normal">	Endnotes can be placed either at the end of their referenced section or at the end of the document. The default behavior is to place all of the endnotes at the end of the document.</p>
+<p style="Normal">Endnotes can be placed either at the end of the section or at the end of the document. The default behavior is to place all of the endnotes at the end of the document.</p>
 <p style="Heading 3">Initial Value</p>
-<p style="Normal">	The initial value to start your endnote numbering at. Endnotes will be labeled sequentially, using this number as their base value. The default value is 1.</p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">The small buttons to the right of the initial value allow you to increase or decrease it. The initial value displayed is appropriate to the style of footnote you have selected.</c></p>
 <p style="Heading 3">Restart on each section</p>
-<p style="Normal">	If checked, endnote numbering will restart or "wrap around" on each new section to the above initial value. If not, endnotes will be numbered sequentially for the entire document.</p>
+<p style="Normal">If this option is selected, the endnotes in each section will be numbered from the initial value set above. If it is not selected, they will be numbered sequentially throughout the document.</p>
+<p style="Heading 2">Help</p>
+<p style="Normal">This button opens the documentation for this dialog.</p>
+<p style="Heading 2"><c></c>Cancel</p>
+<p style="Normal">This button closes the dialog without making any changes.</p>
 <p style="Heading 2">OK</p>
-<p style="Normal">	Pressing this button closes the dialog and applies the footnote and endnote settings that you have selected from this dialog.</p>
-<p style="Heading 2">Cancel</p>
-<p style="Normal">	<c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Pressing this button closes the dialog without changing your footnote or endnote settings.</c></p>
+<p style="Normal">This button applies the selected formatting to your footnotes and endnotes and closes the dialog.</p>
 </section>
 </abiword>

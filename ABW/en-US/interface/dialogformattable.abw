@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.3" xml:space="preserve" props="dom-dir:ltr; lang:en-US">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.6" xml:space="preserve" props="document-footnote-type:numeric; document-endnote-type:numeric; lang:en-US; document-footnote-initial:1; dom-dir:ltr">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -11,28 +11,59 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Mon Aug 18 22:53:09 2003</m>
+<m key="abiword.date_last_changed">Thu Sep  4 18:30:34 2003</m>
 </metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:17pt"/>
-<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; text-decoration:none; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:14pt"/>
+<s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="font-family:Arial; margin-top:0.3056in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.0417in; line-height:1.000000; font-size:17pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-decoration:none; text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:14pt; text-indent:0.00cm; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0833in; margin-right:1.0000in; margin-left:1.0000in"/>
+<s type="P" name="Box List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Box List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Bullet List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; list-style:Bullet List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Chapter Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Chapter %L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:1.100000in/L0"/>
+<s type="P" name="Dashed List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:NULL; list-style:Dashed List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Diamond List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Diamond List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="C" name="Endnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Endnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000"/>
+<s type="C" name="Footnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Footnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000; font-size:10pt"/>
+<s type="P" name="Hand List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Hand List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Heading 3" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:12pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s type="P" name="Heart List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Heart List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Implies List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; list-style:Implies List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Lower Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Lower Case List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Lower Roman List" basedon="Normal" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Lower Roman List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Numbered Heading 1" basedon="Heading 1" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 2" basedon="Heading 2" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 3" basedon="Heading 3" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s type="P" name="Numbered List" followedby="Current Settings" props="list-delim:%L.; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Numbered List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Plain Text" basedon="Normal" followedby="Current Settings" props="font-family:Courier New; line-height:1.000000"/>
+<s followedby="Normal" name="Section Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Section %L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:1.100000in/L0"/>
+<s type="P" name="Square List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Square List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Star List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Star List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Tick List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Tick List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Triangle List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Triangle List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Upper Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Upper Case List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Upper Roman List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Upper Roman List; line-height:1.000000; text-indent:-0.300000in"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section props="page-margin-footer:0.5in; page-margin-header:0.5in">
 <p style="Heading 1">Format Table Dialog</p>
-<p style="Normal">Specify how you wish your table to look, including border colors, background colors, which borders you want shown, etc...</p>
-<p style="Heading 2">Border Color</p>
-<p style="Normal">Select the border color for the current table/cell.</p>
-<p style="Heading 2">Background Color</p>
-<p style="Normal">Select the background color for the current table/cell.</p>
-<p style="Normal"><c></c></p>
+<p style="Normal">This dialog changes the appearance of your tables. You can set the borders of the table and cells, and the background color.</p>
+<p style="Heading 2">Borders: Color</p>
+<p style="Normal">Select the border color. Clicking on the color button next to Color: opens the standard color picker for your operating system. The color of the button indicates the current color of the borders.</p>
+<p style="Heading 2">Background: Color</p>
+<p style="Normal">Select the background. <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Clicking on the color button next to Color: opens the standard color picker for your operating system. The color of the button indicates the current color of the background.</c></p>
 <p style="Heading 2">Preview</p>
 <p style="Normal">Displays an up-to-date preview of how your formatting choices will look in the finished table.</p>
-<p style="Heading 2">Apply</p>
-<p style="Normal">Apply the current formating choices to the current table/cell.</p>
+<p style="Normal">The four buttons around the edge of the preview set the borders that will be displayed. Click on each button to turn the corresponding border on or off.</p>
+<p style="Heading 2">Apply To:</p>
+<p style="Normal">Use this drop-down menu to set the parts of the table to which the formatting applies. You can format the whole table, the current row, the current column, or just the selected cells.</p>
+<p style="Heading 2">Help</p>
+<p style="Normal">This button opens the documentation for this dialog.</p>
+<p style="Heading 2"><c></c>Apply</p>
+<p style="Normal">This button applies the current formating choices to the chosen elements of the table. It foes not close the dialog.</p>
 <p style="Heading 2">Close</p>
-<p style="Normal"><c></c></p>
-<p style="Normal">Close this dialog. Stop making changes.</p>
+<p style="Normal">This button closes the dialog. It does not change the formatting of the table, but any changes you have applied remain in effect.</p>
 </section>
 </abiword>

@@ -1,39 +1,76 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
-<!-- =====================================================================  -->
-<!-- This file is an AbiWord document.                                      -->
-<!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at www.abisource.com     -->
-<!-- You should not edit this file by hand.                                 -->
-<!-- =====================================================================  -->
+<abiword template="false" styles="unlocked" version="1.99.6" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="document-footnote-type:numeric; document-endnote-type:numeric; lang:en-GB; document-footnote-initial:1; dom-dir:ltr">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Thu Sep  4 17:56:52 2003</m>
+</metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
-<s type="P" name="Normal Clean" basedon="Normal" followedby="Current Settings" props="text-align:left; font-weight:normal; margin-top:0pt; line-height:1.0; field-font:NULL; font-style:normal"/>
+<s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="font-family:Arial; margin-top:0.3056in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.0417in; line-height:1.000000; font-size:17pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-decoration:none; text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; text-indent:0.00cm; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0833in; margin-right:1.0000in; margin-left:1.0000in"/>
+<s type="P" name="Box List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Box List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Bullet List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; list-style:Bullet List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Chapter Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Chapter %L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:1.100000in/L0"/>
+<s type="P" name="Dashed List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:NULL; list-style:Dashed List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Diamond List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Diamond List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="C" name="Endnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Endnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000"/>
+<s type="C" name="Footnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Footnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000; font-size:10pt"/>
+<s type="P" name="Hand List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Hand List; line-height:1.000000; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Heading 3" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:12pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s type="P" name="Heart List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Heart List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Implies List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; list-style:Implies List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Lower Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Lower Case List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Lower Roman List" basedon="Normal" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Lower Roman List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Normal Clean" basedon="Normal" followedby="Current Settings" props="text-align:left; margin-top:0pt; line-height:1.000000; field-font:NULL; font-weight:normal; font-style:normal"/>
+<s followedby="Normal" name="Numbered Heading 1" basedon="Heading 1" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 2" basedon="Heading 2" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 3" basedon="Heading 3" type="P" props="list-delim:%L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:0.299306in/L0"/>
+<s type="P" name="Numbered List" followedby="Current Settings" props="list-delim:%L.; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Numbered List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Plain Text" basedon="Normal" followedby="Current Settings" props="font-family:Courier New; line-height:1.000000"/>
+<s followedby="Normal" name="Section Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Section %L.; field-font:Arial; start-value:1; field-color:transparent; text-indent:0.0in; margin-left:0.0in; list-style:Numbered List; line-height:1.000000; tabstops:1.100000in/L0"/>
+<s type="P" name="Square List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Square List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Star List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Star List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Tick List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Tick List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Triangle List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; list-style:Triangle List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Upper Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Upper Case List; line-height:1.000000; text-indent:-0.300000in"/>
+<s type="P" name="Upper Roman List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; list-style:Upper Roman List; line-height:1.000000; text-indent:-0.300000in"/>
 </styles>
-<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
 <section props="section-max-column-height:0.0in; columns:1; section-space-after:0.25in; column-line:off">
-<p style="Heading 1"><c style="Heading 1">Columns Dialog</c></p>
-<p style="Normal"><c style="Normal">This dialog allows you to create newspaper-style columns in your document. The text will fill one column before moving on to the next. The column setting you select applies to the whole of the current section. If you want to change the number of columns in a document, you must insert a section break: see the Insert Break dialog.</c></p>
-<p style="Heading 2"><c style="Heading 2">Number of Columns</c></p>
-<p style="Normal"><c style="Normal">Press the button corresponding to the number of columns you want to select it.</c></p>
-<p style="Heading 2"><c style="Heading 2">Preview</c></p>
-<p style="Normal"><c style="Normal">This window shows you what a page will look like with the number of columns you have selected.</c></p>
-<p style="Heading 2"><c style="Heading 2">Line Between</c></p>
-<p style="Normal"><c style="Normal">If this option is selected, AbiWord draws narrow vertical lines between the columns of text.</c></p>
+<p style="Heading 1"><c style="Heading 1">Columns Dialog</c><c style="Heading 1"></c></p>
+<p style="Normal"><c style="Normal">This dialog allows you to create newspaper-style columns in your document. The text will fill one column before moving on to the next. The column setting you select applies to the whole of the current section. If you want to change the number of columns in a document, you must insert a section break: see the Insert Break dialog.</c><c style="Normal"></c></p>
+<p style="Heading 2"><c style="Heading 2">Number of Columns</c><c style="Heading 2"></c></p>
+<p style="Normal"><c style="Normal">Press the button corresponding to the number of columns you want to select it.</c><c style="Normal"></c></p>
+<p style="Heading 2"><c style="Heading 2">Preview</c><c style="Heading 2"></c></p>
+<p style="Normal"><c style="Normal">This window shows you what a page will look like with the number of columns you have selected.</c><c style="Normal"></c></p>
+<p style="Heading 2"><c style="Heading 2">Line Between</c><c style="Heading 2"></c></p>
+<p style="Normal"><c style="Normal">If this option is selected, AbiWord draws narrow vertical lines between the columns of text.</c><c style="Normal"></c></p>
+<p style="Heading 2">Use RTL Order</p>
+<p style="Normal">If this option is selected the first column is the one on the right hand side of the page, rather than the left hand side. This option is most useful when you are typing in a language such as Arabic or Hebrew which normally flows from right to left.</p>
 <p style="Heading 2">Number of Columns</p>
 <p style="Normal">You can set the number of columns in this box, as well as by pressing the buttons. It is possible to have more than three columns if you set them here. You can type in the box or use the arrows to increase or decrease the number.</p>
 <p style="Heading 2">Space after Column</p>
 <p style="Normal">Set the space that AbiWord leaves between the end of a column and the following text. You can type in the box or use the arrow buttons to increase and decrease the setting.</p>
-<p style="Heading 2"><c style="Heading 2">Max Column size</c></p>
+<p style="Heading 2"><c style="Heading 2">Max Column size</c><c style="Heading 2"></c></p>
 <p style="Normal">Set the maximum height of a single column. If the text will not fit in this space, AbiWord starts a new column. This may mean moving to the next column across the page, or starting a new column below the one that is full. If a new column is started below the current column, the space specified in that option will be left.</p>
 <p style="Normal">If this is set to 0.0, there is no maximum height. Columns fill the whole page before starting a new column.</p>
-<p style="Heading 2"><c style="Heading 2">OK</c></p>
-<p style="Normal"><c style="Normal">Click this button to close the dialog and change the number of columns.</c></p>
-<p style="Heading 2"><c style="Heading 2">Cancel</c></p>
-<p style="Normal"><c style="Normal">Click this button to close the dialog without changing the number of columns.</c></p>
+<p style="Heading 2">Help</p>
+<p style="Normal">Click this button to open the documentation for this dialog.</p>
+<p style="Heading 2">Cancel</p>
+<p style="Normal">Click this button to close the dialog without changing the number of columns.</p>
+<p style="Heading 2"><c style="Heading 2"></c><c style="Heading 2">OK</c><c style="Heading 2"></c></p>
+<p style="Normal"><c style="Normal">Click this button to close the dialog and change the number of columns</c>.</p>
 </section>
 </abiword>

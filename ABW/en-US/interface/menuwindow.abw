@@ -1,17 +1,22 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
-<!-- =====================================================================  -->
-<!-- This file is an AbiWord document.                                      -->
-<!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at www.abisource.com     -->
-<!-- You should not edit this file by hand.                                 -->
-<!-- =====================================================================  -->
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.99.6" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
 
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Thu Sep  4 17:30:37 2003</m>
+</metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:22pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:3pt; line-height:1.000000; font-size:17pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; text-indent:0.00cm; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:22pt"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section>
@@ -22,6 +27,6 @@
 <p style="Normal">Any changes that you make to the document in one window are reflected in the others.</p>
 <p style="Heading 2">Window List</p>
 <p style="Normal">Below the New Window command is a list of all the windows currently open in AbiWord. Select a window to bring it to the front and put the insertion point within it.</p>
-<p style="Normal">If you have ten or more windows open, only the first nine opened are displayed on the menu. The tenth option becomes More Windows..., which opens the <a xlink:href="dialogactivatewindow.html">Activate Window dialog</a>, so that you can select any window.</p>
+<p style="Normal">If you have ten or more windows open, only the first nine opened are displayed on the menu. The tenth option becomes More Windows..., which opens the <a xlink:href="dialogviewdocument.html">View Document dialog</a> <a xlink:href="dialogactivatewindow.html"></a>, so that you can select any window.</p>
 </section>
 </abiword>
