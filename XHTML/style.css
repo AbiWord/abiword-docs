@@ -1,0 +1,41 @@
+body {
+background-color: white;
+color: black;
+font-family: Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: Helvetica, sans-serif;
+}
+
+h1 {
+text-align: center;
+}
+
+div.main {
+padding-top: 1em;
+padding-bottom: 1em;
+padding-left: 0.5em;
+padding-right: 0.5em;
+}
+
+div.index {
+width: 100%;
+padding: 0.5em;
+background-color: black;
+color: white;
+text-align: center;
+}
+
+div.banner {
+width: 100%;
+padding: 0.5em;
+background-color: black;
+color: white;
+top: 0;
+bottom: auto;
+}
+
+a.bars {
+color: white;
+}
