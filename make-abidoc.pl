@@ -93,7 +93,7 @@ sub handle_options () {
     }
 
     $BODY_ARG = $INFO_ARG;
-    $BODY_ARG =~ s/.info/.xhtml/;
+    $BODY_ARG =~ s/.info/.html/;
 }
 
 sub string_from_file ($filename)

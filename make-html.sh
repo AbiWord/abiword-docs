@@ -33,6 +33,8 @@ if [ -z "$ABI_DOC_PROG" ]; then
 ABI_DOC_PROG="AbiWord-2.0";
 fi
 
+html_export_options="html4: no; use-awml: no; embed-css: no; embed-images:no"
+
 for help_language in en-US fr-FR pl-PL #de-DE
 do
 
@@ -43,9 +45,9 @@ do
 		do
 		      n=`echo $i|cut -f1 -d .`
 		      echo $i
-		      $ABI_DOC_PROG --to=xhtml $i 2>/dev/null
-		      $CVS/make-abidoc.pl -I $n.info -S header.xhtml -F footer.xhtml>$n.html
-		      rm -f $n.xhtml
+		      $ABI_DOC_PROG --to=html --exp-props=$html_export_options $i 2>/dev/null
+		      $CVS/make-abidoc.pl -I $n.info -S header.xhtml -F footer.xhtml > $n.xhtml
+		      mv $n.xhtml $n.html
 		done
 
 		cd $CVS
