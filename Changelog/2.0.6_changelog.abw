@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" version="2.0.5" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:1; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-GB; document-endnote-restart-section:1; document-footnote-restart-page:1; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:1">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Fri Apr  2 22:57:59 2004</m>
+</metadata>
+<styles>
+<s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="font-family:Arial; margin-top:0.3306in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.1667in; font-size:14pt; margin-bottom:0pt; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0813in; margin-right:1.0000in; margin-left:1.0000in"/>
+<s type="P" name="Box List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Box List; text-indent:-0.300000in"/>
+<s type="P" name="Bullet List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; line-height:1.000000; list-style:Bullet List; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Chapter Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Arial %L.; field-color:transparent; start-value:1; margin-left:0.0in; text-indent:0.0in; tabstops:1.100000in/L0; line-height:1.000000; list-style:Numbered List; field-font:Chapter"/>
+<s type="P" name="Dashed List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Dashed List; text-indent:-0.300000in"/>
+<s type="P" name="Diamond List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Diamond List; text-indent:-0.300000in"/>
+<s type="C" name="Endnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Endnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000"/>
+<s type="C" name="Footnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
+<s type="C" name="Footnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000; font-size:10pt"/>
+<s type="P" name="Hand List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Hand List; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Heading 3" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:12pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
+<s type="P" name="Heart List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Heart List; text-indent:-0.300000in"/>
+<s type="P" name="Implies List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Symbol; line-height:1.000000; list-style:Implies List; text-indent:-0.300000in"/>
+<s type="P" name="Lower Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Lower Case List; text-indent:-0.300000in"/>
+<s type="P" name="Lower Roman List" basedon="Normal" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Lower Roman List; text-indent:-0.300000in"/>
+<s followedby="Normal" name="Numbered Heading 1" basedon="Heading 1" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; text-indent:0.0in; tabstops:0.299306in/L0; line-height:1.000000; list-style:Numbered List; field-font:Arial"/>
+<s followedby="Normal" name="Numbered Heading 2" basedon="Heading 2" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; text-indent:0.0in; tabstops:0.299306in/L0; line-height:1.000000; list-style:Numbered List; field-font:Arial"/>
+<s followedby="Normal" name="Numbered Heading 3" basedon="Heading 3" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; text-indent:0.0in; tabstops:0.299306in/L0; line-height:1.000000; list-style:Numbered List; field-font:Arial"/>
+<s type="P" name="Numbered List" followedby="Current Settings" props="list-delim:%L.; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Numbered List; text-indent:-0.300000in"/>
+<s type="P" name="Plain Text" basedon="Normal" followedby="Current Settings" props="font-family:Courier New; line-height:1.000000"/>
+<s followedby="Normal" name="Section Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Arial %L.; field-color:transparent; start-value:1; margin-left:0.0in; text-indent:0.0in; tabstops:1.100000in/L0; line-height:1.000000; list-style:Numbered List; field-font:Section"/>
+<s type="P" name="Square List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Square List; text-indent:-0.300000in"/>
+<s type="P" name="Star List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Star List; text-indent:-0.300000in"/>
+<s type="P" name="Tick List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Tick List; text-indent:-0.300000in"/>
+<s type="P" name="Triangle List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; field-font:Dingbats; line-height:1.000000; list-style:Triangle List; text-indent:-0.300000in"/>
+<s type="P" name="Upper Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Upper Case List; text-indent:-0.300000in"/>
+<s type="P" name="Upper Roman List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; field-font:NULL; line-height:1.000000; list-style:Upper Roman List; text-indent:-0.300000in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1">2.0.6 Changelog</p>
+<p style="Heading 2">Jeremy Davis</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Merge Glib based Import/Export plugins into the main Import/Export installer (Windows).</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fix control characters (ASCII 0-31) that cause import failure (bug <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">6493, and partial </c>3862).</p>
+<p style="Heading 2">Ge van Geldorp</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Don't delete System owned brush (Windows, <c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">bug 6538).</c></p>
+<p style="Normal" props="text-align:left; dom-dir:ltr"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Use %s not %S in printf variants until we do a Unicode build (Windows, bug 6528).</c></p>
+<p style="Heading 2"><c></c>Mark Gilbert</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fix opening of xml files (like .abw) on non-32bit platforms (includes bug 6488).</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">64 bit fix in HTML exporter.</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">64 bit syntactic mask in the ispell spelling checker.</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Various other 64 bit fixes.</p>
+<p style="Heading 2">Hubert Figuiere</p>
+<p style="Normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Handle unknown style id's in the MS Word import (bug 6478).</c></p>
+<p style="Normal" props="text-align:left; dom-dir:ltr"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Fix serious memory leaks in the Find &amp; Replace Dialog.</c></p>
+<p style="Normal" props="text-align:left; dom-dir:ltr"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Fix invallid pointer casting for 64 bit systems (bug 6153).</c></p>
+<p style="Normal" props="text-align:left; dom-dir:ltr"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Make more compilers happy (bug 6370).</c></p>
+<p style="Heading 2"><c></c>Francis Franklin</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Update DocType declaration for HTML4 export (bug 6536).</p>
+<p style="Heading 2"><c></c>Tomas Frydrych</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">MS Word table import fixes.</p>
+<p style="Heading 2">Dom Lachowicz</p>
+<p style="Normal">Accessibility work: report that a dialog is in fact a dialog (Unix).</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Remove DISABLE_DEPRECATED for Unix GTK builds.</c></p>
+<p style="Normal" props="text-align:left; dom-dir:ltr"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Pacify bug 6489.</c></p>
+<p style="Normal" props="text-align:left; dom-dir:ltr"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Wv build fix for mingw.</c></p>
+<p style="Heading 2">Jordi Mas</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fix word breaking for catalan language.</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fix menu encoding handling (Windows).</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fix crash when hiding the "standard" toolsbars (Windows, bug 6430).</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fixes selecting the text colour for the first time (Windows).</p>
+<p style="Heading 2"><c></c>Marc Maurer</p>
+<p style="Normal">Finally fix Copy &amp; Paste (bug 5432).</p>
+<p style="Normal"><c></c>Hack to ignore headers/footers in WordPerfect documents instead of crashing.</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fix widget overlapping on some themes in the Plugin manager (Unix).</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Don't let the WordPerfect importer handle plain text documents.</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fix a crash when selection is unselected (bug 6534).</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Replace "\%L" as list delimiter in the WordPerfect importer with "%L".</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Use 'rint' instead of 'rintf' for building on HPUX.</p>
+<p style="Heading 2"><c></c>Christian Neumair</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Some MetaData dialog HIG tweakage (Unix).</p>
+<p style="Heading 2">Ryan Pavlik</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">New Resume, Memo and Press Release templates.</p>
+<p style="Heading 2"><c></c>Michael Pritchett</p>
+<p style="Normal" props="text-align:left; lang:en-GB; dom-dir:ltr"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Handle grayscale XPMs (Windows).</c></p>
+<p style="Normal" props="text-align:left; lang:en-GB; dom-dir:ltr"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Fix improper clipboard access (Windows).</c></p>
+<p style="Heading 2">Martin Sevior</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fix sythesized font bugs causing for example some italic fonts to crash AbiWord (Unix).</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fix import of 'Hebrew' RTFs (bug 6227).</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fix crash when changing font over a selected section (bug 6563).</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fix crash after selecting a whole table and formatting the table (bug<c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"> 6595).</c></p>
+<p style="Heading 2">Fridrich Strba</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">The Czech dictionary is cs-CZ, not cs_DZ (Windows installer).</p>
+<p style="Heading 2"><c></c>Robert Wilhelm</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Initialize the whole character advance buffer.</p>
+<p style="Heading 2">Translations</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Fábio Ranquetat: Updated pt-BR translations.</p>
+<p style="Normal" props="text-align:left; dom-dir:ltr">Korvigelloù An Drouizig: Updated br-FR translations.</p>
+</section>
+</abiword>
