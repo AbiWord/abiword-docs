@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<abiword version="unnumbered" fileformat="1.0">
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="0.9.6-1" fileformat="1.0">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -7,28 +8,28 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<!--         Build_ID          = (none) -->
-<!--         Build_Version     = unnumbered -->
-<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
-<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 08:18:55 -->
-<!--         Build_CompileDate = May 29 2001 -->
-
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:12pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1">Field Dialog</p>
+<p style="Normal"><c props="lang:en-US">David Chart 2001</c></p>
+<p style="Heading 1"><c props="lang:en-US"></c>Field Dialog</p>
 <p style="Normal"><c style="Normal">This dialog lets you insert various fields into your document. Fields are updated automatically when the thing they represent changes. Thus, a field of 'current time' will update to show the current time. Fields are single entities; you cannot edit their contents by typing.</c></p>
 <p style="Normal"><c style="Normal">At present, fields are updated when you open or print a document.</c></p>
 <p style="Heading 2"><c style="Heading 2">Types</c></p>
 <p style="Normal"><c style="Normal">This window lists the types of field available. Select one to see the fields available in that type.</c></p>
 <p style="Heading 3"><c style="Heading 3">Date and Time</c></p>
-<p style="Normal"><c style="Normal">These fields are concerned with date and time. Most are self-explanatory. 'Seconds since the epoch' inserts a field giving the number of seconds that have passed since 0:00 on January 1st, 1970. This is the point in time that all Unix-style systems measure time from. [Is this cross-platform?]</c></p>
+<p style="Normal"><c style="Normal">These fields are concerned with date and time. Most are self-explanatory. 'Seconds since the epoch' inserts a field giving the number of seconds that have passed since 0:00 on January 1st, 1970. This is the point in time that all Unix-style systems measure time from.</c></p>
 <p style="Heading 3"><c style="Heading 3">Application</c></p>
-<p style="Normal"><c style="Normal">These fields specify certain information about the AbiWord program. They are not relevant to most users. [And may only be available in debug builds.]</c></p>
+<p style="Normal"><c style="Normal">These fields specify certain information about the AbiWord program. They are not relevant to most users.</c></p>
 <p style="Heading 3"><c style="Heading 3">Numbers</c></p>
 <p style="Normal"><c style="Normal">These fields insert information about the document. They are mostly self-explanatory. Note that 'Page Number' is the number of the current page, while 'Number of Pages' is the total number of pages in the document. 'List Label' is used by AbiWord when setting up automatic lists, and should not, in general, be inserted from this menu.</c></p>
 <p style="Heading 2"><c style="Heading 2">Fields</c></p>
-<p style="Normal"><c style="Normal">This window lists all the fields available under the currently selected type. Click on one ot select it.</c></p>
+<p style="Normal"><c style="Normal">This window lists all the fields available under the currently selected type. Click on one to select it.</c></p>
 <p style="Heading 2"><c style="Heading 2">OK</c></p>
 <p style="Normal"><c style="Normal">This button inserts the field at the insertion point and closes the dialog.</c></p>
 <p style="Heading 2"><c style="Heading 2">Cancel</c></p>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<abiword version="unnumbered" fileformat="1.0">
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="0.9.6-1" fileformat="1.0">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -7,33 +8,26 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<!--         Build_ID          = (none) -->
-<!--         Build_Version     = unnumbered -->
-<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:Off Scripting:Off -->
-<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 18:53:52 -->
-<!--         Build_CompileDate = Jun 29 2001 -->
-
 <styles>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="margin-top:0pt; font-size:12pt; font-family:Times New Roman; field-font:NULL"/>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Current Settings" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Current Settings" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" basedon="" followedby="Current Settings" name="Normal" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.000000; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 1" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+<s type="P" basedon="Normal" followedby="Normal" name="Heading 2" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Normal"><c style="Normal" props="lang:en-US">David Chart 2001</c></p>
-<p style="Heading 1"><c props="lang:en-US"></c>Replace Dialog</p>
-<p style="Normal"><c style="Normal"></c><image dataid="/home/David/Documents/abiword-docs/help/images/replace.png_0" props="width:5.61in; height:1.82in"/></p>
+<p style="Normal"><c style="Normal" props="lang:en-US">David Chart, Alper Atici 2001</c></p>
+<p style="Heading 1">Replace Dialog</p>
+<p style="Normal"><image dataid="/home/David/Documents/abiword-docs/help/images/replace.png_0" props="height:1.82in; width:5.61in"/></p>
 <p style="Heading 2">Find What:</p>
-<p style="Normal">Type the set of characters you want to replace in this box. This is the 'search string'.</p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Type the word you want to find in this box. This is the search string. The command searches for the string of letters or numbers that you type, so if you search for "in", you will find the middle two letters of "find", as well as the word "in".</c></p>
 <p style="Heading 2">Match case</p>
-<p style="Normal">If this option is selected, AbiWord will treat capital and lower case letters as different when deciding whether part of the document matches the search request. If it is not selected, they are treated as the same, so that 'IN' and 'In' would both match 'in'.</p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">This checkbox determines whether the string you are looking for must have the same combination of capital and lower case letters as the search string. If this box is selected, then "In" will not match "in". If it is not selected, "in" matches "In", "IN", "in", and "iN".</c></p>
 <p style="Heading 2">Replace with:</p>
 <p style="Normal">Type the characters you want to use as replacements in this box. You may put nothing in this box, in which case the replacement will simply delete the text you found. This is the 'replacement string'.</p>
 <p style="Heading 2">Find Next</p>
-<p style="Normal">This button will find the next occurrence of the search string. AbiWord starts searching from the insertion point, and goes back to the beginning of the document once you reach the end. It searches the whole document once.</p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Clicking on this button will find the next occurrence of the search string in the document. AbiWord starts searching from the insertion point, and wraps round to the beginning of the document once the end is reached. The search stops when the whole document has been searched once.</c></p>
 <p style="Heading 2">Replace</p>
-<p style="Normal">This button replaces the currently selected instance of the search string with the replacement string, and moves to the next occurrence of the search string after the end of the replaced text. (This ensures that the process does not get stuck if the replacement text includes the text you are replacing.) If you click this button before clicking Find Next, it simply finds the first occurrence of the search string.</p>
+<p style="Normal">This button replaces the currently selected instance of the search string with the replacement string, and moves to the next occurrence of the search string following the inserted replacement string. (This ensures that the process does not get stuck if the replacement string includes the string you are replacing.) If you click this button before clicking Find Next, it simply finds the next occurrence of the search string.</p>
 <p style="Heading 2">Replace All</p>
 <p style="Normal">This button searches the whole document and replaces all occurrences of the search string with the replacement string. Be careful using this feature. For example, if you wanted to replace all instances of 'flat' with 'apartment', this button would convert the sentence 'He spoke flatly.' to 'He spoke apartmently.'</p>
 <p style="Heading 2">Cancel</p>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<abiword version="unnumbered" fileformat="1.0">
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="0.9.6-1" fileformat="1.0">
 <!-- =====================================================================  -->
 <!-- This file is an AbiWord document.                                      -->
 <!-- AbiWord is a free, Open Source word processor.                         -->
@@ -7,16 +8,15 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<!--         Build_ID          = (none) -->
-<!--         Build_Version     = unnumbered -->
-<!--         Build_Options     = LicensedTrademarks:Off Debug:On BiDi:Off Bonobo:Off DirectPrint:On Gnome:On LibXML:Off Pspell:On Scripting:Off -->
-<!--         Build_Target      = /home/David/abiword/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 08:18:55 -->
-<!--         Build_CompileDate = May 29 2001 -->
-
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; field-font:NULL; font-stretch:normal"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
-<p style="Heading 1">Break Dialog</p>
+<p style="Normal"><c props="lang:en-US">David Chart 2001</c></p>
+<p style="Heading 1"><c props="lang:en-US"></c>Break Dialog</p>
 <p style="Normal"><c style="Normal">This dialog inserts various kinds of break into your document. It is usually best to insert a break at the beginning of a new paragraph, which then becomes the first paragraph of the next part of the document. However, breaks can be inserted at any point in the body of the document where you can insert text.</c></p>
 <p style="Normal"><c style="Normal">To choose a type of break, click on the button next to its name.</c></p>
 <p style="Heading 2"><c style="Heading 2">Page Break</c></p>
@@ -25,8 +25,8 @@
 <p style="Normal"><c style="Normal">A column break tells AbiWord to start a new column at that point. If AbiWord is in single-column mode, this has the same function as a page break.</c></p>
 <p style="Heading 2"><c style="Heading 2">Section Break</c></p>
 <p style="Normal"><c style="Normal">A section break starts a new section. Sections of AbiWord documents mark changes of certain sorts of formatting, such as the number of columns.</c></p>
-<p style="Normal"><c style="Normal"></c><c style="Normal">A Continuous section break inserts a new paragraph, and places the section break after that paragraph. Because of the possible changes in formatting, it is not possible to break a section in the middle of a paragraph.</c></p>
-<p style="Normal"><c style="Normal">A Next Page section break inserts a page break, then inserts a new paragraph and places the section break after that paragraph. [This means that the new page has an empty paragraph at the top; this is not ideal behavior. Instead, it should insert the paragraph mark, then the page break, then the section break.]</c></p>
+<p style="Normal"><c style="Normal">A Continuous section break inserts a new paragraph, and places the section break after that paragraph. Because of the possible changes in formatting, it is not possible to break a section in the middle of a paragraph.</c></p>
+<p style="Normal"><c style="Normal">A Next Page section break inserts a paragraph, section break, and page break (in that order) at the insertion point. That leaves the insertion point at the top of a new page.</c></p>
 <p style="Normal"><c style="Normal">Even Page and Odd Page section breaks behave in the same way as Next Page breaks, except that the new section starts on the next Even or Odd page, respectively.</c></p>
 <p style="Heading 2"><c style="Heading 2">OK</c></p>
 <p style="Normal"><c style="Normal">This button inserts the selected kind of break and closes the dialog.</c></p>
