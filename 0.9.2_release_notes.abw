@@ -14,7 +14,8 @@
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB">These changes are those made since 0.9.1</c></p>
 <p style="Normal Clean"><c style="Normal Clean" props="lang:en-GB"></c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm">Jared Davies:	Interface review.</p>
-<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm">Hubert Figuiere:	Bug fixes (1823)</p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm">Hubert Figuiere:	autoconf patch.</p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm">	Bug fixes (1408, 1823, 1842)</p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Francis Franklin:	Fix building of wv and libiconv.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Marco Innocenti:	Italian localisation update.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">William Lachance:	More work on WordPerfect importer.</c></p>
