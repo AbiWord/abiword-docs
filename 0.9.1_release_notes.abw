@@ -8,13 +8,6 @@
 <!-- You should not edit this file by hand.                                 -->
 <!-- =====================================================================  -->
 
-<!--         Build_ID          = (none) -->
-<!--         Build_Version     = unnumbered -->
-<!--         Build_Options     = LicensedTrademarks:Off Debug:Off BiDi:Off Bonobo:Off Gnome:On LibXML:Off Pspell:Off Scripting:Off -->
-<!--         Build_Target      = /home/David/abiword-0.9.0/abi/src/Linux_2.2.18_ppc_GNOME/obj -->
-<!--         Build_CompileTime = 23:25:55 -->
-<!--         Build_CompileDate = Jul 31 2001 -->
-
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section>
 <p style="Heading 1"><c style="Heading 1" props="lang:en-GB">AbiWord 0.9.1 Release Notes</c></p>
@@ -36,6 +29,7 @@
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	XHTML export bug fixes.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Removed advertising in the comments of exported HTML and ABW files.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	MacOSX build fix.</c></p>
+<p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Fixes to .doc importer.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Big fixes (1803).</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">Tim LaDuca:	TrueType fonts FAQ revision.</c></p>
 <p style="Normal Clean" props="text-indent:-3.50cm; margin-left:3.50cm"><c style="Normal Clean" props="lang:en-GB">	Bug fix for Cygwin build.</c></p>
