@@ -1,30 +1,30 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword xmlns="http://www.abisource.com/awml.dtd" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0.2" fileformat="1.0" styles="unlocked">
-<!-- =====================================================================  -->
-<!-- This file is an AbiWord document.                                      -->
-<!-- AbiWord is a free, Open Source word processor.                         -->
-<!-- You may obtain more information about AbiWord at www.abisource.com     -->
-<!-- You should not edit this file by hand.                                 -->
-<!-- =====================================================================  -->
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0.5" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
 
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Wed Jul  9 19:33:24 2003</m>
 <m key="dc.title">AbiWord Help: Home</m>
+<m key="abiword.date_last_changed">Thu Mar 11 17:33:23 2004</m>
 <m key="dc.creator">Copyright (C) 2002 David Chart</m>
 </metadata>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-US; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
-<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; font-variant:normal; lang:en-US; dom-dir:ltr; margin-bottom:0pt; text-decoration:none; font-weight:normal; bgcolor:transparent; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 <s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
 <p style="Heading 1"><c props="lang:en-GB"></c>AbiWord Help</p>
-<p style="Normal">These are the help files for AbiWord. They are normally installed with the program, but if you have found them elsewhere, you can read an introduction to AbiWord.</p>
-<p style="Normal">As with the rest of the program, these files are written by volunteers. Some sections are still incomplete, but everything that the program can do is documented, most of it in the interface section. If you want to help, you should consult the Problems section.</p>
+<p style="Normal">Thank you for installing AbiWord!  This documentation is normally installed with your AbiWord distribution package, however, if you are viewing this on-line, you can usually update both your AbiWord version and your copy of the manual by visiting <a xlink:href="http://www.abisource.com">http://www.abisource.com/</a>.</p>
+<p style="Normal">AbiWord is a full-featured word processor originally developed by the SourceGear Corporation, and is now maintained by an open group of volunteers.  The application code is quite mature and stable, and developers are adding new features to development branches daily.  However, this manual may be incomplete as it is also developed by volunteers, those with very little time.  Help is always appreciated with either the manual or the program itself.  If you would like to help with development of the program or manual, please consult the "Problems" section of this manual or <a xlink:href="http://www.abisource.com">AbiSource.com</a>.  Thanks!</p>
 <p style="Normal">The top of every page has links to all the pages leading to your current page, so that it is easy to retrace your steps. The Help link brings you to this page.</p>
 <p style="Normal">The help files are divided into several sections. These sections are linked from every page. The links are either in a column at the left of the page or in a line at the bottom, depending on your browser. The sections are:</p>
 <p style="Heading 2">Top Page</p>
@@ -32,15 +32,15 @@
 <p style="Heading 2"><a xlink:href="introduction.html">Introduction</a></p>
 <p style="Normal">A quick overview of AbiWord.</p>
 <p style="Heading 2"><a xlink:href="tutorial/index.html">Tutorial</a></p>
-<p style="Normal">An organized course on how to use AbiWord. This section has not yet been written.</p>
+<p style="Normal">Get started quickly with this advanced word-processor, and learn its most frequently-used features.</p>
 <p style="Heading 2"><a xlink:href="howto/index.html">How To</a></p>
-<p style="Normal">Instructions for particular operations. This section is small at the moment, and writing a how to is a good way to help out with documenting AbiWord.</p>
+<p style="Normal">Find step-by-step instructions for common tasks in AbiWord.  If you are unsure of how to start helping out with documentation, writing a How-To is a great way to start!</p>
 <p style="Heading 2"><a xlink:href="info/index.html">Information</a></p>
-<p style="Normal">Information about aspects of AbiWord's function. This information does not usually have a direct impact on your use of the program, but should help you to understand it better.</p>
+<p style="Normal">Information about  specific aspects of AbiWord's numerous features. Check here to learn what else you can do with AbiWord.</p>
 <p style="Heading 2"><a xlink:href="interface/index.html">Interface</a></p>
-<p style="Normal">This section provides documentation for every command in the AbiWord user interface. This section is complete.</p>
+<p style="Normal">You can find instructions on every command in AbiWord's user interface here.</p>
 <p style="Heading 2"><a xlink:href="problems/index.html">Problems</a></p>
-<p style="Normal">Instructions on what to do if you have problems with AbiWord, and suggestions on where to get help.</p>
+<p style="Normal">Having problems?  Check here for some common solutions, and ways to receive additional help.  This is also where to look to find information about contributing to the AbiWord project.</p>
 <p style="Heading 2"><a xlink:href="credits.html">Credits</a></p>
 <p style="Normal">The people responsible for AbiWord.</p>
 <p style="Heading 2"><a xlink:href="azindex.html">Index</a></p>
