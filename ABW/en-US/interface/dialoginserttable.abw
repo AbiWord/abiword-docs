@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" version="1.99.3" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
+<abiword template="false" styles="unlocked" version="1.99.6" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -11,35 +11,34 @@
 <metadata>
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
-<m key="abiword.date_last_changed">Mon Aug 18 22:48:18 2003</m>
+<m key="abiword.date_last_changed">Sat Sep  6 18:01:41 2003</m>
 </metadata>
 <styles>
-<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-size:17pt; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; keep-with-next:1"/>
-<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
-<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="font-size:14pt; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; keep-with-next:1"/>
-<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="font-size:12pt; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; keep-with-next:1"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:22pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:3pt; line-height:1.000000; font-size:17pt; field-font:NULL"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; font-variant:normal; lang:en-US; dom-dir:ltr; margin-bottom:0pt; text-decoration:none; font-weight:normal; bgcolor:transparent; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; text-indent:0.00cm; margin-bottom:3pt; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:12pt"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section props="page-margin-footer:0.5in; page-margin-header:0.5in">
 <p style="Heading 1">Insert Table Dialog</p>
 <p style="Normal">Insert a new table into your document.</p>
 <p style="Heading 2">Table Size</p>
-<p style="Normal">Specify your table's dimensions</p>
+<p style="Normal">The numbers selected here fix the dimensions of the table you insert. It is possible to insert or delete rows and columns later; see the <a xlink:href="menutable.html">Table menu</a>.</p>
 <p style="Heading 3">Number of Columns:</p>
 <p style="Normal">The number of columns you wish this table to have.</p>
 <p style="Heading 3">Number of Rows:</p>
 <p style="Normal">The number of rows you wish this table to have.</p>
 <p style="Heading 2">AutoFit Behavior</p>
-<p style="Normal"><c></c></p>
-<p style="Heading 3">Automatic column size</p>
+<p style="Heading 3"><c></c>Automatic column size</p>
 <p style="Normal">This option splits the available width equally amongst all of the columns.</p>
 <p style="Heading 3">Fixed column width</p>
-<p style="Normal">This option allows you to set a specific width for columns, such as 1/2 an inch, or 2cm.</p>
-<p style="Normal"><c></c></p>
-<p style="Heading 2">Cancel</p>
-<p style="Normal">Do not insert a new table.</p>
-<p style="Normal"><c></c></p>
-<p style="Heading 2">Ok</p>
-<p style="Normal">Insert a new table into the document.</p>
+<p style="Normal">This option allows you to set a specific width for columns. Change the column size either by typing in the box or clicking on the up and down arrows to its right.</p>
+<p style="Heading 2">Help</p>
+<p style="Normal">This button opens the documentation for this dialog.</p>
+<p style="Heading 2"><c></c>Cancel</p>
+<p style="Normal">This button closes the dialog without inserting a new table.</p>
+<p style="Heading 2">Insert</p>
+<p style="Normal">This button inserts a new table into the document and closes the dialog.</p>
 </section>
 </abiword>
