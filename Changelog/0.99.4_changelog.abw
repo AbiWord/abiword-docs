@@ -15,7 +15,7 @@
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Heading 1"><c props="lang:en-GB">0.99.4</c> Changelog</p>
+<p style="Heading 1"><c props="lang:en-GB">0.99.4</c><c props="lang:en-GB"></c> Changelog</p>
 <p style="Normal">This file only records the changes made between 0.99.3 and 0.99.4.</p>
 <p style="Heading 2">Cal Arndt</p>
 <p style="Normal">Documentation bug fixes.</p>
@@ -24,7 +24,7 @@
 <p style="Normal">Fixes so that Abi compiles on QNX.</p>
 <p style="Normal">Insert Bookmark dialog for QNX.</p>
 <p style="Normal">Insert Hyperlink dialog for QNX.</p>
-<p style="Normal">Various QNX fixes.</p>
+<p style="Normal">Various QNX fixes and screenshots.</p>
 <p style="Heading 2">David Bolack</p>
 <p style="Normal">Fixes for Solaris.</p>
 <p style="Heading 2">David Chart</p>
@@ -34,6 +34,8 @@
 <p style="Heading 2">Jeremy Davis</p>
 <p style="Normal">Made ScriptHappy work on Win32.</p>
 <p style="Normal">Fixed a bug opening Abi on Win32.</p>
+<p style="Normal">AbiPaint plugin. Like AbiGimp, but for Win32.</p>
+<p style="Normal">Bug fixes, including 2912.</p>
 <p style="Heading 2">Hubert Figuiere</p>
 <p style="Normal">Fix memory leaks.</p>
 <p style="Normal">Work on Mac OSX port.</p>
@@ -42,6 +44,8 @@
 <p style="Heading 2">Frank Franklin</p>
 <p style="Normal">Build system for the Link grammar checker.</p>
 <p style="Normal">Build system fixes and updates.</p>
+<p style="Normal">Code fixes to make AbiCommand work better.</p>
+<p style="Normal">Bug fixes, including 3000.</p>
 <p style="Heading 2">Tomas Frydrych</p>
 <p style="Normal">Fixed a memory leak in DlgPlugins.</p>
 <p style="Heading 2">Gabriel Gerhardsson</p>
@@ -61,13 +65,22 @@
 <p style="Normal">First pass SVG import. A hack, because it turns the svg into a png.</p>
 <p style="Normal">Documented the contextual menu 'Save Image...'</p>
 <p style="Normal">Added a function to convert input files direct to png.</p>
+<p style="Normal">Improvements to ImageMagick plugin.</p>
 <p style="Heading 2">Patrick Lam</p>
 <p style="Normal">Fixed a bug in ut_hash.</p>
 <p style="Normal">Fixed a segfault in the html exporter.</p>
 <p style="Normal">Fixed a number of compilation and memory leak problems.</p>
+<p style="Normal">Autoconf fixes for QNX.</p>
+<p style="Normal">Source code structure fix for QNX.</p>
+<p style="Normal">Fix QNX toolbar to work with incremental loader.</p>
+<p style="Normal">QNX compilation fixes.</p>
 <p style="Normal">Bug fixes, including 1437, 2746, 2828, 2865, 2911, 2940, 2990.</p>
 <p style="Heading 2">Birger Langkjer</p>
 <p style="Normal">Danish localisation update.</p>
+<p style="Heading 2">Per Larsson</p>
+<p style="Normal">Swedish localisation update.</p>
+<p style="Heading 2">Ismo Makinen</p>
+<p style="Normal">Finnish system defaults file.</p>
 <p style="Heading 2">Marc Maurer</p>
 <p style="Normal">Lots of work on WP importer.</p>
 <p style="Normal">Added 'Save Image...' to contextual menu.</p>
@@ -75,12 +88,16 @@
 <p style="Normal">Build fix for Win32.</p>
 <p style="Normal">Win32 fix for two-column scrolling.</p>
 <p style="Normal">Fix Win32 bug in AikSaurus.</p>
+<p style="Heading 2">Andrzej Pruszynski</p>
+<p style="Normal">Polish localisation update.</p>
 <p style="Heading 2">Rui Seabra</p>
 <p style="Normal">Work on voice recognition plugin.</p>
 <p style="Normal">Portuguese localisation update.</p>
 <p style="Normal">Removed ispell stuff from rpm spec.</p>
+<p style="Normal">Bug fixes, including 1938.</p>
 <p style="Heading 2">Martin Sevior</p>
 <p style="Normal">Added --plugin command line option, which allows you to execute a plugin without executing the main gtk program. Also added the AbiCommand plugin to prove that it works.</p>
+<p style="Normal">Further work on AbiCommand to make it do something useful.</p>
 <p style="Normal">Added NullGraphics class.</p>
 <p style="Normal">Fixed saving of blank lines in .abw documents.</p>
 <p style="Normal">Fixed export of margins to RTF.</p>
@@ -91,9 +108,13 @@
 <p style="Normal">Fixed Rui's voice recognition plugin.</p>
 <p style="Normal">Worked around a bug in the hash map that could make Abi hang.</p>
 <p style="Normal">Fixed a bug which meant that the left ruler didn't scroll after shifting to two column mode.</p>
-<p style="Normal">Bug fixes, including 2933.</p>
+<p style="Normal">Fixed a bug with applying lists to selected text.</p>
+<p style="Normal">Work around for gnome-print being buggy at the moment.</p>
+<p style="Normal">Bug fixes, including 2906, 2933, 2982.</p>
 <p style="Heading 2">Robert Wilhelm</p>
 <p style="Normal">Fixed a possible crash in wv.</p>
+<p style="Normal">Fixed a bug with wv mmap.</p>
+<p style="Normal">Bug fixes, including 2633, 2789.</p>
 <p style="Heading 2">John Wyrwas</p>
 <p style="Normal">Fix a bug with plugins.</p>
 </section>
