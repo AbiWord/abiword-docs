@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" version="2.2.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="34" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-GB; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="7" edit-time="2879" last-saved="1113404750" uid="316df12e-f0f8-11d8-9cdb-c12f3bdba8dd">
+<version id="3" started="1092821160" uid="150e30ec-f0fe-11d8-9cdb-c12f3bdba8dd" auto="0" top-xid="0"/>
+<version id="4" started="1113404436" uid="cadda56c-ac2c-11d9-82c3-c248fef2dbe0" auto="0" top-xid="0"/>
+<version id="7" started="1113404539" uid="860e8108-ac2d-11d9-92d7-86b22e37c2c9" auto="0" top-xid="34"/>
+</history>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-size:17pt; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; keep-with-next:1"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="font-size:14pt; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; keep-with-next:1"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="font-size:12pt; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; keep-with-next:1"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section xid="1">
+<p style="Heading 1" xid="2"><c props="lang:en-GB">Revising Documents</c></p>
+<p style="Normal" xid="3"><c props="lang:en-GB">April, 2005,  Tomas Frydrych &lt;</c><a xlink:href="mailto:tomasfrydrych@yahoo.co.uk" xid="4"><c props="lang:en-GB">tomasfrydrych@yahoo.co.uk</c></a><c props="lang:en-GB">&gt;</c></p>
+<p style="Heading 2" xid="6"><c props="lang:en-GB">Introduction</c></p>
+<p style="Normal" xid="7"><c props="lang:en-GB">It's Friday morning, and your boss tells you to write a report on the part of the Project you are responsible for so she can sent to her boss; she wants it on her desk by Monday morning. So you work late that day but after a number of rewrites it is to your liking, some twenty pages long;  you email it to your boss and go home. </c></p>
+<p style="Normal" xid="8"></p>
+<p style="Normal" xid="9" props="text-align:justify"><c props="lang:en-GB">Monday lunch time your boss appears with a bunch of papers: it turns out to be two printouts of your report with comments scribbled all over it in red pen. One copy is from your boss, the other from the Project Manager. You have till the end of the day to put their changes in place. You are not a happy bunny. There is barely a line she and he did not touch, her handwriting is illegible, and his is not much better. You can forget night out with the lads, by the time you are done the pubs are just about to close; it took you longer to modify your report than it took you to write it.</c></p>
+<p style="Normal" xid="10"></p>
+<p style="Normal" xid="11"><c props="lang:en-GB">As you drive home you are sure there must be a better way to do this kind of a thing. There is a better way, and that is what revisions are all about.</c></p>
+<p style="Heading 2" xid="12"><c props="lang:en-GB">Revisions Mode</c></p>
+<p style="Normal" xid="13" props="text-align:justify"><c props="lang:en-GB">Working in the revisions mode is just like scribbling notes in red pen on the paper copy. The changes in the document are grouped into separate revision sets. If we stick to the paper and pen analogy, each revision set represents changes made with a different color of pen; analogously, each revision set is shown in different colour on screen and in print.</c></p>
+<p style="Normal" xid="14"></p>
+<p style="Normal" xid="15" props="text-align:justify"><c props="lang:en-GB">You turn the Revisions Mode by choosing Mark Revisions from the Tools-&gt;Revisions sub-menu. If the document does not contain any revisions so far, AbiWord will start a new revision set and present you with a dialog box allowing you to enter a comment that is to be associated with that set. You can leave it blank, but it is a good idea to put there something that identifies you (your name, initials, etc.). In addition to your comment, AbiWord will store the date when the revision was started.</c></p>
+<p style="Normal" xid="16"></p>
+<p style="Normal" xid="17" props="text-align:justify"><c props="lang:en-GB">If the document already contains revisions, you are given two options. You can either start a new set of revisions just as described above, or you can resume the last revision set in the document (it is not possible to resume any other revision set except the last one).</c></p>
+<p style="Normal" xid="18"></p>
+<p style="Normal" xid="19" props="text-align:justify"><c props="lang:en-GB">Once in the Revisions Mode, all changes that you make to the document will be marked as belonging to a revision set. Such changes will be one of three types: insertions, deletions and format changes. In addition to different colours distinguishing between revision sets, each type of revision is presented differently; insertions are double underlined, deletions are stricken through and format changes is underlined with a thick line.</c></p>
+<p style="Heading 2" xid="20"><c props="lang:en-GB">Revisions in Normal Mode</c></p>
+<p style="Normal" xid="21"><c props="lang:en-GB">When you are finished with making revisions, you can switch back to the Normal mode using again the Mark Revisions command from Tools-&gt;Revisions menu. If you make any changes to the document in the Normal mode, these will be just regular changes.</c></p>
+<p style="Normal" xid="22"></p>
+<p style="Heading 3" xid="23"><c props="lang:en-GB">Normal Mode Sub-Modes</c></p>
+<p style="Normal" xid="24" props="text-align:justify"><c props="lang:en-GB">There are three different views of a revised document that AbiWord can offer you in the Normal mode. First, AbiWord can show you the document with all the revisions highlighted, i.e., the document will look exactly the same as it did in the Revisions Mode: different revision sets will be displayed in different colours, and insertions, deletions and format changes distinguished from each other as described above. We will call this Normal Show Revisions mode; it is turned on using Show Revisions from the Tools-&gt;Revisions menu.</c></p>
+<p style="Normal" xid="25"></p>
+<p style="Normal" xid="26" props="text-align:justify"><c props="lang:en-GB">In addition, AbiWord can display the document as it looked before any revisions were made and how it looks after all the revisions. We will call these modes Normal Before Revisions mode and Normal After Revisions mode; they are turned on by using the appropriate commands on the Tools-&gt;Revisions menu. In either of these modes, the document will look like an unrevised document, i.e., no text will be shown using the revision colours and other markings. </c></p>
+<p style="Normal" xid="27"></p>
+<p style="Normal" xid="28"><c props="lang:en-GB">The After Revisions mode is also available in the Revisions Mode so you can make further revisions without the clutter of colours and revision marks from the previous revisions.</c></p>
+<p style="Normal" xid="29"></p>
+<p style="Normal" xid="30" props="text-align:justify"><c props="lang:en-GB">The three modes are useful for different things. You will want to use the After Revisions mode to make final printouts if you want to keep revision marks in the document as a record of the document's history. You will want to use the Show Revisions mode if you want to evaluate revisions present in the document and either accept them, i.e., incorporate them into document proper, or reject them, i.e., remove them.</c></p>
+<p style="Heading 3" xid="31"><c props="lang:en-GB">Accepting and Rejecting Revisions</c></p>
+<p style="Normal" xid="32" props="text-align:justify"><c props="lang:en-GB">Let's return to our original story. Except this time your boss does not bring you back a printout of your report with red pencil marks, but instead she revises the electronic document using revisions as described above. Now, you know that the report is going to have your name on it alongside your boss' name, so you want to check on the changes she made (you know her spelling is not the greatest and your past experience suggests she does not bother with the spell checker either).</c></p>
+<p style="Normal" xid="33"></p>
+<p style="Normal" xid="34" props="text-align:justify"><c props="lang:en-GB">So you switch into Normal mode and work your way through the document looking for revisions. If the revision is OK, you can accept it, i.e., make the suggested changes permanent. Conversely, if you do not like the change, you can reject it, i.e., permanently remove it from the document. To accept or reject a particular revision, you can either place the insertion point into the revision and then choose the Accept or Reject command from Tools-&gt;Revisions menu, or you can right click the revision and choose the command from the context menu. If you want to accept or reject more rejections at the same time, you simply select the text that contains them and then use the Tools-&gt;Revisions commands.</c></p>
+</section>
+</abiword>
