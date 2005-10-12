@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" styles="unlocked" version="2.0.12" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:1; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-GB; document-endnote-restart-section:1; document-footnote-restart-page:1; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:1">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="5" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0.12" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:1; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-GB; document-endnote-restart-section:1; document-footnote-restart-page:1; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:1">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -13,40 +13,41 @@
 <m key="abiword.generator">AbiWord</m>
 <m key="abiword.date_last_changed">Sun Sep 26 16:08:36 2004</m>
 </metadata>
-<history version="792" edit-time="119806" last-saved="1128535325" uid="789ab726-66f5-11d9-8e8b-c775084b61c3">
-<version id="185" started="1105794098" uid="cc04d326-6743-11d9-8e8b-c775084b61c3" auto="0"/>
-<version id="346" started="1108950896" uid="24cdd990-841c-11d9-81ba-8f6f2ccf2f68" auto="0"/>
-<version id="376" started="1109620971" uid="efaca868-89c5-11d9-8f85-a36f5c0dfdec" auto="0"/>
-<version id="410" started="1109798448" uid="6aef09ce-8b62-11d9-874b-d6c41ef32692" auto="0"/>
-<version id="412" started="1109801693" uid="e80fb0a6-8b68-11d9-8078-e999ec05037b" auto="0"/>
-<version id="508" started="1112446254" uid="6b34cd70-a39e-11d9-9ef9-f5d8480925fd" auto="0"/>
-<version id="526" started="1112463801" uid="62a545ee-a39f-11d9-842f-8ea314970272" auto="0"/>
-<version id="548" started="1112546523" uid="64a43eba-a460-11d9-944f-a97f200f5c06" auto="0"/>
-<version id="556" started="1112550699" uid="6d9fa156-a46c-11d9-91ec-aaed508d2c7c" auto="0"/>
-<version id="562" started="1116289781" uid="f81ed430-c66a-11d9-9291-f90487606642" auto="0"/>
-<version id="565" started="1116289907" uid="1af7b8d2-c66b-11d9-8174-f25eabb365d3" auto="0"/>
-<version id="568" started="1116289961" uid="35228dd6-c66b-11d9-8674-97c1acfc4b79" auto="0"/>
-<version id="619" started="1116290038" uid="8e069ecc-c66d-11d9-8269-c8fc80dd3f2f" auto="0"/>
-<version id="636" started="1118003922" uid="6198c24e-d602-11d9-8b2e-9fa58fbf7f62" auto="0"/>
-<version id="670" started="1118004652" uid="1f247d14-d606-11d9-9961-8b062b664c77" auto="0"/>
-<version id="692" started="1118006681" uid="a0f44920-d618-11d9-9e78-da3549488bd1" auto="0"/>
-<version id="694" started="1118015885" uid="bb0284f8-d61d-11d9-8757-fcecf5ea3cd8" auto="0"/>
-<version id="696" started="1118016280" uid="971dc628-d61e-11d9-9d0a-b6f31a41b090" auto="0"/>
-<version id="699" started="1118017730" uid="10467e48-d622-11d9-8208-d24538c06b1e" auto="0"/>
-<version id="775" started="1122489341" uid="4315db36-fed4-11d9-8df9-df55bf4eb9dc" auto="0"/>
-<version id="790" started="1127597368" uid="53e3518a-2d43-11da-894e-9862a8b7fee7" auto="0"/>
-<version id="792" started="1128535320" uid="23acf766-35ca-11da-8974-d9f39dd4f2cb" auto="0"/>
+<history version="793" edit-time="119832" last-saved="1129146700" uid="789ab726-66f5-11d9-8e8b-c775084b61c3">
+<version id="185" started="1105794098" uid="cc04d326-6743-11d9-8e8b-c775084b61c3" auto="0" top-xid="0"/>
+<version id="346" started="1108950896" uid="24cdd990-841c-11d9-81ba-8f6f2ccf2f68" auto="0" top-xid="0"/>
+<version id="376" started="1109620971" uid="efaca868-89c5-11d9-8f85-a36f5c0dfdec" auto="0" top-xid="0"/>
+<version id="410" started="1109798448" uid="6aef09ce-8b62-11d9-874b-d6c41ef32692" auto="0" top-xid="0"/>
+<version id="412" started="1109801693" uid="e80fb0a6-8b68-11d9-8078-e999ec05037b" auto="0" top-xid="0"/>
+<version id="508" started="1112446254" uid="6b34cd70-a39e-11d9-9ef9-f5d8480925fd" auto="0" top-xid="0"/>
+<version id="526" started="1112463801" uid="62a545ee-a39f-11d9-842f-8ea314970272" auto="0" top-xid="0"/>
+<version id="548" started="1112546523" uid="64a43eba-a460-11d9-944f-a97f200f5c06" auto="0" top-xid="0"/>
+<version id="556" started="1112550699" uid="6d9fa156-a46c-11d9-91ec-aaed508d2c7c" auto="0" top-xid="0"/>
+<version id="562" started="1116289781" uid="f81ed430-c66a-11d9-9291-f90487606642" auto="0" top-xid="0"/>
+<version id="565" started="1116289907" uid="1af7b8d2-c66b-11d9-8174-f25eabb365d3" auto="0" top-xid="0"/>
+<version id="568" started="1116289961" uid="35228dd6-c66b-11d9-8674-97c1acfc4b79" auto="0" top-xid="0"/>
+<version id="619" started="1116290038" uid="8e069ecc-c66d-11d9-8269-c8fc80dd3f2f" auto="0" top-xid="0"/>
+<version id="636" started="1118003922" uid="6198c24e-d602-11d9-8b2e-9fa58fbf7f62" auto="0" top-xid="0"/>
+<version id="670" started="1118004652" uid="1f247d14-d606-11d9-9961-8b062b664c77" auto="0" top-xid="0"/>
+<version id="692" started="1118006681" uid="a0f44920-d618-11d9-9e78-da3549488bd1" auto="0" top-xid="0"/>
+<version id="694" started="1118015885" uid="bb0284f8-d61d-11d9-8757-fcecf5ea3cd8" auto="0" top-xid="0"/>
+<version id="696" started="1118016280" uid="971dc628-d61e-11d9-9d0a-b6f31a41b090" auto="0" top-xid="0"/>
+<version id="699" started="1118017730" uid="10467e48-d622-11d9-8208-d24538c06b1e" auto="0" top-xid="0"/>
+<version id="775" started="1122489341" uid="4315db36-fed4-11d9-8df9-df55bf4eb9dc" auto="0" top-xid="0"/>
+<version id="790" started="1127597368" uid="53e3518a-2d43-11da-894e-9862a8b7fee7" auto="0" top-xid="0"/>
+<version id="792" started="1128535320" uid="23acf766-35ca-11da-8974-d9f39dd4f2cb" auto="0" top-xid="0"/>
+<version id="793" started="1129146700" uid="9b61b8c0-3b59-11da-89ee-e51c6e341d9f" auto="0" top-xid="5"/>
 </history>
 <styles>
 <s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="font-family:Arial; margin-top:0.3306in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
-<s type="P" name="Normal" followedby="Current Settings" props="text-decoration:none; text-indent:0.1938in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; font-variant:normal; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0.1938in; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 <s followedby="Normal" name="Heading 2" basedon="Normal" type="P" props="margin-top:0.1667in; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
 <s followedby="Normal" name="Contents 1" basedon="Normal" type="P" props="list-delim:%L.; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Numbered List; field-font:NULL"/>
 <s followedby="Normal" name="Contents 2" basedon="Normal" type="P" props="list-delim:%L.; list-decimal:.; field-color:transparent; start-value:1; margin-left:1.0000in; text-indent:-0.2938in; line-height:1.000000; list-style:Numbered List; field-font:NULL"/>
 <s followedby="Normal" name="Contents 3" basedon="Normal" type="P" props="list-delim:%L.; list-decimal:.; field-color:transparent; start-value:1; margin-left:1.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Numbered List; field-font:NULL"/>
 <s followedby="Normal" name="Contents 4" basedon="Normal" type="P" props="list-delim:%L.; list-decimal:.; field-color:transparent; start-value:1; margin-left:2.0000in; text-indent:-0.2938in; line-height:1.000000; list-style:Numbered List; field-font:NULL"/>
-<s followedby="Normal" name="Numbered Heading 1" basedon="Heading 1" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; field-font:Arial; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; tabstops:0.299306in/L0"/>
-<s followedby="Normal" name="Numbered Heading 2" basedon="Heading 2" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; field-font:Arial; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 1" basedon="Heading 1" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; tabstops:0.299306in/L0; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; field-font:Arial"/>
+<s followedby="Normal" name="Numbered Heading 2" basedon="Heading 2" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; tabstops:0.299306in/L0; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; field-font:Arial"/>
 <s type="P" name="Square List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Square List; field-font:Dingbats"/>
 <s type="P" name="Lower Roman List" basedon="Normal" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Lower Roman List; field-font:NULL"/>
 <s type="P" name="Normal Clean" basedon="Normal" props="line-height:1.000000"/>
@@ -55,12 +56,12 @@
 <s type="C" name="Endnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; line-height:1.000000"/>
 <s type="C" name="Endnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
 <s type="P" name="Triangle List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Triangle List; field-font:Dingbats"/>
-<s followedby="Normal" name="Numbered Heading 3" basedon="Heading 3" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; field-font:Arial; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; tabstops:0.299306in/L0"/>
+<s followedby="Normal" name="Numbered Heading 3" basedon="Heading 3" type="P" props="list-delim:%L.; field-color:transparent; start-value:1; margin-left:0.0in; tabstops:0.299306in/L0; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; field-font:Arial"/>
 <s type="P" name="Dashed List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Dashed List; field-font:NULL"/>
 <s type="P" name="Upper Roman List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L; list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Upper Roman List; field-font:NULL"/>
 <s followedby="Normal" name="Heading 4" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:12pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Nimbus Sans L"/>
 <s type="P" name="Heart List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Heart List; field-font:Dingbats"/>
-<s followedby="Normal" name="Contents Header" basedon="Normal" type="P" props="margin-top:0.1667in; font-size:16pt; margin-bottom:0.0813in; font-weight:bold; line-height:1.000000; text-align:center; font-family:Nimbus Sans L; keep-with-next:1"/>
+<s followedby="Normal" name="Contents Header" basedon="Normal" type="P" props="margin-top:0.1667in; font-size:16pt; margin-bottom:0.0813in; font-weight:bold; line-height:1.000000; text-align:center; keep-with-next:1; font-family:Nimbus Sans L"/>
 <s type="P" name="Upper Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Upper Case List; field-font:NULL"/>
 <s type="P" name="Bullet List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Bullet List; field-font:Symbol"/>
 <s type="P" name="Hand List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Hand List; field-font:Dingbats"/>
@@ -68,22 +69,22 @@
 <s followedby="Normal" name="Heading 3" basedon="Normal" type="P" props="margin-top:0.3056in; font-size:12pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; keep-with-next:1; font-family:Arial"/>
 <s type="P" name="Tick List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Tick List; field-font:Dingbats"/>
 <s type="P" name="Lower Case List" basedon="Numbered List" followedby="Current Settings" props="list-delim:%L); list-decimal:.; field-color:transparent; start-value:1; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Lower Case List; field-font:NULL"/>
-<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0813in; margin-left:1.0000in; margin-right:1.0000in"/>
+<s type="P" name="Block Text" basedon="Normal" followedby="Current Settings" props="line-height:1.000000; margin-bottom:0.0813in; margin-right:1.0000in; margin-left:1.0000in"/>
 <s type="C" name="Footnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; line-height:1.000000; font-size:10pt"/>
-<s followedby="Normal" name="Section Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Arial %L.; field-color:transparent; start-value:1; margin-left:0.0in; field-font:Section; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; tabstops:1.100000in/L0"/>
+<s followedby="Normal" name="Section Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Arial %L.; field-color:transparent; start-value:1; margin-left:0.0in; tabstops:1.100000in/L0; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; field-font:Section"/>
 <s type="P" name="Implies List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Implies List; field-font:Symbol"/>
 <s type="P" name="Box List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Box List; field-font:Dingbats"/>
 <s type="P" name="Star List" followedby="Current Settings" props="list-delim:%L; list-decimal:NULL; field-color:transparent; start-value:0; margin-left:0.5000in; text-indent:-0.2938in; line-height:1.000000; list-style:Star List; field-font:Dingbats"/>
 <s type="P" name="Plain Text" basedon="Normal" followedby="Current Settings" props="font-family:Courier New; line-height:1.000000"/>
-<s followedby="Normal" name="Chapter Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Arial %L.; field-color:transparent; start-value:1; margin-left:0.0in; field-font:Chapter; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; tabstops:1.100000in/L0"/>
+<s followedby="Normal" name="Chapter Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Arial %L.; field-color:transparent; start-value:1; margin-left:0.0in; tabstops:1.100000in/L0; text-indent:0.0in; line-height:1.000000; list-style:Numbered List; field-font:Chapter"/>
 </styles>
 <lists>
 <l id="2586" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
 </lists>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
-<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
-<p style="Heading 1"><c props="font-size:24pt">2.2.11 Changelog</c></p>
-<p style="Heading 2" props="text-align:left; dom-dir:ltr">Hubert Figuiere</p>
-<p level="1" listid="2586" parentid="0" style="Normal" props="list-style:Bullet List; start-value:0; dom-dir:ltr; margin-left:0.5000in; text-indent:-0.2965in; text-align:left; field-font:Symbol"><field type="list_label" props="width:0in; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; text-position:normal; lang:en-GB; font-style:normal; font-variant:normal; list-style:Bullet List; bgcolor:transparent; homogeneous:1; text-decoration:none; height:0in; font-size:12pt; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; text-position:normal; lang:en-GB; font-style:normal; font-variant:normal; list-style:Bullet List; bgcolor:transparent; homogeneous:1; text-decoration:none; height:0in; font-size:12pt; font-stretch:normal">	Fix several stack-based buffer overflows in the RTF importer</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"> - reported by Chris Evans</c></p>
+<section xid="1" props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1" xid="2"><c props="font-size:24pt">2.2.11 Changelog</c></p>
+<p style="Heading 2" xid="3" props="text-align:left; dom-dir:ltr">Hubert Figuiere</p>
+<p level="1" listid="2586" parentid="0" style="Normal" xid="4" props="list-style:Bullet List; start-value:0; dom-dir:ltr; margin-left:0.5000in; text-indent:-0.2965in; text-align:left; field-font:Symbol"><field type="list_label" xid="5" props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Bullet List; text-decoration:none; bgcolor:transparent; font-size:12pt; color:000000; homogeneous:1; height:0in; text-position:normal; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Bullet List; text-decoration:none; bgcolor:transparent; font-size:12pt; color:000000; homogeneous:1; height:0in; text-position:normal; font-stretch:normal">	CAN-2005-2972: Fix several stack-based buffer overflows in the RTF importer</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"> - reported by Chris Evans</c></p>
 </section>
 </abiword>
