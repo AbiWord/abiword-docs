@@ -46,10 +46,10 @@
 <p style="Heading 3">2.2 How do I switch to VI or Emacs key bindings?</p>
 <p style="Normal">Note: This is not recommended for most users. Simply edit your ~/.AbiSuite/AbiWord.profile, and find the section beginning with that &lt;Scheme "_custom_". Simply add the line keybindings="emacs" or keybindings="viEdit" as desired.</p>
 <p style="Heading 2">3. AbiWord for Windows</p>
-<p style="Heading 3">4.1 I get an error about COMCTL32.DLL when I install.</p>
+<p style="Heading 3">3.1 I get an error about COMCTL32.DLL when I install.</p>
 <p style="Normal">COMCTL32.DLL is a Windows library AbiWord needs to run. Some older versions of Windows did not have this library. You can get it free from Microsoft at</p>
 <p><a xlink:href="http://www.microsoft.com/msdownload/ieplatform/ie/comctrlx86.asp">http://www.microsoft.com/msdownload/ieplatform/ie/comctrlx86.asp</a></p>
-<p style="Heading 3">4.2 I crash AbiWord/Windows after opening X (8-15) number of documents.<c></c></p>
+<p style="Heading 3">3.2 I crash AbiWord/Windows after opening X (8-15) number of documents.<c></c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">This is a known problem with AbiWord and the Windows operating system.  The Windows 95, 98, and ME operating systems  has a severe limitation on the amount of resource memory allocated for things like dialogs, icons, and toolbars.  Each AbiWord window uses a section of that limited resource.  Depending upon what else is running, the amount of  AbiWord document windows concurrently opened is limited.  More than the maximum windows (typically somewhere between 8 and 15) may cause the system to crash.  Additional memory will not help as this is an operating system limitation.  Windows NT, 2000, and XP do not have this limitation.</c></p>
 <p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
 </section>
