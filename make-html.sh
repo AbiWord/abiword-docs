@@ -45,7 +45,7 @@ do
 		do
 		      n=`echo $i|cut -f1 -d .`
 		      echo $i
-		      $ABI_DOC_PROG --to=html --exp-props=$html_export_options $i 2>/dev/null
+		      $ABI_DOC_PROG --to=html --exp-props="$html_export_options" $i 2>/dev/null
 		      $CVS/make-abidoc.pl -I $n.info -S header.xhtml -F footer.xhtml > $n.xhtml
 		      cp $n.xhtml $n.html
 			rm -f $n.xhtml
