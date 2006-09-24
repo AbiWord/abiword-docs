@@ -284,69 +284,8 @@
 	</thead>
 	<tbody>
 	<row>
-	  <entry>Portable Document Format</entry>
-	  <entry>.pdf</entry>
-	  <entry>In the &app; version for Unix and Linux, PDF is already supported in the basic
-          installation.</entry>
-	</row>
-	<row>
-	  <entry>XSL-FO</entry>
-	  <entry>.fo</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>WML</entry>
-	  <entry>.wml</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Palm Document</entry>
-	  <entry>.pdb</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>OpenOffice.org Writer</entry>
-	  <entry>.sxw</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>OpenDocument</entry>
-	  <entry>.odt</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>MIF</entry>
-	  <entry>.mif</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>LaTeX</entry>
-	  <entry>.latex</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>KWord</entry>
-	  <entry>.kwd</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>ISCII Text</entry>
-	  <entry>.isc .iscii</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Newsgroup Formatted Text</entry>
-	  <entry>.nws</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Outlook Express Email</entry>
-	  <entry>.eml</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>DocBook</entry>
-	  <entry>.dbk .xml</entry>
+	  <entry>Applix Word</entry>
+	  <entry>.aw</entry>
 	  <entry></entry>
 	</row>
 	<row>
@@ -355,8 +294,33 @@
 	  <entry>Similar to GZipped &app;, but uses bzip2 for greater compression.</entry>
 	</row>
 	<row>
-	  <entry>Applix Word</entry>
-	  <entry>.aw</entry>
+	  <entry>ClarisWorks/AppleWorks 5</entry>
+	  <entry>.cwk</entry>
+	  <entry>Saving not supported, only opening.</entry>
+	</row>
+	<row>
+	  <entry>DocBook</entry>
+	  <entry>.dbk .xml</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>Hancom Word</entry>
+	  <entry>.hwp</entry>
+	  <entry>Saving not supported, only opening.</entry>
+	</row>
+	<row>
+	  <entry>ISCII Text</entry>
+	  <entry>.isc .iscii</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>KWord</entry>
+	  <entry>.kwd</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>LaTeX</entry>
+	  <entry>.latex</entry>
 	  <entry></entry>
 	</row>
 	<row>
@@ -365,14 +329,40 @@
 	  <entry>Saving not supported, only opening.</entry>
 	</row>
 	<row>
-	  <entry>Hancom Word</entry>
-	  <entry>.hwp</entry>
-	  <entry>Saving not supported, only opening.</entry>
+	  <entry>MIF</entry>
+	  <entry>.mif</entry>
+	  <entry></entry>
 	</row>
 	<row>
-	  <entry>ClarisWorks/AppleWorks 5</entry>
-	  <entry>.cwk</entry>
-	  <entry>Saving not supported, only opening.</entry>
+	  <entry>Newsgroup Formatted Text</entry>
+	  <entry>.nws</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>OpenDocument</entry>
+	  <entry>.odt</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>OpenOffice.org Writer</entry>
+	  <entry>.sxw</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>Outlook Express Email</entry>
+	  <entry>.eml</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>Palm Document</entry>
+	  <entry>.pdb</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>Portable Document Format</entry>
+	  <entry>.pdf</entry>
+	  <entry>In the &app; version for Unix and Linux, writing PDF files is already supported in the basic
+          installation. Basic support for opening PDF files is available.</entry>
 	</row>
 	<row>
 	  <entry>T602</entry>
@@ -383,6 +373,21 @@
 	  <entry>StarWriter up to 5.x</entry>
 	  <entry>.sdw</entry>
 	  <entry>Saving not supported, only opening.</entry>
+	</row>
+	<row>
+	  <entry>WML</entry>
+	  <entry>.wml</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>WordPerfect(tm)</entry>
+	  <entry>.wpd .wp</entry>
+	  <entry>Saving not supported, only opening. All versions are supported.</entry>
+	</row>
+	<row>
+	  <entry>XSL-FO</entry>
+	  <entry>.fo</entry>
+	  <entry></entry>
 	</row>
 	</tbody>
 	</tgroup>
