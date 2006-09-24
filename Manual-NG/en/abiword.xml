@@ -239,8 +239,8 @@
           as a template and using a different filename extension.</entry>
 	</row>
 	<row>
-	  <entry>Microsoft Word</entry>
-	  <entry>.doc</entry>
+	  <entry>Encoded Text</entry>
+	  <entry>.txt .text</entry>
 	  <entry></entry>
 	</row>
 	<row>
@@ -249,8 +249,8 @@
 	  <entry></entry>
 	</row>
 	<row>
-	  <entry>Rich Text Format</entry>
-	  <entry>.rtf</entry>
+	  <entry>Microsoft Word</entry>
+	  <entry>.doc</entry>
 	  <entry></entry>
 	</row>
 	<row>
@@ -259,8 +259,8 @@
 	  <entry></entry>
 	</row>
 	<row>
-	  <entry>Encoded Text</entry>
-	  <entry>.txt .text</entry>
+	  <entry>Rich Text Format</entry>
+	  <entry>.rtf</entry>
 	  <entry></entry>
 	</row>
 	<row>
