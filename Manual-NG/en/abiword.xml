@@ -504,7 +504,34 @@
       <para>Text has yet to come</para> 
     </sect2>
   </sect1>
-
+<!-- ================ Printing ================================ -->
+  <sect1 id="abiword-printing"> 
+    <title>Printing</title>
+    <!-- ================ Collaboration ================================ -->
+    <sect2 id="abiword-printing-setup">
+      <title>Page Setup</title>
+      <para>...</para>
+    </sect2>
+  </sect1>
+<!-- ================ Plugins ================================ -->
+  <sect1 id="abiword-plugins"> 
+    <title>Plugins</title>
+    <!-- ================ Collaboration ================================ -->
+    <sect2 id="abiword-plugin-collaboration"> 
+      <title>Collaboration</title> 
+      <para>Text has yet to come</para>
+    </sect2>
+    <!-- ================ Command ================================ -->
+    <sect2 id="abiword-plugin-command"> 
+      <title>Command Interface</title> 
+      <para>Text has yet to come</para>
+    </sect2>
+    <!-- ================ Grammar ================================ -->
+    <sect2 id="abiword-plugin-grammar"> 
+      <title>Grammar Checker</title> 
+      <para>Text has yet to come</para>
+    </sect2>
+  </sect1>
 
 
 
