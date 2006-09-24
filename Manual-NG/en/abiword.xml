@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+  <!ENTITY legal SYSTEM "legal.xml">
+  <!ENTITY appversion "2.0">
+  <!ENTITY manrevision "2.0">
+  <!ENTITY date "March 2002">
+  <!ENTITY app "<application>AbiWord</application>">
+  <!-- Information about the entities
+       The legal.xml file contains legal information, there is no need to edit the file. 
+       Use the appversion entity to specify the version of the application.
+       Use the manrevision entity to specify the revision number of this manual.
+       Use the date entity to specify the release date of this manual.
+       Use the app entity to specify the name of the application. -->
+]>
+<!-- 
+  Maintained by AbiSource community
+  http://www.abisource.com/
+-->
+<!-- =============Document Header ============================= -->
+<?db.chunk.max_depth 2?>
+<?yelp:chunk-depth 2?>
+<article id="index" lang="en">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+    <title>&app; Manual V&manrevision;</title>       
+
+    <copyright> 
+      <year>2006</year> 
+      <holder>Sander van Loon</holder> 
+    </copyright> 
+    <copyright> 
+      <year>2006</year> 
+      <holder>Marc Maurer</holder> 
+    </copyright>
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2002</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+<!-- An address can be added to the publisher information.  If a role is 
+     not specified, the publisher/author is the same for all versions of the 
+     document.  -->
+    <publisher> 
+      <publishername> AbiSource Community </publishername> 
+    </publisher> 
+
+   &legal;
+   <!-- This file  contains link to license for the documentation (GNU FDL), and 
+        other legal stuff such as "NO WARRANTY" statement. Please do not change 
+	any of this. -->
+
+    <authorgroup> 
+      <author> 
+		<firstname>Sander</firstname> 
+		<surname>Loon, van</surname> 
+		<affiliation> 
+	  		<orgname>AbiSource Community</orgname> 
+	  		<address> <email>doc-writer2@gnome.org</email> </address> 
+		</affiliation> 
+      </author> 
+      <author> 
+		<firstname>Marc</firstname> 
+		<surname>Maurer</surname> 
+		<affiliation> 
+	  		<orgname>AbiSource Community</orgname> 
+	  		<address> <email>uwog@uwog.net</email> </address> 
+		</affiliation> 
+      </author> 
+      
+<!-- This is appropriate place for other contributors: translators,
+     maintainers,  etc. Commented out by default.
+     
+      <othercredit role="translator">
+		<firstname>Latin</firstname> 
+		<surname>Translator 1</surname> 
+		<affiliation> 
+	  		<orgname>Latin Translation Team</orgname> 
+	  		<address> <email>translator@gnome.org</email> </address> 
+		</affiliation>
+		<contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+<!-- Remember to remove the &manrevision; entity from the revision entries other -->
+<!-- than the current revision. -->
+<!-- The revision numbering system for GNOME manuals is as follows: -->
+<!-- * the revision number consists of two components -->
+<!-- * the first component of the revision number reflects the release version of the GNOME desktop. -->
+<!-- * the second component of the revision number is a decimal unit that is incremented with each revision of the manual. -->
+<!-- For example, if the GNOME desktop release is V2.x, the first version of the manual that -->
+<!-- is written in that desktop timeframe is V2.0, the second version of the manual is V2.1, etc. -->
+<!-- When the desktop release version changes to V3.x, the revision number of the manual changes -->
+<!-- to V3.0, and so on. -->  
+    <revhistory>
+      <revision> 
+		<revnumber>MY-GNOME-APPLICATION Manual V&manrevision;</revnumber> 
+		<date>&date;</date> 
+		<revdescription> 
+	  		<para role="author">Documentation Writer 2
+	    	<email>docwriter2@gnome.org</email>
+	  		</para>
+	  		<para role="publisher">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+      <revision> 
+		<revnumber>Full title of previous manual.</revnumber> 
+		<date>Release date of previous manual.</date> 
+		<revdescription> 
+	  		<para role="author">Documentation Writer 1 
+	    	<email>docwriter1@gnome.org</email>
+	  		</para>
+	  		<para role="publisher">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+    </revhistory> 
+
+    <releaseinfo>This manual describes version &appversion; of AbiWord.
+    </releaseinfo> 
+    <legalnotice> 
+      <title>Feedback</title> 
+      <para>To report a bug or make a suggestion regarding the &app; application or
+      this manual, follow the directions in the <ulink url="ghelp:gnome-feedback"
+	  type="help">GNOME Feedback Page</ulink>. 
+      </para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+  </articleinfo> 
+
+  <indexterm zone="index"> 
+    <primary>AbiWord</primary> 
+  </indexterm> 
+  <indexterm zone="index"> 
+    <primary>abiword</primary> 
+  </indexterm>
+  <indexterm zone="index"> 
+    <primary>Abiword</primary> 
+  </indexterm>
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="abiword-introduction"> 
+    <title>Introduction</title> 
+    <para>&app; is a word processor which is fast, small in size and easy to use. It
+    is able to save and open documents in a large variety of file formats. &app; is 
+    similar to most other modern word processors.</para>
+    <para>To allow older systems to run &app;, a plugin system is used to keep the 
+    size of a basic installation of &app; small and to reduce the resources necessary 
+    to run &app;.</para>
+    <para>NOTE: introduction might need more work</para>
+  </sect1>
+
+<!-- =========== Getting Started ============================== -->
+  <sect1 id="abiword-getting-started"> 
+    <title>Getting Started</title> 
+    <!-- ================ Starting Abiword ================================ -->
+    <sect2 id="abiword-start">
+    <title>Starting &app;</title>
+    <para>You can start <application>&app;</application> in the following ways:</para> 
+    <variablelist>
+    	<varlistentry>
+    		<term><guimenu>Applications</guimenu> menu</term>
+    		<listitem>
+    		<para>Choose 
+    		<menuchoice>
+    		<guisubmenu>Office </guisubmenu>
+    		<guimenuitem>&app; Word Processor</guimenuitem>
+    		</menuchoice>. </para>
+    		</listitem>
+    	</varlistentry>
+    	<varlistentry>
+    		<term>Command line</term>
+    		<listitem>
+    		<para>To start <application>&app;</application> from a command line, type 
+		the following command, then press <keycap>Return</keycap>:</para>
+    		<para> 
+			<command>abiword</command>
+    		</para>
+		</listitem>
+    	</varlistentry>
+    </variablelist>
+    <para>When you open a document in the file manager and &app; is associated
+    with that type of document, &app; will be started automatically.</para>
+    </sect2>
+    <!-- ================ The Abiword Window ================================ -->
+    <sect2 id="abiword-window">
+    <title>The &app; Window</title>
+    <para>When you start <application>&app;</application>, the following window is
+    displayed:</para>
+    <para>*Screenshot here*</para>
+    <para>*Explanation here*</para>
+    <note>
+    <title>Only instructions for accessing functionality via the menu's are given</title>
+      <para>This documentation will only give instructions on how to access the 
+      functionality of &app; via the menu's. The icons on the toolbar are shortcuts to 
+      the most frequently used functionality which is also accessible from the menu's.
+      To figure out what the function of each icon is, point to the icon. After a 
+      second it's function will appear.</para>
+    </note>
+    </sect2>
+  </sect1>
+<!-- ================ Working with Documents ================================ -->
+  <sect1 id="abiword-workingwithdocuments"> 
+    <title>Working with Documents</title>
+    <!-- ================ File Formats ================================ -->
+    <sect2 id="abiword-fileformats"> 
+      <title>File Formats</title>
+      <para>The basic installation of &app; includes support for the most frequently used
+      document file formats. The plugins include support for more file formats.</para>
+      <table>
+	<title>Document file formats included in a basic installation of &app;</title>
+	<tgroup cols="3">
+	<thead>
+	<row>
+	  <entry>Format</entry>
+	  <entry>Extension</entry>
+	  <entry>Note</entry>
+	</row>
+	</thead>
+	<tbody>
+	<row>
+	  <entry>&app;</entry>
+	  <entry>.abw</entry>
+	  <entry>This is the native file format of &app;, use this unless you have good reasons 
+	  to use another file format.</entry>
+	</row>
+	<row>
+	  <entry>&app; Templates</entry>
+	  <entry>.awt</entry>
+	  <entry>This format is identical to normal Abiword documents, except for being marked
+          as a template and using a different filename extension.</entry>
+	</row>
+	<row>
+	  <entry>Microsoft Word</entry>
+	  <entry>.doc</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>HTML/XHTML</entry>
+	  <entry>.html .htm .xhtml</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>Rich Text Format</entry>
+	  <entry>.rtf</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>Plain Text</entry>
+	  <entry>.txt .text</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>Encoded Text</entry>
+	  <entry>.txt .text</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>GZipped &app;</entry>
+	  <entry>.zabw</entry>
+	  <entry>These are normal Abiword documents using compression. Compression can 
+          be useful for reducing the file size of large documents.</entry>
+	</row>
+	</tbody>
+	</tgroup>
+      </table>
+      <table>
+	<title>Document file formats included in the &app; plugins</title>
+	<tgroup cols="3">
+	<thead>
+	<row>
+	  <entry>Format</entry>
+	  <entry>Extension</entry>
+	  <entry>Note</entry>
+	</row>
+	</thead>
+	<tbody>
+	<row>
+	  <entry>Portable Document Format</entry>
+	  <entry>.pdf</entry>
+	  <entry>In the &app; version for Unix and Linux, PDF is already supported in the basic
+          installation.</entry>
+	</row>
+	<row>
+	  <entry>XSL-FO</entry>
+	  <entry>.fo</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>WML</entry>
+	  <entry>.wml</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>Palm Document</entry>
+	  <entry>.pdb</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>OpenOffice.org Writer</entry>
+	  <entry>.sxw</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>OpenDocument</entry>
+	  <entry>.odt</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>MIF</entry>
+	  <entry>.mif</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>LaTeX</entry>
+	  <entry>.latex</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>KWord</entry>
+	  <entry>.kwd</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>ISCII Text</entry>
+	  <entry>.isc .iscii</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>Newsgroup Formatted Text</entry>
+	  <entry>.nws</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>Outlook Express Email</entry>
+	  <entry>.eml</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>DocBook</entry>
+	  <entry>.dbk .xml</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>BZipped &app;</entry>
+	  <entry>.bzabw</entry>
+	  <entry>Similar to GZipped &app;, but uses bzip2 for greater compression.</entry>
+	</row>
+	<row>
+	  <entry>Applix Word</entry>
+	  <entry>.aw</entry>
+	  <entry></entry>
+	</row>
+	<row>
+	  <entry>Microsoft Write</entry>
+	  <entry>.wri</entry>
+	  <entry>Saving not supported, only opening.</entry>
+	</row>
+	<row>
+	  <entry>Hancom Word</entry>
+	  <entry>.hwp</entry>
+	  <entry>Saving not supported, only opening.</entry>
+	</row>
+	<row>
+	  <entry>ClarisWorks/AppleWorks 5</entry>
+	  <entry>.cwk</entry>
+	  <entry>Saving not supported, only opening.</entry>
+	</row>
+	<row>
+	  <entry>T602</entry>
+	  <entry>.602 .txt</entry>
+	  <entry>Saving not supported, only opening.</entry>
+	</row>
+	<row>
+	  <entry>StarWriter up to 5.x</entry>
+	  <entry>.sdw</entry>
+	  <entry>Saving not supported, only opening.</entry>
+	</row>
+	</tbody>
+	</tgroup>
+      </table>
+    <caution>
+    <title>Possible data loss when using formats other than the &app; document file format</title>
+      <para>It is possible that data is lost if open or save documents in file formats other than 
+      the Abiword document file format. While the &app; developers do their best to prevent this
+      from happening, you can only be completely certain that there will be no data loss if you
+      use the &app; document file format.</para>
+    </caution>
+    </sect2>
+    <!-- ================ Creating Documents ================================ -->
+    <sect2 id="abiword-creatingdocuments"> 
+      <title>Creating New Documents</title> 
+      <para>If you open &app; without opening an already existing document, a new blank document
+      will automatically be created. To create a new document while you already have a document
+      opened in &app;, choose <menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem>
+      </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Opening Documents ================================ -->
+    <sect2 id="abiword-openeningdocuments"> 
+      <title>Opening Documents</title> 
+      <para>To open a document choose <menuchoice><guimenu>File</guimenu><guimenuitem>Open...
+      </guimenuitem></menuchoice> or click the <guibutton>Open</guibutton> button in the toolbar
+      to display the <guilabel>Open File</guilabel> dialog. Select the file that you want to open,
+      then click <guibutton>Open</guibutton>. If you open a document in the file manager and &app; 
+      is associated with that type of document, &app; will be started automatically.</para>
+      <para>&app; records the paths and filenames of the five most recent files that you edited 
+      and displays the files as menu items on the <menuchoice><guimenu>File</guimenu>
+      </menuchoice> menu. You can also click on the arrow pointing downward near the Open icon 
+      on the toolbar to display the list of recent files.</para>
+    </sect2> 
+    <!-- ================ Saving Documents ================================ -->
+    <sect2 id="abiword-savingdocuments"> 
+      <title>Saving Documents</title> 
+      <para>There are three options for saving a document: <guimenuitem>Save</guimenuitem>, 
+      <guimenuitem>Save As...</guimenuitem> and <guimenuitem>Save Copy...</guimenuitem></para>
+      <para>If you want to save a document for the first time, choose <menuchoice><guimenu>
+      File</guimenu><guimenuitem>Save As...</guimenuitem></menuchoice> to display the <guilabel>
+      Save File As</guilabel> dialog. Even if you choose another option to save the document 
+      from the <guimenu>File</guimenu> menu, you will always be given the <guilabel>Save File 
+      As</guilabel> dialog if you save the document for the first time. Give the document you
+      want to save a name, and optionally specify where you want to save it and in which file
+      format, then click <guibutton>OK</guibutton>. You can also use <guimenuitem>Save As...
+      </guimenuitem> to save an existing document under a different name.</para>
+      <para><menuchoice><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></menuchoice>
+      is used to save the changes you made to an existing document. <menuchoice><guimenu>
+      File</guimenu><guimenuitem>Save Copy...</guimenuitem></menuchoice> is used to save a copy
+      of an existing document under the same name. If you choose to use <guimenuitem>Save Copy...
+      </guimenuitem>, you will probably have to change the location where you want the file to
+      be saved, because you can't save two documents with the same name in one directory.</para>
+    </sect2>
+    <!-- ================ Templates ================================ -->
+    <sect2 id="abiword-templates"> 
+      <title>Templates</title> 
+      <para>Templates are documents with missing information which are used to produce a finished
+      document. Templates can be useful because they allow you to produce a finished document faster
+      than if you were creating a new document from scratch. Templates already contain a modified 
+      layout and placeholder text, so you fill in your own text in the template and save it as a 
+      normal document.</para>
+      <para>A few templates are already included in &app;, you can access them by choosing
+      <menuchoice><guimenu>File</guimenu><guimenuitem>New using Template...</guimenuitem>
+      </menuchoice>. You can create your own templates by creating a document and then saving it as
+      an AbiWord Template.</para>
+      <tip>
+      <title>Making user-created templates appear in <guimenuitem>New using Template...</guimenuitem>
+      dialog</title>
+        <para>To make your own templates appear in the <guimenuitem>New using Template...</guimenuitem>
+        dialog, you can place your templates in the templates directory. The location of this directory
+        is <filename class="directory">%USERPROFILE%\AbiSuite\templates</filename> on Windows, 
+        <filename class="directory">/usr/share/AbiSuite-2.4/templates</filename> on Unix and Linux and 
+        <filename class="directory">/Users/*your_user_name*/Library/Application Support/AbiSuite/templates
+        </filename> on Mac OS X.</para>
+      </tip>
+    </sect2>
+    <!-- ================ Revert ================================ -->
+    <sect2 id="abiword-revert"> 
+      <title>Revert</title> 
+      <para>Choose <menuchoice><guimenu>File</guimenu><guimenuitem>Revert</guimenuitem></menuchoice>
+      to revert the document to the last saved version. This will undo all the changes made to the
+      document since it was saved for the last time.</para>
+    </sect2>
+    <!-- ================ Undo and Redo ================================ -->
+    <sect2 id="abiword-undo/redo"> 
+      <title>Undo/Redo</title> 
+      <para>Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Undo</guimenuitem></menuchoice> to 
+      undo changes made to a document step by step. Once you have used <guimenuitem>Undo</guimenuitem>,
+      you can choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Redo</guimenuitem></menuchoice> to
+      reverse the changes made by <guimenuitem>Undo</guimenuitem>.</para>
+    </sect2>
+    <!-- ================ Document History ================================ -->
+    <sect2 id="abiword-documenthistory"> 
+      <title>Document History</title> 
+      <para>*Text here*.</para>
+    </sect2>
+    <!-- ================ Revisions ================================ -->
+    <sect2 id="abiword-revisions"> 
+      <title>Revisions</title> 
+      <para>*Text here*.</para>
+    </sect2>
+  </sect1>
+<!-- ================ Working with Text ================================ -->
+  <sect1 id="abiword-workingwithtext"> 
+    <title>Working with Text</title>
+    <!-- ================ Editing Text ================================ -->
+    <sect2 id="abiword-editingtext"> 
+      <title>Editing Text</title> 
+      <para>Text has yet to come</para>
+    </sect2>
+    <!-- ================ Cut, Copy and Paste ================================ -->
+    <sect2 id="abiword-cutcopypaste"> 
+      <title>Cut, Copy and Paste</title> 
+      <para>Text has yet to come.</para>
+    </sect2> 
+    <!-- ================ Special Characters ================================ -->
+    <sect2 id="abiword-specialcharacters"> 
+      <title>Special Characters</title> 
+      <para>Text has yet to come</para> 
+    </sect2>
+  </sect1>
+
+
+
+
+
+</article>
