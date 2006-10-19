@@ -526,16 +526,53 @@
       <title>Overview</title> 
       <para>Alongside &app;, a set of so-called "plugins" is provided. A plugin provides an extention to &app; to enhance it's functionality. Support for the OpenDocument file format is for example provided by a plugin. Another example is &app;'s grammar checking functionality, which is also provided by a plugin.
 </para>
+      <note>
+      <title>A specific plugin might not be available</title>
+      <para>None of the plugins are required to be installed on the system. This means that the availability of  functionality that is provided by a plugin depends on the particular installation of &app; you are using. If you installed &app; yourself, then make sure you installed all the plugins you want to use. Otherwise please ask your system administrator to customize your &app; installation to your liking.</para>
+      </note>
     </sect2>
     <!-- ================ Collaboration ================================ -->
     <sect2 id="abiword-plugin-collaboration"> 
       <title>Collaboration</title> 
       <para>Text has yet to come</para>
     </sect2>
-    <!-- ================ Command ================================ -->
-    <sect2 id="abiword-plugin-command"> 
-      <title>Command Interface</title> 
-      <para>Text has yet to come</para>
+    <!-- ================ AbiCommand ================================ -->
+    <sect2 id="abiword-plugin-abicommand"> 
+      <title>AbiCommand Interface</title> 
+      <para>The AbiCommand plugin provides a powerful command line interface to &app; (the so-called AbiCommand Interface). This interface can be directly accessed from a terminal, but also for example from a web-application. It can be used to control various aspects of &app;, such as converting a file from one file format
+to another, or opening, editing and printing documents.</para>
+      <sect3 id="abiword-plugin-abicommand-cli">
+        <title>Executing from the Command Line</title>
+        <para>To access the AbiCommand Interface, type the following command on the command line, then press <keycap>Return</keycap>:</para>
+        <para><command>abiword --plugin AbiCommand</command></para>
+      </sect3>
+      <sect3 id="abiword-plugin-abicommand-commands">
+        <title>Available Commands</title>
+        <para>The following commands are provided by the AbiCommand Interface:</para>
+        <table>
+	  <title>Document file formats included in a basic installation of &app;</title>
+	  <tgroup cols="3">
+	  <thead>
+	  <row>
+	    <entry>Command</entry>
+	    <entry>Arguments</entry>
+	    <entry>Description</entry>
+	  </row>
+	  </thead>
+	  <tbody>
+	  <row>
+	    <entry>Foo</entry>
+	    <entry>Bar</entry>
+  	    <entry>This command does something</entry>
+	  </row>
+          </tbody>
+          </tgroup>
+        </table>
+      </sect3>
+      <sect3 id="abiword-plugin-abicommand-example">
+        <title>Example: A PHP web-application</title>
+        <para>TODO: show a tiny popen() snippet here</para>
+      </sect3>
     </sect2>
     <!-- ================ Grammar ================================ -->
     <sect2 id="abiword-plugin-grammar"> 
