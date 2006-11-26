@@ -155,7 +155,7 @@
     <para>To allow older systems to run &app;, a plugin system is used to keep the 
     size of a basic installation of &app; small and to reduce the resources necessary 
     to run &app;.</para>
-    <para>NOTE: introduction might need more work</para>
+    <para>NOTE: introduction might need more work.</para>
   </sect1>
 
 <!-- =========== Getting Started ============================== -->
@@ -464,6 +464,14 @@
         </filename> on Mac OS X.</para>
       </tip>
     </sect2>
+    <!-- ================ Document Properties ================================ -->
+    <sect2 id="abiword-documentproperties"> 
+      <title>Document Properties</title> 
+      <para>Choose <menuchoice><guimenu>File</guimenu><guimenuitem>Properties...</guimenuitem></menuchoice>
+      to open the <guilabel>Document Properties</guilabel> dialog. Here you can enter various information
+      about the document. The information you enter here can be used by the <menuchoice><guimenu>Edit</guimenu>
+      <guimenuitem>Field...</guimenuitem></menuchoice> function.</para>
+    </sect2>
     <!-- ================ Revert ================================ -->
     <sect2 id="abiword-revert"> 
       <title>Revert</title> 
@@ -482,12 +490,12 @@
     <!-- ================ Document History ================================ -->
     <sect2 id="abiword-documenthistory"> 
       <title>Document History</title> 
-      <para>*Text here*.</para>
+      <para>*Text has yet to come*</para>
     </sect2>
     <!-- ================ Revisions ================================ -->
     <sect2 id="abiword-revisions"> 
       <title>Revisions</title> 
-      <para>*Text here*.</para>
+      <para>*Text has yet to come*</para>
     </sect2>
   </sect1>
 <!-- ================ Working with Text ================================ -->
@@ -496,26 +504,102 @@
     <!-- ================ Editing Text ================================ -->
     <sect2 id="abiword-editingtext"> 
       <title>Editing Text</title> 
-      <para>Text has yet to come</para>
+      <para>*Text has yet to come*</para>
     </sect2>
     <!-- ================ Cut, Copy and Paste ================================ -->
     <sect2 id="abiword-cutcopypaste"> 
       <title>Cut, Copy and Paste</title> 
-      <para>Text has yet to come.</para>
-    </sect2> 
-    <!-- ================ Special Characters ================================ -->
+      <para>To cut text from the document, select text in the document and choose <menuchoice><guimenu>Edit
+      </guimenu><guimenuitem>Cut</guimenuitem></menuchoice>. The text will then be memorized and 
+      removed from the document, and you can use <menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste
+      </guimenuitem></menuchoice> to place the text you just cut somewhere else in the document. The function
+      <menuchoice><guimenu>Edit</guimenu><guimenuitem>Copy</guimenuitem></menuchoice> works the same as
+      <guimenuitem>Cut</guimenuitem>, with the exception that it will not remove the selected text. You can 
+      also cut and copy text from other applications and then paste it in &app;, and the other way around.
+      With <menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste Unformatted</guimenuitem></menuchoice> the
+      original layout (for example font type, size or color) the text had will be forgotten when you paste it
+      in a document in &app;, and the layout for that document will be applied to the pasted text.</para>
+    </sect2>
+    <!-- ================ Finding and Replacing Text ================================ -->
+    <sect2 id="abiword-findandreplace"> 
+      <title>Finding and Replacing Text</title> 
+      <para>To find text, choose the option <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find...</guimenuitem>
+      </menuchoice> and enter a search term in the <guilabel>Find what</guilabel> field, then click <guimenu>Find
+      </guimenu>. If &app; finds a match for the search term you entered, the view will be moved to the location
+      of the text, and the text will be highlighted.</para>
+      <para><menuchoice><guimenu>Edit</guimenu><guimenuitem>Replace...</guimenuitem></menuchoice> works similar
+      to <guimenuitem>Find...</guimenuitem>, but will also allow you to replace the text which is found, if a
+      match was found for the search term you entered.</para>
+      <para>In addition <menuchoice><guimenu>Edit</guimenu><guimenuitem>Go To...</guimenuitem></menuchoice> 
+      allows you to navigate to a specific line or page number. It can also navigate to bookmarks in the 
+      document if you have defined bookmarks with <menuchoice><guimenu>Insert</guimenu><guimenuitem>Bookmark...
+      </guimenuitem></menuchoice>.</para>
+    </sect2>
+    <!-- ================ Inserting Special Characters ================================ -->
     <sect2 id="abiword-specialcharacters"> 
       <title>Special Characters</title> 
-      <para>Text has yet to come</para> 
+      <para>If you need to insert special characters which are not located on your keyboard, you can choose
+      <menuchoice><guimenu>Edit</guimenu><guimenuitem>Symbol...</guimenuitem></menuchoice> to find and
+      insert them in the document. The <guilabel>Insert Symbol</guilabel> dialog will then appear.</para><para>
+      In the top left corner of the dialog you can select the font you will be using for the characters you 
+      insert. This is important because it is possible that certain fonts miss certain characters. In list on
+      the left side of the dialog, titled <guilabel>Unicode Block</guilabel>, you can select groups of related
+      characters. This makes it easier to search through the huge amount of special characters. On the right
+      side of the dialog you will see a list with two tabs, <guilabel>Character Table</guilabel> and <guilabel>
+      Character Details</guilabel>. With the <guilabel>Character Table</guilabel> tab you can see which characters
+      you can insert. You can select a character by clicking them. You can insert them in the document by 
+      double clicking them. You can use the <guilabel>Character Details</guilabel> tab to see details of the 
+      character which you have currently selected.</para>
+    </sect2>
+    <!-- ================ Using the Spelling Checker ================================ -->
+    <sect2 id="abiword-spellingchecker"> 
+      <title>Using the Spelling Checker</title> 
+      <para>&app; can automatically check the spelling of the words in your document. If you type a word which
+      is not found in the dictionary by &app;, a jagged red line will be shown under that word. You can then
+      check the spelling with <menuchoice><guimenu>Tools</guimenu><guimenuitem>Check Spelling...</guimenuitem>
+      </menuchoice>. A faster way to do this is to right click an underlined word.</para>
+      <para>By default the spelling checker uses the English dictionary. If you are typing a document in a
+      different language, you can have to change the language of the document by choosing <menuchoice><guimenu>
+      Tools</guimenu><guimenuitem>Set Language...</guimenuitem></menuchoice> in order for the spelling checker
+      to work correctly with the different language. This will open the <guilabel>Set Language...</guilabel> 
+      dialog. Double click on the language you wish to use in the document, and click <guibutton>Close
+      </guibutton>.</para>
+      <note>
+      <title>Extra dictionaries might be necessary for using the spelling checker with other languages than 
+      English</title>
+        <para>By default only an English dictionary for the spelling checker is delivered with &app;. If you 
+        want the spelling checker to work with other languages you might need to install dictionaries for the 
+        GNU Aspell spelling checker which are designed for those languages.</para>
+      </note>
+      <para>NOTE: it's that way in my case, when I  use Ubuntu installed with English as language, investigate 
+      this, and the bug with setting the language.</para>
+      <caution>
+      <title>The spelling checker might be wrong</title>
+        <para>Unfortunately the dictionaries used by &app; are not 100% complete. It might happen that the 
+        spelling checker claims a word to be misspelled even if you are sure that the word is spelled 
+        correctly.</para>
+      </caution>      
+    </sect2>
+    <!-- ================ Page Numbers ================================ -->
+    <sect2 id="abiword-page-numbers"> 
+      <title>Page Numbers</title>
+      <para>You can insert page numbers by choosing <menuchoice><guimenu>Insert</guimenu><guimenuitem>Page Numbers...
+      </guimenuitem></menuchoice>. This will open the <guilabel>Page Numbers...</guilabel> dialog. Here you
+      can choose the alignment and position of the page numbers. If you are satisfied, click <guibutton>Insert
+      </guibutton> to insert page numbers. Page numbers will be inserted on all pages of your document, and if you
+      create new pages after inserting page numbers, page numbers will be inserted in those pages as well.</para>
+      <para>NOTE: Explain how it can also be done through <menuchoice><guimenu>Insert</guimenu><guimenuitem>Fields
+      </guimenuitem></menuchoice>, and how users can create exceptions for pages which they do not want to be
+      numbered</para>
     </sect2>
   </sect1>
 <!-- ================ Printing ================================ -->
   <sect1 id="abiword-printing"> 
     <title>Printing</title>
-    <!-- ================ Collaboration ================================ -->
-    <sect2 id="abiword-printing-setup">
+    <!-- ================ Page Setup ================================ -->
+    <sect2 id="abiword-page-setup">
       <title>Page Setup</title>
-      <para>...</para>
+      <para>*Text has yet to come*</para>
     </sect2>
   </sect1>
 <!-- ================ Plugins ================================ -->
