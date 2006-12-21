@@ -21,17 +21,31 @@
 
 CVS=`pwd -P`
 
+if [ -n "$ABI_DOC_SOURCE" ]; then
+CVS="$ABI_DOC_SOURCE";
+else
+CVS=`pwd -P`;
+fi
+
+if [ -z "$ABI_DOC_DEST" ]; then
+ABI_DOC_DEST="$CVS";
+fi
+
+if [ -z "$ABI_DOC_PROG" ]; then
+ABI_DOC_PROG="abiword";
+fi
+
 for help_language in en-US fr-FR pl-PL #de-DE
 do
 
 	for dir in ./ howto info interface problems tutorial plugins
 	do
-		cd ABW/$help_language/$dir
+		cd $CVS/ABW/$help_language/$dir
 		for i in $(echo *.abw)
 		do
 		      n=`echo $i|cut -f1 -d .`
 		      echo $i
-		      AbiWord-2.6 --to=html $i 2>/dev/null
+		      $ABI_DOC_PROG --to=html $i 2>/dev/null
 		done
 
 		cd $CVS
@@ -40,13 +54,13 @@ do
 	gnome_help_language=`echo $help_language|cut -f1 -d -`
 
 	cd $CVS/ABW/$help_language
-	rm -rf $CVS/help/$gnome_help_language
-	mkdir -p $CVS/help/$gnome_help_language
-	cp -r */ $CVS/help/$gnome_help_language
-	cp *.html $CVS/help/$gnome_help_language
-	cp *.css $CVS/help/$gnome_help_language
+	rm -rf $ABI_DOC_DEST/help/$gnome_help_language
+	mkdir -p $ABI_DOC_DEST/help/$gnome_help_language
+	cp -r */ $ABI_DOC_DEST/help/$gnome_help_language
+	cp *.html $ABI_DOC_DEST/help/$gnome_help_language
+	cp *.css $ABI_DOC_DEST/help/$gnome_help_language
 
-	for i in $(ls -1d $CVS/help/$gnome_help_language/*/ )
+	for i in $(ls -1d $ABI_DOC_DEST/help/$gnome_help_language/*/ )
 	do
 		rm -f $i/*.xhtml
 		rm -f $i/*.info
