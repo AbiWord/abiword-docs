@@ -56,6 +56,7 @@ GetOptions (
 	    "header|s=s"	  => \$HEADER_ARG,
 	    "footer|f=s"   	  => \$FOOTER_ARG,
 	    "info|i=s"            => \$INFO_ARG,
+	    "body|b=s"            => \$BODY_ARG,
             "output|o=s"          => \$OUT_ARG, 
 	    ) or &invalid_option;
 
@@ -88,12 +89,14 @@ sub handle_options () {
 	&exit;
     }
 
+    if (!$BODY_ARG) {
+	$BODY_ARG = $INFO_ARG;
+	$BODY_ARG =~ s/.info/.html/;
+    }
+
     if ($OUT_ARG) {
         $OUTNAME = $OUT_ARG;
     }
-
-    $BODY_ARG = $INFO_ARG;
-    $BODY_ARG =~ s/.info/.html/;
 }
 
 sub string_from_file ($filename)
@@ -216,6 +219,7 @@ sub help
     print "  -F, --footer=FOOTER          the footer to use\n";
     print "  -O, --output=NEWFILE         saves output in NEWFILE\n";
     print "  -I, --info                   the info file to use\n";
+    print "  -B, --body                   the body file to use\n";
     print "  -V, --version                shows the version\n";
     print "Report bugs to bugzilla.abiword.com.\n";
 }
