@@ -13,6 +13,27 @@ AC_SUBST(ABIWORD_EXTRAS_PKGDATADIR)
 AC_CONFIG_FILES([
   Makefile
   ABW/Makefile
+  ABW/en-US/Makefile
+  ABW/en-US/howto/Makefile
+  ABW/en-US/info/Makefile
+  ABW/en-US/interface/Makefile
+  ABW/en-US/plugins/Makefile
+  ABW/en-US/problems/Makefile
+  ABW/en-US/tutorial/Makefile
+  ABW/fr-FR/Makefile
+  ABW/fr-FR/howto/Makefile
+  ABW/fr-FR/info/Makefile
+  ABW/fr-FR/interface/Makefile
+  ABW/fr-FR/plugins/Makefile
+  ABW/fr-FR/problems/Makefile
+  ABW/fr-FR/tutorial/Makefile
+  ABW/pl-PL/Makefile
+  ABW/pl-PL/howto/Makefile
+  ABW/pl-PL/info/Makefile
+  ABW/pl-PL/interface/Makefile
+  ABW/pl-PL/plugins/Makefile
+  ABW/pl-PL/problems/Makefile
+  ABW/pl-PL/tutorial/Makefile
 ])
 AC_OUTPUT
 
