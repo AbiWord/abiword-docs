@@ -19,7 +19,7 @@ CLEANFILES = \
 html_export_options = "html4: no; use-awml: no; embed-css: yes; embed-images:yes"
 
 %.html: %.abw
-	abiword --to=html --to-name="$@" --exp-props=$(html_export_options) "$^"
+	$(ABIWORD) --to=html --to-name="$@" --exp-props=$(html_export_options) "$^"
 	info=`echo "$^" | sed -e "s|.abw|.info|g"` && \
 	$(top_srcdir)/make-abidoc.pl -B "$@" -I "$$info" -S $(srcdir)/header.xhtml -F $(srcdir)/footer.xhtml > "$@.tmp" && \
 	mv "$@.tmp" "$@"

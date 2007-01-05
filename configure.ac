@@ -10,6 +10,13 @@ PKG_CHECK_MODULES([ABIWORD_EXTRAS_DEPS], [ "$abi_pkg" ], [
 ])
 AC_SUBST(ABIWORD_EXTRAS_PKGDATADIR)
 
+AC_CHECK_PROG(ABIWORD, abiword, abiword)
+AC_SUBST(ABIWORD)
+AC_ARG_VAR(ABIWORD, AbiWord program, used for converting help files)
+if test "x$ABIWORD" == "x"; then
+	AC_MSG_ERROR([abiword not found in PATH], 1)
+fi
+
 AC_CONFIG_FILES([
   Makefile
   ABW/Makefile
