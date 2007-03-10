@@ -1,0 +1,707 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+  <!ENTITY legal SYSTEM "legal.xml">
+  <!ENTITY appversion "2.0">
+  <!ENTITY manrevision "2.0">
+  <!ENTITY date "March 2007">
+  <!ENTITY app "<application>AbiWord</application>">
+  <!-- Information about the entities
+       The legal.xml file contains legal information, there is no need to edit the file. 
+       Use the appversion entity to specify the version of the application.
+       Use the manrevision entity to specify the revision number of this manual.
+       Use the date entity to specify the release date of this manual.
+       Use the app entity to specify the name of the application. -->
+]>
+<!-- 
+  Maintained by AbiSource community
+  http://www.abisource.com/
+-->
+<!-- =============Document Header ============================= -->
+<?db.chunk.max_depth 2?>
+<?yelp:chunk-depth 2?>
+<article id="index" lang="en">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo> 
+    <title>Abiword Manual V&manrevision;</title>       
+
+    <copyright> 
+      <year>2006</year> 
+      <holder>Sander van Loon</holder> 
+    </copyright> 
+    <copyright> 
+      <year>2006</year> 
+      <holder>Marc Maurer</holder> 
+    </copyright>
+<!-- translators: uncomment this:-->
+
+  <copyright>
+   <year>2007</year>
+   <holder>Vanessa Guti&eacute;rrez (Traducci&oacute;n al Espa&ntilde;ol)</holder>
+  </copyright>
+
+   
+<!-- An address can be added to the publisher information.  If a role is 
+     not specified, the publisher/author is the same for all versions of the 
+     document.  -->
+    <publisher> 
+      <publishername> AbiSource Community </publishername> 
+    </publisher> 
+
+   &legal;
+   <!-- This file  contains link to license for the documentation (GNU FDL), and 
+        other legal stuff such as "NO WARRANTY" statement. Please do not change 
+	any of this. -->
+
+    <authorgroup> 
+      <author> 
+		<firstname>Sander</firstname> 
+		<surname>Loon, van</surname> 
+		<affiliation> 
+	  		<orgname>AbiSource Community</orgname> 
+	  		<address> <email>doc-writer2@gnome.org</email> </address> 
+		</affiliation> 
+      </author> 
+      <author> 
+		<firstname>Marc</firstname> 
+		<surname>Maurer</surname> 
+		<affiliation> 
+	  		<orgname>AbiSource Community</orgname> 
+	  		<address> <email>uwog@uwog.net</email> </address> 
+		</affiliation> 
+      </author> 
+      
+<!-- This is appropriate place for other contributors: translators,
+     maintainers,  etc. Commented out by default.-->
+     
+      <othercredit role="translator">
+		<firstname>Vanessa</firstname> 
+		<surname>Guti&eacute;rrez</surname> 
+		<affiliation> 
+	  		<orgname>ACLibre</orgname> 
+	  		<address> <email>vanecgs@gmail.com</email>, <email>aclibre@gmail.com</email> </address> 
+		</affiliation>
+		<contrib>Traducci&oacute;n al Espa&ntilde;ol</contrib>
+      </othercredit>
+    </authorgroup>
+
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+<!-- Remember to remove the &manrevision; entity from the revision entries other -->
+<!-- than the current revision. -->
+<!-- The revision numbering system for GNOME manuals is as follows: -->
+<!-- * the revision number consists of two components -->
+<!-- * the first component of the revision number reflects the release version of the GNOME desktop. -->
+<!-- * the second component of the revision number is a decimal unit that is incremented with each revision of the manual. -->
+<!-- For example, if the GNOME desktop release is V2.x, the first version of the manual that -->
+<!-- is written in that desktop timeframe is V2.0, the second version of the manual is V2.1, etc. -->
+<!-- When the desktop release version changes to V3.x, the revision number of the manual changes -->
+<!-- to V3.0, and so on. -->  
+    <revhistory>
+      <revision> 
+		<revnumber>MY-GNOME-APPLICATION Manual V&manrevision;</revnumber> 
+		<date>&date;</date> 
+		<revdescription> 
+	  		<para role="author">Documentation Writer 2
+	    	<email>docwriter2@gnome.org</email>
+	  		</para>
+	  		<para role="publisher">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+      <revision> 
+		<revnumber>Full title of previous manual.</revnumber> 
+		<date>Release date of previous manual.</date> 
+		<revdescription> 
+	  		<para role="author">Documentation Writer 1 
+	    	<email>docwriter1@gnome.org</email>
+	  		</para>
+	  		<para role="publisher">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+    </revhistory> 
+
+    <releaseinfo>This manual describes version &appversion; of AbiWord.
+    </releaseinfo> 
+    <legalnotice> 
+      <title>Feedback</title> 
+      <para>To report a bug or make a suggestion regarding the Abiword application or
+      this manual, follow the directions in the <ulink url="ghelp:gnome-feedback"
+	  type="help">GNOME Feedback Page</ulink>. 
+      </para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+  </articleinfo> 
+
+  <indexterm zone="index"> 
+    <primary>AbiWord</primary> 
+  </indexterm> 
+  <indexterm zone="index"> 
+    <primary>abiword</primary> 
+  </indexterm>
+  <indexterm zone="index"> 
+    <primary>Abiword</primary> 
+  </indexterm>
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="abiword-introduction">
+    <title>Introducci&oacute;n</title>
+    <para>Abiword es un procesador de texto r&aacute;pido, de peque&ntilde;o tama&ntilde;o y f&aacute;cil de utilizar. El cual
+    es capaz de guardar y abrir documentos en una gran variedad de formatos. Abiword es similar a la mayor&iacute;a de los
+    modernos procesadores de texto.</para>
+    <para>Para que viejos sistemas puedan ejecutar Abiword, se utilizan plugins para mantener reducido el tama&ntilde;o de la
+    instalaci&oacute;n b&aacute;sica y para reducir el n&uacute;mero de recursos necesarios para ejecutar Abiword.</para>
+    <para>NOTA: La introducci&oacute;n necesita de mas trabajo.</para>
+  </sect1>
+
+<!-- =========== Getting Started ============================== -->
+  <sect1 id="abiword-getting-started">
+     <title>Iniciando Abiword</title>
+     <!-- ================ Starting Abiword ================================ -->
+     <sect2 id="abiword-start">
+     <title>Iniciando Abiword</title>
+     <para>Puede iniciar <application>Abiword</application> de las siguientes maneras:</para>
+     <variablelist>
+     	<varlistentry>
+		<term>En el men&uacute; <guimenu>Aplicaciones</guimenu></term>
+		<listitem>
+		<para>Seleccione
+		<menuchoice>
+		<guisubmenu>Oficina</guisubmenu>
+		<guimenuitem>Abiword Word Processor</guimenuitem>
+		</menuchoice>. </para>
+		</listitem>
+	</varlistentry>
+	<varlistentry>
+		<term>Linea de comandos</term>
+		<listitem>
+		<para>Para iniciar <application>Abiword</application> desde la linea de comandos, escriba el siguiente
+                comando, luego presione <keycap>Ejecutar</keycap>:</para>
+		<para>
+			<command>abiword</command>
+		</para>
+		</listitem>
+	</varlistentry>
+    </variablelist>
+    <para>Cuando se abre un documento desde el navegador de archivos y Abiword esta asociado con ese tipo de documentos, 
+    Abiword se iniciara autom&aacute;ticamente.</para>
+    </sect2>
+    <!-- ================ The Abiword Window ================================ -->
+    <sect2 id="abiword-window">
+    <title>La ventana de Abiword</title>
+    <para>Cuando inicia <application>Abiword</application>, se muestra la siguiente ventana:</para>
+    <para>*Captura de pantalla aqu&iacute;*</para>
+    <para>*Explicaci&oacute;n aqu&iacute;*</para>
+    <note>
+    <title>Solo se dan instrucciones atrav&eacute;s de men&uacute;es para acceder a las funciones</title>
+      <para>Esta documentaci&oacute;n solo le dar&aacute; instrucciones de como acceder a las funciones de Abiword
+      atrav&eacute;s de los men&uacute;es. Los iconos en la barra de herramientas son atajos hacia las funciones mas
+      utilizadas, las cuales tambi&eacute;n pueden ser encontradas en los men&uacute;es. Para saber cual es la
+      funci&oacute;n de cada icono, pose el puntero del rat&oacute;n sobre la figura. Luego de un segundo la funci&oacute;n
+      aparecer&aacute;.</para>
+    </note>
+    </sect2>
+  </sect1>
+<!-- ================ Working with Documents ================================ -->
+  <sect1 id="abiword-workingwithdocuments">
+    <title>Trabajando con documentos</title>
+    <!-- ================ File Formats ================================ -->
+    <sect2 id="abiword-fileformats">
+      <title>Formato de archivos</title>
+      <para>La instalaci&oacute;n b&aacute;sica de Abiword incluye soporte para los formatos de documentos m&aacute;s utilizados. Los plugins incluyen soporte para mas formatos de archivos.</para>
+      <table>
+        <title>Formatos de documentos incluidos en la instalaci&oacute;n b&aacute;sica de Abiword</title>
+        <tgroup cols="3">
+        <thead>
+        <row>
+          <entry>Formato</entry>
+          <entry>Extensi&oacute;n</entry>
+          <entry>Nota</entry>
+        </row>
+        </thead>
+        <tbody>
+        <row>
+          <entry>Abiword</entry>
+          <entry>.abw</entry>
+          <entry>Este es el formato propio de Abiword, utilice este al menos que tenga buenas razones para utilizar otro 
+          formato.</entry>
+        </row>
+        <row>
+          <entry>Plantillas de Abiword</entry>
+          <entry>.awt</entry>
+          <entry>Este formato es id&eacute;ntico al de los documentos normales de Abiword, con la excepci&oacute;n de que  
+          est&aacute;n marcados como plantillas y utilizan una extensi&oacute;n de archivo distinta.</entry>
+       </row>
+       <row>
+         <entry>Texto codificado</entry>
+         <entry>.txt .text</entry>
+         <entry></entry>
+      </row>
+      <row>
+        <entry>HTML/XHTML</entry>
+        <entry>.html .htm .xhtml</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>Microsoft Word</entry>
+        <entry>.doc</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>Texto plano</entry>
+        <entry>.txt .text</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>Texto con formato</entry>
+        <entry>.rtf</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>Abiword GZip</entry>
+        <entry>.zabw</entry>
+        <entry>Estos son documentos de Abiword comprimidos. Comprimir puede ser &uacute;til para reducir el tama&ntilde;o
+        de documentos grandes.</entry>
+      </row>
+      </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <title>Formatos de documentos incluidos en los plugins de Abiword</title>
+      <tgroup cols="3">
+      <thead>
+      <row>
+        <entry>Formato</entry>
+        <entry>Extensi&oacute;n</entry>
+        <entry>Nota</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+        <entry>Applix Word</entry>
+        <entry>.aw</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>Abiword BZip</entry>
+        <entry>.bzabw</entry>
+        <entry>Es similar a los archivos GZip de Abiword, pero utiliza bzip2 para lograr una mayor compresi&oacute;n.</entry>
+      </row>
+      <row>
+        <entry>ClarisWorks/AppleWorks 5</entry>
+        <entry>.cwk</entry>
+        <entry>No soporta guardar documentos solo abrirlos.</entry>
+      </row>
+      <row>
+        <entry>DocBook</entry>
+        <entry>.dbk .xml</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>Hancom Word</entry>
+        <entry>.hwp</entry>
+        <entry>No soporta guardar documentos solo abrirlos.</entry>
+      </row>
+      <row>
+        <entry>ISCII Text</entry>
+        <entry>.isc .iscii</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>KWord</entry>
+        <entry>.kwd</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>LaTeX</entry>
+        <entry>.latex</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>Microsoft Write</entry>
+        <entry>.wri</entry>
+        <entry>No soporta guardar documentos solo abrirlos.</entry>
+      </row>
+      <row>
+        <entry>MIF</entry>
+        <entry>.mif</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>Newsgroup Formatted Text</entry>
+        <entry>.nws</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>OpenDocument</entry>
+        <entry>.odt</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>OpenOffice.org Writer</entry>
+        <entry>.sxw</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>Outlook Express Email</entry>
+        <entry>.eml</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>Palm Document</entry>
+        <entry>.pdb</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>Portable Document Format</entry>
+        <entry>.pdf</entry>
+        <entry>En la instalaci&oacute;n b&aacute;sica de la versi&oacute;n de Abiword para Unix y Linux, es posible escribir
+        archivos PDF y esta disponible el soporte b&aacute;sico para abrir archivos PDF.</entry>
+      </row>
+      <row>
+	<entry>T602</entry>
+        <entry>.602 .txt</entry>
+        <entry>No soporta guardar documentos solo abrirlos.</entry>
+      </row>
+      <row>
+        <entry>StarWriter up to 5.x</entry>
+        <entry>.sdw</entry>
+        <entry>No soporta guardar documentos solo abrirlos.</entry>
+      </row>
+      <row>
+        <entry>WML</entry>
+        <entry>.wml</entry>
+        <entry></entry>
+      </row>
+      <row>
+        <entry>WordPerfect(tm)</entry>
+        <entry>.wpd .wp</entry>
+        <entry>No soporta guardar documentos solo abrirlos. Todas las versiones son soportadas.</entry>
+      </row>
+      <row>
+        <entry>XSL-FO</entry>
+        <entry>.fo</entry>
+        <entry></entry>
+      </row>
+      </tbody>
+      </tgroup>
+    </table>
+  <caution>
+  <title>Posible perdida de informaci&oacute;n al utilizar otros formatos distintos a los formatos de archivo de Abiword
+  </title>
+     <para>Es posible la perdida de informaci&oacute;n si abre o guarda documentos en otros formatos distintos al de los
+     documentos de Abiword. Mientras los desarrolladores de Abiword hacen su mayor esfuerzo para prevenir esto, solo
+     podr&aacute; estar completamente seguro de que no perder&aacute; informaci&oacute;n solo si utiliza el formato de
+     documentos de Abiword.</para>
+  </caution>
+  </sect2>
+  <!-- ================ Creating Documents ================================ -->
+  <sect2 id="abiword-creatingdocuments">
+    <title>Crear nuevos documentos</title>
+    <para>Si inicia Abiword sin abrir un documento existente, se creara un nuevo documento en blanco autom&aacute;ticamente. Para crear un documento si ya se encuentra uno abierto, seleccione <menuchoice><guimenu>Archivo</guimenu><guimenuitem>Nuevo</guimenuitem></menuchoice></para>
+  </sect2>
+  <!-- ================ Opening Documents ================================ -->
+  <sect2 id="abiword-openeningdocuments">
+    <title>Abrir focumentos</title>
+    <para>Para abrir un documento seleccione <menuchoice><guimenu>Archivo</guimenu><guimenuitem>Abrir...</guimenuitem>
+    </menuchoice> o haga click sobre el bot&oacute;n <guibutton>Abre un documento existente</guibutton> en la barra de
+    herramientas para mostrar la ventana de dialogo <guilabel>Abrir archivo</guilabel>. Seleccione el archivo que desea
+    abrir, luego haga click sobre <guibutton>Aceptar</guibutton>. Si abre un documento en el navegador de archivos y Abiword
+    esta asociado con ese tipo de documentos, Abiword se iniciara autom&aacute;ticamente.</para>
+    <para>Abiword guarda las rutas y nombres de archivos de los &uacute;ltimos cinco archivos que se han editado y los
+    muestra como elementos del men&uacute; en <menuchoice><guimenu>Archivo</guimenu></menuchoice>. Tambi&eacute;n puede
+    hacer click sobre la flecha que apunta hacia abajo ubicada cerca del icono Abre un documento existente en la barra de
+    herramientas para mostrar la lista de los &uacute;ltimos archivos.</para>
+  </sect2>
+  <!-- ================ Saving Documents ================================ -->
+  <sect2 id="abiword-savingdocuments">
+    <title>Guardar documentos</title>
+    <para>Existen tres opciones para guardar un documento: <guimenuitem>Guardar</guimenuitem>, <guimenuitem>Guardar como...</guimenuitem> y <guimenuitem>Guardar copia...</guimenuitem></para>
+    <para>Si desea guardar un documento por primera vez, seleccione <menuchoice><guimenu>Archivo
+    </guimenu><guimenuitem>Guardar como...</guimenuitem></menuchoice> para mostrar la ventana de dialogo 
+    <guilabel>Guardar archivo como</guilabel>. Incluso si selecciona otra opci&oacute;n para guardar el documento desde el men&uacute; <guimenu>Archivo</guimenu>, siempre aparecer&aacute; la ventana de dialogo <guilabel>Guardar archivo como </guilabel> si el documento es guardado por primera vez. De un nombre al documento que desee guardar, opcionalmente, especifique donde lo quiere guardar y en que formato de archivo, luego haga click sobre <guibutton>Aceptar</guibutton>. Tambi&eacute;n puede utilizar <guimenuitem>Guardar como...</guimenuitem> para guardar un documento existente bajo un nombre diferente.</para> <para><menuchoice><guimenu>Archivo</guimenu><guimenuitem>Guardar</guimenuitem></menuchoice> es utilizado para guardar los cambios que ha realizado a un documento existente. <menuchoice><guimenu>Archivo</guimenu>
+    <guimenuitem>Guardar copia...</guimenuitem></menuchoice> es utilizado para guardar una copia de un documento existente con el mismo nombre. Si escoge utilizar <guimenuitem>Guardar una copia...</guimenuitem>, probablemente tendr&aacute; que cambiar la ubicaci&oacute;n donde quiere guardar el documento, porque no puede guardar dos documentos con el mismo nombre en un directorio.</para>
+  </sect2>
+  <!-- ================ Templates ================================ -->
+  <sect2 id="abiword-templates">
+    <title>Plantillas</title>
+    <para>Las plantillas son documentos con informaci&oacute;n que aun falta para terminar el documento final. Las
+    plantillas son &uacute;tiles porque le permiten terminar un documento mas r&aacute;pido en lugar de comenzar a
+    elaborarlo desde cero. Las plantillas contienen una capa modificada y lugares predeterminados para ubicar el texto, de
+    manera que llenara la plantilla con su propia informaci&oacute;n y la guardara como un documento normal.</para>
+    <para>Algunas plantilla se encuentran incluidas en Abiword, puede acceder a ellas escogiendo  
+    <menuchoice><guimenu>Archivo</guimenu><guimenuitem>Nuevo usando plantilla...</guimenuitem></menuchoice>. Para crear  \  
+    plantillas, cree un nuevo documento y gu&aacute;rdelo como una plantilla de Abiword.</para>
+    <tip>
+    <title>Hacer que las plantillas creadas por el usuario aparezcan en la ventana de dialogo <guimenuitem>Nuevo usando   
+    plantilla...</guimenuitem></title>
+      <para>Para hacer que sus plantillas aparezcan en la vantana de dialogo <guimenuitem>Nuevo usando plantilla...
+      </guimenuitem>, guarde las plantilla en el directorio de plantillas. La ubicaci&oacute;n de este directorio es
+      <filename class="directory">%USERPROFILE%\AbiSuite\templates</filename> en Windows, 
+      <filename class="directory">/usr/share/biSuite-2.4/templates</filename> en Unix y Linux y 
+      <filename class="directory">/Users/*your_user_name*/Library/Application Support/AbiSuite/templates</filename> en Mac
+      OS X.</para>
+    </tip>
+  </sect2>
+  <!-- ================ Document Properties ================================ -->
+  <sect2 id="abiword-documentproperties">
+    <title>Propiedades del documento</title>
+    <para>Seleccione <menuchoice><guimenu>Archivo</guimenu><guimenuitem>Propiedades...</guimenuitem></menuchoice> para
+    abrir la ventana de dialogo <guilabel>Propiedades del Documento</guilabel>. Aqu&iacute; puede ingresar
+    informaci&oacute;n acerca del documento. La informaci&oacute;n que ingrese all&iacute; puede ser utilizada por la
+    funci&oacute;n <menuchoice><guimenu>Editar</guimenu><guimenuitem>Preferencias...</guimenuitem></menuchoice>.</para>
+  </sect2>
+  <!-- ================ Revert ================================ -->
+  <sect2 id="abiword-revert">
+    <title>Revertir</title>
+    <para>Seleccione <menuchoice><guimenu>Archivo</guimenu><guimenuitem>Revertir</guimenuitem></menuchoice> para llevar el
+    documento hasta su ultima versi&oacute;n guardada. Esto eliminara los cambios hechos desde que el documento se guardo
+    por ultima vez.</para>
+  </sect2>
+  <!-- ================ Undo and Redo ================================ -->
+  <sect2 id="abiword-undo/redo">
+    <title>Deshacer/Rehacer</title>
+    <para>Seleccione <menuchoice><guimenu>Editar</guimenu><guimenuitem>Deshacer</guimenuitem></menuchoice> para deshacer los
+    cambios hechos paso por paso. Una vez que ha utilizado <guimenuitem>Deshacer</guimenuitem>, puede seleccionar
+    <menuchoice><guimenu>Editar</guimenu><guimenuitem>Rehacer</guimenuitem></menuchoice> para revertir los cambios hechos
+    por <guimenuitem>Deshacer</guimenuitem>.</para>
+  </sect2>
+  <!-- ================ Document History ================================ -->
+  <sect2 id="abiword-documenthistory">
+    <title>Hist&oacute;rico del Documento</title>
+    <para>*Texto en proceso de elaboraci&oacute;n*</para>
+  </sect2>
+  <!-- ================ Revisions ================================ -->
+  <sect2 id="abiword-revisions">
+    <title>Revisiones</title>
+    <para>*Texto en proceso de elaboraci&oacute;n*</para>
+  </sect2>
+</sect1>
+<!-- ================ Working with Text ================================ -->
+  <sect1 id="abiword-workingwithtext">
+    <title>Trabajando con texto</title>
+    <!-- ================ Editing Text ================================ -->
+    <sect2 id="abiword-editingtext">
+      <title>Editando texto</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+    <!-- ================ Cut, Copy and Paste ================================ -->
+    <sect2 id="abiword-cutcopypaste">
+      <title>Cortar, copiar y pegar</title>
+      <para>Para cortar el texto de un documento, seleccione el texto en el documento y seleccione
+      <menuchoice><guimenu>Editar </guimenu><guimenuitem>Cortar</guimenuitem></menuchoice>. El texto sera memorizado y
+      removido del documento y puede utilizar <menuchoice><guimenu>Editar</guimenu><guimenuitem>Pegar</guimenuitem>
+      </menuchoice> para colocar el texto que corto en alg&uacute;n lugar del documento. La funci&oacute;n
+      <menuchoice><guimenu>Editar</guimenu><guimenuitem>Copiar</guimenuitem></menuchoice> funciona del mismo modo que
+      <guimenuitem>Cortar</guimenuitem>, con la excepci&oacute;n de que no remover&aacute; el texto seleccionado.
+      Tambi&eacute;n puede cortar y copiar el texto de otras aplicaciones y pegarlo en Abiword, y viceversa. Con
+      <menuchoice><guimenu>Editar</guimenu><guimenuitem>Pegar sin formato</guimenuitem></menuchoice> se olvidara el formato
+      original del texto cuando es pegado en un documento de Abiword, y se aplicara el formato del documento al texto
+      pegado.</para>
+    </sect2>
+    <!-- ================ Finding and Replacing Text ================================ -->
+    <sect2 id="abiword-findandreplace">
+      <title>Buscando y reemplazando texto</title>
+      <para>Para buscar en el texto, seleccione la opci&oacute;n <menuchoice><guimenu>Editar
+      </guimenu><guimenuitem>Buscar...</guimenuitem></menuchoice> e introduzca el termino a buscar en el campo
+      <guilabel>Buscar: </guilabel>, luego haga click en <guimenu>Buscar</guimenu>. Si Abiword encuentra el termino que ha
+      introducido, la vista se ubicara en el lugar y el texto sera resaltado.</para>
+      <para><menuchoice><guimenu>Editar</guimenu><guimenuitem>Reemplazar...</guimenuitem></menuchoice> trabaja de manera
+      similar a <guimenuitem>Buscar...</guimenuitem>, pero ademas le permitir&aacute; reemplazar el texto que concuerda con
+      el de la b&uacute;squeda.</para>
+      <para>Adicionalmente <menuchoice><guimenu>Editar</guimenu><guimenuitem>Ir a...</guimenuitem></menuchoice> permite
+      navegar hacia una linea o p&aacute;gina en especifico. Tambi&eacute;n puede navegar a trav&eacute;s de sus
+      marcadores, si los ha definido con <menuchoice><guimenu>Insertar</guimenu><guimenuitem>Marcador...</guimenuitem>
+      </menuchoice>.</para>
+   </sect2>
+   <!-- ================ Inserting Special Characters ================================ -->
+   <sect2 id="abiword-specialcharacters">
+     <title>Car&aacute;cteres especiales</title>
+     <para>Si necesita insertar caracteres especiales que no se encuentran en el teclado, puede seleccionar
+     <menuchoice><guimenu>Editar</guimenu><guimenuitem>S&iacute;mbolo...</guimenuitem></menuchoice> para buscar e insertar
+     un s&iacute;mbolo en el documento. La ventana de dialogo <guilabel>Insertar un S&iacute;mbolo</guilabel> se
+     aparecer&aacute;.</para>
+     <para>En la esquina izquierda de la parte superior de la ventana de dialogo podra seleccionar la tipograf&iacute;a que
+     utilizara para el car&aacute;cter que insertara. Esto es importante porque en algunos casos es posible que no se
+     encuentren algunos caracteres. En la lista al lado izquierdo de la ventana de dialogo, encontrara 
+     <guilabel>Bloque Unicode</guilabel>, donde podr&aacute; seleccionar grupos de caracteres relacionados. Esto facilita
+     la b&uacute;squeda entre tantos caracteres especiales. Del lado derecho de la ventana de dialogo encontrara una lista
+     con dos pesta&ntilde;a, <guilabel>Tabla de Caracteres</guilabel> y <guilabel>Detalles del car&aacute;cter</guilabel>.
+     En la pesta&ntilde;a <guilabel>Tabla de Caracteres</guilabel> puede ver cuales caracteres puede insertar. Puede
+     seleccionar un car&aacute;cter haciendo doble click sobre el. Puede utilizar la pesta&ntilde;a 
+     <guilabel>Detalles del Car&aacute;r</guilabel> para ver los detalles del car&aacute;cter que ha seleccionado.</para>
+  </sect2>
+    <!-- ================ Using the Spelling Checker ================================ -->
+      <sect2 id="abiword-spellingchecker">
+        <title>Utilizando el comprobador de ortograf&iacute;a</title>
+        <para>Abiword puede chequear autom&aacute;ticamente la correcci&oacute;n de palabras de un documento. Si escribe una
+        palabra y Abiword no la encuentra en el diccionario, la palabra sera subrayada con una linea roja. Luego puede
+        corregir la ortograf&iacute;a en <menuchoice><guimenu>Herramientas</guimenu>
+        <guimenuitem>Comprobar ortograf&iacute;a...</guimenuitem></menuchoice>. Una forma mas r&aacute;pida de hacer esto
+        es haciendo click con el bot&oacute;n derecho del rat&oacute;n sobre la palabra subrayada.</para>
+        <para>El corrector ortogr&aacute;fico utiliza por defecto el diccionario en Ingles. Si esta transcribiendo un 
+        documento en un idioma diferente, debe cambiar el idioma del documento seleccionando 
+        <menuchoice><guimenu>Herramientas</guimenu><guimenuitem>Establecer idioma...</guimenuitem></menuchoice> para que el
+        corrector ortogr&aacute;fico trabaje correctamente con un idioma diferente. La ventana de dialogo
+        <guilabel>Establecer idioma </guilabel> se abrir&aacute;. Para seleccionar el idioma con el que desea trabajar haga
+        doble click sobre el lenguaje que desea utilizar en el documento y click sobre <guibutton>Cerrar</guibutton>.</para>
+        <note>
+        <title>Diccionarios extras ser&aacute;n necesarios para corregir errores ortogr&aacute;ficos en otros idiomas 
+        distintos al Ingles</title>
+          <para>Por defecto, solo el diccionario del idioma Ingles es incluido en Abiword. Si desea que el corrector 
+          ortogr&aacute;fico trabaje con otros idiomas, necesitara instalar los diccionarios correspondientes al idioma 
+          deseado para el corrector ortogr&aacute;fico GNU Aspell.</para>
+        </note>
+        <para>NOTA: En mi caso lo realice de esa manera, al instalar Ubuntu con el idioma Ingles como predeterminado. Puede 
+        investigar mas acerca de esto y del error al seleccionar el idioma.</para>
+        <caution>
+        <title>El corrector ortogr&aacute;fico puede no tener la raz&oacute;n</title>
+          <para>Desafortunadamente, los diccionarios utilizados por Abiword no estan 100% completos. Puede suceder que el
+          corrector ortogr&aacute;fico indique que una palabra esta mal escrita a pesar de estar seguro que sea la 
+          correcta.</para>
+        </caution>
+     </sect2>
+     <!-- ================ Page Numbers ================================ -->
+     <sect2 id="abiword-page-numbers">
+     <title>N&uacute;meros de p&aacute;gina</title>
+       <para>Puede inserta n&uacute;meros a las p&aacute;ginas seleccionando 
+       <menuchoice><guimenu>Insertar</guimenu><guimenuitem>N&uacute;meros de p&aacute;gina...</guimenuitem></menuchoice>.
+       Se abrir&aacute; la ventana de dialogo <guilabel>N&uacute;meros de p&aacute;gina</guilabel>. Aqu&iacute;
+       podr&aacute; seleccionar la alineaci&oacute;n y posici&oacute;n de los n&uacute;meros. Al finalizar, haga click en
+       <guibutton>Insertar</guibutton> para insertar los n&uacute;meros de p&aacute;ginas. Los n&uacute;meros de
+       p&aacute;ginas ser&aacute;n insertados en todas las p&aacute;ginas del documento y si crea nuevas p&aacute;ginas
+       luego de haberlos insertados, estas tambi&eacute;n obtendr&aacute;n un n&uacute;mero.</para>
+       <para>NOTA: Tambi&eacute;n se puede realizar a trav&eacute;s de 
+       <menuchoice><guimenu>Insertar</guimenu><guimenuitem>Campo...</guimenuitem></menuchoice>, y crear excepciones para  	 aquellas en p&aacute;ginas que no se desean numerar.</para>
+     </sect2>
+   </sect1>
+<!-- ================ Printing ================================ -->
+  <sect1 id="abiword-printing">
+    <title>Imprimiendo</title>
+    <!-- ================ Page Setup ================================ -->
+    <sect2 id="abiword-page-setup">
+      <title>Configurar p&aacute;gina</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+  </sect1>
+<!-- ================ Plugins ================================ -->
+  <sect1 id="abiword-plugins">
+    <title>Plugins</title>
+    <!-- ================ Overview ================================ -->
+    <sect2 id="abiword-plugins-overview">
+      <title>Introducci&oacute;n</title>
+      <para>Junto a Abiword, se han incluido un conjunto de "plugins". Un plugin provee extensiones para Abiword que mejoran su 
+      funcionalidad. El soporte al formato .odt es un ejemplo. Otro caso es la funci&oacute;n de corrector 
+      ortogr&aacute;fico, el cual se obtiene a trav&eacute;s de un plugin.</para>
+      <note>
+      <title>Plugins espec&iacute;ficos pueden no estar a disposici&oacute;n</title>
+      <para>Ninguno de los plugins son necesarios para realizar la instalaci&oacute;n de Abiword en el sistema. Esto
+      significa que la disposici&oacute;n de una funci&oacute;n dada por un plugin depende de la instalaci&oacute;n en
+      particular que halla realizado de Abiword. Si usted mismo instalo Abiword, aseg&uacute;rese de haber instalado todos los
+      plugins que desea utilizar. Sino pregunte al administrador de su sistema para que adapte Abiword a su gusto durante la
+      instalaci&oacute;n.</para>
+      </note>
+    </sect2>
+    <!-- ================ Collaboration ================================ -->
+    <sect2 id="abiword-plugin-collaboration">
+      <title>Colaboraciones</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+    <!-- ================ AbiCommand ================================ -->
+    <sect2 id="abiword-plugin-abicommand">
+      <title>Comandos en Abiword</title>
+      <para>El plugin AbiCommand provee una poderosa interfaz en forma de una linea de comandos para Abiword. Se puede
+      acceder a esta interfaz desde una terminal o desde una aplicaci&oacute;n web. Puede ser utilizada para controlar
+      varios aspectos de Abiword, como transformar el tipo de archivo de un documento a otro formato, o abrir, editar e
+      imprimir documentos.</para>
+      <sect3 id="abiword-plugin-abicommand-cli">
+        <title>Ejecutando desde la l&iacute;nea de comandos</title>
+        <para>Para acceder a la interfaz de AbiCommand, escriba el siguiente comando en la linea de comandos y presione 
+        <keycap>Ejecutar</keycap></para>
+        <para><command>abiword --plugin AbiCommand</command></para>
+      </sect3>
+      <sect3 id="abiword-plugin-abicommand-commands">
+        <title>Comandos disponibles</title>
+        <para>Los siguientes comandos son aceptados por AbiCommand:</para>
+        <table>
+          <title>Formatos de archivos incluidos en la instalaci&oacute;n b&aacute;sica de Abiword</title>
+          <tgroup cols="3">
+          <thead>
+          <row>
+            <entry>Comando</entry>
+            <entry>Argumento</entry>
+            <entry>Descripci&oacute;n</entry>
+          </row>
+          </thead>
+          <tbody>
+          <row>
+            <entry>Foo</entry>
+            <entry>Bar</entry>
+            <entry>Este comando hace algo</entry>
+          </row>
+          </tbody>
+          </tgroup>
+        </table>
+      </sect3>
+      <sect3 id="abiword-plugin-abicommand-example">
+        <title>Ejemplo: Una aplicaci&oacute;n web realizada en PHP</title>
+        <para>POR HACER.</para>
+      </sect3>
+    </sect2>
+    <!-- ================ Grammar ================================ -->
+    <sect2 id="abiword-plugin-grammar">
+      <title>Corrector ortogr&aacute;fico</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+  </sect1>
+<!-- ================ Getting More Help ================================ -->
+  <sect1 id="abiword-help">
+    <title>Obteniendo ayuda</title>
+    <!-- ================ Sources of Help ================================ -->
+    <sect2 id="abiword-help-sources">
+      <title>Fuentes de ayuda</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+    <!-- ================ Web Resources ================================ -->
+    <sect2 id="abiword-help-web">
+      <title>Ayuda en l&iacute;nea</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+    <!-- ================ The Mailing List ================================ -->
+    <sect2 id="abiword-help-mailinglist">
+      <title>Listas de correo</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+    <!-- ================ Internet Relay Chat (IRC) ================================ -->
+    <sect2 id="abiword-help-irc">
+      <title>Internet Relay Chat (IRC)</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+  </sect1>
+<!-- ================ Reporting a Problem ================================ -->
+  <sect1 id="abiword-problem">
+    <title>Reportando problemas</title>
+    <!-- ================ Overview ================================ -->
+    <sect2 id="abiword-problem-overview">
+      <title>Introducci&oacute;n</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+    <!-- ================ Defining the Error ================================ -->
+    <sect2 id="abiword-problem-defining">
+      <title>Describiendo el error</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+    <!-- ================ Opening an account ================================ -->
+    <sect2 id="abiword-problem-account">
+      <title>Abrir una cuenta</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+    <!-- ================ Filing a Report ================================ -->
+    <sect2 id="abiword-problem-report">
+      <title>Llenando un reporte</title>
+      <para>*Texto en proceso de elaboraci&oacute;n*</para>
+    </sect2>
+  </sect1>
+</article>
