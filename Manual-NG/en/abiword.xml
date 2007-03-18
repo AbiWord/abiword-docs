@@ -28,7 +28,7 @@
 
     <copyright> 
       <year>2006</year> 
-      <holder>Sander van Loon</holder> 
+      <holder>Alexander van Loon</holder> 
     </copyright> 
     <copyright> 
       <year>2006</year> 
@@ -153,8 +153,8 @@
     is able to save and open documents in a large variety of file formats. &app; is 
     similar to most other modern word processors.</para>
     <para>To allow older systems to run &app;, a plugin system is used to keep the 
-    size of a basic installation of &app; small and to reduce the resources necessary 
-    to run &app;.</para>
+    size of a basic installation of &app; small and to reduce the amount of resources 
+    necessary to run &app;.</para>
     <para>NOTE: introduction might need more work.</para>
   </sect1>
 
@@ -499,7 +499,7 @@
     </sect2>
   </sect1>
 <!-- ================ Working with Text ================================ -->
-  <sect1 id="abiword-workingwithtext"> 
+  <sect1 id="abiword-working-with-text"> 
     <title>Working with Text</title>
     <!-- ================ Editing Text ================================ -->
     <sect2 id="abiword-editingtext"> 
@@ -507,7 +507,7 @@
       <para>*Text has yet to come*</para>
     </sect2>
     <!-- ================ Cut, Copy and Paste ================================ -->
-    <sect2 id="abiword-cutcopypaste"> 
+    <sect2 id="abiword-cut-copy-paste"> 
       <title>Cut, Copy and Paste</title> 
       <para>To cut text from the document, select text in the document and choose <menuchoice><guimenu>Edit
       </guimenu><guimenuitem>Cut</guimenuitem></menuchoice>. The text will then be memorized and 
@@ -521,7 +521,7 @@
       in a document in &app;, and the layout for that document will be applied to the pasted text.</para>
     </sect2>
     <!-- ================ Finding and Replacing Text ================================ -->
-    <sect2 id="abiword-findandreplace"> 
+    <sect2 id="abiword-find-and-replace"> 
       <title>Finding and Replacing Text</title> 
       <para>To find text, choose the option <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find...</guimenuitem>
       </menuchoice> and enter a search term in the <guilabel>Find what</guilabel> field, then click <guimenu>Find
@@ -536,7 +536,7 @@
       </guimenuitem></menuchoice>.</para>
     </sect2>
     <!-- ================ Inserting Special Characters ================================ -->
-    <sect2 id="abiword-specialcharacters"> 
+    <sect2 id="abiword-special-characters"> 
       <title>Special Characters</title> 
       <para>If you need to insert special characters which are not located on your keyboard, you can choose
       <menuchoice><guimenu>Edit</guimenu><guimenuitem>Symbol...</guimenuitem></menuchoice> to find and
@@ -591,6 +591,157 @@
       <para>NOTE: Explain how it can also be done through <menuchoice><guimenu>Insert</guimenu><guimenuitem>Fields
       </guimenuitem></menuchoice>, and how users can create exceptions for pages which they do not want to be
       numbered</para>
+    </sect2>
+  </sect1>
+<!-- ================ Editing the Page Layout ================================ -->
+  <sect1 id="abiword-page-layout">
+    <title>Editing the Page Layout</title>
+    <!-- ================ Using the Ruler ================================ -->
+    <sect2 id="abiword-ruler"> 
+      <title>Using the Ruler</title>
+      <para>The ruler displays the physical dimensions of your document. The ruler can use several different units
+      of measurement: inches, centimeters, points and pica's. To change the unit of measurement used by the 
+      ruler, choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences...</guimenuitem></menuchoice> and
+      change the unit of measurement with the <guilabel>Units</guilabel> drop down box.</para>
+      <para>The ruler has more functions. With the ruler you can change the page margins and the indents of 
+      paragraphs. You can also set tab stops on the ruler to align text.</para>
+      <figure id="abiword-ruler-screenshot">
+	<title>The ruler</title>
+	<screenshot>
+	  <mediaobject>
+	    <imageobject><imagedata fileref="figures/abiword_ruler.png" format="PNG"/>
+	    </imageobject>
+	  </mediaobject>
+	</screenshot>
+      </figure>
+      <table>
+	<title>Elements of the ruler</title>
+	<tgroup cols="2">
+	<thead>
+	<row>
+	  <entry>#</entry>
+	  <entry>Name</entry>         
+	</row>
+	</thead>
+	<tbody>
+	<row>
+	  <entry>1</entry>
+	  <entry>Left indent</entry>
+	</row>
+	<row>
+	  <entry>2</entry>
+	  <entry>First line indent</entry>
+	</row>
+	<row>
+	  <entry>3</entry>
+	  <entry>Right indent</entry>
+	</row>
+	<row>
+	  <entry>4</entry>
+	  <entry>Left margin</entry>
+	</row>
+	<row>
+	  <entry>5</entry>
+	  <entry>Right margin</entry>
+	</row>
+	<row>
+	  <entry>6</entry>
+	  <entry>Top margin</entry>
+	</row>
+	<row>
+	  <entry>7</entry>
+	  <entry>Bottom margin (not visible on screenshot)</entry>
+	</row>
+	<row>
+	  <entry>8</entry>
+	  <entry>Tab stop selector</entry>
+	</row>
+	</tbody>
+	</tgroup>
+      </table>
+      <para>The margins of the page are indicated by grey areas on the left and right ends of the ruler. You can see
+      two small squares near the top of the ruler, near the ends of the margins. To change the margins, drag the
+      the squares to the left or right.</para>
+      <para>You can change the indentation of paragraphs with the three triangles located on the horizontal ruler.
+      The triangle near the top left on the ruler is used for setting the indentation of the first line of a paragraph
+      only. The triangle near the bottom left on the ruler is used for setting the indentation of all the lines in 
+      the paragraph, except for the first line. The triangle near the bottom right on the ruler is used to set the
+      indentation to the right side of the paragraph, for all lines of the paragraph.</para>
+    <tip>
+    <title>Alternatives for setting the margins, indentations and tab stops</title>
+      <para>If you want to be able to define the page margins and the dimensions of your document more precisely, 
+      you can do so with <guilabel>Page Setup</guilabel> which is accessible through <menuchoice><guimenu>File
+      </guimenu><guimenuitem>Page Setup...</guimenuitem></menuchoice>. You can also change the indentation and tab 
+      stops for paragraphs by choosing <menuchoice><guimenu>Format</guimenu><guimenuitem>Paragraph...</guimenuitem>
+      </menuchoice>.</para>
+    </tip>
+      <para>With tab stops you can change the alignment of text. There are five different types of tab stops, by 
+      default the left tab stop is visible in the tab stop selector. You can select different tab stops by clicking 
+      on the tab stop selector. Once you have selected the tab stop which you want to use, click on a place in the 
+      horizontal ruler to place the tab stop there. To move a tab stop which was already placed, click and drag it. 
+      To remove a tab stop, right click it.</para>
+      <para>When you have placed a tab stop in the ruler, you can jump to that tab stop by pressing the Tab key on 
+      your keyboard. If you do not use the Tab key to jump to the tab stops and simply type paragraphs as you would
+      normally, the tab stops will not work.</para>
+      <figure id="abiword-tabs-screenshots">
+	<title>All five tab stops located on the ruler</title>
+	<screenshot>
+	  <mediaobject>
+	    <imageobject><imagedata fileref="figures/abiword_tabs.png" format="PNG"/>
+	    </imageobject>
+	  </mediaobject>
+	</screenshot>
+      </figure>     
+      <table>
+	<title>Tab stops</title>
+	<tgroup cols="3">
+	<thead>
+	<row>
+	  <entry>#</entry>
+	  <entry>Type</entry>
+	  <entry>Function</entry>          
+	</row>
+	</thead>
+	<tbody>
+	<row>
+	  <entry>1</entry>
+	  <entry>Left</entry>
+	  <entry>Aligns the left edge of the text to the right side of the tab stop.</entry>
+	</row>
+	<row>
+	  <entry>2</entry>
+	  <entry>Center</entry>
+	  <entry>Aligns the text to the center of the tab stop.</entry>
+	</row>
+	<row>
+	  <entry>3</entry>
+	  <entry>Right</entry>
+	  <entry>Aligns the right edge of the text to the left side of the tab stop.</entry>
+	</row>
+	<row>
+	  <entry>4</entry>
+	  <entry>Decimal</entry>
+	  <entry>Aligns the decimals of numbers to the center of the tab stop (only recognizes dots as decimals)</entry>
+	</row>
+	<row>
+	  <entry>5</entry>
+	  <entry>Bar</entry>
+	  <entry>Identical to the left tab stop, but also places a vertical line to the left side of the tab stop</entry>
+	</row>
+	</tbody>
+	</tgroup>
+      </table>
+    <note>
+    <title>Indents and tab stops only apply to one paragraph</title>
+      <para>While the page margins apply to the whole document, you can define different settings for indentation
+      and tab stops for every separate paragraph.</para>
+    </note>
+      <para>NOTE: personally I think explaining the concept of tab stops is a bit hard, the help description of
+      OpenOffice.org on using tab stops didn't explain it to me, and I only figured out after experimenting with it.
+      I want the explanation for this in &app; to be easily understandable.</para>
+      <para>NOTE: second screenshot should be smaller, rework it.</para>
+      <para>NOTE: perhaps use sect3's here because this page might become a bit large, and so that we can give
+      separate titles for the ruler, indents and tab stops.</para>
     </sect2>
   </sect1>
 <!-- ================ Printing ================================ -->
@@ -712,6 +863,38 @@ to another, or opening, editing and printing documents.</para>
       <para>Text has yet to come</para>
     </sect2>
   </sect1>
-
+<!-- ================ Keyboard Shortcuts ================================ -->
+  <sect1 id="abiword-keyboard-shortcuts"> 
+    <title>Keyboard Shortcuts</title>
+      <para>The following keyboard shortcuts are used in Abiword. They are mostly identical to the keyboard
+      shortcuts used in other word processors.</para>
+      <table>
+	<title>Page layout</title>
+	<tgroup cols="2">
+	<thead>
+	<row>
+	  <entry>Key Combination</entry>
+	  <entry>Function</entry>
+	</row>
+	</thead>
+	<tbody>
+	<row>
+	  <entry>Ctrl + B</entry>
+	  <entry>Bold text</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + I</entry>
+	  <entry>Italic text</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + U</entry>
+	  <entry>Underlined text</entry>
+	</row>
+	</tbody>
+	</tgroup>
+      </table>
+      <para>NOTE: is it even useful to mention keyboard shortcuts if the keyboard shortcuts are already visible menu's 
+      of Abiword itself?</para>
+  </sect1>
 
 </article>
