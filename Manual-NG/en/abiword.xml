@@ -736,10 +736,7 @@
       <para>While the page margins apply to the whole document, you can define different settings for indentation
       and tab stops for every separate paragraph.</para>
     </note>
-      <para>NOTE: personally I think explaining the concept of tab stops is a bit hard, the help description of
-      OpenOffice.org on using tab stops didn't explain it to me, and I only figured out after experimenting with it.
-      I want the explanation for this in &app; to be easily understandable.</para>
-      <para>NOTE: second screenshot should be smaller, rework it.</para>
+      <para>NOTE: is the explanation for tab stops clear enough?</para>
       <para>NOTE: perhaps use sect3's here because this page might become a bit large, and so that we can give
       separate titles for the ruler, indents and tab stops.</para>
     </sect2>
