@@ -23,8 +23,13 @@
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
 <p style="Heading 1"><c props="lang:en-GB"></c>AbiWord Help</p>
+<<<<<<< index.abw
+<p style="Normal">Thank you for installing AbiWord, and welcome!  This documentation is normally installed with your AbiWord distribution package, however, if you are viewing this on-line, you can usually update both your AbiWord version and your copy of the manual by visiting <a xlink:href="http://www.abisource.com">http://www.abisource.com</a>.</p>
+<p style="Normal">AbiWord is a full-featured word processor originally developed by the SourceGear Corporation, and is now maintained by a open group of volunteers.  The application code is quite mature and stable, and developers are adding new features to development branches daily.  However, this manual may be incomplete.  Help is always appreciated with either the manual or the program itself.  If you would like to help with development of the program or manual, please consult the "Problems" section of this manual or <a xlink:href="http://www.abisource.com">AbiSource.com</a>.  Thanks!</p>
+=======
 <p style="Normal">Thank you for installing AbiWord!  This documentation is normally installed with your AbiWord distribution package, however, if you are viewing this on-line, you can usually update both your AbiWord version and your copy of the manual by visiting <a xlink:href="http://www.abisource.com">http://www.abisource.com/</a>.</p>
 <p style="Normal">AbiWord is a full-featured word processor originally developed by the SourceGear Corporation, and is now maintained by an open group of volunteers.  The application code is quite mature and stable, and developers are adding new features to development branches daily.  However, this manual may be incomplete as it is also developed by volunteers, those with very little time.  Help is always appreciated with either the manual or the program itself.  If you would like to help with development of the program or manual, please consult the "Problems" section of this manual or <a xlink:href="http://www.abisource.com">AbiSource.com</a>.  Thanks!</p>
+>>>>>>> 1.6
 <p style="Normal">The top of every page has links to all the pages leading to your current page, so that it is easy to retrace your steps. The Help link brings you to this page.</p>
 <p style="Normal">The help files are divided into several sections. These sections are linked from every page. The links are either in a column at the left of the page or in a line at the bottom, depending on your browser. The sections are:</p>
 <p style="Heading 2">Top Page</p>
@@ -34,7 +39,11 @@
 <p style="Heading 2"><a xlink:href="tutorial/index.html">Tutorial</a></p>
 <p style="Normal">Get started quickly with this advanced word-processor, and learn its most frequently-used features.</p>
 <p style="Heading 2"><a xlink:href="howto/index.html">How To</a></p>
+<<<<<<< index.abw
+<p style="Normal">Find step-by-step instructions for common tasks in AbiWord.  For those of you timid about helping out, writing a How-To is a great way to start!</p>
+=======
 <p style="Normal">Find step-by-step instructions for common tasks in AbiWord.  If you are unsure of how to start helping out with documentation, writing a How-To is a great way to start!</p>
+>>>>>>> 1.6
 <p style="Heading 2"><a xlink:href="info/index.html">Information</a></p>
 <p style="Normal">Information about  specific aspects of AbiWord's numerous features. Check here to learn what else you can do with AbiWord.</p>
 <p style="Heading 2"><a xlink:href="interface/index.html">Interface</a></p>

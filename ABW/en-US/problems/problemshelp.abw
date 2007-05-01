@@ -12,8 +12,13 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 <m key="dc.title">AbiWord Help: Getting Help with AbiWord</m>
+<<<<<<< problemshelp.abw
+<m key="abiword.date_last_changed">Thu Mar 11 21:02:31 2004</m>
+<m key="dc.creator">Copyright (C) 2000-2002 Various Authors</m>
+=======
 <m key="abiword.date_last_changed">Thu Mar 11 21:02:31 2004</m>
 <m key="dc.creator">Copyright (C) 2000-2004 Various Authors</m>
+>>>>>>> 1.4
 </metadata>
 <styles>
 <s followedby="Normal" name="Heading 1" basedon="Normal" type="P" props="keep-with-next:1; font-size:17pt; field-font:NULL; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; margin-top:0.3056in; font-family:Arial"/>
