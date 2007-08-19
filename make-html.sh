@@ -61,7 +61,7 @@ do
 	cp *.html $ABI_DOC_DEST/help/$help_language
 	cp *.css $ABI_DOC_DEST/help/$help_language
 #You can comment out the next line or ignore the errors if you lack find
-	find $ABI_DOC_DEST/help -name CVS -exec rm -fr {} \;
+	find $ABI_DOC_DEST/help -name .svn -exec rm -fr {} \;
 
 	for i in $(echo $ABI_DOC_DEST/help/$help_language/*/ )
 	do

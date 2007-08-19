@@ -59,7 +59,7 @@ do
 	mkdir -p $ABI_DOC_DEST/help/$gnome_help_language
 	cp -r */ $ABI_DOC_DEST/help/$gnome_help_language
 	cp *.xml $ABI_DOC_DEST/help/$gnome_help_language
-	#find $ABI_DOC_DEST/help -name CVS -exec rm -fr {} \;
+	#find $ABI_DOC_DEST/help -name .svn -exec rm -fr {} \;
 
 	for i in $(ls -1d $CVS/help/$gnome_help_language/*/ )
 	do

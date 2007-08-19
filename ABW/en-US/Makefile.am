@@ -21,4 +21,4 @@ EXTRA_DIST += \
 	template
 
 dist-hook:
-	rm -rf `find $(distdir)/template -name CVS`
+	rm -rf `find $(distdir)/template -name .svn`
