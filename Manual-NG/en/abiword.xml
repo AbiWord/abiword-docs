@@ -27,11 +27,11 @@
     <title>&app; Manual V&manrevision;</title>       
 
     <copyright> 
-      <year>2006</year> 
+      <year>2007</year> 
       <holder>Alexander van Loon</holder> 
     </copyright> 
     <copyright> 
-      <year>2006</year> 
+      <year>2007</year> 
       <holder>Marc Maurer</holder> 
     </copyright>
 <!-- translators: uncomment this:
@@ -56,11 +56,11 @@
 
     <authorgroup> 
       <author> 
-		<firstname>Sander</firstname> 
-		<surname>Loon, van</surname> 
+		<firstname>Alexander</firstname> 
+		<surname>van Loon</surname> 
 		<affiliation> 
 	  		<orgname>AbiSource Community</orgname> 
-	  		<address> <email>doc-writer2@gnome.org</email> </address> 
+	  		<address> <email>svloon@xs4all.nl</email> </address> 
 		</affiliation> 
       </author> 
       <author> 
@@ -155,9 +155,9 @@
     <para>To allow older systems to run &app;, a plugin system is used to keep the 
     size of a basic installation of &app; small and to reduce the amount of resources 
     necessary to run &app;.</para>
-    <para>NOTE: introduction might need more work.</para>
+    <para>NOTE: consult style guide on usage of verbs in chapter names, more work
+    on introduction necessary?</para> 
   </sect1>
-
 <!-- =========== Getting Started ============================== -->
   <sect1 id="abiword-getting-started"> 
     <title>Getting Started</title> 
@@ -171,7 +171,7 @@
     		<listitem>
     		<para>Choose 
     		<menuchoice>
-    		<guisubmenu>Office </guisubmenu>
+    		<guisubmenu>Office</guisubmenu>
     		<guimenuitem>&app; Word Processor</guimenuitem>
     		</menuchoice>. </para>
     		</listitem>
@@ -195,16 +195,62 @@
     <title>The &app; Window</title>
     <para>When you start <application>&app;</application>, the following window is
     displayed:</para>
-    <para>*Screenshot here*</para>
-    <para>*Explanation here*</para>
-    <note>
-    <title>Only instructions for accessing functionality via the menu's are given</title>
-      <para>This documentation will only give instructions on how to access the 
-      functionality of &app; via the menu's. The icons on the toolbar are shortcuts to 
-      the most frequently used functionality which is also accessible from the menu's.
-      To figure out what the function of each icon is, point to the icon. After a 
-      second it's function will appear.</para>
-    </note>
+      <figure id="abiword-ruler-screenshot">
+	<title>The &app; window</title>
+	<screenshot>
+	  <mediaobject>
+	    <imageobject><imagedata fileref="figures/abiword_window_smaller.png" format="PNG"/>
+	    </imageobject>
+	  </mediaobject>
+	</screenshot>
+      </figure>
+    <para>The &app; window contains the following elements:</para>
+    <variablelist>
+    	<varlistentry>
+    		<term>Menubar</term>
+    		<listitem>
+    		<para>The menus on the menubar contain all of the commands you need to
+                work with documents in &app;.</para>
+    		</listitem>
+    	</varlistentry>
+    	<varlistentry>
+    		<term>Toolbar</term>
+    		<listitem>
+    		<para>The toolbar contains icons which give acess to a subset of the 
+                commands that you can access from the menubar.</para>
+		</listitem>
+    	</varlistentry>
+    	<varlistentry>
+    		<term>Rulers</term>
+    		<listitem>
+    		<para>Beneath the toolbar and above the document area, the horizontal
+                ruler is located. The vertical ruler is located to the left of the
+                document area. How the rulers are used is explained in the section
+                *link to section explaining rulers here*.</para>
+		</listitem>
+    	</varlistentry>
+    	<varlistentry>
+    		<term>Document area</term>
+    		<listitem>
+    		<para>The large empty white area in the middle of the window represents
+                the physical paper document. With the exception of the part which is
+                designated as the page margin, this area is used to create the
+                document.</para>
+		</listitem>
+        </varlistentry>
+    	<varlistentry>
+    		<term>Statusbar</term>
+    		<listitem>
+    		<para>The statusbar gives information about which page out of all
+                pages of the document is currently being viewed, and...</para>
+		</listitem>
+    	</varlistentry>
+    </variablelist>
+    <para>When you right-click in the &app; window, the application displays a popup menu.
+    The popup menu contains the most common text and layout editing commands.</para>
+    <para>Actions in &app; can be performed in several ways: with the menu, with the
+    toolbar, or with shortcut keys. Shortcuts keys common to all applications are listed
+    in the *link to GNOME User Guide, like done in gedit help file*.</para>
     </sect2>
   </sect1>
 <!-- ================ Working with Documents ================================ -->
@@ -361,8 +407,8 @@
 	<row>
 	  <entry>Portable Document Format</entry>
 	  <entry>.pdf</entry>
-	  <entry>In the &app; version for Unix and Linux, writing PDF files is already supported in the basic
-          installation. Basic support for opening PDF files is available.</entry>
+	  <entry>In the &app; version for Unix and Linux, writing PDF files is already supported in\
+          the basic installation. Basic support for opening PDF files is available.</entry>
 	</row>
 	<row>
 	  <entry>T602</entry>
@@ -400,11 +446,11 @@
       use the &app; document file format.</para>
     </caution>
     </sect2>
-    <!-- ================ Creating Documents ================================ -->
+    <!-- ================ Creating New Documents ================================ -->
     <sect2 id="abiword-creatingdocuments"> 
       <title>Creating New Documents</title> 
-      <para>If you open &app; without opening an already existing document, a new blank document
-      will automatically be created. To create a new document while you already have a document
+      <para>If you open &app; without opening an already existing document, a new document will 
+      automatically be created. To create a new document while you already have a document
       opened in &app;, choose <menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem>
       </menuchoice>.</para>
     </sect2>
@@ -437,13 +483,14 @@
       <para><menuchoice><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></menuchoice>
       is used to save the changes you made to an existing document. <menuchoice><guimenu>
       File</guimenu><guimenuitem>Save Copy...</guimenuitem></menuchoice> is used to save a copy
-      of an existing document under the same name. If you choose to use <guimenuitem>Save Copy...
-      </guimenuitem>, you will probably have to change the location where you want the file to
-      be saved, because you can't save two documents with the same name in one directory.</para>
+      of an existing document under the same name. If you choose to use <guimenuitem>
+      Save Copy...</guimenuitem>, you will probably have to change the location where you want
+      the file to be saved, because you can't save two documents with the same name in one
+      directory.</para>
     </sect2>
-    <!-- ================ Templates ================================ -->
+    <!-- ================ Using Templates ================================ -->
     <sect2 id="abiword-templates"> 
-      <title>Templates</title> 
+      <title>Using Templates</title> 
       <para>Templates are documents with missing information which are used to produce a finished
       document. Templates can be useful because they allow you to produce a finished document faster
       than if you were creating a new document from scratch. Templates already contain a modified 
@@ -464,24 +511,24 @@
         </filename> on Mac OS X.</para>
       </tip>
     </sect2>
-    <!-- ================ Document Properties ================================ -->
+    <!-- ================ Using the Document Properties ================================ -->
     <sect2 id="abiword-documentproperties"> 
-      <title>Document Properties</title> 
+      <title>Using the Document Properties</title> 
       <para>Choose <menuchoice><guimenu>File</guimenu><guimenuitem>Properties...</guimenuitem></menuchoice>
       to open the <guilabel>Document Properties</guilabel> dialog. Here you can enter various information
       about the document. The information you enter here can be used by the <menuchoice><guimenu>Edit</guimenu>
       <guimenuitem>Field...</guimenuitem></menuchoice> function.</para>
     </sect2>
-    <!-- ================ Revert ================================ -->
+    <!-- ================ Reverting all Changes ================================ -->
     <sect2 id="abiword-revert"> 
-      <title>Revert</title> 
+      <title>Reverting all Changes</title> 
       <para>Choose <menuchoice><guimenu>File</guimenu><guimenuitem>Revert</guimenuitem></menuchoice>
       to revert the document to the last saved version. This will undo all the changes made to the
       document since it was saved for the last time.</para>
     </sect2>
-    <!-- ================ Undo and Redo ================================ -->
+    <!-- ================ Undoing and Redoing Chabges ================================ -->
     <sect2 id="abiword-undo/redo"> 
-      <title>Undo/Redo</title> 
+      <title>Undoing and Redoing Changes</title> 
       <para>Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Undo</guimenuitem></menuchoice> to 
       undo changes made to a document step by step. Once you have used <guimenuitem>Undo</guimenuitem>,
       you can choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Redo</guimenuitem></menuchoice> to
@@ -504,11 +551,21 @@
     <!-- ================ Editing Text ================================ -->
     <sect2 id="abiword-editingtext"> 
       <title>Editing Text</title> 
-      <para>*Text has yet to come*</para>
+      <para>When you start Abiword, you will see a blinking black vertical stripe within the page margins,
+      in the area where you create your document. This is the <guilabel>insertion cursor</guilabel>. If you
+      type on your keyboard the letters will appear on the left side of the cursor, and the cursor will move
+      to the right (under the condition that you are using a language which is read from left to right). The
+      <keycap>Space Bar</keycap> is used to create empty spaces between words, and <keycap>Return</keycap>
+      is used to start a new paragraph when the end of the current paragraph is reached.</para>
+      <para>You can change the location of the cursor with the <keycap>Arrow Keys</keycap> or you can click
+      with the mouse. These methods cannot be used to place the cursor in areas of the document which do not
+      have any content yet.</para>
+      <para>NOTE: isn't this knowledge so basic that we could expect our public to know this already? Isn't
+      this already covered in the GNOME user guide?</para> 
     </sect2>
-    <!-- ================ Cut, Copy and Paste ================================ -->
+    <!-- ================ Using Cut, Copy and Paste ================================ -->
     <sect2 id="abiword-cut-copy-paste"> 
-      <title>Cut, Copy and Paste</title> 
+      <title>Using Cut, Copy and Paste</title> 
       <para>To cut text from the document, select text in the document and choose <menuchoice><guimenu>Edit
       </guimenu><guimenuitem>Cut</guimenuitem></menuchoice>. The text will then be memorized and 
       removed from the document, and you can use <menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste
@@ -519,6 +576,8 @@
       With <menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste Unformatted</guimenuitem></menuchoice> the
       original layout (for example font type, size or color) the text had will be forgotten when you paste it
       in a document in &app;, and the layout for that document will be applied to the pasted text.</para>
+      <para>NOTE: isn't this knowledge so basic that we could expect our public to know this already? Isn't
+      this already covered in the GNOME user guide?</para>
     </sect2>
     <!-- ================ Finding and Replacing Text ================================ -->
     <sect2 id="abiword-find-and-replace"> 
@@ -537,7 +596,7 @@
     </sect2>
     <!-- ================ Inserting Special Characters ================================ -->
     <sect2 id="abiword-special-characters"> 
-      <title>Special Characters</title> 
+      <title>Inserting Special Characters</title> 
       <para>If you need to insert special characters which are not located on your keyboard, you can choose
       <menuchoice><guimenu>Edit</guimenu><guimenuitem>Symbol...</guimenuitem></menuchoice> to find and
       insert them in the document. The <guilabel>Insert Symbol</guilabel> dialog will then appear.</para><para>
@@ -580,9 +639,9 @@
         correctly.</para>
       </caution>      
     </sect2>
-    <!-- ================ Page Numbers ================================ -->
+    <!-- ================ Inserting Page Numbers ================================ -->
     <sect2 id="abiword-page-numbers"> 
-      <title>Page Numbers</title>
+      <title>Inserting Page Numbers</title>
       <para>You can insert page numbers by choosing <menuchoice><guimenu>Insert</guimenu><guimenuitem>Page Numbers...
       </guimenuitem></menuchoice>. This will open the <guilabel>Page Numbers...</guilabel> dialog. Here you
       can choose the alignment and position of the page numbers. If you are satisfied, click <guibutton>Insert
@@ -593,9 +652,14 @@
       numbered</para>
     </sect2>
   </sect1>
-<!-- ================ Editing the Page Layout ================================ -->
+<!-- ================ Working with Layout ================================ -->
   <sect1 id="abiword-page-layout">
-    <title>Editing the Page Layout</title>
+    <title>Working with Layout</title>
+    <!-- ================ Working with Font Layout ================================ -->
+    <sect2 id="abiword-font-layout"> 
+      <title>Working with Font Layout</title>
+      <para>Text here.</para>
+    </sect2>
     <!-- ================ Using the Ruler ================================ -->
     <sect2 id="abiword-ruler"> 
       <title>Using the Ruler</title>
@@ -741,18 +805,18 @@
       separate titles for the ruler, indents and tab stops.</para>
     </sect2>
   </sect1>
-<!-- ================ Printing ================================ -->
+<!-- ================ Printing Documents ================================ -->
   <sect1 id="abiword-printing"> 
-    <title>Printing</title>
+    <title>Printing Documents</title>
     <!-- ================ Page Setup ================================ -->
     <sect2 id="abiword-page-setup">
       <title>Page Setup</title>
       <para>*Text has yet to come*</para>
     </sect2>
   </sect1>
-<!-- ================ Plugins ================================ -->
+<!-- ================ Using Plugins ================================ -->
   <sect1 id="abiword-plugins"> 
-    <title>Plugins</title>
+    <title>Using Plugins</title>
     <!-- ================ Overview ================================ -->
     <sect2 id="abiword-plugins-overview"> 
       <title>Overview</title> 
@@ -864,9 +928,46 @@ to another, or opening, editing and printing documents.</para>
   <sect1 id="abiword-keyboard-shortcuts"> 
     <title>Keyboard Shortcuts</title>
       <para>The following keyboard shortcuts are used in Abiword. They are mostly identical to the keyboard
-      shortcuts used in other word processors.</para>
+      shortcuts used in other word processors. You can use keyboard shortcuts to acess commands faster.</para>
       <table>
-	<title>Page layout</title>
+	<title>Documents</title>
+	<tgroup cols="2">
+	<thead>
+	<row>
+	  <entry>Key Combination</entry>
+	  <entry>Function</entry>
+	</row>
+	</thead>
+	<tbody>
+	<row>
+	  <entry>Ctrl + N</entry>
+	  <entry>Create a new document.</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + O</entry>
+	  <entry>Open a document.</entry>
+	</row>
+	<row>
+	  <entry>Shift + Ctrl + S</entry>
+	  <entry>Save the current document with a new filename.</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + S</entry>
+	  <entry>Save the current document.</entry>
+	</row>
+	<row>
+	  <entry>Shift + Ctrl + P</entry>
+	  <entry>Display the print preview of the current document.</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + P</entry>
+	  <entry>Print the current document.</entry>
+	</row>
+	</tbody>
+	</tgroup>
+      </table>
+      <table>
+	<title>Page Layout</title>
 	<tgroup cols="2">
 	<thead>
 	<row>
@@ -877,21 +978,98 @@ to another, or opening, editing and printing documents.</para>
 	<tbody>
 	<row>
 	  <entry>Ctrl + B</entry>
-	  <entry>Bold text</entry>
+	  <entry>Make the selected text bold.</entry>
 	</row>
 	<row>
 	  <entry>Ctrl + I</entry>
-	  <entry>Italic text</entry>
+	  <entry>Make the selected text display in italics.</entry>
 	</row>
 	<row>
 	  <entry>Ctrl + U</entry>
-	  <entry>Underlined text</entry>
+	  <entry>Make the selected text display underlined.</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + Shift + P</entry>
+	  <entry>Make the selected text display in superscript.</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + Shift + B</entry>
+	  <entry>Make the selected text display in subscript.</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + Shift + P</entry>
+	  <entry>Make the selected text display in superscript.</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + L</entry>
+	  <entry>Align the selected paragraph to the left.</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + R</entry>
+	  <entry>Align the selected paragraph to the right.</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + E</entry>
+	  <entry>Align the selected paragraph to the center.</entry>
+	</row>
+	<row>
+	  <entry>Ctrl + J</entry>
+	  <entry>Align the selected paragraph to the left.</entry>
 	</row>
 	</tbody>
 	</tgroup>
       </table>
-      <para>NOTE: is it even useful to mention keyboard shortcuts if the keyboard shortcuts are already visible menu's 
-      of Abiword itself?</para>
+      <table>
+	<title>Text</title>
+	<tgroup cols="2">
+	<thead>
+	<row>
+	  <entry>Key Combination</entry>
+	  <entry>Function</entry>
+	</row>
+	</thead>
+	<tbody>
+	<row>
+	  <entry>Tab</entry>
+	  <entry>Move the cursor to the next tab stop.</entry>
+	</row>
+	<row>
+	  <entry>Insert</entry>
+	  <entry>?</entry>
+	</row>
+	</tbody>
+	</tgroup>
+      </table>
+      <table>
+	<title>Navigation</title>
+	<tgroup cols="2">
+	<thead>
+	<row>
+	  <entry>Key Combination</entry>
+	  <entry>Function</entry>
+	</row>
+	</thead>
+	<tbody>
+	<row>
+	  <entry>Home</entry>
+	  <entry>?</entry>
+	</row>
+	<row>
+	  <entry>End</entry>
+	  <entry>?</entry>
+	</row>
+	<row>
+	  <entry>Page Up</entry>
+	  <entry>?</entry>
+	</row>
+	<row>
+	  <entry>Page Down</entry>
+	  <entry>?</entry>
+	</row>
+	</tbody>
+	</tgroup>
+      </table>
+      <para>NOTE: link to the common keyboard shortcuts listed in the GNOME user guide here as well?</para>
   </sect1>
 
 </article>
