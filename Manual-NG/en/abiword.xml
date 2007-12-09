@@ -199,7 +199,7 @@
 	<title>The &app; window</title>
 	<screenshot>
 	  <mediaobject>
-	    <imageobject><imagedata fileref="figures/abiword_window_smaller.png" format="PNG"/>
+	    <imageobject><imagedata fileref="figures/abiword_window.png" format="PNG"/>
 	    </imageobject>
 	  </mediaobject>
 	</screenshot>
@@ -439,7 +439,6 @@
 	</tgroup>
       </table>
     <caution>
-    <title>Possible data loss when using formats other than the &app; document file format</title>
       <para>It is possible that data is lost if open or save documents in file formats other than 
       the Abiword document file format. While the &app; developers do their best to prevent this
       from happening, you can only be completely certain that there will be no data loss if you
@@ -501,8 +500,6 @@
       </menuchoice>. You can create your own templates by creating a document and then saving it as
       an AbiWord Template.</para>
       <tip>
-      <title>Making user-created templates appear in <guimenuitem>New using Template...</guimenuitem>
-      dialog</title>
         <para>To make your own templates appear in the <guimenuitem>New using Template...</guimenuitem>
         dialog, you can place your templates in the templates directory. The location of this directory
         is <filename class="directory">%USERPROFILE%\AbiSuite\templates</filename> on Windows, 
@@ -594,6 +591,32 @@
       document if you have defined bookmarks with <menuchoice><guimenu>Insert</guimenu><guimenuitem>Bookmark...
       </guimenuitem></menuchoice>.</para>
     </sect2>
+    <!-- ================ Using the Spelling Checker ================================ -->
+    <sect2 id="abiword-spellingchecker"> 
+      <title>Using the Spelling Checker</title> 
+      <para>&app; can automatically check the spelling of the words in your document. If you type a word which
+      is not found in the dictionary by &app;, a jagged red line will be shown under that word. You can then
+      check the spelling with <menuchoice><guimenu>Tools</guimenu><guimenuitem>Check Spelling...</guimenuitem>
+      </menuchoice>. A faster way to do this is to right click an underlined word.</para>
+      <para>By default the spelling checker uses the English dictionary. If you are typing a document in a
+      different language, you can have to change the language of the document by choosing <menuchoice><guimenu>
+      Tools</guimenu><guimenuitem>Set Language...</guimenuitem></menuchoice> in order for the spelling checker
+      to work correctly with the different language. This will open the <guilabel>Set Language...</guilabel> 
+      dialog. Double click on the language you wish to use in the document, and click <guibutton>Close
+      </guibutton>.</para>
+      <note>
+        <para>By default only an English dictionary for the spelling checker is delivered with &app;. If you 
+        want the spelling checker to work with other languages you might need to install dictionaries for the 
+        GNU Aspell spelling checker which are designed for those languages.</para>
+      </note>
+      <para>NOTE: it's that way in my case, when I  use Ubuntu installed with English as language, investigate 
+      this, and the bug with setting the language.</para>
+      <caution>
+        <para>Unfortunately the dictionaries used by &app; are not 100% complete. It might happen that the 
+        spelling checker claims a word to be misspelled even if you are sure that the word is spelled 
+        correctly.</para>
+      </caution>      
+    </sect2>
     <!-- ================ Inserting Special Characters ================================ -->
     <sect2 id="abiword-special-characters"> 
       <title>Inserting Special Characters</title> 
@@ -610,46 +633,86 @@
       double clicking them. You can use the <guilabel>Character Details</guilabel> tab to see details of the 
       character which you have currently selected.</para>
     </sect2>
-    <!-- ================ Using the Spelling Checker ================================ -->
-    <sect2 id="abiword-spellingchecker"> 
-      <title>Using the Spelling Checker</title> 
-      <para>&app; can automatically check the spelling of the words in your document. If you type a word which
-      is not found in the dictionary by &app;, a jagged red line will be shown under that word. You can then
-      check the spelling with <menuchoice><guimenu>Tools</guimenu><guimenuitem>Check Spelling...</guimenuitem>
-      </menuchoice>. A faster way to do this is to right click an underlined word.</para>
-      <para>By default the spelling checker uses the English dictionary. If you are typing a document in a
-      different language, you can have to change the language of the document by choosing <menuchoice><guimenu>
-      Tools</guimenu><guimenuitem>Set Language...</guimenuitem></menuchoice> in order for the spelling checker
-      to work correctly with the different language. This will open the <guilabel>Set Language...</guilabel> 
-      dialog. Double click on the language you wish to use in the document, and click <guibutton>Close
-      </guibutton>.</para>
-      <note>
-      <title>Extra dictionaries might be necessary for using the spelling checker with other languages than 
-      English</title>
-        <para>By default only an English dictionary for the spelling checker is delivered with &app;. If you 
-        want the spelling checker to work with other languages you might need to install dictionaries for the 
-        GNU Aspell spelling checker which are designed for those languages.</para>
-      </note>
-      <para>NOTE: it's that way in my case, when I  use Ubuntu installed with English as language, investigate 
-      this, and the bug with setting the language.</para>
-      <caution>
-      <title>The spelling checker might be wrong</title>
-        <para>Unfortunately the dictionaries used by &app; are not 100% complete. It might happen that the 
-        spelling checker claims a word to be misspelled even if you are sure that the word is spelled 
-        correctly.</para>
-      </caution>      
+    <!-- ================ Inserting Fields ================================ -->
+    <sect2 id="abiword-fields"> 
+      <title>Inserting Fields</title> 
+      <para>Fields are variabeles, which are calculated automatically. An example of a field is the number of
+      pages in the document. As the amount of pages of the document changes, the value of the field changes as
+      well. Choose <menuchoice><guimenu>Insert</guimenu><guimenuitem>Field...</guimenuitem></menuchoice> to
+      insert a field.</para>
+      <para>NOTE: needs more explanation, what do the "Extra Parameters" do, what use are the fields in the
+      "Application" category?</para>
     </sect2>
     <!-- ================ Inserting Page Numbers ================================ -->
     <sect2 id="abiword-page-numbers"> 
       <title>Inserting Page Numbers</title>
       <para>You can insert page numbers by choosing <menuchoice><guimenu>Insert</guimenu><guimenuitem>Page Numbers...
-      </guimenuitem></menuchoice>. This will open the <guilabel>Page Numbers...</guilabel> dialog. Here you
-      can choose the alignment and position of the page numbers. If you are satisfied, click <guibutton>Insert
-      </guibutton> to insert page numbers. Page numbers will be inserted on all pages of your document, and if you
-      create new pages after inserting page numbers, page numbers will be inserted in those pages as well.</para>
-      <para>NOTE: Explain how it can also be done through <menuchoice><guimenu>Insert</guimenu><guimenuitem>Fields
-      </guimenuitem></menuchoice>, and how users can create exceptions for pages which they do not want to be
-      numbered</para>
+      </guimenuitem></menuchoice>. This will open the <guilabel>Page Numbers</guilabel> dialog. Here you can
+      choose to insert the page numbers in either a header or a footer, and how they should be aligned. If a 
+      header or a footer has already been inserted, the page number will be inserted in that header or footer.
+      If no header or footer exists in the document, it will be inserted for the page number. When you have made
+      a choice, click <guibutton>Insert</guibutton> to insert page numbers. Page numbers will be inserted on all
+      pages of your document, and if you create new pages after inserting page numbers, page numbers will be
+      inserted in those pages as well.</para>
+      <para>If you organise your document in sections, you can decide which pages display page numbers, and which
+      pages do not. For example, if you do not want to display page numbers on the first two pages, position the
+      insertion cursor on the second page and choose <menuchoice><guimenu>Insert</guimenu><guimenuitem>Break...
+      </guimenuitem></menuchoice> and choose <guilabel>Next page</guilabel> to start a new section with a new 
+      page. Then position the insertion cursor on the third page, after the section break, and insert page numbers
+      as usual. You will notice that only this section of the document, which is the third page in this case, will
+      display a page number. By choosing <menuchoice><guimenu>Format</guimenu><guimenuitem>Header/Footers...
+      </guimenuitem></menuchoice>, you can restart page numbering with a specified page number on new sections.</para> 
+    <tip>
+      <para>You can also access a field for displaying the current page number and the total number of pages of
+      the document by choosing <menuchoice><guimenu>Insert</guimenu><guimenuitem>Field...</guimenuitem>
+      </menuchoice>. Unlike the <guilabel>Page Numbers</guilabel> dialog, the <guilabel>Insert Field</guilabel>
+      dialog allows you to place the page numbers anywhere in the document, not merely the footer or header.</para>
+    </tip>
+    </sect2>
+    <!-- ================ Inserting Headers and Footers ================================ -->
+    <sect2 id="abiword-headers-footers"> 
+      <title>Inserting Headers and Footers</title> 
+      <para>Headers and footers contain text which is repeated automatically on every page of the document, and
+      are placed respectively above the top margin and below the bottom margin of the page. Headers and footers 
+      are frequently used for page numbers, and when you insert page numbers in the document, a header or a
+      footer is automatically inserted if none is present in the document yet, depending on your preference. 
+      You can insert a header or a footer by choosing <menuchoice><guimenu>Insert</guimenu><guimenuitem>Header
+      </guimenuitem></menuchoice> or <menuchoice><guimenu>Insert</guimenu><guimenuitem>Footer</guimenuitem>
+      </menuchoice>.</para>
+      <para>You can enable different headers or footers for the first, last and facing pages by choosing
+      <menuchoice><guimenu>Format</guimenu><guimenuitem>Header/Footers...</guimenuitem></menuchoice>.</para>
+      <para>If you want more control over which pages of your document display the same or different headers 
+      or footers, or no headers or footers at all, you can do so by using section breaks. Every section in your
+      document can have different properties with regard to headers and footers. Choose <menuchoice><guimenu>
+      Insert</guimenu><guimenuitem>Break...</guimenuitem></menuchoice> and choose <guilabel>Next page</guilabel>
+      to start a new section with a new page.</para>
+    </sect2>
+    <!-- ================ Inserting Footnotes and Endnotes ================================ -->
+    <sect2 id="abiword-footnotes-endnotes"> 
+      <title>Inserting Footnotes and Endnotes</title> 
+      <para>Footnotes and endnotes can be used for comments on or citing references for the main body of text. 
+      They are marked by a number in superscript to identify where in the main body of text which footnote is 
+      referenced. Footnotes are placed above the bottom margin of the page and endnotes are placed at the end
+      of the document or at the end of the section.</para>
+      <para>You can insert a footnote by choosing <menuchoice><guimenu>Insert</guimenu><guimenuitem>Footnote
+      </guimenuitem></menuchoice> and you can insert an endnote by choosing <menuchoice><guimenu>Insert
+      </guimenu><guimenuitem>Endnote</guimenuitem></menuchoice>. You can specify detailed options for footnotes
+      and endnotes by choosing <menuchoice><guimenu>Format</guimenu><guimenuitem>Footnotes and Endnotes...
+      </guimenuitem></menuchoice>.</para>
+    </sect2>
+    <!-- ================ Inserting Breaks ================================ -->
+    <sect2 id="abiword-breaks"> 
+      <title>Inserting Breaks</title> 
+      <para>Breaks can be used to manually start a new page or column instead of automatically starting a new
+      page or column once the current page or column has been filled with text. A special kind of breaks are
+      section break, which can be used to divide the document in sections. You can insert break by choosing
+      <menuchoice><guimenu>Insert</guimenu><guimenuitem>Break...</guimenuitem></menuchoice>.</para>
+      <para>I've got no idea what continuous, even page and odd page section breaks do. Figure this out.</para>
+    </sect2>
+    <!-- ================ Inserting a Table of Contents ================================ -->
+    <sect2 id="abiword-table-of-contents"> 
+      <title>Inserting a Table of Contents</title> 
+      <para>Bla bla bla.</para>
     </sect2>
   </sect1>
 <!-- ================ Working with Layout ================================ -->
@@ -658,7 +721,14 @@
     <!-- ================ Working with Font Layout ================================ -->
     <sect2 id="abiword-font-layout"> 
       <title>Working with Font Layout</title>
-      <para>Text here.</para>
+      <para>Choose <menuchoice><guimenu>Format</guimenu><guimenuitem>Font...</guimenuitem></menuchoice> if you
+      want to change the font type, style, size and effects, or the font color or highlight color. The text in
+      the white square in the bottom of the dialog serves as a preview to what your text with look like with the
+      currently selected options.</para>
+    <tip>
+      <para>You have quicker access to a few of these commands by choosing <menuchoice><guimenu>Format</guimenu>
+      <guimenuitem>Text Formatting</guimenuitem></menuchoice>.</para>
+    </tip>
     </sect2>
     <!-- ================ Using the Ruler ================================ -->
     <sect2 id="abiword-ruler"> 
