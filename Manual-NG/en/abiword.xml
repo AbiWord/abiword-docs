@@ -628,10 +628,16 @@
       the left side of the dialog, titled <guilabel>Unicode Block</guilabel>, you can select groups of related
       characters. This makes it easier to search through the huge amount of special characters. On the right
       side of the dialog you will see a list with two tabs, <guilabel>Character Table</guilabel> and <guilabel>
-      Character Details</guilabel>. With the <guilabel>Character Table</guilabel> tab you can see which characters
-      you can insert. You can select a character by clicking them. You can insert them in the document by 
-      double clicking them. You can use the <guilabel>Character Details</guilabel> tab to see details of the 
-      character which you have currently selected.</para>
+      Character Details</guilabel>. With the <guilabel>Character Table</guilabel> tab you can see which 
+      characters you can insert. You can select a character by clicking them. You can insert them in the 
+      document by double clicking them. You can use the <guilabel>Character Details</guilabel> tab to see 
+      details of the character which you have currently selected.</para>
+    <tip>
+      <para>If you frequently need to input special characters, it might be more effective to use U.S. English
+      international keyboard layout depending on the keyboard you use. This keyboard layout uses dead keys, 
+      which allows you to input some of the most common diacritical marks, currency symbols and special 
+      characters much quicker than with the <guilabel>Insert Symbol</guilabel> dialog.</para>
+    </tip>
     </sect2>
     <!-- ================ Inserting Fields ================================ -->
     <sect2 id="abiword-fields"> 
@@ -704,10 +710,17 @@
     <sect2 id="abiword-breaks"> 
       <title>Inserting Breaks</title> 
       <para>Breaks can be used to manually start a new page or column instead of automatically starting a new
-      page or column once the current page or column has been filled with text. A special kind of breaks are
-      section break, which can be used to divide the document in sections. You can insert break by choosing
+      page or column once the current page or column has been filled with text. You can insert a break by choosing
       <menuchoice><guimenu>Insert</guimenu><guimenuitem>Break...</guimenuitem></menuchoice>.</para>
-      <para>I've got no idea what continuous, even page and odd page section breaks do. Figure this out.</para>
+      <para>A special kind of break is a section break, which can be used to divide the document in sections. You
+      can choose <guimenuitem>Next page</guimenuitem> to start the new section on the next page, <guimenuitem>Continuous
+      </guimenuitem> to start the new section on the next line, <guimenuitem>Even page</guimenuitem> to start the new
+      section on the next even page, or <guimenuitem>Odd page</guimenuitem> to start the new section on the next odd page.</para>
+      <note>
+        <para>Both the <guimenuitem>Even page</guimenuitem> and <guimenuitem>Odd page</guimenuitem> section breaks will insert
+        an empty page if the next page is not the desired even or odd page. So, for example, inserting an <guimenuitem>Even
+        page</guimenuitem> section break on page 6 will insert a blank page 7, and then create the new section on page 8.</para>
+      </note>
     </sect2>
     <!-- ================ Inserting a Table of Contents ================================ -->
     <sect2 id="abiword-table-of-contents"> 
