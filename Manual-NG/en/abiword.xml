@@ -768,14 +768,45 @@
     <!-- ================ Working with Font Layout ================================ -->
     <sect2 id="abiword-font-layout"> 
       <title>Working with Font Layout</title>
-      <para>Choose <menuchoice><guimenu>Format</guimenu><guimenuitem>Font...</guimenuitem></menuchoice> if you
-      want to change the font type, style, size and effects, or the font color or highlight color. The text in
-      the white square in the bottom of the dialog serves as a preview to what your text with look like with the
-      currently selected options.</para>
-    <tip>
-      <para>You have quicker access to a few of these commands by choosing <menuchoice><guimenu>Format</guimenu>
-      <guimenuitem>Text Formatting</guimenuitem></menuchoice>.</para>
-    </tip>
+      <para>Choose <menuchoice><guimenu>Format</guimenu><guimenuitem>Font...</guimenuitem></menuchoice> to open
+      the <guilabel>Font</guilabel> dialog. Here you can change the font type, style, size and effects, or the 
+      font color or highlight color. The text in the white square in the bottom of the dialog serves as a 
+      preview showing what your text will look like with the currently selected options.</para>
+      <para>If you want to apply the changes to existing text, you have to select that text first before opening 
+      the <guilabel>Font</guilabel> dialog. If you select nothing and make any changes in <guilabel>Font</guilabel>
+      dialog, the changes will only be applied to the new text. If the insertion cursor is placed inside text with
+      different font layout, that font layout will be adopted.</para>
+      <tip>
+        <para>You have quicker access to a few of these commands by choosing <menuchoice><guimenu>Format</guimenu>
+        <guimenuitem>Text Formatting</guimenuitem></menuchoice>.</para>
+      </tip>
+    </sect2>
+    <!-- ================ Working with Paragraph Layout ================================ -->
+    <sect2 id="abiword-paragraph-layout"> 
+      <title>Working with Paragraph Layout</title>
+      <para>Choose <menuchoice><guimenu>Format</guimenu><guimenuitem>Paragraph...</guimenuitem></menuchoice> to
+      open the <guilabel>Paragraph</guilabel> dialog. Here you can change the alignment, indentation, line 
+      spacing and pagination of the paragraph. It is also possible to insert tabs into the paragraph. The text
+      in the white square in the bottom of the dialog serves as a preview showing what your text will look like
+      with the currently selected options.</para>
+      <para>In the <guilabel>Indents and Spacing</guilabel> tab of the dialog you can select the <guilabel>
+      Alignment</guilabel> of the paragraph. Under <guilabel>Indentation</guilabel> you can set the distances of
+      the indentation left and right. You can also use special indentation for the first line of the paragraph,
+      and hanging indentation for every line of the paragraph after the first line. Under <guilabel>Spacing
+      </guilabel> the size blank space between the previous and the next paragraph can be set, as well as the
+      size of the space between every line of the paragraph.</para>
+      <para>In the <guilabel>Line and Page Breaks</guilabel> tab of the dialog, several options are available
+      under <guilabel>Pagination</guilabel>. The <guilabel>Keep lines together</guilabel> option will prevent
+      the paragraph from being split when the end of the page or column is reached, for example. The paragraph
+      would then be placed on the next page.</para>
+      <para>The <guibutton>Tabs...</guibutton> button inside the <guilabel>Paragraph</guilabel> dialog will open
+      the <guilabel>Tabs</guilabel> dialog. Here it is possible to change the distances between the default tab
+      stops and insert tabs which you can define yourself. Use the <guibutton>Add</guibutton> button to add a
+      new tab, and use the <guibutton>Remove</guibutton> to remove a selected tab.</para>
+      <para>NOTE: explain alignment in more detail? What does right-to-left dominant do? What do the other
+      options in pagination do, for example when I try the "page break before" option it doesn't insert a
+      a page break at all? Abiword doesn't remember if I enable the "don't hyphenate" option? Link to
+      chapter covering tabs?</para>
     </sect2>
     <!-- ================ Using the Ruler ================================ -->
     <sect2 id="abiword-ruler"> 
@@ -920,6 +951,22 @@
       <para>NOTE: is the explanation for tab stops clear enough?</para>
       <para>NOTE: perhaps use sect3's here because this page might become a bit large, and so that we can give
       separate titles for the ruler, indents and tab stops.</para>
+    </sect2>
+    <!-- ================ Inserting Columns ================================ -->
+    <sect2 id="abiword-columns"> 
+      <title>Inserting Columns</title>
+      <para>You can change the number of columns in the document by choosing <menuchoice><guimenu>Format</guimenu>
+      <guimenuitem>Columns...</guimenuitem></menuchoice>. This will open the <guilabel>Columns</guilabel> dialog.
+      Here you can choose how much columns you want to add.</para>
+      <para>With the <guilabel>Max Column Size</guilabel> you can specify the maximum vertical length of the 
+      columns. By default it is zero, which means that the column will end at the bottom margin of the page. If 
+      a value higher than zero is specified, you can change the lenght of the vertical gaps between the columns
+      with the <guilabel>Space after Column</guilabel> setting. The <guilabel>Line between</guilabel> option can
+      be enabled to display a vertical line between the horizontal gaps of the columns, and the <guilabel>Use 
+      RTL Order</guilabel> option can be used to display the columns from right to left.</para>
+      <para>The width of the horizontal gaps between the columns can only be changed with the ruler. The
+      horizontal ruler will display a grey line in the margin of the first gap, if you click and drag this line
+      you can make the gap wider or smaller.</para>
     </sect2>
   </sect1>
 <!-- ================ Printing Documents ================================ -->
