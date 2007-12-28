@@ -713,19 +713,53 @@
       page or column once the current page or column has been filled with text. You can insert a break by choosing
       <menuchoice><guimenu>Insert</guimenu><guimenuitem>Break...</guimenuitem></menuchoice>.</para>
       <para>A special kind of break is a section break, which can be used to divide the document in sections. You
-      can choose <guimenuitem>Next page</guimenuitem> to start the new section on the next page, <guimenuitem>Continuous
-      </guimenuitem> to start the new section on the next line, <guimenuitem>Even page</guimenuitem> to start the new
-      section on the next even page, or <guimenuitem>Odd page</guimenuitem> to start the new section on the next odd page.</para>
+      can choose <guimenuitem>Next page</guimenuitem> to start the new section on the next page, <guimenuitem>
+      Continuous</guimenuitem> to start the new section on the next line, <guimenuitem>Even page</guimenuitem>
+      to start the new section on the next even page, or <guimenuitem>Odd page</guimenuitem> to start the new 
+      section on the next odd page.</para>
       <note>
-        <para>Both the <guimenuitem>Even page</guimenuitem> and <guimenuitem>Odd page</guimenuitem> section breaks will insert
-        an empty page if the next page is not the desired even or odd page. So, for example, inserting an <guimenuitem>Even
-        page</guimenuitem> section break on page 6 will insert a blank page 7, and then create the new section on page 8.</para>
+        <para>Both the <guimenuitem>Even page</guimenuitem> and <guimenuitem>Odd page</guimenuitem> section breaks 
+        will insert an empty page if the next page is not the desired even or odd page. So, for example, inserting
+        an <guimenuitem>Even page</guimenuitem> section break on page 6 will insert a blank page 7, and then create
+        the new section on page 8.</para>
       </note>
     </sect2>
     <!-- ================ Inserting a Table of Contents ================================ -->
     <sect2 id="abiword-table-of-contents"> 
       <title>Inserting a Table of Contents</title> 
-      <para>Bla bla bla.</para>
+      <para>&app; can automatically create a table of contents for your document on the condition that you have
+      already applied the <guilabel>Heading</guilabel> styles to the names of the chapters and sections in the
+      document. The table of contents will be updated automatically as you apply more <guilabel>Heading</guilabel>
+      styles. You can insert a table of contents by choosing <menuchoice><guimenu>Insert</guimenu><guimenuitem>
+      Table of Contents...</guimenuitem></menuchoice>.</para>
+      <para>It is not possible to change the contents or layout of the table of contents manually. Click the 
+      table of contents to select it, and then choose <menuchoice><guimenu>Format</guimenu><guimenuitem>Table of 
+      Contents...</guimenuitem></menuchoice> if you wish to make any changes. This opens the <guilabel>Format
+      Table of Contents</guilabel> dialog.</para>
+      <para>In the <guilabel>General</guilabel> tab of the dialog you can choose if a heading for the table of
+      contents is displayed, what text it contains, and which style it uses. The options listed under <guilabel>
+      Define Main Properties</guilabel> allow you to select the <guilabel>Level</guilabel> of the contents of the
+      table of contents of which you want to modify the properties. The <guilabel>Fill style</guilabel> is the
+      style used as the source for the table of contents, The <guilabel>Display style</guilabel> is the style used
+      for the contents in the table of contents, and with the <guilabel>Has label</guilabel> the display of labels
+      - by default the numbers for the contents of the table of contents - can be enabled or disabled.</para>
+      <note>
+        <para>By default <guilabel>Level 1</guilabel> uses <guilabel>Heading 1</guilabel> as the <guilabel>Fill
+        style</guilabel>, <guilabel>Level 2</guilabel> uses <guilabel>Heading 2</guilabel>, and so on. Every 
+        level and heading style with a higher number represents a smaller division of text. By default the higher
+        levels are given more indent to represent this in the table of contents. So for example the <guilabel>
+        Heading 1</guilabel> style would be used for chapter titles while <guilabel>Heading 2</guilabel> would
+        be used for section titles.</para>
+      </note>
+      <para>The <guilabel>Layout Details</guilabel> tab of the dialog contains options under <guilabel>Label
+      Definitions</guilabel> for the numbering, the starting point of the numbering and the numbering type of 
+      the labels, and also allows you to insert text before and after the labels. Under <guilabel>Tabs and Page
+      Numbering</guilabel> you can select the <guilabel>Tab leader</guilabel>, which is a dotted line between
+      the contents of the table of contents and the page number by default. You can also select a method for 
+      the <guilabel>Page numbering</guilabel> and the lengt of the <guilabel>Indent</guilabel>.</para> 
+      <para>NOTE: give a link to the section covering styles in Abiword, mention what inherit label does,
+      possibly this explanation is way too complex and we shouldn't explain the details in the third and fourth
+      paragraph?</para>
     </sect2>
   </sect1>
 <!-- ================ Working with Layout ================================ -->
