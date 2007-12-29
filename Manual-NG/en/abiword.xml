@@ -803,10 +803,78 @@
       the <guilabel>Tabs</guilabel> dialog. Here it is possible to change the distances between the default tab
       stops and insert tabs which you can define yourself. Use the <guibutton>Add</guibutton> button to add a
       new tab, and use the <guibutton>Remove</guibutton> to remove a selected tab.</para>
+      <tip>
+        <para>You have quicker access to the functionality for setting tab stops by choosing <menuchoice>
+        <guimenu>Format</guimenu><guimenuitem>Tabs...</guimenuitem></menuchoice>.</para>
+      </tip>
       <para>NOTE: explain alignment in more detail? What does right-to-left dominant do? What do the other
       options in pagination do, for example when I try the "page break before" option it doesn't insert a
       a page break at all? Abiword doesn't remember if I enable the "don't hyphenate" option? Link to
       chapter covering tabs?</para>
+    </sect2>
+    <!-- ================ Creating Lists with Bullets or Numbers  ================================ -->
+    <sect2 id="abiword-lists-bullets-numbers"> 
+      <title>Creating Lists with Bullets or Numbers</title>
+      <para>If you want to insert bullet lists or numbered lists in a document, you can do so by choosing
+      <menuchoice><guimenu>Format</guimenu><guimenuitem>Bullets and Numbering...</guimenuitem></menuchoice> to
+      open the <guilabel>Lists</guilabel> dialog. Lists can contain multiple levels, higher levels are given
+      indentation. Once you have created a list, starting at the second line of the list, you can take the list
+      to a higher level by pressing the Tab key.</para>
+      <para>In the <guilabel>List Properties</guilabel> tab you can select the <guilabel>Type</guilabel> of list,
+      bullet or numbered. You can also select a different <guilabel>Style</guilabel> of bullets or numbers for
+      the list. you have the options to specify the <guilabel>Label Align</guilabel>, the distance of the bullet
+      or number from the left margin, and the <guilabel>Text Align</guilabel>, the distance of the text from the 
+      bullet or number. Finally you the option to apply the settings you specified to a new list, the current
+      lists or the previous lists. With <guibutton>Set Default Values</guibutton> you revert your changes to the
+      settings in this dialog to the default settings.</para>
+      <para>If you choose to create a numbered list, you also have the option to specify the 
+      <guilabel>Font</guilabel> of the numbers, and the <guilabel>Start At</guilabel> option allows you to
+      specify at which number the numbering should start. With the <guilabel>Format</guilabel> option you can
+      specify the exact text of the numbers. The text specified in the <guilabel>Level Delimiter</guilabel>
+      option is text which is inserted between the first number and the number behind the decimal which is 
+      added for higher levels in the list.</para>
+      <para>The <guilabel>Text Folding</guilabel> tab contains options for hiding text below certain list
+      levels.</para>
+    </sect2>
+    <!-- ================ Using and Modifying Styles  ================================ -->
+    <sect2 id="abiword-using-modifying-styles"> 
+      <title>Using and Modifying Styles</title>
+      <para>Styles are used to define the layout for characters or paragraphs. They can be much more useful for
+      easily making changes to the layout of a document than changing the layout manually, especially if the
+      document is very large. If you apply styles, you can later change the layout of all the characters or
+      paragraphs a style is applied to by simply changing the style itself. &app; already comes with a lot of
+      existing styles, but it is possible to modify them.</para>
+      <para>To apply or modify styles, choose <menuchoice><guimenu>Format</guimenu><guimenuitem>Create and 
+      Modify Styles...</guimenuitem></menuchoice> to open the <guilabel>Styles</guilabel> dialog. Here the
+      <guilabel>Available Styles</guilabel> list is displayed. Under <guilabel>List</guilabel> the styles which
+      are displayed in this list can be switched by the options <guilabel>In Use</guilabel>, <guilabel>All
+      </guilabel> and <guilabel>User-defined Styles</guilabel>. With the <guibutton>New</guibutton> you can
+      create a completely new style, with <guibutton>Modify...</guibutton> you can change an existing style and
+      with <guibutton>Delete</guibutton> you can delete the selected style. <guibutton>Apply</guibutton> will 
+      apply the currently selected style to the paragraph where the insertion cursor is located, or the 
+      (selected) character(s). The <guilabel>Paragraph Preview</guilabel> and <guilabel>Character Preview
+      </guilabel> boxes serve to preview the currently selected style.</para>
+      <para>If you click <guibutton>New</guibutton> or <guibutton>Modify...</guibutton>, the <guilabel>New
+      Style</guilabel> or <guilabel>Modify Styles</guilabel> dialog will be opened. Under <guilabel>Style
+      Name</guilabel> you can give a name to the style. The <guilabel>Style Type</guilabel> can be either
+      <guilabel>Character</guilabel> or <guilabel>Paragraph</guilabel>, which makes the style apply to
+      respectively at least a single character or an entire paragraph. Under <guilabel>Based On</guilabel>
+      you can select an existing style on which the (new) style will be based. The new or modified style will
+      then take the properties of the style it is based on, but it is still possible to modify the style
+      completely. By default <guilabel>None</guilabel> is selected for new styles. Under <guilabel>Style for
+      the following paragraph</guilabel> you can select a different style to be used for the next paragraph,
+      but you can also continue to use the current style if you select <guilabel>Current Settings</guilabel>.
+      Under <guilabel>Remove Property from Style</guilabel> you can remove properties from the style, which
+      means that a default will be used for that property then.</para>
+      <para>Click <guibutton>Format</guibutton> in <guilabel>New Style</guilabel> or <guilabel>Modify 
+      Styles</guilabel> dialog for access to options which allow for detailed modification of the style. The
+      options which are accessible under this button are <guilabel>Paragraph</guilabel>, <guilabel>Font
+      </guilabel>, <guilabel>Tabs</guilabel>, <guilabel>Numbering</guilabel> and <guilabel>Language</guilabel>
+      the dialogs for these options are identical to the dialogs discussed in the previous chapters covering
+      paragraphs, fonts, tabs and numbering. The option <guilabel>Language</guilabel> is the only exception,
+      it allows you to mark certain paragraphs as using a different language, so that they will be properly
+      checked by the spelling checker.</para>
+      <para>NOTE: inlcude links to previous chapters covering fonts, paragraphs, tabs and numbering.</para>
     </sect2>
     <!-- ================ Using the Ruler ================================ -->
     <sect2 id="abiword-ruler"> 
