@@ -1114,12 +1114,20 @@ to another, or opening, editing and printing documents.</para>
     <!-- ================ Sources of Help ================================ -->
     <sect2 id="abiword-help-sources"> 
       <title>Sources of Help</title> 
-      <para>Text has yet to come</para>
+      <para>If you still have questions after reading this manual, then there are other sources available
+      that you can reference.</para>
     </sect2>
     <!-- ================ Web Resources ================================ -->
     <sect2 id="abiword-help-web"> 
       <title>Web Resources</title> 
-      <para>Text has yet to come</para>
+      <para>One source to check before any others is the Web.</para>
+      <para>A good place to start is the <ulink type="http" url="http://www.abisource.com/wiki/FAQ">&app; FAQ</ulink>.
+      This site lists the most common questions that come up about &app;, so it's worthwhile to see if your question
+      has been answered there.</para>
+      <para>Another great place to check is your favorite search engine. Chances are good that you are not the first
+      person to have that problem, so a search result may point you in the right direction.</para>
+      <para>Finally, you should search the <ulink type="http" url="http://bugzilla.abisource.com/query.cgi">&app; Bug
+      Database</ulink>. There might be a patch or workaround to your problem listed there.</para>
     </sect2>
     <!-- ================ The Mailing List ================================ -->
     <sect2 id="abiword-help-mailinglist"> 
