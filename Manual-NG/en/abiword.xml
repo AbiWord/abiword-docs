@@ -1120,8 +1120,21 @@ to another, or opening, editing and printing documents.</para>
     result may point you in the right direction. Finally, you should search the <ulink type="http" 
     url="http://bugzilla.abisource.com/query.cgi">&app; Bug Database</ulink>. There might be a patch or workaround to
     your problem listed there.</para>
-    <para>*Paragraph covering mailing list*</para> 
-    <para>*Paragraph covering IRC*</para>
+    <para>Another source available is the &app; User's Mailing List, which will usually provide you with an answer
+    within the day. Simply send an e-mail to <email>abiword-user-request@abisource.com</email> with "subscribe" in
+    the message body to join the list. To ask a question, write to <email>abiword-user@abisource.com</email>. Archives
+    of the list are kept and can be viewed <ulink type="http" url="http://www.abisource.com/mailinglists/abiword-user/">
+    here</ulink>.</para>
+    <note>
+      <para>Please only send plain text e-mails to the mailing list, not HTML or rich text e-mails.</para>
+    </note>
+    <note>
+      <para>When asking questions, please include the name and version of your operating system, the version of &app;
+      that you are using, and where you got &app;.</para>
+    </note>
+    <para>Lastly, if you are still stuck, you can join &app;'s Internet Relay Chat (IRC) channel. Many &app; users and
+    developers hang out in this channel and can usually provide you with immediate answers. To join, simply connect to
+    irc.gnome.org and join the #abiword channel.</para>
   </sect1>
 <!-- ================ Reporting a Problem ================================ -->
   <sect1 id="abiword-problem"> 
