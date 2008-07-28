@@ -1,5 +1,5 @@
 
-AC_INIT([abiword-docs],[2.6.4],[http://www.abisource.com/])
+AC_INIT([abiword-docs],[2.6.5],[http://www.abisource.com/])
 AM_INIT_AUTOMAKE
 
 PKG_PROG_PKG_CONFIG
