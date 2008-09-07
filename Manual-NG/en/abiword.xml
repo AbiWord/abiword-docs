@@ -34,6 +34,10 @@
       <year>2007</year> 
       <holder>Marc Maurer</holder> 
     </copyright>
+    <copyright> 
+      <year>2008</year> 
+      <holder>John Richards</holder> 
+    </copyright>
 <!-- translators: uncomment this:
 
   <copyright>
@@ -822,7 +826,7 @@
       to a higher level by pressing the Tab key.</para>
       <para>In the <guilabel>List Properties</guilabel> tab you can select the <guilabel>Type</guilabel> of list,
       bullet or numbered. You can also select a different <guilabel>Style</guilabel> of bullets or numbers for
-      the list. you have the options to specify the <guilabel>Label Align</guilabel>, the distance of the bullet
+      the list. You have the options to specify the <guilabel>Label Align</guilabel>, the distance of the bullet
       or number from the left margin, and the <guilabel>Text Align</guilabel>, the distance of the text from the 
       bullet or number. Finally you the option to apply the settings you specified to a new list, the current
       lists or the previous lists. With <guibutton>Set Default Values</guibutton> you revert your changes to the
@@ -1040,11 +1044,19 @@
 <!-- ================ Printing Documents ================================ -->
   <sect1 id="abiword-printing"> 
     <title>Printing Documents</title>
-    <!-- ================ Page Setup ================================ -->
-    <sect2 id="abiword-page-setup">
-      <title>Page Setup</title>
-      <para>*Text has yet to come*</para>
-    </sect2>
+      <para>Before deciding to print a document, it might be necessary to change the paper size if you are not
+      satisfied with the default paper size used by &app;. You might also want to change the margins of the text
+      on the paper. To do this choose <menuchoice><guimenu>File</guimenu><guimenuitem>Page Setup...</guimenuitem>
+      </menuchoice>. This will open the <guilabel>Page Setup</guilabel> dialog. In the <guilabel>Paper</guilabel>
+      tab you can select a standard paper size or define a custom paper size. You can choose between portrait or
+      landscape, in other words vertical and horizontal, orientation of the paper. Finally, you can scale the 
+      paper size to a percentage of the original size. In the <guilabel>Margins</guilabel> tab, you can define
+      the margins of used for the page.</para>
+      <para>Before giving the command to print the document, you can see a preview of what the printed document
+      will look like by choosing <menuchoice><guimenu>File</guimenu><guimenuitem>Print Preview...</guimenuitem>
+      </menuchoice>. This will open the <guilabel>Print Preview</guilabel> dialog. To print the document, choose
+      <menuchoice><guimenu>File</guimenu><guimenuitem>Print...</guimenuitem></menuchoice>. This will open the
+      <guilabel>Print</guilabel> dialog. Click <guibutton>Print</guibutton> to print the document.</para>
   </sect1>
 <!-- ================ Using Plugins ================================ -->
   <sect1 id="abiword-plugins"> 
@@ -1052,7 +1064,7 @@
     <!-- ================ Overview ================================ -->
     <sect2 id="abiword-plugins-overview"> 
       <title>Overview</title> 
-      <para>Alongside &app;, a set of so-called "plugins" is provided. A plugin provides an extention to &app; to enhance it's functionality. Support for the OpenDocument file format is for example provided by a plugin. Another example is &app;'s grammar checking functionality, which is also provided by a plugin.
+      <para>Alongside &app;, a set of so-called "plugins" is provided. A plugin provides an extension to &app; to enhance it's functionality. Support for the OpenDocument file format is for example provided by a plugin. Another example is &app;'s grammar checking functionality, which is also provided by a plugin.
 </para>
       <note>
       <title>A specific plugin might not be available</title>
