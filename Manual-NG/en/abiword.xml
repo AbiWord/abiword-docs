@@ -177,7 +177,7 @@
     		<para>Choose 
     		<menuchoice>
     		<guisubmenu>Office</guisubmenu>
-    		<guimenuitem>&app; Word Processor</guimenuitem>
+    		<guimenuitem>AbiWord Word Processor</guimenuitem>
     		</menuchoice>. </para>
     		</listitem>
     	</varlistentry>
@@ -503,7 +503,7 @@
       <para>A few templates are already included in &app;, you can access them by choosing
       <menuchoice><guimenu>File</guimenu><guimenuitem>New using Template...</guimenuitem>
       </menuchoice>. You can create your own templates by creating a document and then saving it as
-      an AbiWord Template.</para>
+      an &app; Template.</para>
       <tip>
         <para>To make your own templates appear in the <guimenuitem>New using Template...</guimenuitem>
         dialog, you can place your templates in the templates directory. The location of this directory
