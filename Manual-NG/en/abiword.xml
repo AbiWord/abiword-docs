@@ -168,7 +168,7 @@
     <!-- ================ Starting Abiword ================================ -->
     <sect2 id="abiword-start">
     <title>Starting &app;</title>
-    <para>You can start <application>&app;</application> in the following ways:</para> 
+    <para>You can start &app; in the following ways:</para> 
     <variablelist>
     	<varlistentry>
     		<term><guimenu>Applications</guimenu> menu</term>
@@ -183,7 +183,7 @@
     	<varlistentry>
     		<term>Command line</term>
     		<listitem>
-    		<para>To start <application>&app;</application> from a command line, type 
+    		<para>To start &app; from a command line, type 
 		the following command, then press <keycap>Return</keycap>:</para>
     		<para> 
 			<command>abiword</command>
@@ -197,7 +197,7 @@
     <!-- ================ The Abiword Window ================================ -->
     <sect2 id="abiword-window">
     <title>The &app; Window</title>
-    <para>When you start <application>&app;</application>, the following window is
+    <para>When you start &app;, the following window is
     displayed:</para>
       <figure id="abiword-ruler-screenshot">
 	<title>The &app; window</title>
