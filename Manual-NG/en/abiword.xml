@@ -132,8 +132,8 @@
     <legalnotice> 
       <title>Feedback</title> 
       <para>To report a bug or make a suggestion regarding the &app; application or
-      this manual, follow the directions in the <ulink url="ghelp:gnome-feedback"
-	  type="help">GNOME Feedback Page</ulink>. 
+      this manual, follow the directions in the <ulink url="http://www.abisource.com/support/bugs/"
+	  type="help">Report a Bug page</ulink>. 
       </para>
 <!-- Translators may also add here feedback address for translations -->
     </legalnotice> 
