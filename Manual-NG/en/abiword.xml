@@ -140,12 +140,13 @@
   </articleinfo> 
 
   <indexterm zone="index"> 
-    <primary>AbiWord</primary> 
+    <primary>&app;</primary> 
   </indexterm> 
   <indexterm zone="index"> 
     <primary>abiword</primary> 
   </indexterm>
   <indexterm zone="index"> 
+<!-- The following misspelling is on purpose -->
     <primary>Abiword</primary> 
   </indexterm>
 
@@ -165,7 +166,7 @@
 <!-- =========== Getting Started ============================== -->
   <sect1 id="abiword-getting-started"> 
     <title>Getting Started</title> 
-    <!-- ================ Starting Abiword ================================ -->
+    <!-- ================ Starting AbiWord ================================ -->
     <sect2 id="abiword-start">
     <title>Starting &app;</title>
     <para>You can start &app; in the following ways:</para> 
@@ -194,7 +195,7 @@
     <para>When you open a document in the file manager and &app; is associated
     with that type of document, &app; will be started automatically.</para>
     </sect2>
-    <!-- ================ The Abiword Window ================================ -->
+    <!-- ================ The AbiWord Window ================================ -->
     <sect2 id="abiword-window">
     <title>The &app; Window</title>
     <para>When you start &app;, the following window is
@@ -285,7 +286,7 @@
 	<row>
 	  <entry>&app; Templates</entry>
 	  <entry>.awt</entry>
-	  <entry>This format is identical to normal Abiword documents, except for being marked
+	  <entry>This format is identical to normal &app; documents, except for being marked
           as a template and using a different filename extension.</entry>
 	</row>
 	<row>
@@ -316,7 +317,7 @@
 	<row>
 	  <entry>GZipped &app;</entry>
 	  <entry>.zabw</entry>
-	  <entry>These are normal Abiword documents using compression. Compression can 
+	  <entry>These are normal &app; documents using compression. Compression can 
           be useful for reducing the file size of large documents.</entry>
 	</row>
 	</tbody>
@@ -444,7 +445,7 @@
       </table>
     <caution>
       <para>It is possible that data is lost if open or save documents in file formats other than 
-      the Abiword document file format. While the &app; developers do their best to prevent this
+      the &app; document file format. While the &app; developers do their best to prevent this
       from happening, you can only be completely certain that there will be no data loss if you
       use the &app; document file format.</para>
     </caution>
@@ -552,7 +553,7 @@
     <!-- ================ Editing Text ================================ -->
     <sect2 id="abiword-editingtext"> 
       <title>Editing Text</title> 
-      <para>When you start Abiword, you will see a blinking black vertical stripe within the page margins,
+      <para>When you start &app;, you will see a blinking black vertical stripe within the page margins,
       in the area where you create your document. This is the <guilabel>insertion cursor</guilabel>. If you
       type on your keyboard the letters will appear on the left side of the cursor, and the cursor will move
       to the right (under the condition that you are using a language which is read from left to right). The
@@ -761,7 +762,7 @@
       Numbering</guilabel> you can select the <guilabel>Tab leader</guilabel>, which is a dotted line between
       the contents of the table of contents and the page number by default. You can also select a method for 
       the <guilabel>Page numbering</guilabel> and the lengt of the <guilabel>Indent</guilabel>.</para> 
-      <para>NOTE: give a link to the section covering styles in Abiword, mention what inherit label does,
+      <para>NOTE: give a link to the section covering styles in &app;, mention what inherit label does,
       possibly this explanation is way too complex and we shouldn't explain the details in the third and fourth
       paragraph?</para>
     </sect2>
@@ -813,7 +814,7 @@
       </tip>
       <para>NOTE: explain alignment in more detail? What does right-to-left dominant do? What do the other
       options in pagination do, for example when I try the "page break before" option it doesn't insert a
-      a page break at all? Abiword doesn't remember if I enable the "don't hyphenate" option? Link to
+      a page break at all? &app; doesn't remember if I enable the "don't hyphenate" option? Link to
       chapter covering tabs?</para>
     </sect2>
     <!-- ================ Creating Lists with Bullets or Numbers  ================================ -->
@@ -1175,7 +1176,7 @@ to another, or opening, editing and printing documents.</para>
 <!-- ================ Keyboard Shortcuts ================================ -->
   <sect1 id="abiword-keyboard-shortcuts"> 
     <title>Keyboard Shortcuts</title>
-      <para>The following keyboard shortcuts are used in Abiword. They are mostly identical to the keyboard
+      <para>The following keyboard shortcuts are used in &app;. They are mostly identical to the keyboard
       shortcuts used in other word processors. You can use keyboard shortcuts to acess commands faster.</para>
       <table>
 	<title>Documents</title>
