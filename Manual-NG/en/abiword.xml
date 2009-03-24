@@ -1,18 +1,16 @@
 <?xml version="1.0"?>
-<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
-"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-  <!ENTITY legal SYSTEM "legal.xml">
-  <!ENTITY appversion "2.0">
-  <!ENTITY manrevision "2.0">
-  <!ENTITY date "March 2002">
-  <!ENTITY app "<application>AbiWord</application>">
-  <!-- Information about the entities
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "2.0">
+<!ENTITY manrevision "2.0">
+<!ENTITY date "March 2002">
+<!ENTITY app "<application>AbiWord</application>">
+<!-- Information about the entities
        The legal.xml file contains legal information, there is no need to edit the file. 
        Use the appversion entity to specify the version of the application.
        Use the manrevision entity to specify the revision number of this manual.
        Use the date entity to specify the release date of this manual.
-       Use the app entity to specify the name of the application. -->
-]>
+       Use the app entity to specify the name of the application. -->]>
 <!-- 
   Maintained by AbiSource community
   http://www.abisource.com/
@@ -21,62 +19,25 @@
 <?db.chunk.max_depth 2?>
 <?yelp:chunk-depth 2?>
 <article id="index" lang="en">
-<!-- please do not change the id; for translations, change lang to -->
-<!-- appropriate code -->
-  <articleinfo> 
-    <title>&app; Manual V&manrevision;</title>       
-
-    <copyright> 
-      <year>2007</year> 
-      <holder>Alexander van Loon</holder> 
-    </copyright> 
-    <copyright> 
-      <year>2007</year> 
-      <holder>Marc Maurer</holder> 
-    </copyright>
-    <copyright> 
-      <year>2008</year> 
-      <holder>John Richards</holder> 
-    </copyright>
-<!-- translators: uncomment this:
+  <!-- please do not change the id; for translations, change lang to -->
+  <!-- appropriate code -->
+  <articleinfo><title>&app; Manual V&manrevision;</title><copyright><year>2007</year><holder>Alexander van Loon</holder></copyright><copyright><year>2007</year><holder>Marc Maurer</holder></copyright><copyright><year>2008</year><holder>John Richards</holder></copyright><!-- translators: uncomment this:
 
   <copyright>
    <year>2002</year>
    <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
   </copyright>
 
-   -->
-<!-- An address can be added to the publisher information.  If a role is 
+   --><!-- An address can be added to the publisher information.  If a role is 
      not specified, the publisher/author is the same for all versions of the 
-     document.  -->
-    <publisher> 
-      <publishername> AbiSource Community </publishername> 
-    </publisher> 
+     document.  --><publisher><publishername> AbiSource Community </publishername></publisher> 
 
    &legal;
    <!-- This file  contains link to license for the documentation (GNU FDL), and 
         other legal stuff such as "NO WARRANTY" statement. Please do not change 
 	any of this. -->
 
-    <authorgroup> 
-      <author> 
-		<firstname>Alexander</firstname> 
-		<surname>van Loon</surname> 
-		<affiliation> 
-	  		<orgname>AbiSource Community</orgname> 
-	  		<address> <email>svloon@xs4all.nl</email> </address> 
-		</affiliation> 
-      </author> 
-      <author> 
-		<firstname>Marc</firstname> 
-		<surname>Maurer</surname> 
-		<affiliation> 
-	  		<orgname>AbiSource Community</orgname> 
-	  		<address> <email>uwog@uwog.net</email> </address> 
-		</affiliation> 
-      </author> 
-      
-<!-- This is appropriate place for other contributors: translators,
+    <authorgroup><author><firstname>Alexander</firstname><surname>van Loon</surname><affiliation><orgname>AbiSource Community</orgname><address><email>svloon@xs4all.nl</email></address></affiliation></author><author><firstname>Marc</firstname><surname>Maurer</surname><affiliation><orgname>AbiSource Community</orgname><address><email>uwog@uwog.net</email></address></affiliation></author><!-- This is appropriate place for other contributors: translators,
      maintainers,  etc. Commented out by default.
      
       <othercredit role="translator">
@@ -88,8 +49,7 @@
 		</affiliation>
 		<contrib>Latin translation</contrib>
       </othercredit>
--->
-    </authorgroup>
+--></authorgroup>
 
 
 <!-- According to GNU FDL, revision history is mandatory if you are -->
@@ -104,56 +64,32 @@
 <!-- is written in that desktop timeframe is V2.0, the second version of the manual is V2.1, etc. -->
 <!-- When the desktop release version changes to V3.x, the revision number of the manual changes -->
 <!-- to V3.0, and so on. -->  
-    <revhistory>
-      <revision> 
-		<revnumber>MY-GNOME-APPLICATION Manual V&manrevision;</revnumber> 
-		<date>&date;</date> 
-		<revdescription> 
-	  		<para role="author">Documentation Writer 2
+    <revhistory><revision><revnumber>MY-GNOME-APPLICATION Manual V&manrevision;</revnumber><date>&date;</date><revdescription><para role="author">Documentation Writer 2
 	    	<email>docwriter2@gnome.org</email>
-	  		</para>
-	  		<para role="publisher">GNOME Documentation Project</para>
-		</revdescription> 
-      </revision> 
-      <revision> 
-		<revnumber>Full title of previous manual.</revnumber> 
-		<date>Release date of previous manual.</date> 
-		<revdescription> 
-	  		<para role="author">Documentation Writer 1 
+	  		</para><para role="publisher">GNOME Documentation Project</para></revdescription></revision><revision><revnumber>Full title of previous manual.</revnumber><date>Release date of previous manual.</date><revdescription><para role="author">Documentation Writer 1 
 	    	<email>docwriter1@gnome.org</email>
-	  		</para>
-	  		<para role="publisher">GNOME Documentation Project</para>
-		</revdescription> 
-      </revision> 
-    </revhistory> 
+	  		</para><para role="publisher">GNOME Documentation Project</para></revdescription></revision></revhistory> 
 
     <releaseinfo>This manual describes version &appversion; of AbiWord.
     </releaseinfo> 
-    <legalnotice> 
-      <title>Feedback</title> 
-      <para>To report a bug or make a suggestion regarding the &app; application or
-      this manual, follow the directions in the <ulink url="http://www.abisource.com/support/bugs/"
-	  type="help">Report a Bug page</ulink>. 
-      </para>
-<!-- Translators may also add here feedback address for translations -->
-    </legalnotice> 
-  </articleinfo> 
-
-  <indexterm zone="index"> 
-    <primary>&app;</primary> 
-  </indexterm> 
-  <indexterm zone="index"> 
-    <primary>abiword</primary> 
+    <legalnotice><title>Feedback</title><para>To report a bug or make a suggestion regarding the &app; application or
+      this manual, follow the directions in the <ulink url="http://www.abisource.com/support/bugs/" type="help">Report a Bug page</ulink>. 
+      </para><!-- Translators may also add here feedback address for translations --></legalnotice> 
+  </articleinfo>
+  <indexterm zone="index">
+    <primary>&app;</primary>
   </indexterm>
-  <indexterm zone="index"> 
-<!-- The following misspelling is on purpose -->
-    <primary>Abiword</primary> 
+  <indexterm zone="index">
+    <primary>abiword</primary>
   </indexterm>
-
-<!-- ============= Document Body ============================= -->
-<!-- ============= Introduction ============================== -->
-  <sect1 id="abiword-introduction"> 
-    <title>Introduction</title> 
+  <indexterm zone="index">
+    <!-- The following misspelling is on purpose -->
+    <primary>Abiword</primary>
+  </indexterm>
+  <!-- ============= Document Body ============================= -->
+  <!-- ============= Introduction ============================== -->
+  <sect1 id="abiword-introduction">
+    <title>Introduction</title>
     <para>&app; is a word processor which is fast, small in size and easy to use. It
     is able to save and open documents in a large variety of file formats. &app; is 
     similar to most other modern word processors.</para>
@@ -161,319 +97,315 @@
     size of a basic installation of &app; small and to reduce the amount of resources 
     necessary to run &app;.</para>
     <para>NOTE: consult style guide on usage of verbs in chapter names, more work
-    on introduction necessary?</para> 
+    on introduction necessary?</para>
   </sect1>
-<!-- =========== Getting Started ============================== -->
-  <sect1 id="abiword-getting-started"> 
-    <title>Getting Started</title> 
+  <!-- =========== Getting Started ============================== -->
+  <sect1 id="abiword-getting-started">
+    <title>Getting Started</title>
     <!-- ================ Starting AbiWord ================================ -->
     <sect2 id="abiword-start">
-    <title>Starting &app;</title>
-    <para>You can start &app; in the following ways:</para> 
-    <variablelist>
-    	<varlistentry>
-    		<term><guimenu>Applications</guimenu> menu</term>
-    		<listitem>
-    		<para>Choose 
-    		<menuchoice>
-    		<guisubmenu>Office</guisubmenu>
-    		<guimenuitem>AbiWord Word Processor</guimenuitem>
-    		</menuchoice>. </para>
-    		</listitem>
-    	</varlistentry>
-    	<varlistentry>
-    		<term>Command line</term>
-    		<listitem>
-    		<para>To start &app; from a command line, type 
+      <title>Starting &app;</title>
+      <para>You can start &app; in the following ways:</para>
+      <variablelist>
+        <varlistentry>
+          <term><guimenu>Applications</guimenu> menu</term>
+          <listitem>
+            <para>Choose 
+    		<menuchoice><guisubmenu>Office</guisubmenu><guimenuitem>AbiWord Word Processor</guimenuitem></menuchoice>. </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Command line</term>
+          <listitem>
+            <para>To start &app; from a command line, type 
 		the following command, then press <keycap>Return</keycap>:</para>
-    		<para> 
-			<command>abiword</command>
-    		</para>
-		</listitem>
-    	</varlistentry>
-    </variablelist>
-    <para>When you open a document in the file manager and &app; is associated
+            <para>
+              <command>abiword</command>
+            </para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+      <para>When you open a document in the file manager and &app; is associated
     with that type of document, &app; will be started automatically.</para>
     </sect2>
     <!-- ================ The AbiWord Window ================================ -->
     <sect2 id="abiword-window">
-    <title>The &app; Window</title>
-    <para>When you start &app;, the following window is
+      <title>The &app; Window</title>
+      <para>When you start &app;, the following window is
     displayed:</para>
       <figure id="abiword-window-screenshot">
-	<title>The &app; window</title>
-	<screenshot>
-	  <mediaobject>
-	    <imageobject><imagedata fileref="figures/abiword_window.png" format="PNG"/>
-	    </imageobject>
-	  </mediaobject>
-	</screenshot>
+        <title>The &app; window</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="figures/abiword_window.png" format="PNG"/>
+            </imageobject>
+          </mediaobject>
+        </screenshot>
       </figure>
-    <para>The &app; window contains the following elements:</para>
-    <variablelist>
-    	<varlistentry>
-    		<term>Menubar</term>
-    		<listitem>
-    		<para>The menus on the menubar contain all of the commands you need to
+      <para>The &app; window contains the following elements:</para>
+      <variablelist>
+        <varlistentry>
+          <term>Menubar</term>
+          <listitem>
+            <para>The menus on the menubar contain all of the commands you need to
                 work with documents in &app;.</para>
-    		</listitem>
-    	</varlistentry>
-    	<varlistentry>
-    		<term>Toolbar</term>
-    		<listitem>
-    		<para>The toolbar contains icons which give acess to a subset of the 
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Toolbar</term>
+          <listitem>
+            <para>The toolbar contains icons which give acess to a subset of the 
                 commands that you can access from the menubar.</para>
-		</listitem>
-    	</varlistentry>
-    	<varlistentry>
-    		<term>Rulers</term>
-    		<listitem>
-    		<para>Beneath the toolbar and above the document area, the horizontal
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Rulers</term>
+          <listitem>
+            <para>Beneath the toolbar and above the document area, the horizontal
                 ruler is located. The vertical ruler is located to the left of the
                 document area. How the rulers are used is explained in the section
                 *link to section explaining rulers here*.</para>
-		</listitem>
-    	</varlistentry>
-    	<varlistentry>
-    		<term>Document area</term>
-    		<listitem>
-    		<para>The large empty white area in the middle of the window represents
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Document area</term>
+          <listitem>
+            <para>The large empty white area in the middle of the window represents
                 the physical paper document. With the exception of the part which is
                 designated as the page margin, this area is used to create the
                 document.</para>
-		</listitem>
+          </listitem>
         </varlistentry>
-    	<varlistentry>
-    		<term>Statusbar</term>
-    		<listitem>
-    		<para>The statusbar gives information about which page out of all
+        <varlistentry>
+          <term>Statusbar</term>
+          <listitem>
+            <para>The statusbar gives information about which page out of all
                 pages of the document is currently being viewed, and...</para>
-		</listitem>
-    	</varlistentry>
-    </variablelist>
-    <para>When you right-click in the &app; window, the application displays a popup menu.
+          </listitem>
+        </varlistentry>
+      </variablelist>
+      <para>When you right-click in the &app; window, the application displays a popup menu.
     The popup menu contains the most common text and layout editing commands.</para>
-    <para>Actions in &app; can be performed in several ways: with the menu, with the
+      <para>Actions in &app; can be performed in several ways: with the menu, with the
     toolbar, or with shortcut keys. Shortcuts keys common to all applications are listed
     in the *link to GNOME User Guide, like done in gedit help file*.</para>
     </sect2>
   </sect1>
-<!-- ================ Working with Documents ================================ -->
-  <sect1 id="abiword-workingwithdocuments"> 
+  <!-- ================ Working with Documents ================================ -->
+  <sect1 id="abiword-workingwithdocuments">
     <title>Working with Documents</title>
     <!-- ================ File Formats ================================ -->
-    <sect2 id="abiword-fileformats"> 
+    <sect2 id="abiword-fileformats">
       <title>File Formats</title>
       <para>The basic installation of &app; includes support for the most frequently used
       document file formats. The plugins include support for more file formats.</para>
       <table>
-	<title>Document file formats included in a basic installation of &app;</title>
-	<tgroup cols="3">
-	<thead>
-	<row>
-	  <entry>Format</entry>
-	  <entry>Extension</entry>
-	  <entry>Note</entry>
-	</row>
-	</thead>
-	<tbody>
-	<row>
-	  <entry>&app;</entry>
-	  <entry>.abw</entry>
-	  <entry>This is the native file format of &app;, use this unless you have good reasons 
+        <title>Document file formats included in a basic installation of &app;</title>
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>Format</entry>
+              <entry>Extension</entry>
+              <entry>Note</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>&app;</entry>
+              <entry>.abw</entry>
+              <entry>This is the native file format of &app;, use this unless you have good reasons 
 	  to use another file format.</entry>
-	</row>
-	<row>
-	  <entry>&app; Templates</entry>
-	  <entry>.awt</entry>
-	  <entry>This format is identical to normal &app; documents, except for being marked
+            </row>
+            <row>
+              <entry>&app; Templates</entry>
+              <entry>.awt</entry>
+              <entry>This format is identical to normal &app; documents, except for being marked
           as a template and using a different filename extension.</entry>
-	</row>
-	<row>
-	  <entry>Encoded Text</entry>
-	  <entry>.txt .text</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>HTML/XHTML</entry>
-	  <entry>.html .htm .xhtml</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Microsoft Word</entry>
-	  <entry>.doc</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Plain Text</entry>
-	  <entry>.txt .text</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Rich Text Format</entry>
-	  <entry>.rtf</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>GZipped &app;</entry>
-	  <entry>.zabw</entry>
-	  <entry>These are normal &app; documents using compression. Compression can 
+            </row>
+            <row>
+              <entry>Encoded Text</entry>
+              <entry>.txt .text</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>HTML/XHTML</entry>
+              <entry>.html .htm .xhtml</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Microsoft Word</entry>
+              <entry>.doc</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Plain Text</entry>
+              <entry>.txt .text</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Rich Text Format</entry>
+              <entry>.rtf</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>GZipped &app;</entry>
+              <entry>.zabw</entry>
+              <entry>These are normal &app; documents using compression. Compression can 
           be useful for reducing the file size of large documents.</entry>
-	</row>
-	</tbody>
-	</tgroup>
+            </row>
+          </tbody>
+        </tgroup>
       </table>
       <table>
-	<title>Document file formats included in the &app; plugins</title>
-	<tgroup cols="3">
-	<thead>
-	<row>
-	  <entry>Format</entry>
-	  <entry>Extension</entry>
-	  <entry>Note</entry>
-	</row>
-	</thead>
-	<tbody>
-	<row>
-	  <entry>Applix Word</entry>
-	  <entry>.aw</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>BZipped &app;</entry>
-	  <entry>.bzabw</entry>
-	  <entry>Similar to GZipped &app;, but uses bzip2 for greater compression.</entry>
-	</row>
-	<row>
-	  <entry>ClarisWorks/AppleWorks 5</entry>
-	  <entry>.cwk</entry>
-	  <entry>Saving not supported, only opening.</entry>
-	</row>
-	<row>
-	  <entry>DocBook</entry>
-	  <entry>.dbk .xml</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Hancom Word</entry>
-	  <entry>.hwp</entry>
-	  <entry>Saving not supported, only opening.</entry>
-	</row>
-	<row>
-	  <entry>ISCII Text</entry>
-	  <entry>.isc .iscii</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>KWord</entry>
-	  <entry>.kwd</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>LaTeX</entry>
-	  <entry>.latex</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Microsoft Write</entry>
-	  <entry>.wri</entry>
-	  <entry>Saving not supported, only opening.</entry>
-	</row>
-	<row>
-	  <entry>MIF</entry>
-	  <entry>.mif</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Newsgroup Formatted Text</entry>
-	  <entry>.nws</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>OpenDocument</entry>
-	  <entry>.odt</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>OpenOffice.org Writer</entry>
-	  <entry>.sxw</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Outlook Express Email</entry>
-	  <entry>.eml</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Palm Document</entry>
-	  <entry>.pdb</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>Portable Document Format</entry>
-	  <entry>.pdf</entry>
-	  <entry>In the &app; version for Unix and Linux, writing PDF files is already supported in\
+        <title>Document file formats included in the &app; plugins</title>
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>Format</entry>
+              <entry>Extension</entry>
+              <entry>Note</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Applix Word</entry>
+              <entry>.aw</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>BZipped &app;</entry>
+              <entry>.bzabw</entry>
+              <entry>Similar to GZipped &app;, but uses bzip2 for greater compression.</entry>
+            </row>
+            <row>
+              <entry>ClarisWorks/AppleWorks 5</entry>
+              <entry>.cwk</entry>
+              <entry>Saving not supported, only opening.</entry>
+            </row>
+            <row>
+              <entry>DocBook</entry>
+              <entry>.dbk .xml</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Hancom Word</entry>
+              <entry>.hwp</entry>
+              <entry>Saving not supported, only opening.</entry>
+            </row>
+            <row>
+              <entry>ISCII Text</entry>
+              <entry>.isc .iscii</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>KWord</entry>
+              <entry>.kwd</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>LaTeX</entry>
+              <entry>.latex</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Microsoft Write</entry>
+              <entry>.wri</entry>
+              <entry>Saving not supported, only opening.</entry>
+            </row>
+            <row>
+              <entry>MIF</entry>
+              <entry>.mif</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Newsgroup Formatted Text</entry>
+              <entry>.nws</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>OpenDocument</entry>
+              <entry>.odt</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>OpenOffice.org Writer</entry>
+              <entry>.sxw</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Outlook Express Email</entry>
+              <entry>.eml</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Palm Document</entry>
+              <entry>.pdb</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Portable Document Format</entry>
+              <entry>.pdf</entry>
+              <entry>In the &app; version for Unix and Linux, writing PDF files is already supported in\
           the basic installation. Basic support for opening PDF files is available.</entry>
-	</row>
-	<row>
-	  <entry>T602</entry>
-	  <entry>.602 .txt</entry>
-	  <entry>Saving not supported, only opening.</entry>
-	</row>
-	<row>
-	  <entry>StarWriter up to 5.x</entry>
-	  <entry>.sdw</entry>
-	  <entry>Saving not supported, only opening.</entry>
-	</row>
-	<row>
-	  <entry>WML</entry>
-	  <entry>.wml</entry>
-	  <entry></entry>
-	</row>
-	<row>
-	  <entry>WordPerfect(tm)</entry>
-	  <entry>.wpd .wp</entry>
-	  <entry>Saving not supported, only opening. All versions are supported.</entry>
-	</row>
-	<row>
-	  <entry>XSL-FO</entry>
-	  <entry>.fo</entry>
-	  <entry></entry>
-	</row>
-	</tbody>
-	</tgroup>
+            </row>
+            <row>
+              <entry>T602</entry>
+              <entry>.602 .txt</entry>
+              <entry>Saving not supported, only opening.</entry>
+            </row>
+            <row>
+              <entry>StarWriter up to 5.x</entry>
+              <entry>.sdw</entry>
+              <entry>Saving not supported, only opening.</entry>
+            </row>
+            <row>
+              <entry>WML</entry>
+              <entry>.wml</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>WordPerfect(tm)</entry>
+              <entry>.wpd .wp</entry>
+              <entry>Saving not supported, only opening. All versions are supported.</entry>
+            </row>
+            <row>
+              <entry>XSL-FO</entry>
+              <entry>.fo</entry>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
       </table>
-    <caution>
-      <para>It is possible that data is lost if open or save documents in file formats other than 
+      <caution>
+        <para>It is possible that data is lost if open or save documents in file formats other than 
       the &app; document file format. While the &app; developers do their best to prevent this
       from happening, you can only be completely certain that there will be no data loss if you
       use the &app; document file format.</para>
-    </caution>
+      </caution>
     </sect2>
     <!-- ================ Creating New Documents ================================ -->
-    <sect2 id="abiword-creatingdocuments"> 
-      <title>Creating New Documents</title> 
+    <sect2 id="abiword-creatingdocuments">
+      <title>Creating New Documents</title>
       <para>If you open &app; without opening an already existing document, a new document will 
       automatically be created. To create a new document while you already have a document
-      opened in &app;, choose <menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem>
-      </menuchoice>.</para>
+      opened in &app;, choose <menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem></menuchoice>.</para>
     </sect2>
     <!-- ================ Opening Documents ================================ -->
-    <sect2 id="abiword-openeningdocuments"> 
-      <title>Opening Documents</title> 
+    <sect2 id="abiword-openeningdocuments">
+      <title>Opening Documents</title>
       <para>To open a document choose <menuchoice><guimenu>File</guimenu><guimenuitem>Open...
       </guimenuitem></menuchoice> or click the <guibutton>Open</guibutton> button in the toolbar
       to display the <guilabel>Open File</guilabel> dialog. Select the file that you want to open,
       then click <guibutton>Open</guibutton>. If you open a document in the file manager and &app; 
       is associated with that type of document, &app; will be started automatically.</para>
       <para>&app; records the paths and filenames of the five most recent files that you edited 
-      and displays the files as menu items on the <menuchoice><guimenu>File</guimenu>
-      </menuchoice> menu. You can also click on the arrow pointing downward near the Open icon 
+      and displays the files as menu items on the <menuchoice><guimenu>File</guimenu></menuchoice> menu. You can also click on the arrow pointing downward near the Open icon 
       on the toolbar to display the list of recent files.</para>
-    </sect2> 
+    </sect2>
     <!-- ================ Saving Documents ================================ -->
-    <sect2 id="abiword-savingdocuments"> 
-      <title>Saving Documents</title> 
+    <sect2 id="abiword-savingdocuments">
+      <title>Saving Documents</title>
       <para>There are three options for saving a document: <guimenuitem>Save</guimenuitem>, 
       <guimenuitem>Save As...</guimenuitem> and <guimenuitem>Save Copy...</guimenuitem></para>
       <para>If you want to save a document for the first time, choose <menuchoice><guimenu>
@@ -493,16 +425,15 @@
       directory.</para>
     </sect2>
     <!-- ================ Using Templates ================================ -->
-    <sect2 id="abiword-templates"> 
-      <title>Using Templates</title> 
+    <sect2 id="abiword-templates">
+      <title>Using Templates</title>
       <para>Templates are documents with missing information which are used to produce a finished
       document. Templates can be useful because they allow you to produce a finished document faster
       than if you were creating a new document from scratch. Templates already contain a modified 
       layout and placeholder text, so you fill in your own text in the template and save it as a 
       normal document.</para>
       <para>A few templates are already included in &app;, you can access them by choosing
-      <menuchoice><guimenu>File</guimenu><guimenuitem>New using Template...</guimenuitem>
-      </menuchoice>. You can create your own templates by creating a document and then saving it as
+      <menuchoice><guimenu>File</guimenu><guimenuitem>New using Template...</guimenuitem></menuchoice>. You can create your own templates by creating a document and then saving it as
       an &app; Template.</para>
       <tip>
         <para>To make your own templates appear in the <guimenuitem>New using Template...</guimenuitem>
@@ -514,45 +445,44 @@
       </tip>
     </sect2>
     <!-- ================ Using the Document Properties ================================ -->
-    <sect2 id="abiword-documentproperties"> 
-      <title>Using the Document Properties</title> 
+    <sect2 id="abiword-documentproperties">
+      <title>Using the Document Properties</title>
       <para>Choose <menuchoice><guimenu>File</guimenu><guimenuitem>Properties...</guimenuitem></menuchoice>
       to open the <guilabel>Document Properties</guilabel> dialog. Here you can enter various information
-      about the document. The information you enter here can be used by the <menuchoice><guimenu>Edit</guimenu>
-      <guimenuitem>Field...</guimenuitem></menuchoice> function.</para>
+      about the document. The information you enter here can be used by the <menuchoice><guimenu>Edit</guimenu><guimenuitem>Field...</guimenuitem></menuchoice> function.</para>
     </sect2>
     <!-- ================ Reverting all Changes ================================ -->
-    <sect2 id="abiword-revert"> 
-      <title>Reverting all Changes</title> 
+    <sect2 id="abiword-revert">
+      <title>Reverting all Changes</title>
       <para>Choose <menuchoice><guimenu>File</guimenu><guimenuitem>Revert</guimenuitem></menuchoice>
       to revert the document to the last saved version. This will undo all the changes made to the
       document since it was saved for the last time.</para>
     </sect2>
     <!-- ================ Undoing and Redoing Chabges ================================ -->
-    <sect2 id="abiword-undo/redo"> 
-      <title>Undoing and Redoing Changes</title> 
+    <sect2 id="abiword-undo/redo">
+      <title>Undoing and Redoing Changes</title>
       <para>Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Undo</guimenuitem></menuchoice> to 
       undo changes made to a document step by step. Once you have used <guimenuitem>Undo</guimenuitem>,
       you can choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Redo</guimenuitem></menuchoice> to
       reverse the changes made by <guimenuitem>Undo</guimenuitem>.</para>
     </sect2>
     <!-- ================ Document History ================================ -->
-    <sect2 id="abiword-documenthistory"> 
-      <title>Document History</title> 
+    <sect2 id="abiword-documenthistory">
+      <title>Document History</title>
       <para>*Text has yet to come*</para>
     </sect2>
     <!-- ================ Revisions ================================ -->
-    <sect2 id="abiword-revisions"> 
-      <title>Revisions</title> 
+    <sect2 id="abiword-revisions">
+      <title>Revisions</title>
       <para>*Text has yet to come*</para>
     </sect2>
   </sect1>
-<!-- ================ Working with Text ================================ -->
-  <sect1 id="abiword-working-with-text"> 
+  <!-- ================ Working with Text ================================ -->
+  <sect1 id="abiword-working-with-text">
     <title>Working with Text</title>
     <!-- ================ Editing Text ================================ -->
-    <sect2 id="abiword-editingtext"> 
-      <title>Editing Text</title> 
+    <sect2 id="abiword-editingtext">
+      <title>Editing Text</title>
       <para>When you start &app;, you will see a blinking black vertical stripe within the page margins,
       in the area where you create your document. This is the <guilabel>insertion cursor</guilabel>. If you
       type on your keyboard the letters will appear on the left side of the cursor, and the cursor will move
@@ -563,11 +493,11 @@
       with the mouse. These methods cannot be used to place the cursor in areas of the document which do not
       have any content yet.</para>
       <para>NOTE: isn't this knowledge so basic that we could expect our public to know this already? Isn't
-      this already covered in the GNOME user guide?</para> 
+      this already covered in the GNOME user guide?</para>
     </sect2>
     <!-- ================ Using Cut, Copy and Paste ================================ -->
-    <sect2 id="abiword-cut-copy-paste"> 
-      <title>Using Cut, Copy and Paste</title> 
+    <sect2 id="abiword-cut-copy-paste">
+      <title>Using Cut, Copy and Paste</title>
       <para>To cut text from the document, select text in the document and choose <menuchoice><guimenu>Edit
       </guimenu><guimenuitem>Cut</guimenuitem></menuchoice>. The text will then be memorized and 
       removed from the document, and you can use <menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste
@@ -582,10 +512,9 @@
       this already covered in the GNOME user guide?</para>
     </sect2>
     <!-- ================ Finding and Replacing Text ================================ -->
-    <sect2 id="abiword-find-and-replace"> 
-      <title>Finding and Replacing Text</title> 
-      <para>To find text, choose the option <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find...</guimenuitem>
-      </menuchoice> and enter a search term in the <guilabel>Find what</guilabel> field, then click <guimenu>Find
+    <sect2 id="abiword-find-and-replace">
+      <title>Finding and Replacing Text</title>
+      <para>To find text, choose the option <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find...</guimenuitem></menuchoice> and enter a search term in the <guilabel>Find what</guilabel> field, then click <guimenu>Find
       </guimenu>. If &app; finds a match for the search term you entered, the view will be moved to the location
       of the text, and the text will be highlighted.</para>
       <para><menuchoice><guimenu>Edit</guimenu><guimenuitem>Replace...</guimenuitem></menuchoice> works similar
@@ -597,12 +526,11 @@
       </guimenuitem></menuchoice>.</para>
     </sect2>
     <!-- ================ Using the Spelling Checker ================================ -->
-    <sect2 id="abiword-spellingchecker"> 
-      <title>Using the Spelling Checker</title> 
+    <sect2 id="abiword-spellingchecker">
+      <title>Using the Spelling Checker</title>
       <para>&app; can automatically check the spelling of the words in your document. If you type a word which
       is not found in the dictionary by &app;, a jagged red line will be shown under that word. You can then
-      check the spelling with <menuchoice><guimenu>Tools</guimenu><guimenuitem>Check Spelling...</guimenuitem>
-      </menuchoice>. A faster way to do this is to right click an underlined word.</para>
+      check the spelling with <menuchoice><guimenu>Tools</guimenu><guimenuitem>Check Spelling...</guimenuitem></menuchoice>. A faster way to do this is to right click an underlined word.</para>
       <para>By default the spelling checker uses the English dictionary. If you are typing a document in a
       different language, you can have to change the language of the document by choosing <menuchoice><guimenu>
       Tools</guimenu><guimenuitem>Set Language...</guimenuitem></menuchoice> in order for the spelling checker
@@ -620,14 +548,15 @@
         <para>Unfortunately the dictionaries used by &app; are not 100% complete. It might happen that the 
         spelling checker claims a word to be misspelled even if you are sure that the word is spelled 
         correctly.</para>
-      </caution>      
+      </caution>
     </sect2>
     <!-- ================ Inserting Special Characters ================================ -->
-    <sect2 id="abiword-special-characters"> 
-      <title>Inserting Special Characters</title> 
+    <sect2 id="abiword-special-characters">
+      <title>Inserting Special Characters</title>
       <para>If you need to insert special characters which are not located on your keyboard, you can choose
       <menuchoice><guimenu>Edit</guimenu><guimenuitem>Symbol...</guimenuitem></menuchoice> to find and
-      insert them in the document. The <guilabel>Insert Symbol</guilabel> dialog will then appear.</para><para>
+      insert them in the document. The <guilabel>Insert Symbol</guilabel> dialog will then appear.</para>
+      <para>
       In the top left corner of the dialog you can select the font you will be using for the characters you 
       insert. This is important because it is possible that certain fonts miss certain characters. In list on
       the left side of the dialog, titled <guilabel>Unicode Block</guilabel>, you can select groups of related
@@ -637,16 +566,16 @@
       characters you can insert. You can select a character by clicking them. You can insert them in the 
       document by double clicking them. You can use the <guilabel>Character Details</guilabel> tab to see 
       details of the character which you have currently selected.</para>
-    <tip>
-      <para>If you frequently need to input special characters, it might be more effective to use U.S. English
+      <tip>
+        <para>If you frequently need to input special characters, it might be more effective to use U.S. English
       international keyboard layout depending on the keyboard you use. This keyboard layout uses dead keys, 
       which allows you to input some of the most common diacritical marks, currency symbols and special 
       characters much quicker than with the <guilabel>Insert Symbol</guilabel> dialog.</para>
-    </tip>
+      </tip>
     </sect2>
     <!-- ================ Inserting Fields ================================ -->
-    <sect2 id="abiword-fields"> 
-      <title>Inserting Fields</title> 
+    <sect2 id="abiword-fields">
+      <title>Inserting Fields</title>
       <para>Fields are variabeles, which are calculated automatically. An example of a field is the number of
       pages in the document. As the amount of pages of the document changes, the value of the field changes as
       well. Choose <menuchoice><guimenu>Insert</guimenu><guimenuitem>Field...</guimenuitem></menuchoice> to
@@ -655,7 +584,7 @@
       "Application" category?</para>
     </sect2>
     <!-- ================ Inserting Page Numbers ================================ -->
-    <sect2 id="abiword-page-numbers"> 
+    <sect2 id="abiword-page-numbers">
       <title>Inserting Page Numbers</title>
       <para>You can insert page numbers by choosing <menuchoice><guimenu>Insert</guimenu><guimenuitem>Page Numbers...
       </guimenuitem></menuchoice>. This will open the <guilabel>Page Numbers</guilabel> dialog. Here you can
@@ -672,24 +601,22 @@
       page. Then position the insertion cursor on the third page, after the section break, and insert page numbers
       as usual. You will notice that only this section of the document, which is the third page in this case, will
       display a page number. By choosing <menuchoice><guimenu>Format</guimenu><guimenuitem>Header/Footers...
-      </guimenuitem></menuchoice>, you can restart page numbering with a specified page number on new sections.</para> 
-    <tip>
-      <para>You can also access a field for displaying the current page number and the total number of pages of
-      the document by choosing <menuchoice><guimenu>Insert</guimenu><guimenuitem>Field...</guimenuitem>
-      </menuchoice>. Unlike the <guilabel>Page Numbers</guilabel> dialog, the <guilabel>Insert Field</guilabel>
+      </guimenuitem></menuchoice>, you can restart page numbering with a specified page number on new sections.</para>
+      <tip>
+        <para>You can also access a field for displaying the current page number and the total number of pages of
+      the document by choosing <menuchoice><guimenu>Insert</guimenu><guimenuitem>Field...</guimenuitem></menuchoice>. Unlike the <guilabel>Page Numbers</guilabel> dialog, the <guilabel>Insert Field</guilabel>
       dialog allows you to place the page numbers anywhere in the document, not merely the footer or header.</para>
-    </tip>
+      </tip>
     </sect2>
     <!-- ================ Inserting Headers and Footers ================================ -->
-    <sect2 id="abiword-headers-footers"> 
-      <title>Inserting Headers and Footers</title> 
+    <sect2 id="abiword-headers-footers">
+      <title>Inserting Headers and Footers</title>
       <para>Headers and footers contain text which is repeated automatically on every page of the document, and
       are placed respectively above the top margin and below the bottom margin of the page. Headers and footers 
       are frequently used for page numbers, and when you insert page numbers in the document, a header or a
       footer is automatically inserted if none is present in the document yet, depending on your preference. 
       You can insert a header or a footer by choosing <menuchoice><guimenu>Insert</guimenu><guimenuitem>Header
-      </guimenuitem></menuchoice> or <menuchoice><guimenu>Insert</guimenu><guimenuitem>Footer</guimenuitem>
-      </menuchoice>.</para>
+      </guimenuitem></menuchoice> or <menuchoice><guimenu>Insert</guimenu><guimenuitem>Footer</guimenuitem></menuchoice>.</para>
       <para>You can enable different headers or footers for the first, last and facing pages by choosing
       <menuchoice><guimenu>Format</guimenu><guimenuitem>Header/Footers...</guimenuitem></menuchoice>.</para>
       <para>If you want more control over which pages of your document display the same or different headers 
@@ -699,8 +626,8 @@
       to start a new section with a new page.</para>
     </sect2>
     <!-- ================ Inserting Footnotes and Endnotes ================================ -->
-    <sect2 id="abiword-footnotes-endnotes"> 
-      <title>Inserting Footnotes and Endnotes</title> 
+    <sect2 id="abiword-footnotes-endnotes">
+      <title>Inserting Footnotes and Endnotes</title>
       <para>Footnotes and endnotes can be used for comments on or citing references for the main body of text. 
       They are marked by a number in superscript to identify where in the main body of text which footnote is 
       referenced. Footnotes are placed above the bottom margin of the page and endnotes are placed at the end
@@ -712,8 +639,8 @@
       </guimenuitem></menuchoice>.</para>
     </sect2>
     <!-- ================ Inserting Breaks ================================ -->
-    <sect2 id="abiword-breaks"> 
-      <title>Inserting Breaks</title> 
+    <sect2 id="abiword-breaks">
+      <title>Inserting Breaks</title>
       <para>Breaks can be used to manually start a new page or column instead of automatically starting a new
       page or column once the current page or column has been filled with text. You can insert a break by choosing
       <menuchoice><guimenu>Insert</guimenu><guimenuitem>Break...</guimenuitem></menuchoice>.</para>
@@ -730,8 +657,8 @@
       </note>
     </sect2>
     <!-- ================ Inserting a Table of Contents ================================ -->
-    <sect2 id="abiword-table-of-contents"> 
-      <title>Inserting a Table of Contents</title> 
+    <sect2 id="abiword-table-of-contents">
+      <title>Inserting a Table of Contents</title>
       <para>&app; can automatically create a table of contents for your document on the condition that you have
       already applied the <guilabel>Heading</guilabel> styles to the names of the chapters and sections in the
       document. The table of contents will be updated automatically as you apply more <guilabel>Heading</guilabel>
@@ -761,17 +688,17 @@
       the labels, and also allows you to insert text before and after the labels. Under <guilabel>Tabs and Page
       Numbering</guilabel> you can select the <guilabel>Tab leader</guilabel>, which is a dotted line between
       the contents of the table of contents and the page number by default. You can also select a method for 
-      the <guilabel>Page numbering</guilabel> and the lengt of the <guilabel>Indent</guilabel>.</para> 
+      the <guilabel>Page numbering</guilabel> and the lengt of the <guilabel>Indent</guilabel>.</para>
       <para>NOTE: give a link to the section covering styles in &app;, mention what inherit label does,
       possibly this explanation is way too complex and we shouldn't explain the details in the third and fourth
       paragraph?</para>
     </sect2>
   </sect1>
-<!-- ================ Working with Layout ================================ -->
+  <!-- ================ Working with Layout ================================ -->
   <sect1 id="abiword-page-layout">
     <title>Working with Layout</title>
     <!-- ================ Working with Font Layout ================================ -->
-    <sect2 id="abiword-font-layout"> 
+    <sect2 id="abiword-font-layout">
       <title>Working with Font Layout</title>
       <para>Choose <menuchoice><guimenu>Format</guimenu><guimenuitem>Font...</guimenuitem></menuchoice> to open
       the <guilabel>Font</guilabel> dialog. Here you can change the font type, style, size and effects, or the 
@@ -782,12 +709,11 @@
       dialog, the changes will only be applied to the new text. If the insertion cursor is placed inside text with
       different font layout, that font layout will be adopted.</para>
       <tip>
-        <para>You have quicker access to a few of these commands by choosing <menuchoice><guimenu>Format</guimenu>
-        <guimenuitem>Text Formatting</guimenuitem></menuchoice>.</para>
+        <para>You have quicker access to a few of these commands by choosing <menuchoice><guimenu>Format</guimenu><guimenuitem>Text Formatting</guimenuitem></menuchoice>.</para>
       </tip>
     </sect2>
     <!-- ================ Working with Paragraph Layout ================================ -->
-    <sect2 id="abiword-paragraph-layout"> 
+    <sect2 id="abiword-paragraph-layout">
       <title>Working with Paragraph Layout</title>
       <para>Choose <menuchoice><guimenu>Format</guimenu><guimenuitem>Paragraph...</guimenuitem></menuchoice> to
       open the <guilabel>Paragraph</guilabel> dialog. Here you can change the alignment, indentation, line 
@@ -809,8 +735,7 @@
       stops and insert tabs which you can define yourself. Use the <guibutton>Add</guibutton> button to add a
       new tab, and use the <guibutton>Remove</guibutton> to remove a selected tab.</para>
       <tip>
-        <para>You have quicker access to the functionality for setting tab stops by choosing <menuchoice>
-        <guimenu>Format</guimenu><guimenuitem>Tabs...</guimenuitem></menuchoice>.</para>
+        <para>You have quicker access to the functionality for setting tab stops by choosing <menuchoice><guimenu>Format</guimenu><guimenuitem>Tabs...</guimenuitem></menuchoice>.</para>
       </tip>
       <para>NOTE: explain alignment in more detail? What does right-to-left dominant do? What do the other
       options in pagination do, for example when I try the "page break before" option it doesn't insert a
@@ -818,7 +743,7 @@
       chapter covering tabs?</para>
     </sect2>
     <!-- ================ Creating Lists with Bullets or Numbers  ================================ -->
-    <sect2 id="abiword-lists-bullets-numbers"> 
+    <sect2 id="abiword-lists-bullets-numbers">
       <title>Creating Lists with Bullets or Numbers</title>
       <para>If you want to insert bullet lists or numbered lists in a document, you can do so by choosing
       <menuchoice><guimenu>Format</guimenu><guimenuitem>Bullets and Numbering...</guimenuitem></menuchoice> to
@@ -842,7 +767,7 @@
       levels.</para>
     </sect2>
     <!-- ================ Using and Modifying Styles  ================================ -->
-    <sect2 id="abiword-using-modifying-styles"> 
+    <sect2 id="abiword-using-modifying-styles">
       <title>Using and Modifying Styles</title>
       <para>Styles are used to define the layout for characters or paragraphs. They can be much more useful for
       easily making changes to the layout of a document than changing the layout manually, especially if the
@@ -882,7 +807,7 @@
       <para>NOTE: inlcude links to previous chapters covering fonts, paragraphs, tabs and numbering.</para>
     </sect2>
     <!-- ================ Using the Ruler ================================ -->
-    <sect2 id="abiword-ruler"> 
+    <sect2 id="abiword-ruler">
       <title>Using the Ruler</title>
       <para>The ruler displays the physical dimensions of your document. The ruler can use several different units
       of measurement: inches, centimeters, points and pica's. To change the unit of measurement used by the 
@@ -891,58 +816,59 @@
       <para>The ruler has more functions. With the ruler you can change the page margins and the indents of 
       paragraphs. You can also set tab stops on the ruler to align text.</para>
       <figure id="abiword-ruler-screenshot">
-	<title>The ruler</title>
-	<screenshot>
-	  <mediaobject>
-	    <imageobject><imagedata fileref="figures/abiword_ruler.png" format="PNG"/>
-	    </imageobject>
-	  </mediaobject>
-	</screenshot>
+        <title>The ruler</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="figures/abiword_ruler.png" format="PNG"/>
+            </imageobject>
+          </mediaobject>
+        </screenshot>
       </figure>
       <table>
-	<title>Elements of the ruler</title>
-	<tgroup cols="2">
-	<thead>
-	<row>
-	  <entry>#</entry>
-	  <entry>Name</entry>         
-	</row>
-	</thead>
-	<tbody>
-	<row>
-	  <entry>1</entry>
-	  <entry>Left indent</entry>
-	</row>
-	<row>
-	  <entry>2</entry>
-	  <entry>First line indent</entry>
-	</row>
-	<row>
-	  <entry>3</entry>
-	  <entry>Right indent</entry>
-	</row>
-	<row>
-	  <entry>4</entry>
-	  <entry>Left margin</entry>
-	</row>
-	<row>
-	  <entry>5</entry>
-	  <entry>Right margin</entry>
-	</row>
-	<row>
-	  <entry>6</entry>
-	  <entry>Top margin</entry>
-	</row>
-	<row>
-	  <entry>7</entry>
-	  <entry>Bottom margin (not visible on screenshot)</entry>
-	</row>
-	<row>
-	  <entry>8</entry>
-	  <entry>Tab stop selector</entry>
-	</row>
-	</tbody>
-	</tgroup>
+        <title>Elements of the ruler</title>
+        <tgroup cols="2">
+          <thead>
+            <row>
+              <entry>#</entry>
+              <entry>Name</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>1</entry>
+              <entry>Left indent</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>First line indent</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>Right indent</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>Left margin</entry>
+            </row>
+            <row>
+              <entry>5</entry>
+              <entry>Right margin</entry>
+            </row>
+            <row>
+              <entry>6</entry>
+              <entry>Top margin</entry>
+            </row>
+            <row>
+              <entry>7</entry>
+              <entry>Bottom margin (not visible on screenshot)</entry>
+            </row>
+            <row>
+              <entry>8</entry>
+              <entry>Tab stop selector</entry>
+            </row>
+          </tbody>
+        </tgroup>
       </table>
       <para>The margins of the page are indicated by grey areas on the left and right ends of the ruler. You can see
       two small squares near the top of the ruler, near the ends of the margins. To change the margins, drag the
@@ -952,14 +878,13 @@
       only. The triangle near the bottom left on the ruler is used for setting the indentation of all the lines in 
       the paragraph, except for the first line. The triangle near the bottom right on the ruler is used to set the
       indentation to the right side of the paragraph, for all lines of the paragraph.</para>
-    <tip>
-    <title>Alternatives for setting the margins, indentations and tab stops</title>
-      <para>If you want to be able to define the page margins and the dimensions of your document more precisely, 
+      <tip>
+        <title>Alternatives for setting the margins, indentations and tab stops</title>
+        <para>If you want to be able to define the page margins and the dimensions of your document more precisely, 
       you can do so with <guilabel>Page Setup</guilabel> which is accessible through <menuchoice><guimenu>File
       </guimenu><guimenuitem>Page Setup...</guimenuitem></menuchoice>. You can also change the indentation and tab 
-      stops for paragraphs by choosing <menuchoice><guimenu>Format</guimenu><guimenuitem>Paragraph...</guimenuitem>
-      </menuchoice>.</para>
-    </tip>
+      stops for paragraphs by choosing <menuchoice><guimenu>Format</guimenu><guimenuitem>Paragraph...</guimenuitem></menuchoice>.</para>
+      </tip>
       <para>With tab stops you can change the alignment of text. There are five different types of tab stops, by 
       default the left tab stop is visible in the tab stop selector. You can select different tab stops by clicking 
       on the tab stop selector. Once you have selected the tab stop which you want to use, click on a place in the 
@@ -969,67 +894,67 @@
       your keyboard. If you do not use the Tab key to jump to the tab stops and simply type paragraphs as you would
       normally, the tab stops will not work.</para>
       <figure id="abiword-tabs-screenshots">
-	<title>All five tab stops located on the ruler</title>
-	<screenshot>
-	  <mediaobject>
-	    <imageobject><imagedata fileref="figures/abiword_tabs.png" format="PNG"/>
-	    </imageobject>
-	  </mediaobject>
-	</screenshot>
-      </figure>     
+        <title>All five tab stops located on the ruler</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="figures/abiword_tabs.png" format="PNG"/>
+            </imageobject>
+          </mediaobject>
+        </screenshot>
+      </figure>
       <table>
-	<title>Tab stops</title>
-	<tgroup cols="3">
-	<thead>
-	<row>
-	  <entry>#</entry>
-	  <entry>Type</entry>
-	  <entry>Function</entry>          
-	</row>
-	</thead>
-	<tbody>
-	<row>
-	  <entry>1</entry>
-	  <entry>Left</entry>
-	  <entry>Aligns the left edge of the text to the right side of the tab stop.</entry>
-	</row>
-	<row>
-	  <entry>2</entry>
-	  <entry>Center</entry>
-	  <entry>Aligns the text to the center of the tab stop.</entry>
-	</row>
-	<row>
-	  <entry>3</entry>
-	  <entry>Right</entry>
-	  <entry>Aligns the right edge of the text to the left side of the tab stop.</entry>
-	</row>
-	<row>
-	  <entry>4</entry>
-	  <entry>Decimal</entry>
-	  <entry>Aligns the decimals of numbers to the center of the tab stop (only recognizes dots as decimals)</entry>
-	</row>
-	<row>
-	  <entry>5</entry>
-	  <entry>Bar</entry>
-	  <entry>Identical to the left tab stop, but also places a vertical line to the left side of the tab stop</entry>
-	</row>
-	</tbody>
-	</tgroup>
+        <title>Tab stops</title>
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>#</entry>
+              <entry>Type</entry>
+              <entry>Function</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>1</entry>
+              <entry>Left</entry>
+              <entry>Aligns the left edge of the text to the right side of the tab stop.</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>Center</entry>
+              <entry>Aligns the text to the center of the tab stop.</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>Right</entry>
+              <entry>Aligns the right edge of the text to the left side of the tab stop.</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>Decimal</entry>
+              <entry>Aligns the decimals of numbers to the center of the tab stop (only recognizes dots as decimals)</entry>
+            </row>
+            <row>
+              <entry>5</entry>
+              <entry>Bar</entry>
+              <entry>Identical to the left tab stop, but also places a vertical line to the left side of the tab stop</entry>
+            </row>
+          </tbody>
+        </tgroup>
       </table>
-    <note>
-    <title>Indents and tab stops only apply to one paragraph</title>
-      <para>While the page margins apply to the whole document, you can define different settings for indentation
+      <note>
+        <title>Indents and tab stops only apply to one paragraph</title>
+        <para>While the page margins apply to the whole document, you can define different settings for indentation
       and tab stops for every separate paragraph.</para>
-    </note>
+      </note>
       <para>NOTE: is the explanation for tab stops clear enough?</para>
       <para>NOTE: perhaps use sect3's here because this page might become a bit large, and so that we can give
       separate titles for the ruler, indents and tab stops.</para>
     </sect2>
     <!-- ================ Inserting Columns ================================ -->
-    <sect2 id="abiword-columns"> 
+    <sect2 id="abiword-columns">
       <title>Inserting Columns</title>
-      <para>You can change the number of columns in the document by choosing <menuchoice><guimenu>Format</guimenu>
-      <guimenuitem>Columns...</guimenuitem></menuchoice>. This will open the <guilabel>Columns</guilabel> dialog.
+      <para>You can change the number of columns in the document by choosing <menuchoice><guimenu>Format</guimenu><guimenuitem>Columns...</guimenuitem></menuchoice>. This will open the <guilabel>Columns</guilabel> dialog.
       Here you can choose how much columns you want to add.</para>
       <para>With the <guilabel>Max Column Size</guilabel> you can specify the maximum vertical length of the 
       columns. By default it is zero, which means that the column will end at the bottom margin of the page. If 
@@ -1042,71 +967,71 @@
       you can make the gap wider or smaller.</para>
     </sect2>
   </sect1>
-<!-- ================ Printing Documents ================================ -->
-  <sect1 id="abiword-printing"> 
+  <!-- ================ Printing Documents ================================ -->
+  <sect1 id="abiword-printing">
     <title>Printing Documents</title>
-      <para>Before deciding to print a document, it might be necessary to change the paper size if you are not
+    <para>Before deciding to print a document, it might be necessary to change the paper size if you are not
       satisfied with the default paper size used by &app;. You might also want to change the margins of the text
-      on the paper. To do this choose <menuchoice><guimenu>File</guimenu><guimenuitem>Page Setup...</guimenuitem>
-      </menuchoice>. This will open the <guilabel>Page Setup</guilabel> dialog. In the <guilabel>Paper</guilabel>
+      on the paper. To do this choose <menuchoice><guimenu>File</guimenu><guimenuitem>Page Setup...</guimenuitem></menuchoice>. This will open the <guilabel>Page Setup</guilabel> dialog. In the <guilabel>Paper</guilabel>
       tab you can select a standard paper size or define a custom paper size. You can choose between portrait or
       landscape, in other words vertical and horizontal, orientation of the paper. Finally, you can scale the 
       paper size to a percentage of the original size. In the <guilabel>Margins</guilabel> tab, you can define
       the margins of used for the page.</para>
-      <para>Before giving the command to print the document, you can see a preview of what the printed document
-      will look like by choosing <menuchoice><guimenu>File</guimenu><guimenuitem>Print Preview...</guimenuitem>
-      </menuchoice>. This will open the <guilabel>Print Preview</guilabel> dialog. To print the document, choose
+    <para>Before giving the command to print the document, you can see a preview of what the printed document
+      will look like by choosing <menuchoice><guimenu>File</guimenu><guimenuitem>Print Preview...</guimenuitem></menuchoice>. This will open the <guilabel>Print Preview</guilabel> dialog. To print the document, choose
       <menuchoice><guimenu>File</guimenu><guimenuitem>Print...</guimenuitem></menuchoice>. This will open the
       <guilabel>Print</guilabel> dialog. Click <guibutton>Print</guibutton> to print the document.</para>
   </sect1>
-<!-- ================ Using Plugins ================================ -->
-  <sect1 id="abiword-plugins"> 
+  <!-- ================ Using Plugins ================================ -->
+  <sect1 id="abiword-plugins">
     <title>Using Plugins</title>
     <!-- ================ Overview ================================ -->
-    <sect2 id="abiword-plugins-overview"> 
-      <title>Overview</title> 
+    <sect2 id="abiword-plugins-overview">
+      <title>Overview</title>
       <para>Alongside &app;, a set of so-called "plugins" is provided. A plugin provides an extension to &app; to enhance it's functionality. Support for the OpenDocument file format is for example provided by a plugin. Another example is &app;'s grammar checking functionality, which is also provided by a plugin.
 </para>
       <note>
-      <title>A specific plugin might not be available</title>
-      <para>None of the plugins are required to be installed on the system. This means that the availability of  functionality that is provided by a plugin depends on the particular installation of &app; you are using. If you installed &app; yourself, then make sure you installed all the plugins you want to use. Otherwise please ask your system administrator to customize your &app; installation to your liking.</para>
+        <title>A specific plugin might not be available</title>
+        <para>None of the plugins are required to be installed on the system. This means that the availability of  functionality that is provided by a plugin depends on the particular installation of &app; you are using. If you installed &app; yourself, then make sure you installed all the plugins you want to use. Otherwise please ask your system administrator to customize your &app; installation to your liking.</para>
       </note>
     </sect2>
     <!-- ================ Collaboration ================================ -->
-    <sect2 id="abiword-plugin-collaboration"> 
-      <title>Collaboration</title> 
+    <sect2 id="abiword-plugin-collaboration">
+      <title>Collaboration</title>
       <para>Text has yet to come</para>
     </sect2>
     <!-- ================ AbiCommand ================================ -->
-    <sect2 id="abiword-plugin-abicommand"> 
-      <title>AbiCommand Interface</title> 
+    <sect2 id="abiword-plugin-abicommand">
+      <title>AbiCommand Interface</title>
       <para>The AbiCommand plugin provides a powerful command line interface to &app; (the so-called AbiCommand Interface). This interface can be directly accessed from a terminal, but also for example from a web-application. It can be used to control various aspects of &app;, such as converting a file from one file format
 to another, or opening, editing and printing documents.</para>
       <sect3 id="abiword-plugin-abicommand-cli">
         <title>Executing from the Command Line</title>
         <para>To access the AbiCommand Interface, type the following command on the command line, then press <keycap>Return</keycap>:</para>
-        <para><command>abiword --plugin AbiCommand</command></para>
+        <para>
+          <command>abiword --plugin AbiCommand</command>
+        </para>
       </sect3>
       <sect3 id="abiword-plugin-abicommand-commands">
         <title>Available Commands</title>
         <para>The following commands are provided by the AbiCommand Interface:</para>
         <table>
-	  <title>Document file formats included in a basic installation of &app;</title>
-	  <tgroup cols="3">
-	  <thead>
-	  <row>
-	    <entry>Command</entry>
-	    <entry>Arguments</entry>
-	    <entry>Description</entry>
-	  </row>
-	  </thead>
-	  <tbody>
-	  <row>
-	    <entry>Foo</entry>
-	    <entry>Bar</entry>
-  	    <entry>This command does something</entry>
-	  </row>
-          </tbody>
+          <title>Document file formats included in a basic installation of &app;</title>
+          <tgroup cols="3">
+            <thead>
+              <row>
+                <entry>Command</entry>
+                <entry>Arguments</entry>
+                <entry>Description</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Foo</entry>
+                <entry>Bar</entry>
+                <entry>This command does something</entry>
+              </row>
+            </tbody>
           </tgroup>
         </table>
       </sect3>
@@ -1116,22 +1041,20 @@ to another, or opening, editing and printing documents.</para>
       </sect3>
     </sect2>
     <!-- ================ Grammar ================================ -->
-    <sect2 id="abiword-plugin-grammar"> 
-      <title>Grammar Checker</title> 
+    <sect2 id="abiword-plugin-grammar">
+      <title>Grammar Checker</title>
       <para>Text has yet to come</para>
     </sect2>
   </sect1>
-<!-- ================ Getting More Help ================================ -->
-  <sect1 id="abiword-help"> 
+  <!-- ================ Getting More Help ================================ -->
+  <sect1 id="abiword-help">
     <title>Getting More Help</title>
     <para>If you still have questions after reading this manual, then there are other sources available that you can
     reference.</para>
-    <para>One source to check before any others is the Web. A good place to start is the <ulink type="http" 
-    url="http://www.abisource.com/wiki/FAQ">&app; FAQ</ulink>. This site lists the most common questions that come up 
+    <para>One source to check before any others is the Web. A good place to start is the <ulink type="http" url="http://www.abisource.com/wiki/FAQ">&app; FAQ</ulink>. This site lists the most common questions that come up 
     about &app;, so it's worthwhile to see if your question has been answered there. Another great place to check is
     your favorite search engine. Chances are good that you are not the first person to have that problem, so a search
-    result may point you in the right direction. Finally, you should search the <ulink type="http" 
-    url="http://bugzilla.abisource.com/query.cgi">&app; Bug Database</ulink>. There might be a patch or workaround to
+    result may point you in the right direction. Finally, you should search the <ulink type="http" url="http://bugzilla.abisource.com/query.cgi">&app; Bug Database</ulink>. There might be a patch or workaround to
     your problem listed there.</para>
     <para>Another source available is the &app; User's Mailing List, which will usually provide you with an answer
     within the day. Simply send an e-mail to <email>abiword-user-request@abisource.com</email> with "subscribe" in
@@ -1149,176 +1072,175 @@ to another, or opening, editing and printing documents.</para>
     developers hang out in this channel and can usually provide you with immediate answers. To join, simply connect to
     irc.gnome.org and join the #abiword channel.</para>
   </sect1>
-<!-- ================ Reporting a Problem ================================ -->
-  <sect1 id="abiword-problem"> 
+  <!-- ================ Reporting a Problem ================================ -->
+  <sect1 id="abiword-problem">
     <title>Reporting a Problem</title>
     <!-- ================ Overview ================================ -->
-    <sect2 id="abiword-problem-overview"> 
-      <title>Overview</title> 
+    <sect2 id="abiword-problem-overview">
+      <title>Overview</title>
       <para>Text has yet to come</para>
     </sect2>
     <!-- ================ Defining the Error ================================ -->
-    <sect2 id="abiword-problem-defining"> 
-      <title>Defining the Error</title> 
+    <sect2 id="abiword-problem-defining">
+      <title>Defining the Error</title>
       <para>Text has yet to come</para>
     </sect2>
     <!-- ================ Opening an account ================================ -->
-    <sect2 id="abiword-problem-account"> 
-      <title>Opening an Account</title> 
+    <sect2 id="abiword-problem-account">
+      <title>Opening an Account</title>
       <para>Text has yet to come</para>
     </sect2>
     <!-- ================ Filing a Report ================================ -->
-    <sect2 id="abiword-problem-report"> 
-      <title>Filing a Report</title> 
+    <sect2 id="abiword-problem-report">
+      <title>Filing a Report</title>
       <para>Text has yet to come</para>
     </sect2>
   </sect1>
-<!-- ================ Keyboard Shortcuts ================================ -->
-  <sect1 id="abiword-keyboard-shortcuts"> 
+  <!-- ================ Keyboard Shortcuts ================================ -->
+  <sect1 id="abiword-keyboard-shortcuts">
     <title>Keyboard Shortcuts</title>
-      <para>The following keyboard shortcuts are used in &app;. They are mostly identical to the keyboard
+    <para>The following keyboard shortcuts are used in &app;. They are mostly identical to the keyboard
       shortcuts used in other word processors. You can use keyboard shortcuts to acess commands faster.</para>
-      <table>
-	<title>Documents</title>
-	<tgroup cols="2">
-	<thead>
-	<row>
-	  <entry>Key Combination</entry>
-	  <entry>Function</entry>
-	</row>
-	</thead>
-	<tbody>
-	<row>
-	  <entry>Ctrl + N</entry>
-	  <entry>Create a new document.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + O</entry>
-	  <entry>Open a document.</entry>
-	</row>
-	<row>
-	  <entry>Shift + Ctrl + S</entry>
-	  <entry>Save the current document with a new filename.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + S</entry>
-	  <entry>Save the current document.</entry>
-	</row>
-	<row>
-	  <entry>Shift + Ctrl + P</entry>
-	  <entry>Display the print preview of the current document.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + P</entry>
-	  <entry>Print the current document.</entry>
-	</row>
-	</tbody>
-	</tgroup>
-      </table>
-      <table>
-	<title>Page Layout</title>
-	<tgroup cols="2">
-	<thead>
-	<row>
-	  <entry>Key Combination</entry>
-	  <entry>Function</entry>
-	</row>
-	</thead>
-	<tbody>
-	<row>
-	  <entry>Ctrl + B</entry>
-	  <entry>Make the selected text bold.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + I</entry>
-	  <entry>Make the selected text display in italics.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + U</entry>
-	  <entry>Make the selected text display underlined.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + Shift + P</entry>
-	  <entry>Make the selected text display in superscript.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + Shift + B</entry>
-	  <entry>Make the selected text display in subscript.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + Shift + P</entry>
-	  <entry>Make the selected text display in superscript.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + L</entry>
-	  <entry>Align the selected paragraph to the left.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + R</entry>
-	  <entry>Align the selected paragraph to the right.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + E</entry>
-	  <entry>Align the selected paragraph to the center.</entry>
-	</row>
-	<row>
-	  <entry>Ctrl + J</entry>
-	  <entry>Align the selected paragraph to the left.</entry>
-	</row>
-	</tbody>
-	</tgroup>
-      </table>
-      <table>
-	<title>Text</title>
-	<tgroup cols="2">
-	<thead>
-	<row>
-	  <entry>Key Combination</entry>
-	  <entry>Function</entry>
-	</row>
-	</thead>
-	<tbody>
-	<row>
-	  <entry>Tab</entry>
-	  <entry>Move the cursor to the next tab stop.</entry>
-	</row>
-	<row>
-	  <entry>Insert</entry>
-	  <entry>?</entry>
-	</row>
-	</tbody>
-	</tgroup>
-      </table>
-      <table>
-	<title>Navigation</title>
-	<tgroup cols="2">
-	<thead>
-	<row>
-	  <entry>Key Combination</entry>
-	  <entry>Function</entry>
-	</row>
-	</thead>
-	<tbody>
-	<row>
-	  <entry>Home</entry>
-	  <entry>?</entry>
-	</row>
-	<row>
-	  <entry>End</entry>
-	  <entry>?</entry>
-	</row>
-	<row>
-	  <entry>Page Up</entry>
-	  <entry>?</entry>
-	</row>
-	<row>
-	  <entry>Page Down</entry>
-	  <entry>?</entry>
-	</row>
-	</tbody>
-	</tgroup>
-      </table>
-      <para>NOTE: link to the common keyboard shortcuts listed in the GNOME user guide here as well?</para>
+    <table>
+      <title>Documents</title>
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>Key Combination</entry>
+            <entry>Function</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Ctrl + N</entry>
+            <entry>Create a new document.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + O</entry>
+            <entry>Open a document.</entry>
+          </row>
+          <row>
+            <entry>Shift + Ctrl + S</entry>
+            <entry>Save the current document with a new filename.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + S</entry>
+            <entry>Save the current document.</entry>
+          </row>
+          <row>
+            <entry>Shift + Ctrl + P</entry>
+            <entry>Display the print preview of the current document.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + P</entry>
+            <entry>Print the current document.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <title>Page Layout</title>
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>Key Combination</entry>
+            <entry>Function</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Ctrl + B</entry>
+            <entry>Make the selected text bold.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + I</entry>
+            <entry>Make the selected text display in italics.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + U</entry>
+            <entry>Make the selected text display underlined.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + Shift + P</entry>
+            <entry>Make the selected text display in superscript.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + Shift + B</entry>
+            <entry>Make the selected text display in subscript.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + Shift + P</entry>
+            <entry>Make the selected text display in superscript.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + L</entry>
+            <entry>Align the selected paragraph to the left.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + R</entry>
+            <entry>Align the selected paragraph to the right.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + E</entry>
+            <entry>Align the selected paragraph to the center.</entry>
+          </row>
+          <row>
+            <entry>Ctrl + J</entry>
+            <entry>Align the selected paragraph to the left.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <title>Text</title>
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>Key Combination</entry>
+            <entry>Function</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Tab</entry>
+            <entry>Move the cursor to the next tab stop.</entry>
+          </row>
+          <row>
+            <entry>Insert</entry>
+            <entry>?</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <title>Navigation</title>
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>Key Combination</entry>
+            <entry>Function</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Home</entry>
+            <entry>?</entry>
+          </row>
+          <row>
+            <entry>End</entry>
+            <entry>?</entry>
+          </row>
+          <row>
+            <entry>Page Up</entry>
+            <entry>?</entry>
+          </row>
+          <row>
+            <entry>Page Down</entry>
+            <entry>?</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para>NOTE: link to the common keyboard shortcuts listed in the GNOME user guide here as well?</para>
   </sect1>
-
 </article>
