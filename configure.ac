@@ -4,7 +4,7 @@ AM_INIT_AUTOMAKE
 
 PKG_PROG_PKG_CONFIG
 
-abi_pkg='abiword-2.7'
+abi_pkg='abiword-2.9'
 PKG_CHECK_MODULES([ABIWORD_EXTRAS_DEPS], [ "$abi_pkg" ], [
 	ABIWORD_EXTRAS_PKGDATADIR=`$PKG_CONFIG --variable=pkgdatadir $abi_pkg`
 ])
