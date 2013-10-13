@@ -1,10 +1,10 @@
 
-AC_INIT([abiword-docs],[2.9.4],[http://www.abisource.com/])
+AC_INIT([abiword-docs],[3.0.0],[http://www.abisource.com/])
 AM_INIT_AUTOMAKE
 
 PKG_PROG_PKG_CONFIG
 
-abi_pkg='abiword-2.9'
+abi_pkg='abiword-3.0'
 PKG_CHECK_MODULES([ABIWORD_EXTRAS_DEPS], [ "$abi_pkg" ], [
 	ABIWORD_EXTRAS_PKGDATADIR=`$PKG_CONFIG --variable=pkgdatadir $abi_pkg`
 ])
